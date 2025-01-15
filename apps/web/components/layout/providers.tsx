@@ -68,7 +68,7 @@ const customRainbowKitTheme = merge(lightTheme(), {
     connectButtonText: '#000',
   },
   radii: {
-    actionButton: '9999px', // Custom radius for action buttons,
+    actionButton: '9999px', // Custom radius for action buttons
     connectButton: '9999px', // Custom radius for action buttons
   },
   // fonts: {

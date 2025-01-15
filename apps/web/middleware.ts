@@ -1,28 +1,27 @@
 import { match } from '@formatjs/intl-localematcher'
 import Negotiator from 'negotiator'
-import { cookies } from 'next/headers'
+import { createMiddlewareClient } from '@supabase/auth-helpers-nextjs'
 import { type NextRequest, NextResponse } from 'next/server'
 import { defaultLocale, locales } from './dictionaries/locales'
 
-export function middleware(request: NextRequest) {
-  const cookieStore = cookies()
-  const { pathname } = request.nextUrl
+export async function middleware(request: NextRequest) {
+  // Create response
+  const response = NextResponse.next()
+  
+  // Create Supabase client and refresh session
+  const supabase = createMiddlewareClient({ req: request, res: response })
+  await supabase.auth.getSession()
 
-  // Redirect all requests matching any language followed by /blog to English /blog
-  // const blogRegex = /^\/(\w{2})\/blog\//
-  // if (blogRegex.test(pathname)) {
-  //   const newPathname = pathname.replace(blogRegex, '/en/blog/')
-  //   request.nextUrl.pathname = newPathname
-  //   return NextResponse.redirect(request.nextUrl)
-  // }
+  // Handle Locale
+  const { pathname } = request.nextUrl
 
   const hasLang = locales.some(
     (lang) => pathname.startsWith(`/${lang}/`) || pathname === `/${lang}`,
   )
 
-  // console.log('🍓 has lang', hasLang, pathname)
-  if (hasLang) return NextResponse.next()
+  if (hasLang) return response
 
+  // Get locale and redirect if needed
   const lang = getLocale(request)
   request.nextUrl.pathname = `/${lang}${pathname}`
 
@@ -41,8 +40,10 @@ function getLocale(request: NextRequest): string {
   const languages = negotiator.languages()
   return match(languages, locales, defaultLocale)
 }
+
 export const config = {
   matcher: [
-    '/((?!_next|_nextjs|images|api|studio|media|favicon.ico|__nextjs_original-stack-frame).*)',
+    // Matcher that includes files needed for both locale and auth
+    '/((?!_next/static|_next/image|images|api|studio|media|favicon.ico).*)',
   ],
 }

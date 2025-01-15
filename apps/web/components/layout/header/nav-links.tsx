@@ -105,7 +105,7 @@ export function NavLinks({
         right: true
       }
     },
-    
+
     {
       id: 'about',
       href: '/about/about-bitlauncher',
@@ -158,7 +158,20 @@ export function NavLinks({
         right: false
       }
     },
-    
+    {
+      id: 'apps',
+      href: '/apps/',
+      text: 'Apps',
+      mobile: false,
+      action: null,
+      disabled: false,
+      icon: {
+        element: "",
+        left: false,
+        right: false
+      }
+    },
+
   ] as const
 
   return links.map((link) => {
@@ -170,7 +183,7 @@ export function NavLinks({
         shallow={true}
         className={
           cn(
-            "flex justify-center items-center gap-x-3 font-semibold w-11/12", 
+            "flex justify-center items-center gap-x-3 font-semibold w-11/12",
             link.id === "logout" && "pb-8 border-b border-b-textInfoForeground",
           )
         }
