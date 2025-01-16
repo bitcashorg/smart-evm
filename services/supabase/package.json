@@ -11,7 +11,10 @@
     "types": "supabase gen types gen types --lang=typescript --project-id jvpdyxpjpodxsuvhufpw > src/supa.types.ts",
     "schemas": "bun run preprocess-types && supabase-to-zod --input src/supa.types.preprocessed.ts --output src/supa.schemas.ts",
     "fake": "bun run ./scripts/fake-orders.ts",
-    "preprocess-types": "bun run ./scripts/preprocess-types.ts"
+    "preprocess-types": "bun run ./scripts/preprocess-types.ts",
+    "db:pull": "supabase pull --project-url=$SUPABASE_URL --project-key=$SUPABASE_API_KEY",
+    "db:push": "supabase push --project-url=$SUPABASE_URL --project-key=$SUPABASE_API_KEY",
+    "start": "supabase start"
   },
   "author": "bitcash.org",
   "license": "ISC",
