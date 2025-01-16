@@ -24,7 +24,10 @@ function useSigningRequestFn() {
     mutationFn: async ({
       esr,
       callback,
-    }: { esr: SigningRequest; callback?: (payload: Tables<'esr'>) => void }) => {
+    }: {
+      esr: SigningRequest
+      callback?: (payload: Tables<'esr'>) => void
+    }) => {
       console.log('requesting signature', esr.encode())
       if (!session?.account) throw new Error('bitcash account not found')
       const params = new URLSearchParams()
@@ -45,7 +48,8 @@ function useSigningRequestFn() {
         account: session.account,
       })
 
-      if (response.status !== 200) throw new Error('Failed to request signature')
+      if (response.status !== 200)
+        throw new Error('Failed to request signature')
 
       // handle success, possibly setting up a subscription to listen for changes
       const channelId = `esr-${esr.getInfoKey('uuid')}`

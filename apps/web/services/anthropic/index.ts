@@ -8,7 +8,9 @@ const anthropic = createAnthropic({
 
 export async function anthropicTranslate(content: any, locale: string) {
   // console.log('anthropicTranslate', locale, content)
-  let text, finishReason, usage
+  let text
+  let finishReason
+  let usage
   try {
     const response = await generateText({
       model: anthropic('claude-3-5-sonnet-20240620'),

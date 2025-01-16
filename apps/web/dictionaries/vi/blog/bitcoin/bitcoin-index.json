@@ -1,20 +1,23 @@
 {
   "sections": [
     {
-      "name": "Bat dau",
+      "name": "Getting Started",
       "slug": "getting started",
       "articles": [
         {
           "id": "165365457",
-          "topics": ["Bat dau", "Thanh toan"],
-          "title": "Toi uu hoa mua sam truc tuyen voi Bitcoin: Huong dan su dung Bitcoin cho giao dich",
+          "topics": [
+            "Getting Started",
+            " Payments"
+          ],
+          "title": "Streamlining Online Purchases with Bitcoin: A Guide to Using Bitcoin for Transactions",
           "slug": "streamlining-online-purchases-with-bitcoin-a-guide-to-using-bitcoin-for-transacti",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T06:03:51+01:00",
-          "description": "Kham pha su tien loi cua mua sam truc tuyen voi Bitcoin. Tim hieu cach su dung Bitcoin de thuc hien giao dich an toan va thuan tien trong huong dan toan dien cua chung toi.",
+          "description": "Unlock the convenience of online purchases with Bitcoin. Learn how to effortlessly use Bitcoin for secure and seamless transactions in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858962-bb10-img1.png"
           },
@@ -34,15 +37,19 @@
         },
         {
           "id": "165362142",
-          "topics": ["Bat dau", "Bang chung cong viec", "Dao coin"],
-          "title": "Mo khoa suc manh cua dao Bitcoin: Gioi thieu ve thuat toan bang chung cong viec",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work",
+            "Mining"
+          ],
+          "title": "Unlocking the Power of Bitcoin Mining: An Introduction to Proof-of-Work Algorithms",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:55:09+01:00",
-          "description": "Di sau vao the gioi dao Bitcoin va khai niem thu vi ve thuat toan bang chung cong viec. Kham pha tiem nang va phan thuong cua cong nghe bien doi nay.",
+          "description": "Delve into the world of Bitcoin mining and the fascinating concept of proof-of-work algorithms. Explore the potential and rewards of this transformative technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858321-bb9-img0edited.png"
           },
@@ -62,15 +69,18 @@
         },
         {
           "id": "165340146",
-          "topics": ["Bat dau", "Bang chung cong viec"],
-          "title": "An ninh kinh te cua Bitcoin: Cach bang chung cong viec tao ra mot mang luoi an toan va bao mat",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work"
+          ],
+          "title": "The Economic Security of Bitcoin: How Proof-of-Work Enables a Safe and Secure Network",
           "slug": "the-economic-security-of-bitcoin-how-proof-of-work-enables-a-safe-and-secure-netw",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:53:43+01:00",
-          "description": "Kham pha an ninh kinh te cua Bitcoin va suc manh cua bang chung cong viec. Tim hieu cach cong nghe doi moi nay dam bao mot mang luoi an toan va bao mat cho tuong lai.",
+          "description": "Discover the economic security of Bitcoin and the power of proof-of-work. Explore how this innovative technology ensures a safe and secure network for the future.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686856982-bb8-img1.png"
           },
@@ -90,15 +100,18 @@
         },
         {
           "id": "165340050",
-          "topics": ["Bat dau", "Phap ly"],
-          "title": "Tim hieu quy dinh phap ly ve Bitcoin: Hieu ro luat le va co hoi",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal and Regulatory Landscape of Bitcoin: Understanding the Rules and Opportunities",
           "slug": "navigating-the-legal-and-regulatory-landscape-of-bitcoin-understanding-the-rules",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:52:05+01:00",
-          "description": "Luon cap nhat va tuan thu voi huong dan toan dien ve khung phap ly va quy dinh cua Bitcoin. Tu tin dieu huong trong su phuc tap cua tien ao.",
+          "description": "Stay informed and compliant with our comprehensive guide to the legal and regulatory landscape of Bitcoin. Navigate the complexities of cryptocurrency with confidence.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686855768-bb7-img1edited.png"
           },
@@ -118,15 +131,18 @@
         },
         {
           "id": "165337859",
-          "topics": ["Bat dau", "Bao mat"],
-          "title": "Tuong lai cua Luu tru Bitcoin: Gioi thieu ve Vi Bitcoin va Cac Giai phap Luu tru Sang tao",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "The Future of Bitcoin Storage: An Introduction to Bitcoin Wallets and Innovative Storage Solutions",
           "slug": "the-future-of-bitcoin-storage-an-introduction-to-bitcoin-wallets-and-innovative-s",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:50:52+01:00",
-          "description": "Kham pha the gioi vi Bitcoin va cac giai phap luu tru sang tao. Tim hieu cach bao mat va quan ly tai san so cua ban voi huong dan tong quan day du cua chung toi.",
+          "description": "Explore the world of Bitcoin wallets and innovative storage solutions. Learn how to secure and manage your digital assets with our comprehensive introductory guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686854653-bb6-img1.png"
           },
@@ -146,15 +162,17 @@
         },
         {
           "id": "165005184",
-          "topics": ["Bat dau"],
-          "title": "Nghe thuat nghien cuu va danh gia cac san giao dich Bitcoin: Huong dan cho nha dau tu",
-          "slug": "the-art-of-researching-and-evaluating-bitcoin-exchanges-a-guide-for-contributors",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "The Art of Researching and Evaluating Bitcoin Exchanges: A Guide for Investors",
+          "slug": "the-art-of-researching-and-evaluating-bitcoin-exchanges-a-guide-for-investors",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:50:29+01:00",
-          "description": "Mo khoa bi mat ve nghien cuu va danh gia cac san giao dich Bitcoin. Kham pha nhung loi khuyen va hieu biet thiet yeu de dau tu tu tin.",
+          "description": "Unlock the secrets of researching and evaluating Bitcoin exchanges. Discover essential tips and insights for confident investing.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686794861-bb5-img1.png"
           },
@@ -174,15 +192,18 @@
         },
         {
           "id": "164973196",
-          "topics": ["Bat dau", "Lich su"],
-          "title": "Lich su va su tien hoa cua Bitcoin",
+          "topics": [
+            "Getting Started",
+            "History"
+          ],
+          "title": "The History and Evolution of Bitcoin",
           "slug": "the-history-and-evolution-of-bitcoin",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:38:06+01:00",
-          "description": "Theo doi hanh trinh hap dan cua lich su va su tien hoa cua Bitcoin. Kham pha nguon goc, nhung cot moc quan trong va tac dong bien doi cua cong nghe dot pha nay.",
+          "description": "Trace the captivating journey of Bitcoin's history and evolution. Uncover the origins, milestones, and transformative impact of this groundbreaking technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686789411-bb2-img1edited.png"
           },
@@ -202,15 +223,18 @@
         },
         {
           "id": "165004875",
-          "topics": ["Bat dau", "Bao mat"],
-          "title": "Cach giu Bitcoin cua ban an toan trong thoi dai so",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "How to Keep Your Bitcoins Safe in the Digital Age",
           "slug": "how-to-keep-your-bitcoins-safe-in-the-digital-age",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:28:36+01:00",
-          "description": "Bao ve Bitcoin cua ban trong ky nguyen so voi cac meo va chien luoc chuyen gia cua chung toi. Tim hieu cac ky thuat thiet yeu de bao ve tai san so quy gia cua ban.",
+          "description": "Safeguard your Bitcoins in the digital era with our expert tips and strategies. Learn essential techniques to protect your valuable digital assets.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686791711-bb3-img1.png"
           },
@@ -230,15 +254,18 @@
         },
         {
           "id": "165005107",
-          "topics": ["Bat dau", "Giao dich"],
-          "title": "Huong dan don gian de mua va ban Bitcoin",
+          "topics": [
+            "Getting Started",
+            "Exchange"
+          ],
+          "title": "The Simplified Guide to Buying and Selling Bitcoins",
           "slug": "the-simplified-guide-to-buying-and-selling-bitcoins",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:26:26+01:00",
-          "description": "Lam chu nghe thuat mua va ban Bitcoin voi huong dan don gian cua chung toi. Tim hieu cac chien luoc tung buoc va loi khuyen chuyen gia.",
+          "description": "Master the art of buying and selling Bitcoin with our simplified guide. Learn step-by-step strategies and expert tips.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686793200-bb4-img1.png"
           },
@@ -258,15 +285,17 @@
         },
         {
           "id": "164904960",
-          "topics": ["Bat dau"],
-          "title": "Suy nghi khac ve Bitcoin: Tuong lai cua tien te phi tap trung",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "Think Differently About Bitcoin: The Future of Decentralized Currency",
           "slug": "think-differently-about-bitcoin-the-future-of-decentralized-currency",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T04:44:43+01:00",
-          "description": "Kham pha cach suy nghi khac ve Bitcoin va tiem nang cach mang cua no voi bai viet blog hap dan cua chung toi. Hay kham pha ngay! Dung bo lo!",
+          "description": "Discover how to think differently about Bitcoin and its revolutionary potential with our captivating blog post. Explore Don't miss out!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686760978-bb1-img1.png"
           },
@@ -287,20 +316,23 @@
       ]
     },
     {
-      "name": "Thanh toan",
+      "name": " Payments",
       "slug": " payments",
       "articles": [
         {
           "id": "165365457",
-          "topics": ["Bat dau", "Thanh toan"],
-          "title": "Toi uu hoa mua sam truc tuyen voi Bitcoin: Huong dan su dung Bitcoin cho giao dich",
+          "topics": [
+            "Getting Started",
+            " Payments"
+          ],
+          "title": "Streamlining Online Purchases with Bitcoin: A Guide to Using Bitcoin for Transactions",
           "slug": "streamlining-online-purchases-with-bitcoin-a-guide-to-using-bitcoin-for-transacti",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T06:03:51+01:00",
-          "description": "Kham pha su tien loi cua mua sam truc tuyen voi Bitcoin. Tim hieu cach su dung Bitcoin de thuc hien giao dich an toan va thuan tien trong huong dan toan dien cua chung toi.",
+          "description": "Unlock the convenience of online purchases with Bitcoin. Learn how to effortlessly use Bitcoin for secure and seamless transactions in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858962-bb10-img1.png"
           },
@@ -321,20 +353,24 @@
       ]
     },
     {
-      "name": "Bang chung cong viec",
+      "name": "Proof-of-Work",
       "slug": "proof-of-work",
       "articles": [
         {
           "id": "165362142",
-          "topics": ["Bat dau", "Bang chung cong viec", "Dao coin"],
-          "title": "Mo khoa suc manh cua dao Bitcoin: Gioi thieu ve thuat toan bang chung cong viec",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work",
+            "Mining"
+          ],
+          "title": "Unlocking the Power of Bitcoin Mining: An Introduction to Proof-of-Work Algorithms",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:55:09+01:00",
-          "description": "Di sau vao the gioi dao Bitcoin va khai niem thu vi ve thuat toan bang chung cong viec. Kham pha tiem nang va phan thuong cua cong nghe bien doi nay.",
+          "description": "Delve into the world of Bitcoin mining and the fascinating concept of proof-of-work algorithms. Explore the potential and rewards of this transformative technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858321-bb9-img0edited.png"
           },
@@ -354,15 +390,18 @@
         },
         {
           "id": "165340146",
-          "topics": ["Bat dau", "Bang chung cong viec"],
-          "title": "An ninh kinh te cua Bitcoin: Cach bang chung cong viec tao ra mot mang luoi an toan va bao mat",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work"
+          ],
+          "title": "The Economic Security of Bitcoin: How Proof-of-Work Enables a Safe and Secure Network",
           "slug": "the-economic-security-of-bitcoin-how-proof-of-work-enables-a-safe-and-secure-netw",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:53:43+01:00",
-          "description": "Kham pha an ninh kinh te cua Bitcoin va suc manh cua bang chung cong viec. Tim hieu cach cong nghe doi moi nay dam bao mot mang luoi an toan va bao mat cho tuong lai.",
+          "description": "Discover the economic security of Bitcoin and the power of proof-of-work. Explore how this innovative technology ensures a safe and secure network for the future.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686856982-bb8-img1.png"
           },
@@ -383,20 +422,24 @@
       ]
     },
     {
-      "name": "Dao",
+      "name": "Mining",
       "slug": "mining",
       "articles": [
         {
           "id": "165362142",
-          "topics": ["Bat dau", "Chung minh cong viec", "Dao coin"],
-          "title": "Mo khoa suc manh cua dao Bitcoin: Gioi thieu ve thuat toan chung minh cong viec",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work",
+            "Mining"
+          ],
+          "title": "Unlocking the Power of Bitcoin Mining: An Introduction to Proof-of-Work Algorithms",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:55:09+01:00",
-          "description": "Di sau vao the gioi dao Bitcoin va khai niem thu vi ve thuat toan chung minh cong viec. Kham pha tiem nang va phan thuong cua cong nghe mang tinh cach mang nay.",
+          "description": "Delve into the world of Bitcoin mining and the fascinating concept of proof-of-work algorithms. Explore the potential and rewards of this transformative technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858321-bb9-img0edited.png"
           },
@@ -417,20 +460,23 @@
       ]
     },
     {
-      "name": "Phap ly",
+      "name": "Legal",
       "slug": "legal",
       "articles": [
         {
           "id": "165340050",
-          "topics": ["Bat dau", "Phap ly"],
-          "title": "Tim hieu quy dinh phap ly ve Bitcoin: Hieu ro luat le va co hoi",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal and Regulatory Landscape of Bitcoin: Understanding the Rules and Opportunities",
           "slug": "navigating-the-legal-and-regulatory-landscape-of-bitcoin-understanding-the-rules",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:52:05+01:00",
-          "description": "Luon cap nhat va tuan thu voi huong dan toan dien ve khung phap ly va quy dinh cua Bitcoin. Tu tin dieu huong trong su phuc tap cua tien ao.",
+          "description": "Stay informed and compliant with our comprehensive guide to the legal and regulatory landscape of Bitcoin. Navigate the complexities of cryptocurrency with confidence.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686855768-bb7-img1edited.png"
           },
@@ -451,20 +497,23 @@
       ]
     },
     {
-      "name": "Bao mat",
+      "name": "Security",
       "slug": "security",
       "articles": [
         {
           "id": "165337859",
-          "topics": ["Bat dau", "Bao mat"],
-          "title": "Tuong lai cua Luu tru Bitcoin: Gioi thieu ve Vi Bitcoin va Cac Giai phap Luu tru Sang tao",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "The Future of Bitcoin Storage: An Introduction to Bitcoin Wallets and Innovative Storage Solutions",
           "slug": "the-future-of-bitcoin-storage-an-introduction-to-bitcoin-wallets-and-innovative-s",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:50:52+01:00",
-          "description": "Kham pha the gioi vi Bitcoin va cac giai phap luu tru sang tao. Tim hieu cach bao mat va quan ly tai san so cua ban voi huong dan tong quan day du cua chung toi.",
+          "description": "Explore the world of Bitcoin wallets and innovative storage solutions. Learn how to secure and manage your digital assets with our comprehensive introductory guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686854653-bb6-img1.png"
           },
@@ -484,15 +533,18 @@
         },
         {
           "id": "165004875",
-          "topics": ["Bat dau", "Bao mat"],
-          "title": "Cach giu Bitcoin cua ban an toan trong thoi dai so",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "How to Keep Your Bitcoins Safe in the Digital Age",
           "slug": "how-to-keep-your-bitcoins-safe-in-the-digital-age",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:28:36+01:00",
-          "description": "Bao ve Bitcoin cua ban trong ky nguyen so voi cac meo va chien luoc chuyen gia cua chung toi. Tim hieu cac ky thuat thiet yeu de bao ve tai san so quy gia cua ban.",
+          "description": "Safeguard your Bitcoins in the digital era with our expert tips and strategies. Learn essential techniques to protect your valuable digital assets.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686791711-bb3-img1.png"
           },
@@ -513,20 +565,23 @@
       ]
     },
     {
-      "name": "Lich su",
+      "name": "History",
       "slug": "history",
       "articles": [
         {
           "id": "164973196",
-          "topics": ["Bat dau", "Lich su"],
-          "title": "Lich su va su tien hoa cua Bitcoin",
+          "topics": [
+            "Getting Started",
+            "History"
+          ],
+          "title": "The History and Evolution of Bitcoin",
           "slug": "the-history-and-evolution-of-bitcoin",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:38:06+01:00",
-          "description": "Theo doi hanh trinh hap dan cua lich su va su tien hoa cua Bitcoin. Kham pha nguon goc, nhung cot moc quan trong va tac dong bien doi cua cong nghe dot pha nay.",
+          "description": "Trace the captivating journey of Bitcoin's history and evolution. Uncover the origins, milestones, and transformative impact of this groundbreaking technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686789411-bb2-img1edited.png"
           },
@@ -547,20 +602,23 @@
       ]
     },
     {
-      "name": "Giao dich",
+      "name": "Exchange",
       "slug": "exchange",
       "articles": [
         {
           "id": "165005107",
-          "topics": ["Bat dau", "Giao dich"],
-          "title": "Huong dan don gian de mua va ban Bitcoin",
+          "topics": [
+            "Getting Started",
+            "Exchange"
+          ],
+          "title": "The Simplified Guide to Buying and Selling Bitcoins",
           "slug": "the-simplified-guide-to-buying-and-selling-bitcoins",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:26:26+01:00",
-          "description": "Lam chu nghe thuat mua va ban Bitcoin voi huong dan don gian cua chung toi. Tim hieu cac chien luoc tung buoc va loi khuyen chuyen gia.",
+          "description": "Master the art of buying and selling Bitcoin with our simplified guide. Learn step-by-step strategies and expert tips.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686793200-bb4-img1.png"
           },
@@ -588,7 +646,7 @@
       "title": "Bitcoin | Bitcash Blog",
       "twitterCard": "summary_large_image"
     },
-    "description": "Tien phong trong Ky nguyen Vang so",
+    "description": "Pioneering the Digital Gold Era",
     "title": "Bitcoin",
     "seoType": "bitcoin",
     "id": "178642411",

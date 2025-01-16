@@ -2,73 +2,105 @@
   "relatedBlogs": [
     {
       "id": "180563939",
-      "topics": ["DAO", "Tokenomics", "Comentario"],
-      "title": "Un Marco para el Diseno de Gobernanza Blockchain: La Rueda del Grupo Prysm [Comentario]",
+      "topics": [
+        "DAO",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "A Framework for Blockchain Governance Design: The Prysm Group Wheel [Commentary]",
       "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:19:19+01:00",
-      "description": "Navega por las complejidades de la gobernanza blockchain con la Rueda del Grupo Prysm. Tu hoja de ruta para un diseno efectivo de gobernanza blockchain.",
+      "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
       },
       "seo": {
-        "title": "Un Marco para el Diseno de Gobernanza Blockchain [Comentario]",
-        "description": "Navega por las complejidades de la gobernanza blockchain con la Rueda del Grupo Prysm. Tu hoja de ruta para un diseno efectivo de gobernanza blockchain."
+        "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
+        "title": "A Framework for Blockchain Governance Design [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 1400,
+          "height": 1383,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
+        }
       }
     },
     {
       "id": "167184977",
-      "topics": ["Tokenomics", "DAO", "Recaudacion de fondos"],
-      "title": "Revolucionando el Modelo de Equidad: Como la Tokenomics esta Disrumpiendo el Mundo de las Startups",
+      "topics": [
+        "Tokenomics",
+        "DAO",
+        "Fundraising"
+      ],
+      "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
       "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:02:51+01:00",
-      "description": "Descubre el futuro de las startups con tokenomics! Explora como este concepto innovador esta remodelando el modelo de equidad y revolucionando el panorama de las startups.",
+      "description": "Unlock the future of startups with tokenomics! Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
       },
       "seo": {
-        "title": "Como la Tokenomics esta Disrumpiendo el Mundo de las Startups",
-        "description": "Explora como este concepto innovador esta remodelando el modelo de equidad y revolucionando el panorama de las startups."
+        "description": "Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
+        "title": "How Tokenomics is Disrupting the Startup World",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
+        }
       }
     },
     {
       "id": "166981063",
-      "topics": ["Empezando", "DAO"],
-      "title": "El Futuro esta Aqui: El Auge de las Organizaciones Autonomas Descentralizadas (DAOs)",
+      "topics": [
+        "Getting Started",
+        "DAO"
+      ],
+      "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
       "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:02+01:00",
-      "description": "Explora el auge de las Organizaciones Autonomas Descentralizadas (DAOs) en nuestra guia. Comprende el futuro de los negocios y las oportunidades para las startups.",
+      "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
       },
       "seo": {
-        "title": "El Auge de las Organizaciones Autonomas Descentralizadas",
-        "description": "Explora el auge de las Organizaciones Autonomas Descentralizadas (DAOs) en nuestra guia. Comprende el futuro de los negocios y las oportunidades para las startups."
+        "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
+        "title": "The Rise of Decentralized Autonomous Organizations ",
+        "twitterCard": null,
+        "image": null
       }
     }
   ],
   "blogContent": {
     "id": "180563908",
-    "topics": ["DAO", "Resumen"],
-    "title": "¿Para que sirve la gobernanza? [Resumen]",
+    "topics": [
+      "DAO",
+      "Summary"
+    ],
+    "title": "What is Governance For? [Summary]",
     "slug": "what-is-governance-for-summary",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T09:10:45+01:00",
-    "description": "Explora el papel y la importancia de la gobernanza en los sistemas blockchain. Comprende como la gobernanza impulsa la descentralizacion y el crecimiento.",
+    "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
     },
@@ -371,8 +403,8 @@
       }
     ],
     "seo": {
-      "description": "Explora el papel y la importancia de la gobernanza en los sistemas blockchain. Comprende como la gobernanza impulsa la descentralizacion y el crecimiento.",
-      "title": "¿Para que sirve la gobernanza? [Resumen]",
+      "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.\n",
+      "title": "What is Governance For? [Summary]",
       "twitterCard": null,
       "image": {
         "width": 862,
@@ -383,5 +415,9 @@
       }
     }
   },
-  "topics": ["DAO", "Resumen"]
+  "topics": [
+    "DAO",
+    "Summary"
+  ],
+  "shortLink": ""
 }

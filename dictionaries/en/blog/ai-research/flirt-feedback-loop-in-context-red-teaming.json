@@ -1,0 +1,150 @@
+{
+  "relatedBlogs": [],
+  "blogContent": {
+    "id": "189576077",
+    "topics": [
+      "Image",
+      "Safety",
+      "Diffusion"
+    ],
+    "title": "FLIRT: Feedback Loop In-context Red Teaming",
+    "slug": "flirt-feedback-loop-in-context-red-teaming",
+    "authorName": "Prof. Otto Nomos",
+    "authorPicture": {
+      "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+    },
+    "_publishedAt": "2023-10-02T04:42:55+01:00",
+    "description": "Abstract Commentary & Rating",
+    "thumbnail": {
+      "url": "https://www.datocms-assets.com/101962/1692933540-researchpaper10.png"
+    },
+    "contentBlock": [
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Published on Aug 8\n\nAuthors:Ninareh Mehrabi,"
+                    },
+                    {
+                      "url": "https://huggingface.co/palashgo",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Palash Goyal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ",Christophe Dupuy,Qian Hu,Shalini Ghosh,Richard Zemel,"
+                    },
+                    {
+                      "url": "https://huggingface.co/kaiweichang",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Kai-Wei Chang"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ",Aram Galstyan,Rahul Gupta"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Abstract"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Warning: this paper contains content that may be inappropriate or offensive. As generative models become available for public use in various applications, testing and analyzing vulnerabilities of these models has become a priority. Here we propose an automatic red teaming framework that evaluates a given model and exposes its vulnerabilities against unsafe and inappropriate content generation. Our framework uses in-context learning in a feedback loop to red team models and trigger them into unsafe content generation. We propose different in-context attack strategies to automatically learn effective and diverse adversarial prompts for text-to-image models. Our experiments demonstrate that compared to baseline approaches, our proposed strategy is significantly more effective in exposing vulnerabilities in Stable Diffusion (SD) model, even when the latter is enhanced with safety features. Furthermore, we demonstrate that the proposed framework is effective for red teaming text-to-text models, resulting in significantly higher toxic response generation rate compared to previously reported numbers."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "url": "https://arxiv.org/abs/2308.04265",
+                      "meta": [
+                        {
+                          "id": "rel",
+                          "value": "noreferrer"
+                        },
+                        {
+                          "id": "target",
+                          "value": "_blank"
+                        }
+                      ],
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "View arXiv page"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": " "
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "researchpaper10",
+            "height": 816,
+            "width": 1456,
+            "filename": "researchpaper10.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1692933540-researchpaper10.png"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "description": "Abstract Commentary & Rating\n",
+      "title": "FLIRT: Feedback Loop In-context Red Teaming",
+      "twitterCard": null,
+      "image": {
+        "width": 1456,
+        "height": 816,
+        "title": null,
+        "alt": null,
+        "url": "https://www.datocms-assets.com/101962/1692933540-researchpaper10.png"
+      }
+    }
+  },
+  "topics": [
+    "Image",
+    "Safety",
+    "Diffusion"
+  ],
+  "shortLink": ""
+}

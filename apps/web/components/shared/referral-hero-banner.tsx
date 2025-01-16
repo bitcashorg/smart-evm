@@ -59,10 +59,12 @@ export default function ReferralHomeBanner({
           <X className="w-6 h-6" />
         </button>
         <div className="space-y-4 text-center">
-          <h1 className="text-4xl font-bold lg:text-7xl sm:text-3xl">{content.title}</h1>
+          <h1 className="text-4xl font-bold lg:text-7xl sm:text-3xl">
+            {content.title}
+          </h1>
           <p className="text-4xl font-semibold sm:text-2xl lg:text-6xl">
-            <span className="text-[#ec4899] font-bold">{referrer}</span> Invited You To
-            Contribute In The Next{' '}
+            <span className="text-[#ec4899] font-bold">{referrer}</span> Invited
+            You To Contribute In The Next{' '}
             <span className="text-[#ec4899] font-bold">GLOBAL AI UNICORNS</span>
           </p>
           <div className="mx-auto w-[120px] h-[2.37px] bg-[#ff51ed]" />
@@ -78,7 +80,11 @@ export default function ReferralHomeBanner({
               {content.callToAction}
               <IconDownRightArrow className="size-4 transition-all group-focus-within:-rotate-45 group-hover:-rotate-45 [&_path]:stroke-white" />
             </Button>
-            <Button variant="cta" className="py-0 text-sm" onClick={onHowItWorks}>
+            <Button
+              variant="cta"
+              className="py-0 text-sm"
+              onClick={onHowItWorks}
+            >
               {content.callToAction2}
               <span className="block max-w-0 group-hover:max-w-full group-focus-within:max-w-full transition-all duration-500 h-0.5 bg-[#ff00aa]" />
             </Button>
@@ -93,8 +99,8 @@ const content = {
   title: <>Congrats!</>,
   paragraph2: (
     <>
-      Seamlessly buy and pay with cryptocurrencies using our secure and user-friendly
-      platform.
+      Seamlessly buy and pay with cryptocurrencies using our secure and
+      user-friendly platform.
     </>
   ),
   callToAction: <>JOIN NOW</>,

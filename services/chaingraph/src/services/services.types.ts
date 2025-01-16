@@ -1,5 +1,5 @@
-import { Asset, ExtendedAsset, UInt64 } from '@wharfkit/antelope';
-import { order_by } from '../client';
+import type { Asset, ExtendedAsset, UInt64 } from '@wharfkit/antelope'
+import type { order_by } from '../client'
 export interface RequestAccountParams {
   referrer: string
   requestedName: string
@@ -16,7 +16,7 @@ export interface Pair {
 }
 
 export type HistorySubscriptionFilterProps = {
-  block_num: any;
+  block_num: any
   account: string
   orderBy: order_by
 }

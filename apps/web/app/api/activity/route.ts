@@ -21,7 +21,14 @@ export async function POST(req: Request) {
   const { network } = evt.event as AlchemyActivityEvent
   console.log('Webhook received', evt.id, evt.event.network, evt)
 
-  if (!(await validateAlchemySignature(req, evt.webhookId, evt.event.network, payload)))
+  if (
+    !(await validateAlchemySignature(
+      req,
+      evt.webhookId,
+      evt.event.network,
+      payload,
+    ))
+  )
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   if (!isValidEvent(evt, network))
@@ -31,10 +38,16 @@ export async function POST(req: Request) {
   console.info(`Triggered address activity event for webhook ${evt.id}`, result)
 
   console.log('Webhook processed', evt.id, evt.event.network, evt)
-  return NextResponse.json({ message: `Webhook ${evt.id} processed` }, { status: 200 })
+  return NextResponse.json(
+    { message: `Webhook ${evt.id} processed` },
+    { status: 200 },
+  )
 }
 
-function isValidEvent(evt: AlchemyWebhookEvent, network: AlchemyNetwork): boolean {
+function isValidEvent(
+  evt: AlchemyWebhookEvent,
+  network: AlchemyNetwork,
+): boolean {
   const isAddressActivity = evt.type === 'ADDRESS_ACTIVITY'
   const isValidNetwork = networks.includes(network)
   if (!isAddressActivity || !isValidNetwork) {
@@ -63,7 +76,9 @@ async function validateAlchemySignature(
 
   const alchemy = new Alchemy(settings)
   const { webhooks } = await alchemy.notify.getAllWebhooks()
-  const signingKey = webhooks.find((webhook) => webhook.id === webhookId)?.signingKey
+  const signingKey = webhooks.find(
+    (webhook) => webhook.id === webhookId,
+  )?.signingKey
   if (!signingKey) {
     console.error(`Webhook ${webhookId} not found`)
     return false

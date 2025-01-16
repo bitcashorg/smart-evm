@@ -7,7 +7,9 @@ import { type Address, erc20Abi } from 'viem'
 import { useAccount } from 'wagmi'
 
 // TODO: make this generic for any token on any chain
-export function PresaleTokenBalance({ tokenAddress }: { tokenAddress: Address }) {
+export function PresaleTokenBalance({
+  tokenAddress,
+}: { tokenAddress: Address }) {
   const { address } = useAccount()
   const { formatted } = useErc20Balance({
     contract: tokenAddress,

@@ -2,7 +2,10 @@ import { deflateRawSync, inflateRawSync } from 'node:zlib'
 import { savePresaleDepositIntent } from '@/app/actions/save-deposit'
 import { appConfig } from '@/lib/config'
 import { createSupabaseServerClient } from '@/services/supabase'
-import { getWhitelistedAddress, insertTransaction } from '@/services/supabase/service'
+import {
+  getWhitelistedAddress,
+  insertTransaction,
+} from '@/services/supabase/service'
 import { eosEvmMainnet } from '@repo/chains'
 import { getErrorMessage } from '@repo/errors'
 import { tasks } from '@trigger.dev/sdk/v3'
@@ -73,7 +76,8 @@ export async function POST(req: NextRequest) {
         ])
         .select('*')
 
-      if (sessionError) throw new Error(`Error creating session: ${sessionError.message}`)
+      if (sessionError)
+        throw new Error(`Error creating session: ${sessionError.message}`)
       console.log('Session created successfully:', session)
     }
 
@@ -89,7 +93,10 @@ export async function POST(req: NextRequest) {
         to: action.data.to,
       }
 
-      const whitelistedAddress = await getWhitelistedAddress(payload.sa, supabase)
+      const whitelistedAddress = await getWhitelistedAddress(
+        payload.sa,
+        supabase,
+      )
 
       const intent = await savePresaleDepositIntent({
         amount: Number(parseUnits(eosDeposit.quantity.split('.')[0], 6)),
@@ -101,7 +108,8 @@ export async function POST(req: NextRequest) {
         project_id: 1,
         account: payload.sa,
         chain_type: 'eos',
-        chainId: 'aca376f206b8fc25a6ed44dbdc66547cce914bab6a707060b5f7c8eac02ccb67',
+        chainId:
+          'aca376f206b8fc25a6ed44dbdc66547cce914bab6a707060b5f7c8eac02ccb67',
       })
       if (!intent) throw new Error('Error saving deposit intent')
 
@@ -121,7 +129,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({
       success: false,
       message:
-        getErrorMessage(error) || 'An error occurred during the request processing',
+        getErrorMessage(error) ||
+        'An error occurred during the request processing',
     })
   }
 }
@@ -137,8 +146,24 @@ const esrNodeJSOptions: SigningRequestEncodingOptions = {
     },
   } as AbiProvider,
   zlib: {
-    deflateRaw: (data) => new Uint8Array(deflateRawSync(Buffer.from(data))),
-    inflateRaw: (data) => new Uint8Array(inflateRawSync(Buffer.from(data))),
+    deflateRaw: (data: Uint8Array) => {
+      const buffer = Buffer.from(data.buffer, data.byteOffset, data.length)
+      const compressed = deflateRawSync(new Uint8Array(buffer))
+      return new Uint8Array(
+        compressed.buffer,
+        compressed.byteOffset,
+        compressed.length,
+      )
+    },
+    inflateRaw: (data: Uint8Array) => {
+      const buffer = Buffer.from(data.buffer, data.byteOffset, data.length)
+      const decompressed = inflateRawSync(new Uint8Array(buffer))
+      return new Uint8Array(
+        decompressed.buffer,
+        decompressed.byteOffset,
+        decompressed.length,
+      )
+    },
   } as ZlibProvider,
 }
 

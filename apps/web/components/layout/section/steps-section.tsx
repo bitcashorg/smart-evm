@@ -18,7 +18,10 @@ export default function StepsSection({ lang, dict }: StepsSectionProps) {
         className="flex flex-col items-center gap-[52px] lg:flex-row lg:justify-between"
       >
         {dict.footer.step.map(
-          (step: { title: string; description: string; href: string }, index: number) => (
+          (
+            step: { title: string; description: string; href: string },
+            index: number,
+          ) => (
             <div
               key={`${index}__step-content`}
               className="flex min-h-[260px] flex-col items-center justify-between rounded-3xl bg-white/90 md:px-6 xl:px-9 py-6 text-black/90 shadow-md backdrop-blur-xl lg:w-1/3 lg:max-w-[450px] lg:items-start xl:py-9"

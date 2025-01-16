@@ -2,168 +2,263 @@
   "relatedBlogs": [
     {
       "id": "180563939",
-      "topics": ["DAO", "Tokenomia", "Comentario"],
-      "title": "Un Marco para el Diseno de Gobernanza Blockchain: La Rueda del Grupo Prysm [Comentario]",
+      "topics": [
+        "DAO",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "A Framework for Blockchain Governance Design: The Prysm Group Wheel [Commentary]",
       "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:19:19+01:00",
-      "description": "Navega por las complejidades de la gobernanza blockchain con la Rueda del Grupo Prysm. Tu hoja de ruta para un diseno efectivo de gobernanza blockchain.",
+      "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
       },
       "seo": {
-        "title": "Un Marco para el Diseno de Gobernanza Blockchain [Comentario]",
-        "description": "Navega por las complejidades de la gobernanza blockchain con la Rueda del Grupo Prysm. Tu hoja de ruta para un diseno efectivo de gobernanza blockchain."
+        "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
+        "title": "A Framework for Blockchain Governance Design [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 1400,
+          "height": 1383,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
+        }
       }
     },
     {
       "id": "180217169",
-      "topics": ["Tokenomia", "Comentario"],
-      "title": "Economia de Incentivos Tokenizados 3: El Valor del Token No Alineara a las Partes Interesadas [Comentario]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Economics of Tokenized Incentives 3: Token Value Won’t Align Stakeholders [Commentary]",
       "slug": "economics-of-tokenized-incentives-3-token-value-won-t-align-stakeholders-commenta",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:17:23+01:00",
-      "description": "Descubre las trampas de usar el valor del token como metrica de rendimiento en plataformas blockchain. Aprende a disenar sistemas de incentivos efectivos.",
+      "description": "Uncover the pitfalls of using token value as a performance metric in blockchain platforms. Learn to design effective incentive systems.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690771457-cbc3-img1.png"
       },
       "seo": {
-        "title": "Economia de Incentivos Tokenizados 3 [Comentario]",
-        "description": "Descubre las trampas de usar el valor del token como metrica de rendimiento en plataformas blockchain. Aprende a disenar sistemas de incentivos efectivos."
+        "description": "Uncover the pitfalls of using token value as a performance metric in blockchain platforms. Learn to design effective incentive systems.",
+        "title": "Economics of Tokenized Incentives 3 [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690771457-cbc3-img1.png"
+        }
       }
     },
     {
       "id": "180217082",
-      "topics": ["Tokenomia", "Comentario"],
-      "title": "Economia de Incentivos Tokenizados 1: Introduccion al Pago por Rendimiento [Comentario]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Economics of Tokenized Incentives 1: Intro to Pay for Performance [Commentary]",
       "slug": "economics-of-tokenized-incentives-1-intro-to-pay-for-performance",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:15:12+01:00",
-      "description": "Sumergete en las complejidades de los incentivos de pago por rendimiento en plataformas blockchain. Aprende los pros y contras y consideraciones de diseno para el exito.",
+      "description": "Dive into the complexities of pay-for-performance incentives in blockchain platforms. Learn the trade-offs and design considerations for success.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690770568-cbc1-img1.png"
       },
       "seo": {
-        "title": "Economia de Incentivos Tokenizados 1 [Comentario]",
-        "description": "Sumergete en las complejidades de los incentivos de pago por rendimiento en plataformas blockchain. Aprende los pros y contras y consideraciones de diseno para el exito"
+        "description": "Dive into the complexities of pay-for-performance incentives in blockchain platforms. Learn the trade-offs and design considerations for success",
+        "title": "Economics of Tokenized Incentives 1 [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690770568-cbc1-img1.png"
+        }
       }
     },
     {
       "id": "180563918",
-      "topics": ["Tokenomia", "Comentario", "Recaudacion de fondos"],
-      "title": "Tokens: Vehiculo de Inversion o Medio de Intercambio (No Ambos) [Comentario]",
+      "topics": [
+        "Tokenomics",
+        "Commentary",
+        "Fundraising"
+      ],
+      "title": "Tokens: Investment Vehicle or Medium of Exchange (Not Both) [Commentary]",
       "slug": "tokens-investment-vehicle-or-medium-of-exchange-not-both-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:13:31+01:00",
-      "description": "Profundiza en el doble papel de los tokens en la economia blockchain. Descubre la delgada linea entre vehiculo de inversion y medio de intercambio.",
+      "description": "Delve into the dual role of tokens in the blockchain economy. Uncover the fine line between investment vehicle and medium of exchange.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859959-cbc8-img1.png"
       },
       "seo": {
-        "title": "Tokens: Inversion o Medio de Intercambio [Comentario]",
-        "description": "Profundiza en el doble papel de los tokens en la economia blockchain. Descubre la delgada linea entre vehiculo de inversion y medio de intercambio."
+        "description": "Delve into the dual role of tokens in the blockchain economy. Uncover the fine line between investment vehicle and medium of exchange.",
+        "title": "Tokens: Investment or Medium of Exchange [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859959-cbc8-img1.png"
+        }
       }
     },
     {
       "id": "180563922",
-      "topics": ["Recaudacion de fondos", "Tokenomia", "Comentario"],
-      "title": "Las ICOs Aprovechan los Efectos de Red [Comentario]",
+      "topics": [
+        "Fundraising",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "ICOs Leverage Network Effects [Commentary]",
       "slug": "icos-leverage-network-effects-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:12:06+01:00",
-      "description": "Descubre como las ICOs aprovechan el poder de los efectos de red para impulsar su exito. ICOs y efectos de red, un duo dinamico!",
+      "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
       },
       "seo": {
-        "title": "Las ICOs Aprovechan los Efectos de Red [Comentario]",
-        "description": "Descubre como las ICOs aprovechan el poder de los efectos de red para impulsar su exito. ICOs y efectos de red, un duo dinamico!"
+        "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
+        "title": "ICOs Leverage Network Effects [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
+        }
       }
     },
     {
       "id": "180556595",
-      "topics": ["Recaudacion de fondos", "Tokenomia", "Comentario"],
-      "title": "El Efecto Blockchain: Efectos de Red sin Costos de Poder de Mercado [Comentario]",
+      "topics": [
+        "Fundraising",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
       "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:11:14+01:00",
-      "description": "Explora como blockchain permite efectos de red sin las desventajas del poder de mercado. Descubre el revolucionario Efecto Blockchain.",
+      "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
       },
       "seo": {
-        "title": "Efectos de Red sin Costos de Poder de Mercado [Comentario]",
-        "description": "Explora como blockchain permite efectos de red sin las desventajas del poder de mercado. Descubre el revolucionario Efecto Blockchain."
+        "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
+        "title": "Network Effects without Market Power Costs [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
+        }
       }
     },
     {
       "id": "180563931",
-      "topics": ["Tokenomia", "Comentario"],
-      "title": "Estructuras de Incentivos Blockchain: Que son y por que importan [Comentario]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Blockchain Incentive Structures: What they are and why they matter [Commentary]",
       "slug": "blockchain-incentive-structures-what-they-are-and-why-they-matter-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:02+01:00",
-      "description": "Comprende el nucleo de las estructuras de incentivos blockchain y su importancia en impulsar el comportamiento del usuario y el exito de la plataforma.",
+      "description": "Understand the core of blockchain incentive structures and their significance in driving user behavior and platform success.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690860807-cbc10-img1.png"
       },
       "seo": {
-        "title": "Estructuras de Incentivos Blockchain [Comentario]",
-        "description": "Comprende el nucleo de las estructuras de incentivos blockchain y su importancia en impulsar el comportamiento del usuario y el exito de la plataforma."
+        "description": "Understand the core of blockchain incentive structures and their significance in driving user behavior and platform success.",
+        "title": "Blockchain Incentive Structures [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690860807-cbc10-img1.png"
+        }
       }
     },
     {
       "id": "167101094",
-      "topics": ["Primeros pasos", "Tokenomia"],
-      "title": "Tokenomia 101: Desatando el Poder de la Criptomoneda!",
+      "topics": [
+        "Getting Started",
+        "Tokenomics"
+      ],
+      "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
       "slug": "tokenomics-101-unleashing-the-power-of-cryptocurrency",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:58+01:00",
-      "description": "Descubre el poder de la criptomoneda a traves de Tokenomia 101 - una guia detallada para entender la economia detras de los activos digitales.",
+      "description": "Discover the power of cryptocurrency through Tokenomics 101 - an in-depth guide to understanding the economics behind digital assets.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
       },
       "seo": {
-        "title": "Tokenomia 101: Desatando el Poder de la Criptomoneda!",
-        "description": "una guia detallada para entender la economia detras de los activos digitales."
+        "description": "an in-depth guide to understanding the economics behind digital assets.",
+        "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
+        }
       }
     }
   ],
   "blogContent": {
     "id": "180217123",
-    "topics": ["Tokenomia", "Comentario"],
-    "title": "Economia de Incentivos Tokenizados 2: Seleccion de Metricas de Rendimiento Efectivas [Comentario]",
+    "topics": [
+      "Tokenomics",
+      "Commentary"
+    ],
+    "title": "Economics of Tokenized Incentives 2: Selecting Effective Performance Metrics [Commentary]",
     "slug": "economics-of-tokenized-incentives-2-selecting-effective-performance-metrics-comme",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T09:17:05+01:00",
-    "description": "Descubre el poder de las metricas de rendimiento en los sistemas de pago por desempeno de blockchain. Aprende a alinear los incentivos con los objetivos de la plataforma de manera efectiva.",
+    "description": "Discover the power of performance metrics in blockchain pay-for-performance systems. Learn to align incentives with platform goals effectively.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1690770918-cbc2-img1.png"
     },
@@ -180,7 +275,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Original Link: "
                     },
                     {
@@ -189,7 +286,9 @@
                       "children": [
                         {
                           "type": "span",
-                          "marks": ["strong"],
+                          "marks": [
+                            "strong"
+                          ],
                           "value": "Economics of Tokenized Incentives 2: Selecting Effective Performance Metrics"
                         }
                       ]
@@ -201,7 +300,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Author: "
                     },
                     {
@@ -228,7 +329,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Summary"
                     }
                   ]
@@ -248,7 +351,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Commentary"
                     }
                   ]
@@ -268,7 +373,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Actionable Insights"
                     }
                   ]
@@ -285,7 +392,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Choose Metrics Carefully"
                             },
                             {
@@ -304,7 +413,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Consider Other Incentive Structures"
                             },
                             {
@@ -323,7 +434,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Monitor and Adjust"
                             },
                             {
@@ -342,7 +455,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Communicate Clearly"
                             },
                             {
@@ -373,8 +488,8 @@
       }
     ],
     "seo": {
-      "description": "Descubre el poder de las metricas de rendimiento en los sistemas de pago por desempeno de blockchain. Aprende a alinear los incentivos con los objetivos de la plataforma de manera efectiva.",
-      "title": "Economia de Incentivos Tokenizados 2 [Comentario]",
+      "description": "Discover the power of performance metrics in blockchain pay-for-performance systems. Learn to align incentives with platform goals effectively.",
+      "title": "Economics of Tokenized Incentives 2 [Commentary]",
       "twitterCard": null,
       "image": {
         "width": 862,
@@ -385,5 +500,9 @@
       }
     }
   },
-  "topics": ["Tokenomia", "Comentario"]
+  "topics": [
+    "Tokenomics",
+    "Commentary"
+  ],
+  "shortLink": ""
 }

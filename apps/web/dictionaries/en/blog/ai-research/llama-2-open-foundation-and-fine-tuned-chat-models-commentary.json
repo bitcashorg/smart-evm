@@ -1,0 +1,520 @@
+{
+  "relatedBlogs": [],
+  "blogContent": {
+    "id": "180869081",
+    "topics": [
+      "LLM",
+      "Summary"
+    ],
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models [Commentary]",
+    "slug": "llama-2-open-foundation-and-fine-tuned-chat-models-commentary",
+    "authorName": "Prof. Otto Nomos",
+    "authorPicture": {
+      "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+    },
+    "_publishedAt": "2023-10-02T07:48:17+01:00",
+    "description": "Deep dive into Llama 2: Explore the pretraining, fine-tuning, safety measures, and insightful discussions in our comprehensive summary.",
+    "thumbnail": {
+      "url": "https://www.datocms-assets.com/101962/1690935728-abr7-img1.png"
+    },
+    "contentBlock": [
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2: Pretraining"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Section 2 of the paper discusses the pretraining process for the Llama 2 models. The authors made several changes to improve performance, such as more robust data cleaning, updated data mixes, training on 40% more total tokens, doubling the context length, and using grouped-query attention (GQA) to improve inference scalability. The training corpus includes a new mix of data from publicly available sources, which does not include data from Meta's products or services. The authors also performed a variety of pretraining data investigations to better understand the potential capabilities and limitations of the models (Pages 5-7)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The pretraining process for Llama 2 models involved several improvements over the previous version, including more robust data cleaning, updated data mixes, increased training volume, and the use of GQA for improved inference scalability. The training data was carefully selected and cleaned to ensure quality and privacy."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, it's crucial to invest in the pretraining process. This includes robust data cleaning, careful selection of training data, and the use of advanced techniques such as GQA for improved performance. It's also important to perform pretraining data investigations to understand the potential capabilities and limitations of your models. This can help in identifying potential issues early on and guide the development process. Lastly, always consider privacy and ethical considerations when selecting training data."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr7-img2",
+            "height": 862,
+            "width": 862,
+            "filename": "abr7-img2.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690935921-abr7-img2.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3: Fine-tuning"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Section 3 of the paper discusses the fine-tuning process for the Llama 2 models. The authors present several techniques, including Supervised Fine-Tuning (SFT), Reinforcement Learning with Human Feedback (RLHF), and a new technique called Ghost Attention (GAtt) for controlling dialogue flow over multiple turns."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "In Supervised Fine-Tuning, the model is trained on a dataset of prompts and responses, with the aim of producing responses that are safe, helpful, and relevant."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "In Reinforcement Learning with Human Feedback, the model is trained to align with human preferences by comparing pairs of model responses and learning to favor the ones that humans prefer."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The Ghost Attention technique is used to improve the consistency of the model's responses over multiple turns of dialogue (Pages 8-17)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Fine-tuning is a crucial step in the development of LLMs, and it involves a combination of techniques to ensure the model's responses are safe, helpful, and relevant. The use of RLHF and GAtt are innovative approaches that can significantly improve the performance of LLMs."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, it's crucial to invest in the fine-tuning process. This includes using techniques like SFT and RLHF to ensure the model's responses align with human preferences. The use of innovative techniques like GAtt can also help improve the consistency of the model's responses. It's also important to continually evaluate and refine these techniques based on the performance of the model. Lastly, consider collaborating with the wider scientific community and sharing research findings to collectively improve the fine-tuning process."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr7-img3",
+            "height": 862,
+            "width": 862,
+            "filename": "abr7-img3.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690936099-abr7-img3.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 4: Safety"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Section 4 of the paper delves into the safety measures and mitigations for Llama 2 models. The authors discuss safety investigations into pretraining data and pretrained models, safety alignment, red teaming, and safety evaluation."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The safety fine-tuning process includes Supervised Safety Fine-Tuning, where adversarial prompts and safe demonstrations are gathered and included in the general supervised fine-tuning process. The authors also use a targeted approach that allows their safety reward model to choose whether to use context distillation for each sample."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The safety categories considered can be broadly divided into illicit and criminal activities, hateful and harmful activities, and unqualified advice. The authors also define best practices for safe and helpful model responses and iteratively refine and revise the guidelines to include newly identified risks (Pages 20-29)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Safety is a critical aspect of LLM development, and it involves a combination of techniques to ensure the model's responses are safe and helpful. The use of Supervised Safety Fine-Tuning and context distillation are innovative approaches that can significantly improve the safety of LLMs."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, it's crucial to invest in safety measures. This includes using techniques like Supervised Safety Fine-Tuning and context distillation to ensure the model's responses are safe and helpful. It's also important to continually evaluate and refine these techniques based on the performance of the model. Lastly, consider collaborating with the wider scientific community and sharing research findings to collectively improve the safety of LLMs."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr7-img4",
+            "height": 862,
+            "width": 862,
+            "filename": "abr7-img4.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690936128-abr7-img4.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 5: Discussion"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Section 5 of the paper discusses the properties observed with RLHF, the limitations of Llama 2-Chat, and the strategy for responsibly releasing these models. The authors share several interesting results from their tuning process, such as Llama 2-Chat's abilities to temporally organize its knowledge or to call APIs for external tools. They also discuss the limitations of Llama 2-Chat, including its inability to understand or generate certain types of content, and its tendency to overuse certain phrases. The authors conclude the section by discussing their strategy for responsibly releasing these models, which includes a commitment to transparency and ongoing safety improvements (Pages 32-35)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The discussion section provides valuable insights into the strengths and limitations of Llama 2-Chat, as well as the importance of responsible model release. The authors' commitment to transparency and ongoing safety improvements is a key takeaway."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, it's crucial to understand both the strengths and limitations of your models. This includes understanding how your model organizes knowledge and interacts with external tools, as well as its limitations in understanding or generating certain types of content. It's also important to have a strategy for responsibly releasing your models, which includes a commitment to transparency and ongoing safety improvements. Lastly, consider collaborating with the wider scientific community and sharing research findings to collectively improve the safety and effectiveness of LLMs."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr7-img5",
+            "height": 862,
+            "width": 862,
+            "filename": "abr7-img5.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690936144-abr7-img5.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 7: Conclusion"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The conclusion of the paper reiterates the authors' commitment to the responsible development of LLMs. They highlight the importance of transparency, ongoing safety improvements, and community collaboration in the development process. The authors also express their hope that the release of Llama 2 will enable the community to reproduce fine-tuned LLMs and continue to improve the safety of these models (Page 36)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The conclusion emphasizes the importance of responsible development practices in the field of LLMs. Transparency, safety improvements, and community collaboration are key aspects of this process."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, it's crucial to commit to responsible development practices. This includes being transparent about your methods and findings, continually improving the safety of your models, and collaborating with the wider scientific community. By doing so, you can contribute to the collective improvement of LLMs and ensure that your models are both effective and safe."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr7-img6",
+            "height": 862,
+            "width": 862,
+            "filename": "abr7-img6.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690936163-abr7-img6.png"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "description": "Explore the pretraining, fine-tuning, safety measures, and insightful discussions in our comprehensive summary.",
+      "title": "Llama 2: Open Foundation & Fine-Tuned Chat [Commentary]",
+      "twitterCard": null,
+      "image": {
+        "width": 862,
+        "height": 862,
+        "title": null,
+        "alt": null,
+        "url": "https://www.datocms-assets.com/101962/1690935728-abr7-img1.png"
+      }
+    }
+  },
+  "topics": [
+    "LLM",
+    "Summary"
+  ],
+  "shortLink": ""
+}

@@ -1,5 +1,9 @@
 import { Button } from '@/components/ui/button'
-import { Pagination, PaginationContent, PaginationItem } from '@/components/ui/pagination'
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+} from '@/components/ui/pagination'
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
@@ -117,7 +121,9 @@ export function OrderCard() {
           </div>
           <div className="grid gap-3 auto-rows-max">
             <div className="font-semibold">Billing Information</div>
-            <div className="text-muted-foreground">Same as shipping address</div>
+            <div className="text-muted-foreground">
+              Same as shipping address
+            </div>
           </div>
         </div>
         <Separator className="my-4" />

@@ -14,7 +14,10 @@ export default async function SecurityTips({ params }: CommonPageProps) {
   return (
     <>
       <section className="container max-w-[100vw] !overflow-hidden mx-auto md:px-4 md:py-[5rem]">
-        <BgHeader heading={heading} subheading={'Be Part of the Intelligent Future'} />
+        <BgHeader
+          heading={heading}
+          subheading={'Be Part of the Intelligent Future'}
+        />
         <div className="content-container z-30 bg-background !py-10 px-7 text-center md:px-3 md:py-24">
           <PageContent data={content} />
         </div>
@@ -29,5 +32,6 @@ export default async function SecurityTips({ params }: CommonPageProps) {
 
 export const metadata: Metadata = {
   title: 'Security Tips | Bitlauncher',
-  description: 'Be part of the intelligent future and join the Ai/Web3 revolution now!',
+  description:
+    'Be part of the intelligent future and join the Ai/Web3 revolution now!',
 }

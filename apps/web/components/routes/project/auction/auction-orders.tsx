@@ -42,7 +42,7 @@ export function AuctionOrders() {
       if (error) return
       setOrders(data)
     }
-    fetchOrders(new BN(userId.data!.toString()).toNumber())
+    fetchOrders(new BN(userId.data?.toString()).toNumber())
     // console.log(
     //   `subscribing to supabase channel filtering by userId=${userId.data}`
     // )
@@ -96,11 +96,14 @@ export function AuctionOrders() {
             <TableRow key={index}>
               <TableCell>
                 {(
-                  Number(formatTokenAmount(order.sell_amount)) / order.buy_amount
+                  Number(formatTokenAmount(order.sell_amount)) /
+                  order.buy_amount
                 ).toFixed(2)}
               </TableCell>
               <TableCell>{order.buy_amount}</TableCell>
-              <TableCell>{formatTokenAmount(order.sell_amount.toString())}</TableCell>
+              <TableCell>
+                {formatTokenAmount(order.sell_amount.toString())}
+              </TableCell>
 
               <TableCell>
                 <Link
@@ -124,5 +127,5 @@ export function AuctionOrders() {
 
 // Function to format token amounts
 const formatTokenAmount = (amount = '', decimals = 6) => {
-  return (Number(amount) / Math.pow(10, decimals)).toFixed(2) // Adjust precision as needed
+  return (Number(amount) / 10 ** decimals).toFixed(2) // Adjust precision as needed
 }

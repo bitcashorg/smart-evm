@@ -12,12 +12,14 @@ export const whyChooseUs = {
     {
       icon: 'Group',
       title: '用於社區驅動組織的 DAO 工具',
-      description: '使用我們的 DAO 工具套件為您的社群提供去中心化決策和治理能力。',
+      description:
+        '使用我們的 DAO 工具套件為您的社群提供去中心化決策和治理能力。',
     },
     {
       icon: 'Check',
       title: '基於現金流量的項目評估',
-      description: '我們基於現金流的創新專案評估模型可協助您做出明智的投資決策。',
+      description:
+        '我們基於現金流的創新專案評估模型可協助您做出明智的投資決策。',
     },
     {
       icon: 'Flame',
@@ -28,7 +30,8 @@ export const whyChooseUs = {
     {
       icon: 'Globe',
       title: '人工智慧和全球優先戰略',
-      description: '借助人工智慧的力量和全球優先的方法，我們提供無與倫比的見解和機會。',
+      description:
+        '借助人工智慧的力量和全球優先的方法，我們提供無與倫比的見解和機會。',
     },
   ] as Feature[],
 }

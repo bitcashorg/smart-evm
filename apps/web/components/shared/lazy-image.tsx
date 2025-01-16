@@ -19,7 +19,9 @@ export function LazyImage({
     height: 0,
   })
 
-  const calculateAdjustedHeight = (img: React.SyntheticEvent<HTMLImageElement>) => {
+  const calculateAdjustedHeight = (
+    img: React.SyntheticEvent<HTMLImageElement>,
+  ) => {
     const width = img.currentTarget.naturalWidth
     const height = img.currentTarget.naturalHeight
     setImageDimensions({ width, height })
@@ -38,7 +40,9 @@ export function LazyImage({
         className?.includes('absolute') ? 'absolute' : 'relative',
         'flex w-full overflow-hidden',
         isLoading && 'scale-110 blur-2xl grayscale',
-        className?.includes('blogImages') ? 'rounded-images border border-black' : '',
+        className?.includes('blogImages')
+          ? 'rounded-images border border-black'
+          : '',
         className?.includes('blogImages') && isSameDimensions
           ? 'h-[320px] md:h-[465px]'
           : '',
@@ -55,7 +59,9 @@ export function LazyImage({
         loading="lazy"
         className={cn(
           'h-max w-full duration-700 ease-in-out',
-          isLoading ? 'scale-110 blur-2xl grayscale' : 'scale-100 blur-0 grayscale-0',
+          isLoading
+            ? 'scale-110 blur-2xl grayscale'
+            : 'scale-100 blur-0 grayscale-0',
           isSameDimensions
             ? 'object-cover'
             : 'rounded-images object-contain object-center',

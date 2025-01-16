@@ -15,7 +15,9 @@ export function WhyChooseUs({ lang, dict }: WhyChooseUsProps) {
             <li className="list-none group p-0">
               <Card className="flex h-full flex-col items-center px-3 py-6 text-center border-card/30 bg-card backdrop-blur-lg">
                 <IconComponent className="w-12 h-12 mb-5 text-gray-50" />
-                <h3 className="mb-5 text-lg font-bold min-h-20">{feature.title}</h3>
+                <h3 className="mb-5 text-lg font-bold min-h-20">
+                  {feature.title}
+                </h3>
                 <p className="text-gray-500 parragraph dark:text-gray-400">
                   {feature.description}
                 </p>

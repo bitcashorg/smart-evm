@@ -23,18 +23,17 @@ describe('AccessManager - integration tests', async () => {
     const EasyAuction = await ethers.getContractFactory('EasyAuction')
 
     easyAuction = await EasyAuction.deploy()
-    const AllowListManger = await ethers.getContractFactory('AllowListOffChainManaged')
+    const AllowListManger = await ethers.getContractFactory(
+      'AllowListOffChainManaged',
+    )
     allowListManager = await AllowListManger.deploy()
     const { chainId } = await ethers.provider.getNetwork()
     testDomain = domain(chainId, allowListManager.address)
   })
   describe('AccessManager - placing order in easyAuction with auctioneer signature', async () => {
     it('integration test: places a new order and checks that tokens were transferred - with whitelisting', async () => {
-      const { auctioningToken, biddingToken } = await createTokensAndMintAndApprove(
-        easyAuction,
-        [user_1, user_2],
-        hre,
-      )
+      const { auctioningToken, biddingToken } =
+        await createTokensAndMintAndApprove(easyAuction, [user_1, user_2], hre)
       const auctionId: BigNumber = await createAuctionWithDefaultsAndReturnId(
         easyAuction,
         {
@@ -84,22 +83,21 @@ describe('AccessManager - integration tests', async () => {
         )
       const transferredbiddingTokenAmount = sellAmount.add(sellAmount.add(1))
 
-      expect(await biddingToken.connect(user_2).balanceOf(easyAuction.address)).to.equal(
-        transferredbiddingTokenAmount,
-      )
-      expect(await biddingToken.connect(user_2).balanceOf(user_2.address)).to.equal(
-        balanceBeforeOrderPlacement.sub(transferredbiddingTokenAmount),
-      )
+      expect(
+        await biddingToken.connect(user_2).balanceOf(easyAuction.address),
+      ).to.equal(transferredbiddingTokenAmount)
+      expect(
+        await biddingToken.connect(user_2).balanceOf(user_2.address),
+      ).to.equal(balanceBeforeOrderPlacement.sub(transferredbiddingTokenAmount))
     })
     it('integration test: places a new order and checks that allowListing prevents the tx', async () => {
-      const AllowListManager = await ethers.getContractFactory('AllowListOffChainManaged')
+      const AllowListManager = await ethers.getContractFactory(
+        'AllowListOffChainManaged',
+      )
 
       const allowListManager = await AllowListManager.deploy()
-      const { auctioningToken, biddingToken } = await createTokensAndMintAndApprove(
-        easyAuction,
-        [user_1, user_2],
-        hre,
-      )
+      const { auctioningToken, biddingToken } =
+        await createTokensAndMintAndApprove(easyAuction, [user_1, user_2], hre)
       const auctionId: BigNumber = await createAuctionWithDefaultsAndReturnId(
         easyAuction,
         {
@@ -157,7 +155,9 @@ describe('AccessManager - unit tests', async () => {
   let allowListManager: Contract
   let testDomain: any
   beforeEach(async () => {
-    const AllowListManger = await ethers.getContractFactory('AllowListOffChainManaged')
+    const AllowListManger = await ethers.getContractFactory(
+      'AllowListOffChainManaged',
+    )
     allowListManager = await AllowListManger.deploy()
     const { chainId } = await ethers.provider.getNetwork()
     testDomain = domain(chainId, allowListManager.address)

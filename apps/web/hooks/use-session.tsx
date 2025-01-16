@@ -127,7 +127,9 @@ function useSessionFn() {
     console.log('login or connect', session, openConnectModal, isMobile)
 
     if (isMobile) {
-      session?.account && openConnectModal ? openConnectModal() : loginRedirect()
+      session?.account && openConnectModal
+        ? openConnectModal()
+        : loginRedirect()
       return
     }
 

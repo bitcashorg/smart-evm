@@ -15,7 +15,8 @@ export const ArticleCard = ({
   meta = false,
 }: ArticleCardProps) => {
   const title =
-    post.title || post.slug.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase())
+    post.title ||
+    post.slug.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase())
 
   // console.log('post', post)
   return (

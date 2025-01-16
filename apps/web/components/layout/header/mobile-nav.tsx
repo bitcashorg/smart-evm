@@ -4,8 +4,8 @@ import { Transition } from '@/components/shared/transition'
 import { useMobileNav } from '@/hooks/use-mobile-navigation'
 import type { LangProp } from '@/types/routing.type'
 import { AnimatePresence } from 'framer-motion'
-import { NavLinks } from './nav-links'
 import { MobileNavIcon } from './mobile-nav-icon'
+import { NavLinks } from './nav-links'
 
 export function MobileNav({ lang, dict }: MobileNavProps) {
   const { open, toggleOpen } = useMobileNav()
@@ -27,10 +27,7 @@ export function MobileNav({ lang, dict }: MobileNavProps) {
 }
 
 export function MobileNavLoader() {
-  return (
-    <MobileNavIcon  />
-
-  )
+  return <MobileNavIcon />
 }
 
 interface MobileNavProps extends LangProp {

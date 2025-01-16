@@ -9,7 +9,11 @@ import {
   getTokenDetails,
   runPromisesInSeries,
 } from '~/lib/utils'
-import type { NewAuctionEvent, NewSellOrderEvent, NewUserEvent } from './auction.type'
+import type {
+  NewAuctionEvent,
+  NewSellOrderEvent,
+  NewUserEvent,
+} from './auction.type'
 
 export async function startAuctionIndexer() {
   console.log('indexing starting')
@@ -41,7 +45,9 @@ export async function startAuctionIndexer() {
   client.watchEvent({
     events,
     onLogs: (logs) => {
-      const filteredlogs = logs.filter((log) => log.eventName !== 'OwnershipTransferred')
+      const filteredlogs = logs.filter(
+        (log) => log.eventName !== 'OwnershipTransferred',
+      )
       console.log('real time', stringify(filteredlogs, null, 2))
       processLogs(logs)
     },

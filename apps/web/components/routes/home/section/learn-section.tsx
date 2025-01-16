@@ -96,7 +96,10 @@ const content = {
         'Explore our blog post on how to participate in the Bitlauncher Presale, your gateway to early involvement in a revolutionary platform blending AI and cryptocurrency. This guide will outline the presale process, from initial sign-up and KYC verification to the final purchase of tokens at a fixed price.',
         "We'll also cover key compliance details and the secure setup of your capital contributions using EVM-compatible wallets. This is an essential read for anyone looking to understand and engage with the future of technology and finance through Bitlauncher.",
       ],
-      images: ['/images/home/platform-circles.webp', '/images/home/platform-circles.png'],
+      images: [
+        '/images/home/platform-circles.webp',
+        '/images/home/platform-circles.png',
+      ],
       articleLink:
         '/blog/bitlauncher/welcome-to-the-bitlauncher-presale-starting-september-16th',
     },

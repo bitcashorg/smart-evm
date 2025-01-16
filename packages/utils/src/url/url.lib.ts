@@ -1,4 +1,4 @@
-declare var window: any
+declare let window: any
 
 export function getSiteUrl() {
   if (!window) throw new Error('window not found')

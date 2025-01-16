@@ -9,5 +9,5 @@ export { linkTypeMap } from './linkTypeMap'
 export { createFetcher } from './fetcher'
 export { GenqlError } from './error'
 export const everything = {
-  __scalar: true,
+    __scalar: true,
 }

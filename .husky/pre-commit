@@ -1,0 +1,3 @@
+echo "Running pre-commit scripts..."
+cd ./apps/web
+bun scripts/generate-cms-dictionaries.ts

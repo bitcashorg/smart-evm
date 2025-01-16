@@ -39,3 +39,6 @@ yarn-error.log*
 
 .vercel
 .env*.local
+
+# nohup.out
+nohup.out 

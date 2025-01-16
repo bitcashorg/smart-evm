@@ -96,7 +96,13 @@
         },
         {
           "id": "190259087",
-          "topics": ["Ringkasan", "LLM", "Kode", "Sumber Terbuka", "Model Kecil"],
+          "topics": [
+            "Ringkasan",
+            "LLM",
+            "Kode",
+            "Sumber Terbuka",
+            "Model Kecil"
+          ],
           "title": "Podcast Ruang Laten 8/4/23 [Ringkasan] Crossover Pod Ruang Laten x AI Breakdown!",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
@@ -858,7 +864,13 @@
         },
         {
           "id": "190259087",
-          "topics": ["Ringkasan", "LLM", "Kode", "Sumber Terbuka", "Model Kecil"],
+          "topics": [
+            "Ringkasan",
+            "LLM",
+            "Kode",
+            "Sumber Terbuka",
+            "Model Kecil"
+          ],
           "title": "Podcast Ruang Laten 8/4/23 [Ringkasan] Crossover Pod Ruang Laten x AI Breakdown!",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
@@ -1648,7 +1660,12 @@
         },
         {
           "id": "190259111",
-          "topics": ["Ringkasan", "Transformator", "Pelatihan", "Sumber Terbuka"],
+          "topics": [
+            "Ringkasan",
+            "Transformator",
+            "Pelatihan",
+            "Sumber Terbuka"
+          ],
           "title": "Podcast Ruang Laten 7/26/23 [Ringkasan] FlashAttention 2: membuat Transformator 800% lebih cepat - Tri Dao dari Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
@@ -1806,7 +1823,13 @@
       "articles": [
         {
           "id": "190259087",
-          "topics": ["Ringkasan", "LLM", "Kode", "Sumber Terbuka", "Model Kecil"],
+          "topics": [
+            "Ringkasan",
+            "LLM",
+            "Kode",
+            "Sumber Terbuka",
+            "Model Kecil"
+          ],
           "title": "Podcast Ruang Laten 8/4/23 [Ringkasan] Crossover Pod Ruang Laten x AI Breakdown!",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
@@ -1952,7 +1975,13 @@
       "articles": [
         {
           "id": "190259087",
-          "topics": ["Ringkasan", "LLM", "Kode", "Sumber Terbuka", "Model Kecil"],
+          "topics": [
+            "Ringkasan",
+            "LLM",
+            "Kode",
+            "Sumber Terbuka",
+            "Model Kecil"
+          ],
           "title": "Podcast Ruang Laten 8/4/23 [Ringkasan] Crossover pod Ruang Laten x AI Breakdown!",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
@@ -1980,7 +2009,12 @@
         },
         {
           "id": "190259111",
-          "topics": ["Ringkasan", "Transformator", "Pelatihan", "Sumber Terbuka"],
+          "topics": [
+            "Ringkasan",
+            "Transformator",
+            "Pelatihan",
+            "Sumber Terbuka"
+          ],
           "title": "Podcast Ruang Laten 7/26/23 [Ringkasan] FlashAttention 2: membuat Transformator 800% lebih cepat - Tri Dao dari Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
@@ -2098,7 +2132,13 @@
       "articles": [
         {
           "id": "190259087",
-          "topics": ["Ringkasan", "LLM", "Kode", "Sumber Terbuka", "Model Kecil"],
+          "topics": [
+            "Ringkasan",
+            "LLM",
+            "Kode",
+            "Sumber Terbuka",
+            "Model Kecil"
+          ],
           "title": "Podcast Ruang Laten 8/4/23 [Ringkasan] Crossover pod Ruang Laten x AI Breakdown!",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
@@ -2216,7 +2256,12 @@
       "articles": [
         {
           "id": "190259111",
-          "topics": ["Ringkasan", "Transformator", "Pelatihan", "Sumber Terbuka"],
+          "topics": [
+            "Ringkasan",
+            "Transformator",
+            "Pelatihan",
+            "Sumber Terbuka"
+          ],
           "title": "Podcast Ruang Laten 7/26/23 [Ringkasan] FlashAttention 2: membuat Transformator 800% lebih cepat - Tri Dao dari Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",

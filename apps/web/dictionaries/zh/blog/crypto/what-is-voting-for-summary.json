@@ -2,54 +2,74 @@
   "relatedBlogs": [
     {
       "id": "167184977",
-      "topics": ["代币经济学", "去中心化自治组织", "融资"],
-      "title": "革新股权模式：代币经济学如何颠覆创业世界",
+      "topics": [
+        "Tokenomics",
+        "DAO",
+        "Fundraising"
+      ],
+      "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
       "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:02:51+01:00",
-      "description": "通过代币经济学解锁创业的未来！探索这一创新概念如何重塑股权模式并革新创业格局。",
+      "description": "Unlock the future of startups with tokenomics! Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
       },
       "seo": {
-        "title": "代币经济学如何颠覆创业世界",
-        "description": "探索这一创新概念如何重塑股权模式并革新创业格局。"
+        "description": "Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
+        "title": "How Tokenomics is Disrupting the Startup World",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
+        }
       }
     },
     {
       "id": "166981063",
-      "topics": ["入门指南", "去中心化自治组织"],
-      "title": "未来已来：去中心化自治组织（DAOs）的崛起",
+      "topics": [
+        "Getting Started",
+        "DAO"
+      ],
+      "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
       "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:02+01:00",
-      "description": "在我们的指南中探索去中心化自治组织（DAOs）的崛起。了解商业的未来和创业机会。",
+      "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
       },
       "seo": {
-        "title": "去中心化自治组织的崛起",
-        "description": "在我们的指南中探索去中心化自治组织（DAOs）的崛起。了解商业的未来和创业机会。"
+        "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
+        "title": "The Rise of Decentralized Autonomous Organizations ",
+        "twitterCard": null,
+        "image": null
       }
     }
   ],
   "blogContent": {
     "id": "180563903",
-    "topics": ["DAO", "摘要"],
-    "title": "投票的目的是什么? [摘要]",
+    "topics": [
+      "DAO",
+      "Summary"
+    ],
+    "title": "What is Voting For? [Summary]",
     "slug": "what-is-voting-for-summary",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T09:10:58+01:00",
-    "description": "揭示去中心化系统中投票的本质。深入了解区块链中投票的真正目的和力量。",
+    "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
     },
@@ -292,8 +312,8 @@
       }
     ],
     "seo": {
-      "description": "揭示去中心化系统中投票的本质。深入了解区块链中投票的真正目的和力量。",
-      "title": "投票的目的是什么? [摘要]",
+      "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
+      "title": "What is Voting For? [Summary]",
       "twitterCard": null,
       "image": {
         "width": 862,
@@ -304,5 +324,12 @@
       }
     }
   },
-  "topics": ["去中心化自治组织", "摘要"]
+  "topics": [
+    "DAO",
+    "Summary"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

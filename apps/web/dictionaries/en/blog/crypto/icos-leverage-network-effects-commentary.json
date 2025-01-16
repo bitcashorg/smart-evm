@@ -2,7 +2,11 @@
   "relatedBlogs": [
     {
       "id": "180556595",
-      "topics": ["Fundraising", "Tokenomics", "Commentary"],
+      "topics": [
+        "Fundraising",
+        "Tokenomics",
+        "Commentary"
+      ],
       "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
       "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
       "authorName": "Crypto Clairity",
@@ -30,7 +34,11 @@
   ],
   "blogContent": {
     "id": "180563922",
-    "topics": ["Fundraising", "Tokenomics", "Commentary"],
+    "topics": [
+      "Fundraising",
+      "Tokenomics",
+      "Commentary"
+    ],
     "title": "ICOs Leverage Network Effects [Commentary]",
     "slug": "icos-leverage-network-effects-commentary",
     "authorName": "Crypto Clairity",
@@ -176,7 +184,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Showcase Product Demand:"
                             },
                             {
@@ -195,7 +205,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Leverage Network Effects:"
                             },
                             {
@@ -214,7 +226,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Discourage Speculators:"
                             },
                             {
@@ -233,7 +247,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Define Priorities:"
                             },
                             {
@@ -285,5 +301,10 @@
       }
     }
   },
-  "topics": ["Fundraising", "Tokenomics", "Commentary"]
+  "topics": [
+    "Fundraising",
+    "Tokenomics",
+    "Commentary"
+  ],
+  "shortLink": ""
 }

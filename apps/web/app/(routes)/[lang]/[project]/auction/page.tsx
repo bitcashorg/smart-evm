@@ -13,7 +13,11 @@ import {
 import { getDictionary } from '@/dictionaries'
 import { locales } from '@/dictionaries/locales'
 import { appConfig } from '@/lib/config'
-import { type ProjectWithAuction, getProjectBySlug, getProjects } from '@/lib/projects'
+import {
+  type ProjectWithAuction,
+  getProjectBySlug,
+  getProjects,
+} from '@/lib/projects'
 import { createSupabaseServerClient } from '@/services/supabase'
 import { getPresaleData } from '@/services/supabase/service'
 import type { ProjectPageParams, ProjectPageProps } from '@/types/routing.type'
@@ -37,7 +41,10 @@ export default async function AuctionPage({ params }: ProjectPageProps) {
             <Card className="border-card/30 bg-card/60 backdrop-blur-lg">
               <Countdown targetDate={new Date()} heading="Auction Countdown" />
               <CardContent>
-                <ProjectPresaleData presale={presale} numberOfContributors={0} />
+                <ProjectPresaleData
+                  presale={presale}
+                  numberOfContributors={0}
+                />
               </CardContent>
             </Card>
 
@@ -45,7 +52,8 @@ export default async function AuctionPage({ params }: ProjectPageProps) {
               <CardHeader>
                 <CardTitle>Place Bids</CardTitle>
                 <CardDescription>
-                  Up to five 5 bids per project auction. You can update your order.
+                  Up to five 5 bids per project auction. You can update your
+                  order.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -67,7 +75,9 @@ export async function generateStaticParams(): Promise<ProjectPageParams[]> {
       locales.map(async (lang): Promise<ProjectPageParams[]> => {
         const dict = await getDictionary(lang)
         return getProjects(dict)
-          .map((project) => (project.slug ? { lang, project: project.slug } : null))
+          .map((project) =>
+            project.slug ? { lang, project: project.slug } : null,
+          )
           .filter((param): param is ProjectPageParams => param !== null)
       }),
     )

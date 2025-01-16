@@ -1,0 +1,679 @@
+{
+  "relatedBlogs": [],
+  "blogContent": {
+    "id": "180927998",
+    "topics": [
+      "LLM",
+      "Commentary",
+      "LORA"
+    ],
+    "title": "LoraHub: Efficient Cross-Task Generalization Via Dynamic LoRA Composition [Commentary]",
+    "slug": "lorahub-efficient-cross-task-generalization-via-dynamic-lora-composition-commenta",
+    "authorName": "Prof. Otto Nomos",
+    "authorPicture": {
+      "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+    },
+    "_publishedAt": "2023-10-02T07:46:29+01:00",
+    "description": "Explore the dynamic composition of LoRA modules with LoraHub for adaptable LLM performance. Dive into problem statements, methodology, evaluation, and more.",
+    "thumbnail": {
+      "url": "https://www.datocms-assets.com/101962/1690946901-abr8-img1.png"
+    },
+    "contentBlock": [
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Original PDF:"
+                    },
+                    {
+                      "url": "https://arxiv.org/pdf/2307.13269.pdf",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": " LORAHUB: EFFICIENT CROSS-TASK GENERALIZATION VIA DYNAMIC LORA COMPOSITION"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Authors:  Chengsong Huang, Qian Liu, Bill Yuchen Lin, Tianyu Pang, Chao Du, Min Lin"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "\nSummary & Commentary"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "\nThe paper titled \"LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition\" introduces a strategic framework called LoraHub, which leverages Low-Rank Adaptations (LoRA) to fine-tune Large Language Models (LLMs) for new tasks. The paper investigates the composability of LoRA for cross-task generalization. LoraHub allows for the assembly of LoRA modules trained on various tasks to achieve adaptable performance on unseen tasks. With just a few examples from a new task, LoraHub enables the fluid combination of multiple LoRA modules, eliminating the need for human expertise. The composition requires neither additional model parameters nor gradients. The empirical results, derived from the Big-Bench Hard (BBH) benchmark, suggest that LoraHub can effectively mimic the performance of in-context learning in few-shot scenarios, excluding the necessity of in-context examples alongside each inference input. A significant contribution of this research is the fostering of a community for LoRA, where users can share their trained LoRA modules, thereby facilitating their application to new tasks (Page 1)."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr8-img1",
+            "height": 862,
+            "width": 862,
+            "filename": "abr8-img1.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690946901-abr8-img1.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2: Problem Statement"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The paper outlines the problem of cross-task generalization in Large Language Models (LLMs). The authors define two categories of cross-task generalization: zero-shot learning, which requires no labeled examples of the new task, and few-shot learning, which requires a few labeled examples. The paper primarily focuses on few-shot learning, where for an unseen target task, users can only provide a limited set of labeled examples. The goal is to modify the model to adapt to the new task using only these examples. A straightforward method would be to directly fine-tune the weights of the model based on these examples, resulting in an updated model with improved performance on the new task (Pages 2-3)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Cross-task generalization is a critical aspect of LLMs, and it can be achieved through zero-shot learning or few-shot learning. The paper focuses on few-shot learning, where the model is fine-tuned based on a limited set of labeled examples from the new task."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, it's important to consider the model's ability to generalize across different tasks. This includes implementing techniques for zero-shot and few-shot learning. In the case of few-shot learning, consider fine-tuning the model based on a limited set of labeled examples from the new task. This can help improve the model's performance on the new task and enhance its overall versatility."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr8-img2",
+            "height": 862,
+            "width": 862,
+            "filename": "abr8-img2.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690947101-abr8-img2.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3: Methodology"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The paper introduces the methodology of LoraHub, which involves training LoRA modules on a variety of upstream tasks. For a new task, the examples are used to guide the LoraHub learning process, which consists of two main phases: the COMPOSE phase and the ADAPT phase. In the COMPOSE phase, all available LoRA modules are synthesized into a single module. The ADAPT phase then fine-tunes this composed module on the new task's examples. The paper also discusses the concept of model merging, which is a significant part of the LoraHub methodology (Pages 3-6)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The methodology of LoraHub involves training LoRA modules on various tasks and then composing and adapting these modules for new tasks. This approach allows for efficient cross-task generalization in LLMs."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, consider implementing a methodology similar to LoraHub. This involves training modules on a variety of tasks and then composing and adapting these modules for new tasks. This approach can allow for efficient cross-task generalization, which can enhance the versatility and effectiveness of your models. Also, consider exploring the concept of model merging, which can further improve the adaptability of your models."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "screenshot-2023-08-01-at-11-25-02-pm",
+            "height": 568,
+            "width": 1122,
+            "filename": "screenshot-2023-08-01-at-11-25-02-pm.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690947167-screenshot-2023-08-01-at-11-25-02-pm.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 4: Evaluation"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The paper presents the evaluation of LoraHub using the Big-Bench Hard (BBH) benchmark, which consists of multiple-choice questions from various domains. The authors used 27 tasks from this benchmark. The evaluation results show that LoraHub outperforms zero-shot learning in most instances and closely resembles the performance of in-context learning (ICL) in few-shot scenarios. However, LoraHub uses notably fewer tokens than ICL, making it more efficient. The authors also compared LoraHub with gradient-dependent methods such as LoRA tuning and full fine-tuning (FFT) on three typical tasks from the BBH benchmark: binary classification on Boolean Expressions, multi-class on Date Understanding, and text generation for Object Counting. The comparison revealed that the relative effectiveness of LoraHub varies across different tasks when compared to gradient-dependent methods (Pages 4-6)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The evaluation of LoraHub reveals its efficiency in cross-task generalization. It outperforms zero-shot learning and closely resembles the performance of in-context learning in few-shot scenarios, but with notably fewer tokens, making it more efficient."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, consider implementing a methodology similar to LoraHub. This involves training modules on a variety of tasks and then composing and adapting these modules for new tasks. This approach can allow for efficient cross-task generalization, which can enhance the versatility and effectiveness of your models. Also, consider exploring the concept of model merging, which can further improve the adaptability of your models."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "screenshot-2023-08-01-at-11-26-18-pm",
+            "height": 1142,
+            "width": 1134,
+            "filename": "screenshot-2023-08-01-at-11-26-18-pm.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690947151-screenshot-2023-08-01-at-11-26-18-pm.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 5: Analysis"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The paper presents a comprehensive exploration of the attributes of the proposed LoraHub method and reveals some unexpected insights. The authors respond to several research queries to further their investigations into this method. They evaluate the top five useful upstream tasks for BBH tasks and find that these tasks have a substantial influence, as indicated by their maximum average weights. These tasks require higher complexity skills such as reading comprehension and reasoning. The authors also assess the precision of their gradient-free optimization method in correctly identifying the most suitable LoRA module for a given downstream task. They carry out an empirical study using the WikiTableQuestions (WTQ) dataset and find that their method is likely to outperform LoRA tuning when fewer than 20 examples for the unseen task are available (Pages 6-7)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The analysis of LoraHub reveals that tasks requiring higher complexity skills such as reading comprehension and reasoning have a substantial influence on the performance of the method. The gradient-free optimization method used in LoraHub is effective in correctly identifying the most suitable LoRA module for a given task, especially when fewer examples are available."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, consider implementing a methodology similar to LoraHub. This involves training modules on a variety of tasks and then composing and adapting these modules for new tasks. Pay special attention to tasks that require higher complexity skills such as reading comprehension and reasoning, as these tasks can have a substantial influence on the performance of your models. Also, consider using a gradient-free optimization method, especially when fewer examples are available for a given task. This can help in correctly identifying the most suitable module for the task and can enhance the performance of your models."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr8-img5",
+            "height": 862,
+            "width": 862,
+            "filename": "abr8-img5.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690947217-abr8-img5.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 6: Related Work"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The paper discusses related work in the field of model merging and cross-task generalization. The authors categorize model merging research into two categories: one that focuses on merging entire models to approximate the performance benefits of model ensembling or multi-task learning, and another that aligns with their research, focusing on module composition. They mention several works in both categories, highlighting their differences and similarities with LoraHub. The paper also discusses recent advancements in cross-task generalization, including CrossFit and ReCross, and how they relate to LoraHub. The authors highlight that while these methods have made strides in multi-task model generalization, LoraHub's approach of using few-shot labeled examples and a gradient-free optimization process offers certain advantages (Pages 8-9)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The related work in model merging and cross-task generalization provides valuable context for understanding the novelty and advantages of LoraHub. The comparison with other methods like CrossFit and ReCross highlights the unique approach of LoraHub in facilitating an iterative update of weights to compose the LoRA modules."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, consider studying the related work in model merging and cross-task generalization. Understanding these methods can provide valuable insights into how to improve your own models. Also, consider implementing a methodology similar to LoraHub, which uses few-shot labeled examples and a gradient-free optimization process to compose LoRA modules. This approach can enhance the versatility and effectiveness of your models."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr8-img6",
+            "height": 862,
+            "width": 862,
+            "filename": "abr8-img6.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690947361-abr8-img6.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 7: Conclusion"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The paper concludes by reiterating the introduction of LoraHub, a strategic framework for composing LoRA modules trained on diverse tasks to achieve adaptable performance on new tasks. LoraHub enables the fluid combination of multiple LoRA modules using just a few examples from a novel task, without requiring additional model parameters or human expertise. The empirical results on the BBH benchmark demonstrate that LoraHub can effectively match the performance of in-context learning in few-shot scenarios, removing the need for in-context examples during inference. The authors conclude that their work shows the promise of strategic LoRA composability for rapidly adapting LLMs to diverse tasks, fostering reuse and combination of LoRA modules, and working towards more general and adaptable LLMs while minimizing training costs (Page 9)."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr8-img7",
+            "height": 862,
+            "width": 862,
+            "filename": "abr8-img7.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690947378-abr8-img7.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 8: Limitations & Future Work"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The authors acknowledge two main limitations of their work. Firstly, while their method is successful in identifying and weighting relevant aspects from seen tasks to enhance unseen task performance, relying entirely on the model to perform this search can lead to increased computational demands and potentially unstable results. They suggest that incorporating a pre-filtering step to select only pertinent LoRA modules could expedite and refine performance. Secondly, all experiments for this study were executed using the encoder-decoder architecture. The authors aspire to extrapolate this method to decoder-only models. Both of these limitations present opportunities for future research (Page 9)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The limitations of LoraHub include increased computational demands and potentially unstable results due to the model's reliance on performing the search for relevant aspects. The authors suggest a pre-filtering step to select pertinent LoRA modules, which could improve performance. The method's applicability to decoder-only models is also a point of interest for future research."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "For those building LLMs, consider the limitations of LoraHub as potential areas for improvement. Implementing a pre-filtering step to select pertinent LoRA modules could expedite and refine performance. Also, consider extending the method to decoder-only models, as this could broaden the applicability of your models. Keep in mind that these are areas for future research, and advancements in these areas could lead to significant improvements in the performance and versatility of your models."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr8-img8",
+            "height": 862,
+            "width": 862,
+            "filename": "abr8-img8.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690947394-abr8-img8.png"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "description": "Explore the dynamic composition of LoRA modules with LoraHub for adaptable LLM performance. ",
+      "title": "LORAHUB [Summary & Commentary]",
+      "twitterCard": null,
+      "image": {
+        "width": 862,
+        "height": 862,
+        "title": null,
+        "alt": null,
+        "url": "https://www.datocms-assets.com/101962/1690946901-abr8-img1.png"
+      }
+    }
+  },
+  "topics": [
+    "LLM",
+    "Commentary",
+    "LORA"
+  ],
+  "shortLink": ""
+}

@@ -2,7 +2,8 @@ import type { Feature } from '@/types/home'
 
 export const whyChooseUs = {
   title: 'Porque escolher-nos',
-  description: 'Descubra as características únicas que nos diferenciam dos demais.',
+  description:
+    'Descubra as características únicas que nos diferenciam dos demais.',
   features: [
     {
       icon: 'ShoppingBasket',

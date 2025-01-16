@@ -18,7 +18,10 @@ import { getAddress } from 'viem'
 
 export default async function ProjectPage({ params }: ProjectPageProps) {
   const dict = await getDictionary(params.lang)
-  const project = (await getProjectBySlug(params.project, dict)) as ProjectWithAuction
+  const project = (await getProjectBySlug(
+    params.project,
+    dict,
+  )) as ProjectWithAuction
 
   if (!project) redirect('/')
 
@@ -59,7 +62,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           </Card>
 
           <PresaleDepositCard
-            project={project}
+            project={{
+              ...project,
+              ...(presale || {}),
+            }}
             presaleAddresses={presale.presale_address}
             tokenAddress={tokenAddress}
             isPresaleActive={isPresaleActive}

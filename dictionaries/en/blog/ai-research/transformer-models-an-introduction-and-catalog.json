@@ -1,0 +1,928 @@
+{
+  "relatedBlogs": [
+    {
+      "id": "198277124",
+      "topics": [
+        "LLM",
+        "Finance",
+        "Healthcare",
+        "Legal",
+        "Prompting"
+      ],
+      "title": "Adapting Large Language Models via Reading Comprehension",
+      "slug": "adapting-large-language-models-via-reading-comprehension",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:34:22+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Adapting Large Language Models via Reading Comprehension",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277342",
+      "topics": [
+        "LLM",
+        "Multilingual"
+      ],
+      "title": "OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch",
+      "slug": "openba-an-open-sourced-15b-bilingual-asymmetric-seq2seq-model-pre-trained-from-sc",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:34:02+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "OpenBA: An Open-sourced 15B Bilingual ... Model ...",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277117",
+      "topics": [
+        "LLM",
+        "Retrieval"
+      ],
+      "title": "PDFTriage: Question Answering over Long, Structured Documents",
+      "slug": "pdftriage-question-answering-over-long-structured-documents",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:33:49+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "PDFTriage: Q & A over Long, Structured Documents",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277138",
+      "topics": [
+        "LLM",
+        "Fine-tuning"
+      ],
+      "title": "Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference Using Sorted Fine-Tuning (SoFT)",
+      "slug": "sorted-llama-unlocking-the-potential-of-intermediate-layers-of-large-language-mod",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:33:31+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Sorted LLaMA: ... Inference Using Sorted Fine-Tuning (SoFT)",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277150",
+      "topics": [
+        "LLM",
+        "Instruction Tuning",
+        "Multimodal"
+      ],
+      "title": "An Empirical Study of Scaling Instruct-Tuned Large Multimodal Models",
+      "slug": "an-empirical-study-of-scaling-instruct-tuned-large-multimodal-models",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:33:15+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "An Empirical Study of Scaling Instruct-Tuned LLMs",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277160",
+      "topics": [
+        "LLM",
+        "Agents",
+        "Gaming"
+      ],
+      "title": "MindAgent: Emergent Gaming Interaction",
+      "slug": "mindagent-emergent-gaming-interaction",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:32:58+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "MindAgent: Emergent Gaming Interaction",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+        }
+      }
+    },
+    {
+      "id": "198277196",
+      "topics": [
+        "LLM",
+        "Structured Data"
+      ],
+      "title": "Struc-Bench: Are Large Language Models Really Good at Generating Complex Structured Data?",
+      "slug": "struc-bench-are-large-language-models-really-good-at-generating-complex-structure",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-25T03:38:38+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Struc-Bench:..Generating Complex Structured Data?",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277217",
+      "topics": [
+        "LLM",
+        "Privacy",
+        "Edge"
+      ],
+      "title": "  Recovering from Privacy-Preserving Masking with Large Language Models",
+      "slug": "recovering-from-privacy-preserving-masking-with-large-language-models",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-25T03:38:26+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "  Recovering from Privacy-Preserving Masking with LLMs",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277239",
+      "topics": [
+        "LLM",
+        "Chat"
+      ],
+      "title": "S3-DST: Structured Open-Domain Dialogue Segmentation and State Tracking in the Era of LLMs",
+      "slug": "s3-dst-structured-open-domain-dialogue-segmentation-and-state-tracking-in-the-era",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-25T03:38:11+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "S3-DST: Structured Open-Domain Dialogue Segmentation...",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277253",
+      "topics": [
+        "LLM",
+        "Audio"
+      ],
+      "title": "Augmenting text for spoken language understanding with Large Language Models",
+      "slug": "augmenting-text-for-spoken-language-understanding-with-large-language-models",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-25T03:37:49+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Augmenting text for spoken language understanding ...",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277277",
+      "topics": [
+        "LLM",
+        "Compression"
+      ],
+      "title": "Language Modeling Is Compression",
+      "slug": "language-modeling-is-compression",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-25T03:37:32+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Language Modeling Is Compression",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277345",
+      "topics": [
+        "LLM",
+        "Multilingual"
+      ],
+      "title": "Baichuan 2: Open Large-scale Language Models",
+      "slug": "baichuan-2-open-large-scale-language-models",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-24T05:59:10+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Baichuan 2: Open Large-scale Language Models",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277360",
+      "topics": [
+        "LLM",
+        "RLHF"
+      ],
+      "title": "Stabilizing RLHF through Advantage Model and Selective Rehearsal",
+      "slug": "stabilizing-rlhf-through-advantage-model-and-selective-rehearsal",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-24T05:22:15+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Stabilizing RLHF ... Advantage Model & Selective Rehearsal",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277446",
+      "topics": [
+        "LLM",
+        "Hallucination"
+      ],
+      "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+      "slug": "chain-of-verification-reduces-hallucination-in-large-language-models",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-24T05:21:05+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Chain-of-Verification Reduces Hallucination in LLMs",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277458",
+      "topics": [
+        "LLM",
+        "Hallucination",
+        "Entity",
+        "Structured Data"
+      ],
+      "title": "LMDX: Language Model-based Document Information Extraction and Localization",
+      "slug": "lmdx-language-model-based-document-information-extraction-and-localization",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-24T05:20:31+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "LMDX: ..Document Information Extraction and Localization",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277209",
+      "topics": [
+        "LLM",
+        "Data"
+      ],
+      "title": "  SlimPajama-DC: Understanding Data Combinations for LLM Training",
+      "slug": "accelerating-llm-inference-with-staged-speculative-decoding",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-04T23:43:32+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "  SlimPajama-DC: Understanding Data Combos for LLM Training",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+        }
+      }
+    },
+    {
+      "id": "198277109",
+      "topics": [
+        "LLM",
+        "Reasoning"
+      ],
+      "title": "Contrastive Decoding Improves Reasoning in Large Language Models",
+      "slug": "pde-refiner-achieving-accurate-long-rollouts-with-neural-pde-solvers",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-04T22:18:11+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Contrastive Decoding Improves Reasoning in LLMs",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277099",
+      "topics": [
+        "LLM",
+        "Multilingual",
+        "Data"
+      ],
+      "title": "CulturaX: A Cleaned, Enormous, and Multilingual Dataset for Large Language Models in 167 Languages",
+      "slug": "pde-refiner-achieving-accurate-long-rollouts-with-neural-pde-solvers",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-04T22:14:53+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "CulturaX: A Cleaned, Enormous, and Multilingual Dataset...",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198044929",
+      "topics": [
+        "LLM",
+        "Data",
+        "Agents"
+      ],
+      "title": "A Data Source for Reasoning Embodied Agents",
+      "slug": "accelerating-llm-inference-with-staged-speculative-decoding",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-04T07:33:25+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "A Data Source for Reasoning Embodied Agents",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+        }
+      }
+    }
+  ],
+  "blogContent": {
+    "id": "197621439",
+    "topics": [
+      "LLM",
+      "Math"
+    ],
+    "title": "GPT Can Solve Mathematical Problems Without a Calculator",
+    "slug": "transformer-models-an-introduction-and-catalog",
+    "authorName": "Prof. Otto Nomos",
+    "authorPicture": {
+      "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+    },
+    "_publishedAt": "2023-10-03T08:39:23+01:00",
+    "description": "Abstract Commentary & Rating",
+    "thumbnail": {
+      "url": "https://www.datocms-assets.com/101962/1692937594-researchpaper7.png"
+    },
+    "contentBlock": [
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Published on Sep 5"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Authors:Zhen Yang,Ming Ding,"
+                    },
+                    {
+                      "url": "https://huggingface.co/lvmememe",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Qingsong Lv"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ",Zhihuan Jiang,Zehai He,Yuyi Guo,Jinfeng Bai,"
+                    },
+                    {
+                      "url": "https://huggingface.co/jerytang",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Jie Tang"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Abstract"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Previous studies have typically assumed that large language models are unable to accurately perform arithmetic operations, particularly multiplication of >8 digits, and operations involving decimals and fractions, without the use of calculator tools. This paper aims to challenge this misconception. With sufficient training data, a 2 billion-parameter language model can accurately perform multi-digit arithmetic operations with almost 100% accuracy without data leakage, significantly surpassing GPT-4 (whose multi-digit multiplication accuracy is only 4.3%). We also demonstrate that our MathGLM, fine-tuned from GLM-10B on a dataset with additional multi-step arithmetic operations and math problems described in text, achieves similar performance to GPT-4 on a 5,000-samples Chinese math problem test set."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "url": "https://arxiv.org/abs/2309.03241",
+                      "meta": [
+                        {
+                          "id": "rel",
+                          "value": "noreferrer"
+                        },
+                        {
+                          "id": "target",
+                          "value": "_blank"
+                        }
+                      ],
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "View arXiv page"
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://arxiv.org/pdf/2309.03241",
+                      "meta": [
+                        {
+                          "id": "rel",
+                          "value": "noreferrer"
+                        },
+                        {
+                          "id": "target",
+                          "value": "_blank"
+                        }
+                      ],
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "View PDF"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Commentary"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Based on the information provided, let's evaluate the potential impact of this paper:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Challenging Established Assumptions"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": The paper directly challenges a prevailing notion that large language models (LLMs) cannot perform arithmetic operations, especially complex ones, without calculator tools. Revising this assumption could influence how future LLMs are developed and applied."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Accuracy"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Achieving almost 100% accuracy in multi-digit arithmetic operations without data leakage is a significant advancement. This level of accuracy means that for tasks requiring arithmetic computations, such an LLM could be directly employed without an external calculator."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Comparison with Previous Models"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Demonstrating that a 2 billion-parameter model significantly surpasses GPT-4 (with only 4.3% accuracy in multi-digit multiplication) is a key contribution. This shows that it's not just about the size but also the quality and nature of the training data."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Fine-tuning on Math Problems"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Their model, MathGLM, when fine-tuned, achieves performance comparable to GPT-4 on a Chinese math problem test set. This suggests potential for global applications, considering they've demonstrated its efficacy on a non-English dataset."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Potential Real-world Applications"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": The model's capability can be beneficial for applications like tutoring, where step-by-step arithmetic problem solving is needed. It might also find uses in industries requiring quick arithmetic checks or where integrating a calculator tool is cumbersome."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Scope of Research"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": While the research demonstrates the model's arithmetic prowess, its application might be limited if it only excels at arithmetic operations. For broad real-world impact, LLMs often need to be versatile across various tasks."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Considering the above factors:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "I'd rate the real-world impact of this paper as a 7 out of 10."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "While the paper does showcase a commendable achievement in the realm of arithmetic computations by LLMs, the broader applications beyond mathematical computations would determine its widespread impact. The paper can be seen as a significant step towards enhancing the capabilities of LLMs in arithmetic domains."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "researchpaper7",
+            "height": 816,
+            "width": 1456,
+            "filename": "researchpaper7.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1692937594-researchpaper7.png"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "description": "Abstract Commentary & Rating\n",
+      "title": "GPT Can Solve Mathematical Problems Without a Calculator",
+      "twitterCard": null,
+      "image": {
+        "width": 1456,
+        "height": 816,
+        "title": null,
+        "alt": null,
+        "url": "https://www.datocms-assets.com/101962/1692937594-researchpaper7.png"
+      }
+    }
+  },
+  "topics": [
+    "LLM",
+    "Math"
+  ],
+  "shortLink": ""
+}

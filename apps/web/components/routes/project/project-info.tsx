@@ -1,4 +1,5 @@
 import type { ProjectWithAuction } from '@/lib/projects'
+import { formatCurrency, formatDate } from '@/lib/utils'
 import React, { type ReactNode, Fragment } from 'react'
 import { ProjectShare } from './project-share'
 
@@ -25,7 +26,9 @@ function ListItem({ label, value }: ItemProps) {
         <span className="text-right text-sm">
           {typeof value === 'string' ? value : null}
           {label === 'Presale' ? (
-            <span className="text-xs text-infoForeground">(Or When Sold Out)</span>
+            <span className="text-xs text-infoForeground">
+              (Or When Sold Out)
+            </span>
           ) : null}
         </span>
       </h3>
@@ -39,17 +42,21 @@ export function ProjectInfo({
 }: {
   project: ProjectWithAuction
   presale?: boolean
-}) {
+  }) {
+  const presaleStartDate = new Date(project?.start_timestamptz || 0)
+  const presaleEndDate = new Date(project?.end_timestamptz || 0)
   const fields: Array<Array<ItemProps>> = [
     [
-      { label: 'Presale', value: '9/16/24 - 11/15/24\n' },
-      { label: 'Fundraising Goal', value: '$150,000' },
-      { label: 'Max Allocation', value: '$1,500' },
+      {
+        label: 'Presale', value: `${formatDate(presaleStartDate, 'numeric')} - ${formatDate(presaleEndDate, 'numeric')}
+        ` },
+      { label: 'Fundraising Goal', value: formatCurrency({ value: project.fundraising_goal / 100 }) },
+      { label: 'Max Allocation', value: formatCurrency({ value: project.max_allocation / 100 }) },
     ],
     [
       { label: 'Token Sale', value: 'TBD' },
       { label: 'Fundraising Goal', value: '$250,000' },
-      { label: 'Max Allocation', value: '$10,000' },
+      { label: 'Max Allocation', value: '$15,000' },
     ],
     [{ label: 'Ticker', value: 'BL' }],
     [

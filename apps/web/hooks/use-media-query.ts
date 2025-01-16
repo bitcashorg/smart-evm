@@ -1,30 +1,29 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react'
 
-const ENVIRONMENT = typeof window === "undefined";
-
+const ENVIRONMENT = typeof window === 'undefined'
 
 export function useMediaQuery(query: string) {
-    const [result, setResult] = useState(false);
+  const [result, setResult] = useState(false)
 
-    useEffect(() => {
-        if (ENVIRONMENT) {
-            return;
-        }
+  useEffect(() => {
+    if (ENVIRONMENT) {
+      return
+    }
 
-        const mql = window.matchMedia(query);
+    const mql = window.matchMedia(query)
 
-        const handleChange = (event: MediaQueryListEvent) => {
-            setResult(event.matches);
-        };
+    const handleChange = (event: MediaQueryListEvent) => {
+      setResult(event.matches)
+    }
 
-        setResult(mql.matches);
+    setResult(mql.matches)
 
-        mql.addEventListener("change", handleChange);
+    mql.addEventListener('change', handleChange)
 
-        return () => {
-            mql.removeEventListener("change", handleChange);
-        };
-    }, [query])
+    return () => {
+      mql.removeEventListener('change', handleChange)
+    }
+  }, [query])
 
-    return result
+  return result
 }

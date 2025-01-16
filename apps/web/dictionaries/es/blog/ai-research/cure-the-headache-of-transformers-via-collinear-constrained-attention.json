@@ -2,15 +2,17 @@
   "relatedBlogs": [],
   "blogContent": {
     "id": "198277182",
-    "topics": ["Transformers"],
-    "title": "Cura el dolor de cabeza de los Transformers mediante la Atencion Restringida Colineal",
+    "topics": [
+      "Transformers"
+    ],
+    "title": "Cure the headache of Transformers via Collinear Constrained Attention",
     "slug": "cure-the-headache-of-transformers-via-collinear-constrained-attention",
     "authorName": "Prof. Otto Nomos",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
     },
     "_publishedAt": "2024-05-27T03:32:43+01:00",
-    "description": "Comentario y Calificacion del Resumen",
+    "description": "Abstract Commentary & Rating",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
     },
@@ -168,7 +170,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Anomalous Behavior Identification"
                             },
                             {
@@ -187,7 +191,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Collinear Constrained Attention (CoCA)"
                             },
                             {
@@ -206,7 +212,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Superior Extrapolation"
                             },
                             {
@@ -225,7 +233,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Efficiency Enhancements"
                             },
                             {
@@ -244,7 +254,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Open-Sourcing"
                             },
                             {
@@ -278,7 +290,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Better Model Behavior"
                             },
                             {
@@ -297,7 +311,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Efficient Long Sequences Processing"
                             },
                             {
@@ -316,7 +332,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "General Integration"
                             },
                             {
@@ -350,7 +368,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Adoption Rate"
                             },
                             {
@@ -369,7 +389,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Potential Limitations"
                             },
                             {
@@ -427,8 +449,8 @@
       }
     ],
     "seo": {
-      "description": "Comentario y Calificacion del Resumen",
-      "title": "Cura el dolor de cabeza ... mediante la Atencion Restringida Colineal",
+      "description": "Abstract Commentary & Rating\n",
+      "title": "Cure the headache ... via Collinear Constrained Attention",
       "twitterCard": null,
       "image": {
         "width": 1456,
@@ -439,5 +461,8 @@
       }
     }
   },
-  "topics": ["Transformadores"]
+  "topics": [
+    "Transformers"
+  ],
+  "shortLink": ""
 }

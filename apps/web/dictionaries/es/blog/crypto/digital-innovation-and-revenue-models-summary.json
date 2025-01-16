@@ -2,73 +2,110 @@
   "relatedBlogs": [
     {
       "id": "180563903",
-      "topics": ["DAO", "Resumen"],
-      "title": "¿Para que sirve votar? [Resumen]",
+      "topics": [
+        "DAO",
+        "Summary"
+      ],
+      "title": "What is Voting For? [Summary]",
       "slug": "what-is-voting-for-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:58+01:00",
-      "description": "Desentrañe la esencia de la votacion en sistemas descentralizados. Obtenga informacion sobre el verdadero proposito y poder del voto en blockchain.",
+      "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
       },
       "seo": {
-        "title": "¿Para que sirve votar? [Resumen]",
-        "description": "Desentrañe la esencia de la votacion en sistemas descentralizados. Obtenga informacion sobre el verdadero proposito y poder del voto en blockchain."
+        "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
+        "title": "What is Voting For? [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
+        }
       }
     },
     {
       "id": "180563908",
-      "topics": ["DAO", "Resumen"],
-      "title": "¿Para que sirve la gobernanza? [Resumen]",
+      "topics": [
+        "DAO",
+        "Summary"
+      ],
+      "title": "What is Governance For? [Summary]",
       "slug": "what-is-governance-for-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:45+01:00",
-      "description": "Explore el papel y la importancia de la gobernanza en los sistemas blockchain. Comprenda como la gobernanza impulsa la descentralizacion y el crecimiento.",
+      "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
       },
       "seo": {
-        "title": "¿Para que sirve la gobernanza? [Resumen]",
-        "description": "Explore el papel y la importancia de la gobernanza en los sistemas blockchain. Comprenda como la gobernanza impulsa la descentralizacion y el crecimiento."
+        "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.\n",
+        "title": "What is Governance For? [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
+        }
       }
     },
     {
       "id": "180563931",
-      "topics": ["Tokenomics", "Comentario"],
-      "title": "Estructuras de incentivos en blockchain: Que son y por que son importantes [Comentario]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Blockchain Incentive Structures: What they are and why they matter [Commentary]",
       "slug": "blockchain-incentive-structures-what-they-are-and-why-they-matter-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:02+01:00",
-      "description": "Comprenda el nucleo de las estructuras de incentivos en blockchain y su importancia para impulsar el comportamiento del usuario y el exito de la plataforma.",
+      "description": "Understand the core of blockchain incentive structures and their significance in driving user behavior and platform success.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690860807-cbc10-img1.png"
       },
       "seo": {
-        "title": "Estructuras de incentivos en blockchain [Comentario]",
-        "description": "Comprenda el nucleo de las estructuras de incentivos en blockchain y su importancia para impulsar el comportamiento del usuario y el exito de la plataforma."
+        "description": "Understand the core of blockchain incentive structures and their significance in driving user behavior and platform success.",
+        "title": "Blockchain Incentive Structures [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690860807-cbc10-img1.png"
+        }
       }
     }
   ],
   "blogContent": {
     "id": "179948652",
-    "topics": ["Tokenomia", "Industria", "Resumen"],
-    "title": "Innovacion Digital y Modelos de Ingresos [Resumen]",
+    "topics": [
+      "Tokenomics",
+      "Industry",
+      "Summary"
+    ],
+    "title": "Digital Innovation and Revenue Models [Summary]",
     "slug": "digital-innovation-and-revenue-models-summary",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T09:11:35+01:00",
-    "description": "Descubre como la innovacion digital transforma la entrega de productos en 'Innovacion Digital y Modelos de Ingresos' de Prysm Group. Explora la economia de las tecnologias emergentes.",
+    "description": "Uncover how digital innovation reshapes product delivery in Prysm Group's 'Digital Innovation and Revenue Models'. Explore emerging tech economics.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1690668517-cbr1-img1.png"
     },
@@ -143,7 +180,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Introduction (Page 3)"
                             },
                             {
@@ -162,7 +201,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Cost Structure for Traditional vs. Digital Goods (Page 3)"
                             },
                             {
@@ -181,7 +222,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Sustainable Business Strategies for the Digital World (Pages 4-5)"
                             },
                             {
@@ -200,7 +243,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Framework for Pricing Strategies (Page 7)"
                             },
                             {
@@ -234,7 +279,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Align Product and Revenue Strategy"
                             },
                             {
@@ -253,7 +300,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Leverage Network Effects"
                             },
                             {
@@ -272,7 +321,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Differentiate Your Product"
                             },
                             {
@@ -291,7 +342,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Consider Pricing Strategies"
                             },
                             {
@@ -310,7 +363,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Protect Your Intellectual Property"
                             },
                             {
@@ -329,7 +384,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Stay Agile"
                             },
                             {
@@ -379,7 +436,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "https://uploads-ssl.webflow.com/5ca64cec39c643e28bb7079f/6334fa62414f4e6b5126ee3e_Prysm%20Group%20Digital%20Innovation%20and%20Revenue%20Models.pdf\n\n"
+                      "value": "The document discusses a case study on the music industry, illustrating how digital innovation has evolved and expanded business models and strategies. Here are the key insights from the Music Industry Case Study:"
                     }
                   ]
                 },
@@ -395,7 +452,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Music Industry Evolution (Page 10)"
                             },
                             {
@@ -414,7 +473,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Digital Distribution Platforms (Page 11)"
                             },
                             {
@@ -433,7 +494,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "iTunes and the Monetization of Digital Music (Page 11)"
                             },
                             {
@@ -452,7 +515,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Shift to Music Streaming (Page 12)"
                             },
                             {
@@ -486,7 +551,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Consider Subscription Models"
                             },
                             {
@@ -517,8 +584,8 @@
       }
     ],
     "seo": {
-      "description": "Descubre como la innovacion digital transforma la entrega de productos en 'Innovacion Digital y Modelos de Ingresos' de Prysm Group. Explora la economia de las tecnologias emergentes.",
-      "title": "Innovacion Digital y Modelos de Ingresos [Resumen]",
+      "description": "Uncover how digital innovation reshapes product delivery in Prysm Group's 'Digital Innovation and Revenue Models'. Explore emerging tech economics.",
+      "title": "Digital Innovation and Revenue Models [Summary]",
       "twitterCard": null,
       "image": {
         "width": 862,
@@ -529,5 +596,10 @@
       }
     }
   },
-  "topics": ["Tokenomics", "Industria", "Resumen"]
+  "topics": [
+    "Tokenomics",
+    "Industry",
+    "Summary"
+  ],
+  "shortLink": ""
 }

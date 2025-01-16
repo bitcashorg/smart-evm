@@ -1,4 +1,7 @@
-import type { ContentTextType, PageContentData } from '@/components/shared/content'
+import type {
+  ContentTextType,
+  PageContentData,
+} from '@/components/shared/content'
 
 const securityTips = [
   {
@@ -28,7 +31,8 @@ const securityTips = [
   },
   {
     title: '隨時了解情況並更新',
-    content: '僅關注官方 Bitlauncher 頻道以獲取更新和資訊。不要相信未經驗證的來源。',
+    content:
+      '僅關注官方 Bitlauncher 頻道以獲取更新和資訊。不要相信未經驗證的來源。',
   },
   {
     title: '報告可疑活動',

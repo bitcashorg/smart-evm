@@ -41,7 +41,9 @@ export const WHITE_PAPER_HERO_CONTENT = [
   },
   {
     segments: [
-      { text: 'Our economic model is as forward-thinking as our technology. With a ' },
+      {
+        text: 'Our economic model is as forward-thinking as our technology. With a ',
+      },
       { text: 'mint-and-burn tokenomics strategy', isBold: true },
       { text: ', we ensure our platform remains ' },
       { text: 'economically viable', isBold: true },

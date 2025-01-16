@@ -8,7 +8,11 @@ const { fontFamily } = require('tailwindcss/defaultTheme')
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ['class'],
-  content: ['./components/**/*.{ts,tsx}', './app/**/*.{ts,tsx}', './src/**/*.{ts,tsx}'],
+  content: [
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
+  ],
   theme: {
     container: {
       center: true,
@@ -27,7 +31,7 @@ module.exports = {
         ring: 'hsla(var(--ring))',
         background: 'hsla(var(--background))',
         foreground: 'hsla(var(--foreground))',
-        textInfoForeground: "#17154C",
+        textInfoForeground: '#17154C',
         infoForeground: '#9395AF',
         cornflowerblue: {
           100: 'rgba(125, 129, 217, 0.2)',
@@ -68,7 +72,7 @@ module.exports = {
           400: '#FF51ED',
           500: '#845BBF',
           600: '#433974',
-          700: '#E828AA'
+          700: '#E828AA',
         },
         destructive: {
           DEFAULT: 'hsla(var(--destructive))',
@@ -101,7 +105,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        headerBlue: 'linear-gradient(334deg, rgba(255, 255, 255, 0.00) 57.71%, rgba(255, 255, 255, 0.15) 245.65%), #0F113E;'
+        headerBlue:
+          'linear-gradient(334deg, rgba(255, 255, 255, 0.00) 57.71%, rgba(255, 255, 255, 0.15) 245.65%), #0F113E;',
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -174,15 +179,27 @@ module.exports = {
       },
       fontSize: {
         'h1-lg': ['64px', { lineHeight: '72px' }],
-        'h1-md': ['60px', { lineHeight: '72px' }, { fontFamily: 'futura-pt-bold' }],
+        'h1-md': [
+          '60px',
+          { lineHeight: '72px' },
+          { fontFamily: 'futura-pt-bold' },
+        ],
         'h2-lg': ['64px', { lineHeight: '64px' }],
         'h2-md': ['48px', { lineHeight: '64px' }],
         'h3-lg': ['48px', { lineHeight: '48px' }],
         'h3-md': ['40px', { lineHeight: '48px' }],
         'sub-1-lg': ['36px', { lineHeight: '40px' }],
         'sub-1-md': ['28px', { lineHeight: '40px' }],
-        'sub-2-lg': ['22px', { lineHeight: '28px' }, { fontFamily: 'futura-pt-bold' }],
-        'sub-2-md': ['18px', { lineHeight: '28px' }, { fontFamily: 'futura-pt-bold' }],
+        'sub-2-lg': [
+          '22px',
+          { lineHeight: '28px' },
+          { fontFamily: 'futura-pt-bold' },
+        ],
+        'sub-2-md': [
+          '18px',
+          { lineHeight: '28px' },
+          { fontFamily: 'futura-pt-bold' },
+        ],
         buttons: ['18px', { lineHeight: '28px' }],
         'b-1-sbold-md': [
           '18px',
@@ -190,14 +207,42 @@ module.exports = {
           { fontFamily: 'futura-pt-bold' },
         ],
         'b-1-sbold-lg': ['18px', { lineHeight: '28px' }],
-        'b-1-lg': ['18px', { lineHeight: '28px' }, { fontFamily: 'futura-pt-heavy' }],
+        'b-1-lg': [
+          '18px',
+          { lineHeight: '28px' },
+          { fontFamily: 'futura-pt-heavy' },
+        ],
         'b-1-md': ['18px', { lineHeight: '28px' }],
-        'b-1-book': ['18px', { lineHeight: '28px' }, { fontFamily: 'futura-pt-book' }],
-        'b-2-lg': ['16px', { lineHeight: '24px' }, { fontFamily: 'futura-pt-heavy' }],
-        'b-2-md': ['16px', { lineHeight: '24px' }, { fontFamily: 'futura-pt-medium' }],
-        'h-text': ['16px', { lineHeight: '18.75px' }, { fontFamily: 'futura-pt-heavy' }],
-        'p-text': ['20px', { lineHeight: '23.44px' }, { fontFamily: 'futura-pt-book' }],
-        'footer-text': ['18px', { lineHeight: '21px' }, { fontFamily: 'futura-pt-book' }],
+        'b-1-book': [
+          '18px',
+          { lineHeight: '28px' },
+          { fontFamily: 'futura-pt-book' },
+        ],
+        'b-2-lg': [
+          '16px',
+          { lineHeight: '24px' },
+          { fontFamily: 'futura-pt-heavy' },
+        ],
+        'b-2-md': [
+          '16px',
+          { lineHeight: '24px' },
+          { fontFamily: 'futura-pt-medium' },
+        ],
+        'h-text': [
+          '16px',
+          { lineHeight: '18.75px' },
+          { fontFamily: 'futura-pt-heavy' },
+        ],
+        'p-text': [
+          '20px',
+          { lineHeight: '23.44px' },
+          { fontFamily: 'futura-pt-book' },
+        ],
+        'footer-text': [
+          '18px',
+          { lineHeight: '21px' },
+          { fontFamily: 'futura-pt-book' },
+        ],
         'lp-h1-lg': ['80px', { lineHeight: '100px' }],
         'lp-h1-md': ['48px', { lineHeight: '60px' }],
         'lp-h2-sub-lg': ['44px', { lineHeight: '77px' }],

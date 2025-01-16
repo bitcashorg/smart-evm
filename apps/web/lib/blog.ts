@@ -22,9 +22,9 @@ export const readingTime = (blogContent: {
       return item.map((val: { children: any }) => val.children)
     })
 
-  for (var i = 0; i <= getContentsTexts?.length; i++) {
-    for (var j = 0; j <= getContentsTexts[i]?.length; j++) {
-      for (var n = 0; n <= getContentsTexts[i][j]?.length; n++) {
+  for (let i = 0; i <= getContentsTexts?.length; i++) {
+    for (let j = 0; j <= getContentsTexts[i]?.length; j++) {
+      for (let n = 0; n <= getContentsTexts[i][j]?.length; n++) {
         if (getContentsTexts[i][j][n]?.hasOwnProperty('children')) {
           const baseChildren = getContentsTexts[i][j][n]?.children.map(
             ({ children }: any) => {

@@ -4,7 +4,9 @@ import type { HardhatRuntimeEnvironment } from 'hardhat/types'
 import { isAvaxNetwork, isEosEvmTestnetNetwork } from '../tasks/utils'
 import { contractNames } from '../ts/deploy'
 
-const deployVerifierContract: DeployFunction = async (hre: HardhatRuntimeEnvironment) => {
+const deployVerifierContract: DeployFunction = async (
+  hre: HardhatRuntimeEnvironment,
+) => {
   const { deployments, getNamedAccounts } = hre
   const { deployer } = await getNamedAccounts()
   const { deploy } = deployments
@@ -16,7 +18,8 @@ const deployVerifierContract: DeployFunction = async (hre: HardhatRuntimeEnviron
     gasLimit: 8000000,
     args: [],
     log: true,
-    deterministicDeployment: !isAvaxNetwork(chainId) && !isEosEvmTestnetNetwork(chainId),
+    deterministicDeployment:
+      !isAvaxNetwork(chainId) && !isEosEvmTestnetNetwork(chainId),
   })
 }
 

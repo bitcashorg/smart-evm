@@ -9,7 +9,10 @@ import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers'
 import weth9Networks from 'canonical-weth/networks.json'
 import type { TypedDataDomain } from '../ts/ethers'
 
-export function domain(chainId: number, verifyingContract: string): TypedDataDomain {
+export function domain(
+  chainId: number,
+  verifyingContract: string,
+): TypedDataDomain {
   return {
     name: 'AccessManager',
     version: 'v1',
@@ -35,7 +38,9 @@ export async function getAllowListOffChainManagedContract({
   ethers,
   deployments,
 }: HardhatRuntimeEnvironment): Promise<Contract> {
-  const authenticatorDeployment = await deployments.get('AllowListOffChainManaged')
+  const authenticatorDeployment = await deployments.get(
+    'AllowListOffChainManaged',
+  )
 
   const authenticator = new Contract(
     authenticatorDeployment.address,
@@ -49,7 +54,9 @@ export async function getDepositAndPlaceOrderContract({
   ethers,
   deployments,
 }: HardhatRuntimeEnvironment): Promise<Contract> {
-  const depositAndPlaceOrderDeployment = await deployments.get('DepositAndPlaceOrder')
+  const depositAndPlaceOrderDeployment = await deployments.get(
+    'DepositAndPlaceOrder',
+  )
 
   const authenticator = new Contract(
     depositAndPlaceOrderDeployment.address,
@@ -59,7 +66,9 @@ export async function getDepositAndPlaceOrderContract({
   return authenticator
 }
 
-export async function getWETH9Address(hre: HardhatRuntimeEnvironment): Promise<string> {
+export async function getWETH9Address(
+  hre: HardhatRuntimeEnvironment,
+): Promise<string> {
   // Todo: to be refactored...
   let weth9Address = ''
   const chainId = (await hre.ethers.provider.getNetwork()).chainId
@@ -85,7 +94,8 @@ export async function getWETH9Address(hre: HardhatRuntimeEnvironment): Promise<s
 export const isAvaxNetwork = (chainId: number): boolean =>
   chainId === 43113 || chainId === 43114
 
-export const isEosEvmTestnetNetwork = (chainId: number): boolean => chainId === 15557
+export const isEosEvmTestnetNetwork = (chainId: number): boolean =>
+  chainId === 15557
 
 export async function getNetworkName(
   hardhatRuntime: HardhatRuntimeEnvironment,
@@ -102,7 +112,9 @@ type NetworkMap = {
   [key: string]: string
 }
 
-export async function getEhtersSigners(hardhatRuntime: HardhatRuntimeEnvironment) {
+export async function getEhtersSigners(
+  hardhatRuntime: HardhatRuntimeEnvironment,
+) {
   let signers
   const networkName = await getNetworkName(hardhatRuntime)
 

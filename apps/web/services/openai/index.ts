@@ -8,7 +8,9 @@ const openai = createOpenAI({
 
 export async function openAiTranslate(content: string, locale: string) {
   // console.log('openAiTranslate', locale, content)
-  let text, finishReason, usage
+  let text
+  let finishReason
+  let usage
   try {
     const response = await generateText({
       model: openai('gpt-3.5-turbo'),

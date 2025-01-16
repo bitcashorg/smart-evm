@@ -3,7 +3,8 @@ export default {
   step: [
     {
       title: 'Inscrivez-vous et\ncomplétez votre KYC',
-      description: 'Complétez un KYC Bitcash pour garantir votre participation.',
+      description:
+        'Complétez un KYC Bitcash pour garantir votre participation.',
       href: 'https://app.bitcash.org/?share=JVnL7qzrU',
     },
     {

@@ -78,8 +78,8 @@ const content = {
   title: <>Earn For Sharing With Friends!</>,
   paragraph: (
     <>
-      Join our referral program and earn exclusive rewards for every friend you refer. The
-      more you share, the more you earn!
+      Join our referral program and earn exclusive rewards for every friend you
+      refer. The more you share, the more you earn!
     </>
   ),
   paragraph2: <>SHARE • REGISTER • CONTRIBUTE • EARN</>,

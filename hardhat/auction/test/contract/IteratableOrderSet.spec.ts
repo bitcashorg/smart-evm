@@ -8,7 +8,8 @@ import {
   queueStartElement,
 } from '../../src/priceCalculation'
 
-const QUEUE_END = '0xffffffffffffffffffffffffffffffffffffffff000000000000000000000001'
+const QUEUE_END =
+  '0xffffffffffffffffffffffffffffffffffffffff000000000000000000000001'
 const BYTES32_ZERO = encodeOrder({
   userId: BigNumber.from(1),
   sellAmount: BigNumber.from(0),
@@ -158,18 +159,26 @@ describe('IterableOrderedOrderSet', () => {
     await set.insert(BYTES32_ONE)
     await set.insert(BYTES32_THREE)
 
-    expect(await set.callStatic.insertAt(BYTES32_TWO, BYTES32_ONE)).to.equal(true)
-    expect(await set.callStatic.insertAt(BYTES32_TWO, BYTES32_THREE)).to.equal(false)
+    expect(await set.callStatic.insertAt(BYTES32_TWO, BYTES32_ONE)).to.equal(
+      true,
+    )
+    expect(await set.callStatic.insertAt(BYTES32_TWO, BYTES32_THREE)).to.equal(
+      false,
+    )
   })
 
   it('should not allow to insert element with non-containing element-Before-New-One', async () => {
     await set.insert(BYTES32_THREE)
 
-    expect(await set.callStatic.insertAt(BYTES32_TWO, BYTES32_ONE)).to.equal(false)
+    expect(await set.callStatic.insertAt(BYTES32_TWO, BYTES32_ONE)).to.equal(
+      false,
+    )
   })
 
   it('should not allow to insert element with element not in front of other element', async () => {
-    expect(await set.callStatic.insertAt(BYTES32_TWO, BYTES32_THREE)).to.equal(false)
+    expect(await set.callStatic.insertAt(BYTES32_TWO, BYTES32_THREE)).to.equal(
+      false,
+    )
   })
 
   it('should not allow to insert queue start element', async () => {
@@ -214,7 +223,9 @@ describe('IterableOrderedOrderSet', () => {
   })
 
   it('cannot get first of empty list', async () => {
-    await expect(set.first()).to.be.revertedWith('Trying to get first from empty set')
+    await expect(set.first()).to.be.revertedWith(
+      'Trying to get first from empty set',
+    )
   })
 
   it('cannot get next of non-existent element', async () => {
@@ -274,7 +285,9 @@ describe('IterableOrderedOrderSet', () => {
       await set.insert(BYTES32_FOUR)
 
       await set.removeKeepHistory(BYTES32_TWO)
-      expect(await set.callStatic.insertAt(BYTES32_THREE, BYTES32_TWO)).to.equal(true)
+      expect(
+        await set.callStatic.insertAt(BYTES32_THREE, BYTES32_TWO),
+      ).to.equal(true)
       await set.insertAt(BYTES32_THREE, BYTES32_TWO)
 
       const first = await set.first()
@@ -417,7 +430,9 @@ describe('IterableOrderedOrderSet', () => {
     await set.insert(BYTES32_TWO)
 
     expect(await set.callStatic.remove(BYTES32_THREE)).to.equal(false)
-    expect(await set.callStatic.removeKeepHistory(BYTES32_THREE)).to.equal(false)
+    expect(await set.callStatic.removeKeepHistory(BYTES32_THREE)).to.equal(
+      false,
+    )
   })
 
   it('can add element BYTES32_ONE => rate of startingElement ==0', async () => {

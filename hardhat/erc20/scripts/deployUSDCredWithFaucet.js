@@ -1,8 +1,12 @@
 const { ethers } = require('hardhat')
 
 async function main() {
-  const USDCredTokenWithFaucet = await ethers.getContractFactory('USDCredTokenWithFaucet')
-  const token = await USDCredTokenWithFaucet.deploy(ethers.utils.parseUnits('1000000', 6))
+  const USDCredTokenWithFaucet = await ethers.getContractFactory(
+    'USDCredTokenWithFaucet',
+  )
+  const token = await USDCredTokenWithFaucet.deploy(
+    ethers.utils.parseUnits('1000000', 6),
+  )
 
   await token.deployed()
 

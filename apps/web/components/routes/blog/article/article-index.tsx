@@ -67,7 +67,9 @@ export function ArticleIndex({ articleHeaders }: ArticleIndexProps) {
                 href={`#${header.anchor}`}
                 className={cn(
                   'text-sm font-bold transition-all hover:text-primary-200 hover:underline focus:text-primary-200 focus:underline',
-                  activeSection?.anchor === header.anchor ? 'text-primary-200' : '',
+                  activeSection?.anchor === header.anchor
+                    ? 'text-primary-200'
+                    : '',
                 )}
               >
                 {header.text}

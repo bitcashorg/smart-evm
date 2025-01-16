@@ -27,7 +27,13 @@ export function useDepositAndPlaceOrder() {
     writeContract({
       ...TestnetEasyAuction, // Ensure this contains the correct ABI and contract address
       functionName: 'placeSellOrders',
-      args: [auctionId, minBuyAmounts, sellAmounts, prevSellOrders, allowListCallData],
+      args: [
+        auctionId,
+        minBuyAmounts,
+        sellAmounts,
+        prevSellOrders,
+        allowListCallData,
+      ],
     })
   }
 

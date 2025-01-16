@@ -9,7 +9,8 @@
   "author": "gaboesquivel.com",
   "license": "ISC",
   "dependencies": {
-    "viem": "latest"
+    "viem": "latest",
+    "@repo/chains": "workspace:*"
   },
   "devDependencies": {
     "@repo/tsconfig": "workspace:*",

@@ -353,7 +353,7 @@ export const whitepaper = {
     },
     {
       type: 'p',
-      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org',
+      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitlauncher Telegram: https://t.me/bitcash_org',
     },
     { type: 'h1', text: '詞彙表' },
     {

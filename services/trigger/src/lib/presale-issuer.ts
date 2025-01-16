@@ -39,7 +39,9 @@ export async function issuePresaleTokens(
   try {
     const parsedEnv = envSchema.safeParse(process.env)
     if (!parsedEnv.success)
-      throw new Error(`Environment validation failed: ${parsedEnv.error.message}`)
+      throw new Error(
+        `Environment validation failed: ${parsedEnv.error.message}`,
+      )
 
     const account = privateKeyToAccount(`0x${parsedEnv.data.ISSUER_KEY}`)
 

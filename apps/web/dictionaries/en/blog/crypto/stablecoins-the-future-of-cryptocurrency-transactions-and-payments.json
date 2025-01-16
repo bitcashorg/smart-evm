@@ -2,7 +2,10 @@
   "relatedBlogs": [
     {
       "id": "167101094",
-      "topics": ["Getting Started", "Tokenomics"],
+      "topics": [
+        "Getting Started",
+        "Tokenomics"
+      ],
       "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
       "slug": "tokenomics-101-unleashing-the-power-of-cryptocurrency",
       "authorName": "Crypto Clairity",
@@ -29,7 +32,10 @@
     },
     {
       "id": "166981063",
-      "topics": ["Getting Started", "DAO"],
+      "topics": [
+        "Getting Started",
+        "DAO"
+      ],
       "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
       "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
       "authorName": "Crypto Clairity",
@@ -50,7 +56,10 @@
     },
     {
       "id": "165744328",
-      "topics": ["Getting Started", "How-To"],
+      "topics": [
+        "Getting Started",
+        "How-To"
+      ],
       "title": "Stay Ahead of the Game: A Guide to Staying Informed and Educated in the World of Cryptocurrency",
       "slug": "stay-ahead-of-the-game-a-guide-to-staying-informed-and-educated-in-the-world-of-c",
       "authorName": "Crypto Clairity",
@@ -77,7 +86,10 @@
     },
     {
       "id": "165685913",
-      "topics": ["DeFi", "Getting Started"],
+      "topics": [
+        "DeFi",
+        "Getting Started"
+      ],
       "title": "Decentralize Your Finance: An Introduction to the World of DeFi",
       "slug": "decentralize-your-finance-an-introduction-to-the-world-of-defi",
       "authorName": "Crypto Clairity",
@@ -104,7 +116,10 @@
     },
     {
       "id": "165685908",
-      "topics": ["Getting Started", "Fundraising"],
+      "topics": [
+        "Getting Started",
+        "Fundraising"
+      ],
       "title": "Disrupt the Status Quo: How Cryptocurrency is Revolutionizing Fundraising and Crowdfunding",
       "slug": "disrupt-the-status-quo-how-cryptocurrency-is-revolutionizing-fundraising-and-crow",
       "authorName": "Crypto Clairity",
@@ -131,7 +146,10 @@
     },
     {
       "id": "165673014",
-      "topics": ["Getting Started", "Investment"],
+      "topics": [
+        "Getting Started",
+        "Investment"
+      ],
       "title": "Crypto Investing 101: How to Use Cryptocurrency for Investment and Asset Management",
       "slug": "crypto-investing-101-how-to-use-cryptocurrency-for-investment-and-asset-managemen",
       "authorName": "Crypto Clairity",
@@ -159,7 +177,10 @@
   ],
   "blogContent": {
     "id": "165742753",
-    "topics": ["Getting Started", "Payments"],
+    "topics": [
+      "Getting Started",
+      "Payments"
+    ],
     "title": "Stablecoins: The Future of Cryptocurrency Transactions and Payments",
     "slug": "stablecoins-the-future-of-cryptocurrency-transactions-and-payments",
     "authorName": "Crypto Clairity",
@@ -375,5 +396,9 @@
       }
     }
   },
-  "topics": ["Getting Started", "Payments"]
+  "topics": [
+    "Getting Started",
+    "Payments"
+  ],
+  "shortLink": ""
 }

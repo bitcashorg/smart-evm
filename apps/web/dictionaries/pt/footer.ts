@@ -14,7 +14,8 @@ export default {
     },
     {
       title: 'Lugar de lances',
-      description: 'Selecione um projeto na lista de leilões e faça seus lances.',
+      description:
+        'Selecione um projeto na lista de leilões e faça seus lances.',
       href: '#',
     },
   ],

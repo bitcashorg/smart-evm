@@ -1,4 +1,4 @@
-import type { Abi, Address } from 'abitype'
+import type { Abi, Address } from 'viem'
 import type { Chain } from 'viem'
 
 export interface ContractData {

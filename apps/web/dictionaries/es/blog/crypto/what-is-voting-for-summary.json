@@ -2,54 +2,74 @@
   "relatedBlogs": [
     {
       "id": "167184977",
-      "topics": ["Tokenomia", "DAO", "Recaudacion de fondos"],
-      "title": "Revolucionando el Modelo de Equidad: Como la Tokenomia esta Transformando el Mundo de las Startups",
+      "topics": [
+        "Tokenomics",
+        "DAO",
+        "Fundraising"
+      ],
+      "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
       "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:02:51+01:00",
-      "description": "Descubre el futuro de las startups con la tokenomia! Explora como este concepto innovador esta remodelando el modelo de equidad y revolucionando el panorama de las startups.",
+      "description": "Unlock the future of startups with tokenomics! Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
       },
       "seo": {
-        "title": "Como la Tokenomia esta Transformando el Mundo de las Startups",
-        "description": "Explora como este concepto innovador esta remodelando el modelo de equidad y revolucionando el panorama de las startups."
+        "description": "Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
+        "title": "How Tokenomics is Disrupting the Startup World",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
+        }
       }
     },
     {
       "id": "166981063",
-      "topics": ["Primeros pasos", "DAO"],
-      "title": "El Futuro esta Aqui: El Auge de las Organizaciones Autonomas Descentralizadas (DAOs)",
+      "topics": [
+        "Getting Started",
+        "DAO"
+      ],
+      "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
       "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:02+01:00",
-      "description": "Explora el auge de las Organizaciones Autonomas Descentralizadas (DAOs) en nuestra guia. Comprende el futuro de los negocios y las oportunidades para las startups.",
+      "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
       },
       "seo": {
-        "title": "El Auge de las Organizaciones Autonomas Descentralizadas",
-        "description": "Explora el auge de las Organizaciones Autonomas Descentralizadas (DAOs) en nuestra guia. Comprende el futuro de los negocios y las oportunidades para las startups."
+        "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
+        "title": "The Rise of Decentralized Autonomous Organizations ",
+        "twitterCard": null,
+        "image": null
       }
     }
   ],
   "blogContent": {
     "id": "180563903",
-    "topics": ["DAO", "Resumen"],
-    "title": "¿Para que sirve votar? [Resumen]",
+    "topics": [
+      "DAO",
+      "Summary"
+    ],
+    "title": "What is Voting For? [Summary]",
     "slug": "what-is-voting-for-summary",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T09:10:58+01:00",
-    "description": "Descubre la esencia de la votacion en sistemas descentralizados. Obtén informacion sobre el verdadero proposito y poder del voto en blockchain.",
+    "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
     },
@@ -292,8 +312,8 @@
       }
     ],
     "seo": {
-      "description": "Descubre la esencia de la votacion en sistemas descentralizados. Obtén informacion sobre el verdadero proposito y poder del voto en blockchain.",
-      "title": "¿Para que sirve votar? [Resumen]",
+      "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
+      "title": "What is Voting For? [Summary]",
       "twitterCard": null,
       "image": {
         "width": 862,
@@ -304,5 +324,9 @@
       }
     }
   },
-  "topics": ["DAO", "Resumen"]
+  "topics": [
+    "DAO",
+    "Summary"
+  ],
+  "shortLink": ""
 }

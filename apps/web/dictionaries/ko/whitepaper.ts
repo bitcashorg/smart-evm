@@ -353,7 +353,7 @@ export const whitepaper = {
     },
     {
       type: 'p',
-      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org',
+      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitlauncher Telegram: https://t.me/bitcash_org',
     },
     { type: 'h1', text: '용어 사전' },
     {
@@ -363,7 +363,7 @@ export const whitepaper = {
     { type: 'h1', text: '연락처 정보' },
     {
       type: 'p',
-      text: 'Bitcash 플랫폼 및 토큰 판매에 대한 추가 문의, 지원 또는 추가 정보가 필요한 경우 다음 채널을 사용하여 당사에 문의하십시오. 일반 지원 및 문의: 이메일: support@bitcash.org 미디어 및 언론: 이메일: press@bitcash. org 개발자 지원: 이메일:developers@bitcash.org 소셜 미디어: Twitter: @bitcashorg / @bitlauncherai 블로그: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https:// www.youtube.com/@bitcashorg 텔레그램: https://t.me/bitcash_org 실시간 업데이트 및 공지를 보려면 소셜 미디어 플랫폼에서 우리를 팔로우하고 커뮤니티 토론에 참여하세요. 우리는 투명성과 열린 의사소통을 위해 최선을 다하고 있으며 여러분의 참여와 피드백을 기대합니다. 참여 과정 중이나 이후에 문제가 발생하거나 도움이 필요한 경우, 당사의 전담 지원팀이 귀하의 문의 사항을 신속하고 효율적으로 해결할 수 있도록 도와드립니다..',
+      text: 'Bitcash 플랫폼 및 토큰 판매에 대한 추가 문의, 지원 또는 추가 정보가 필요한 경우 다음 채널을 사용하여 당사에 문의하십시오. 일반 지원 및 문의: 이메일: support@bitcash.org 미디어 및 언론: 이메일: press@bitcash. org 개발자 지원: 이메일:developers@bitcash.org 소셜 미디어: Twitter: @bitcashorg / @bitlauncherai 블로그: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https:// www.youtube.com/@bitcashorg 텔레그램: https://t.me/bitcash_org 실시간 업데이트 및 공지를 보려면 소셜 미디어 플랫폼에서 우리를 팔로우하고 커뮤니티 토론에 참여하세요. 우리는 투명성과 열린 의사소통을 위해 최선을 다하고 있으며 여러분의 참여와 피드백을 기대합니다. 참여 과정 중이나 이후에 문제가 발생하거나 도움이 필요한 경우, 당사의 전담 지원팀이 귀하의 문의 사항을 신속하고 효율적으로 해결할 수 있도록 도와드립니다..',
     },
   ] as PageContentData,
 }

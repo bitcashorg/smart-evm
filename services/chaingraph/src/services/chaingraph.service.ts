@@ -1,10 +1,10 @@
-import { loadEnvConfig } from '@repo/config';
-import { createChaingraphClient } from '../index';
+import { loadEnvConfig } from '@repo/config'
+import { createChaingraphClient } from '../index'
 
 const chaingraph = createChaingraphClient()
 // ? use prod for query test only or change the env to prod (but everything becomes prod)
 // const envConfig = loadEnvConfig('prod');
-const envConfig = loadEnvConfig(process.env.NEXT_PUBLIC_APP_ENV || 'dev');
+const envConfig = loadEnvConfig(process.env.NEXT_PUBLIC_APP_ENV || 'dev')
 
 async function checkIfAccountIsRegistered(account: string) {
   const result = await chaingraph.query({
@@ -49,9 +49,9 @@ async function checkAccountReferral(account: string) {
             data: {
               _contains: {
                 // ? Use 'andler.bk' or 'andlerdev.bk' for testing
-                referrer: account
-              }
-            }
+                referrer: account,
+              },
+            },
           },
         },
         data: true,
@@ -62,18 +62,17 @@ async function checkAccountReferral(account: string) {
     }
 
     return {
-      referrals: table_rows.map(row => row.data),
-      error: null
+      referrals: table_rows.map((row) => row.data),
+      error: null,
     }
   } catch (error) {
     console.log('[ERROR] [checkAccountReferral]', error)
     return {
       error,
-      referrals: null
+      referrals: null,
     }
   }
 }
-
 
 export const chaingraphService = {
   checkIfAccountIsRegistered,

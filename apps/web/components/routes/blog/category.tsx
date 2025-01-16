@@ -60,7 +60,11 @@ export function CategoryComponent({ params, sections }: BlogCategoryPageProps) {
         //  console.log("contents::", contents)
         return (
           contents.length > 0 && (
-            <section className="container mt-space-80" key={index} id={section.topic}>
+            <section
+              className="container mt-space-80"
+              key={index}
+              id={section.topic}
+            >
               <div className="flex items-center justify-between mb-space-32">
                 <span className="font-semibold text-black capitalize sub-2-lg dark:text-white">
                   {section.topic}
@@ -76,7 +80,9 @@ export function CategoryComponent({ params, sections }: BlogCategoryPageProps) {
                   )}
                   shallow
                 >
-                  <b>{filteredSectionContent ? 'Return to all' : 'Go to topic'}</b>
+                  <b>
+                    {filteredSectionContent ? 'Return to all' : 'Go to topic'}
+                  </b>
                   <LucideIcons.chevronRight className="h-4 w-7" />
                 </Link>
               </div>

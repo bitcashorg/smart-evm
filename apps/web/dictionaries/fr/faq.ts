@@ -23,7 +23,8 @@ export default {
         "La vente de jetons est ouverte à un public mondial, avec des restrictions spécifiques excluant les participants des États-Unis et des pays sanctionnés par les États-Unis pour se conformer aux normes réglementaires et assurer la participation la plus large possible tout en maintenant l'intégrité légale.",
     },
     {
-      question: "Qu'est-ce qui distingue ce projet des autres ICO ou ventes de jetons?",
+      question:
+        "Qu'est-ce qui distingue ce projet des autres ICO ou ventes de jetons?",
       answer:
         "Notre projet se concentre de manière unique sur le secteur de l'IA, en employant un modèle de tokenomique de mint-and-burn qui reflète le modèle d'actionnariat, en mettant l'accent sur la croissance durable, la transparence et l'engagement communautaire dans l'écosystème des startups technologiques.",
     },
@@ -59,7 +60,7 @@ export default {
     {
       question: 'Où puis-je trouver plus d’informations ou m’impliquer?',
       answer:
-        "Pour plus d'informations détaillées, des mises à jour et pour rejoindre notre communauté, visitez notre site officiel, rejoignez nos chaînes de médias sociaux et abonnez-vous à notre newsletter. Nous accueillons toutes les personnes intéressées à contribuer ou à participer à l'avenir de l'IA et de la cryptomonnaie via notre plateforme de lancement. Linktree : https://linktr.ee/bitlauncher, Twitter : @bitcashorg / @bitlauncherai, Blog : https://blog.bitcash.org/, Discord : https://discord.gg/eJCfx4JAqY, Youtube : https://www.youtube.com/@bitcashorg, Telegram : https://t.me/bitcash_org. À travers ces FAQ, nous visons à répondre aux questions essentielles concernant notre projet, en éclaircissant notre engagement envers l'innovation, la transparence et l'autonomisation communautaire dans les paysages en évolution de l'IA et de la cryptomonnaie.",
+        "Pour plus d'informations détaillées, des mises à jour et pour rejoindre notre communauté, visitez notre site officiel, rejoignez nos chaînes de médias sociaux et abonnez-vous à notre newsletter. Nous accueillons toutes les personnes intéressées à contribuer ou à participer à l'avenir de l'IA et de la cryptomonnaie via notre plateforme de lancement. Linktree : https://linktr.ee/bitlauncher, Twitter : @bitcashorg / @bitlauncherai, Blog : https://bitlauncher.ai/blog/, Discord : https://discord.gg/eJCfx4JAqY, Youtube : https://www.youtube.com/@bitlauncher, Telegram : https://t.me/bitcash_org. À travers ces FAQ, nous visons à répondre aux questions essentielles concernant notre projet, en éclaircissant notre engagement envers l'innovation, la transparence et l'autonomisation communautaire dans les paysages en évolution de l'IA et de la cryptomonnaie.",
     },
   ],
 } as const

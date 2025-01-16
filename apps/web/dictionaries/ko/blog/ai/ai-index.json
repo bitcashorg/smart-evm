@@ -1,20 +1,22 @@
 {
   "sections": [
     {
-      "name": "앱",
+      "name": "Apps",
       "slug": "apps",
       "articles": [
         {
           "id": "SpdLuuYEQgW8rwSHNzhmxA",
-          "topics": ["앱"],
-          "title": "마스터봇: 소셜 공유와 사용자 친화적 혁신으로 ChatGPT를 넘어서는 AI",
+          "topics": [
+            "Apps"
+          ],
+          "title": "Masterbots: Elevating AI Beyond ChatGPT with Social Sharing and User-Friendly Innovation",
           "slug": "masterbots-elevating-ai-beyond-chatgpt-with-social-sharing-and-user-friendly-inno",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-06-22T16:00:40+01:00",
-          "description": "이 블로그는 사용자 친화적이고 도메인별 챗봇과 독특한 소셜 공유 기능으로 AI 상호작용을 혁신하는 플랫폼인 마스터봇을 소개하며, 오픈소스 커뮤니티 주도 개발에 협력자들의 참여를 초대합니다.",
+          "description": "The blog introduces Masterbots, a platform revolutionizing AI interaction with user-friendly, domain-specific chatbots and a unique social sharing feature, inviting collaborators to join its open-source, community-driven development.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1712270604-screenshot-2024-04-04-at-3-43-11-pm.png"
           },
@@ -35,20 +37,24 @@
       ]
     },
     {
-      "name": "요약",
+      "name": "Summary",
       "slug": "summary",
       "articles": [
         {
           "id": "190259319",
-          "topics": ["요약", "LLM", "훈련"],
-          "title": "잠재 공간 팟캐스트 8/16/23 [요약] - Eleuther AI의 Quentin Anthony와 함께하는 LLM 훈련의 수학",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Training"
+          ],
+          "title": "Latent Space Podcast 8/16/23 [Summary] - The Mathematics of Training LLMs — with Quentin Anthony of Eleuther AI",
           "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:19:45+01:00",
-          "description": "Eleuther AI의 Quentin Anthony와 함께 LLM 훈련 배후의 수학을 탐구합니다. Transformers Math 101 기사를 깊이 살펴보고 최고의 GPU 성능을 위한 분산 훈련 기술을 마스터하세요.",
+          "description": "Explore the math behind training LLMs with Quentin Anthony from Eleuther AI. Dive into the Transformers Math 101 article & master distributed training techniques for peak GPU performance.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692324088-screenshot-2023-08-17-at-9-59-17-pm.png"
           },
@@ -68,15 +74,20 @@
         },
         {
           "id": "190259129",
-          "topics": ["LLM", "하드웨어", "요약", "엣지"],
-          "title": "잠재 공간 팟캐스트 8/10/23 [요약]: 모든 곳에서의 LLM: MLC를 사용하여 브라우저와 아이폰에서 70B 모델 실행 - CMU / OctoML의 천치앙과 함께",
+          "topics": [
+            "LLM",
+            "Hardware",
+            "Summary",
+            "Edge"
+          ],
+          "title": "Latent Space Podcast 8/10/23 [Summary]: LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:18:37+01:00",
-          "description": "천치앙과 함께 MLC의 마법을 탐험하세요: 브라우저와 아이폰에 70B 모델 배포. XGBoost, TVM의 창조, 그리고 보편적 AI 배포의 미래에 대해 깊이 있게 알아보세요.",
+          "description": "Explore the magic of MLC with Tianqi Chen: deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
           },
@@ -96,15 +107,21 @@
         },
         {
           "id": "190259087",
-          "topics": ["요약", "LLM", "코드", "오픈 소스", "소형 모델"],
-          "title": "잠재 공간 팟캐스트 8/4/23 [요약] 잠재 공간 x AI 브레이크다운 크로스오버 팟!",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:16:33+01:00",
-          "description": "AI 브레이크다운과 잠재 공간의 여름 AI 기술 요약에 참여하세요: GPT4.5, Llama 2, AI 도구, 부상하는 AI 엔지니어 등에 대해 알아보세요!",
+          "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
           },
@@ -124,15 +141,20 @@
         },
         {
           "id": "190259111",
-          "topics": ["요약", "트랜스포머", "훈련", "오픈 소스"],
-          "title": "잠재 공간 팟캐스트 7/26/23 [요약] 플래시어텐션 2: 트랜스포머를 800% 더 빠르게 만들기 - 투게더 AI의 트리 다오",
+          "topics": [
+            "Summary",
+            "Transformers",
+            "Training",
+            "Open Source"
+          ],
+          "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:14:13+01:00",
-          "description": "트리 다오와 함께 플래시어텐션이 AI 속도를 어떻게 혁명적으로 바꾸었는지 알아보고, 그가 플래시어텐션 2의 힘을 공개하며 스탠포드의 헤이지 랩과 미래 AI 통찰력을 탐구합니다.",
+          "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2, dives into Stanford's Hazy Lab & future AI insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
           },
@@ -152,15 +174,20 @@
         },
         {
           "id": "190259172",
-          "topics": ["요약", "LLM", "오픈 소스", "소형 모델"],
-          "title": "잠재 공간 팟캐스트 7/19/23 [요약] - 라마 2: 새로운 오픈 LLM SOTA (출연: 네이선 램버트, 매트 본스타인, 안톤 트로이니코프, 러셀 캐플란, 전체 화성 카탈로그 등)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
           "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:12:38+01:00",
-          "description": "네이선 램버트, 매트 본스타인 등 전문가들과 함께 최신 AI 혁신인 라마 2를 탐구합니다. 데이터셋, 벤치마크 및 AI 예측에 대해 깊이 있게 살펴봅니다. 이 최고의 팟캐스트에서 라마에 대한 통찰과 드라마를 만나보세요!",
+          "description": "Explore Llama 2, the latest AI breakthrough with experts Nathan Lambert, Matt Bornstein & more. Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
           },
@@ -180,15 +207,19 @@
         },
         {
           "id": "190259191",
-          "topics": ["요약", "코드", "LLM"],
-          "title": "잠재 공간 팟캐스트 7/10/23 [요약] - 코드 인터프리터 == GPT 4.5 (Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley 등과 함께)",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM"
+          ],
+          "title": "Latent Space Podcast 7/10/23 [Summary] - Code Interpreter == GPT 4.5 (w/ Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, et al.)",
           "slug": "latent-space-podcast-7-10-23-summary-code-interpreter-gpt-4-5-w-simon-willison-al",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:09:26+01:00",
-          "description": "ChatGPT의 코드 인터프리터: AI의 게임 체인저를 탐구합니다. Simon, Alex와 최고의 AI 전문가들과 함께 1000배 향상된 능력을 살펴보세요. #코드증강추론 #GPT4_5",
+          "description": "Explore ChatGPT's Code Interpreter: a game-changer in AI. Dive into its 1000x capabilities leap with Simon, Alex & top AI experts. #CodeAugmentedInference #GPT4_5",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692048911-screenshot-2023-08-14-at-3-34-05-pm.png"
           },
@@ -208,15 +239,18 @@
         },
         {
           "id": "190259216",
-          "topics": ["요약", "오픈 소스"],
-          "title": "잠재 공간 팟캐스트 7/2/23 [요약] AI 트렌드: 잠재 공간 x 실용 AI 크로스오버 팟!",
+          "topics": [
+            "Summary",
+            "Open Source"
+          ],
+          "title": "Latent Space Podcast 7/2/23 [Summary] AI Trends: a Latent Space x Practical AI crossover pod!",
           "slug": "latent-space-podcast-7-2-23-summary-ai-trends-a-latent-space-x-practical-ai-cross",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:08:36+01:00",
-          "description": "실용 AI와 잠재 공간의 융합을 탐구하며 2023년 주요 AI 트렌드를 살펴보고, 주목할 만한 에피소드를 되돌아보며, AI 진화에 대처하는 방법에 대한 통찰을 공유합니다.",
+          "description": "Explore the fusion of Practical AI & Latent Space as they delve into 2023's top AI trends, reflect on standout episodes, and share insights on navigating the AI evolution.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692146916-screenshot-2023-08-15-at-5-20-38-pm.png"
           },
@@ -236,15 +270,19 @@
         },
         {
           "id": "190259238",
-          "topics": ["하드웨어", "LLM", "요약"],
-          "title": "잠재 공간 팟캐스트 6/20/23 [요약] - 페타플롭의 상품화 — 타이니 코프의 조지 호츠와 함께",
+          "topics": [
+            "Hardware",
+            "LLM",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 6/20/23 [Summary] - Commoditizing the Petaflop — with George Hotz of the tiny corp",
           "slug": "latent-space-podcast-6-20-23-summary-commoditizing-the-petaflop-with-george-ho",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:07:15+01:00",
-          "description": "타이니 코프의 조지 호츠가 엔비디아와 구글에 도전장을 내밉니다! AMD 협력, ggml에 대한 통찰, 모조, 일론과 GPT-4, 그리고 AI 여자친구에 대한 이야기를 들어보세요.",
+          "description": "George Hotz of tiny corp challenges Nvidia & Google! Dive into the world of AMD collaborations, insights on ggml, Mojo, Elon & GPT-4, plus a peek into AI Girlfriend. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692154615-screenshot-2023-08-15-at-10-55-40-pm.png"
           },
@@ -264,15 +302,19 @@
         },
         {
           "id": "190259294",
-          "topics": ["LLM", "함수", "요약"],
-          "title": "잠재 공간 팟캐스트 6/14/23 [요약] - 긴급 팟캐스트: OpenAI의 새로운 함수 API, 75% 가격 인하, 4배 컨텍스트 길이 (Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin 등과 함께)",
+          "topics": [
+            "LLM",
+            "Functions",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 6/14/23 [Summary] - Emergency Pod: OpenAI's new Functions API, 75% Price Drop, 4x Context Length (w/ Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin et al)",
           "slug": "latent-space-podcast-6-14-23-summary-emergency-pod-openai-s-new-functions-api-75",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:05:04+01:00",
-          "description": "Scale, Microsoft, Pinecone, Huggingface의 최고 AI 엔지니어들과 함께 2023년 6월 OpenAI 업데이트를 탐구합니다. 코드 x LLM 패러다임을 깊이 살펴보고 재귀 함수 에이전트를 발견하세요.",
+          "description": "Explore the June 2023 OpenAI updates with top AI engineers from Scale, Microsoft, Pinecone, & Huggingface. Dive into the Code x LLM paradigms and discover Recursive Function Agents.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692221668-screenshot-2023-08-16-at-5-32-29-pm.png"
           },
@@ -292,15 +334,19 @@
         },
         {
           "id": "190259333",
-          "topics": ["LLM", "요약", "UX"],
-          "title": "잠재 공간 팟캐스트 6/8/23 [요약] - RLHF에서 RLHB로: 인간 행동으로부터 학습하는 사례 - Amplitude의 Jeffrey Wang과 Joe Reeve와 함께",
+          "topics": [
+            "LLM",
+            "Summary",
+            "UX"
+          ],
+          "title": "Latent Space Podcast 6/8/23 [Summary] - From RLHF to RLHB: The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude",
           "slug": "latent-space-podcast-6-8-23-summary-from-rlhf-to-rlhb-the-case-for-learning-from",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:02:33+01:00",
-          "description": "Latent Space Live에서 Jeffrey Wang과 Joe Reeve와 함께 AI와 분석에 대해 탐구하세요! AI가 분석을 중요시하는 이유와 자사 행동 데이터의 힘에 대해 깊이 있게 알아보세요.",
+          "description": "Explore AI & analytics with Jeffrey Wang & Joe Reeve on Latent Space Live! Dive into why AI values Analytics and the power of first-party behavioral data. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692386432-screenshot-2023-08-18-at-3-17-04-pm.png"
           },
@@ -320,15 +366,19 @@
         },
         {
           "id": "190260528",
-          "topics": ["요약", "LLM", "UX"],
-          "title": "잠재 공간 팟캐스트 6/1/23 [요약] - AI × UX 시니어스 구축 — Notion AI의 Linus Lee와 함께",
+          "topics": [
+            "Summary",
+            "LLM",
+            "UX"
+          ],
+          "title": "Latent Space Podcast 6/1/23 [Summary] - Building the AI × UX Scenius — with Linus Lee of Notion AI",
           "slug": "latent-space-podcast-6-1-23-summary-building-the-ai-x-ux-scenius-with-linus-le",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:00:12+01:00",
-          "description": "Notion AI의 혁신적인 AI와 UX 접근 방식을 탐구합니다. AI 증강 작업 공간의 미래, 채팅 인터페이스를 넘어선 가치, 효과적인 지식 작업에 대한 통찰력을 살펴보세요. AI×UX NYC 밋업 요약도 포함되어 있습니다!",
+          "description": "Explore Notion AI's transformative approach to AI and UX. Dive into the future of AI-augmented workspaces, the value beyond chat interfaces, and insights on effective knowledge work. Recap of AI×UX NYC meetup included!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692390655-screenshot-2023-08-18-at-4-28-51-pm.png"
           },
@@ -348,15 +398,20 @@
         },
         {
           "id": "190260557",
-          "topics": ["요약", "코드", "LLM", "에이전트"],
-          "title": "잠재 공간 팟캐스트 5/25/23 [요약] - Codium AI와 AutoGPT의 Itamar Friedman과 함께하는 AI 에이전트를 통한 인터넷 디버깅",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM",
+            "Agents"
+          ],
+          "title": "Latent Space Podcast 5/25/23 [Summary] - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
           "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:58:27+01:00",
-          "description": "Codium AI의 Itamar Friedman과 함께 'AI를 통한 인터넷 디버깅'에서 AI의 미래를 탐험하세요. '극단적 DRY' 에이전트, 사양과 테스트의 빠른 동기화, 코드와 테스트 사이의 균형에 대해 깊이 있게 알아보세요. 또한 Toran의 통찰력과 AutoGPT의 로드맵에 대한 독점적인 내용도 확인하실 수 있습니다!",
+          "description": "Explore the future of AI with Itamar Friedman from Codium AI on 'Debugging the Internet'. Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. Plus, insights from Toran & an exclusive look at AutoGPT's roadmap!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
           },
@@ -376,15 +431,19 @@
         },
         {
           "id": "190260640",
-          "topics": ["요약", "오픈 소스", "LLM"],
-          "title": "잠재 공간 팟캐스트 5/5/23 [요약] - 해자 없음: 폐쇄형 AI가 오픈 소스 각성을 맞이하다 — 사이먼 윌리슨 출연",
+          "topics": [
+            "Summary",
+            "Open Source",
+            "LLM"
+          ],
+          "title": "Latent Space Podcast 5/5/23 [Summary] - No Moat: Closed AI gets its Open Source wakeup call — ft. Simon Willison",
           "slug": "latent-space-podcast-5-5-23-summary-no-moat-closed-ai-gets-its-open-source-wakeup",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:49:18+01:00",
-          "description": "사이먼 윌리슨과 함께 '해자 없음: 폐쇄형 AI의 오픈 소스 각성'을 탐구합니다. 유출된 구글 해자 메모의 통찰, 구글 브레인 드레인, 그리고 모조를 통한 파이썬의 속도 향상에 대해 깊이 있게 살펴봅니다.",
+          "description": "Explore 'No Moat: Closed AI's Open Source Awakening' with Simon Willison. Dive into leaked Google Moat memo insights, Google Brain Drain, and Python's speed boost with Mojo.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692566921-screenshot-2023-08-20-at-5-25-53-pm.png"
           },
@@ -404,15 +463,19 @@
         },
         {
           "id": "190260671",
-          "topics": ["LLM", "코드", "요약"],
-          "title": "잠재 공간 팟캐스트 5/3/23 [요약] - 1주일 만에 최첨단 코드 LLM 훈련과 분위기 정량화 - Replit의 Reza Shabani와 함께",
+          "topics": [
+            "LLM",
+            "Code",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 5/3/23 [Summary] - Training a SOTA Code LLM in 1 week and Quantifying the Vibes — with Reza Shabani of Replit",
           "slug": "latent-space-podcast-5-3-23-summary-training-a-sota-code-llm-in-1-week-and-quanti",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:46:08+01:00",
-          "description": "Reza Shabani와의 10회 에피소드: 최첨단 코드 LLM의 빠른 훈련에 대해 깊이 있게 살펴보고, Replit Ghostwriter의 미래를 탐색하며, 금융에서 AI로의 여정을 경험해보세요. Kaplan에서 Chinchilla로의 전환 등을 알아보세요!",
+          "description": "Ep. 10 with Reza Shabani: Dive deep into the rapid training of a state-of-the-art Code LLM, explore Replit Ghostwriter's future, and journey from Finance to AI. Discover the transition from Kaplan to Chinchilla and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692584998-screenshot-2023-08-20-at-10-17-26-pm.png"
           },
@@ -432,15 +495,19 @@
         },
         {
           "id": "190629271",
-          "topics": ["LLM", "소형 모델", "요약"],
-          "title": "잠재 공간 팟캐스트 4/28/23 [요약] - Databricks의 Mike Conover와 함께 *진정한* 오픈 모델과 30달러로 Dolly 훈련의 미래를 매핑하다",
+          "topics": [
+            "LLM",
+            "Small Models",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 4/28/23 [Summary] - Mapping the future of *truly* Open Models and Training Dolly for $30 — with Mike Conover of Databricks",
           "slug": "latent-space-podcast-4-28-23-summary-mapping-the-future-of-truly-open-models-and",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:33:12+01:00",
-          "description": "Databricks의 Mike Conover와 함께 오픈 모델의 미래를 탐험하세요. Dolly의 창조, 1.0에서 2.0으로의 전환, 그리고 개발에 영향을 준 요소들을 깊이 있게 살펴봅니다. 에피소드 9는 모델 인프라, Databricks의 비전 등을 다룹니다. #AI #오픈모델 #Dolly",
+          "description": "Explore the future of open models with Mike Conover of Databricks. Dive deep into Dolly's creation, its transition from 1.0 to 2.0, & the influences behind its development. Ep.9 touches on model infrastructure, Databricks' vision, & more. #AI #OpenModels #Dolly",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694038707-screenshot-2023-09-06-at-3-12-24-pm.png"
           },
@@ -460,15 +527,19 @@
         },
         {
           "id": "191164291",
-          "topics": ["LLM", "엔터프라이즈", "요약"],
-          "title": "잠재 공간 팟캐스트 4/21/23 [요약] - Glean의 Deedy Das와 함께하는 엔터프라이즈를 위한 AI 기반 검색",
+          "topics": [
+            "LLM",
+            "Enterprise",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 4/21/23 [Summary] - AI-powered Search for the Enterprise — with Deedy Das of Glean",
           "slug": "latent-space-podcast-4-21-23-summary-ai-powered-search-for-the-enterprise-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:31:31+01:00",
-          "description": "에피소드 8: Glean의 Deedy Das와 함께 엔터프라이즈 검색에서의 AI를 탐구합니다. AI 검색 거인을 만드는 과정의 도전과제, Google과 ChatGPT 비교, AI 인프라의 복잡성, AI 생성 텍스트 식별, 그리고 기업이 단순한 문서 QA 이상을 필요로 하는 이유를 파헤칩니다.",
+          "description": "Ep.8: Dive into AI in enterprise search with Deedy Das of Glean. Unpack challenges in creating an AI search giant, Google vs ChatGPT comparisons, AI infrastructure intricacies, spotting AI-generated text, and why businesses need more than just Document QA.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694134074-screenshot-2023-09-07-at-5-43-48-pm.png"
           },
@@ -488,15 +559,18 @@
         },
         {
           "id": "191165673",
-          "topics": ["요약", "비전"],
-          "title": "잠재 공간 팟캐스트 4/13/23 [요약] - 로보플로우의 조셉 넬슨과 함께하는 세그먼트 애니씽 모델과 컴퓨터 비전의 어려운 문제들",
+          "topics": [
+            "Summary",
+            "Vision"
+          ],
+          "title": "Latent Space Podcast 4/13/23 [Summary] - Segment Anything Model and the Hard Problems of Computer Vision — with Joseph Nelson of Roboflow",
           "slug": "latent-space-podcast-4-13-23-summary-segment-anything-model-and-the-hard-problems",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:30:03+01:00",
-          "description": "로보플로우의 조셉 넬슨과 함께하는 에피소드 7을 탐험하세요. 메타의 세그먼트 애니씽 모델에 대해 깊이 있게 살펴봅니다. 컴퓨터 비전의 미래, OCR의 중요성, 이미지 분할 등을 자세히 알아보세요. #로보플로우 #AI",
+          "description": "Explore Ep.7 with Joseph Nelson on the Segment Anything Model by Meta. Dive deep into Computer Vision's future, the significance of OCR, Image Segmentation, and beyond. #Roboflow #AI",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694150379-screenshot-2023-09-07-at-10-15-52-pm.png"
           },
@@ -516,15 +590,19 @@
         },
         {
           "id": "191165920",
-          "topics": ["LLM", "요약", "평가"],
-          "title": "잠재 공간 팟캐스트 4/6/23 [요약] - AI 기초: 벤치마크 101",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Evaluation"
+          ],
+          "title": "Latent Space Podcast 4/6/23 [Summary] - AI Fundamentals: Benchmarks 101",
           "slug": "latent-space-podcast-4-6-23-summary-ai-fundamentals-benchmarks-101",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:05:35+01:00",
-          "description": "'벤치마크 101'에서 AI 기초를 탐구하세요. LLM 벤치마킹의 역사를 살펴보고 기계 학습의 발전을 형성하는 복잡성을 파헤쳐보세요.",
+          "description": "Explore AI Fundamentals in 'Benchmarks 101.' Dive into the history of LLM Benchmarking and uncover the intricacies that shape machine learning's progress.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694154964-screenshot-2023-09-07-at-11-33-20-pm.png"
           },
@@ -544,15 +622,18 @@
         },
         {
           "id": "191301444",
-          "topics": ["요약", "LLMOps"],
-          "title": "잠재 공간 팟캐스트 4/6/23 [요약] - 현실적인 연구: 구글 브레인에서 MLOps를 거쳐 LLMOps까지 - UC 버클리의 슈레야 샨카르와 함께",
+          "topics": [
+            "Summary",
+            "LLMOps"
+          ],
+          "title": "Latent Space Podcast 4/6/23 [Summary] - Grounded Research: From Google Brain to MLOps to LLMOps — with Shreya Shankar of UC Berkeley",
           "slug": "latent-space-podcast-4-6-23-summary-grounded-research-from-google-brain-to-mlops",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:04:09+01:00",
-          "description": "UC 버클리의 슈레야 샨카르와 함께 MLOps의 진화를 탐험하세요. 개발과 생산의 연결, ML 모델을 독특한 데이터베이스 뷰로 이해하는 것에 대해 깊이 있게 살펴봅니다. #ML #연구",
+          "description": "Explore the evolution of MLOps with Shreya Shankar from Google Brain to UC Berkeley. Dive into bridging development & production, understanding ML models as unique database views. #ML #Research",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694196657-screenshot-2023-09-08-at-11-08-10-am.png"
           },
@@ -572,15 +653,19 @@
         },
         {
           "id": "191310297",
-          "topics": ["요약", "LLM", "도구"],
-          "title": "잠재 공간 팟캐스트 3/23/23 [요약] - 긴급 팟: ChatGPT의 앱 스토어 순간 (OpenAI의 Logan Kilpatrick, LindyAI의 Florent Crivello 및 Nader Dabit과 함께)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Tools"
+          ],
+          "title": "Latent Space Podcast 3/23/23 [Summary] - Emergency Pod: ChatGPT's App Store Moment (w/ OpenAI's Logan Kilpatrick, LindyAI's Florent Crivello and Nader Dabit)",
           "slug": "latent-space-podcast-3-23-23-summary-emergency-pod-chatgpt-s-app-store-moment-w-o",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:02:01+01:00",
-          "description": "OpenAI와 LindyAI의 전문가들이 ChatGPT 플러그인에 대해 탐구하는 팟캐스트 4화를 살펴보세요. 사용 사례, 수익화 전략 및 AI 통합의 미래를 발견하세요. #ChatGPT #AI플러그인",
+          "description": "Explore Ep.4 of the podcast as experts from OpenAI & LindyAI delve into ChatGPT Plugins. Discover use cases, monetization strategies & the future of AI integration. #ChatGPT #AIPlugins",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694201898-screenshot-2023-09-08-at-12-31-46-pm.png"
           },
@@ -600,15 +685,19 @@
         },
         {
           "id": "191313297",
-          "topics": ["LLM", "요약", "코드"],
-          "title": "잠재 공간 팟캐스트 3/2/23 [요약] - 97% 더 저렴하고, 빠르고, 좋고, 정확한 AI — Codeium의 Varun Mohan과 함께 잠재 공간 팟캐스트 에피소드 2: 당신이 GPU를 잘못 사용하고 있는 이유",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Code"
+          ],
+          "title": "Latent Space Podcast 3/2/23 [Summary] - 97% Cheaper, Faster, Better, Correct AI — with Varun Mohan of Codeium Latent Space Podcast Ep. 2: Why you are holding your GPUs wrong",
           "slug": "latent-space-podcast-3-2-23-summary-97-cheaper-faster-better-correct-ai-with-v",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:59:56+01:00",
-          "description": "Codeium의 Varun Mohan과 함께 97% 더 저렴하고 빠른 방법을 공개하며 AI 효율성을 높이세요. 잠재 공간 팟캐스트 에피소드 2에 빠져들어 GPU 사용을 최적화하세요!",
+          "description": "Unlock AI efficiency with Varun Mohan of Codeium as he reveals methods that are 97% cheaper & faster. Dive into Latent Space Podcast Ep. 2 to optimize your GPU usage!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694211494-screenshot-2023-09-08-at-3-05-12-pm.png"
           },
@@ -628,15 +717,18 @@
         },
         {
           "id": "191313319",
-          "topics": ["LLM", "요약"],
-          "title": "잠재 공간 팟캐스트 2/23 [요약] - ChatGPT, GPT4 과대 선전, 그리고 OpenAI의 Logan Kilpatrick와 함께하는 LLM 기반 제품 구축",
+          "topics": [
+            "LLM",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 2/23 [Summary] - ChatGPT, GPT4 hype, and Building LLM-native products — with Logan Kilpatrick of OpenAI",
           "slug": "latent-space-podcast-2-23-summary-chatgpt-gpt4-hype-and-building-llm-native-produ",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:48:48+01:00",
-          "description": "OpenAI의 Logan Kilpatrick와 함께 ChatGPT, GPT4에 대한 과대 선전, LLM 기반 제품 제작에 대해 탐구합니다. 잠재 공간 팟캐스트 1화에서 AI의 미래에 대해 깊이 있게 알아보세요!",
+          "description": "Explore ChatGPT, the buzz around GPT4, & creating LLM-native products with Logan Kilpatrick of OpenAI. Dive into AI's future on Latent Space Podcast Ep. 1!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694214561-screenshot-2023-09-08-at-3-49-03-pm.png"
           },
@@ -656,15 +748,18 @@
         },
         {
           "id": "190258948",
-          "topics": ["요약", "대규모 언어 모델"],
-          "title": "최소한의 수학과 전문용어로 설명된 대규모 언어 모델 [요약]",
+          "topics": [
+            "Summary",
+            "LLM"
+          ],
+          "title": "Large language models, explained with a minimum of math and jargon [Summary]",
           "slug": "large-language-models-explained-with-a-minimum-of-math-and-jargon-eli5-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:40:32+01:00",
-          "description": "GPT-3 및 GPT-4와 같은 AI 언어 모델의 능력, 그들의 인상적인 성능, 그리고 AI의 '마음 이론' 개념을 탐구합니다.",
+          "description": "Explore the power of AI language models like GPT-3 & GPT-4, their impressive performance, and the concept of 'theory of mind' in AI.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690601993-abr3-img1.png"
           },
@@ -684,15 +779,18 @@
         },
         {
           "id": "190258977",
-          "topics": ["요약", "트랜스포머"],
-          "title": "트랜스포머 청사진: 트랜스포머 신경망 아키텍처에 대한 종합 가이드 [요약]",
+          "topics": [
+            "Summary",
+            "Transformers"
+          ],
+          "title": "The Transformer Blueprint: A Holistic Guide to the Transformer Neural Network Architecture [Summary]",
           "slug": "the-transformer-blueprint-a-holistic-guide-to-the-transformer-neural-network-arch",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:39:30+01:00",
-          "description": "트랜스포머 신경망 아키텍처의 변혁적인 힘을 이해하고 적용하는 데 필요한 모든 것을 담은 '트랜스포머 청사진'을 탐험해보세요.",
+          "description": "Explore 'The Transformer Blueprint' - an all-inclusive guide to understanding and applying the transformative power of the Transformer Neural Network Architecture.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690679303-abr4-img1.png"
           },
@@ -712,15 +810,19 @@
         },
         {
           "id": "190259003",
-          "topics": ["LLM", "요약", "산업"],
-          "title": "맥킨지: 생성형 AI의 경제적 잠재력 [요약]",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Industry"
+          ],
+          "title": "McKinsey: The economic potential of generative AI [Summary]",
           "slug": "mckinsey-the-economic-potential-of-generative-ai-eli5-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:28:52+01:00",
-          "description": "생성형 AI의 변혁적 힘, 경제적 잠재력, 그리고 미래 업무와 생산성에 미치는 영향에 대한 맥킨지의 연구를 탐구합니다.",
+          "description": "Explore McKinsey's research on the transformative power of generative AI, its economic potential, and its impact on future work and productivity.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690754998-ab5-img1.png"
           },
@@ -740,15 +842,18 @@
         },
         {
           "id": "190259043",
-          "topics": ["LLM", "요약"],
-          "title": "구글 \"우리에게도 OpenAI에게도 경쟁우위가 없다\" [논평]",
+          "topics": [
+            "LLM",
+            "Summary"
+          ],
+          "title": "Google \"We Have No Moat, And Neither Does OpenAI\" [Commentary]",
           "slug": "google-we-have-no-moat-and-neither-does-openai-commentary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:27:10+01:00",
-          "description": "최신 블로그에서 구글의 유출된 메모와 오픈소스 AI의 급속한 발전을 탐구하며, LLaMA의 획기적인 영향과 대규모 언어 모델의 대중화를 추적합니다.",
+          "description": "Explore Google's leaked memo and rapid evolution of open-source AI in our latest blog, tracking the groundbreaking impact of LLaMA and the democratization of Large Language Models.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690832197-abc1-img1.png"
           },
@@ -768,15 +873,18 @@
         },
         {
           "id": "190259067",
-          "topics": ["요약", "LLM"],
-          "title": "GPT의 현황 - 안드레이 카파시 [요약]",
+          "topics": [
+            "Summary",
+            "LLM"
+          ],
+          "title": "State of GPT - Andrej Karpathy [Summary]",
           "slug": "state-of-gpt-andrej-karpathy-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:24:13+01:00",
-          "description": "안드레이 카파시의 GPT 개발, 강력한 학습, 모드 붕괴, 도구 사용 및 주요 권장 사항에 대한 통찰력을 살펴보세요. #AI #GPT #OpenAI",
+          "description": "Dive into Andrej Karpathy's insights on GPT's development, powerful learning, mode collapse, tool usage, and key recommendations. #AI #GPT #OpenAI",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691029364-abvs1-img1.png"
           },
@@ -802,7 +910,11 @@
       "articles": [
         {
           "id": "190259319",
-          "topics": ["요약", "LLM", "훈련"],
+          "topics": [
+            "요약",
+            "LLM",
+            "훈련"
+          ],
           "title": "잠재 공간 팟캐스트 8/16/23 [요약] - Eleuther AI의 Quentin Anthony와 함께하는 LLM 훈련의 수학",
           "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
           "authorName": "Prof. Otto Nomos",
@@ -830,7 +942,12 @@
         },
         {
           "id": "190259129",
-          "topics": ["LLM", "하드웨어", "요약", "엣지"],
+          "topics": [
+            "LLM",
+            "하드웨어",
+            "요약",
+            "엣지"
+          ],
           "title": "잠재 공간 팟캐스트 8/10/23 [요약]: 모든 곳에서의 LLM: MLC를 사용하여 브라우저와 아이폰에서 70B 모델 실행 - CMU / OctoML의 천치앙과 함께",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
@@ -858,7 +975,13 @@
         },
         {
           "id": "190259087",
-          "topics": ["요약", "LLM", "코드", "오픈 소스", "소형 모델"],
+          "topics": [
+            "요약",
+            "LLM",
+            "코드",
+            "오픈 소스",
+            "소형 모델"
+          ],
           "title": "잠재 공간 팟캐스트 8/4/23 [요약] 잠재 공간 x AI 브레이크다운 크로스오버 팟!",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
@@ -886,7 +1009,12 @@
         },
         {
           "id": "190259172",
-          "topics": ["요약", "LLM", "오픈 소스", "소형 모델"],
+          "topics": [
+            "요약",
+            "LLM",
+            "오픈 소스",
+            "소형 모델"
+          ],
           "title": "잠재 공간 팟캐스트 7/19/23 [요약] - 라마 2: 새로운 오픈 LLM SOTA (출연: 네이선 램버트, 매트 본스타인, 안톤 트로이니코프, 러셀 캐플란, 전체 화성 카탈로그 등)",
           "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
           "authorName": "Prof. Otto Nomos",
@@ -914,7 +1042,11 @@
         },
         {
           "id": "190259191",
-          "topics": ["요약", "코드", "LLM"],
+          "topics": [
+            "요약",
+            "코드",
+            "LLM"
+          ],
           "title": "잠재 공간 팟캐스트 7/10/23 [요약] - 코드 인터프리터 == GPT 4.5 (Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley 등과 함께)",
           "slug": "latent-space-podcast-7-10-23-summary-code-interpreter-gpt-4-5-w-simon-willison-al",
           "authorName": "Prof. Otto Nomos",
@@ -942,7 +1074,11 @@
         },
         {
           "id": "190259238",
-          "topics": ["하드웨어", "LLM", "요약"],
+          "topics": [
+            "하드웨어",
+            "LLM",
+            "요약"
+          ],
           "title": "잠재 공간 팟캐스트 6/20/23 [요약] - 페타플롭의 상품화 — 타이니 코프의 조지 호츠와 함께",
           "slug": "latent-space-podcast-6-20-23-summary-commoditizing-the-petaflop-with-george-ho",
           "authorName": "Prof. Otto Nomos",
@@ -970,7 +1106,11 @@
         },
         {
           "id": "190259294",
-          "topics": ["LLM", "함수", "요약"],
+          "topics": [
+            "LLM",
+            "함수",
+            "요약"
+          ],
           "title": "잠재 공간 팟캐스트 6/14/23 [요약] - 긴급 팟캐스트: OpenAI의 새로운 함수 API, 75% 가격 인하, 4배 컨텍스트 길이 (Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin 등과 함께)",
           "slug": "latent-space-podcast-6-14-23-summary-emergency-pod-openai-s-new-functions-api-75",
           "authorName": "Prof. Otto Nomos",
@@ -998,7 +1138,11 @@
         },
         {
           "id": "190259333",
-          "topics": ["LLM", "요약", "UX"],
+          "topics": [
+            "LLM",
+            "요약",
+            "UX"
+          ],
           "title": "잠재 공간 팟캐스트 6/8/23 [요약] - RLHF에서 RLHB로: 인간 행동으로부터 학습하는 사례 - Amplitude의 Jeffrey Wang과 Joe Reeve와 함께",
           "slug": "latent-space-podcast-6-8-23-summary-from-rlhf-to-rlhb-the-case-for-learning-from",
           "authorName": "Prof. Otto Nomos",
@@ -1026,7 +1170,11 @@
         },
         {
           "id": "190260528",
-          "topics": ["요약", "LLM", "UX"],
+          "topics": [
+            "요약",
+            "LLM",
+            "UX"
+          ],
           "title": "잠재 공간 팟캐스트 6/1/23 [요약] - AI × UX 시니어스 구축 — Notion AI의 Linus Lee와 함께",
           "slug": "latent-space-podcast-6-1-23-summary-building-the-ai-x-ux-scenius-with-linus-le",
           "authorName": "Prof. Otto Nomos",
@@ -1054,7 +1202,12 @@
         },
         {
           "id": "190260557",
-          "topics": ["요약", "코드", "LLM", "에이전트"],
+          "topics": [
+            "요약",
+            "코드",
+            "LLM",
+            "에이전트"
+          ],
           "title": "잠재 공간 팟캐스트 5/25/23 [요약] - Codium AI와 AutoGPT의 Itamar Friedman과 함께하는 AI 에이전트를 통한 인터넷 디버깅",
           "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
           "authorName": "Prof. Otto Nomos",
@@ -1082,7 +1235,10 @@
         },
         {
           "id": "190260577",
-          "topics": ["LLM", "소형 모델"],
+          "topics": [
+            "LLM",
+            "소형 모델"
+          ],
           "title": "잠재 공간 팟캐스트 5/20/23 [요약] - MPT-7B와 무한 컨텍스트의 시작 — MosaicML의 조나단 프랭클과 아비나브 베니갈라와 함께",
           "slug": "latent-space-podcast-5-20-23-summary-mpt-7b-and-the-beginning-of-context-infinity",
           "authorName": "Prof. Otto Nomos",
@@ -1110,7 +1266,10 @@
         },
         {
           "id": "190260597",
-          "topics": ["LLM", "구조화된 데이터"],
+          "topics": [
+            "LLM",
+            "구조화된 데이터"
+          ],
           "title": "잠재 공간 팟캐스트 5/15/23 [요약] - LLM 출력물의 보장된 품질과 구조 - Guardrails AI의 Shreya Rajpal과 함께",
           "slug": "latent-space-podcast-5-15-23-summary-guaranteed-quality-and-structure-in-llm-outp",
           "authorName": "Prof. Otto Nomos",
@@ -1138,7 +1297,12 @@
         },
         {
           "id": "190260606",
-          "topics": ["LLM", "훈련", "에이전트", "멀티모달"],
+          "topics": [
+            "LLM",
+            "훈련",
+            "에이전트",
+            "멀티모달"
+          ],
           "title": "잠재 공간 팟캐스트 5/8/23 [요약] - AI 창업자 유전자: 선구자가 되고, 빠르게 구축하고, 위대함을 믿는 것 - 렉시카의 샤리프 샤밈과 함께",
           "slug": "latent-space-podcast-5-8-23-summary-the-ai-founder-gene-being-early-building-fast",
           "authorName": "Prof. Otto Nomos",
@@ -1166,7 +1330,11 @@
         },
         {
           "id": "190260640",
-          "topics": ["요약", "오픈 소스", "LLM"],
+          "topics": [
+            "요약",
+            "오픈 소스",
+            "LLM"
+          ],
           "title": "잠재 공간 팟캐스트 5/5/23 [요약] - 해자 없음: 폐쇄형 AI가 오픈 소스 각성을 맞이하다 — 사이먼 윌리슨 출연",
           "slug": "latent-space-podcast-5-5-23-summary-no-moat-closed-ai-gets-its-open-source-wakeup",
           "authorName": "Prof. Otto Nomos",
@@ -1194,7 +1362,11 @@
         },
         {
           "id": "190260671",
-          "topics": ["LLM", "코드", "요약"],
+          "topics": [
+            "LLM",
+            "코드",
+            "요약"
+          ],
           "title": "잠재 공간 팟캐스트 5/3/23 [요약] - 1주일 만에 최첨단 코드 LLM 훈련과 분위기 정량화 - Replit의 Reza Shabani와 함께",
           "slug": "latent-space-podcast-5-3-23-summary-training-a-sota-code-llm-in-1-week-and-quanti",
           "authorName": "Prof. Otto Nomos",
@@ -1222,7 +1394,11 @@
         },
         {
           "id": "190629271",
-          "topics": ["LLM", "소형 모델", "요약"],
+          "topics": [
+            "LLM",
+            "소형 모델",
+            "요약"
+          ],
           "title": "잠재 공간 팟캐스트 4/28/23 [요약] - Databricks의 Mike Conover와 함께 진정으로 개방된 모델의 미래를 매핑하고 30달러로 Dolly 훈련하기",
           "slug": "latent-space-podcast-4-28-23-summary-mapping-the-future-of-truly-open-models-and",
           "authorName": "Prof. Otto Nomos",
@@ -1250,7 +1426,11 @@
         },
         {
           "id": "191164291",
-          "topics": ["LLM", "엔터프라이즈", "요약"],
+          "topics": [
+            "LLM",
+            "엔터프라이즈",
+            "요약"
+          ],
           "title": "잠재 공간 팟캐스트 4/21/23 [요약] - Glean의 Deedy Das와 함께하는 엔터프라이즈를 위한 AI 기반 검색",
           "slug": "latent-space-podcast-4-21-23-summary-ai-powered-search-for-the-enterprise-with",
           "authorName": "Prof. Otto Nomos",
@@ -1278,7 +1458,11 @@
         },
         {
           "id": "191165920",
-          "topics": ["LLM", "요약", "평가"],
+          "topics": [
+            "LLM",
+            "요약",
+            "평가"
+          ],
           "title": "잠재 공간 팟캐스트 4/6/23 [요약] - AI 기초: 벤치마크 101",
           "slug": "latent-space-podcast-4-6-23-summary-ai-fundamentals-benchmarks-101",
           "authorName": "Prof. Otto Nomos",
@@ -1306,7 +1490,11 @@
         },
         {
           "id": "191310297",
-          "topics": ["요약", "LLM", "도구"],
+          "topics": [
+            "요약",
+            "LLM",
+            "도구"
+          ],
           "title": "잠재 공간 팟캐스트 3/23/23 [요약] - 긴급 팟: ChatGPT의 앱 스토어 순간 (OpenAI의 Logan Kilpatrick, LindyAI의 Florent Crivello 및 Nader Dabit과 함께)",
           "slug": "latent-space-podcast-3-23-23-summary-emergency-pod-chatgpt-s-app-store-moment-w-o",
           "authorName": "Prof. Otto Nomos",
@@ -1334,7 +1522,11 @@
         },
         {
           "id": "191313297",
-          "topics": ["LLM", "요약", "코드"],
+          "topics": [
+            "LLM",
+            "요약",
+            "코드"
+          ],
           "title": "잠재 공간 팟캐스트 3/2/23 [요약] - 97% 더 저렴하고, 빠르고, 좋고, 정확한 AI — Codeium의 Varun Mohan과 함께 잠재 공간 팟캐스트 에피소드 2: 당신이 GPU를 잘못 사용하고 있는 이유",
           "slug": "latent-space-podcast-3-2-23-summary-97-cheaper-faster-better-correct-ai-with-v",
           "authorName": "Prof. Otto Nomos",
@@ -1362,7 +1554,10 @@
         },
         {
           "id": "191313319",
-          "topics": ["LLM", "요약"],
+          "topics": [
+            "LLM",
+            "요약"
+          ],
           "title": "잠재 공간 팟캐스트 2/23 [요약] - ChatGPT, GPT4 과대 선전, 그리고 OpenAI의 Logan Kilpatrick와 함께하는 LLM 기반 제품 구축",
           "slug": "latent-space-podcast-2-23-summary-chatgpt-gpt4-hype-and-building-llm-native-produ",
           "authorName": "Prof. Otto Nomos",
@@ -1390,7 +1585,10 @@
         },
         {
           "id": "190258948",
-          "topics": ["요약", "대규모 언어 모델"],
+          "topics": [
+            "요약",
+            "대규모 언어 모델"
+          ],
           "title": "최소한의 수학과 전문용어로 설명된 대규모 언어 모델 [요약]",
           "slug": "large-language-models-explained-with-a-minimum-of-math-and-jargon-eli5-summary",
           "authorName": "Prof. Otto Nomos",
@@ -1418,7 +1616,11 @@
         },
         {
           "id": "190259003",
-          "topics": ["LLM", "요약", "산업"],
+          "topics": [
+            "LLM",
+            "요약",
+            "산업"
+          ],
           "title": "맥킨지: 생성형 AI의 경제적 잠재력 [요약]",
           "slug": "mckinsey-the-economic-potential-of-generative-ai-eli5-summary",
           "authorName": "Prof. Otto Nomos",
@@ -1446,7 +1648,10 @@
         },
         {
           "id": "190259043",
-          "topics": ["LLM", "요약"],
+          "topics": [
+            "LLM",
+            "요약"
+          ],
           "title": "구글 \"우리에게도 OpenAI에게도 경쟁우위가 없다\" [논평]",
           "slug": "google-we-have-no-moat-and-neither-does-openai-commentary",
           "authorName": "Prof. Otto Nomos",
@@ -1474,7 +1679,10 @@
         },
         {
           "id": "190259067",
-          "topics": ["요약", "LLM"],
+          "topics": [
+            "요약",
+            "LLM"
+          ],
           "title": "GPT의 현황 - 안드레이 카파시 [요약]",
           "slug": "state-of-gpt-andrej-karpathy-summary",
           "authorName": "Prof. Otto Nomos",
@@ -1502,7 +1710,10 @@
         },
         {
           "id": "190258672",
-          "topics": ["시작하기", "LLM"],
+          "topics": [
+            "시작하기",
+            "LLM"
+          ],
           "title": "AI의 미스터리 해독하기: 대규모 언어 모델의 지식과 한계에 대한 심층 탐구",
           "slug": "decoding-the-mysteries-of-ai-a-deep-dive-into-large-language-models-knowledge-and",
           "authorName": "Prof. Otto Nomos",
@@ -1530,7 +1741,10 @@
         },
         {
           "id": "190258658",
-          "topics": ["시작하기", "LLM"],
+          "topics": [
+            "시작하기",
+            "LLM"
+          ],
           "title": "대규모 언어 모델 훈련의 기술 마스터하기: 종합 가이드",
           "slug": "mastering-the-art-of-training-large-language-models-a-comprehensive-guide",
           "authorName": "Prof. Otto Nomos",
@@ -1558,7 +1772,10 @@
         },
         {
           "id": "190258582",
-          "topics": ["시작하기", "LLM"],
+          "topics": [
+            "시작하기",
+            "LLM"
+          ],
           "title": "LLM 해독하기: 대규모 언어 모델 이해를 위한 궁극의 가이드",
           "slug": "decoding-llms-your-ultimate-guide-to-understanding-large-language-models",
           "authorName": "Prof. Otto Nomos",
@@ -1586,7 +1803,10 @@
         },
         {
           "id": "190258905",
-          "topics": ["시작하기", "LLM"],
+          "topics": [
+            "시작하기",
+            "LLM"
+          ],
           "title": "LLM의 기술 마스터하기: 대규모 언어 모델 구현을 위한 실용 가이드",
           "slug": "mastering-the-art-of-llms-a-practical-guide-to-implementing-large-language-models",
           "authorName": "Prof. Otto Nomos",
@@ -1615,20 +1835,24 @@
       ]
     },
     {
-      "name": "훈련",
+      "name": "Training",
       "slug": "training",
       "articles": [
         {
           "id": "190259319",
-          "topics": ["요약", "LLM", "훈련"],
-          "title": "잠재 공간 팟캐스트 8/16/23 [요약] - Eleuther AI의 Quentin Anthony와 함께하는 LLM 훈련의 수학",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Training"
+          ],
+          "title": "Latent Space Podcast 8/16/23 [Summary] - The Mathematics of Training LLMs — with Quentin Anthony of Eleuther AI",
           "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:19:45+01:00",
-          "description": "Eleuther AI의 Quentin Anthony와 함께 LLM 훈련 배후의 수학을 탐구합니다. Transformers Math 101 기사를 깊이 살펴보고 최고의 GPU 성능을 위한 분산 훈련 기술을 마스터하세요.",
+          "description": "Explore the math behind training LLMs with Quentin Anthony from Eleuther AI. Dive into the Transformers Math 101 article & master distributed training techniques for peak GPU performance.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692324088-screenshot-2023-08-17-at-9-59-17-pm.png"
           },
@@ -1648,15 +1872,20 @@
         },
         {
           "id": "190259111",
-          "topics": ["요약", "트랜스포머", "훈련", "오픈 소스"],
-          "title": "잠재 공간 팟캐스트 7/26/23 [요약] 플래시어텐션 2: 트랜스포머를 800% 더 빠르게 만들기 - 투게더 AI의 트리 다오",
+          "topics": [
+            "Summary",
+            "Transformers",
+            "Training",
+            "Open Source"
+          ],
+          "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:14:13+01:00",
-          "description": "트리 다오와 함께 플래시어텐션이 AI 속도를 어떻게 혁명적으로 바꾸었는지 알아보고, 그가 플래시어텐션 2의 힘을 공개하며 스탠포드의 헤이지 랩과 미래 AI 통찰력을 탐구합니다.",
+          "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2, dives into Stanford's Hazy Lab & future AI insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
           },
@@ -1676,15 +1905,20 @@
         },
         {
           "id": "190260606",
-          "topics": ["LLM", "훈련", "에이전트", "멀티모달"],
-          "title": "잠재 공간 팟캐스트 5/8/23 [요약] - AI 창업자 유전자: 선구자가 되고, 빠르게 구축하고, 위대함을 믿는 것 - 렉시카의 샤리프 샤밈과 함께",
+          "topics": [
+            "LLM",
+            "Training",
+            "Agents",
+            "Multimodal"
+          ],
+          "title": "Latent Space Podcast 5/8/23 [Summary] - The AI Founder Gene: Being Early, Building Fast, and Believing in Greatness — with Sharif Shameem of Lexica",
           "slug": "latent-space-podcast-5-8-23-summary-the-ai-founder-gene-being-early-building-fast",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:52:09+01:00",
-          "description": "렉시카의 샤리프 샤밈과 함께하는 11화: AI 창업자의 마인드셋을 탐구하며, 혁신적인 선구자가 되는 비결, 게임 체인저 기술 구축, 모델 훈련, 그리고 에이전트와 유전체 시퀀싱의 흥미로운 잠재력을 알아봅니다.",
+          "description": "Ep.11 with Sharif Shameem of Lexica: Dive into the AI founder mindset, uncovering the secrets to pioneering innovation, building game-changing tech, training models, and the intriguing potential of Agents and genomic sequencing. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692501984-screenshot-2023-08-19-at-11-24-05-pm.png"
           },
@@ -1705,20 +1939,25 @@
       ]
     },
     {
-      "name": "하드웨어",
+      "name": "Hardware",
       "slug": "hardware",
       "articles": [
         {
           "id": "190259129",
-          "topics": ["LLM", "하드웨어", "요약", "엣지"],
-          "title": "잠재 공간 팟캐스트 8/10/23 [요약]: 모든 곳에서의 LLM: MLC를 사용하여 브라우저와 아이폰에서 70B 모델 실행 - CMU / OctoML의 천치앙과 함께",
+          "topics": [
+            "LLM",
+            "Hardware",
+            "Summary",
+            "Edge"
+          ],
+          "title": "Latent Space Podcast 8/10/23 [Summary]: LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:18:37+01:00",
-          "description": "천치앙과 함께 MLC의 마법을 탐험하세요: 브라우저와 아이폰에 70B 모델 배포. XGBoost, TVM의 창조, 그리고 보편적 AI 배포의 미래에 대해 깊이 있게 알아보세요.",
+          "description": "Explore the magic of MLC with Tianqi Chen: deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
           },
@@ -1738,15 +1977,19 @@
         },
         {
           "id": "190259238",
-          "topics": ["하드웨어", "LLM", "요약"],
-          "title": "잠재 공간 팟캐스트 6/20/23 [요약] - 페타플롭의 상품화 — 타이니 코프의 조지 호츠와 함께",
+          "topics": [
+            "Hardware",
+            "LLM",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 6/20/23 [Summary] - Commoditizing the Petaflop — with George Hotz of the tiny corp",
           "slug": "latent-space-podcast-6-20-23-summary-commoditizing-the-petaflop-with-george-ho",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:07:15+01:00",
-          "description": "타이니 코프의 조지 호츠가 엔비디아와 구글에 도전장을 내밉니다! AMD 협력, ggml에 대한 통찰, 모조, 일론과 GPT-4, 그리고 AI 여자친구에 대한 이야기를 들어보세요.",
+          "description": "George Hotz of tiny corp challenges Nvidia & Google! Dive into the world of AMD collaborations, insights on ggml, Mojo, Elon & GPT-4, plus a peek into AI Girlfriend. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692154615-screenshot-2023-08-15-at-10-55-40-pm.png"
           },
@@ -1767,20 +2010,25 @@
       ]
     },
     {
-      "name": "엣지",
+      "name": "Edge",
       "slug": "edge",
       "articles": [
         {
           "id": "190259129",
-          "topics": ["LLM", "하드웨어", "요약", "엣지"],
-          "title": "잠재 공간 팟캐스트 8/10/23 [요약]: 모든 곳에서의 LLM: MLC를 사용하여 브라우저와 아이폰에서 70B 모델 실행 - CMU / OctoML의 천치앙과 함께",
+          "topics": [
+            "LLM",
+            "Hardware",
+            "Summary",
+            "Edge"
+          ],
+          "title": "Latent Space Podcast 8/10/23 [Summary]: LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:18:37+01:00",
-          "description": "천치앙과 함께 MLC의 마법을 탐험하세요: 브라우저와 아이폰에 70B 모델 배포. XGBoost, TVM의 창조, 그리고 보편적 AI 배포의 미래에 대해 깊이 있게 알아보세요.",
+          "description": "Explore the magic of MLC with Tianqi Chen: deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
           },
@@ -1801,20 +2049,26 @@
       ]
     },
     {
-      "name": "코드",
+      "name": "Code",
       "slug": "code",
       "articles": [
         {
           "id": "190259087",
-          "topics": ["요약", "LLM", "코드", "오픈 소스", "소형 모델"],
-          "title": "잠재 공간 팟캐스트 8/4/23 [요약] 잠재 공간 x AI 브레이크다운 크로스오버 팟!",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:16:33+01:00",
-          "description": "AI 브레이크다운과 잠재 공간의 여름 AI 기술 요약에 참여하세요: GPT4.5, Llama 2, AI 도구, 부상하는 AI 엔지니어 등에 대해 알아보세요!",
+          "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
           },
@@ -1834,15 +2088,19 @@
         },
         {
           "id": "190259191",
-          "topics": ["요약", "코드", "LLM"],
-          "title": "잠재 공간 팟캐스트 7/10/23 [요약] - 코드 인터프리터 == GPT 4.5 (Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley 등과 함께)",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM"
+          ],
+          "title": "Latent Space Podcast 7/10/23 [Summary] - Code Interpreter == GPT 4.5 (w/ Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, et al.)",
           "slug": "latent-space-podcast-7-10-23-summary-code-interpreter-gpt-4-5-w-simon-willison-al",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:09:26+01:00",
-          "description": "ChatGPT의 코드 인터프리터: AI의 게임 체인저를 탐구합니다. Simon, Alex와 최고의 AI 전문가들과 함께 1000배 향상된 능력을 살펴보세요. #코드증강추론 #GPT4_5",
+          "description": "Explore ChatGPT's Code Interpreter: a game-changer in AI. Dive into its 1000x capabilities leap with Simon, Alex & top AI experts. #CodeAugmentedInference #GPT4_5",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692048911-screenshot-2023-08-14-at-3-34-05-pm.png"
           },
@@ -1862,15 +2120,20 @@
         },
         {
           "id": "190260557",
-          "topics": ["요약", "코드", "LLM", "에이전트"],
-          "title": "잠재 공간 팟캐스트 5/25/23 [요약] - Codium AI와 AutoGPT의 Itamar Friedman과 함께하는 AI 에이전트를 통한 인터넷 디버깅",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM",
+            "Agents"
+          ],
+          "title": "Latent Space Podcast 5/25/23 [Summary] - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
           "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:58:27+01:00",
-          "description": "Codium AI의 Itamar Friedman과 함께 'AI를 통한 인터넷 디버깅'에서 AI의 미래를 탐험하세요. '극단적 DRY' 에이전트, 사양과 테스트의 빠른 동기화, 코드와 테스트 사이의 균형에 대해 깊이 있게 알아보세요. 또한 Toran의 통찰력과 AutoGPT의 로드맵에 대한 독점적인 내용도 확인하실 수 있습니다!",
+          "description": "Explore the future of AI with Itamar Friedman from Codium AI on 'Debugging the Internet'. Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. Plus, insights from Toran & an exclusive look at AutoGPT's roadmap!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
           },
@@ -1890,15 +2153,19 @@
         },
         {
           "id": "190260671",
-          "topics": ["LLM", "코드", "요약"],
-          "title": "잠재 공간 팟캐스트 5/3/23 [요약] - 1주일 만에 최첨단 코드 LLM 훈련과 분위기 정량화 - Replit의 Reza Shabani와 함께",
+          "topics": [
+            "LLM",
+            "Code",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 5/3/23 [Summary] - Training a SOTA Code LLM in 1 week and Quantifying the Vibes — with Reza Shabani of Replit",
           "slug": "latent-space-podcast-5-3-23-summary-training-a-sota-code-llm-in-1-week-and-quanti",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:46:08+01:00",
-          "description": "Reza Shabani와의 10회 에피소드: 최첨단 코드 LLM의 빠른 훈련에 대해 깊이 있게 살펴보고, Replit Ghostwriter의 미래를 탐색하며, 금융에서 AI로의 여정을 경험해보세요. Kaplan에서 Chinchilla로의 전환 등을 알아보세요!",
+          "description": "Ep. 10 with Reza Shabani: Dive deep into the rapid training of a state-of-the-art Code LLM, explore Replit Ghostwriter's future, and journey from Finance to AI. Discover the transition from Kaplan to Chinchilla and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692584998-screenshot-2023-08-20-at-10-17-26-pm.png"
           },
@@ -1918,15 +2185,19 @@
         },
         {
           "id": "191313297",
-          "topics": ["LLM", "요약", "코드"],
-          "title": "잠재 공간 팟캐스트 3/2/23 [요약] - 97% 더 저렴하고, 빠르고, 좋고, 정확한 AI — Codeium의 Varun Mohan과 함께 잠재 공간 팟캐스트 에피소드 2: 당신이 GPU를 잘못 사용하고 있는 이유",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Code"
+          ],
+          "title": "Latent Space Podcast 3/2/23 [Summary] - 97% Cheaper, Faster, Better, Correct AI — with Varun Mohan of Codeium Latent Space Podcast Ep. 2: Why you are holding your GPUs wrong",
           "slug": "latent-space-podcast-3-2-23-summary-97-cheaper-faster-better-correct-ai-with-v",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:59:56+01:00",
-          "description": "Codeium의 Varun Mohan과 함께 97% 더 저렴하고 빠른 방법을 공개하며 AI 효율성을 높이세요. 잠재 공간 팟캐스트 에피소드 2에 빠져들어 GPU 사용을 최적화하세요!",
+          "description": "Unlock AI efficiency with Varun Mohan of Codeium as he reveals methods that are 97% cheaper & faster. Dive into Latent Space Podcast Ep. 2 to optimize your GPU usage!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694211494-screenshot-2023-09-08-at-3-05-12-pm.png"
           },
@@ -1947,20 +2218,26 @@
       ]
     },
     {
-      "name": "오픈소스",
+      "name": "Open Source",
       "slug": "open source",
       "articles": [
         {
           "id": "190259087",
-          "topics": ["요약", "LLM", "코드", "오픈 소스", "소형 모델"],
-          "title": "잠재 공간 팟캐스트 8/4/23 [요약] 잠재 공간 x AI 브레이크다운 크로스오버 팟!",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:16:33+01:00",
-          "description": "AI 브레이크다운과 잠재 공간의 여름 AI 기술 요약에 참여하세요: GPT4.5, Llama 2, AI 도구, 부상하는 AI 엔지니어 등에 대해 알아보세요!",
+          "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
           },
@@ -1980,15 +2257,20 @@
         },
         {
           "id": "190259111",
-          "topics": ["요약", "트랜스포머", "훈련", "오픈 소스"],
-          "title": "잠재 공간 팟캐스트 7/26/23 [요약] 플래시어텐션 2: 트랜스포머를 800% 더 빠르게 만들기 - 투게더 AI의 트리 다오",
+          "topics": [
+            "Summary",
+            "Transformers",
+            "Training",
+            "Open Source"
+          ],
+          "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:14:13+01:00",
-          "description": "트리 다오와 함께 플래시어텐션이 AI 속도를 어떻게 혁명적으로 바꾸었는지 알아보고, 그가 플래시어텐션 2의 힘을 공개하며 스탠포드의 헤이지 랩과 미래 AI 통찰력을 탐구합니다.",
+          "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2, dives into Stanford's Hazy Lab & future AI insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
           },
@@ -2008,15 +2290,20 @@
         },
         {
           "id": "190259172",
-          "topics": ["요약", "LLM", "오픈 소스", "소형 모델"],
-          "title": "잠재 공간 팟캐스트 7/19/23 [요약] - 라마 2: 새로운 오픈 LLM SOTA (출연: 네이선 램버트, 매트 본스타인, 안톤 트로이니코프, 러셀 캐플란, 전체 화성 카탈로그 등)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
           "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:12:38+01:00",
-          "description": "네이선 램버트, 매트 본스타인 등 전문가들과 함께 최신 AI 혁신인 라마 2를 탐구합니다. 데이터셋, 벤치마크 및 AI 예측에 대해 깊이 있게 살펴봅니다. 이 최고의 팟캐스트에서 라마에 대한 통찰과 드라마를 만나보세요!",
+          "description": "Explore Llama 2, the latest AI breakthrough with experts Nathan Lambert, Matt Bornstein & more. Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
           },
@@ -2036,15 +2323,18 @@
         },
         {
           "id": "190259216",
-          "topics": ["요약", "오픈 소스"],
-          "title": "잠재 공간 팟캐스트 7/2/23 [요약] AI 트렌드: 잠재 공간 x 실용 AI 크로스오버 팟!",
+          "topics": [
+            "Summary",
+            "Open Source"
+          ],
+          "title": "Latent Space Podcast 7/2/23 [Summary] AI Trends: a Latent Space x Practical AI crossover pod!",
           "slug": "latent-space-podcast-7-2-23-summary-ai-trends-a-latent-space-x-practical-ai-cross",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:08:36+01:00",
-          "description": "실용 AI와 잠재 공간의 융합을 탐구하며 2023년 주요 AI 트렌드를 살펴보고, 주목할 만한 에피소드를 되돌아보며, AI 진화에 대처하는 방법에 대한 통찰을 공유합니다.",
+          "description": "Explore the fusion of Practical AI & Latent Space as they delve into 2023's top AI trends, reflect on standout episodes, and share insights on navigating the AI evolution.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692146916-screenshot-2023-08-15-at-5-20-38-pm.png"
           },
@@ -2064,15 +2354,19 @@
         },
         {
           "id": "190260640",
-          "topics": ["요약", "오픈 소스", "LLM"],
-          "title": "잠재 공간 팟캐스트 5/5/23 [요약] - 해자 없음: 폐쇄형 AI가 오픈 소스 각성을 맞이하다 — 사이먼 윌리슨 출연",
+          "topics": [
+            "Summary",
+            "Open Source",
+            "LLM"
+          ],
+          "title": "Latent Space Podcast 5/5/23 [Summary] - No Moat: Closed AI gets its Open Source wakeup call — ft. Simon Willison",
           "slug": "latent-space-podcast-5-5-23-summary-no-moat-closed-ai-gets-its-open-source-wakeup",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:49:18+01:00",
-          "description": "사이먼 윌리슨과 함께 '해자 없음: 폐쇄형 AI의 오픈 소스 각성'을 탐구합니다. 유출된 구글 해자 메모의 통찰, 구글 브레인 드레인, 그리고 모조를 통한 파이썬의 속도 향상에 대해 깊이 있게 살펴봅니다.",
+          "description": "Explore 'No Moat: Closed AI's Open Source Awakening' with Simon Willison. Dive into leaked Google Moat memo insights, Google Brain Drain, and Python's speed boost with Mojo.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692566921-screenshot-2023-08-20-at-5-25-53-pm.png"
           },
@@ -2093,20 +2387,26 @@
       ]
     },
     {
-      "name": "소형 모델",
+      "name": "Small Models",
       "slug": "small models",
       "articles": [
         {
           "id": "190259087",
-          "topics": ["요약", "LLM", "코드", "오픈 소스", "소형 모델"],
-          "title": "잠재 공간 팟캐스트 8/4/23 [요약] 잠재 공간 x AI 브레이크다운 크로스오버 팟!",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:16:33+01:00",
-          "description": "AI 브레이크다운과 잠재 공간의 여름 AI 기술 요약에 참여하세요: GPT4.5, Llama 2, AI 도구, 부상하는 AI 엔지니어 등에 대해 알아보세요!",
+          "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
           },
@@ -2126,15 +2426,20 @@
         },
         {
           "id": "190259172",
-          "topics": ["요약", "LLM", "오픈 소스", "소형 모델"],
-          "title": "잠재 공간 팟캐스트 7/19/23 [요약] - 라마 2: 새로운 오픈 LLM SOTA (출연: 네이선 램버트, 매트 본스타인, 안톤 트로이니코프, 러셀 캐플란, 전체 화성 카탈로그 등)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
           "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:12:38+01:00",
-          "description": "네이선 램버트, 매트 본스타인 등 전문가들과 함께 최신 AI 혁신인 라마 2를 탐구합니다. 데이터셋, 벤치마크 및 AI 예측에 대해 깊이 있게 살펴봅니다. 이 최고의 팟캐스트에서 라마에 대한 통찰과 드라마를 만나보세요!",
+          "description": "Explore Llama 2, the latest AI breakthrough with experts Nathan Lambert, Matt Bornstein & more. Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
           },
@@ -2154,15 +2459,18 @@
         },
         {
           "id": "190260577",
-          "topics": ["LLM", "소형 모델"],
-          "title": "잠재 공간 팟캐스트 5/20/23 [요약] - MPT-7B와 무한 컨텍스트의 시작 — MosaicML의 조나단 프랭클과 아비나브 베니갈라와 함께",
+          "topics": [
+            "LLM",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 5/20/23 [Summary] - MPT-7B and The Beginning of Context=Infinity — with Jonathan Frankle and Abhinav Venigalla of MosaicML",
           "slug": "latent-space-podcast-5-20-23-summary-mpt-7b-and-the-beginning-of-context-infinity",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:57:33+01:00",
-          "description": "MosaicML의 9일간 20만 달러 \"llongboi\" MPT-7B 훈련, 데이터 준비 통찰력, 그리고 전문가 프랭클과 베니갈라와 함께하는 오픈 AI 모델의 부상에 대해 알아보세요.",
+          "description": "Dive into MosaicML's 9-day, $200k \"llongboi\" MPT-7B training, data prep insights, & the rise of open AI models with experts Frankle & Venigalla.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692409795-screenshot-2023-08-18-at-9-49-21-pm.png"
           },
@@ -2182,15 +2490,19 @@
         },
         {
           "id": "190629271",
-          "topics": ["LLM", "소형 모델", "요약"],
-          "title": "잠재 공간 팟캐스트 4/28/23 [요약] - Databricks의 Mike Conover와 함께 *진정한* 오픈 모델과 30달러로 Dolly 훈련의 미래를 매핑하다",
+          "topics": [
+            "LLM",
+            "Small Models",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 4/28/23 [Summary] - Mapping the future of *truly* Open Models and Training Dolly for $30 — with Mike Conover of Databricks",
           "slug": "latent-space-podcast-4-28-23-summary-mapping-the-future-of-truly-open-models-and",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:33:12+01:00",
-          "description": "Databricks의 Mike Conover와 함께 오픈 모델의 미래를 탐험하세요. Dolly의 창조, 1.0에서 2.0으로의 전환, 그리고 개발에 영향을 준 요소들을 깊이 있게 살펴봅니다. 에피소드 9는 모델 인프라, Databricks의 비전 등을 다룹니다. #AI #오픈모델 #Dolly",
+          "description": "Explore the future of open models with Mike Conover of Databricks. Dive deep into Dolly's creation, its transition from 1.0 to 2.0, & the influences behind its development. Ep.9 touches on model infrastructure, Databricks' vision, & more. #AI #OpenModels #Dolly",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694038707-screenshot-2023-09-06-at-3-12-24-pm.png"
           },
@@ -2211,20 +2523,25 @@
       ]
     },
     {
-      "name": "트랜스포머",
+      "name": "Transformers",
       "slug": "transformers",
       "articles": [
         {
           "id": "190259111",
-          "topics": ["요약", "트랜스포머", "훈련", "오픈 소스"],
-          "title": "잠재 공간 팟캐스트 7/26/23 [요약] 플래시어텐션 2: 트랜스포머를 800% 더 빠르게 만들기 - 투게더 AI의 트리 다오",
+          "topics": [
+            "Summary",
+            "Transformers",
+            "Training",
+            "Open Source"
+          ],
+          "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:14:13+01:00",
-          "description": "트리 다오와 함께 플래시어텐션이 AI 속도를 어떻게 혁명적으로 바꾸었는지 알아보고, 그가 플래시어텐션 2의 힘을 공개하며 스탠포드의 헤이지 랩과 미래 AI 통찰력을 탐구합니다.",
+          "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2, dives into Stanford's Hazy Lab & future AI insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
           },
@@ -2244,15 +2561,18 @@
         },
         {
           "id": "190258977",
-          "topics": ["요약", "트랜스포머"],
-          "title": "트랜스포머 청사진: 트랜스포머 신경망 아키텍처에 대한 종합 가이드 [요약]",
+          "topics": [
+            "Summary",
+            "Transformers"
+          ],
+          "title": "The Transformer Blueprint: A Holistic Guide to the Transformer Neural Network Architecture [Summary]",
           "slug": "the-transformer-blueprint-a-holistic-guide-to-the-transformer-neural-network-arch",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:39:30+01:00",
-          "description": "트랜스포머 신경망 아키텍처의 변혁적인 힘을 이해하고 적용하는 데 필요한 모든 것을 담은 '트랜스포머 청사진'을 탐험해보세요.",
+          "description": "Explore 'The Transformer Blueprint' - an all-inclusive guide to understanding and applying the transformative power of the Transformer Neural Network Architecture.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690679303-abr4-img1.png"
           },
@@ -2273,20 +2593,24 @@
       ]
     },
     {
-      "name": "함수",
+      "name": "Functions",
       "slug": "functions",
       "articles": [
         {
           "id": "190259294",
-          "topics": ["LLM", "함수", "요약"],
-          "title": "잠재 공간 팟캐스트 6/14/23 [요약] - 긴급 팟캐스트: OpenAI의 새로운 함수 API, 75% 가격 인하, 4배 컨텍스트 길이 (Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin 등과 함께)",
+          "topics": [
+            "LLM",
+            "Functions",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 6/14/23 [Summary] - Emergency Pod: OpenAI's new Functions API, 75% Price Drop, 4x Context Length (w/ Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin et al)",
           "slug": "latent-space-podcast-6-14-23-summary-emergency-pod-openai-s-new-functions-api-75",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:05:04+01:00",
-          "description": "Scale, Microsoft, Pinecone, Huggingface의 최고 AI 엔지니어들과 함께 2023년 6월 OpenAI 업데이트를 탐구합니다. 코드 x LLM 패러다임을 깊이 살펴보고 재귀 함수 에이전트를 발견하세요.",
+          "description": "Explore the June 2023 OpenAI updates with top AI engineers from Scale, Microsoft, Pinecone, & Huggingface. Dive into the Code x LLM paradigms and discover Recursive Function Agents.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692221668-screenshot-2023-08-16-at-5-32-29-pm.png"
           },
@@ -2307,20 +2631,24 @@
       ]
     },
     {
-      "name": "사용자 경험",
+      "name": "UX",
       "slug": "ux",
       "articles": [
         {
           "id": "190259333",
-          "topics": ["LLM", "요약", "UX"],
-          "title": "잠재 공간 팟캐스트 6/8/23 [요약] - RLHF에서 RLHB로: 인간 행동으로부터 학습하는 사례 - Amplitude의 Jeffrey Wang과 Joe Reeve와 함께",
+          "topics": [
+            "LLM",
+            "Summary",
+            "UX"
+          ],
+          "title": "Latent Space Podcast 6/8/23 [Summary] - From RLHF to RLHB: The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude",
           "slug": "latent-space-podcast-6-8-23-summary-from-rlhf-to-rlhb-the-case-for-learning-from",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:02:33+01:00",
-          "description": "Latent Space Live에서 Jeffrey Wang과 Joe Reeve와 함께 AI와 분석에 대해 탐구하세요! AI가 분석을 중요시하는 이유와 자사 행동 데이터의 힘에 대해 깊이 있게 알아보세요.",
+          "description": "Explore AI & analytics with Jeffrey Wang & Joe Reeve on Latent Space Live! Dive into why AI values Analytics and the power of first-party behavioral data. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692386432-screenshot-2023-08-18-at-3-17-04-pm.png"
           },
@@ -2340,15 +2668,19 @@
         },
         {
           "id": "190260528",
-          "topics": ["요약", "LLM", "UX"],
-          "title": "잠재 공간 팟캐스트 6/1/23 [요약] - AI × UX 시니어스 구축 — Notion AI의 Linus Lee와 함께",
+          "topics": [
+            "Summary",
+            "LLM",
+            "UX"
+          ],
+          "title": "Latent Space Podcast 6/1/23 [Summary] - Building the AI × UX Scenius — with Linus Lee of Notion AI",
           "slug": "latent-space-podcast-6-1-23-summary-building-the-ai-x-ux-scenius-with-linus-le",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:00:12+01:00",
-          "description": "Notion AI의 혁신적인 AI와 UX 접근 방식을 탐구합니다. AI 증강 작업 공간의 미래, 채팅 인터페이스를 넘어선 가치, 효과적인 지식 작업에 대한 통찰력을 살펴보세요. AI×UX NYC 밋업 요약도 포함되어 있습니다!",
+          "description": "Explore Notion AI's transformative approach to AI and UX. Dive into the future of AI-augmented workspaces, the value beyond chat interfaces, and insights on effective knowledge work. Recap of AI×UX NYC meetup included!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692390655-screenshot-2023-08-18-at-4-28-51-pm.png"
           },
@@ -2369,20 +2701,25 @@
       ]
     },
     {
-      "name": "에이전트",
+      "name": "Agents",
       "slug": "agents",
       "articles": [
         {
           "id": "190260557",
-          "topics": ["요약", "코드", "LLM", "에이전트"],
-          "title": "잠재 공간 팟캐스트 5/25/23 [요약] - Codium AI와 AutoGPT의 Itamar Friedman과 함께하는 AI 에이전트를 통한 인터넷 디버깅",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM",
+            "Agents"
+          ],
+          "title": "Latent Space Podcast 5/25/23 [Summary] - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
           "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:58:27+01:00",
-          "description": "Codium AI의 Itamar Friedman과 함께 'AI를 통한 인터넷 디버깅'에서 AI의 미래를 탐험하세요. '극단적 DRY' 에이전트, 사양과 테스트의 빠른 동기화, 코드와 테스트 사이의 균형에 대해 깊이 있게 알아보세요. 또한 Toran의 통찰력과 AutoGPT의 로드맵에 대한 독점적인 내용도 확인하실 수 있습니다!",
+          "description": "Explore the future of AI with Itamar Friedman from Codium AI on 'Debugging the Internet'. Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. Plus, insights from Toran & an exclusive look at AutoGPT's roadmap!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
           },
@@ -2402,15 +2739,20 @@
         },
         {
           "id": "190260606",
-          "topics": ["LLM", "훈련", "에이전트", "멀티모달"],
-          "title": "잠재 공간 팟캐스트 5/8/23 [요약] - AI 창업자 유전자: 선구자가 되고, 빠르게 구축하며, 위대함을 믿는 것 - 렉시카의 샤리프 샤밈과 함께",
+          "topics": [
+            "LLM",
+            "Training",
+            "Agents",
+            "Multimodal"
+          ],
+          "title": "Latent Space Podcast 5/8/23 [Summary] - The AI Founder Gene: Being Early, Building Fast, and Believing in Greatness — with Sharif Shameem of Lexica",
           "slug": "latent-space-podcast-5-8-23-summary-the-ai-founder-gene-being-early-building-fast",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:52:09+01:00",
-          "description": "렉시카의 샤리프 샤밈과 함께하는 11화: AI 창업자의 마인드셋을 탐구하며, 혁신적인 기술을 선도하고, 게임 체인저 기술을 구축하며, 모델을 훈련시키는 비결과 에이전트 및 유전체 시퀀싱의 흥미로운 잠재력을 알아봅니다.",
+          "description": "Ep.11 with Sharif Shameem of Lexica: Dive into the AI founder mindset, uncovering the secrets to pioneering innovation, building game-changing tech, training models, and the intriguing potential of Agents and genomic sequencing. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692501984-screenshot-2023-08-19-at-11-24-05-pm.png"
           },
@@ -2431,20 +2773,23 @@
       ]
     },
     {
-      "name": "구조화된 데이터",
+      "name": "Structured Data",
       "slug": "structured data",
       "articles": [
         {
           "id": "190260597",
-          "topics": ["LLM", "구조화된 데이터"],
-          "title": "잠재 공간 팟캐스트 5/15/23 [요약] - LLM 출력물의 보장된 품질과 구조 - Guardrails AI의 Shreya Rajpal과 함께",
+          "topics": [
+            "LLM",
+            "Structured Data"
+          ],
+          "title": "Latent Space Podcast 5/15/23 [Summary] - Guaranteed quality and structure in LLM outputs - with Shreya Rajpal of Guardrails AI",
           "slug": "latent-space-podcast-5-15-23-summary-guaranteed-quality-and-structure-in-llm-outp",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:56:26+01:00",
-          "description": "Guardrails AI의 Shreya Rajpal과 함께하는 에피소드 12 탐험: LLM 출력물 검증, 재질문 루프를 통한 답변 개선, 모델에 대한 SLA 수립에 대해 깊이 있게 살펴봅니다. AI 품질 보증의 뉘앙스를 마스터하세요.",
+          "description": "Explore Ep. 12 with Shreya Rajpal of Guardrails AI: Dive deep into validating LLM outputs, refining answers through re-asking loops, and establishing SLAs for models. Master the nuances of AI quality assurance.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692495732-screenshot-2023-08-19-at-9-38-27-pm.png"
           },
@@ -2465,20 +2810,25 @@
       ]
     },
     {
-      "name": "멀티모달",
+      "name": "Multimodal",
       "slug": "multimodal",
       "articles": [
         {
           "id": "190260606",
-          "topics": ["LLM", "훈련", "에이전트", "멀티모달"],
-          "title": "잠재 공간 팟캐스트 5/8/23 [요약] - AI 창업자 유전자: 선구자가 되고, 빠르게 구축하고, 위대함을 믿는 것 - 렉시카의 샤리프 샤밈과 함께",
+          "topics": [
+            "LLM",
+            "Training",
+            "Agents",
+            "Multimodal"
+          ],
+          "title": "Latent Space Podcast 5/8/23 [Summary] - The AI Founder Gene: Being Early, Building Fast, and Believing in Greatness — with Sharif Shameem of Lexica",
           "slug": "latent-space-podcast-5-8-23-summary-the-ai-founder-gene-being-early-building-fast",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:52:09+01:00",
-          "description": "렉시카의 샤리프 샤밈과 함께하는 11화: AI 창업자의 마인드셋을 탐구하며, 혁신적인 선구자가 되는 비결, 게임 체인저 기술 구축, 모델 훈련, 그리고 에이전트와 유전체 시퀀싱의 흥미로운 잠재력을 알아봅니다.",
+          "description": "Ep.11 with Sharif Shameem of Lexica: Dive into the AI founder mindset, uncovering the secrets to pioneering innovation, building game-changing tech, training models, and the intriguing potential of Agents and genomic sequencing. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692501984-screenshot-2023-08-19-at-11-24-05-pm.png"
           },
@@ -2499,20 +2849,24 @@
       ]
     },
     {
-      "name": "기업",
+      "name": "Enterprise",
       "slug": "enterprise",
       "articles": [
         {
           "id": "191164291",
-          "topics": ["LLM", "엔터프라이즈", "요약"],
-          "title": "잠재 공간 팟캐스트 4/21/23 [요약] - Glean의 Deedy Das와 함께하는 엔터프라이즈를 위한 AI 기반 검색",
+          "topics": [
+            "LLM",
+            "Enterprise",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 4/21/23 [Summary] - AI-powered Search for the Enterprise — with Deedy Das of Glean",
           "slug": "latent-space-podcast-4-21-23-summary-ai-powered-search-for-the-enterprise-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:31:31+01:00",
-          "description": "에피소드 8: Glean의 Deedy Das와 함께 엔터프라이즈 검색에서의 AI를 탐구합니다. AI 검색 거인을 만드는 과정의 도전과제, Google과 ChatGPT 비교, AI 인프라의 복잡성, AI 생성 텍스트 식별, 그리고 기업이 단순한 문서 QA 이상을 필요로 하는 이유를 파헤칩니다.",
+          "description": "Ep.8: Dive into AI in enterprise search with Deedy Das of Glean. Unpack challenges in creating an AI search giant, Google vs ChatGPT comparisons, AI infrastructure intricacies, spotting AI-generated text, and why businesses need more than just Document QA.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694134074-screenshot-2023-09-07-at-5-43-48-pm.png"
           },
@@ -2533,20 +2887,23 @@
       ]
     },
     {
-      "name": "비전",
+      "name": "Vision",
       "slug": "vision",
       "articles": [
         {
           "id": "191165673",
-          "topics": ["요약", "비전"],
-          "title": "잠재 공간 팟캐스트 4/13/23 [요약] - 로보플로우의 조셉 넬슨과 함께하는 세그먼트 애니씽 모델과 컴퓨터 비전의 어려운 문제들",
+          "topics": [
+            "Summary",
+            "Vision"
+          ],
+          "title": "Latent Space Podcast 4/13/23 [Summary] - Segment Anything Model and the Hard Problems of Computer Vision — with Joseph Nelson of Roboflow",
           "slug": "latent-space-podcast-4-13-23-summary-segment-anything-model-and-the-hard-problems",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:30:03+01:00",
-          "description": "로보플로우의 조셉 넬슨과 함께하는 에피소드 7을 탐험하세요. 메타의 세그먼트 애니씽 모델에 대해 깊이 있게 살펴봅니다. 컴퓨터 비전의 미래, OCR의 중요성, 이미지 분할 등을 자세히 알아보세요. #로보플로우 #AI",
+          "description": "Explore Ep.7 with Joseph Nelson on the Segment Anything Model by Meta. Dive deep into Computer Vision's future, the significance of OCR, Image Segmentation, and beyond. #Roboflow #AI",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694150379-screenshot-2023-09-07-at-10-15-52-pm.png"
           },
@@ -2567,20 +2924,24 @@
       ]
     },
     {
-      "name": "평가",
+      "name": "Evaluation",
       "slug": "evaluation",
       "articles": [
         {
           "id": "191165920",
-          "topics": ["LLM", "요약", "평가"],
-          "title": "잠재 공간 팟캐스트 4/6/23 [요약] - AI 기초: 벤치마크 101",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Evaluation"
+          ],
+          "title": "Latent Space Podcast 4/6/23 [Summary] - AI Fundamentals: Benchmarks 101",
           "slug": "latent-space-podcast-4-6-23-summary-ai-fundamentals-benchmarks-101",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:05:35+01:00",
-          "description": "'벤치마크 101'에서 AI 기초를 탐구하세요. LLM 벤치마킹의 역사를 살펴보고 기계 학습의 발전을 형성하는 복잡성을 파헤쳐보세요.",
+          "description": "Explore AI Fundamentals in 'Benchmarks 101.' Dive into the history of LLM Benchmarking and uncover the intricacies that shape machine learning's progress.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694154964-screenshot-2023-09-07-at-11-33-20-pm.png"
           },
@@ -2601,20 +2962,23 @@
       ]
     },
     {
-      "name": "LLM운영",
+      "name": "LLMOps",
       "slug": "llmops",
       "articles": [
         {
           "id": "191301444",
-          "topics": ["요약", "LLMOps"],
-          "title": "잠재 공간 팟캐스트 4/6/23 [요약] - 현실적인 연구: 구글 브레인에서 MLOps를 거쳐 LLMOps까지 - UC 버클리의 슈레야 샨카르와 함께",
+          "topics": [
+            "Summary",
+            "LLMOps"
+          ],
+          "title": "Latent Space Podcast 4/6/23 [Summary] - Grounded Research: From Google Brain to MLOps to LLMOps — with Shreya Shankar of UC Berkeley",
           "slug": "latent-space-podcast-4-6-23-summary-grounded-research-from-google-brain-to-mlops",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:04:09+01:00",
-          "description": "UC 버클리의 슈레야 샨카르와 함께 MLOps의 진화를 탐험하세요. 개발과 생산의 연결, ML 모델을 독특한 데이터베이스 뷰로 이해하는 것에 대해 깊이 있게 살펴봅니다. #ML #연구",
+          "description": "Explore the evolution of MLOps with Shreya Shankar from Google Brain to UC Berkeley. Dive into bridging development & production, understanding ML models as unique database views. #ML #Research",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694196657-screenshot-2023-09-08-at-11-08-10-am.png"
           },
@@ -2635,20 +2999,24 @@
       ]
     },
     {
-      "name": "도구",
+      "name": "Tools",
       "slug": "tools",
       "articles": [
         {
           "id": "191310297",
-          "topics": ["요약", "LLM", "도구"],
-          "title": "잠재 공간 팟캐스트 3/23/23 [요약] - 긴급 팟: ChatGPT의 앱 스토어 순간 (OpenAI의 Logan Kilpatrick, LindyAI의 Florent Crivello 및 Nader Dabit과 함께)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Tools"
+          ],
+          "title": "Latent Space Podcast 3/23/23 [Summary] - Emergency Pod: ChatGPT's App Store Moment (w/ OpenAI's Logan Kilpatrick, LindyAI's Florent Crivello and Nader Dabit)",
           "slug": "latent-space-podcast-3-23-23-summary-emergency-pod-chatgpt-s-app-store-moment-w-o",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:02:01+01:00",
-          "description": "OpenAI와 LindyAI의 전문가들이 ChatGPT 플러그인에 대해 탐구하는 팟캐스트 4화를 살펴보세요. 사용 사례, 수익화 전략 및 AI 통합의 미래를 발견하세요. #ChatGPT #AI플러그인",
+          "description": "Explore Ep.4 of the podcast as experts from OpenAI & LindyAI delve into ChatGPT Plugins. Discover use cases, monetization strategies & the future of AI integration. #ChatGPT #AIPlugins",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694201898-screenshot-2023-09-08-at-12-31-46-pm.png"
           },
@@ -2669,20 +3037,24 @@
       ]
     },
     {
-      "name": "산업",
+      "name": "Industry",
       "slug": "industry",
       "articles": [
         {
           "id": "190259003",
-          "topics": ["LLM", "요약", "산업"],
-          "title": "맥킨지: 생성형 AI의 경제적 잠재력 [요약]",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Industry"
+          ],
+          "title": "McKinsey: The economic potential of generative AI [Summary]",
           "slug": "mckinsey-the-economic-potential-of-generative-ai-eli5-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:28:52+01:00",
-          "description": "생성형 AI의 변혁적 힘, 경제적 잠재력, 그리고 미래 업무와 생산성에 미치는 영향에 대한 맥킨지의 연구를 탐구합니다.",
+          "description": "Explore McKinsey's research on the transformative power of generative AI, its economic potential, and its impact on future work and productivity.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690754998-ab5-img1.png"
           },
@@ -2702,15 +3074,18 @@
         },
         {
           "id": "190258686",
-          "topics": ["시작하기", "산업"],
-          "title": "미래를 위한 힘: 산업 전반에 걸친 대규모 언어 모델의 힘 펼치기",
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
+          "title": "Empowering the Future: Unfolding the Power of Large Language Models Across Industries",
           "slug": "empowering-the-future-unfolding-the-power-of-large-language-models-across-industr",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:53:06+01:00",
-          "description": "다양한 분야에 걸친 대규모 언어 모델의 변혁적인 힘을 탐구하세요! 성공 사례, 사용 사례 및 AI의 미래를 발견하세요!",
+          "description": "Explore the transformative power of Large Language Models across various sectors! Discover success stories, use cases, and the future of AI!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690344171-ab5-img1.png"
           },
@@ -2731,20 +3106,23 @@
       ]
     },
     {
-      "name": "시작하기",
+      "name": "Getting Started",
       "slug": "getting started",
       "articles": [
         {
           "id": "190258861",
-          "topics": ["시작하기", "개인화"],
-          "title": "대규모 언어 모델: 맞춤형 디지털 경험 만들기",
+          "topics": [
+            "Getting Started",
+            "Personalization"
+          ],
+          "title": "Large Language Models: Crafting Personalized Digital Experiences",
           "slug": "large-language-models-crafting-personalized-digital-experiences",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:06:53+01:00",
-          "description": "대규모 언어 모델(LLM)을 활용하여 초개인화된 디지털 경험과 콘텐츠 추천을 만드는 잠재력을 발휘하세요. 오늘 AI 경력을 시작하세요!",
+          "description": "Unleash the potential of Large Language Models (LLMs) in creating hyper-personalized digital experiences and content recommendations. Ignite your AI career today!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690407851-ab10-img1.png"
           },
@@ -2764,15 +3142,18 @@
         },
         {
           "id": "190258847",
-          "topics": ["시작하기", "AGI"],
-          "title": "내일의 거인들: 대규모 언어 모델의 미래와 그들이 직업 시장과 AGI에 미치는 영향",
+          "topics": [
+            "Getting Started",
+            "AGI"
+          ],
+          "title": "Tomorrow's Titans: The Future of Large Language Models and Their Influence on the Job Market and AGI",
           "slug": "tomorrow-s-titans-the-future-of-large-language-models-and-their-influence-on-the",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:05:58+01:00",
-          "description": "대규모 언어 모델의 미래, 직업 시장에 미칠 잠재적 영향, 그리고 인공 일반 지능으로 가는 여정에서의 역할을 알아보세요.",
+          "description": "Discover the future of LLMs, their potential impacts on the job market and their role in the journey towards Artificial General Intelligence.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690406895-ab9-img1.png"
           },
@@ -2792,15 +3173,18 @@
         },
         {
           "id": "190258836",
-          "topics": ["시작하기", "개인정보 보호"],
-          "title": "성을 지키기: LLM과 데이터 프라이버시의 최전선 탐험",
+          "topics": [
+            "Getting Started",
+            "Privacy"
+          ],
+          "title": "Securing the Castle: Exploring LLMs and the Frontier of Data Privacy",
           "slug": "securing-the-castle-exploring-llms-and-the-frontier-of-data-privacy",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:04:45+01:00",
-          "description": "LLM과 데이터 프라이버시의 세계로 깊이 들어가보세요. 도전 과제들과 그것들이 어떻게 한 걸음씩 극복되고 있는지 알아보세요.",
+          "description": "Dive deep into the world of LLMs and data privacy. Unearth the challenges and how they are being conquered, one step at a time.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690404787-ab8-img1.png"
           },
@@ -2820,15 +3204,18 @@
         },
         {
           "id": "190258732",
-          "topics": ["시작하기", "법률"],
-          "title": "복사가 가능한가요? 대규모 언어 모델, 저작권, 그리고 표절의 딜레마",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Copy That? LLMs, Copyright, and the Plagiarism Predicament",
           "slug": "copy-that-llms-copyright-and-the-plagiarism-predicament",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:54:04+01:00",
-          "description": "대규모 언어 모델이 저작권법의 미로와 표절의 위협을 어떻게 헤쳐 나가는지에 대한 복잡한 내용을 파헤칩니다.",
+          "description": "Unearth the intricacies of how Large Language Models navigate the labyrinth of copyright laws and the looming threat of plagiarism.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690402165-ab7-img1.png"
           },
@@ -2848,15 +3235,18 @@
         },
         {
           "id": "190258686",
-          "topics": ["시작하기", "산업"],
-          "title": "미래를 위한 힘: 산업 전반에 걸친 대규모 언어 모델의 힘 펼치기",
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
+          "title": "Empowering the Future: Unfolding the Power of Large Language Models Across Industries",
           "slug": "empowering-the-future-unfolding-the-power-of-large-language-models-across-industr",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:53:06+01:00",
-          "description": "다양한 분야에 걸친 대규모 언어 모델의 변혁적인 힘을 탐구하세요! 성공 사례, 사용 사례 및 AI의 미래를 발견하세요!",
+          "description": "Explore the transformative power of Large Language Models across various sectors! Discover success stories, use cases, and the future of AI!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690344171-ab5-img1.png"
           },
@@ -2876,15 +3266,18 @@
         },
         {
           "id": "190258672",
-          "topics": ["시작하기", "LLM"],
-          "title": "AI의 미스터리 해독하기: 대규모 언어 모델의 지식과 한계에 대한 심층 탐구",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Decoding the Mysteries of AI: A Deep Dive into Large Language Models' Knowledge and Limitations",
           "slug": "decoding-the-mysteries-of-ai-a-deep-dive-into-large-language-models-knowledge-and",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:51:17+01:00",
-          "description": "대규모 언어 모델(LLM)의 수수께끼를 풀어봅니다. 그들이 지식을 습득하는 방법, 한계점, 제한사항, 그리고 AI 여정에서 발생할 수 있는 잠재적 함정들을 이해해보세요.",
+          "description": "Unravel the enigma of Large Language Models (LLMs). Understand how they acquire knowledge, their cutoffs, limits, and the potential pitfalls on your AI journey.\"",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690333798-ab4-img1.png"
           },
@@ -2904,15 +3297,18 @@
         },
         {
           "id": "190258658",
-          "topics": ["시작하기", "LLM"],
-          "title": "대규모 언어 모델 훈련의 기술 마스터하기: 종합 가이드",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Mastering the Art of Training Large Language Models: A Comprehensive Guide",
           "slug": "mastering-the-art-of-training-large-language-models-a-comprehensive-guide",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:38:27+01:00",
-          "description": "LLM 훈련의 비밀을 풀어보세요. LLM 훈련에 필요한 데이터, 훈련 과정, 도전 과제 및 환경적 영향을 알아보세요.",
+          "description": "Unlock the secrets of LLM training. Discover the data needs, training process, challenges, and the environmental footprint of training LLMs.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690330651-ab3-img1.png"
           },
@@ -2932,15 +3328,18 @@
         },
         {
           "id": "190258582",
-          "topics": ["시작하기", "LLM"],
-          "title": "LLM 해독하기: 대규모 언어 모델 이해를 위한 궁극의 가이드",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Decoding LLMs: Your Ultimate Guide to Understanding Large Language Models",
           "slug": "decoding-llms-your-ultimate-guide-to-understanding-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:29:16+01:00",
-          "description": "대규모 언어 모델(LLM)의 세계로 깊이 들어가보세요. 그들의 구조, 학습 메커니즘, 그리고 트랜스포머의 힘을 알아보세요. 여기서 AI 경력의 여정을 시작하세요.",
+          "description": " Dive deep into the world of Large Language Models (LLMs). Uncover their architecture, learning mechanisms, and the power of transformers. Start your AI career journey here.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690247138-ab2-img1.png"
           },
@@ -2960,15 +3359,19 @@
         },
         {
           "id": "190258709",
-          "topics": ["시작하기", "정렬", "안전"],
-          "title": "도덕적 미로 탐색: 대규모 언어 모델의 윤리 해부",
+          "topics": [
+            "Getting Started",
+            "Alignment",
+            "Safety"
+          ],
+          "title": "Navigating the Moral Maze: Unraveling the Ethics of Large Language Models",
           "slug": "navigating-the-moral-maze-unraveling-the-ethics-of-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:27:55+01:00",
-          "description": "AI 윤리의 복잡한 풍경을 탐험하는 여정을 시작하세요. 편향이 LLM에 어떻게 침투하는지 알아보고 책임감 있는 사용을 보장하기 위해 취해지는 단계들을 배워보세요.",
+          "description": "Embark on a journey through the complex landscape of AI ethics. Discover how bias infiltrates LLMs and learn the steps being taken to ensure responsible usage.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690399140-ab6-img1.png"
           },
@@ -2988,15 +3391,18 @@
         },
         {
           "id": "190258905",
-          "topics": ["시작하기", "LLM"],
-          "title": "LLM의 기술 마스터하기: 대규모 언어 모델 구현을 위한 실용 가이드",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Mastering the Art of LLMs: A Practical Guide to Implementing Large Language Models",
           "slug": "mastering-the-art-of-llms-a-practical-guide-to-implementing-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:25:37+01:00",
-          "description": "AI의 힘을 활용하세요! 대규모 언어 모델의 세계를 탐험하고, 인기 있는 플랫폼을 살펴보며, LLM으로 애플리케이션에 힘을 불어넣기 위한 모범 사례를 배우세요.",
+          "description": "Unlock the power of AI! Navigate the world of Large Language Models, explore popular platforms, and learn best practices to fuel your applications with LLMs.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690421600-ab11-img1.png"
           },
@@ -3016,15 +3422,17 @@
         },
         {
           "id": "190258562",
-          "topics": ["시작하기"],
-          "title": "AI 마스터하기: 대규모 언어 모델(LLM)에 대한 포괄적인 소개",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "Mastering AI: A Comprehensive Introduction to Large Language Models (LLMs)",
           "slug": "mastering-ai-a-comprehensive-introduction-to-large-language-models-llms",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:24:02+01:00",
-          "description": "LLM에 대한 상세 가이드로 AI 경력을 시작하세요. 이 진화하는 분야에서 LLM의 역사, 특징 및 미래 잠재력에 대해 알아보세요.",
+          "description": "Kickstart your AI career with our detailed guide to LLMs. Learn about their history, uniqueness, and future potential in this evolving field.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690162707-ab-img1a.png"
           },
@@ -3045,20 +3453,23 @@
       ]
     },
     {
-      "name": "개인화",
+      "name": "Personalization",
       "slug": "personalization",
       "articles": [
         {
           "id": "190258861",
-          "topics": ["시작하기", "개인화"],
-          "title": "대규모 언어 모델: 맞춤형 디지털 경험 만들기",
+          "topics": [
+            "Getting Started",
+            "Personalization"
+          ],
+          "title": "Large Language Models: Crafting Personalized Digital Experiences",
           "slug": "large-language-models-crafting-personalized-digital-experiences",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:06:53+01:00",
-          "description": "대규모 언어 모델(LLM)을 활용하여 초개인화된 디지털 경험과 콘텐츠 추천을 만드는 잠재력을 발휘하세요. 오늘 AI 경력을 시작하세요!",
+          "description": "Unleash the potential of Large Language Models (LLMs) in creating hyper-personalized digital experiences and content recommendations. Ignite your AI career today!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690407851-ab10-img1.png"
           },
@@ -3084,7 +3495,10 @@
       "articles": [
         {
           "id": "190258847",
-          "topics": ["시작하기", "AGI"],
+          "topics": [
+            "시작하기",
+            "AGI"
+          ],
           "title": "내일의 거인들: 대규모 언어 모델의 미래와 그들이 직업 시장과 AGI에 미치는 영향",
           "slug": "tomorrow-s-titans-the-future-of-large-language-models-and-their-influence-on-the",
           "authorName": "Prof. Otto Nomos",
@@ -3113,20 +3527,23 @@
       ]
     },
     {
-      "name": "개인정보 보호",
+      "name": "Privacy",
       "slug": "privacy",
       "articles": [
         {
           "id": "190258836",
-          "topics": ["시작하기", "개인정보 보호"],
-          "title": "성을 지키기: LLM과 데이터 프라이버시의 최전선 탐험",
+          "topics": [
+            "Getting Started",
+            "Privacy"
+          ],
+          "title": "Securing the Castle: Exploring LLMs and the Frontier of Data Privacy",
           "slug": "securing-the-castle-exploring-llms-and-the-frontier-of-data-privacy",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:04:45+01:00",
-          "description": "LLM과 데이터 프라이버시의 세계로 깊이 들어가보세요. 도전 과제들과 그것들이 어떻게 한 걸음씩 극복되고 있는지 알아보세요.",
+          "description": "Dive deep into the world of LLMs and data privacy. Unearth the challenges and how they are being conquered, one step at a time.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690404787-ab8-img1.png"
           },
@@ -3147,20 +3564,23 @@
       ]
     },
     {
-      "name": "법률",
+      "name": "Legal",
       "slug": "legal",
       "articles": [
         {
           "id": "190258732",
-          "topics": ["시작하기", "법률"],
-          "title": "복사가 가능한가요? 대규모 언어 모델, 저작권, 그리고 표절의 딜레마",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Copy That? LLMs, Copyright, and the Plagiarism Predicament",
           "slug": "copy-that-llms-copyright-and-the-plagiarism-predicament",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:54:04+01:00",
-          "description": "대규모 언어 모델이 저작권법의 미로와 표절의 위협을 어떻게 헤쳐 나가는지에 대한 복잡한 내용을 파헤칩니다.",
+          "description": "Unearth the intricacies of how Large Language Models navigate the labyrinth of copyright laws and the looming threat of plagiarism.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690402165-ab7-img1.png"
           },
@@ -3181,20 +3601,24 @@
       ]
     },
     {
-      "name": "정렬",
+      "name": "Alignment",
       "slug": "alignment",
       "articles": [
         {
           "id": "190258709",
-          "topics": ["시작하기", "정렬", "안전"],
-          "title": "도덕적 미로 탐색: 대규모 언어 모델의 윤리 해부",
+          "topics": [
+            "Getting Started",
+            "Alignment",
+            "Safety"
+          ],
+          "title": "Navigating the Moral Maze: Unraveling the Ethics of Large Language Models",
           "slug": "navigating-the-moral-maze-unraveling-the-ethics-of-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:27:55+01:00",
-          "description": "AI 윤리의 복잡한 풍경을 탐험하는 여정을 시작하세요. 편향이 LLM에 어떻게 침투하는지 알아보고 책임감 있는 사용을 보장하기 위해 취해지는 단계들을 배워보세요.",
+          "description": "Embark on a journey through the complex landscape of AI ethics. Discover how bias infiltrates LLMs and learn the steps being taken to ensure responsible usage.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690399140-ab6-img1.png"
           },
@@ -3215,20 +3639,24 @@
       ]
     },
     {
-      "name": "안전",
+      "name": "Safety",
       "slug": "safety",
       "articles": [
         {
           "id": "190258709",
-          "topics": ["시작하기", "정렬", "안전"],
-          "title": "도덕적 미로 탐색: 대규모 언어 모델의 윤리 해부",
+          "topics": [
+            "Getting Started",
+            "Alignment",
+            "Safety"
+          ],
+          "title": "Navigating the Moral Maze: Unraveling the Ethics of Large Language Models",
           "slug": "navigating-the-moral-maze-unraveling-the-ethics-of-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:27:55+01:00",
-          "description": "AI 윤리의 복잡한 풍경을 탐험하는 여정을 시작하세요. 편향이 LLM에 어떻게 침투하는지 알아보고 책임감 있는 사용을 보장하기 위해 취해지는 단계들을 배워보세요.",
+          "description": "Embark on a journey through the complex landscape of AI ethics. Discover how bias infiltrates LLMs and learn the steps being taken to ensure responsible usage.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690399140-ab6-img1.png"
           },
@@ -3256,8 +3684,8 @@
       "title": "AI | Bitcash Blog",
       "twitterCard": "summary_large_image"
     },
-    "description": "지능, 재창조되다.",
-    "title": "인공지능",
+    "description": "Intelligence, Reimagined.",
+    "title": "Ai",
     "seoType": "ai",
     "id": "178642405",
     "_createdAt": "2023-07-24T18:38:43+01:00"

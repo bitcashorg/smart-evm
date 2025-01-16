@@ -1,5 +1,8 @@
 import { BlogSections } from '@/components/routes/blog/blog-sections'
-import { type MediaSection, MediaSections } from '@/components/shared/media-sections'
+import {
+  type MediaSection,
+  MediaSections,
+} from '@/components/shared/media-sections'
 import { Section } from '@/components/shared/section'
 import type { ArticlesSection } from '@/services/datocms'
 import type { LangProp } from '@/types/routing.type'
@@ -140,7 +143,8 @@ const latestShorts = [
     snippet: {
       publishedAt: '2024-05-20T04:55:10Z',
       channelId: 'UChzuWZjo_PvOrRTDfkojp3w',
-      title: 'From Prison to Bitcoin A Journey to Freedom #bitcoin #crypto #liberty',
+      title:
+        'From Prison to Bitcoin A Journey to Freedom #bitcoin #crypto #liberty',
       description: 'Full video here: https://youtu.be/IXhECniE6-4',
       thumbnails: {
         default: {
@@ -234,7 +238,8 @@ const latestShorts = [
     snippet: {
       publishedAt: '2024-05-20T05:07:26Z',
       channelId: 'UChzuWZjo_PvOrRTDfkojp3w',
-      title: 'Protect Your Privacy in the Digital Age #crypto #bitcoin #privacy',
+      title:
+        'Protect Your Privacy in the Digital Age #crypto #bitcoin #privacy',
       description: 'Full video here: https://youtu.be/IXhECniE6-4',
       thumbnails: {
         default: {
@@ -281,7 +286,8 @@ const latestShorts = [
     snippet: {
       publishedAt: '2024-06-25T02:54:26Z',
       channelId: 'UChzuWZjo_PvOrRTDfkojp3w',
-      title: 'Trust is Key in Crypto Market Making #crypto #bitcoin #investing #trading',
+      title:
+        'Trust is Key in Crypto Market Making #crypto #bitcoin #investing #trading',
       description: 'Watch full video at: https://youtu.be/Kfk6T4QCUMI',
       thumbnails: {
         default: {

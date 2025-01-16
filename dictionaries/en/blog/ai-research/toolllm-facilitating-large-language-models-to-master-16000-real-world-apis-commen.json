@@ -1,0 +1,622 @@
+{
+  "relatedBlogs": [],
+  "blogContent": {
+    "id": "180928004",
+    "topics": [
+      "LLM",
+      "Tools",
+      "Commentary"
+    ],
+    "title": "ToolLLM: Facilitating Large Language Models To Master 16000+ Real-World APIs [Commentary]",
+    "slug": "toolllm-facilitating-large-language-models-to-master-16000-real-world-apis-commen",
+    "authorName": "Prof. Otto Nomos",
+    "authorPicture": {
+      "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+    },
+    "_publishedAt": "2023-10-02T07:46:02+01:00",
+    "description": "Explore the power of Large Language Models (LLMs) in API interaction with our summary of 'Tool LLM'",
+    "thumbnail": {
+      "url": "https://www.datocms-assets.com/101962/1690949823-screenshot-2023-08-02-at-12-14-28-am.png"
+    },
+    "contentBlock": [
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Original PDF: "
+                    },
+                    {
+                      "url": "https://arxiv.org/pdf/2307.16789.pdf",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "TOOLLLM: FACILITATING LARGE LANGUAGE MODELS TO MASTER 16000+ REAL-WORLD APIS"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Author: Yujia Qin , Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu and more"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Summary & Commentary"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Introduction"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The paper titled \"ToolLLM: Eliciting Tool-Use Capabilities within Large Language Models\" introduces ToolLLM, a general tool-use framework for data construction, model training, and evaluation. The authors have created an instruction-tuning dataset called ToolBench, which was automatically generated using ChatGPT. ToolBench comprises 16,464 real-world RESTful APIs across 49 categories from RapidAPI Hub. The authors aim to enhance the tool-use capabilities of open-source Large Language Models (LLMs), such as LLaMA and Vicuna, which currently lack the sophistication to understand human instructions and interact appropriately with APIs. The authors argue that the current instruction tuning largely focuses on closed-source models like ChatGPT, which have demonstrated excellent tool-use capabilities (Page 1)."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "screenshot-2023-08-02-at-12-14-28-am",
+            "height": 484,
+            "width": 1202,
+            "filename": "screenshot-2023-08-02-at-12-14-28-am.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690949823-screenshot-2023-08-02-at-12-14-28-am.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2: Dataset Construction"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The authors of the paper describe the construction process of ToolBench, which consists of three stages: API collection, instruction generation, and solution path annotation. The entire process is carried out using ChatGPT, requiring minimal human supervision and can be easily extended to new APIs."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "API Collection:"
+                    },
+                    {
+                      "type": "span",
+                      "value": " The authors collected 16,464 real-world RESTful APIs from RapidAPI Hub, which were classified into 49 coarse-grained categories such as sports, finance, and weather. The categories were used to associate each API with the most relevant tasks (Page 4)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Instruction Generation:"
+                    },
+                    {
+                      "type": "span",
+                      "value": " The authors generated instructions for the APIs using ChatGPT. They created both single-tool instructions and multi-tool instructions. For multi-tool instructions, they considered both intra-category and intra-collection instructions. The generated instructions were diverse, covering a wide range of sentence structures, tones, subjects, and API calls (Page 5)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Solution Path Annotation:"
+                    },
+                    {
+                      "type": "span",
+                      "value": " The authors used ChatGPT to generate solution paths for the instructions. They found that even the most sophisticated model, GPT-4, often fails to find a valid solution path, making data collection difficult. However, they believe that their dataset, ToolBench, is designed for practical scenarios and improves the previous pipeline for tool-learning data construction (Page 10)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    },
+                    {
+                      "type": "span",
+                      "value": " The construction of a high-quality dataset like ToolBench is crucial for enhancing the tool-use capabilities of LLMs. The use of real-world APIs and the generation of diverse instructions can help in creating a more practical and useful dataset."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Insights for AI Startups:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Leverage Existing LLMs for Data Construction:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " AI startups can use existing LLMs like ChatGPT for data construction, reducing the need for extensive human supervision."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Collect Diverse APIs:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " Collecting APIs from diverse categories can help in creating a more comprehensive and practical dataset."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Generate Diverse Instructions:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " Generating instructions that cover a wide range of sentence structures, tones, subjects, and API calls can help in creating a more versatile and useful dataset."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Consider Multi-Tool Instructions:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " Multi-tool instructions can add an extra layer of complexity and practicality to the dataset, making it more useful for real-world applications."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "screenshot-2023-08-02-at-12-14-16-am",
+            "height": 428,
+            "width": 1152,
+            "filename": "screenshot-2023-08-02-at-12-14-16-am.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690949968-screenshot-2023-08-02-at-12-14-16-am.png"
+          },
+          {
+            "basename": "screenshot-2023-08-02-at-12-13-43-am",
+            "height": 648,
+            "width": 1132,
+            "filename": "screenshot-2023-08-02-at-12-13-43-am.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690950012-screenshot-2023-08-02-at-12-13-43-am.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3: Experiments"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The authors conducted experiments to evaluate the performance of their model, ToolLLaMA. They used an efficient machine evaluator, ToolEval, to assess the model's performance. The evaluation metric was designed considering the temporal variability of APIs and the need to ensure that different models employ the same version of APIs during evaluation (Page 7)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The authors evaluated the efficacy of their API retriever and DFSDT (Depth-First Search Decision Tree). The API retriever, trained using Sentence-BERT, encodes the instruction and API document into two embeddings, respectively, and determines their relevance based on the similarity of these embeddings. The authors found that their model performed well in comparison to the baseline, BM25 (Page 8)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The authors also compared their model's performance with other reasoning strategies for three types of instructions (I1, I2, I3) based on ChatGPT. The results showed that their model, DFSDT, had a high pass rate, indicating its effectiveness (Page 8)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insights:"
+                    },
+                    {
+                      "type": "span",
+                      "value": " The authors' model, ToolLLaMA, shows promising results in the experiments. It performs well in comparison to the baseline and other reasoning strategies. The use of an API retriever and DFSDT contributes to its effectiveness."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Insights for AI Startups:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Consider Machine Evaluators:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " AI startups should consider using machine evaluators like ToolEval for efficient and consistent model evaluation."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Leverage Existing Models:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " Using established models like Sentence-BERT for tasks such as encoding can enhance the performance of your model."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Compare with Other Strategies:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " Comparing your model's performance with other reasoning strategies can provide valuable insights into its effectiveness."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Focus on Pass Rate:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " The pass rate can be a useful metric to evaluate the effectiveness of your model. High pass rates indicate that your model is performing well."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "screenshot-2023-08-02-at-12-12-07-am",
+            "height": 352,
+            "width": 1124,
+            "filename": "screenshot-2023-08-02-at-12-12-07-am.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690949990-screenshot-2023-08-02-at-12-12-07-am.png"
+          },
+          {
+            "basename": "screenshot-2023-08-02-at-12-13-02-am",
+            "height": 368,
+            "width": 1138,
+            "filename": "screenshot-2023-08-02-at-12-13-02-am.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690950001-screenshot-2023-08-02-at-12-13-02-am.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 4: Related Work"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The authors discuss various methods and studies that have been conducted in the field of Large Language Models (LLMs). They mention the work done on Tool Learning, Instruction Tuning, Data Augmentation, and Prompting LLMs for Decision Making. These methods have shown promise in enhancing the effectiveness of LLMs. The authors highlight the need for more research in these areas to fully realize the potential of LLMs (Pages 8-9)."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr9-img4",
+            "height": 862,
+            "width": 862,
+            "filename": "abr9-img4.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690950229-abr9-img4.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 5: Conclusion"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The authors conclude that their work introduces a new way to elicit the tool-use capabilities within Large Language Models (LLMs). They present an instruction tuning dataset, ToolBench, which covers over 16,000 real-world APIs and various practical use-case scenarios, including both single-tool and multi-tool tasks. The construction of ToolBench is purely based on the capabilities of LLMs, and it does not require any additional resources. The authors believe that their work can inspire future research on how to better integrate LLMs with APIs to accomplish complex tasks (Page 11)."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr9-img5",
+            "height": 862,
+            "width": 862,
+            "filename": "abr9-img5.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690950211-abr9-img5.png"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "description": "Explore the power of Large Language Models (LLMs) in API interaction with our summary of 'Tool LLM'",
+      "title": "Tool LLM [Commentary]",
+      "twitterCard": null,
+      "image": {
+        "width": 4,
+        "height": 4,
+        "title": null,
+        "alt": null,
+        "url": "https://www.datocms-assets.com/101962/1690947725-screenshot-2023-08-01-at-11-25-58-pm.png"
+      }
+    }
+  },
+  "topics": [
+    "LLM",
+    "Tools",
+    "Commentary"
+  ],
+  "shortLink": ""
+}

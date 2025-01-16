@@ -3,13 +3,26 @@ import '@nomiclabs/hardhat-ethers'
 import { ethers } from 'ethers'
 import { task, types } from 'hardhat/config'
 
-import { getEasyAuctionContract, getEhtersSigners, getNetworkName } from './utils'
+import {
+  getEasyAuctionContract,
+  getEhtersSigners,
+  getNetworkName,
+} from './utils'
 
 const initiateAuction: () => void = () => {
   task('initiateAuction', 'Starts a new auction')
-    .addParam('auctioningToken', "The ERC20's address of the token that should be sold")
-    .addParam('biddingToken', "The ERC20's address of the token that should be bought")
-    .addParam('sellAmount', 'The amount of auctioningTokens to be sold in atoms')
+    .addParam(
+      'auctioningToken',
+      "The ERC20's address of the token that should be sold",
+    )
+    .addParam(
+      'biddingToken',
+      "The ERC20's address of the token that should be bought",
+    )
+    .addParam(
+      'sellAmount',
+      'The amount of auctioningTokens to be sold in atoms',
+    )
     .addParam(
       'minBuyAmount',
       'The amount of biddingToken to be bought at least for selling sellAmount in atoms',
@@ -88,7 +101,10 @@ const initiateAuction: () => void = () => {
       )
 
       console.log('Using EasyAuction deployed to:', easyAuction.address)
-      if (taskArgs.allowListManager != '0x0000000000000000000000000000000000000000') {
+      if (
+        taskArgs.allowListManager !=
+        '0x0000000000000000000000000000000000000000'
+      ) {
         const allowListManager = await hardhatRuntime.ethers.getContractAt(
           'AllowListVerifier',
           taskArgs.allowListManager,
@@ -101,7 +117,10 @@ const initiateAuction: () => void = () => {
         ).substring(0, 500) // Byte code is cut to 500 byte to make sure that we only search for the interface bytes at the beginning to avoid false negatives
 
         if (cutByteCodeFromContract.includes(interfaceSignatureOfIsAllowed)) {
-          console.log('You are using the allow manager from:', allowListManager.address)
+          console.log(
+            'You are using the allow manager from:',
+            allowListManager.address,
+          )
         } else {
           throw new Error('Allow manager does not support right interface')
         }
@@ -146,7 +165,10 @@ const initiateAuction: () => void = () => {
       const auctionId = txResult.events
         .filter((event: any) => event.event === 'NewAuction')
         .map((event: any) => event.args.auctionId)
-      console.log('Your auction has been schedule and has the Id:', auctionId.toString())
+      console.log(
+        'Your auction has been schedule and has the Id:',
+        auctionId.toString(),
+      )
     })
 }
 export { initiateAuction }

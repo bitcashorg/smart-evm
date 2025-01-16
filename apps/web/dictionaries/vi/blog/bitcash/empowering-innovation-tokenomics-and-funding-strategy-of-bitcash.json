@@ -2,130 +2,195 @@
   "relatedBlogs": [
     {
       "id": "CD89KaoLSh6nQbiMhxX0EQ",
-      "topics": ["launchpad"],
-      "title": "Đảm bảo niềm tin và tính toàn vẹn: Tuân thủ quy định và các biện pháp an ninh",
+      "topics": [
+        "launchpad"
+      ],
+      "title": "Ensuring Trust and Integrity: Regulatory Compliance and Security Measures",
       "slug": "ensuring-trust-and-integrity-regulatory-compliance-and-security-measures",
       "authorName": "Jun Dam",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
       },
       "_publishedAt": "2024-06-20T16:21:42+01:00",
-      "description": "Phần này trình bày cách tiếp cận chủ động của nền tảng của chúng tôi trong việc tuân thủ các tiêu chuẩn quy định toàn cầu và triển khai các biện pháp an ninh tiên tiến, đảm bảo một môi trường an toàn và tuân thủ cho người dùng trong lĩnh vực tiền điện tử và AI.",
+      "description": "This section outlines our platform's proactive approach to adhering to global regulatory standards and implementing advanced security measures, ensuring a safe and compliant environment for users in the crypto and AI spaces.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1710562461-bitlauncherregsecimg.webp"
       },
       "seo": {
-        "title": "Tuân thủ quy định và các biện pháp an ninh",
-        "description": "Phần này trình bày cách tiếp cận chủ động của nền tảng của chúng tôi trong việc tuân thủ các tiêu chuẩn quy định toàn cầu và triển khai các biện pháp an ninh tiên tiến."
+        "description": "This section outlines our platform's proactive approach to adhering to global regulatory standards and implementing advanced security measures.",
+        "title": "Regulatory Compliance and Security Measures",
+        "twitterCard": null,
+        "image": {
+          "width": 700,
+          "height": 700,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1710562461-bitlauncherregsecimg.webp"
+        }
       }
     },
     {
       "id": "fbM-UqrYQXGhw6HB4C6swQ",
-      "topics": ["launchpad"],
-      "title": "Lộ trình Chiến lược: Đổi mới sáng tạo Blockchain và thành công của Startup AI",
+      "topics": [
+        "launchpad"
+      ],
+      "title": "Strategic Roadmap: Pioneering Blockchain Innovation and AI Startup Success",
       "slug": "strategic-roadmap-pioneering-blockchain-innovation-and-ai-startup-success",
       "authorName": "Jun Dam",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
       },
       "_publishedAt": "2024-03-15T05:13:30+00:00",
-      "description": "Trình bày kế hoạch giai đoạn của bitLauncher cho việc triển khai công nghệ đột phá, tăng trưởng do cộng đồng dẫn dắt, và phát triển chuỗi Antelope công bằng, nhằm cách mạng hóa cảnh quan AI và tiền điện tử.",
+      "description": "Outlining bitLauncher's phased plan for groundbreaking technology deployment, community-driven growth, and the development of the equitable Antelope chain, to revolutionize the AI and cryptocurrency landscapes.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1710479575-roadmapbitlauncher.webp"
       },
       "seo": {
-        "title": "Lộ trình Chiến lược của bitLauncher",
-        "description": "Trình bày kế hoạch giai đoạn của bitLauncher cho việc triển khai công nghệ đột phá"
+        "description": "Outlining bitLauncher's phased plan for groundbreaking technology deployment",
+        "title": "bitLauncher Strategic Roadmap",
+        "twitterCard": null,
+        "image": {
+          "width": 700,
+          "height": 700,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1710479575-roadmapbitlauncher.webp"
+        }
       }
     },
     {
       "id": "I4jShMnWRruvJgDbrucwDw",
-      "topics": ["launchpad"],
-      "title": "Xương sống Công nghệ của bitLauncher",
+      "topics": [
+        "launchpad"
+      ],
+      "title": "The Technological Backbone of bitLauncher",
       "slug": "the-technological-backbone-of-bitcash-launchpad",
       "authorName": "Jun Dam",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
       },
       "_publishedAt": "2024-03-14T05:33:20+00:00",
-      "description": "Phần này chi tiết sự tích hợp của bitLauncher với các công nghệ blockchain tiên tiến và các công cụ sáng tạo, bao gồm thanh toán Bitcash, quản trị DAO, và tầm nhìn blockchain phi lợi nhuận, thiết lập sân khấu cho sự phát triển startup AI minh bạch, an toàn và công bằng.",
+      "description": "This section details bitLauncher's integration of cutting-edge blockchain technologies and innovative tools, including Bitcash payments, DAO governance, and a non-profit blockchain vision, setting the stage for transparent, secure, and equitable AI startup growth.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1710011354-techsectionwpimg.webp"
       },
       "seo": {
-        "title": "Xương sống Công nghệ của bitLauncher",
-        "description": "Phần này chi tiết sự tích hợp của bitLauncher với các công nghệ blockchain tiên tiến và các công cụ sáng tạo."
+        "description": "This section details bitLauncher's integration of cutting-edge blockchain technologies and innovative tools.",
+        "title": "The Technological Backbone of bitLauncher",
+        "twitterCard": null,
+        "image": {
+          "width": 700,
+          "height": 700,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1710011354-techsectionwpimg.webp"
+        }
       }
     },
     {
       "id": "BEfgGhndSsCn5MBU89RO3A",
-      "topics": ["launchpad"],
-      "title": "Trao quyền cho Đổi mới: Tầm nhìn, Sứ mệnh và Mục tiêu Chiến lược của bitLauncher",
+      "topics": [
+        "launchpad"
+      ],
+      "title": "Empowering Innovation: Vision, Mission, and Strategic Goals of bitLauncher",
       "slug": "empowering-innovation-vision-mission-and-strategic-goals-of-bitcash-launchpad",
       "authorName": "Jun Dam",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
       },
       "_publishedAt": "2024-03-14T05:31:29+00:00",
-      "description": "Phần này trình bày tầm nhìn của bitcash Launchpad để cách mạng hóa đổi mới AI với tiền điện tử, chi tiết sứ mệnh của chúng tôi để dân chủ hóa phát triển AI và các mục tiêu chiến lược của chúng tôi để tạo ra một tương lai công nghệ cộng đồng, minh bạch và đạo đức.",
+      "description": "This section outlines bitcash Launchpad's vision to revolutionize AI innovation with cryptocurrency, detailing our mission to democratize AI development and our strategic goals for creating a community-driven, transparent, and ethical technological future.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1709370139-whitepaper-p4.webp"
       },
       "seo": {
-        "title": "Trao quyền cho Đổi mới: Tầm nhìn, Sứ mệnh và Mục tiêu Chiến lược",
-        "description": "Phần này trình bày tầm nhìn, sứ mệnh và mục tiêu của chúng tôi để cách mạng hóa đổi mới AI với tiền điện tử."
+        "description": "This section outlines our vision, mission and goals to revolutionize AI innovation with cryptocurrency.",
+        "title": "Empowering Innovation: Vision, Mission, and Strategic Goals ",
+        "twitterCard": null,
+        "image": {
+          "width": 700,
+          "height": 700,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1709370139-whitepaper-p4.webp"
+        }
       }
     },
     {
       "id": "NZeB3i5XRzuELW2UWBDyRQ",
-      "topics": ["research", "dao", "fundraising", "launchpad"],
-      "title": "Điều hướng sự Giao thoa: Phân tích Thị trường Toàn diện về AI và Động lực Tiền điện tử",
+      "topics": [
+        "research",
+        "dao",
+        "fundraising",
+        "launchpad"
+      ],
+      "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
       "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
       "authorName": "Jun Dam",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
       },
       "_publishedAt": "2024-03-14T05:30:05+00:00",
-      "description": "Phần này khám phá giao điểm động của AI và tiền điện tử, làm nổi bật các xu hướng chính, thách thức và cơ hội, và định vị bitcash Launchpad là một nền tảng tiên phong cho các dự án AI mã nguồn mở.",
+      "description": "This section explores the dynamic intersection of AI and cryptocurrency, highlighting key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
       },
       "seo": {
-        "title": "Phân tích Thị trường về Động lực AI và Tiền điện tử",
-        "description": "Các xu hướng chính, thách thức và cơ hội, và định vị bitcash Launchpad là một nền tảng tiên phong cho các dự án AI mã nguồn mở."
+        "description": "Key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
+        "title": "Market Analysis of AI and Cryptocurrency Dynamic",
+        "twitterCard": null,
+        "image": {
+          "width": 700,
+          "height": 700,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
+        }
       }
     },
     {
       "id": "BSDdY8byQWipv749rApFRA",
-      "topics": ["launchpad"],
-      "title": "Mở khóa Tiềm năng: Các Trường hợp Sử dụng và Ứng dụng của bitLauncher",
+      "topics": [
+        "launchpad"
+      ],
+      "title": "Unlocking Potential: Use Cases and Applications of bitLauncher",
       "slug": "unlocking-potential-use-cases-and-applications-of-bitlauncher",
       "authorName": "Jun Dam",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
       },
       "_publishedAt": "2024-03-14T05:26:22+00:00",
-      "description": "Phần này khám phá cách bitLauncer cách mạng hóa việc tài trợ cho startup AI và tiếp cận thị trường toàn cầu, trưng bày các mô hình mã nguồn mở bền vững, văn hóa startup chiến lược, và hệ sinh thái nhà đầu tư toàn cầu thông qua các trường hợp sử dụng cụ thể và dự án tiên phong Masterbots.ai.",
+      "description": "This section explores how bitLauncer revolutionizes AI startup funding and global market access, showcasing sustainable open-source models, strategic startup culture, and the global investor ecosystem through targeted use cases and the pioneering Masterbots.ai project.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1710393954-usecaseappsimg.webp"
       },
       "seo": {
-        "title": "Mở khóa Tiềm năng: Các Trường hợp Sử dụng và Ứng dụng",
-        "description": "Phần này khám phá cách bitLauncher cách mạng hóa việc tài trợ cho startup AI, tiếp cận thị trường toàn cầu, và dự án tiên phong Masterbots.ai."
+        "description": "This section explores how bitLauncher revolutionizes AI startup funding, global market access, and the pioneering Masterbots.ai project.",
+        "title": "Unlocking Potential: Use Cases and Applications ",
+        "twitterCard": null,
+        "image": {
+          "width": 1012,
+          "height": 1012,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1710393954-usecaseappsimg.webp"
+        }
       }
     }
   ],
   "blogContent": {
     "id": "MICfokr1TVuScAB4Qh9YGw",
-    "topics": ["bệ phóng"],
-    "title": "Trao quyền cho Đổi mới: Tokenomics và Chiến lược Tài trợ của bitcash",
+    "topics": [
+      "launchpad"
+    ],
+    "title": "Empowering Innovation: Tokenomics and Funding Strategy of bitcash",
     "slug": "empowering-innovation-tokenomics-and-funding-strategy-of-bitcash",
     "authorName": "Jun Dam",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
     },
     "_publishedAt": "2024-03-14T05:27:37+00:00",
-    "description": "Phần này chi tiết mô hình token tiện ích đúc và đốt của bitcash và cách tiếp cận chiến lược của họ đối với việc tài trợ công bằng và tăng trưởng giá trị, làm nền tảng cho sứ mệnh của bệ phóng nhằm trao quyền phát triển AI với tokenomics minh bạch và bền vững.",
+    "description": "This section details bitcash's mint-and-burn utility token model and its strategic approach to equitable funding and value growth, underpinning the launchpad's mission to empower AI development with transparent and sustainable tokenomics.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1710053905-tokenomicswpimg.webp"
     },
@@ -143,7 +208,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Tokenomics và Tài trợ"
+                      "value": "Tokenomics and Funding"
                     }
                   ]
                 },
@@ -152,7 +217,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Nền tảng của hệ sinh thái bitcash dựa trên một khung tokenomics đơn giản nhưng mạnh mẽ, sử dụng một mô hình token tiện ích hoạt động trên cơ chế đúc và đốt. Mô hình này được thiết kế để đảm bảo rằng lượng token lưu thông phản ánh một cách linh hoạt sự tăng trưởng của nền tảng và sự đóng góp từ cộng đồng của họ."
+                      "value": "The foundation of bitcash's ecosystem rests on a straightforward yet potent tokenomics framework, utilizing a utility token operating on a mint-and-burn model. This model is designed to ensure that the circulation of tokens dynamically reflects the platform's growth and contributions from its community."
                     }
                   ]
                 },
@@ -162,7 +227,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Cơ chế Đúc và Đốt"
+                      "value": "Mint-and-Burn Mechanism"
                     }
                   ]
                 },
@@ -171,7 +236,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Token trong hệ sinh thái bitcash được phát hành cho cả những người đóng góp mã nguồn mở và nhà đầu tư dựa trên định giá thị trường hiện tại, giới thiệu một hiệu ứng pha loãng với mỗi lần phát hành mới. Tuy nhiên, bản chất của mô hình của chúng tôi là đảm bảo rằng các đóng góp và đầu tư làm tăng đáng kể giá trị của tổ chức, vượt qua bất kỳ sự pha loãng tiềm năng nào. Doanh thu cho nền tảng được tạo ra khi người dùng mua token tiện ích để truy cập các dịch vụ khác nhau, tạo ra dòng tiền mặt sau đó được sử dụng một cách chiến lược để mua lại token từ lưu thông. Quá trình này làm giảm nguồn cung token, tạo ra một hiệu ứng chống pha loãng, từ đó làm tăng giá trị của token tiện ích."
+                      "value": "Tokens within the bitcash ecosystem are issued to both open-source contributors and investors based on the current market valuations, introducing a dilutive effect with each new issuance. However, the essence of our model is to ensure that contributions and investments significantly enhance the organization's value, surpassing any potential dilution. Revenue for the platform is generated as users purchase utility tokens for accessing various services, creating a cash flow that is then strategically used to buy back tokens from circulation. This process inherently reduces token supply, creating an anti-dilutive effect that, in turn, appreciates the utility token's value."
                     }
                   ]
                 },
@@ -181,7 +246,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Song song Khái niệm với Mô hình Cổ đông"
+                      "value": "Conceptual Parallels with Shareholder Models"
                     }
                   ]
                 },
@@ -190,7 +255,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Khái niệm tokenomics của Bitcash phản ánh theo cách khái niệm mô hình cổ đông truyền thống, nơi cổ phiếu được phát hành liên tục cho các nhà sáng lập và người đóng góp. Giống như lợi nhuận giữ lại được sử dụng để mua lại cổ phiếu trong một cài đặt doanh nghiệp, cách tiếp cận đúc và đốt của chúng tôi phản ánh một chiến lược tương tự nhưng trong lĩnh vực blockchain, mang lại một cách tiếp cận hiện đại trong việc thưởng cho các đóng góp và đảm bảo sự tích lũy giá trị trở lại cho nền tảng và các bên liên quan của nó."
+                      "value": "Bitcash's tokenomics conceptually mirrors the traditional shareholder model, where shares are issued to founders and contributors continuously. Like retained earnings used for share buybacks in a corporate setting, our burn-and-mint approach reflects a similar strategy but within the blockchain domain, offering a modern take on rewarding contributions and ensuring value accrual back to the platform and its stakeholders."
                     }
                   ]
                 },
@@ -200,7 +265,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Phân phối Quyền sở hữu và Định giá Token"
+                      "value": "Equity Distribution and Token Valuation"
                     }
                   ]
                 },
@@ -209,7 +274,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Cách tiếp cận của chúng tôi đối với phân phối quyền sở hữu là đơn giản nhưng hiệu quả sâu sắc, dựa trên nguyên tắc rằng quyền sở hữu - hoặc trong trường hợp của chúng tôi, token - nên được phân bổ dựa trên giá trị của các đóng góp trước đó, dù đó là tiền mặt, công việc hay ý tưởng. Phương pháp này cho phép phân phối token liên tục phản ánh tỷ lệ đóng góp của một cá nhân đối với tổng số, điều chỉnh theo sự thay đổi giá trị token theo thời gian."
+                      "value": "Our approach to equity distribution is straightforward yet profoundly effective, grounding in the principle that equity—or in our case, tokens—should be allocated based on the value of past contributions, whether they be cash, work, or ideas. This method allows for ongoing token distribution reflective of an individual's contribution percentage to the total, adjusting for token valuation changes over time."
                     }
                   ]
                 },
@@ -218,7 +283,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Đối với Bitcash, tất cả các đóng góp đều được định giá theo chi phí, không quan tâm đến thời điểm của các đóng góp này để duy trì sự công bằng và đơn giản trong giai đoạn trước khi sản phẩm phù hợp với thị trường của chúng tôi. Không giống như các startup truyền thống, chúng tôi không chú trọng đến các dự báo công việc trong tương lai, lịch trình tạm giữ, hoặc vách đá từ mô hình của mình, tập trung thay vào đó vào việc thưởng cho các đóng góp trước đó một cách trực tiếp và liên tục."
+                      "value": "For Bitcash, all contributions are valued at cost, disregarding the timing of these contributions to maintain fairness and simplicity during our pre-product market fit phase. Unlike traditional startups, we eschew future work projections, vesting schedules, or cliffs from our model, focusing instead on rewarding past contributions directly and continuously."
                     }
                   ]
                 },
@@ -228,7 +293,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Khuyến khích Sự Tham gia của các Startup trên Bệ phóng"
+                      "value": "Encouraging Adoption Among Launchpad Startups"
                     }
                   ]
                 },
@@ -237,7 +302,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Chúng tôi ủng hộ tất cả các startup trong bitLauncher áp dụng mô hình tokenomics công bằng này, thúc đẩy một hệ sinh thái minh bạch và công bằng cho sự đổi mới AI. Chúng tôi cũng ủng hộ việc gọi vốn nhỏ hơn cho các vòng gieo và tiền gieo, và chỉ gọi vốn thêm sau khi các startup đạt được những cột mốc nhất định trong sự thu hút người dùng hoặc dòng tiền.\n\nHành trình gọi vốn của chúng tôi trên bệ phóng khẳng định cam kết của chúng tôi đối với các nguyên tắc này, nhằm gọi vốn 350 nghìn đô la thông qua đợt bán token công khai cũng ưu tiên cơ hội tham gia bình đẳng giữa bán lẻ, thiên thần và VCs. (Lưu ý: Do áp lực quy định, nhà đầu tư từ Hoa Kỳ hoặc các nước bị Hoa Kỳ trừng phạt sẽ bị loại trừ)"
+                      "value": "We advocate for all startups within bitLauncher to adopt this equitable tokenomics model, promoting a transparent and fair ecosystem for AI innovation.   We also advocate for smaller seed & pre-seed raises and only further fundraising after startups achieve certain milestones in user traction or cash flow.\n\nOur own fundraising journey on the launchpad underscores our commitment to these principles, aiming to raise a $350k seed through a public token sale that also prioritizes equal participation opportunities between retail, angels and VCs. (Note: Due to regulatory pressures, US investors or those from US-sanctioned countries will be excluded)"
                     }
                   ]
                 },
@@ -247,7 +312,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Sử dụng Quỹ"
+                      "value": "Use of Proceeds"
                     }
                   ]
                 },
@@ -256,7 +321,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Quỹ được gọi sẽ chủ yếu hỗ trợ các nỗ lực phát triển và tiếp thị cần thiết cho sự cải tiến liên tục của bệ phóng, ví và công cụ DAO của chúng tôi. Ngoài ra, chúng tôi dự định khởi xướng việc phát triển chuỗi L1 Antelope phi lợi nhuận, không premine vào Q3, đánh dấu một cột mốc quan trọng trong lộ trình của chúng tôi hướng tới việc tạo ra một tương lai mở, công bằng và thúc đẩy sự đổi mới."
+                      "value": "The funds raised will predominantly support development and marketing endeavors necessary for the continuous improvement of our launchpad, wallet, and DAO tooling. Additionally, we aim to initiate the development of the non-profit, no-premine L1 Antelope chain by Q3, marking a significant milestone in our roadmap towards creating a more open, equitable, and innovation-driven future."
                     }
                   ]
                 },
@@ -265,7 +330,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Phần này không chỉ nhấn mạnh về tokenomics tinh vi nhưng dễ tiếp cận làm nền tảng cho hệ sinh thái bitcash mà còn đề cập đến tầm nhìn chiến lược của chúng tôi đối với tài trợ, tăng trưởng và phát triển bền vững các ứng dụng AI sử dụng cơ sở hạ tầng crypto."
+                      "value": "This section not only underlines the sophisticated yet accessible tokenomics underpinning the bitcash ecosystem but also outlines our strategic vision for funding, growth, and the sustainable development of AI applications using crypto infrastructure."
                     }
                   ]
                 }
@@ -287,8 +352,8 @@
       }
     ],
     "seo": {
-      "description": "Phần này chi tiết mô hình token tiện ích đúc và đốt của bitcash và cách tiếp cận chiến lược của họ đối với việc tài trợ công bằng và tăng trưởng giá trị",
-      "title": "Tokenomics và Chiến lược Tài trợ của bitcash",
+      "description": "This section details bitcash's mint-and-burn utility token model and its strategic approach to equitable funding and value growth",
+      "title": "Tokenomics and Funding Strategy of bitcash",
       "twitterCard": null,
       "image": {
         "width": 1012,
@@ -299,5 +364,8 @@
       }
     }
   },
-  "topics": ["launchpad"]
+  "topics": [
+    "launchpad"
+  ],
+  "shortLink": ""
 }

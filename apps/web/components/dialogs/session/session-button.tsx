@@ -2,7 +2,11 @@
 
 import { ActiveLink } from '@/components/shared/active-link'
 import { Button } from '@/components/ui/button'
-import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from '@/components/ui/popover'
 import { useSession } from '@/hooks/use-session'
 import { appConfig } from '@/lib/config'
 import { cn } from '@/lib/utils'
@@ -15,16 +19,22 @@ import { isMobile } from 'react-device-detect'
 import { useAccount } from 'wagmi'
 
 export function SessionButton() {
-  const { session, loginRedirect, toggleShowSessionDialog, openConnectModal, logout } =
-    useSession()
+  const {
+    session,
+    loginRedirect,
+    toggleShowSessionDialog,
+    openConnectModal,
+    logout,
+  } = useSession()
   const { openAccountModal } = useAccountModal()
   const account = useAccount()
   const hasSession = session?.account
 
-  const { lang } = useParams();
+  const { lang } = useParams()
 
-  const loginUser = () => (isMobile ? loginRedirect() : toggleShowSessionDialog())
-  
+  const loginUser = () =>
+    isMobile ? loginRedirect() : toggleShowSessionDialog()
+
   return (
     <div className="flex justify-end gap-1.5 lg:gap-5">
       {!hasSession ? (
@@ -59,34 +69,36 @@ export function SessionButton() {
               >
                 <Wallet />
                 &nbsp;{' '}
-
-                <span>{account?.address ? formatAddress(account.address) : 'Connect'}</span>
+                <span>
+                  {account?.address
+                    ? formatAddress(account.address)
+                    : 'Connect'}
+                </span>
               </li>
 
               {appConfig.features.wallet ? (
                 <ActiveLink href={`/${lang}/wallet`}>
-                  <li className="w-full">
-                    My Wallet
-                  </li>
+                  <li className="w-full">My Wallet</li>
                 </ActiveLink>
               ) : null}
-
 
               {appConfig.features.presale ? (
                 <ActiveLink href={`/${lang}/bitcash-bitlauncher/presale`}>
-                  <li className="w-full">
-                    Presale
-                  </li>
+                  <li className="w-full">Presale</li>
                 </ActiveLink>
               ) : null}
 
-              <ActiveLink href={`/${lang}/dashboard/referrals`} className="pb-5 border-b w-full border-b-textInfoForeground/50">
-                <li className="w-full">
-                  Referrals
-                </li>
+              <ActiveLink
+                href={`/${lang}/dashboard/referrals`}
+                className="pb-5 border-b w-full border-b-textInfoForeground/50"
+              >
+                <li className="w-full">Referrals</li>
               </ActiveLink>
 
-              <li onClick={logout} className="hover:text-accent-400 active:text-accent-400 cursor-pointer flex justify-center items-center gap-x-3">
+              <li
+                onClick={logout}
+                className="hover:text-accent-400 active:text-accent-400 cursor-pointer flex justify-center items-center gap-x-3"
+              >
                 <span>Sign Out</span>
                 <LogOut />
               </li>

@@ -1,17 +1,12 @@
 import '@/app/globals.css'
-import {
-  FuturaPTBold,
-  FuturaPTBook,
-  FuturaPTDemi,
-  FuturaPTMedium,
-  LufgaBold,
-} from '@/assets/fonts/fonts'
+
 import Footer from '@/components/layout/footer/footer'
 import { Header } from '@/components/layout/header'
 import { Providers } from '@/components/layout/providers'
 import { getDictionary } from '@/dictionaries'
 import { locales } from '@/dictionaries/locales'
 import { appConfig } from '@/lib/config'
+import { FuturaPTBold, FuturaPTDemi, LufgaBold } from '@/lib/fonts'
 import { cn } from '@/lib/utils'
 import type { CommonPageParams } from '@/types/routing.type'
 import { GoogleAnalytics } from '@next/third-parties/google'
@@ -23,7 +18,6 @@ import dynamic from 'next/dynamic'
 import type React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Toaster } from 'sonner'
-import '../../globals.css'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -34,7 +28,10 @@ export const viewport: Viewport = {
   // interactiveWidget: 'resizes-visual',
 }
 
-export default async function RootLayout({ children, params }: RootLayoutProps) {
+export default async function RootLayout({
+  children,
+  params,
+}: RootLayoutProps) {
   const dict = await getDictionary(params.lang)
   return (
     <html
@@ -44,7 +41,7 @@ export default async function RootLayout({ children, params }: RootLayoutProps) 
     >
       <body
         style={{ width: '100%', maxWidth: '100%' }}
-        className={`${FuturaPTBook.variable} ${FuturaPTMedium.variable} ${FuturaPTDemi.variable} ${FuturaPTBold.variable} ${LufgaBold.variable}`}
+        className={`${FuturaPTDemi.variable} ${FuturaPTBold.variable} ${LufgaBold.variable}`}
       >
         <Providers
           attribute="class"
@@ -65,6 +62,8 @@ export default async function RootLayout({ children, params }: RootLayoutProps) 
           <Footer params={params} />
           <DynamicSessionDialog />
           <DynamicEsrDialog />
+          <DynamicAiAssistant />
+          <DynamicVConsole />
         </Providers>
 
         <GoogleAnalytics gaId="G-78N0Z7NPQJ" />
@@ -80,6 +79,13 @@ export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }))
 }
 
+const DynamicVConsole = dynamic(
+  () =>
+    import('../../../components/layout/vconsole').then((mod) => mod.VConsole),
+  {
+    ssr: false,
+  },
+)
 const DynamicSessionDialog = dynamic(
   () =>
     import('../../../components/dialogs/session/session-dialog').then(
@@ -90,7 +96,17 @@ const DynamicSessionDialog = dynamic(
   },
 )
 const DynamicEsrDialog = dynamic(
-  () => import('../../../components/dialogs/esr/esr-dialog').then((mod) => mod.EsrDialog),
+  () =>
+    import('../../../components/dialogs/esr/esr-dialog').then(
+      (mod) => mod.EsrDialog,
+    ),
+  {
+    ssr: false,
+  },
+)
+const DynamicAiAssistant = dynamic(
+  () =>
+    import('../../../components/ai-assistant').then((mod) => mod.AiAssistant),
   {
     ssr: false,
   },
@@ -106,7 +122,8 @@ export const metadata: Metadata = {
     absolute: 'Bitlauncher',
     template: '%s | Bitlauncher',
   },
-  description: 'Be part of the intelligent future and join the Ai/Web3 revolution now!',
+  description:
+    'Be part of the intelligent future and join the Ai/Web3 revolution now!',
   metadataBase: new URL('https://bitlauncher.ai'),
   alternates: {
     canonical: '/',
@@ -118,7 +135,8 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://bitlauncher.ai',
     title: 'bitlauncher',
-    description: 'Be part of the intelligent future and join the Ai/Web3 revolution now!',
+    description:
+      'Be part of the intelligent future and join the Ai/Web3 revolution now!',
     images: [
       {
         url: 'https://bitlauncher.ai/images/og-image.webp',

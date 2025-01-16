@@ -2,130 +2,193 @@
   "relatedBlogs": [
     {
       "id": "167101094",
-      "topics": ["Primeros pasos", "Tokenomics"],
-      "title": "Tokenomics 101: Desatando el poder de las criptomonedas",
+      "topics": [
+        "Getting Started",
+        "Tokenomics"
+      ],
+      "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
       "slug": "tokenomics-101-unleashing-the-power-of-cryptocurrency",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:58+01:00",
-      "description": "Descubre el poder de las criptomonedas a traves de Tokenomics 101 - una guia detallada para entender la economia detras de los activos digitales.",
+      "description": "Discover the power of cryptocurrency through Tokenomics 101 - an in-depth guide to understanding the economics behind digital assets.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
       },
       "seo": {
-        "title": "Tokenomics 101: Desatando el poder de las criptomonedas",
-        "description": "una guia detallada para entender la economia detras de los activos digitales."
+        "description": "an in-depth guide to understanding the economics behind digital assets.",
+        "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
+        }
       }
     },
     {
       "id": "166981063",
-      "topics": ["Primeros pasos", "DAO"],
-      "title": "El futuro esta aqui: El auge de las Organizaciones Autonomas Descentralizadas (DAOs)",
+      "topics": [
+        "Getting Started",
+        "DAO"
+      ],
+      "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
       "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:02+01:00",
-      "description": "Explora el auge de las Organizaciones Autonomas Descentralizadas (DAOs) en nuestra guia. Comprende el futuro de los negocios y las oportunidades para startups.",
+      "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
       },
       "seo": {
-        "title": "El auge de las Organizaciones Autonomas Descentralizadas",
-        "description": "Explora el auge de las Organizaciones Autonomas Descentralizadas (DAOs) en nuestra guia. Comprende el futuro de los negocios y las oportunidades para startups."
+        "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
+        "title": "The Rise of Decentralized Autonomous Organizations ",
+        "twitterCard": null,
+        "image": null
       }
     },
     {
       "id": "165742753",
-      "topics": ["Primeros pasos", "Pagos"],
-      "title": "Stablecoins: El futuro de las transacciones y pagos con criptomonedas",
+      "topics": [
+        "Getting Started",
+        "Payments"
+      ],
+      "title": "Stablecoins: The Future of Cryptocurrency Transactions and Payments",
       "slug": "stablecoins-the-future-of-cryptocurrency-transactions-and-payments",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:49:51+01:00",
-      "description": "Descubre el futuro de las transacciones y pagos con criptomonedas a traves de las stablecoins. Explora la estabilidad y el potencial de estos innovadores activos digitales en nuestro articulo informativo.",
+      "description": "Discover the future of cryptocurrency transactions and payments with stablecoins. Explore the stability and potential of these innovative digital assets in our insightful blog post.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687049009-cb19-img3edited.png"
       },
       "seo": {
-        "title": "Stablecoins: El futuro de los pagos con criptomonedas",
-        "description": "Descubre el futuro de las transacciones y pagos con criptomonedas a traves de las stablecoins."
+        "description": "Discover the future of cryptocurrency transactions and payments with stablecoins. ",
+        "title": "Stablecoins: The Future of Crypto Payments",
+        "twitterCard": null,
+        "image": {
+          "width": 1024,
+          "height": 1024,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687049009-cb19-img3edited.png"
+        }
       }
     },
     {
       "id": "165685913",
-      "topics": ["DeFi", "Primeros pasos"],
-      "title": "Descentraliza tus finanzas: Una introduccion al mundo de DeFi",
+      "topics": [
+        "DeFi",
+        "Getting Started"
+      ],
+      "title": "Decentralize Your Finance: An Introduction to the World of DeFi",
       "slug": "decentralize-your-finance-an-introduction-to-the-world-of-defi",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:47:03+01:00",
-      "description": "Desbloquea el poder de las finanzas descentralizadas (DeFi). Explora el innovador mundo de las soluciones financieras basadas en blockchain en nuestro completo articulo.",
+      "description": "Unlock the power of decentralized finance (DeFi). Explore the innovative world of blockchain-based financial solutions in our comprehensive blog post.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687047143-cb18-img1.png"
       },
       "seo": {
-        "title": "Una introduccion al mundo de DeFi",
-        "description": "Desbloquea el poder de las finanzas descentralizadas (DeFi)."
+        "description": "Unlock the power of decentralized finance (DeFi). ",
+        "title": "An Introduction to the World of DeFi",
+        "twitterCard": null,
+        "image": {
+          "width": 1024,
+          "height": 1024,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687047143-cb18-img1.png"
+        }
       }
     },
     {
       "id": "165685908",
-      "topics": ["Primeros pasos", "Recaudacion de fondos"],
-      "title": "Rompe el status quo: Como las criptomonedas estan revolucionando la recaudacion de fondos y el crowdfunding",
+      "topics": [
+        "Getting Started",
+        "Fundraising"
+      ],
+      "title": "Disrupt the Status Quo: How Cryptocurrency is Revolutionizing Fundraising and Crowdfunding",
       "slug": "disrupt-the-status-quo-how-cryptocurrency-is-revolutionizing-fundraising-and-crow",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:33:36+01:00",
-      "description": "Explora el potencial revolucionario de las criptomonedas en la recaudacion de fondos y el crowdfunding. Descubre como las monedas digitales estan transformando los metodos tradicionales en nuestro articulo informativo.",
+      "description": "Explore the groundbreaking potential of cryptocurrency in fundraising and crowdfunding. Discover how digital currencies are disrupting the traditional methods in our insightful blog post.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687046260-cb17-img1edited.png"
       },
       "seo": {
-        "title": "Como las criptomonedas estan revolucionando la recaudacion de fondos y el crowdfunding",
-        "description": "Explora el potencial revolucionario de las criptomonedas en la recaudacion de fondos y el crowdfunding."
+        "description": "Explore the groundbreaking potential of cryptocurrency in fundraising and crowdfunding. ",
+        "title": "How Crypto is Revolutionizing Fundraising and Crowdfunding",
+        "twitterCard": null,
+        "image": {
+          "width": 1024,
+          "height": 1024,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687046260-cb17-img1edited.png"
+        }
       }
     },
     {
       "id": "165673014",
-      "topics": ["Primeros pasos", "Inversion"],
-      "title": "Inversion en criptomonedas 101: Como usar criptomonedas para inversion y gestion de activos",
+      "topics": [
+        "Getting Started",
+        "Investment"
+      ],
+      "title": "Crypto Investing 101: How to Use Cryptocurrency for Investment and Asset Management",
       "slug": "crypto-investing-101-how-to-use-cryptocurrency-for-investment-and-asset-managemen",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:32:00+01:00",
-      "description": "Domina el arte de la inversion en criptomonedas y la gestion de activos. Aprende como aprovechar las criptomonedas para estrategias de inversion optimas en nuestra guia completa.",
+      "description": "Master the art of crypto investing and asset management. Learn how to leverage cryptocurrency for optimal investment strategies in our comprehensive guide.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687044673-cb16-img5.png"
       },
       "seo": {
-        "title": "Inversion en criptomonedas 101",
-        "description": "Domina el arte de la inversion en criptomonedas y la gestion de activos."
+        "description": "Master the art of crypto investing and asset management. ",
+        "title": "Crypto Investing 101",
+        "twitterCard": null,
+        "image": {
+          "width": 1024,
+          "height": 1024,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687044673-cb16-img5.png"
+        }
       }
     }
   ],
   "blogContent": {
     "id": "165744328",
-    "topics": ["Primeros Pasos", "Como Hacer"],
-    "title": "Mantente a la Vanguardia: Una Guia para Mantenerse Informado y Educado en el Mundo de las Criptomonedas",
+    "topics": [
+      "Getting Started",
+      "How-To"
+    ],
+    "title": "Stay Ahead of the Game: A Guide to Staying Informed and Educated in the World of Cryptocurrency",
     "slug": "stay-ahead-of-the-game-a-guide-to-staying-informed-and-educated-in-the-world-of-c",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T08:52:39+01:00",
-    "description": "Mantente informado y educado en el dinamico mundo de las criptomonedas. Explora nuestra guia completa para estar a la vanguardia y navegar el panorama digital en constante evolucion.",
+    "description": "Stay informed and educated in the dynamic world of cryptocurrency. Explore our comprehensive guide to stay ahead of the game and navigate the ever-evolving digital landscape.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1687049473-cb20-img1.png"
     },
@@ -414,8 +477,8 @@
       }
     ],
     "seo": {
-      "description": "Mantente informado y educado en el dinamico mundo de las criptomonedas.",
-      "title": "Una Guia para Mantenerse Informado en el Mundo de las Criptomonedas",
+      "description": "Stay informed and educated in the dynamic world of cryptocurrency. ",
+      "title": "A Guide to Staying Informed in the World of Crypto",
       "twitterCard": null,
       "image": {
         "width": 1024,
@@ -426,5 +489,9 @@
       }
     }
   },
-  "topics": ["Primeros pasos", "Como hacer"]
+  "topics": [
+    "Getting Started",
+    "How-To"
+  ],
+  "shortLink": ""
 }

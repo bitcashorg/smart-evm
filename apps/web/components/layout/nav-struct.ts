@@ -30,7 +30,8 @@ export const navStruct: NavStruct = {
         {
           label: 'Referral System',
           href: '/about/referral-system',
-          description: 'Learn how our referral system can benefit you and your network.',
+          description:
+            'Learn how our referral system can benefit you and your network.',
         },
         //! This is not going to a page, its redirecting to home page
         // {
@@ -92,7 +93,8 @@ export const navStruct: NavStruct = {
         {
           label: 'Privacy Policy',
           href: '/legal/privacy',
-          description: 'Read our privacy policy to understand how we handle your data.',
+          description:
+            'Read our privacy policy to understand how we handle your data.',
         },
         {
           label: 'Terms of Service',

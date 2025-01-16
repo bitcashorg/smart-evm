@@ -13,7 +13,12 @@ import {
 import { getErrorMessage } from '@repo/errors'
 import _ from 'lodash'
 
-async function processFile(file: string, subDir: string, targetDir: string, lang: Lang) {
+async function processFile(
+  file: string,
+  subDir: string,
+  targetDir: string,
+  lang: Lang,
+) {
   if (file.endsWith('-index.json')) return
 
   if (file.endsWith('.json')) {
@@ -38,7 +43,9 @@ async function processFile(file: string, subDir: string, targetDir: string, lang
       const relatedBlogsPayload = {
         ...englishVersion,
         blogContent: undefined,
-        relatedBlogs: englishVersion.relatedBlogs.map(extractTitleAndDescriptionNested),
+        relatedBlogs: englishVersion.relatedBlogs.map(
+          extractTitleAndDescriptionNested,
+        ),
       }
       const relatedBlogs = await anthropicTranslate(relatedBlogsPayload, lang)
       // console.log('relatedBlogs', relatedBlogs)
@@ -53,12 +60,15 @@ async function processFile(file: string, subDir: string, targetDir: string, lang
       if (!blogMeta) throw new Error('❌ Failed to translate blog meta')
       console.log('✅ blog meta translated')
 
-      if (!optimized.contentBlock) throw new Error('❌ Failed to optimize blog content')
+      if (!optimized.contentBlock)
+        throw new Error('❌ Failed to optimize blog content')
 
-      const optmizedContentActions = optimized.contentBlock?.map((block) => () => {
-        console.log('🧑🏻‍💻 translating blog content block ...')
-        return anthropicTranslate(block, lang)
-      })
+      const optmizedContentActions = optimized.contentBlock?.map(
+        (block) => () => {
+          console.log('🧑🏻‍💻 translating blog content block ...')
+          return anthropicTranslate(block, lang)
+        },
+      )
       const blogContentResults = await promiseAllWithConcurrencyLimit(
         optmizedContentActions.map((action) => async () => {
           const result = await action()
@@ -70,12 +80,16 @@ async function processFile(file: string, subDir: string, targetDir: string, lang
         1,
       ).then((results) => {
         if (results.some((result) => result === null)) {
-          throw new Error('❌ One or more blog content blocks failed to translate')
+          throw new Error(
+            '❌ One or more blog content blocks failed to translate',
+          )
         }
         return results
       })
 
-      const blogContent = blogContentResults.flatMap((result) => result?.translation)
+      const blogContent = blogContentResults.flatMap(
+        (result) => result?.translation,
+      )
 
       const translations: TranslationData = {
         ...blogMeta.translation,
@@ -86,7 +100,10 @@ async function processFile(file: string, subDir: string, targetDir: string, lang
       const translatedContent = {
         ...englishVersion,
         topics: relatedBlogs.translation.topics,
-        blogContent: injectTextAfterTranslation(englishVersion.blogContent, translations),
+        blogContent: injectTextAfterTranslation(
+          englishVersion.blogContent,
+          translations,
+        ),
         relatedBlogs: englishVersion.relatedBlogs.map((blog, index) => {
           return {
             ...blog,
@@ -103,7 +120,11 @@ async function processFile(file: string, subDir: string, targetDir: string, lang
   }
 }
 
-async function processDirectory(directory: string, targetDir: string, lang: Lang) {
+async function processDirectory(
+  directory: string,
+  targetDir: string,
+  lang: Lang,
+) {
   const subDir = path.join(directory)
   const subFiles = await fs.readdir(subDir)
 
@@ -136,7 +157,9 @@ async function ensureDirectoryExists(directory: string) {
 
 async function processLocale(): Promise<void> {
   await promiseAllWithConcurrencyLimit(
-    locales.filter((lang) => lang !== 'en').map((lang) => () => copyJsonFiles(lang)),
+    locales
+      .filter((lang) => lang !== 'en')
+      .map((lang) => () => copyJsonFiles(lang)),
     1,
   )
 }

@@ -17,10 +17,16 @@ const envSchema = z.object({
     .regex(/^[a-f0-9]+$/i, 'Invalid issuer key format'),
   ISSUER_ADDRESS: z
     .string()
-    .refine((value): value is Address => isAddress(value), 'Invalid issuer address'),
+    .refine(
+      (value): value is Address => isAddress(value),
+      'Invalid issuer address',
+    ),
   PRESALE_ADDRESS: z
     .string()
-    .refine((value): value is Address => isAddress(value), 'Invalid presale address'),
+    .refine(
+      (value): value is Address => isAddress(value),
+      'Invalid presale address',
+    ),
 
   ALCHEMY_ACTIVITY_SIGNING_KEY: z.string().min(1),
 })
@@ -49,7 +55,9 @@ export const appConfig = {
     sepoliaApi: parsedEnv.data.SEPOLIA_RPC,
     issuerKey: parsedEnv.data.ISSUER_KEY,
     issuerAddress: parsedEnv.data.ISSUER_ADDRESS as Address,
-    issuerAccount: privateKeyToAccount(`0x${parsedEnv.data.ISSUER_KEY}`) as Account,
+    issuerAccount: privateKeyToAccount(
+      `0x${parsedEnv.data.ISSUER_KEY}`,
+    ) as Account,
     alchemy: {
       activitySigningKey: parsedEnv.data.ALCHEMY_ACTIVITY_SIGNING_KEY,
     },

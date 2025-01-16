@@ -2,17 +2,18 @@ import * as React from 'react'
 
 import { cn } from '@/lib/utils'
 
-const Table = React.forwardRef<HTMLTableElement, React.HTMLAttributes<HTMLTableElement>>(
-  ({ className, ...props }, ref) => (
-    <div className="scrollbar relative size-full overflow-auto">
-      <table
-        ref={ref}
-        className={cn('size-full caption-bottom text-sm', className)}
-        {...props}
-      />
-    </div>
-  ),
-)
+const Table = React.forwardRef<
+  HTMLTableElement,
+  React.HTMLAttributes<HTMLTableElement>
+>(({ className, ...props }, ref) => (
+  <div className="scrollbar relative size-full overflow-auto">
+    <table
+      ref={ref}
+      className={cn('size-full caption-bottom text-sm', className)}
+      {...props}
+    />
+  </div>
+))
 Table.displayName = 'Table'
 
 const TableHeader = React.forwardRef<
@@ -27,7 +28,11 @@ const TableBody = React.forwardRef<
   HTMLTableSectionElement,
   React.HTMLAttributes<HTMLTableSectionElement>
 >(({ className, ...props }, ref) => (
-  <tbody ref={ref} className={cn('[&_tr:last-child]:border-0', className)} {...props} />
+  <tbody
+    ref={ref}
+    className={cn('[&_tr:last-child]:border-0', className)}
+    {...props}
+  />
 ))
 TableBody.displayName = 'TableBody'
 
@@ -37,7 +42,10 @@ const TableFooter = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <tfoot
     ref={ref}
-    className={cn('border-t bg-muted/50 font-medium [&>tr]:last:border-b-0', className)}
+    className={cn(
+      'border-t bg-muted/50 font-medium [&>tr]:last:border-b-0',
+      className,
+    )}
     {...props}
   />
 ))

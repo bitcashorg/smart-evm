@@ -22,7 +22,8 @@ export function WhitelistAddressButton({ projectId }: { projectId: number }) {
     enabled: Boolean(session?.account && address),
     queryFn: async () => {
       // this should never happen. see enabled: Boolean(session?.account && address)
-      if (!address || !session?.account) throw new Error('No address or account')
+      if (!address || !session?.account)
+        throw new Error('No address or account')
 
       const { data, error } = await supabase
         .from('whitelist')
@@ -58,7 +59,8 @@ export function WhitelistAddressButton({ projectId }: { projectId: number }) {
     signMessage({ message: 'Sign me up for bitlauncher | bitcash presale' })
   }
 
-  const whitelistedAddress = registration.data?.address || result.data?.info?.address
+  const whitelistedAddress =
+    registration.data?.address || result.data?.info?.address
 
   return whitelistedAddress && whitelistedAddress === address ? (
     <RegisterButton text={'You are whitelisted!'} />

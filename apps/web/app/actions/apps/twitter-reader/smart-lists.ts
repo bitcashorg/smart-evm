@@ -17,7 +17,7 @@ export async function getSmartLists(categoryId: string) {
 
 export async function toggleListFollow(listId: string) {
   try {
-    const supabase = createSupabaseServerClient()
+    const supabase = await createSupabaseServerClient()
     const { data: { user } } = await supabase.auth.getUser()
     if (!user) throw new Error('Not authenticated')
 

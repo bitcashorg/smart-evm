@@ -5,7 +5,12 @@ import Link from 'next/link'
 import { ArticleCard } from '../../shared/article-card'
 import { LucideIcons } from './lucide-icons'
 
-export function BlogSections({ sections, lang, category, className }: BlogSectionsProps) {
+export function BlogSections({
+  sections,
+  lang,
+  category,
+  className,
+}: BlogSectionsProps) {
   return (
     <div className={cn('flex w-full flex-col pt-10', className)}>
       {sections.map(
@@ -21,15 +26,17 @@ export function BlogSections({ sections, lang, category, className }: BlogSectio
               key={section.name}
             >
               <div className="flex items-center justify-between text-xl mb-space-32">
-                <span className="font-semibold sub-2-lg">/ {section.name}</span>
+                <span className="font-semibold sub-2-lg">
+                  / {section.name.replace(/_/g, ' ')}
+                </span>
                 <Link
                   // TODO: fix add lang prefix on links there seems to a bug where it gets ovewritten
-                  href={`/blog/${category || section.slug}`}
+                  href={`/blog/${category || section.slug}${category ? `?topic=${section.name}` : ''}`}
                   className={cn(
                     'flex items-center align-middle text-black focus-within:!text-accent hover:!text-accent dark:text-white',
                   )}
                 >
-                  {section.name}
+                  {section.name.replace(/_/g, ' ')}
                   <LucideIcons.chevronRight className="h-4 w-7" />
                 </Link>
               </div>
@@ -41,7 +48,7 @@ export function BlogSections({ sections, lang, category, className }: BlogSectio
                     <ArticleCard
                       post={post}
                       sectionSlug={category || section.slug}
-                      key={post.id + '-' + index}
+                      key={`${post.id}-${index}`}
                       lang={lang}
                       meta={true}
                       className={cn(

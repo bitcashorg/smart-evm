@@ -1,20 +1,22 @@
 {
   "sections": [
     {
-      "name": "plataforma de lanzamiento",
+      "name": "launchpad",
       "slug": "launchpad",
       "articles": [
         {
           "id": "CD89KaoLSh6nQbiMhxX0EQ",
-          "topics": ["plataforma de lanzamiento"],
-          "title": "Garantizando confianza e integridad: Cumplimiento normativo y medidas de seguridad",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "Ensuring Trust and Integrity: Regulatory Compliance and Security Measures",
           "slug": "ensuring-trust-and-integrity-regulatory-compliance-and-security-measures",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-06-20T16:21:42+01:00",
-          "description": "Esta seccion describe el enfoque proactivo de nuestra plataforma para cumplir con los estandares regulatorios globales e implementar medidas de seguridad avanzadas, asegurando un entorno seguro y conforme para los usuarios en los espacios de criptomonedas e IA.",
+          "description": "This section outlines our platform's proactive approach to adhering to global regulatory standards and implementing advanced security measures, ensuring a safe and compliant environment for users in the crypto and AI spaces.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1710562461-bitlauncherregsecimg.webp"
           },
@@ -34,15 +36,17 @@
         },
         {
           "id": "fbM-UqrYQXGhw6HB4C6swQ",
-          "topics": ["plataforma de lanzamiento"],
-          "title": "Hoja de Ruta Estrategica: Pioneros en Innovacion Blockchain y Exito de Startups de IA",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "Strategic Roadmap: Pioneering Blockchain Innovation and AI Startup Success",
           "slug": "strategic-roadmap-pioneering-blockchain-innovation-and-ai-startup-success",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-15T05:13:30+00:00",
-          "description": "Delineando el plan por fases de bitLauncher para el despliegue de tecnologia revolucionaria, crecimiento impulsado por la comunidad y el desarrollo de la cadena equitativa Antelope, para revolucionar los panoramas de IA y criptomonedas.",
+          "description": "Outlining bitLauncher's phased plan for groundbreaking technology deployment, community-driven growth, and the development of the equitable Antelope chain, to revolutionize the AI and cryptocurrency landscapes.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1710479575-roadmapbitlauncher.webp"
           },
@@ -62,15 +66,17 @@
         },
         {
           "id": "I4jShMnWRruvJgDbrucwDw",
-          "topics": ["plataforma de lanzamiento"],
-          "title": "El Soporte Tecnologico de bitLauncher",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "The Technological Backbone of bitLauncher",
           "slug": "the-technological-backbone-of-bitcash-launchpad",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:33:20+00:00",
-          "description": "Esta seccion detalla la integracion de bitLauncher de tecnologias blockchain de vanguardia y herramientas innovadoras, incluyendo pagos con Bitcash, gobernanza DAO y una vision blockchain sin fines de lucro, preparando el escenario para un crecimiento transparente, seguro y equitativo de startups de IA.",
+          "description": "This section details bitLauncher's integration of cutting-edge blockchain technologies and innovative tools, including Bitcash payments, DAO governance, and a non-profit blockchain vision, setting the stage for transparent, secure, and equitable AI startup growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1710011354-techsectionwpimg.webp"
           },
@@ -90,15 +96,17 @@
         },
         {
           "id": "BEfgGhndSsCn5MBU89RO3A",
-          "topics": ["plataforma de lanzamiento"],
-          "title": "Impulsando la Innovacion: Vision, Mision y Objetivos Estrategicos de bitLauncher",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "Empowering Innovation: Vision, Mission, and Strategic Goals of bitLauncher",
           "slug": "empowering-innovation-vision-mission-and-strategic-goals-of-bitcash-launchpad",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:31:29+00:00",
-          "description": "Esta seccion describe la vision de bitcash Launchpad para revolucionar la innovacion en IA con criptomonedas, detallando nuestra mision de democratizar el desarrollo de IA y nuestros objetivos estrategicos para crear un futuro tecnologico impulsado por la comunidad, transparente y etico.",
+          "description": "This section outlines bitcash Launchpad's vision to revolutionize AI innovation with cryptocurrency, detailing our mission to democratize AI development and our strategic goals for creating a community-driven, transparent, and ethical technological future.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709370139-whitepaper-p4.webp"
           },
@@ -119,19 +127,19 @@
         {
           "id": "NZeB3i5XRzuELW2UWBDyRQ",
           "topics": [
-            "investigacion",
+            "research",
             "dao",
-            "recaudacion de fondos",
-            "plataforma de lanzamiento"
+            "fundraising",
+            "launchpad"
           ],
-          "title": "Navegando la Convergencia: Un Analisis Integral del Mercado de IA y la Dinamica de las Criptomonedas",
+          "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
           "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:30:05+00:00",
-          "description": "Esta seccion explora la interseccion dinamica entre la IA y las criptomonedas, destacando tendencias clave, desafios y oportunidades, y posiciona a bitcash Launchpad como una plataforma pionera para proyectos de IA de codigo abierto.",
+          "description": "This section explores the dynamic intersection of AI and cryptocurrency, highlighting key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
           },
@@ -151,15 +159,19 @@
         },
         {
           "id": "VgGHDFI9T9qzTCHPAm5WLg",
-          "topics": ["dao", "recaudacion de fondos", "plataforma de lanzamiento"],
-          "title": "Empoderando a los Unicornios de IA de Codigo Abierto de Proxima Generacion: Una Plataforma de Lanzamiento Revolucionaria",
+          "topics": [
+            "dao",
+            "fundraising",
+            "launchpad"
+          ],
+          "title": "Empowering Next-Gen Open-Source AI Unicorns: A Revolutionary Launchpad ",
           "slug": "empowering-next-gen-open-source-ai-unicorns-a-revolutionary-launchpad",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:28:42+00:00",
-          "description": "Introduccion al Libro Blanco de bitLauncher",
+          "description": "bitLauncher Whitepaper Introduction",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709177635-whitepaperintroimage.webp"
           },
@@ -179,15 +191,17 @@
         },
         {
           "id": "MICfokr1TVuScAB4Qh9YGw",
-          "topics": ["plataforma de lanzamiento"],
-          "title": "Impulsando la Innovacion: Tokenomics y Estrategia de Financiacion de bitcash",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "Empowering Innovation: Tokenomics and Funding Strategy of bitcash",
           "slug": "empowering-innovation-tokenomics-and-funding-strategy-of-bitcash",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:27:37+00:00",
-          "description": "Esta seccion detalla el modelo de token de utilidad de acunacion y quema de bitcash y su enfoque estrategico para una financiacion equitativa y crecimiento de valor, respaldando la mision de la plataforma de lanzamiento de potenciar el desarrollo de IA con tokenomics transparentes y sostenibles.",
+          "description": "This section details bitcash's mint-and-burn utility token model and its strategic approach to equitable funding and value growth, underpinning the launchpad's mission to empower AI development with transparent and sustainable tokenomics.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1710053905-tokenomicswpimg.webp"
           },
@@ -207,15 +221,17 @@
         },
         {
           "id": "BSDdY8byQWipv749rApFRA",
-          "topics": ["plataforma de lanzamiento"],
-          "title": "Desbloqueando el Potencial: Casos de Uso y Aplicaciones de bitLauncher",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "Unlocking Potential: Use Cases and Applications of bitLauncher",
           "slug": "unlocking-potential-use-cases-and-applications-of-bitlauncher",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:26:22+00:00",
-          "description": "Esta seccion explora como bitLauncher revoluciona la financiacion de startups de IA y el acceso al mercado global, mostrando modelos de codigo abierto sostenibles, cultura estrategica de startups y el ecosistema global de inversores a traves de casos de uso especificos y el proyecto pionero Masterbots.ai.",
+          "description": "This section explores how bitLauncer revolutionizes AI startup funding and global market access, showcasing sustainable open-source models, strategic startup culture, and the global investor ecosystem through targeted use cases and the pioneering Masterbots.ai project.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1710393954-usecaseappsimg.webp"
           },
@@ -236,20 +252,22 @@
       ]
     },
     {
-      "name": "como hacer",
+      "name": "how_to",
       "slug": "how_to",
       "articles": [
         {
           "id": "H_DP7HFORBuw9rID5Jkhhw",
-          "topics": ["como_hacer"],
-          "title": "Como registrarse y completar KYC en Bitcash",
+          "topics": [
+            "how_to"
+          ],
+          "title": "How to Register and KYC to Bitcash",
           "slug": "how-to-register-and-kyc-to-bitcash",
           "authorName": "Roberto \"Andler\" Lucas",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1715639160-andler-file-photo.jpg"
           },
           "_publishedAt": "2024-06-20T16:20:40+01:00",
-          "description": "Estamos cubriendo una variedad de temas, incluyendo el registro de una cuenta Bitcash, la configuracion de un nombre de cuenta y referente, la identificacion y proteccion de dispositivos, el suministro de identificacion e informacion personal para KYC, la toma de fotos para la verificacion KYC, y la espera de aprobacion y union a la comunidad.",
+          "description": "We are covering a range of topics, including registering for a Bitcash account, setting up an account name and referrer, identifying and securing devices, providing identification and personal information for KYC, taking photos for KYC verification, and waiting for approval and joining the community.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1715638953-bitcash-logo-frame-w-bg.png"
           },
@@ -270,25 +288,25 @@
       ]
     },
     {
-      "name": "investigacion",
+      "name": "research",
       "slug": "research",
       "articles": [
         {
           "id": "NZeB3i5XRzuELW2UWBDyRQ",
           "topics": [
-            "investigacion",
+            "research",
             "dao",
-            "recaudacion de fondos",
-            "plataforma de lanzamiento"
+            "fundraising",
+            "launchpad"
           ],
-          "title": "Navegando la Convergencia: Un Analisis Integral del Mercado de IA y la Dinamica de las Criptomonedas",
+          "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
           "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:30:05+00:00",
-          "description": "Esta seccion explora la interseccion dinamica entre la IA y las criptomonedas, destacando tendencias clave, desafios y oportunidades, y posiciona a bitcash Launchpad como una plataforma pionera para proyectos de IA de codigo abierto.",
+          "description": "This section explores the dynamic intersection of AI and cryptocurrency, highlighting key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
           },
@@ -309,25 +327,25 @@
       ]
     },
     {
-      "name": "organizacion autonoma descentralizada",
+      "name": "dao",
       "slug": "dao",
       "articles": [
         {
           "id": "NZeB3i5XRzuELW2UWBDyRQ",
           "topics": [
-            "investigacion",
+            "research",
             "dao",
-            "recaudacion de fondos",
-            "plataforma de lanzamiento"
+            "fundraising",
+            "launchpad"
           ],
-          "title": "Navegando la Convergencia: Un Analisis Integral del Mercado de IA y la Dinamica de las Criptomonedas",
+          "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
           "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:30:05+00:00",
-          "description": "Esta seccion explora la interseccion dinamica entre la IA y las criptomonedas, destacando tendencias clave, desafios y oportunidades, y posiciona a bitcash Launchpad como una plataforma pionera para proyectos de IA de codigo abierto.",
+          "description": "This section explores the dynamic intersection of AI and cryptocurrency, highlighting key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
           },
@@ -347,15 +365,19 @@
         },
         {
           "id": "VgGHDFI9T9qzTCHPAm5WLg",
-          "topics": ["dao", "recaudacion de fondos", "plataforma de lanzamiento"],
-          "title": "Empoderando a los Unicornios de IA de Codigo Abierto de Proxima Generacion: Una Plataforma de Lanzamiento Revolucionaria",
+          "topics": [
+            "dao",
+            "fundraising",
+            "launchpad"
+          ],
+          "title": "Empowering Next-Gen Open-Source AI Unicorns: A Revolutionary Launchpad ",
           "slug": "empowering-next-gen-open-source-ai-unicorns-a-revolutionary-launchpad",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:28:42+00:00",
-          "description": "Introduccion al Libro Blanco de bitLauncher",
+          "description": "bitLauncher Whitepaper Introduction",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709177635-whitepaperintroimage.webp"
           },
@@ -376,25 +398,25 @@
       ]
     },
     {
-      "name": "recaudacion de fondos",
+      "name": "fundraising",
       "slug": "fundraising",
       "articles": [
         {
           "id": "NZeB3i5XRzuELW2UWBDyRQ",
           "topics": [
-            "investigacion",
+            "research",
             "dao",
-            "recaudacion de fondos",
-            "plataforma de lanzamiento"
+            "fundraising",
+            "launchpad"
           ],
-          "title": "Navegando la Convergencia: Un Analisis Integral del Mercado de IA y la Dinamica de las Criptomonedas",
+          "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
           "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:30:05+00:00",
-          "description": "Esta seccion explora la interseccion dinamica entre la IA y las criptomonedas, destacando tendencias clave, desafios y oportunidades, y posiciona a bitcash Launchpad como una plataforma pionera para proyectos de IA de codigo abierto.",
+          "description": "This section explores the dynamic intersection of AI and cryptocurrency, highlighting key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
           },
@@ -414,15 +436,19 @@
         },
         {
           "id": "VgGHDFI9T9qzTCHPAm5WLg",
-          "topics": ["dao", "recaudacion de fondos", "plataforma de lanzamiento"],
-          "title": "Empoderando a los Unicornios de IA de Codigo Abierto de Proxima Generacion: Una Plataforma de Lanzamiento Revolucionaria",
+          "topics": [
+            "dao",
+            "fundraising",
+            "launchpad"
+          ],
+          "title": "Empowering Next-Gen Open-Source AI Unicorns: A Revolutionary Launchpad ",
           "slug": "empowering-next-gen-open-source-ai-unicorns-a-revolutionary-launchpad",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:28:42+00:00",
-          "description": "Introduccion al Libro Blanco de bitLauncher",
+          "description": "bitLauncher Whitepaper Introduction",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709177635-whitepaperintroimage.webp"
           },
@@ -448,7 +474,9 @@
       "articles": [
         {
           "id": "IZK5RRvqQFWba2TpHx2ckA",
-          "topics": ["bitcoin"],
+          "topics": [
+            "bitcoin"
+          ],
           "title": "Destinado a esta revolucion de Cripto e IA",
           "slug": "destined-for-this-crypto-ai-revolution",
           "authorName": "Jun Dam",
@@ -484,7 +512,7 @@
       "title": "Bitcash | Bitcash Blog",
       "twitterCard": "summary_large_image"
     },
-    "description": "Impulsando la innovacion en empresas de criptomonedas e IA",
+    "description": "Igniting Innovation in Crypto & AI Ventures",
     "title": "bitcash",
     "seoType": "bitcash",
     "id": "178642419",

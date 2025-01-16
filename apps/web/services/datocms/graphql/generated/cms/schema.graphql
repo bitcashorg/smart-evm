@@ -9,14 +9,14 @@ input BlogAiModelFilter {
   _updatedAt: UpdatedAtFilter
   _isValid: BooleanFilter
   _locales: LocalesFilter
-  authorName: StringFilter
   authorPicture: FileFilter
   description: StringFilter
-  seo: SeoFilter
-  slug: SlugFilter
   thumbnail: FileFilter
-  title: StringFilter
+  seo: SeoFilter
   topics: JsonFilter
+  authorName: StringFilter
+  slug: SlugFilter
+  title: StringFilter
   OR: [BlogAiModelFilter]
   AND: [BlogAiModelFilter]
 }
@@ -40,10 +40,10 @@ enum BlogAiModelOrderBy {
   _updatedAt_DESC
   _isValid_ASC
   _isValid_DESC
-  authorName_ASC
-  authorName_DESC
   description_ASC
   description_DESC
+  authorName_ASC
+  authorName_DESC
   title_ASC
   title_DESC
 }
@@ -120,14 +120,14 @@ input BlogBitcashModelFilter {
   _updatedAt: UpdatedAtFilter
   _isValid: BooleanFilter
   _locales: LocalesFilter
-  authorName: StringFilter
   authorPicture: FileFilter
-  description: StringFilter
-  seo: SeoFilter
-  slug: SlugFilter
   thumbnail: FileFilter
-  title: StringFilter
   topics: JsonFilter
+  slug: SlugFilter
+  authorName: StringFilter
+  seo: SeoFilter
+  description: StringFilter
+  title: StringFilter
   OR: [BlogBitcashModelFilter]
   AND: [BlogBitcashModelFilter]
 }
@@ -245,14 +245,14 @@ input BlogBitcoinModelFilter {
   _updatedAt: UpdatedAtFilter
   _isValid: BooleanFilter
   _locales: LocalesFilter
-  authorName: StringFilter
-  authorPicture: FileFilter
-  description: StringFilter
-  seo: SeoFilter
-  slug: SlugFilter
-  thumbnail: FileFilter
-  title: StringFilter
   topics: JsonFilter
+  authorPicture: FileFilter
+  thumbnail: FileFilter
+  seo: SeoFilter
+  authorName: StringFilter
+  slug: SlugFilter
+  title: StringFilter
+  description: StringFilter
   OR: [BlogBitcoinModelFilter]
   AND: [BlogBitcoinModelFilter]
 }
@@ -278,10 +278,10 @@ enum BlogBitcoinModelOrderBy {
   _isValid_DESC
   authorName_ASC
   authorName_DESC
-  description_ASC
-  description_DESC
   title_ASC
   title_DESC
+  description_ASC
+  description_DESC
 }
 
 """Record of type Bitcoin Blog (blog_bitcoin)"""
@@ -373,10 +373,10 @@ input BlogBitlauncherModelFilter {
   authorPicture: FileFilter
   description: StringFilter
   seo: SeoFilter
-  slug: SlugFilter
   thumbnail: FileFilter
   title: StringFilter
   topics: JsonFilter
+  slug: SlugFilter
   OR: [BlogBitlauncherModelFilter]
   AND: [BlogBitlauncherModelFilter]
 }
@@ -493,14 +493,14 @@ input BlogCryptoModelFilter {
   _updatedAt: UpdatedAtFilter
   _isValid: BooleanFilter
   _locales: LocalesFilter
-  authorName: StringFilter
   authorPicture: FileFilter
-  description: StringFilter
-  seo: SeoFilter
-  slug: SlugFilter
   thumbnail: FileFilter
-  title: StringFilter
+  slug: SlugFilter
   topics: JsonFilter
+  authorName: StringFilter
+  seo: SeoFilter
+  title: StringFilter
+  description: StringFilter
   OR: [BlogCryptoModelFilter]
   AND: [BlogCryptoModelFilter]
 }
@@ -526,10 +526,10 @@ enum BlogCryptoModelOrderBy {
   _isValid_DESC
   authorName_ASC
   authorName_DESC
-  description_ASC
-  description_DESC
   title_ASC
   title_DESC
+  description_ASC
+  description_DESC
 }
 
 """Record of type Crypto Blog (blog_crypto)"""
@@ -618,14 +618,14 @@ input BlogInvestingModelFilter {
   _updatedAt: UpdatedAtFilter
   _isValid: BooleanFilter
   _locales: LocalesFilter
-  authorName: StringFilter
-  authorPicture: FileFilter
-  description: StringFilter
-  seo: SeoFilter
-  slug: SlugFilter
-  thumbnail: FileFilter
-  title: StringFilter
   topics: JsonFilter
+  authorPicture: FileFilter
+  thumbnail: FileFilter
+  slug: SlugFilter
+  authorName: StringFilter
+  seo: SeoFilter
+  description: StringFilter
+  title: StringFilter
   OR: [BlogInvestingModelFilter]
   AND: [BlogInvestingModelFilter]
 }
@@ -729,14 +729,14 @@ input BlogNewsModelFilter {
   _updatedAt: UpdatedAtFilter
   _isValid: BooleanFilter
   _locales: LocalesFilter
-  authorName: StringFilter
   authorPicture: FileFilter
-  description: StringFilter
-  seo: SeoFilter
-  slug: SlugFilter
   thumbnail: FileFilter
-  title: StringFilter
   topics: JsonFilter
+  authorName: StringFilter
+  slug: SlugFilter
+  seo: SeoFilter
+  description: StringFilter
+  title: StringFilter
   OR: [BlogNewsModelFilter]
   AND: [BlogNewsModelFilter]
 }
@@ -854,14 +854,14 @@ input BlogStartupModelFilter {
   _updatedAt: UpdatedAtFilter
   _isValid: BooleanFilter
   _locales: LocalesFilter
+  topics: JsonFilter
   authorName: StringFilter
   authorPicture: FileFilter
-  description: StringFilter
-  seo: SeoFilter
-  slug: SlugFilter
   thumbnail: FileFilter
+  seo: SeoFilter
+  description: StringFilter
+  slug: SlugFilter
   title: StringFilter
-  topics: JsonFilter
   OR: [BlogStartupModelFilter]
   AND: [BlogStartupModelFilter]
 }
@@ -3541,10 +3541,10 @@ input PageSeoModelFilter {
   _updatedAt: UpdatedAtFilter
   _isValid: BooleanFilter
   _locales: LocalesFilter
-  description: StringFilter
-  pageSeo: SeoFilter
   seoType: StringFilter
+  pageSeo: SeoFilter
   title: StringFilter
+  description: StringFilter
   OR: [PageSeoModelFilter]
   AND: [PageSeoModelFilter]
 }
@@ -3568,12 +3568,12 @@ enum PageSeoModelOrderBy {
   _updatedAt_DESC
   _isValid_ASC
   _isValid_DESC
-  description_ASC
-  description_DESC
   seoType_ASC
   seoType_DESC
   title_ASC
   title_DESC
+  description_ASC
+  description_DESC
 }
 
 """Record of type Page SEO (page_seo)"""
@@ -4243,14 +4243,14 @@ input ResearchAiModelFilter {
   _updatedAt: UpdatedAtFilter
   _isValid: BooleanFilter
   _locales: LocalesFilter
-  authorName: StringFilter
   authorPicture: FileFilter
-  description: StringFilter
-  seo: SeoFilter
-  slug: SlugFilter
   thumbnail: FileFilter
-  title: StringFilter
   topics: JsonFilter
+  authorName: StringFilter
+  slug: SlugFilter
+  seo: SeoFilter
+  description: StringFilter
+  title: StringFilter
   OR: [ResearchAiModelFilter]
   AND: [ResearchAiModelFilter]
 }

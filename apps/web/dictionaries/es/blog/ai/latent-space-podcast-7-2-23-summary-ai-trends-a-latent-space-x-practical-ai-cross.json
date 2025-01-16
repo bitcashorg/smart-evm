@@ -2,320 +2,520 @@
   "relatedBlogs": [
     {
       "id": "190259319",
-      "topics": ["Resumen", "LLM", "Entrenamiento"],
-      "title": "Podcast Latent Space 16/8/23 [Resumen] - Las matematicas del entrenamiento de LLMs — con Quentin Anthony de Eleuther AI",
+      "topics": [
+        "Summary",
+        "LLM",
+        "Training"
+      ],
+      "title": "Latent Space Podcast 8/16/23 [Summary] - The Mathematics of Training LLMs — with Quentin Anthony of Eleuther AI",
       "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T09:19:45+01:00",
-      "description": "Explora las matematicas detras del entrenamiento de LLMs con Quentin Anthony de Eleuther AI. Profundiza en el articulo Transformers Math 101 y domina tecnicas de entrenamiento distribuido para maximo rendimiento de GPU.",
+      "description": "Explore the math behind training LLMs with Quentin Anthony from Eleuther AI. Dive into the Transformers Math 101 article & master distributed training techniques for peak GPU performance.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1692324088-screenshot-2023-08-17-at-9-59-17-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 16/8/23 [Resumen] Matematicas del entrenamiento de LLMs",
-        "description": "Profundiza en el articulo Transformers Math 101 y domina tecnicas de entrenamiento distribuido para maximo rendimiento de GPU."
+        "description": "Dive into the Transformers Math 101 article & master distributed training techniques for peak GPU performance.",
+        "title": "Latent Space Podcast 8/16/23 [Summary] Math of Training LLMs",
+        "twitterCard": null,
+        "image": {
+          "width": 1576,
+          "height": 554,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692324088-screenshot-2023-08-17-at-9-59-17-pm.png"
+        }
       }
     },
     {
       "id": "190259129",
-      "topics": ["LLM", "Hardware", "Resumen", "Edge"],
-      "title": "Podcast Latent Space 10/8/23 [Resumen]: LLMs en todas partes: Ejecutando modelos de 70B en navegadores e iPhones usando MLC — con Tianqi Chen de CMU / OctoML",
+      "topics": [
+        "LLM",
+        "Hardware",
+        "Summary",
+        "Edge"
+      ],
+      "title": "Latent Space Podcast 8/10/23 [Summary]: LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
       "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T09:18:37+01:00",
-      "description": "Explora la magia de MLC con Tianqi Chen: implementando modelos de 70B en navegadores e iPhones. Profundiza en XGBoost, la creacion de TVM y el futuro de las implementaciones de IA universales.",
+      "description": "Explore the magic of MLC with Tianqi Chen: deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
       },
       "seo": {
-        "title": "Latent Space 10/8/23 [Resumen]: LLMs en todas partes",
-        "description": "Explora la implementacion de modelos de 70B en navegadores e iPhones. Profundiza en XGBoost, la creacion de TVM y el futuro de las implementaciones de IA universales."
+        "description": "Explore deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
+        "title": "Latent Space 8/10/23 [Summary]: LLMs Everywhere",
+        "twitterCard": null,
+        "image": {
+          "width": 1538,
+          "height": 548,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
+        }
       }
     },
     {
       "id": "190259087",
-      "topics": ["Resumen", "LLM", "Codigo", "Codigo Abierto", "Modelos Pequenos"],
-      "title": "Podcast Latent Space 4/8/23 [Resumen] Episodio cruzado de Latent Space x AI Breakdown!",
+      "topics": [
+        "Summary",
+        "LLM",
+        "Code",
+        "Open Source",
+        "Small Models"
+      ],
+      "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
       "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T09:16:33+01:00",
-      "description": "Unete a AI Breakdown y Latent Space para el resumen tecnologico de IA del verano: Profundiza en GPT4.5, Llama 2, herramientas de IA, el creciente ingeniero de IA y mas!",
+      "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 4/8/23 [Resumen] Episodio cruzado con AI Breakdown",
-        "description": "Profundiza en GPT4.5, Llama 2, herramientas de IA, el creciente ingeniero de IA y mas!"
+        "description": "Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
+        "title": "Latent Space Podcast 8/4/23 [Summary] AI Breakdown crossover",
+        "twitterCard": null,
+        "image": {
+          "width": 1578,
+          "height": 558,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
+        }
       }
     },
     {
       "id": "190259111",
-      "topics": ["Resumen", "Transformers", "Entrenamiento", "Codigo Abierto"],
-      "title": "Podcast Latent Space 26/7/23 [Resumen] FlashAttention 2: haciendo Transformers 800% mas rapidos - Tri Dao de Together AI",
+      "topics": [
+        "Summary",
+        "Transformers",
+        "Training",
+        "Open Source"
+      ],
+      "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
       "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T09:14:13+01:00",
-      "description": "Descubre como FlashAttention revoluciono la velocidad de la IA con Tri Dao, mientras revela el poder de FlashAttention 2, profundiza en el Laboratorio Hazy de Stanford y perspectivas futuras de IA.",
+      "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2, dives into Stanford's Hazy Lab & future AI insights.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 26/7/23 [Resumen] FlashAttention 2",
-        "description": "Descubre como FlashAttention revoluciono la velocidad de la IA con Tri Dao, mientras revela el poder de FlashAttention 2"
+        "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2",
+        "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2",
+        "twitterCard": null,
+        "image": {
+          "width": 1648,
+          "height": 594,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
+        }
       }
     },
     {
       "id": "190259172",
-      "topics": ["Resumen", "LLM", "Codigo Abierto", "Modelos Pequenos"],
-      "title": "Podcast Latent Space 19/7/23 [Resumen] - Llama 2: El nuevo SOTA de LLM abierto (con Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog y otros)",
+      "topics": [
+        "Summary",
+        "LLM",
+        "Open Source",
+        "Small Models"
+      ],
+      "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
       "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T09:12:38+01:00",
-      "description": "Explora Llama 2, el ultimo avance en IA con expertos Nathan Lambert, Matt Bornstein y mas. Profundiza en conjuntos de datos, benchmarks y predicciones de IA. Te esperan perspectivas y drama de Llama en este podcast destacado!",
+      "description": "Explore Llama 2, the latest AI breakthrough with experts Nathan Lambert, Matt Bornstein & more. Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 19/7/23 [Resumen] - Llama 2",
-        "description": "Profundiza en conjuntos de datos, benchmarks y predicciones de IA. Te esperan perspectivas y drama de Llama en este podcast destacado!"
+        "description": "Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
+        "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2",
+        "twitterCard": null,
+        "image": {
+          "width": 1632,
+          "height": 574,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
+        }
       }
     },
     {
       "id": "190259191",
-      "topics": ["Resumen", "Codigo", "LLM"],
-      "title": "Podcast Latent Space 10/7/23 [Resumen] - Interprete de Codigo == GPT 4.5 (con Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley y otros)",
+      "topics": [
+        "Summary",
+        "Code",
+        "LLM"
+      ],
+      "title": "Latent Space Podcast 7/10/23 [Summary] - Code Interpreter == GPT 4.5 (w/ Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, et al.)",
       "slug": "latent-space-podcast-7-10-23-summary-code-interpreter-gpt-4-5-w-simon-willison-al",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T09:09:26+01:00",
-      "description": "Explora el Interprete de Codigo de ChatGPT: un cambio de juego en IA. Profundiza en su salto de capacidades de 1000x con Simon, Alex y expertos en IA. #InferenciaAumentadaPorCodigo #GPT4_5",
+      "description": "Explore ChatGPT's Code Interpreter: a game-changer in AI. Dive into its 1000x capabilities leap with Simon, Alex & top AI experts. #CodeAugmentedInference #GPT4_5",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1692048911-screenshot-2023-08-14-at-3-34-05-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space [Resumen] Interprete de Codigo = GPT 4.5",
-        "description": "Explora el Interprete de Codigo de ChatGPT: un cambio de juego en IA. Profundiza en su salto de capacidades de 1000x con Simon, Alex y expertos en IA."
+        "description": "Explore ChatGPT's Code Interpreter: a game-changer in AI. Dive into its 1000x capabilities leap with Simon, Alex & top AI experts. ",
+        "title": "Latent Space Podcast  [Summary] Code Interpreter = GPT 4.5",
+        "twitterCard": null,
+        "image": {
+          "width": 1596,
+          "height": 582,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692048911-screenshot-2023-08-14-at-3-34-05-pm.png"
+        }
       }
     },
     {
       "id": "190259238",
-      "topics": ["Hardware", "LLM", "Resumen"],
-      "title": "Podcast Latent Space 20/6/23 [Resumen] - Mercantilizando el Petaflop — con George Hotz de tiny corp",
+      "topics": [
+        "Hardware",
+        "LLM",
+        "Summary"
+      ],
+      "title": "Latent Space Podcast 6/20/23 [Summary] - Commoditizing the Petaflop — with George Hotz of the tiny corp",
       "slug": "latent-space-podcast-6-20-23-summary-commoditizing-the-petaflop-with-george-ho",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T09:07:15+01:00",
-      "description": "George Hotz de tiny corp desafia a Nvidia y Google! Sumérgete en el mundo de las colaboraciones con AMD, perspectivas sobre ggml, Mojo, Elon y GPT-4, ademas de un vistazo a AI Girlfriend.",
+      "description": "George Hotz of tiny corp challenges Nvidia & Google! Dive into the world of AMD collaborations, insights on ggml, Mojo, Elon & GPT-4, plus a peek into AI Girlfriend. ",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1692154615-screenshot-2023-08-15-at-10-55-40-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 20/6/23 [Resumen] - George Hotz",
-        "description": "George Hotz de tiny corp desafia a Nvidia y Google! Colaboraciones con AMD, perspectivas sobre ggml, Mojo, Elon y GPT-4, ademas de un vistazo a AI Girlfriend."
+        "description": "George Hotz of tiny corp challenges Nvidia & Google! AMD collaborations, insights on ggml, Mojo, Elon & GPT-4, plus a peek into AI Girlfriend. ",
+        "title": "Latent Space Podcast 6/20/23 [Summary] - George Hotz ",
+        "twitterCard": null,
+        "image": {
+          "width": 1586,
+          "height": 508,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692154615-screenshot-2023-08-15-at-10-55-40-pm.png"
+        }
       }
     },
     {
       "id": "190259294",
-      "topics": ["LLM", "Funciones", "Resumen"],
-      "title": "Podcast Latent Space 14/6/23 [Resumen] - Episodio de Emergencia: nueva API de Funciones de OpenAI, 75% de reduccion de precios, 4x longitud de contexto (con Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin y otros)",
+      "topics": [
+        "LLM",
+        "Functions",
+        "Summary"
+      ],
+      "title": "Latent Space Podcast 6/14/23 [Summary] - Emergency Pod: OpenAI's new Functions API, 75% Price Drop, 4x Context Length (w/ Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin et al)",
       "slug": "latent-space-podcast-6-14-23-summary-emergency-pod-openai-s-new-functions-api-75",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T09:05:04+01:00",
-      "description": "Explora las actualizaciones de OpenAI de junio 2023 con ingenieros de IA de Scale, Microsoft, Pinecone y Huggingface. Profundiza en los paradigmas de Codigo x LLM y descubre los Agentes de Funciones Recursivas.",
+      "description": "Explore the June 2023 OpenAI updates with top AI engineers from Scale, Microsoft, Pinecone, & Huggingface. Dive into the Code x LLM paradigms and discover Recursive Function Agents.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1692221668-screenshot-2023-08-16-at-5-32-29-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 20/6/23 [Resumen] - Episodio de Emergencia",
-        "description": "Explora las actualizaciones de OpenAI de junio 2023 con ingenieros de IA de Scale, Microsoft, Pinecone y Huggingface."
+        "description": "Explore the June 2023 OpenAI updates with top AI engineers from Scale, Microsoft, Pinecone, & Huggingface. ",
+        "title": "Latent Space Podcast 6/20/23 [Summary] - Emergency Pod",
+        "twitterCard": null,
+        "image": {
+          "width": 1626,
+          "height": 606,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692221668-screenshot-2023-08-16-at-5-32-29-pm.png"
+        }
       }
     },
     {
       "id": "190259333",
-      "topics": ["LLM", "Resumen", "UX"],
-      "title": "Podcast Latent Space 8/6/23 [Resumen] - De RLHF a RLHB: El caso del aprendizaje del comportamiento humano - con Jeffrey Wang y Joe Reeve de Amplitude",
+      "topics": [
+        "LLM",
+        "Summary",
+        "UX"
+      ],
+      "title": "Latent Space Podcast 6/8/23 [Summary] - From RLHF to RLHB: The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude",
       "slug": "latent-space-podcast-6-8-23-summary-from-rlhf-to-rlhb-the-case-for-learning-from",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T09:02:33+01:00",
-      "description": "Explora IA y analitica con Jeffrey Wang y Joe Reeve en Latent Space Live! Profundiza en por que la IA valora la Analitica y el poder de los datos de comportamiento de primera mano.",
+      "description": "Explore AI & analytics with Jeffrey Wang & Joe Reeve on Latent Space Live! Dive into why AI values Analytics and the power of first-party behavioral data. ",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1692386432-screenshot-2023-08-18-at-3-17-04-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 8/6/23 [Resumen] - De RLHF a RLHB",
-        "description": "Explora IA y analitica con Jeffrey Wang y Joe Reeve en Latent Space Live! Profundiza en por que la IA valora la Analitica y el poder de los datos de comportamiento de primera mano."
+        "description": "Explore AI & analytics with Jeffrey Wang & Joe Reeve on Latent Space Live! Dive into why AI values Analytics and the power of first-party behavioral data. ",
+        "title": "Latent Space Podcast 6/8/23 [Summary] - From RLHF to RLHB",
+        "twitterCard": null,
+        "image": {
+          "width": 1674,
+          "height": 550,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692386432-screenshot-2023-08-18-at-3-17-04-pm.png"
+        }
       }
     },
     {
       "id": "190260528",
-      "topics": ["Resumen", "LLM", "UX"],
-      "title": "Podcast Latent Space 1/6/23 [Resumen] - Construyendo el Scenius de IA × UX — con Linus Lee de Notion AI",
+      "topics": [
+        "Summary",
+        "LLM",
+        "UX"
+      ],
+      "title": "Latent Space Podcast 6/1/23 [Summary] - Building the AI × UX Scenius — with Linus Lee of Notion AI",
       "slug": "latent-space-podcast-6-1-23-summary-building-the-ai-x-ux-scenius-with-linus-le",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T09:00:12+01:00",
-      "description": "Explora el enfoque transformador de Notion AI hacia la IA y UX. Profundiza en el futuro de los espacios de trabajo aumentados por IA, el valor mas alla de las interfaces de chat y perspectivas sobre el trabajo de conocimiento efectivo. Resumen del encuentro AI×UX NYC incluido!",
+      "description": "Explore Notion AI's transformative approach to AI and UX. Dive into the future of AI-augmented workspaces, the value beyond chat interfaces, and insights on effective knowledge work. Recap of AI×UX NYC meetup included!",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1692390655-screenshot-2023-08-18-at-4-28-51-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 1/6/23 [Resumen] - Scenius de IA × UX",
-        "description": "Explora el enfoque transformador de Notion AI hacia la IA y UX."
+        "description": "Explore Notion AI's transformative approach to AI and UX. ",
+        "title": "Latent Space Podcast 6/1/23 [Summary] - AI × UX Scenius",
+        "twitterCard": null,
+        "image": {
+          "width": 1614,
+          "height": 546,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692390655-screenshot-2023-08-18-at-4-28-51-pm.png"
+        }
       }
     },
     {
       "id": "190260557",
-      "topics": ["Resumen", "Codigo", "LLM", "Agentes"],
-      "title": "Podcast Latent Space 25/5/23 [Resumen] - Depurando Internet con agentes de IA – con Itamar Friedman de Codium AI y AutoGPT",
+      "topics": [
+        "Summary",
+        "Code",
+        "LLM",
+        "Agents"
+      ],
+      "title": "Latent Space Podcast 5/25/23 [Summary] - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
       "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T08:58:27+01:00",
-      "description": "Explora el futuro de la IA con Itamar Friedman de Codium AI en 'Depurando Internet'. Profundiza en agentes 'DRY Extremo', la sincronizacion rapida de especificaciones y pruebas, y el equilibrio entre codigo y pruebas. Ademas, perspectivas de Toran y una mirada exclusiva a la hoja de ruta de AutoGPT!",
+      "description": "Explore the future of AI with Itamar Friedman from Codium AI on 'Debugging the Internet'. Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. Plus, insights from Toran & an exclusive look at AutoGPT's roadmap!",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 25/5/23 [Resumen] Depurando Internet",
-        "description": "Profundiza en agentes 'DRY Extremo', la sincronizacion rapida de especificaciones y pruebas, y el equilibrio entre codigo y pruebas."
+        "description": "Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. ",
+        "title": "Latent Space Pod 5/25/23 [Summary] Debugging the Internet",
+        "twitterCard": null,
+        "image": {
+          "width": 1568,
+          "height": 548,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
+        }
       }
     },
     {
       "id": "190260640",
-      "topics": ["Resumen", "Codigo Abierto", "LLM"],
-      "title": "Podcast Latent Space 5/5/23 [Resumen] - Sin Foso: La IA Cerrada recibe su llamada de despertar de Codigo Abierto — con Simon Willison",
+      "topics": [
+        "Summary",
+        "Open Source",
+        "LLM"
+      ],
+      "title": "Latent Space Podcast 5/5/23 [Summary] - No Moat: Closed AI gets its Open Source wakeup call — ft. Simon Willison",
       "slug": "latent-space-podcast-5-5-23-summary-no-moat-closed-ai-gets-its-open-source-wakeup",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T08:49:18+01:00",
-      "description": "Explora 'Sin Foso: El Despertar del Codigo Abierto de la IA Cerrada' con Simon Willison. Profundiza en las perspectivas del memo filtrado del Foso de Google, la Fuga de Cerebros de Google y el impulso de velocidad de Python con Mojo.",
+      "description": "Explore 'No Moat: Closed AI's Open Source Awakening' with Simon Willison. Dive into leaked Google Moat memo insights, Google Brain Drain, and Python's speed boost with Mojo.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1692566921-screenshot-2023-08-20-at-5-25-53-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 5/5/23 [Resumen] - Sin Foso",
-        "description": "Explora 'Sin Foso: El Despertar del Codigo Abierto de la IA Cerrada' con Simon Willison. Profundiza en las perspectivas del memo filtrado del Foso de Google."
+        "description": "Explore 'No Moat: Closed AI's Open Source Awakening' with Simon Willison. Dive into leaked Google Moat memo insights.",
+        "title": "Latent Space Podcast 5/5/23 [Summary] - No Moat",
+        "twitterCard": null,
+        "image": {
+          "width": 1602,
+          "height": 532,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692566921-screenshot-2023-08-20-at-5-25-53-pm.png"
+        }
       }
     },
     {
       "id": "190260671",
-      "topics": ["LLM", "Codigo", "Resumen"],
-      "title": "Podcast Latent Space 3/5/23 [Resumen] - Entrenando un LLM de Codigo SOTA en 1 semana y Cuantificando las Vibraciones — con Reza Shabani de Replit",
+      "topics": [
+        "LLM",
+        "Code",
+        "Summary"
+      ],
+      "title": "Latent Space Podcast 5/3/23 [Summary] - Training a SOTA Code LLM in 1 week and Quantifying the Vibes — with Reza Shabani of Replit",
       "slug": "latent-space-podcast-5-3-23-summary-training-a-sota-code-llm-in-1-week-and-quanti",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T08:46:08+01:00",
-      "description": "Ep. 10 con Reza Shabani: Profundiza en el entrenamiento rapido de un LLM de Codigo de ultima generacion, explora el futuro de Replit Ghostwriter y viaja de Finanzas a IA. Descubre la transicion de Kaplan a Chinchilla y mas!",
+      "description": "Ep. 10 with Reza Shabani: Dive deep into the rapid training of a state-of-the-art Code LLM, explore Replit Ghostwriter's future, and journey from Finance to AI. Discover the transition from Kaplan to Chinchilla and more!",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1692584998-screenshot-2023-08-20-at-10-17-26-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 3/5/23 [Resumen] - LLM de Codigo SOTA",
-        "description": "Ep. 10 con Reza Shabani: Profundiza en el entrenamiento rapido de un LLM de Codigo de ultima generacion!"
+        "description": "Ep. 10 with Reza Shabani: Dive deep into the rapid training of a state-of-the-art Code LLM!",
+        "title": "Latent Space Pod 5/3/23 [Summary] - SOTA Code LLM",
+        "twitterCard": null,
+        "image": {
+          "width": 1566,
+          "height": 530,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692584998-screenshot-2023-08-20-at-10-17-26-pm.png"
+        }
       }
     },
     {
       "id": "190629271",
-      "topics": ["LLM", "Modelos Pequenos", "Resumen"],
-      "title": "Podcast Latent Space 28/4/23 [Resumen] - Mapeando el futuro de los Modelos *verdaderamente* Abiertos y Entrenando Dolly por $30 — con Mike Conover de Databricks",
+      "topics": [
+        "LLM",
+        "Small Models",
+        "Summary"
+      ],
+      "title": "Latent Space Podcast 4/28/23 [Summary] - Mapping the future of *truly* Open Models and Training Dolly for $30 — with Mike Conover of Databricks",
       "slug": "latent-space-podcast-4-28-23-summary-mapping-the-future-of-truly-open-models-and",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T08:33:12+01:00",
-      "description": "Explora el futuro de los modelos abiertos con Mike Conover de Databricks. Profundiza en la creacion de Dolly, su transicion de 1.0 a 2.0 y las influencias detras de su desarrollo. El Ep.9 toca la infraestructura de modelos, la vision de Databricks y mas. #IA #ModelosAbiertos #Dolly",
+      "description": "Explore the future of open models with Mike Conover of Databricks. Dive deep into Dolly's creation, its transition from 1.0 to 2.0, & the influences behind its development. Ep.9 touches on model infrastructure, Databricks' vision, & more. #AI #OpenModels #Dolly",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1694038707-screenshot-2023-09-06-at-3-12-24-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 28/4/23 [Resumen] - Mike de Databricks",
-        "description": "El Ep.9 toca la infraestructura de modelos, la vision de Databricks y mas. #IA #ModelosAbiertos #Dolly"
+        "description": "Ep.9 touches on model infrastructure, Databricks' vision, & more. #AI #OpenModels #Dolly",
+        "title": "Latent Space Pod 4/28/23 [Summary] - Mike of Databricks",
+        "twitterCard": null,
+        "image": {
+          "width": 1572,
+          "height": 628,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1694038707-screenshot-2023-09-06-at-3-12-24-pm.png"
+        }
       }
     },
     {
       "id": "191164291",
-      "topics": ["LLM", "Empresa", "Resumen"],
-      "title": "Podcast Latent Space 21/4/23 [Resumen] - Busqueda impulsada por IA para la Empresa — con Deedy Das de Glean",
+      "topics": [
+        "LLM",
+        "Enterprise",
+        "Summary"
+      ],
+      "title": "Latent Space Podcast 4/21/23 [Summary] - AI-powered Search for the Enterprise — with Deedy Das of Glean",
       "slug": "latent-space-podcast-4-21-23-summary-ai-powered-search-for-the-enterprise-with",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T08:31:31+01:00",
-      "description": "Ep.8: Sumérgete en la IA en busqueda empresarial con Deedy Das de Glean. Desempaqueta desafios en crear un gigante de busqueda IA, comparaciones Google vs ChatGPT, complejidades de infraestructura IA, deteccion de texto generado por IA y por que las empresas necesitan mas que solo QA de Documentos.",
+      "description": "Ep.8: Dive into AI in enterprise search with Deedy Das of Glean. Unpack challenges in creating an AI search giant, Google vs ChatGPT comparisons, AI infrastructure intricacies, spotting AI-generated text, and why businesses need more than just Document QA.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1694134074-screenshot-2023-09-07-at-5-43-48-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 21/4/23 [Resumen] - con Deedy Das",
-        "description": "Ep.8: Sumérgete en la IA en busqueda empresarial con Deedy Das de Glean. Desempaqueta desafios en crear un gigante de busqueda IA, comparaciones Google vs ChatGPT ..."
+        "description": "Ep.8: Dive into AI in enterprise search with Deedy Das of Glean. Unpack challenges in creating an AI search giant, Google vs ChatGPT ...",
+        "title": "Latent Space Podcast 4/21/23 [Summary] - with Deedy Das ",
+        "twitterCard": null,
+        "image": {
+          "width": 1608,
+          "height": 530,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1694134074-screenshot-2023-09-07-at-5-43-48-pm.png"
+        }
       }
     },
     {
       "id": "191165673",
-      "topics": ["Resumen", "Vision"],
-      "title": "Podcast Latent Space 13/4/23 [Resumen] - Modelo de Segmentacion de Cualquier Cosa y los Problemas Dificiles de Vision por Computadora — con Joseph Nelson de Roboflow",
+      "topics": [
+        "Summary",
+        "Vision"
+      ],
+      "title": "Latent Space Podcast 4/13/23 [Summary] - Segment Anything Model and the Hard Problems of Computer Vision — with Joseph Nelson of Roboflow",
       "slug": "latent-space-podcast-4-13-23-summary-segment-anything-model-and-the-hard-problems",
       "authorName": "Prof. Otto Nomos",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
       },
       "_publishedAt": "2023-10-05T08:30:03+01:00",
-      "description": "Explora el Ep.7 con Joseph Nelson sobre el Modelo de Segmentacion de Cualquier Cosa de Meta. Profundiza en el futuro de la Vision por Computadora, la importancia del OCR, Segmentacion de Imagenes y mas. #Roboflow #IA",
+      "description": "Explore Ep.7 with Joseph Nelson on the Segment Anything Model by Meta. Dive deep into Computer Vision's future, the significance of OCR, Image Segmentation, and beyond. #Roboflow #AI",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1694150379-screenshot-2023-09-07-at-10-15-52-pm.png"
       },
       "seo": {
-        "title": "Podcast Latent Space 13/4/23 [Resumen] - Segmentacion de Cualquier Cosa",
-        "description": "Profundiza en el futuro de la Vision por Computadora, la importancia del OCR, Segmentacion de Imagenes y mas. #Roboflow #IA"
+        "description": "Dive deep into Computer Vision's future, the significance of OCR, Image Segmentation, and beyond. #Roboflow #AI",
+        "title": "Latent Space Podcast 4/13/23 [Summary] - Segment Anything ",
+        "twitterCard": null,
+        "image": {
+          "width": 1604,
+          "height": 604,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1694150379-screenshot-2023-09-07-at-10-15-52-pm.png"
+        }
       }
     }
   ],
   "blogContent": {
     "id": "190259216",
-    "topics": ["Resumen", "Codigo Abierto"],
-    "title": "Podcast de Espacio Latente 7/2/23 [Resumen] Tendencias de IA: un episodio cruzado de Espacio Latente x IA Practica",
+    "topics": [
+      "Summary",
+      "Open Source"
+    ],
+    "title": "Latent Space Podcast 7/2/23 [Summary] AI Trends: a Latent Space x Practical AI crossover pod!",
     "slug": "latent-space-podcast-7-2-23-summary-ai-trends-a-latent-space-x-practical-ai-cross",
     "authorName": "Prof. Otto Nomos",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
     },
     "_publishedAt": "2023-10-05T09:08:36+01:00",
-    "description": "Explora la fusion de IA Practica y Espacio Latente mientras profundizan en las principales tendencias de IA de 2023, reflexionan sobre episodios destacados y comparten ideas sobre como navegar la evolucion de la IA.",
+    "description": "Explore the fusion of Practical AI & Latent Space as they delve into 2023's top AI trends, reflect on standout episodes, and share insights on navigating the AI evolution.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1692146916-screenshot-2023-08-15-at-5-20-38-pm.png"
     },
@@ -430,7 +630,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Episode Highlights:"
                     }
                   ]
@@ -488,7 +690,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Trends in the AI Industry:"
                     }
                   ]
@@ -546,7 +750,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Model Evaluation:"
                     }
                   ]
@@ -665,7 +871,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Grassroots AI Efforts & The Changing Landscape of AI Models"
                     }
                   ]
@@ -675,7 +883,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["emphasis"],
+                      "marks": [
+                        "emphasis"
+                      ],
                       "value": "Shawn Wang"
                     },
                     {
@@ -684,7 +894,9 @@
                     },
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Masakhane"
                     },
                     {
@@ -693,7 +905,9 @@
                     },
                     {
                       "type": "span",
-                      "marks": ["emphasis"],
+                      "marks": [
+                        "emphasis"
+                      ],
                       "value": "Daniel Whitenack"
                     },
                     {
@@ -720,7 +934,9 @@
                     },
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Raj Shah"
                     },
                     {
@@ -836,7 +1052,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Unique Challenges of Engineers vs. Data Scientists Transitioning to AI"
                     },
                     {
@@ -859,7 +1077,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "The Value of AI User Experience (UX)"
                     },
                     {
@@ -873,7 +1093,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Discussion on Dataset Evolution and Curation"
                     },
                     {
@@ -929,7 +1151,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "AI Customization and The Evolution of Data Use"
                     }
                   ]
@@ -939,7 +1163,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["emphasis"],
+                      "marks": [
+                        "emphasis"
+                      ],
                       "value": "Daniel Whitenack"
                     },
                     {
@@ -953,7 +1179,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["emphasis"],
+                      "marks": [
+                        "emphasis"
+                      ],
                       "value": "Shawn Wang"
                     },
                     {
@@ -985,7 +1213,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "End Note"
                     },
                     {
@@ -1012,8 +1242,8 @@
       }
     ],
     "seo": {
-      "description": "Principales tendencias de IA de 2023, reflexion sobre episodios destacados e ideas sobre como navegar la evolucion de la IA.",
-      "title": "Podcast de Espacio Latente 7/2/23 [Resumen] Tendencias de IA",
+      "description": "2023's top AI trends, reflect on standout episodes, and share insights on navigating the AI evolution.",
+      "title": "Latent Space Podcast 7/2/23 [Summary] AI Trends ",
       "twitterCard": null,
       "image": {
         "width": 1600,
@@ -1024,5 +1254,9 @@
       }
     }
   },
-  "topics": ["Resumen", "Codigo Abierto"]
+  "topics": [
+    "Summary",
+    "Open Source"
+  ],
+  "shortLink": ""
 }

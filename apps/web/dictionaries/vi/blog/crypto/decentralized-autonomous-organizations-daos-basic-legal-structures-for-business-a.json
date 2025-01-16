@@ -2,73 +2,103 @@
   "relatedBlogs": [
     {
       "id": "180563903",
-      "topics": ["DAO", "Tóm tắt"],
-      "title": "Mục đích của việc bỏ phiếu là gì? [Tóm tắt]",
+      "topics": [
+        "DAO",
+        "Summary"
+      ],
+      "title": "What is Voting For? [Summary]",
       "slug": "what-is-voting-for-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:58+01:00",
-      "description": "Khám phá bản chất của việc bỏ phiếu trong các hệ thống phi tập trung. Hiểu rõ mục đích và quyền lực thực sự của việc bỏ phiếu trong blockchain.",
+      "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
       },
       "seo": {
-        "title": "Mục đích của việc bỏ phiếu là gì? [Tóm tắt]",
-        "description": "Khám phá bản chất của việc bỏ phiếu trong các hệ thống phi tập trung. Hiểu rõ mục đích và quyền lực thực sự của việc bỏ phiếu trong blockchain."
+        "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
+        "title": "What is Voting For? [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
+        }
       }
     },
     {
       "id": "180563908",
-      "topics": ["DAO", "Tóm tắt"],
-      "title": "Mục đích của quản trị là gì? [Tóm tắt]",
+      "topics": [
+        "DAO",
+        "Summary"
+      ],
+      "title": "What is Governance For? [Summary]",
       "slug": "what-is-governance-for-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:45+01:00",
-      "description": "Khám phá vai trò và tầm quan trọng của quản trị trong các hệ thống blockchain. Hiểu cách quản trị thúc đẩy sự phi tập trung và tăng trưởng.",
+      "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
       },
       "seo": {
-        "title": "Mục đích của quản trị là gì? [Tóm tắt]",
-        "description": "Khám phá vai trò và tầm quan trọng của quản trị trong các hệ thống blockchain. Hiểu cách quản trị thúc đẩy sự phi tập trung và tăng trưởng."
+        "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.\n",
+        "title": "What is Governance For? [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
+        }
       }
     },
     {
       "id": "166981063",
-      "topics": ["Bắt đầu", "DAO"],
-      "title": "Tương lai đã đến: Sự trỗi dậy của các Tổ chức Tự trị Phi tập trung (DAOs)",
+      "topics": [
+        "Getting Started",
+        "DAO"
+      ],
+      "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
       "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:02+01:00",
-      "description": "Khám phá sự trỗi dậy của các Tổ chức Tự trị Phi tập trung (DAOs) trong hướng dẫn của chúng tôi. Hiểu về tương lai của doanh nghiệp và cơ hội cho các startup.",
+      "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
       },
       "seo": {
-        "title": "Sự trỗi dậy của các Tổ chức Tự trị Phi tập trung",
-        "description": "Khám phá sự trỗi dậy của các Tổ chức Tự trị Phi tập trung (DAOs) trong hướng dẫn của chúng tôi. Hiểu về tương lai của doanh nghiệp và cơ hội cho các startup."
+        "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
+        "title": "The Rise of Decentralized Autonomous Organizations ",
+        "twitterCard": null,
+        "image": null
       }
     }
   ],
   "blogContent": {
     "id": "166984334",
-    "topics": ["DAO", "Pháp Lý"],
-    "title": "Các Tổ Chức Tự Trị Phân Cấp (DAOs): Các Cấu Trúc Pháp Lý Cơ Bản cho Doanh Nghiệp và Mục Đích Phi Lợi Nhuận",
+    "topics": [
+      "DAO",
+      "Legal"
+    ],
+    "title": "Decentralized Autonomous Organizations (DAOs): Basic Legal Structures for Business and Non-Profit Purposes",
     "slug": "decentralized-autonomous-organizations-daos-basic-legal-structures-for-business-a",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T08:59:06+01:00",
-    "description": "Khám phá các cấu trúc pháp lý cơ bản của DAO cho doanh nghiệp và mục đích phi lợi nhuận.",
+    "description": "Discover the basic DAO legal structures for business and non-profit purposes. ",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1687384353-db2-img1.png"
     },
@@ -86,7 +116,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Hiểu về Khung Pháp Lý cho DAOs"
+                      "value": "Understanding the Legal Framework for DAOs"
                     }
                   ]
                 },
@@ -95,7 +125,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Các Tổ Chức Tự Trị Phân Cấp (DAOs) là những hình thức tổ chức kỹ thuật số phân cấp sáng tạo được hỗ trợ bởi công nghệ blockchain. Trong thế giới tiền điện tử và blockchain, DAOs đã thu hút sự chú ý của các doanh nhân, nhà đầu tư và chuyên gia pháp lý. Tuy nhiên, khi xem xét DAOs về mặt pháp lý, điều quan trọng là phải hiểu rằng chúng có thể được coi là một liên danh lớn hoặc một hiệp hội phi lợi nhuận không đăng ký."
+                      "value": "Decentralized Autonomous Organizations (DAOs) are innovative forms of decentralized, digital organizations that are enabled by blockchain technology. In the world of crypto and blockchain, DAOs have captured the imagination of entrepreneurs, investors, and legal experts alike. However, when it comes to viewing DAOs legally, it's important to understand that they can be viewed as either a large general partnership or an unincorporated non-profit association."
                     }
                   ]
                 }
@@ -128,8 +158,10 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
-                      "value": "Các Liên Danh Lớn"
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "General Partnerships"
                     }
                   ]
                 },
@@ -138,7 +170,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Một liên danh lớn là một loại hình cấu trúc kinh doanh mà trong đó nhiều đối tác cùng nhau điều hành một doanh nghiệp. Trong trường hợp của một DAO, các đối tác được đại diện bởi các token số được giữ bởi các chủ sở hữu token. Các đối tác chia sẻ lợi nhuận, thua lỗ và quyền kiểm soát doanh nghiệp theo tỷ lệ sở hữu token của họ. Trong một liên danh lớn, các đối tác có trách nhiệm cá nhân đối với các khoản nợ và nghĩa vụ của doanh nghiệp."
+                      "value": "A large general partnership is a type of business structure in which multiple partners come together to operate a business. In the case of a DAO, the partners are represented by digital tokens held by token holders. The partners share profits, losses, and control over the business in proportion to their token holdings. In a large general partnership, the partners are personally liable for the debts and obligations of the business."
                     }
                   ]
                 },
@@ -147,7 +179,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Loại cấu trúc này có thể đặc biệt phù hợp cho các DAO đang hoạt động như một công ty, tìm cách tạo ra lợi nhuận và tìm kiếm cách thu hút đầu tư. Ví dụ, một DAO hoạt động như một liên danh lớn có thể phát hành các token giống như cổ phiếu. Điều này cho phép DAO huy động vốn, thu hút đầu tư và thưởng cho các chủ sở hữu token với một phần lợi nhuận."
+                      "value": "This type of structure can be particularly appropriate for DAOs that are operating as a company, seeking to generate profits, and looking for ways to attract investment. For instance, a DAO that operates as a large general partnership can issue tokens that are like shares of stock. This allows the DAO to raise capital, attract investment, and reward token holders with a share of the profits."
                     }
                   ]
                 },
@@ -156,7 +188,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Tuy nhiên, cũng có những nhược điểm của loại cấu trúc này. Ví dụ, các chủ sở hữu token có thể không được bảo vệ hoàn toàn khỏi trách nhiệm cá nhân đối với các khoản nợ và nghĩa vụ của doanh nghiệp. Ngoài ra, cấu trúc liên danh có thể kém linh hoạt hơn các cấu trúc khác và có thể không cho phép cùng một mức độ phân cấp."
+                      "value": "However, there are also disadvantages to this type of structure. For example, token holders may not be fully protected from personal liability for the debts and obligations of the business. Additionally, the partnership structure can be less flexible than other structures and may not allow for the same degree of decentralization."
                     }
                   ]
                 }
@@ -179,8 +211,10 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
-                      "value": "Các Hiệp Hội Phi Lợi Nhuận"
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Non-profit Associations"
                     }
                   ]
                 },
@@ -189,7 +223,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Mặt khác, một hiệp hội phi lợi nhuận không đăng ký là một loại tổ chức hoạt động vì lợi ích của các thành viên của nó và không vì lợi nhuận. Trong loại cấu trúc này, các thành viên của hiệp hội chia sẻ quyền kiểm soát tổ chức và không có trách nhiệm cá nhân đối với các khoản nợ và nghĩa vụ của nó. Một hiệp hội phi lợi nhuận không đăng ký có thể là một lựa chọn tốt cho các DAO đang hoạt động như một tổ chức phi lợi nhuận và tìm kiếm một hình thức quản trị phân cấp, linh hoạt."
+                      "value": "On the other hand, an unincorporated non-profit association is a type of organization that operates for the benefit of its members and not for profit. In this type of structure, the members of the association share control over the organization and are not personally liable for its debts and obligations. An unincorporated non-profit association can be a good choice for DAOs that are operating as a non-profit organization and looking for a flexible, decentralized form of governance."
                     }
                   ]
                 },
@@ -198,7 +232,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Ví dụ, một DAO hoạt động như một hiệp hội phi lợi nhuận không đăng ký có thể được cấu trúc như một tổ chức do cộng đồng điều hành, phân cấp. Các thành viên của DAO có thể cùng nhau đưa ra quyết định và tổ chức có thể được quản lý theo cách dân chủ hơn. Loại cấu trúc này có thể đặc biệt phù hợp cho các DAO tập trung vào các nguyên nhân xã hội hoặc môi trường, nơi mục tiêu là thúc đẩy một nguyên nhân hoặc ý thức hệ cụ thể, thay vì tạo ra lợi nhuận."
+                      "value": "For instance, a DAO that operates as an unincorporated non-profit association can be structured as a decentralized, community-driven organization. The members of the DAO can make decisions together and the organization can be governed in a more democratic way. This type of structure can be particularly appropriate for DAOs that are focused on social or environmental causes, where the goal is to promote a particular cause or ideology, rather than to generate profits."
                     }
                   ]
                 },
@@ -207,7 +241,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Tuy nhiên, cũng có những nhược điểm của loại cấu trúc này. Ví dụ, một hiệp hội phi lợi nhuận không đăng ký có thể không có cùng tư cách pháp lý như một công ty và có thể không thể huy động vốn theo cách tương tự. Ngoài ra, loại cấu trúc này có thể không phù hợp với các tổ chức đang tìm cách tạo ra lợi nhuận."
+                      "value": "However, there are also disadvantages to this type of structure. For example, an unincorporated non-profit association may not have the same legal standing as a corporation and may not be able to raise capital in the same way. Additionally, this type of structure may not be as well-suited for organizations that are looking to generate profits."
                     }
                   ]
                 },
@@ -216,7 +250,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Kết luận, khi xem xét DAOs về mặt pháp lý, điều quan trọng là phải hiểu rằng chúng có thể được coi là một liên danh lớn hoặc một hiệp hội phi lợi nhuận không đăng ký. Cả hai loại cấu trúc đều có ưu và nhược điểm riêng, và sự lựa chọn cấu trúc sẽ phụ thuộc vào các mục tiêu và mục đích cụ thể của DAO. Dù DAO đang hoạt động như một công ty hay một tổ chức phi lợi nhuận, điều cần thiết là phải chọn một cấu trúc phù hợp với các mục tiêu và mục đích của tổ chức và cung cấp các bảo vệ pháp lý cần thiết cho các thành viên của nó."
+                      "value": "In conclusion, when it comes to viewing DAOs legally, it's important to understand that they can be viewed as either a large general partnership or an unincorporated non-profit association. Both types of structures have their own pros and cons, and the choice of structure will depend on the specific goals and objectives of the DAO. Whether a DAO is operating as a company or a non-profit organization, it's essential to choose a structure that aligns with the goals and objectives of the organization and provides the necessary legal protections for its members."
                     }
                   ]
                 }
@@ -238,8 +272,8 @@
       }
     ],
     "seo": {
-      "description": "Các Tổ Chức Tự Trị Phân Cấp (DAOs): Định Hướng Các Cấu Trúc Pháp Lý cho Doanh Nghiệp và Mục Đích Phi Lợi Nhuận",
-      "title": "DAOs: Định Hướng Các Cấu Trúc Pháp Lý cho Doanh Nghiệp & Phi Lợi Nhuận",
+      "description": "Decentralized Autonomous Organizations (DAOs): Navigating Legal Structures for Business and Non-Profit Purposes",
+      "title": "DAOs: Navigating Legal Structures for Business & Non-Profit ",
       "twitterCard": null,
       "image": {
         "width": 994,
@@ -250,5 +284,9 @@
       }
     }
   },
-  "topics": ["DAO", "Legal"]
+  "topics": [
+    "DAO",
+    "Legal"
+  ],
+  "shortLink": ""
 }

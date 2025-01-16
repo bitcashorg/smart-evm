@@ -24,30 +24,33 @@ const content: AboutBitlauncherPageContent = {
   title: 'About',
   paragraph: (
     <>
-      Bitlauncher is a <strong> pioneering launchpad </strong> dedicated to transforming
-      the landscape of artificial intelligence (AI) and cryptocurrency. We are on a
-      mission to empower the next wave of AI innovation by providing open-source AI
-      projects with equitable fundraising opportunities and decentralized organization
-      through the use of blockchain technology.
+      Bitlauncher is a <strong> pioneering launchpad </strong> dedicated to
+      transforming the landscape of artificial intelligence (AI) and
+      cryptocurrency. We are on a mission to empower the next wave of AI
+      innovation by providing open-source AI projects with equitable fundraising
+      opportunities and decentralized organization through the use of blockchain
+      technology.
     </>
   ),
   paragraph2: (
     <>
       At Bitlauncher, we{' '}
-      <strong>combine the transformative powers of AI and cryptocurrency</strong> to
-      address the unique challenges faced by AI startups. By integrating tokenization and
-      decentralized autonomous organizations (DAOs), we create a seamless synergy that
-      enables these startups to overcome funding barriers, accelerate their growth, and
-      harness global resources.
+      <strong>
+        combine the transformative powers of AI and cryptocurrency
+      </strong>{' '}
+      to address the unique challenges faced by AI startups. By integrating
+      tokenization and decentralized autonomous organizations (DAOs), we create
+      a seamless synergy that enables these startups to overcome funding
+      barriers, accelerate their growth, and harness global resources.
     </>
   ),
   paragraph3: (
     <>
       Our platform is built on a foundation of{' '}
-      <strong>transparency, inclusivity, and community-driven progress.</strong> We foster
-      a collaborative environment where developers, contributors, and AI enthusiasts can
-      come together to share resources, exchange ideas, and shape the future of
-      technology.
+      <strong>transparency, inclusivity, and community-driven progress.</strong>{' '}
+      We foster a collaborative environment where developers, contributors, and
+      AI enthusiasts can come together to share resources, exchange ideas, and
+      shape the future of technology.
     </>
   ),
   image: {
@@ -60,5 +63,6 @@ const content: AboutBitlauncherPageContent = {
 
 export const metadata: Metadata = {
   title: 'Bitlauncher',
-  description: 'Be part of the intelligent future and join the Ai/Web3 revolution now!',
+  description:
+    'Be part of the intelligent future and join the Ai/Web3 revolution now!',
 }

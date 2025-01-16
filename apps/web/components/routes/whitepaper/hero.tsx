@@ -23,7 +23,10 @@ export const HeroWhitepaper = ({ paragraphs }: HeroContentProps) => {
           {paragraphs.map((paragraph) => (
             <p className="paragraph">
               {paragraph.segments.map((segment, segmentIndex) => (
-                <span key={segmentIndex} className={segment.isBold ? 'font-bold' : ''}>
+                <span
+                  key={segmentIndex}
+                  className={segment.isBold ? 'font-bold' : ''}
+                >
                   {segment.text}
                 </span>
               ))}

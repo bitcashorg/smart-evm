@@ -6,7 +6,7 @@ export default function NotFoundPage() {
       <h1 className="heading flex justify-center text-center">Not Found Kek</h1>
       <picture className="max-h-300 max-w-700">
         <Image
-          src={`/images/kek.webp`}
+          src={'/images/kek.webp'}
           alt={'KEK'}
           fill
           priority

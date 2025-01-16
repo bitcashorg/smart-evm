@@ -44,7 +44,8 @@ export default function WalletPage() {
 
 export const metadata: Metadata = {
   title: 'Wallet | Bitlauncher',
-  description: 'Be part of the intelligent future and join the Ai/Web3 revolution now!',
+  description:
+    'Be part of the intelligent future and join the Ai/Web3 revolution now!',
 }
 
 function BalancesCard() {
@@ -53,8 +54,8 @@ function BalancesCard() {
       <CardHeader>
         <CardTitle>Wallet Balances</CardTitle>
         <CardDescription>
-          Your balances on the Bitcash | Bitlauncher ecosystem. Connect your Bitcash and
-          EVM wallets.
+          Your balances on the Bitcash | Bitlauncher ecosystem. Connect your
+          Bitcash and EVM wallets.
         </CardDescription>
       </CardHeader>
       <CardContent>

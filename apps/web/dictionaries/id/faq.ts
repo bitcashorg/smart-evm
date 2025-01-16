@@ -23,12 +23,14 @@ export default {
         'Penjualan token terbuka untuk audiens global, dengan pembatasan khusus yang mengkecualikan peserta dari AS dan negara-negara yang dikenai sanksi AS untuk mematuhi standar regulasi dan memastikan partisipasi sebesar mungkin sambil tetap menjaga integritas hukum.',
     },
     {
-      question: 'Apa yang membedakan proyek ini dari ICO atau penjualan token lainnya?',
+      question:
+        'Apa yang membedakan proyek ini dari ICO atau penjualan token lainnya?',
       answer:
         'Proyek kami secara unik berfokus pada sektor kecerdasan buatan, menggunakan model tokenomics mint-and-burn yang mencerminkan model pemegang saham, menekankan pertumbuhan yang berkelanjutan, transparansi, dan keterlibatan komunitas dalam ekosistem startup teknologi.',
     },
     {
-      question: 'Bagaimana dana yang terkumpul dari penjualan token akan digunakan?',
+      question:
+        'Bagaimana dana yang terkumpul dari penjualan token akan digunakan?',
       answer:
         'Dana dari penjualan token dialokasikan utamanya untuk pengembangan lebih lanjut dan pemasaran platform peluncuran dan dompet, serta pembuatan rantai L1 nirlaba tanpa premine berbasis teknologi Antelope, dengan tujuan distribusi token yang paling adil dan berkontribusi pada pertumbuhan dan keberlanjutan ekosistem.',
     },
@@ -56,9 +58,10 @@ export default {
         'Dengan memfasilitasi pertumbuhan dan pengembangan startup kecerdasan buatan dalam kerangka kripto, proyek kami berkontribusi pada kemajuan teknologi, mendorong praktik bisnis yang etis dan berkelanjutan, serta membangun komunitas inovasi pada perpotongan dua bidang dinamis ini.',
     },
     {
-      question: 'Di mana saya dapat menemukan informasi lebih lanjut atau terlibat?',
+      question:
+        'Di mana saya dapat menemukan informasi lebih lanjut atau terlibat?',
       answer:
-        'Untuk informasi lebih detail, pembaruan, dan untuk bergabung dengan komunitas kami, kunjungi situs web resmi kami, ikuti saluran media sosial kami, dan berlangganan newsletter kami. Kami menyambut semua orang yang tertarik untuk berkontribusi atau berpartisipasi dalam masa depan kecerdasan buatan dan cryptocurrency melalui platform peluncuran kami. Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://blog.bitcash.org/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitcashorg, Telegram: https://t.me/bitcash_org. Melalui pertanyaan-pertanyaan ini, kami bertujuan untuk menjawab pertanyaan inti seputar proyek kami, menjelaskan komitmen kami terhadap inovasi, transparansi, dan pemberdayaan komunitas dalam lanskap yang terus berubah dari AI dan cryptocurrency.',
+        'Untuk informasi lebih detail, pembaruan, dan untuk bergabung dengan komunitas kami, kunjungi situs web resmi kami, ikuti saluran media sosial kami, dan berlangganan newsletter kami. Kami menyambut semua orang yang tertarik untuk berkontribusi atau berpartisipasi dalam masa depan kecerdasan buatan dan cryptocurrency melalui platform peluncuran kami. Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://bitlauncher.ai/blog/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitlauncher, Telegram: https://t.me/bitcash_org. Melalui pertanyaan-pertanyaan ini, kami bertujuan untuk menjawab pertanyaan inti seputar proyek kami, menjelaskan komitmen kami terhadap inovasi, transparansi, dan pemberdayaan komunitas dalam lanskap yang terus berubah dari AI dan cryptocurrency.',
     },
   ],
 } as const

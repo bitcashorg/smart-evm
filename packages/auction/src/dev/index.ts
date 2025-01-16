@@ -1,4 +1,8 @@
-import type { ContractData, EOSTokenContractData, EVMTokenContractData } from '../types'
+import type {
+  ContractData,
+  EOSTokenContractData,
+  EVMTokenContractData,
+} from '../types'
 import { TestnetDepositOrder } from './auction/testnet-deposit-order'
 import { TestnetEasyAuction } from './auction/testnet-easy-auction'
 import { EOSFakeBITUSD } from './tokens/eos-fake-bitusd'

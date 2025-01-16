@@ -29,7 +29,8 @@ export default {
         'Dự án của chúng tôi tập trung độc đáo vào lĩnh vực AI, sử dụng mô hình mint-and-burn cho tokenomics giống như mô hình cổ đông, nhấn mạnh sự phát triển bền vững, sự minh bạch và sự tham gia cộng đồng trong hệ sinh thái startup công nghệ.',
     },
     {
-      question: 'Số tiền huy động được từ việc bán token sẽ được sử dụng như thế nào?',
+      question:
+        'Số tiền huy động được từ việc bán token sẽ được sử dụng như thế nào?',
       answer:
         'Nguồn tiền từ việc bán token được phân bổ chủ yếu để phát triển và tiếp thị thêm cho Launchpad và ví điện tử, cùng việc tạo ra chuỗi L1 phi lợi nhuận, không có tiền tạo trên nền công nghệ Antelope, nhằm mục đích phân phối token công bằng nhất và đóng góp vào sự phát triển và bền vững của hệ sinh thái.',
     },
@@ -58,7 +59,7 @@ export default {
     {
       question: 'Tôi có thể tìm thêm thông tin hoặc tham gia ở đâu?',
       answer:
-        'Để biết thông tin chi tiết hơn, cập nhật và tham gia cộng đồng của chúng tôi, vui lòng truy cập trang web chính thức của chúng tôi, tham gia các kênh truyền thông xã hội của chúng tôi và đăng ký nhận bản tin của chúng tôi. Chúng tôi chào đón mọi người quan tâm đóng góp hoặc tham gia vào tương lai của AI và tiền điện tử thông qua Launchpad của chúng tôi. Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://blog.bitcash.org/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitcashorg, Telegram: https://t.me/bitcash_org. Qua các câu hỏi thường gặp này, chúng tôi mong muốn giải quyết các câu hỏi cốt lõi xoay quanh dự án của chúng tôi, làm rõ cam kết của chúng tôi với sự đổi mới, sự minh bạch và sự bổ túc cộng đồng trong cảnh quan tiến hóa của AI và tiền điện tử.',
+        'Để biết thông tin chi tiết hơn, cập nhật và tham gia cộng đồng của chúng tôi, vui lòng truy cập trang web chính thức của chúng tôi, tham gia các kênh truyền thông xã hội của chúng tôi và đăng ký nhận bản tin của chúng tôi. Chúng tôi chào đón mọi người quan tâm đóng góp hoặc tham gia vào tương lai của AI và tiền điện tử thông qua Launchpad của chúng tôi. Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://bitlauncher.ai/blog/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitlauncher, Telegram: https://t.me/bitcash_org. Qua các câu hỏi thường gặp này, chúng tôi mong muốn giải quyết các câu hỏi cốt lõi xoay quanh dự án của chúng tôi, làm rõ cam kết của chúng tôi với sự đổi mới, sự minh bạch và sự bổ túc cộng đồng trong cảnh quan tiến hóa của AI và tiền điện tử.',
     },
   ],
 } as const

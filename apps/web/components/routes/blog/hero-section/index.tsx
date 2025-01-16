@@ -8,7 +8,11 @@ export function HeroSection({ recent, lang }: HeroSectionProps) {
   const secondary = recent.slice(1, recent.length)
   return (
     <section className="flex flex-col justify-between w-full gap-10 mb-10 lg:flex-row">
-      <HeroArticleCard sectionSlug={main?.slug} post={main?.articles[0]} lang={lang} />
+      <HeroArticleCard
+        sectionSlug={main?.slug}
+        post={main?.articles[0]}
+        lang={lang}
+      />
       <ul className="flex-col space-y-10 lg:w-1/2">
         {secondary?.map(
           (post, index) =>

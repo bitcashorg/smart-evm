@@ -25,7 +25,8 @@ const figcaptionVariants = cva(
   },
 )
 
-interface MotionFigcaptionProps extends VariantProps<typeof figcaptionVariants> {
+interface MotionFigcaptionProps
+  extends VariantProps<typeof figcaptionVariants> {
   label: string
   className?: string
 }

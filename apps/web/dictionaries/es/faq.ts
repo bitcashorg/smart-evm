@@ -23,22 +23,26 @@ export default {
         'La venta de tokens está abierta a una audiencia global, con restricciones específicas que excluyen a participantes de los EE. UU. y de países sancionados por los EE. UU. para cumplir con los estándares regulatorios y asegurar la participación más amplia posible, manteniendo la integridad legal.',
     },
     {
-      question: '¿Qué diferencia a este proyecto de otras ICO o ventas de tokens?',
+      question:
+        '¿Qué diferencia a este proyecto de otras ICO o ventas de tokens?',
       answer:
         'Nuestro proyecto se centra de manera única en el sector de la IA, empleando un modelo de mint-and-burn para la tokenómica que refleja el modelo de accionistas, enfatizando el crecimiento sostenible, la transparencia y la participación de la comunidad en el ecosistema de startups tecnológicas.',
     },
     {
-      question: '¿Cómo se utilizarán los fondos recaudados con la venta de tokens?',
+      question:
+        '¿Cómo se utilizarán los fondos recaudados con la venta de tokens?',
       answer:
         'Los fondos de la venta de tokens se destinan principalmente al desarrollo y marketing de la plataforma de lanzamiento y la billetera, así como a la creación de una cadena L1 sin fines de lucro y sin preminado basada en la tecnología Antelope, con el objetivo de lograr la distribución de tokens más justa y contribuir al crecimiento y la sostenibilidad del ecosistema.',
     },
     {
-      question: '¿Cómo garantiza el launchpad el cumplimiento normativo y la seguridad?',
+      question:
+        '¿Cómo garantiza el launchpad el cumplimiento normativo y la seguridad?',
       answer:
         'Adoptamos un enfoque proactivo para el cumplimiento normativo, que incluye restricciones de usuarios, políticas de KYC y AML, y la adhesión a las leyes de protección de datos, junto con la implementación de medidas de seguridad robustas como el cifrado de extremo a extremo y auditorías de seguridad regulares.',
     },
     {
-      question: '¿Qué soporte ofrece la plataforma de lanzamiento a las startups?',
+      question:
+        '¿Qué soporte ofrece la plataforma de lanzamiento a las startups?',
       answer:
         'Más allá de la financiación, la plataforma de lanzamiento ofrece a las startups acceso a una red de recursos, incluyendo orientación sobre gestión empresarial, marketing y desarrollo, junto con herramientas para el procesamiento eficiente de pagos y la gestión organizacional a través de la tecnología DAO.',
     },
@@ -57,7 +61,7 @@ export default {
     {
       question: '¿Dónde puedo encontrar más información o participar?',
       answer:
-        'Para obtener información más detallada, actualizaciones y unirse a nuestra comunidad, visite nuestro sitio web oficial, únase a nuestros canales de redes sociales y suscríbase a nuestro boletín informativo. Damos la bienvenida a todos los interesados ​​en contribuir o participar en el futuro de la IA y las criptomonedas a través de nuestra plataforma de lanzamiento. Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://blog.bitcash.org/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitcashorg, Telegram: https://t.me/bitcash_org. A través de estas preguntas frecuentes, nuestro objetivo es abordar las consultas centrales en torno a nuestro proyecto, aclarando nuestro compromiso con la innovación, la transparencia y el empoderamiento de la comunidad en los paisajes en evolución de la IA y las criptomonedas.',
+        'Para obtener información más detallada, actualizaciones y unirse a nuestra comunidad, visite nuestro sitio web oficial, únase a nuestros canales de redes sociales y suscríbase a nuestro boletín informativo. Damos la bienvenida a todos los interesados ​​en contribuir o participar en el futuro de la IA y las criptomonedas a través de nuestra plataforma de lanzamiento. Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://bitlauncher.ai/blog/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitlauncher, Telegram: https://t.me/bitcash_org. A través de estas preguntas frecuentes, nuestro objetivo es abordar las consultas centrales en torno a nuestro proyecto, aclarando nuestro compromiso con la innovación, la transparencia y el empoderamiento de la comunidad en los paisajes en evolución de la IA y las criptomonedas.',
     },
   ],
 } as const

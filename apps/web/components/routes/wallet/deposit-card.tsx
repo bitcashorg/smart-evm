@@ -19,7 +19,10 @@ import {
 } from '@/components/ui/select'
 import { useSigningRequest } from '@/hooks/use-signing-request'
 import { appConfig } from '@/lib/config'
-import { genBitusdDepositSigningRequest, genUsdtDepositSigningRequest } from '@/lib/eos'
+import {
+  genBitusdDepositSigningRequest,
+  genUsdtDepositSigningRequest,
+} from '@/lib/eos'
 import { cn } from '@/lib/utils'
 import type { EVMTokenContractData } from '@repo/auction'
 import { type EVMToken, tokens } from '@repo/tokens'
@@ -48,7 +51,8 @@ export function DepositCard() {
     if (!address) return toast.error('Make sure your wallet is connected.')
     if (!amount) return toast.error('Amount is undefined')
     const tokenData = tokens.find(
-      (token) => token.symbol === selectedToken && token.chainName === selectedChain,
+      (token) =>
+        token.symbol === selectedToken && token.chainName === selectedChain,
     )
     if (!tokenData) return toast.error('Token data not found')
 
@@ -103,7 +107,7 @@ export function DepositCard() {
 
             <Select onValueChange={setSelectedToken} defaultValue={'USDT'}>
               <SelectTrigger id="token-select">
-                <SelectValue placeholder={`USDT`} />
+                <SelectValue placeholder={'USDT'} />
               </SelectTrigger>
               <SelectContent position="popper">
                 {['USDT', 'USDC'].map((token) => (

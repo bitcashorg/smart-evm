@@ -1,20 +1,23 @@
 {
   "sections": [
     {
-      "name": "入门",
+      "name": "Getting Started",
       "slug": "getting started",
       "articles": [
         {
           "id": "165365457",
-          "topics": ["入门", "支付"],
-          "title": "使用比特币简化在线购物：比特币交易指南",
+          "topics": [
+            "Getting Started",
+            " Payments"
+          ],
+          "title": "Streamlining Online Purchases with Bitcoin: A Guide to Using Bitcoin for Transactions",
           "slug": "streamlining-online-purchases-with-bitcoin-a-guide-to-using-bitcoin-for-transacti",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T06:03:51+01:00",
-          "description": "解锁使用比特币进行在线购物的便利性。在我们的全面指南中，学习如何轻松使用比特币进行安全和无缝的交易。",
+          "description": "Unlock the convenience of online purchases with Bitcoin. Learn how to effortlessly use Bitcoin for secure and seamless transactions in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858962-bb10-img1.png"
           },
@@ -34,15 +37,19 @@
         },
         {
           "id": "165362142",
-          "topics": ["入门", "工作量证明", "挖矿"],
-          "title": "解锁比特币挖矿的力量：工作量证明算法简介",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work",
+            "Mining"
+          ],
+          "title": "Unlocking the Power of Bitcoin Mining: An Introduction to Proof-of-Work Algorithms",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:55:09+01:00",
-          "description": "深入探索比特币挖矿世界和工作量证明算法的迷人概念。探索这种变革性技术的潜力和回报。",
+          "description": "Delve into the world of Bitcoin mining and the fascinating concept of proof-of-work algorithms. Explore the potential and rewards of this transformative technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858321-bb9-img0edited.png"
           },
@@ -62,15 +69,18 @@
         },
         {
           "id": "165340146",
-          "topics": ["入门", "工作量证明"],
-          "title": "比特币的经济安全性：工作量证明如何实现安全可靠的网络",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work"
+          ],
+          "title": "The Economic Security of Bitcoin: How Proof-of-Work Enables a Safe and Secure Network",
           "slug": "the-economic-security-of-bitcoin-how-proof-of-work-enables-a-safe-and-secure-netw",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:53:43+01:00",
-          "description": "探索比特币的经济安全性和工作量证明的力量。了解这项创新技术如何为未来确保安全可靠的网络。",
+          "description": "Discover the economic security of Bitcoin and the power of proof-of-work. Explore how this innovative technology ensures a safe and secure network for the future.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686856982-bb8-img1.png"
           },
@@ -90,15 +100,18 @@
         },
         {
           "id": "165340050",
-          "topics": ["入门", "法律"],
-          "title": "了解比特币的法律和监管环境：理解规则和机遇",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal and Regulatory Landscape of Bitcoin: Understanding the Rules and Opportunities",
           "slug": "navigating-the-legal-and-regulatory-landscape-of-bitcoin-understanding-the-rules",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:52:05+01:00",
-          "description": "通过我们全面的比特币法律和监管环境指南，保持信息灵通和合规。自信地驾驭加密货币的复杂性。",
+          "description": "Stay informed and compliant with our comprehensive guide to the legal and regulatory landscape of Bitcoin. Navigate the complexities of cryptocurrency with confidence.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686855768-bb7-img1edited.png"
           },
@@ -118,15 +131,18 @@
         },
         {
           "id": "165337859",
-          "topics": ["入门", "安全"],
-          "title": "比特币存储的未来:比特币钱包和创新存储解决方案简介",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "The Future of Bitcoin Storage: An Introduction to Bitcoin Wallets and Innovative Storage Solutions",
           "slug": "the-future-of-bitcoin-storage-an-introduction-to-bitcoin-wallets-and-innovative-s",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:50:52+01:00",
-          "description": "探索比特币钱包和创新存储解决方案的世界。通过我们全面的入门指南,学习如何保护和管理您的数字资产。",
+          "description": "Explore the world of Bitcoin wallets and innovative storage solutions. Learn how to secure and manage your digital assets with our comprehensive introductory guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686854653-bb6-img1.png"
           },
@@ -146,15 +162,17 @@
         },
         {
           "id": "165005184",
-          "topics": ["入门指南"],
-          "title": "比特币交易所研究与评估的艺术：投资者指南",
-          "slug": "the-art-of-researching-and-evaluating-bitcoin-exchanges-a-guide-for-contributors",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "The Art of Researching and Evaluating Bitcoin Exchanges: A Guide for Investors",
+          "slug": "the-art-of-researching-and-evaluating-bitcoin-exchanges-a-guide-for-investors",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:50:29+01:00",
-          "description": "揭示研究和评估比特币交易所的秘诀。发现自信投资的重要提示和见解。",
+          "description": "Unlock the secrets of researching and evaluating Bitcoin exchanges. Discover essential tips and insights for confident investing.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686794861-bb5-img1.png"
           },
@@ -174,15 +192,18 @@
         },
         {
           "id": "164973196",
-          "topics": ["入门", "历史"],
-          "title": "比特币的历史和演变",
+          "topics": [
+            "Getting Started",
+            "History"
+          ],
+          "title": "The History and Evolution of Bitcoin",
           "slug": "the-history-and-evolution-of-bitcoin",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:38:06+01:00",
-          "description": "追溯比特币历史和演变的迷人旅程。揭示这项革命性技术的起源、里程碑和变革性影响。",
+          "description": "Trace the captivating journey of Bitcoin's history and evolution. Uncover the origins, milestones, and transformative impact of this groundbreaking technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686789411-bb2-img1edited.png"
           },
@@ -202,15 +223,18 @@
         },
         {
           "id": "165004875",
-          "topics": ["入门", "安全"],
-          "title": "数字时代如何保护你的比特币安全",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "How to Keep Your Bitcoins Safe in the Digital Age",
           "slug": "how-to-keep-your-bitcoins-safe-in-the-digital-age",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:28:36+01:00",
-          "description": "通过我们的专家提示和策略在数字时代保护你的比特币。学习保护你宝贵数字资产的基本技巧。",
+          "description": "Safeguard your Bitcoins in the digital era with our expert tips and strategies. Learn essential techniques to protect your valuable digital assets.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686791711-bb3-img1.png"
           },
@@ -230,15 +254,18 @@
         },
         {
           "id": "165005107",
-          "topics": ["入门", "交易所"],
-          "title": "买卖比特币简易指南",
+          "topics": [
+            "Getting Started",
+            "Exchange"
+          ],
+          "title": "The Simplified Guide to Buying and Selling Bitcoins",
           "slug": "the-simplified-guide-to-buying-and-selling-bitcoins",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:26:26+01:00",
-          "description": "通过我们的简化指南掌握买卖比特币的艺术。学习逐步策略和专家提示。",
+          "description": "Master the art of buying and selling Bitcoin with our simplified guide. Learn step-by-step strategies and expert tips.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686793200-bb4-img1.png"
           },
@@ -258,15 +285,17 @@
         },
         {
           "id": "164904960",
-          "topics": ["入门指南"],
-          "title": "以不同的视角看待比特币：去中心化货币的未来",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "Think Differently About Bitcoin: The Future of Decentralized Currency",
           "slug": "think-differently-about-bitcoin-the-future-of-decentralized-currency",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T04:44:43+01:00",
-          "description": "通过我们引人入胜的博客文章，了解如何以不同的视角看待比特币及其革命性潜力。快来探索吧，不要错过！",
+          "description": "Discover how to think differently about Bitcoin and its revolutionary potential with our captivating blog post. Explore Don't miss out!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686760978-bb1-img1.png"
           },
@@ -287,20 +316,23 @@
       ]
     },
     {
-      "name": "支付",
+      "name": " Payments",
       "slug": " payments",
       "articles": [
         {
           "id": "165365457",
-          "topics": ["入门", "支付"],
-          "title": "使用比特币简化在线购物：比特币交易指南",
+          "topics": [
+            "Getting Started",
+            " Payments"
+          ],
+          "title": "Streamlining Online Purchases with Bitcoin: A Guide to Using Bitcoin for Transactions",
           "slug": "streamlining-online-purchases-with-bitcoin-a-guide-to-using-bitcoin-for-transacti",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T06:03:51+01:00",
-          "description": "解锁使用比特币进行在线购物的便利性。在我们的全面指南中，学习如何轻松使用比特币进行安全和无缝的交易。",
+          "description": "Unlock the convenience of online purchases with Bitcoin. Learn how to effortlessly use Bitcoin for secure and seamless transactions in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858962-bb10-img1.png"
           },
@@ -321,20 +353,24 @@
       ]
     },
     {
-      "name": "工作量证明",
+      "name": "Proof-of-Work",
       "slug": "proof-of-work",
       "articles": [
         {
           "id": "165362142",
-          "topics": ["入门", "工作量证明", "挖矿"],
-          "title": "解锁比特币挖矿的力量：工作量证明算法简介",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work",
+            "Mining"
+          ],
+          "title": "Unlocking the Power of Bitcoin Mining: An Introduction to Proof-of-Work Algorithms",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:55:09+01:00",
-          "description": "深入探索比特币挖矿世界和工作量证明算法的迷人概念。探索这种变革性技术的潜力和回报。",
+          "description": "Delve into the world of Bitcoin mining and the fascinating concept of proof-of-work algorithms. Explore the potential and rewards of this transformative technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858321-bb9-img0edited.png"
           },
@@ -354,15 +390,18 @@
         },
         {
           "id": "165340146",
-          "topics": ["入门", "工作量证明"],
-          "title": "比特币的经济安全性：工作量证明如何实现安全可靠的网络",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work"
+          ],
+          "title": "The Economic Security of Bitcoin: How Proof-of-Work Enables a Safe and Secure Network",
           "slug": "the-economic-security-of-bitcoin-how-proof-of-work-enables-a-safe-and-secure-netw",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:53:43+01:00",
-          "description": "探索比特币的经济安全性和工作量证明的力量。了解这项创新技术如何为未来确保安全可靠的网络。",
+          "description": "Discover the economic security of Bitcoin and the power of proof-of-work. Explore how this innovative technology ensures a safe and secure network for the future.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686856982-bb8-img1.png"
           },
@@ -383,20 +422,24 @@
       ]
     },
     {
-      "name": "挖矿",
+      "name": "Mining",
       "slug": "mining",
       "articles": [
         {
           "id": "165362142",
-          "topics": ["入门", "工作量证明", "挖矿"],
-          "title": "解锁比特币挖矿的力量：工作量证明算法简介",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work",
+            "Mining"
+          ],
+          "title": "Unlocking the Power of Bitcoin Mining: An Introduction to Proof-of-Work Algorithms",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:55:09+01:00",
-          "description": "深入探索比特币挖矿世界和工作量证明算法的迷人概念。探索这种变革性技术的潜力和回报。",
+          "description": "Delve into the world of Bitcoin mining and the fascinating concept of proof-of-work algorithms. Explore the potential and rewards of this transformative technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858321-bb9-img0edited.png"
           },
@@ -417,20 +460,23 @@
       ]
     },
     {
-      "name": "法律",
+      "name": "Legal",
       "slug": "legal",
       "articles": [
         {
           "id": "165340050",
-          "topics": ["入门", "法律"],
-          "title": "了解比特币的法律和监管环境：理解规则和机遇",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal and Regulatory Landscape of Bitcoin: Understanding the Rules and Opportunities",
           "slug": "navigating-the-legal-and-regulatory-landscape-of-bitcoin-understanding-the-rules",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:52:05+01:00",
-          "description": "通过我们全面的比特币法律和监管环境指南，保持信息灵通和合规。自信地驾驭加密货币的复杂性。",
+          "description": "Stay informed and compliant with our comprehensive guide to the legal and regulatory landscape of Bitcoin. Navigate the complexities of cryptocurrency with confidence.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686855768-bb7-img1edited.png"
           },
@@ -451,20 +497,23 @@
       ]
     },
     {
-      "name": "安全",
+      "name": "Security",
       "slug": "security",
       "articles": [
         {
           "id": "165337859",
-          "topics": ["入门", "安全"],
-          "title": "比特币存储的未来:比特币钱包和创新存储解决方案简介",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "The Future of Bitcoin Storage: An Introduction to Bitcoin Wallets and Innovative Storage Solutions",
           "slug": "the-future-of-bitcoin-storage-an-introduction-to-bitcoin-wallets-and-innovative-s",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:50:52+01:00",
-          "description": "探索比特币钱包和创新存储解决方案的世界。通过我们全面的入门指南,学习如何保护和管理您的数字资产。",
+          "description": "Explore the world of Bitcoin wallets and innovative storage solutions. Learn how to secure and manage your digital assets with our comprehensive introductory guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686854653-bb6-img1.png"
           },
@@ -484,15 +533,18 @@
         },
         {
           "id": "165004875",
-          "topics": ["入门", "安全"],
-          "title": "数字时代如何保护你的比特币安全",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "How to Keep Your Bitcoins Safe in the Digital Age",
           "slug": "how-to-keep-your-bitcoins-safe-in-the-digital-age",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:28:36+01:00",
-          "description": "通过我们的专家提示和策略在数字时代保护你的比特币。学习保护你宝贵数字资产的基本技巧。",
+          "description": "Safeguard your Bitcoins in the digital era with our expert tips and strategies. Learn essential techniques to protect your valuable digital assets.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686791711-bb3-img1.png"
           },
@@ -513,20 +565,23 @@
       ]
     },
     {
-      "name": "历史",
+      "name": "History",
       "slug": "history",
       "articles": [
         {
           "id": "164973196",
-          "topics": ["入门", "历史"],
-          "title": "比特币的历史和演变",
+          "topics": [
+            "Getting Started",
+            "History"
+          ],
+          "title": "The History and Evolution of Bitcoin",
           "slug": "the-history-and-evolution-of-bitcoin",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:38:06+01:00",
-          "description": "追溯比特币历史和演变的迷人旅程。揭示这项革命性技术的起源、里程碑和变革性影响。",
+          "description": "Trace the captivating journey of Bitcoin's history and evolution. Uncover the origins, milestones, and transformative impact of this groundbreaking technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686789411-bb2-img1edited.png"
           },
@@ -547,20 +602,23 @@
       ]
     },
     {
-      "name": "交易所",
+      "name": "Exchange",
       "slug": "exchange",
       "articles": [
         {
           "id": "165005107",
-          "topics": ["入门", "交易所"],
-          "title": "买卖比特币简易指南",
+          "topics": [
+            "Getting Started",
+            "Exchange"
+          ],
+          "title": "The Simplified Guide to Buying and Selling Bitcoins",
           "slug": "the-simplified-guide-to-buying-and-selling-bitcoins",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:26:26+01:00",
-          "description": "通过我们的简化指南掌握买卖比特币的艺术。学习逐步策略和专家提示。",
+          "description": "Master the art of buying and selling Bitcoin with our simplified guide. Learn step-by-step strategies and expert tips.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686793200-bb4-img1.png"
           },
@@ -588,8 +646,8 @@
       "title": "Bitcoin | Bitcash Blog",
       "twitterCard": "summary_large_image"
     },
-    "description": "开创数字黄金时代",
-    "title": "比特币",
+    "description": "Pioneering the Digital Gold Era",
+    "title": "Bitcoin",
     "seoType": "bitcoin",
     "id": "178642411",
     "_createdAt": "2023-07-24T18:41:46+01:00"

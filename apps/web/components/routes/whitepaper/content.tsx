@@ -91,7 +91,10 @@ export const WhitepaperContent = ({
               <ul className="list-disc list-inside text-infoForeground space-y-4">
                 <li>
                   <strong>General Support and Inquiries:</strong> Email:{' '}
-                  <a href="mailto:support@bitcash.org" className="text-blue-400">
+                  <a
+                    href="mailto:support@bitcash.org"
+                    className="text-blue-400"
+                  >
                     support@bitcash.org
                   </a>
                 </li>
@@ -103,7 +106,10 @@ export const WhitepaperContent = ({
                 </li>
                 <li>
                   <strong>Developer Support:</strong> Email:{' '}
-                  <a href="mailto:developers@bitcash.org" className="text-blue-400">
+                  <a
+                    href="mailto:developers@bitcash.org"
+                    className="text-blue-400"
+                  >
                     developers@bitcash.org
                   </a>
                 </li>
@@ -112,7 +118,10 @@ export const WhitepaperContent = ({
                   <ul className="list-disc space-y-2 mt-2 ml-8">
                     <li>
                       Twitter:{' '}
-                      <a href="https://twitter.com/bitcashorg" className="text-blue-400">
+                      <a
+                        href="https://twitter.com/bitcashorg"
+                        className="text-blue-400"
+                      >
                         @bitcashorg
                       </a>{' '}
                       /{' '}
@@ -125,13 +134,19 @@ export const WhitepaperContent = ({
                     </li>
                     <li>
                       Blog:{' '}
-                      <a href="https://bitcash.org/blog" className="text-blue-400">
+                      <a
+                        href="https://bitcash.org/blog"
+                        className="text-blue-400"
+                      >
                         https://bitcash.org/blog
                       </a>
                     </li>
                     <li>
                       Discord:{' '}
-                      <a href="https://discord.gg/KuR48XUxnG" className="text-blue-400">
+                      <a
+                        href="https://discord.gg/KuR48XUxnG"
+                        className="text-blue-400"
+                      >
                         https://discord.gg/KuR48XUxnG
                       </a>
                     </li>
@@ -146,7 +161,10 @@ export const WhitepaperContent = ({
                     </li>
                     <li>
                       Telegram:{' '}
-                      <a href="https://t.me/bitcash_org" className="text-blue-400">
+                      <a
+                        href="https://t.me/bitcash_org"
+                        className="text-blue-400"
+                      >
                         https://t.me/bitcash_org
                       </a>
                     </li>

@@ -7,10 +7,11 @@
   "private": true,
   "type": "module",
   "devDependencies": {
-    "@biomejs/biome": "1.8.3",
-    "@types/bn.js": "^5.1.5",
+    "@biomejs/biome": "1.9.4",
+    "@types/bn.js": "^5.1.6",
     "@types/bun": "latest",
-    "turbo": "^2.0.9"
+    "husky": "^9.1.6",
+    "turbo": "^2.2.3"
   },
   "scripts": {
     "build": "turbo build --no-daemon",
@@ -29,16 +30,11 @@
   },
   "packageManager": "bun@1.1.20",
   "workspaces": {
-    "packages": ["apps/*", "packages/*", "services/*", "tooling/*"],
-    "nohoist": [
-      "**/vite",
-      "**/vite/**",
-      "**/cbw-sdk",
-      "**/cbw-sdk/**",
-      "**/wagmi",
-      "**/wagmi/**",
-      "**/pino-pretty",
-      "**/pino-pretty/**"
+    "packages": [
+      "apps/*",
+      "packages/*",
+      "services/*",
+      "tooling/*"
     ]
   }
 }

@@ -2,15 +2,18 @@
   "relatedBlogs": [],
   "blogContent": {
     "id": "198277360",
-    "topics": ["大型语言模型", "RLHF"],
-    "title": "通过优势模型和选择性复习稳定RLHF",
+    "topics": [
+      "LLM",
+      "RLHF"
+    ],
+    "title": "Stabilizing RLHF through Advantage Model and Selective Rehearsal",
     "slug": "stabilizing-rlhf-through-advantage-model-and-selective-rehearsal",
     "authorName": "Prof. Otto Nomos",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
     },
     "_publishedAt": "2024-05-24T05:22:15+01:00",
-    "description": "摘要评论和评分",
+    "description": "Abstract Commentary & Rating",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
     },
@@ -172,7 +175,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Challenges with RLHF"
                             },
                             {
@@ -191,7 +196,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Advantage Model"
                             },
                             {
@@ -210,7 +217,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Selective Rehearsal"
                             },
                             {
@@ -229,7 +238,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Positive Results"
                             },
                             {
@@ -263,7 +274,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Better Alignment with Human Values"
                             },
                             {
@@ -282,7 +295,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Robust LLMs"
                             },
                             {
@@ -301,7 +316,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Broad Applicability"
                             },
                             {
@@ -320,7 +337,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Industry Standard"
                             },
                             {
@@ -354,7 +373,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Implementation"
                             },
                             {
@@ -412,8 +433,8 @@
       }
     ],
     "seo": {
-      "description": "摘要评论和评分",
-      "title": "通过优势模型和选择性复习稳定RLHF",
+      "description": "Abstract Commentary & Rating\n",
+      "title": "Stabilizing RLHF ... Advantage Model & Selective Rehearsal",
       "twitterCard": null,
       "image": {
         "width": 1456,
@@ -424,5 +445,12 @@
       }
     }
   },
-  "topics": ["大语言模型", "基于人类反馈的强化学习"]
+  "topics": [
+    "LLM",
+    "RLHF"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

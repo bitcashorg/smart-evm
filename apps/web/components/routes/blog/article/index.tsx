@@ -31,7 +31,7 @@ export function BlogPage({
   block = blogContent.contentBlock
     .map(({ mainContent }) => {
       return mainContent.value.document.children.filter(
-        ({ type, level }) => (type === 'heading' && level == 2) || level == 3,
+        ({ type, level }) => (type === 'heading' && level === 2) || level === 3,
       )
     })
     .filter((block) => Boolean(block[0]))
@@ -43,7 +43,9 @@ export function BlogPage({
   // console.log(blogContent)
   const title =
     blogContent.title ||
-    blogContent.slug?.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase()) ||
+    blogContent.slug
+      ?.replace(/-/g, ' ')
+      .replace(/\b\w/g, (l) => l.toUpperCase()) ||
     ''
 
   const headingTexts = block
@@ -84,7 +86,9 @@ export function BlogPage({
         </header>
 
         <div className="order-2 mt-2 flex flex-col gap-0 space-y-3 text-sm leading-[0.5] md:mt-5">
-          <span className="font-bold font-futura-pt-heavy">{blogContent.authorName}</span>
+          <span className="font-bold font-futura-pt-heavy">
+            {blogContent.authorName}
+          </span>
           <span className="font-futura-pt-book">
             {new Date(blogContent._publishedAt).toLocaleDateString('en-US', {
               month: 'short',
@@ -109,97 +113,105 @@ export function BlogPage({
             className="flex flex-col w-full md:max-w-[calc(100%-250px)] md:order-1 order-2"
             id="extrat-blog-content"
           >
-            {blogContent?.contentBlock?.map(({ mainContent, topImages }, ind: number) => {
-              // if (ind >= 2) return null
+            {blogContent?.contentBlock?.map(
+              ({ mainContent, topImages }, ind: number) => {
+                // if (ind >= 2) return null
 
-              mainContent.value.document.children =
-                mainContent.value.document.children.map((item) => {
-                  if (item.type !== 'paragraph') return item
+                mainContent.value.document.children =
+                  mainContent.value.document.children.map((item) => {
+                    if (item.type !== 'paragraph') return item
 
-                  const sanitizedChildren = item.children?.map((child) => {
-                    if (child.type !== 'span') return child
-                    if (typeof child.value === 'string') return child
+                    const sanitizedChildren = item.children?.map((child) => {
+                      if (child.type !== 'span') return child
+                      if (typeof child.value === 'string') return child
 
-                    if (Array.isArray(child.value)) {
-                      return {
-                        ...child,
-                        value: (child.value as string[]).join(' '),
+                      if (Array.isArray(child.value)) {
+                        return {
+                          ...child,
+                          value: (child.value as string[]).join(' '),
+                        }
                       }
-                    }
-                    return child
-                  })
-                  return { ...item, children: sanitizedChildren }
-                }) as any
+                      return child
+                    })
+                    return { ...item, children: sanitizedChildren }
+                  }) as any
 
-              // console.log(`================ ${ind} =================`)
-              // console.log(
-              //   JSON.stringify(mainContent.value.document.children)
-              // )
-              return (
-                <div key={mainContent.value.document.level}>
-                  {topImages.map(
-                    (image: { url: string | StaticImport; alt: string }, index) => (
-                      <div
-                        className="relative order-1 my-10 mt-5 flex min-h-[600px] w-full justify-center overflow-hidden text-center align-middle md:order-3"
-                        key={`content-${image}-${index}`}
-                      >
-                        {/* <Image
+                // console.log(`================ ${ind} =================`)
+                // console.log(
+                //   JSON.stringify(mainContent.value.document.children)
+                // )
+                return (
+                  <div key={mainContent.value.document.level}>
+                    {topImages.map(
+                      (
+                        image: { url: string | StaticImport; alt: string },
+                        index,
+                      ) => (
+                        <div
+                          className="relative order-1 my-10 mt-5 flex min-h-[600px] w-full justify-center overflow-hidden text-center align-middle md:order-3"
+                          key={`content-${image}-${index}`}
+                        >
+                          {/* <Image
                             src={image.url}
                             alt={image?.alt || `blog-image-${index}`}
                             layout="fill"
                             objectFit="cover"
                             className="flex self-center m-auto"
                           /> */}
-                        <LazyImage
-                          src={image.url}
-                          alt={image?.alt || `blog-image-${index}`}
-                          fill
-                          className="flex self-center object-cover m-auto"
-                        />
-                      </div>
-                    ),
-                  )}
-                  <div>
-                    {/* { mainContent.value.document.children.values} */}
-                    <StructuredText
-                      data={mainContent as StructuredTextGraphQlResponse}
-                      customNodeRules={[
-                        // Add HTML anchors to heading levels for in-page navigation
-                        renderNodeRule(isHeading, ({ node, children, key }) => {
-                          const HeadingTag = `h${node.level}` as any
-                          const anchor = toPlainText(node)
-                            ?.trim()
-                            .toLowerCase()
-                            .replace(/ /g, '-')
-                            .replace(/[^\w-]+/g, '')
-                            .replace(/-$/, '')
-                          return (
-                            // add types to ref and key props to satisfy React requirements
-                            <HeadingTag
-                              className={cn(
-                                'my-5',
-                                node.level === 1 ? 'heading' : 'heading2',
-                              )}
-                              key={key}
-                              id={anchor}
-                            >
-                              {children}
-                            </HeadingTag>
-                          )
-                        }),
-                        renderNodeRule(isParagraph, ({ children, key }) => {
-                          return (
-                            <p className="mb-10 paragraph" key={key}>
-                              {children}
-                            </p>
-                          )
-                        }),
-                      ]}
-                    />
+                          <LazyImage
+                            src={image.url}
+                            alt={image?.alt || `blog-image-${index}`}
+                            fill
+                            className="flex self-center object-cover m-auto"
+                          />
+                        </div>
+                      ),
+                    )}
+                    <div>
+                      {/* { mainContent.value.document.children.values} */}
+                      <StructuredText
+                        data={mainContent as StructuredTextGraphQlResponse}
+                        customNodeRules={[
+                          // Add HTML anchors to heading levels for in-page navigation
+                          renderNodeRule(
+                            isHeading,
+                            ({ node, children, key }) => {
+                              const HeadingTag = `h${node.level}` as any
+                              const anchor = toPlainText(node)
+                                ?.trim()
+                                .toLowerCase()
+                                .replace(/ /g, '-')
+                                .replace(/[^\w-]+/g, '')
+                                .replace(/-$/, '')
+                              return (
+                                // add types to ref and key props to satisfy React requirements
+                                <HeadingTag
+                                  className={cn(
+                                    'my-5',
+                                    node.level === 1 ? 'heading' : 'heading2',
+                                  )}
+                                  key={key}
+                                  id={anchor}
+                                >
+                                  {children}
+                                </HeadingTag>
+                              )
+                            },
+                          ),
+                          renderNodeRule(isParagraph, ({ children, key }) => {
+                            return (
+                              <p className="mb-10 paragraph" key={key}>
+                                {children}
+                              </p>
+                            )
+                          }),
+                        ]}
+                      />
+                    </div>
                   </div>
-                </div>
-              )
-            })}
+                )
+              },
+            )}
           </div>
 
           <div className="sticky top-[120px] order-1 hidden w-full text-left md:order-2 md:mt-5 md:block md:w-space-250">
@@ -221,7 +233,7 @@ export function BlogPage({
         <section className="mt-space-80 md:max-w-[74rem] w-full md:px-10 mx-auto">
           <div className="flex items-center justify-between text-xl mb-8">
             <span className="font-semibold">/Related stories</span>
-            <Link href={`/blog`}>
+            <Link href={'/blog'}>
               <span>See All Stories &gt;</span>
             </Link>
           </div>

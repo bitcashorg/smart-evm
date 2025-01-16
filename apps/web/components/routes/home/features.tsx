@@ -30,7 +30,9 @@ export function Features({ lang, dict, id }: FeaturesProps) {
               <h3 className="text-3xl font-bold text-left">
                 <Balancer>{content.title}</Balancer>
               </h3>
-              <p className="text-left text-infoForeground">{content.description}</p>
+              <p className="text-left text-infoForeground">
+                {content.description}
+              </p>
             </div>
           </div>
 

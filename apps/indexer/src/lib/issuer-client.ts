@@ -1,5 +1,10 @@
 import { eosEvmTestnet } from '@repo/chains'
-import { http, type WalletClient, createPublicClient, createWalletClient } from 'viem'
+import {
+  http,
+  type WalletClient,
+  createPublicClient,
+  createWalletClient,
+} from 'viem'
 import { appConfig } from '../config'
 
 export const walletClient: WalletClient = createWalletClient({

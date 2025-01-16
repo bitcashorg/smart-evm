@@ -2,15 +2,18 @@
   "relatedBlogs": [],
   "blogContent": {
     "id": "198277253",
-    "topics": ["MLG", "Audio"],
-    "title": "Aumentando el texto para la comprension del lenguaje hablado con Modelos de Lenguaje Grandes",
+    "topics": [
+      "LLM",
+      "Audio"
+    ],
+    "title": "Augmenting text for spoken language understanding with Large Language Models",
     "slug": "augmenting-text-for-spoken-language-understanding-with-large-language-models",
     "authorName": "Prof. Otto Nomos",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
     },
     "_publishedAt": "2024-05-25T03:37:49+01:00",
-    "description": "Comentario y Calificacion del Resumen",
+    "description": "Abstract Commentary & Rating",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
     },
@@ -144,7 +147,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Data Challenges"
                             },
                             {
@@ -163,7 +168,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Utilizing Unpaired Text"
                             },
                             {
@@ -182,7 +189,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Two Approaches"
                             },
                             {
@@ -201,7 +210,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Significant Improvements"
                             },
                             {
@@ -220,7 +231,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Generating Data with LLMs"
                             },
                             {
@@ -254,7 +267,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Cost Efficiency"
                             },
                             {
@@ -273,7 +288,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Domain Expansion"
                             },
                             {
@@ -292,7 +309,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Improved Accuracy"
                             },
                             {
@@ -311,7 +330,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Flexibility"
                             },
                             {
@@ -345,7 +366,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Dependence on LLMs"
                             },
                             {
@@ -403,8 +426,8 @@
       }
     ],
     "seo": {
-      "description": "Comentario y Calificacion del Resumen",
-      "title": "Aumentando el texto para la comprension del lenguaje hablado ...",
+      "description": "Abstract Commentary & Rating\n",
+      "title": "Augmenting text for spoken language understanding ...",
       "twitterCard": null,
       "image": {
         "width": 1456,
@@ -415,5 +438,9 @@
       }
     }
   },
-  "topics": ["LLM", "Audio"]
+  "topics": [
+    "LLM",
+    "Audio"
+  ],
+  "shortLink": ""
 }

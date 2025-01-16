@@ -2,15 +2,18 @@
   "relatedBlogs": [],
   "blogContent": {
     "id": "198277138",
-    "topics": ["大型语言模型", "微调"],
-    "title": "排序LLaMA:通过排序微调(SoFT)释放大型语言模型中间层的动态推理潜力",
+    "topics": [
+      "LLM",
+      "Fine-tuning"
+    ],
+    "title": "Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference Using Sorted Fine-Tuning (SoFT)",
     "slug": "sorted-llama-unlocking-the-potential-of-intermediate-layers-of-large-language-mod",
     "authorName": "Prof. Otto Nomos",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
     },
     "_publishedAt": "2024-05-27T03:33:31+01:00",
-    "description": "摘要评论和评分",
+    "description": "Abstract Commentary & Rating",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
     },
@@ -210,7 +213,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Efficiency Problem"
                             },
                             {
@@ -229,7 +234,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "SortedNet Adaptation"
                             },
                             {
@@ -248,7 +255,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "SoFT Over SFT"
                             },
                             {
@@ -267,7 +276,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Potential of Intermediate Layers"
                             },
                             {
@@ -286,7 +297,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Performance Gains"
                             },
                             {
@@ -320,7 +333,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Cost-Effective Deployment"
                             },
                             {
@@ -339,7 +354,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Real-time Applications"
                             },
                             {
@@ -358,7 +375,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Storage and Transition Benefits"
                             },
                             {
@@ -377,7 +396,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Customization"
                             },
                             {
@@ -396,7 +417,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Broad Applicability"
                             },
                             {
@@ -430,7 +453,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Adoption Time"
                             },
                             {
@@ -449,7 +474,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Domain-Specific Challenges"
                             },
                             {
@@ -507,8 +534,8 @@
       }
     ],
     "seo": {
-      "description": "摘要评论和评分",
-      "title": "排序LLaMA:通过排序微调(SoFT)释放大型语言模型中间层的动态推理潜力",
+      "description": "Abstract Commentary & Rating\n",
+      "title": "Sorted LLaMA: ... Inference Using Sorted Fine-Tuning (SoFT)",
       "twitterCard": null,
       "image": {
         "width": 1456,
@@ -519,5 +546,12 @@
       }
     }
   },
-  "topics": ["大语言模型", "微调"]
+  "topics": [
+    "LLM",
+    "Fine-tuning"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

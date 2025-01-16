@@ -1,20 +1,22 @@
 {
   "sections": [
     {
-      "name": "Ung dung",
+      "name": "Apps",
       "slug": "apps",
       "articles": [
         {
           "id": "SpdLuuYEQgW8rwSHNzhmxA",
-          "topics": ["Ung dung"],
-          "title": "Masterbots: Nang cao AI vuot qua ChatGPT voi tinh nang chia se xa hoi va doi moi than thien voi nguoi dung",
+          "topics": [
+            "Apps"
+          ],
+          "title": "Masterbots: Elevating AI Beyond ChatGPT with Social Sharing and User-Friendly Innovation",
           "slug": "masterbots-elevating-ai-beyond-chatgpt-with-social-sharing-and-user-friendly-inno",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-06-22T16:00:40+01:00",
-          "description": "Bai viet gioi thieu Masterbots, mot nen tang cach mang hoa tuong tac AI voi cac chatbot linh vuc cu the than thien voi nguoi dung va tinh nang chia se xa hoi doc dao, moi cac cong tac vien tham gia phat trien ma nguon mo, dua vao cong dong.",
+          "description": "The blog introduces Masterbots, a platform revolutionizing AI interaction with user-friendly, domain-specific chatbots and a unique social sharing feature, inviting collaborators to join its open-source, community-driven development.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1712270604-screenshot-2024-04-04-at-3-43-11-pm.png"
           },
@@ -35,20 +37,24 @@
       ]
     },
     {
-      "name": "Tom tat",
+      "name": "Summary",
       "slug": "summary",
       "articles": [
         {
           "id": "190259319",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Dao tao"],
-          "title": "Podcast Khong gian an 16/8/23 [Tom tat] - Toan hoc trong viec dao tao cac mo hinh ngon ngu lon — voi Quentin Anthony tu Eleuther AI",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Training"
+          ],
+          "title": "Latent Space Podcast 8/16/23 [Summary] - The Mathematics of Training LLMs — with Quentin Anthony of Eleuther AI",
           "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:19:45+01:00",
-          "description": "Tim hieu ve toan hoc dang sau viec dao tao cac mo hinh ngon ngu lon voi Quentin Anthony tu Eleuther AI. Di sau vao bai viet Toan hoc Transformers 101 va lam chu cac ky thuat dao tao phan tan de dat hieu suat GPU toi uu.",
+          "description": "Explore the math behind training LLMs with Quentin Anthony from Eleuther AI. Dive into the Transformers Math 101 article & master distributed training techniques for peak GPU performance.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692324088-screenshot-2023-08-17-at-9-59-17-pm.png"
           },
@@ -68,15 +74,20 @@
         },
         {
           "id": "190259129",
-          "topics": ["LLM", "Phan cung", "Tom tat", "Bien", "Canh"],
-          "title": "Podcast Khong gian an 8/10/23 [Tom tat]: LLM o khap moi noi: Chay mo hinh 70B tren trinh duyet va iPhone bang MLC - voi Tianqi Chen tu CMU / OctoML",
+          "topics": [
+            "LLM",
+            "Hardware",
+            "Summary",
+            "Edge"
+          ],
+          "title": "Latent Space Podcast 8/10/23 [Summary]: LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:18:37+01:00",
-          "description": "Kham pha su ky dieu cua MLC voi Tianqi Chen: trien khai mo hinh 70B tren trinh duyet va iPhone. Tim hieu ve XGBoost, su ra doi cua TVM, va tuong lai cua viec trien khai AI pho bien.",
+          "description": "Explore the magic of MLC with Tianqi Chen: deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
           },
@@ -97,20 +108,20 @@
         {
           "id": "190259087",
           "topics": [
-            "Tom tat",
-            "Mo hinh ngon ngu lon",
-            "Ma nguon",
-            "Ma nguon mo",
-            "Mo hinh nho"
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
           ],
-          "title": "Podcast Latent Space 8/4/23 [Tom tat] Chuong trinh cheo giua Latent Space va AI Breakdown!",
+          "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:16:33+01:00",
-          "description": "Tham gia AI Breakdown & Latent Space de tong ket cong nghe AI mua he: Tim hieu ve GPT4.5, Llama 2, cac cong cu AI, su noi len cua ky su AI, va nhieu hon nua!",
+          "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
           },
@@ -130,15 +141,20 @@
         },
         {
           "id": "190259111",
-          "topics": ["Tom tat", "Bien doi", "Dao tao", "Ma nguon mo"],
-          "title": "Podcast Khong gian an 26/7/23 [Tom tat] FlashAttention 2: lam cho Transformers nhanh hon 800% - Tri Dao cua Together AI",
+          "topics": [
+            "Summary",
+            "Transformers",
+            "Training",
+            "Open Source"
+          ],
+          "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:14:13+01:00",
-          "description": "Kham pha cach FlashAttention cach mang hoa toc do AI voi Tri Dao, khi anh ay tiet lo suc manh cua FlashAttention 2, di sau vao Phong thi nghiem Hazy cua Stanford va nhung hieu biet ve AI trong tuong lai.",
+          "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2, dives into Stanford's Hazy Lab & future AI insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
           },
@@ -158,15 +174,20 @@
         },
         {
           "id": "190259172",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Ma nguon mo", "Mo hinh nho"],
-          "title": "Podcast Khong gian an 19/7/23 [Tom tat] - Llama 2: Mo hinh ngon ngu lon ma nguon mo moi nhat (voi Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog va nhung nguoi khac)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
           "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:12:38+01:00",
-          "description": "Kham pha Llama 2, dot pha AI moi nhat cung cac chuyen gia Nathan Lambert, Matt Bornstein va nhieu nguoi khac. Tim hieu sau ve bo du lieu, tieu chuan danh gia va du doan AI. Thong tin sau sac ve Llama va nhung chuyen hau truong dang cho ban trong podcast hang dau nay!",
+          "description": "Explore Llama 2, the latest AI breakthrough with experts Nathan Lambert, Matt Bornstein & more. Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
           },
@@ -186,15 +207,19 @@
         },
         {
           "id": "190259191",
-          "topics": ["Tom tat", "Ma", "LLM"],
-          "title": "Podcast Khong gian an 7/10/23 [Tom tat] - Trinh dich ma == GPT 4.5 (voi Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, va nhung nguoi khac)",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM"
+          ],
+          "title": "Latent Space Podcast 7/10/23 [Summary] - Code Interpreter == GPT 4.5 (w/ Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, et al.)",
           "slug": "latent-space-podcast-7-10-23-summary-code-interpreter-gpt-4-5-w-simon-willison-al",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:09:26+01:00",
-          "description": "Kham pha Trinh dich ma cua ChatGPT: mot buoc dot pha trong AI. Tim hieu ve kha nang vuot troi gap 1000 lan cung Simon, Alex va cac chuyen gia AI hang dau. #SuyluanTangcuongBangMa #GPT4_5",
+          "description": "Explore ChatGPT's Code Interpreter: a game-changer in AI. Dive into its 1000x capabilities leap with Simon, Alex & top AI experts. #CodeAugmentedInference #GPT4_5",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692048911-screenshot-2023-08-14-at-3-34-05-pm.png"
           },
@@ -214,15 +239,18 @@
         },
         {
           "id": "190259216",
-          "topics": ["Tom tat", "Ma nguon mo"],
-          "title": "Podcast Khong gian tiem an 7/2/23 [Tom tat] Xu huong AI: mot tap crossover giua Khong gian tiem an va AI Thuc te!",
+          "topics": [
+            "Summary",
+            "Open Source"
+          ],
+          "title": "Latent Space Podcast 7/2/23 [Summary] AI Trends: a Latent Space x Practical AI crossover pod!",
           "slug": "latent-space-podcast-7-2-23-summary-ai-trends-a-latent-space-x-practical-ai-cross",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:08:36+01:00",
-          "description": "Kham pha su ket hop giua AI Thuc te va Khong gian tiem an khi ho di sau vao cac xu huong AI hang dau nam 2023, suy ngam ve cac tap noi bat va chia se nhung hieu biet ve viec dinh huong su tien hoa cua AI.",
+          "description": "Explore the fusion of Practical AI & Latent Space as they delve into 2023's top AI trends, reflect on standout episodes, and share insights on navigating the AI evolution.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692146916-screenshot-2023-08-15-at-5-20-38-pm.png"
           },
@@ -242,15 +270,19 @@
         },
         {
           "id": "190259238",
-          "topics": ["Phan cung", "Mo hinh ngon ngu lon", "Tom tat"],
-          "title": "Podcast Khong gian an 20/6/23 [Tom tat] - Thuong mai hoa Petaflop - voi George Hotz cua tiny corp",
+          "topics": [
+            "Hardware",
+            "LLM",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 6/20/23 [Summary] - Commoditizing the Petaflop — with George Hotz of the tiny corp",
           "slug": "latent-space-podcast-6-20-23-summary-commoditizing-the-petaflop-with-george-ho",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:07:15+01:00",
-          "description": "George Hotz cua tiny corp thach thuc Nvidia & Google! Tim hieu ve hop tac voi AMD, thong tin ve ggml, Mojo, Elon & GPT-4, cung mot cai nhin ve Ban gai AI.",
+          "description": "George Hotz of tiny corp challenges Nvidia & Google! Dive into the world of AMD collaborations, insights on ggml, Mojo, Elon & GPT-4, plus a peek into AI Girlfriend. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692154615-screenshot-2023-08-15-at-10-55-40-pm.png"
           },
@@ -270,15 +302,19 @@
         },
         {
           "id": "190259294",
-          "topics": ["Mo hinh ngon ngu lon", "Cac chuc nang", "Tom tat"],
-          "title": "Podcast Khong gian an 14/6/23 [Tom tat] - Tap khan cap: API Chuc nang moi cua OpenAI, giam gia 75%, tang do dai ngu canh len 4 lan (voi Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin va nhung nguoi khac)",
+          "topics": [
+            "LLM",
+            "Functions",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 6/14/23 [Summary] - Emergency Pod: OpenAI's new Functions API, 75% Price Drop, 4x Context Length (w/ Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin et al)",
           "slug": "latent-space-podcast-6-14-23-summary-emergency-pod-openai-s-new-functions-api-75",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:05:04+01:00",
-          "description": "Kham pha cac cap nhat thang 6 nam 2023 cua OpenAI voi cac ky su AI hang dau tu Scale, Microsoft, Pinecone va Huggingface. Tim hieu sau ve cac mo hinh Ma x LLM va kham pha Tac nhan Chuc nang De quy.",
+          "description": "Explore the June 2023 OpenAI updates with top AI engineers from Scale, Microsoft, Pinecone, & Huggingface. Dive into the Code x LLM paradigms and discover Recursive Function Agents.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692221668-screenshot-2023-08-16-at-5-32-29-pm.png"
           },
@@ -298,15 +334,19 @@
         },
         {
           "id": "190259333",
-          "topics": ["LLM", "Tom tat", "UX"],
-          "title": "Podcast Khong gian tiem an 6/8/23 [Tom tat] - Tu RLHF den RLHB: Ly do cho viec Hoc tu Hanh vi cua Con nguoi - voi Jeffrey Wang va Joe Reeve cua Amplitude",
+          "topics": [
+            "LLM",
+            "Summary",
+            "UX"
+          ],
+          "title": "Latent Space Podcast 6/8/23 [Summary] - From RLHF to RLHB: The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude",
           "slug": "latent-space-podcast-6-8-23-summary-from-rlhf-to-rlhb-the-case-for-learning-from",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:02:33+01:00",
-          "description": "Kham pha AI & phan tich voi Jeffrey Wang & Joe Reeve tren Latent Space Live! Tim hieu tai sao AI danh gia cao Phan tich va suc manh cua du lieu hanh vi nguon goc.",
+          "description": "Explore AI & analytics with Jeffrey Wang & Joe Reeve on Latent Space Live! Dive into why AI values Analytics and the power of first-party behavioral data. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692386432-screenshot-2023-08-18-at-3-17-04-pm.png"
           },
@@ -326,15 +366,19 @@
         },
         {
           "id": "190260528",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Trai nghiem nguoi dung"],
-          "title": "Podcast Khong gian an 6/1/23 [Tom tat] - Xay dung Scenius AI × UX — voi Linus Lee tu Notion AI",
+          "topics": [
+            "Summary",
+            "LLM",
+            "UX"
+          ],
+          "title": "Latent Space Podcast 6/1/23 [Summary] - Building the AI × UX Scenius — with Linus Lee of Notion AI",
           "slug": "latent-space-podcast-6-1-23-summary-building-the-ai-x-ux-scenius-with-linus-le",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:00:12+01:00",
-          "description": "Kham pha cach tiep can bien doi cua Notion AI doi voi AI va UX. Tim hieu tuong lai cua khong gian lam viec duoc tang cuong boi AI, gia tri vuot qua giao dien tro chuyen, va nhung hieu biet ve cong viec tri thuc hieu qua. Bao gom tom tat buoi gap mat AI×UX NYC!",
+          "description": "Explore Notion AI's transformative approach to AI and UX. Dive into the future of AI-augmented workspaces, the value beyond chat interfaces, and insights on effective knowledge work. Recap of AI×UX NYC meetup included!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692390655-screenshot-2023-08-18-at-4-28-51-pm.png"
           },
@@ -354,15 +398,20 @@
         },
         {
           "id": "190260557",
-          "topics": ["Tom tat", "Ma", "LLM", "Tac nhan"],
-          "title": "Podcast Khong gian an 25/5/23 [Tom tat] - Go loi Internet voi tac nhan AI - cung Itamar Friedman tu Codium AI va AutoGPT",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM",
+            "Agents"
+          ],
+          "title": "Latent Space Podcast 5/25/23 [Summary] - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
           "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:58:27+01:00",
-          "description": "Kham pha tuong lai cua AI voi Itamar Friedman tu Codium AI trong 'Go loi Internet'. Tim hieu ve cac tac nhan 'DRY cuc doan', dong bo nhanh giua thong so ky thuat va kiem thu, va su can bang giua ma va kiem thu. Ngoai ra, nhung hieu biet tu Toran va mot cai nhin doc quyen ve lo trinh cua AutoGPT!",
+          "description": "Explore the future of AI with Itamar Friedman from Codium AI on 'Debugging the Internet'. Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. Plus, insights from Toran & an exclusive look at AutoGPT's roadmap!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
           },
@@ -382,15 +431,19 @@
         },
         {
           "id": "190260640",
-          "topics": ["Tom tat", "Ma nguon mo", "Mo hinh ngon ngu lon"],
-          "title": "Podcast Khong gian an 5/5/23 [Tom tat] - Khong co ho: AI dong nhan duoc cuoc goi thuc tinh tu Ma nguon mo — voi Simon Willison",
+          "topics": [
+            "Summary",
+            "Open Source",
+            "LLM"
+          ],
+          "title": "Latent Space Podcast 5/5/23 [Summary] - No Moat: Closed AI gets its Open Source wakeup call — ft. Simon Willison",
           "slug": "latent-space-podcast-5-5-23-summary-no-moat-closed-ai-gets-its-open-source-wakeup",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:49:18+01:00",
-          "description": "Kham pha 'Khong co ho: Su thuc tinh Ma nguon mo cua AI dong' cung Simon Willison. Di sau vao nhung hieu biet tu ban ghi nho ro ri ve Ho cua Google, Su thoat chay cua Google Brain, va su tang toc cua Python voi Mojo.",
+          "description": "Explore 'No Moat: Closed AI's Open Source Awakening' with Simon Willison. Dive into leaked Google Moat memo insights, Google Brain Drain, and Python's speed boost with Mojo.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692566921-screenshot-2023-08-20-at-5-25-53-pm.png"
           },
@@ -410,15 +463,19 @@
         },
         {
           "id": "190260671",
-          "topics": ["LLM", "Ma", "Tom tat"],
-          "title": "Podcast Khong gian an 5/3/23 [Tom tat] - Dao tao mot LLM Ma hang dau trong 1 tuan va Dinh luong Cam xuc - voi Reza Shabani cua Replit",
+          "topics": [
+            "LLM",
+            "Code",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 5/3/23 [Summary] - Training a SOTA Code LLM in 1 week and Quantifying the Vibes — with Reza Shabani of Replit",
           "slug": "latent-space-podcast-5-3-23-summary-training-a-sota-code-llm-in-1-week-and-quanti",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:46:08+01:00",
-          "description": "Tap 10 voi Reza Shabani: Di sau vao viec dao tao nhanh chong mot LLM Ma tien tien nhat, kham pha tuong lai cua Replit Ghostwriter, va hanh trinh tu Tai chinh den AI. Kham pha su chuyen doi tu Kaplan sang Chinchilla va nhieu hon nua!",
+          "description": "Ep. 10 with Reza Shabani: Dive deep into the rapid training of a state-of-the-art Code LLM, explore Replit Ghostwriter's future, and journey from Finance to AI. Discover the transition from Kaplan to Chinchilla and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692584998-screenshot-2023-08-20-at-10-17-26-pm.png"
           },
@@ -438,15 +495,19 @@
         },
         {
           "id": "190629271",
-          "topics": ["LLM", "Mo hinh nho", "Tom tat"],
-          "title": "Podcast Khong gian an 28/4/23 [Tom tat] - Lap ban do tuong lai cua cac Mo hinh *thuc su* Mo va Huan luyen Dolly voi gia 30 do - cung Mike Conover cua Databricks",
+          "topics": [
+            "LLM",
+            "Small Models",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 4/28/23 [Summary] - Mapping the future of *truly* Open Models and Training Dolly for $30 — with Mike Conover of Databricks",
           "slug": "latent-space-podcast-4-28-23-summary-mapping-the-future-of-truly-open-models-and",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:33:12+01:00",
-          "description": "Kham pha tuong lai cua cac mo hinh mo voi Mike Conover cua Databricks. Di sau vao qua trinh tao ra Dolly, su chuyen doi tu 1.0 sang 2.0 va nhung anh huong dang sau su phat trien cua no. Tap 9 de cap den co so ha tang mo hinh, tam nhin cua Databricks va nhieu hon nua. #AI #MoHinhMo #Dolly",
+          "description": "Explore the future of open models with Mike Conover of Databricks. Dive deep into Dolly's creation, its transition from 1.0 to 2.0, & the influences behind its development. Ep.9 touches on model infrastructure, Databricks' vision, & more. #AI #OpenModels #Dolly",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694038707-screenshot-2023-09-06-at-3-12-24-pm.png"
           },
@@ -466,15 +527,19 @@
         },
         {
           "id": "191164291",
-          "topics": ["LLM", "Doanh nghiep", "Tom tat"],
-          "title": "Podcast Latent Space 21/4/23 [Tom tat] - Tim kiem ho tro boi AI cho Doanh nghiep — voi Deedy Das tu Glean",
+          "topics": [
+            "LLM",
+            "Enterprise",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 4/21/23 [Summary] - AI-powered Search for the Enterprise — with Deedy Das of Glean",
           "slug": "latent-space-podcast-4-21-23-summary-ai-powered-search-for-the-enterprise-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:31:31+01:00",
-          "description": "Tap 8: Tim hieu ve AI trong tim kiem doanh nghiep voi Deedy Das tu Glean. Giai quyet thach thuc trong viec tao ra mot ga khong lo tim kiem AI, so sanh Google voi ChatGPT, su phuc tap cua co so ha tang AI, phat hien van ban do AI tao ra, va tai sao doanh nghiep can nhieu hon chi la Hoi dap Tai lieu.",
+          "description": "Ep.8: Dive into AI in enterprise search with Deedy Das of Glean. Unpack challenges in creating an AI search giant, Google vs ChatGPT comparisons, AI infrastructure intricacies, spotting AI-generated text, and why businesses need more than just Document QA.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694134074-screenshot-2023-09-07-at-5-43-48-pm.png"
           },
@@ -494,15 +559,18 @@
         },
         {
           "id": "191165673",
-          "topics": ["Tom tat", "Thi giac"],
-          "title": "Podcast Khong gian an 13/4/23 [Tom tat] - Mo hinh Phan doan Bat ky va Nhung Van de Kho cua Thi giac May tinh — voi Joseph Nelson tu Roboflow",
+          "topics": [
+            "Summary",
+            "Vision"
+          ],
+          "title": "Latent Space Podcast 4/13/23 [Summary] - Segment Anything Model and the Hard Problems of Computer Vision — with Joseph Nelson of Roboflow",
           "slug": "latent-space-podcast-4-13-23-summary-segment-anything-model-and-the-hard-problems",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:30:03+01:00",
-          "description": "Kham pha Tap 7 voi Joseph Nelson ve Mo hinh Phan doan Bat ky cua Meta. Di sau vao tuong lai cua Thi giac May tinh, tam quan trong cua OCR, Phan doan Hinh anh, va hon the nua. #Roboflow #AI",
+          "description": "Explore Ep.7 with Joseph Nelson on the Segment Anything Model by Meta. Dive deep into Computer Vision's future, the significance of OCR, Image Segmentation, and beyond. #Roboflow #AI",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694150379-screenshot-2023-09-07-at-10-15-52-pm.png"
           },
@@ -522,15 +590,19 @@
         },
         {
           "id": "191165920",
-          "topics": ["Mo hinh ngon ngu lon", "Tom tat", "Danh gia"],
-          "title": "Podcast Khong gian an 4/6/23 [Tom tat] - Co so AI: Co ban ve tieu chuan danh gia",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Evaluation"
+          ],
+          "title": "Latent Space Podcast 4/6/23 [Summary] - AI Fundamentals: Benchmarks 101",
           "slug": "latent-space-podcast-4-6-23-summary-ai-fundamentals-benchmarks-101",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:05:35+01:00",
-          "description": "Kham pha co so AI trong 'Co ban ve tieu chuan danh gia.' Tim hieu lich su danh gia mo hinh ngon ngu lon va kham pha nhung chi tiet phuc tap dinh hinh su tien bo cua hoc may.",
+          "description": "Explore AI Fundamentals in 'Benchmarks 101.' Dive into the history of LLM Benchmarking and uncover the intricacies that shape machine learning's progress.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694154964-screenshot-2023-09-07-at-11-33-20-pm.png"
           },
@@ -550,15 +622,18 @@
         },
         {
           "id": "191301444",
-          "topics": ["Tom tat", "LLMOps"],
-          "title": "Podcast Khong gian an 4/6/23 [Tom tat] - Nghien cuu thuc te: Tu Google Brain den MLOps den LLMOps — voi Shreya Shankar cua UC Berkeley",
+          "topics": [
+            "Summary",
+            "LLMOps"
+          ],
+          "title": "Latent Space Podcast 4/6/23 [Summary] - Grounded Research: From Google Brain to MLOps to LLMOps — with Shreya Shankar of UC Berkeley",
           "slug": "latent-space-podcast-4-6-23-summary-grounded-research-from-google-brain-to-mlops",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:04:09+01:00",
-          "description": "Kham pha su phat trien cua MLOps voi Shreya Shankar tu Google Brain den UC Berkeley. Tim hieu ve viec ket noi phat trien va san xuat, hieu mo hinh ML nhu cac goc nhin co so du lieu doc dao. #ML #NghienCuu",
+          "description": "Explore the evolution of MLOps with Shreya Shankar from Google Brain to UC Berkeley. Dive into bridging development & production, understanding ML models as unique database views. #ML #Research",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694196657-screenshot-2023-09-08-at-11-08-10-am.png"
           },
@@ -578,15 +653,19 @@
         },
         {
           "id": "191310297",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Cong cu"],
-          "title": "Podcast Khong gian an 23/3/23 [Tom tat] - Tap khan cap: Thoi diem App Store cua ChatGPT (voi Logan Kilpatrick cua OpenAI, Florent Crivello cua LindyAI va Nader Dabit)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Tools"
+          ],
+          "title": "Latent Space Podcast 3/23/23 [Summary] - Emergency Pod: ChatGPT's App Store Moment (w/ OpenAI's Logan Kilpatrick, LindyAI's Florent Crivello and Nader Dabit)",
           "slug": "latent-space-podcast-3-23-23-summary-emergency-pod-chatgpt-s-app-store-moment-w-o",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:02:01+01:00",
-          "description": "Kham pha tap 4 cua podcast khi cac chuyen gia tu OpenAI & LindyAI di sau vao Plugins ChatGPT. Tim hieu cac truong hop su dung, chien luoc kiem tien va tuong lai cua tich hop AI. #ChatGPT #AIPlugins",
+          "description": "Explore Ep.4 of the podcast as experts from OpenAI & LindyAI delve into ChatGPT Plugins. Discover use cases, monetization strategies & the future of AI integration. #ChatGPT #AIPlugins",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694201898-screenshot-2023-09-08-at-12-31-46-pm.png"
           },
@@ -606,15 +685,19 @@
         },
         {
           "id": "191313297",
-          "topics": ["LLM", "Tom tat", "Ma nguon"],
-          "title": "Podcast Khong gian an 3/2/23 [Tom tat] - AI re hon 97%, nhanh hon, tot hon, chinh xac hon — voi Varun Mohan cua Codeium Podcast Khong gian an Tap 2: Tai sao ban dang su dung GPU sai cach",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Code"
+          ],
+          "title": "Latent Space Podcast 3/2/23 [Summary] - 97% Cheaper, Faster, Better, Correct AI — with Varun Mohan of Codeium Latent Space Podcast Ep. 2: Why you are holding your GPUs wrong",
           "slug": "latent-space-podcast-3-2-23-summary-97-cheaper-faster-better-correct-ai-with-v",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:59:56+01:00",
-          "description": "Mo khoa hieu qua AI voi Varun Mohan cua Codeium khi anh ay tiet lo cac phuong phap re hon va nhanh hon 97%. Tim hieu sau hon trong Podcast Khong gian an Tap 2 de toi uu hoa viec su dung GPU cua ban!",
+          "description": "Unlock AI efficiency with Varun Mohan of Codeium as he reveals methods that are 97% cheaper & faster. Dive into Latent Space Podcast Ep. 2 to optimize your GPU usage!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694211494-screenshot-2023-09-08-at-3-05-12-pm.png"
           },
@@ -634,15 +717,18 @@
         },
         {
           "id": "191313319",
-          "topics": ["LLM", "Tom tat"],
-          "title": "Podcast Khong gian tiem an 2/23 [Tom tat] - ChatGPT, su on ao ve GPT4, va Xay dung san pham thuan LLM — voi Logan Kilpatrick cua OpenAI",
+          "topics": [
+            "LLM",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 2/23 [Summary] - ChatGPT, GPT4 hype, and Building LLM-native products — with Logan Kilpatrick of OpenAI",
           "slug": "latent-space-podcast-2-23-summary-chatgpt-gpt4-hype-and-building-llm-native-produ",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:48:48+01:00",
-          "description": "Kham pha ChatGPT, su on ao xung quanh GPT4, va tao ra cac san pham thuan LLM voi Logan Kilpatrick cua OpenAI. Tim hieu tuong lai cua AI tren Tap 1 cua Podcast Khong gian tiem an!",
+          "description": "Explore ChatGPT, the buzz around GPT4, & creating LLM-native products with Logan Kilpatrick of OpenAI. Dive into AI's future on Latent Space Podcast Ep. 1!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694214561-screenshot-2023-09-08-at-3-49-03-pm.png"
           },
@@ -662,15 +748,18 @@
         },
         {
           "id": "190258948",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon"],
-          "title": "Mo hinh ngon ngu lon, duoc giai thich voi toi thieu toan hoc va thuat ngu chuyen mon [Tom tat]",
+          "topics": [
+            "Summary",
+            "LLM"
+          ],
+          "title": "Large language models, explained with a minimum of math and jargon [Summary]",
           "slug": "large-language-models-explained-with-a-minimum-of-math-and-jargon-eli5-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:40:32+01:00",
-          "description": "Kham pha suc manh cua cac mo hinh ngon ngu AI nhu GPT-3 & GPT-4, hieu suat an tuong cua chung, va khai niem 'ly thuyet tam tri' trong AI.",
+          "description": "Explore the power of AI language models like GPT-3 & GPT-4, their impressive performance, and the concept of 'theory of mind' in AI.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690601993-abr3-img1.png"
           },
@@ -690,15 +779,18 @@
         },
         {
           "id": "190258977",
-          "topics": ["Tom tat", "Bien ap"],
-          "title": "So do Bien ap: Huong dan toan dien ve Kien truc Mang neron Bien ap [Tom tat]",
+          "topics": [
+            "Summary",
+            "Transformers"
+          ],
+          "title": "The Transformer Blueprint: A Holistic Guide to the Transformer Neural Network Architecture [Summary]",
           "slug": "the-transformer-blueprint-a-holistic-guide-to-the-transformer-neural-network-arch",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:39:30+01:00",
-          "description": "Kham pha 'So do Bien ap' - mot huong dan toan dien de hieu va ap dung suc manh bien doi cua Kien truc Mang neron Bien ap.",
+          "description": "Explore 'The Transformer Blueprint' - an all-inclusive guide to understanding and applying the transformative power of the Transformer Neural Network Architecture.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690679303-abr4-img1.png"
           },
@@ -718,15 +810,19 @@
         },
         {
           "id": "190259003",
-          "topics": ["LLM", "Tom tat", "Cong nghiep"],
-          "title": "McKinsey: Tiem nang kinh te cua AI tao sinh [Tom tat]",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Industry"
+          ],
+          "title": "McKinsey: The economic potential of generative AI [Summary]",
           "slug": "mckinsey-the-economic-potential-of-generative-ai-eli5-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:28:52+01:00",
-          "description": "Kham pha nghien cuu cua McKinsey ve suc manh bien doi cua AI tao sinh, tiem nang kinh te cua no, va tac dong cua no doi voi cong viec va nang suat trong tuong lai.",
+          "description": "Explore McKinsey's research on the transformative power of generative AI, its economic potential, and its impact on future work and productivity.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690754998-ab5-img1.png"
           },
@@ -746,15 +842,18 @@
         },
         {
           "id": "190259043",
-          "topics": ["LLM", "Tom tat"],
-          "title": "Google \"Chung toi khong co loi the, va OpenAI cung vay\" [Binh luan]",
+          "topics": [
+            "LLM",
+            "Summary"
+          ],
+          "title": "Google \"We Have No Moat, And Neither Does OpenAI\" [Commentary]",
           "slug": "google-we-have-no-moat-and-neither-does-openai-commentary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:27:10+01:00",
-          "description": "Kham pha ban ghi nho bi ro ri cua Google va su tien hoa nhanh chong cua AI ma nguon mo trong bai viet blog moi nhat cua chung toi, theo doi tac dong mang tinh dot pha cua LLaMA va su dan chu hoa cua cac Mo hinh Ngon ngu Lon.",
+          "description": "Explore Google's leaked memo and rapid evolution of open-source AI in our latest blog, tracking the groundbreaking impact of LLaMA and the democratization of Large Language Models.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690832197-abc1-img1.png"
           },
@@ -774,15 +873,18 @@
         },
         {
           "id": "190259067",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon"],
-          "title": "Tinh trang cua GPT - Andrej Karpathy [Tom tat]",
+          "topics": [
+            "Summary",
+            "LLM"
+          ],
+          "title": "State of GPT - Andrej Karpathy [Summary]",
           "slug": "state-of-gpt-andrej-karpathy-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:24:13+01:00",
-          "description": "Tim hieu sau hon ve nhung hieu biet cua Andrej Karpathy ve su phat trien cua GPT, kha nang hoc tap manh me, su sup do che do, su dung cong cu va cac khuyen nghi quan trong. #AI #GPT #OpenAI",
+          "description": "Dive into Andrej Karpathy's insights on GPT's development, powerful learning, mode collapse, tool usage, and key recommendations. #AI #GPT #OpenAI",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691029364-abvs1-img1.png"
           },
@@ -803,20 +905,24 @@
       ]
     },
     {
-      "name": "Mo hinh ngon ngu lon",
+      "name": "LLM",
       "slug": "llm",
       "articles": [
         {
           "id": "190259319",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Dao tao"],
-          "title": "Podcast Khong gian an 16/8/23 [Tom tat] - Toan hoc trong viec dao tao cac mo hinh ngon ngu lon — voi Quentin Anthony tu Eleuther AI",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Training"
+          ],
+          "title": "Latent Space Podcast 8/16/23 [Summary] - The Mathematics of Training LLMs — with Quentin Anthony of Eleuther AI",
           "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:19:45+01:00",
-          "description": "Tim hieu ve toan hoc dang sau viec dao tao cac mo hinh ngon ngu lon voi Quentin Anthony tu Eleuther AI. Di sau vao bai viet Toan hoc Transformers 101 va lam chu cac ky thuat dao tao phan tan de dat hieu suat GPU toi uu.",
+          "description": "Explore the math behind training LLMs with Quentin Anthony from Eleuther AI. Dive into the Transformers Math 101 article & master distributed training techniques for peak GPU performance.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692324088-screenshot-2023-08-17-at-9-59-17-pm.png"
           },
@@ -836,15 +942,20 @@
         },
         {
           "id": "190259129",
-          "topics": ["LLM", "Phan cung", "Tom tat", "Bien", "Canh"],
-          "title": "Podcast Khong gian an 8/10/23 [Tom tat]: LLM o khap moi noi: Chay mo hinh 70B tren trinh duyet va iPhone bang MLC - voi Tianqi Chen tu CMU / OctoML",
+          "topics": [
+            "LLM",
+            "Hardware",
+            "Summary",
+            "Edge"
+          ],
+          "title": "Latent Space Podcast 8/10/23 [Summary]: LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:18:37+01:00",
-          "description": "Kham pha su ky dieu cua MLC voi Tianqi Chen: trien khai mo hinh 70B tren trinh duyet va iPhone. Tim hieu ve XGBoost, su ra doi cua TVM, va tuong lai cua viec trien khai AI pho bien.",
+          "description": "Explore the magic of MLC with Tianqi Chen: deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
           },
@@ -865,20 +976,20 @@
         {
           "id": "190259087",
           "topics": [
-            "Tom tat",
-            "Mo hinh ngon ngu lon",
-            "Ma nguon",
-            "Ma nguon mo",
-            "Mo hinh nho"
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
           ],
-          "title": "Podcast Latent Space 8/4/23 [Tom tat] Chuong trinh cheo giua Latent Space va AI Breakdown!",
+          "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:16:33+01:00",
-          "description": "Tham gia AI Breakdown & Latent Space de tong ket cong nghe AI mua he: Tim hieu ve GPT4.5, Llama 2, cac cong cu AI, su noi len cua ky su AI, va nhieu hon nua!",
+          "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
           },
@@ -898,15 +1009,20 @@
         },
         {
           "id": "190259172",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Ma nguon mo", "Mo hinh nho"],
-          "title": "Podcast Khong gian an 19/7/23 [Tom tat] - Llama 2: Mo hinh ngon ngu lon ma nguon mo moi nhat (voi Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog va nhung nguoi khac)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
           "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:12:38+01:00",
-          "description": "Kham pha Llama 2, dot pha AI moi nhat cung cac chuyen gia Nathan Lambert, Matt Bornstein va nhieu nguoi khac. Tim hieu sau ve bo du lieu, tieu chuan danh gia va du doan AI. Thong tin sau sac ve Llama va nhung chuyen hau truong dang cho ban trong podcast hang dau nay!",
+          "description": "Explore Llama 2, the latest AI breakthrough with experts Nathan Lambert, Matt Bornstein & more. Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
           },
@@ -926,15 +1042,19 @@
         },
         {
           "id": "190259191",
-          "topics": ["Tom tat", "Ma", "LLM"],
-          "title": "Podcast Khong gian an 7/10/23 [Tom tat] - Trinh dich ma == GPT 4.5 (voi Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, va nhung nguoi khac)",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM"
+          ],
+          "title": "Latent Space Podcast 7/10/23 [Summary] - Code Interpreter == GPT 4.5 (w/ Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, et al.)",
           "slug": "latent-space-podcast-7-10-23-summary-code-interpreter-gpt-4-5-w-simon-willison-al",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:09:26+01:00",
-          "description": "Kham pha Trinh dich ma cua ChatGPT: mot buoc dot pha trong AI. Tim hieu ve kha nang vuot troi gap 1000 lan cung Simon, Alex va cac chuyen gia AI hang dau. #SuyluanTangcuongBangMa #GPT4_5",
+          "description": "Explore ChatGPT's Code Interpreter: a game-changer in AI. Dive into its 1000x capabilities leap with Simon, Alex & top AI experts. #CodeAugmentedInference #GPT4_5",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692048911-screenshot-2023-08-14-at-3-34-05-pm.png"
           },
@@ -954,15 +1074,19 @@
         },
         {
           "id": "190259238",
-          "topics": ["Phan cung", "Mo hinh ngon ngu lon", "Tom tat"],
-          "title": "Podcast Khong gian an 20/6/23 [Tom tat] - Thuong mai hoa Petaflop - voi George Hotz cua tiny corp",
+          "topics": [
+            "Hardware",
+            "LLM",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 6/20/23 [Summary] - Commoditizing the Petaflop — with George Hotz of the tiny corp",
           "slug": "latent-space-podcast-6-20-23-summary-commoditizing-the-petaflop-with-george-ho",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:07:15+01:00",
-          "description": "George Hotz cua tiny corp thach thuc Nvidia & Google! Tim hieu ve hop tac voi AMD, thong tin ve ggml, Mojo, Elon & GPT-4, cung mot cai nhin ve Ban gai AI.",
+          "description": "George Hotz of tiny corp challenges Nvidia & Google! Dive into the world of AMD collaborations, insights on ggml, Mojo, Elon & GPT-4, plus a peek into AI Girlfriend. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692154615-screenshot-2023-08-15-at-10-55-40-pm.png"
           },
@@ -982,15 +1106,19 @@
         },
         {
           "id": "190259294",
-          "topics": ["Mo hinh ngon ngu lon", "Cac chuc nang", "Tom tat"],
-          "title": "Podcast Khong gian an 14/6/23 [Tom tat] - Tap khan cap: API Chuc nang moi cua OpenAI, giam gia 75%, tang do dai ngu canh len 4 lan (voi Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin va nhung nguoi khac)",
+          "topics": [
+            "LLM",
+            "Functions",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 6/14/23 [Summary] - Emergency Pod: OpenAI's new Functions API, 75% Price Drop, 4x Context Length (w/ Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin et al)",
           "slug": "latent-space-podcast-6-14-23-summary-emergency-pod-openai-s-new-functions-api-75",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:05:04+01:00",
-          "description": "Kham pha cac cap nhat thang 6 nam 2023 cua OpenAI voi cac ky su AI hang dau tu Scale, Microsoft, Pinecone va Huggingface. Tim hieu sau ve cac mo hinh Ma x LLM va kham pha Tac nhan Chuc nang De quy.",
+          "description": "Explore the June 2023 OpenAI updates with top AI engineers from Scale, Microsoft, Pinecone, & Huggingface. Dive into the Code x LLM paradigms and discover Recursive Function Agents.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692221668-screenshot-2023-08-16-at-5-32-29-pm.png"
           },
@@ -1010,15 +1138,19 @@
         },
         {
           "id": "190259333",
-          "topics": ["LLM", "Tom tat", "UX"],
-          "title": "Podcast Khong gian tiem an 6/8/23 [Tom tat] - Tu RLHF den RLHB: Ly do cho viec Hoc tu Hanh vi cua Con nguoi - voi Jeffrey Wang va Joe Reeve cua Amplitude",
+          "topics": [
+            "LLM",
+            "Summary",
+            "UX"
+          ],
+          "title": "Latent Space Podcast 6/8/23 [Summary] - From RLHF to RLHB: The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude",
           "slug": "latent-space-podcast-6-8-23-summary-from-rlhf-to-rlhb-the-case-for-learning-from",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:02:33+01:00",
-          "description": "Kham pha AI & phan tich voi Jeffrey Wang & Joe Reeve tren Latent Space Live! Tim hieu tai sao AI danh gia cao Phan tich va suc manh cua du lieu hanh vi nguon goc.",
+          "description": "Explore AI & analytics with Jeffrey Wang & Joe Reeve on Latent Space Live! Dive into why AI values Analytics and the power of first-party behavioral data. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692386432-screenshot-2023-08-18-at-3-17-04-pm.png"
           },
@@ -1038,15 +1170,19 @@
         },
         {
           "id": "190260528",
-          "topics": ["Tom tat", "LLM", "UX"],
-          "title": "Podcast Khong gian an 6/1/23 [Tom tat] - Xay dung Scenius AI × UX — voi Linus Lee cua Notion AI",
+          "topics": [
+            "Summary",
+            "LLM",
+            "UX"
+          ],
+          "title": "Latent Space Podcast 6/1/23 [Summary] - Building the AI × UX Scenius — with Linus Lee of Notion AI",
           "slug": "latent-space-podcast-6-1-23-summary-building-the-ai-x-ux-scenius-with-linus-le",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:00:12+01:00",
-          "description": "Kham pha cach tiep can bien doi cua Notion AI doi voi AI va UX. Tim hieu tuong lai cua khong gian lam viec duoc tang cuong boi AI, gia tri vuot qua giao dien tro chuyen, va nhung hieu biet ve cong viec tri thuc hieu qua. Bao gom tom tat buoi gap mat AI×UX NYC!",
+          "description": "Explore Notion AI's transformative approach to AI and UX. Dive into the future of AI-augmented workspaces, the value beyond chat interfaces, and insights on effective knowledge work. Recap of AI×UX NYC meetup included!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692390655-screenshot-2023-08-18-at-4-28-51-pm.png"
           },
@@ -1066,15 +1202,20 @@
         },
         {
           "id": "190260557",
-          "topics": ["Tom tat", "Ma", "LLM", "Tac nhan"],
-          "title": "Podcast Khong gian an 25/5/23 [Tom tat] - Go loi Internet voi tac nhan AI - cung Itamar Friedman tu Codium AI va AutoGPT",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM",
+            "Agents"
+          ],
+          "title": "Latent Space Podcast 5/25/23 [Summary] - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
           "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:58:27+01:00",
-          "description": "Kham pha tuong lai cua AI voi Itamar Friedman tu Codium AI trong 'Go loi Internet'. Tim hieu ve cac tac nhan 'DRY cuc doan', dong bo nhanh giua thong so ky thuat va kiem thu, va su can bang giua ma va kiem thu. Ngoai ra, nhung hieu biet tu Toran va mot cai nhin doc quyen ve lo trinh cua AutoGPT!",
+          "description": "Explore the future of AI with Itamar Friedman from Codium AI on 'Debugging the Internet'. Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. Plus, insights from Toran & an exclusive look at AutoGPT's roadmap!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
           },
@@ -1094,15 +1235,18 @@
         },
         {
           "id": "190260577",
-          "topics": ["Mo hinh ngon ngu lon", "Mo hinh nho"],
-          "title": "Podcast Khong gian an 20/5/23 [Tom tat] - MPT-7B va Su khoi dau cua Boi canh=Vo cung — voi Jonathan Frankle va Abhinav Venigalla cua MosaicML",
+          "topics": [
+            "LLM",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 5/20/23 [Summary] - MPT-7B and The Beginning of Context=Infinity — with Jonathan Frankle and Abhinav Venigalla of MosaicML",
           "slug": "latent-space-podcast-5-20-23-summary-mpt-7b-and-the-beginning-of-context-infinity",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:57:33+01:00",
-          "description": "Tim hieu sau ve qua trinh dao tao MPT-7B \"llongboi\" 9 ngay, 200 nghin do cua MosaicML, thong tin chi tiet ve chuan bi du lieu, va su phat trien cua cac mo hinh AI mo voi cac chuyen gia Frankle & Venigalla.",
+          "description": "Dive into MosaicML's 9-day, $200k \"llongboi\" MPT-7B training, data prep insights, & the rise of open AI models with experts Frankle & Venigalla.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692409795-screenshot-2023-08-18-at-9-49-21-pm.png"
           },
@@ -1122,15 +1266,18 @@
         },
         {
           "id": "190260597",
-          "topics": ["LLM", "Du lieu co cau truc"],
-          "title": "Podcast Khong gian an 15/5/23 [Tom tat] - Dam bao chat luong va cau truc trong dau ra LLM - voi Shreya Rajpal cua Guardrails AI",
+          "topics": [
+            "LLM",
+            "Structured Data"
+          ],
+          "title": "Latent Space Podcast 5/15/23 [Summary] - Guaranteed quality and structure in LLM outputs - with Shreya Rajpal of Guardrails AI",
           "slug": "latent-space-podcast-5-15-23-summary-guaranteed-quality-and-structure-in-llm-outp",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:56:26+01:00",
-          "description": "Kham pha Tap 12 voi Shreya Rajpal cua Guardrails AI: Di sau vao viec xac thuc dau ra LLM, tinh chinh cau tra loi thong qua vong lap hoi lai, va thiet lap SLA cho cac mo hinh. Lam chu nhung sac thai cua dam bao chat luong AI.",
+          "description": "Explore Ep. 12 with Shreya Rajpal of Guardrails AI: Dive deep into validating LLM outputs, refining answers through re-asking loops, and establishing SLAs for models. Master the nuances of AI quality assurance.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692495732-screenshot-2023-08-19-at-9-38-27-pm.png"
           },
@@ -1150,15 +1297,20 @@
         },
         {
           "id": "190260606",
-          "topics": ["LLM", "Dao tao", "Tac nhan", "Da phuong thuc"],
-          "title": "Podcast Khong gian an 5/8/23 [Tom tat] - Gen Sang lap AI: Som bat dau, Xay dung nhanh va Tin tuong vao su vi dai — voi Sharif Shameem cua Lexica",
+          "topics": [
+            "LLM",
+            "Training",
+            "Agents",
+            "Multimodal"
+          ],
+          "title": "Latent Space Podcast 5/8/23 [Summary] - The AI Founder Gene: Being Early, Building Fast, and Believing in Greatness — with Sharif Shameem of Lexica",
           "slug": "latent-space-podcast-5-8-23-summary-the-ai-founder-gene-being-early-building-fast",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:52:09+01:00",
-          "description": "Tap 11 voi Sharif Shameem cua Lexica: Tim hieu tu duy cua nha sang lap AI, kham pha bi quyet de tien phong doi moi, xay dung cong nghe thay doi cuoc choi, dao tao mo hinh, va tiem nang thu vi cua Tac nhan va giai trinh tu he gen.",
+          "description": "Ep.11 with Sharif Shameem of Lexica: Dive into the AI founder mindset, uncovering the secrets to pioneering innovation, building game-changing tech, training models, and the intriguing potential of Agents and genomic sequencing. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692501984-screenshot-2023-08-19-at-11-24-05-pm.png"
           },
@@ -1178,15 +1330,19 @@
         },
         {
           "id": "190260640",
-          "topics": ["Tom tat", "Ma nguon mo", "Mo hinh ngon ngu lon"],
-          "title": "Podcast Khong gian an 5/5/23 [Tom tat] - Khong co ho: AI dong nhan duoc cuoc goi thuc tinh tu Ma nguon mo — voi Simon Willison",
+          "topics": [
+            "Summary",
+            "Open Source",
+            "LLM"
+          ],
+          "title": "Latent Space Podcast 5/5/23 [Summary] - No Moat: Closed AI gets its Open Source wakeup call — ft. Simon Willison",
           "slug": "latent-space-podcast-5-5-23-summary-no-moat-closed-ai-gets-its-open-source-wakeup",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:49:18+01:00",
-          "description": "Kham pha 'Khong co ho: Su thuc tinh Ma nguon mo cua AI dong' cung Simon Willison. Di sau vao nhung hieu biet tu ban ghi nho ro ri ve Ho cua Google, Su thoat chay cua Google Brain, va su tang toc cua Python voi Mojo.",
+          "description": "Explore 'No Moat: Closed AI's Open Source Awakening' with Simon Willison. Dive into leaked Google Moat memo insights, Google Brain Drain, and Python's speed boost with Mojo.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692566921-screenshot-2023-08-20-at-5-25-53-pm.png"
           },
@@ -1206,15 +1362,19 @@
         },
         {
           "id": "190260671",
-          "topics": ["LLM", "Ma", "Tom tat"],
-          "title": "Podcast Khong gian an 5/3/23 [Tom tat] - Dao tao mot LLM Ma hang dau trong 1 tuan va Dinh luong Cam xuc - voi Reza Shabani cua Replit",
+          "topics": [
+            "LLM",
+            "Code",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 5/3/23 [Summary] - Training a SOTA Code LLM in 1 week and Quantifying the Vibes — with Reza Shabani of Replit",
           "slug": "latent-space-podcast-5-3-23-summary-training-a-sota-code-llm-in-1-week-and-quanti",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:46:08+01:00",
-          "description": "Tap 10 voi Reza Shabani: Di sau vao viec dao tao nhanh chong mot LLM Ma tien tien nhat, kham pha tuong lai cua Replit Ghostwriter, va hanh trinh tu Tai chinh den AI. Kham pha su chuyen doi tu Kaplan sang Chinchilla va nhieu hon nua!",
+          "description": "Ep. 10 with Reza Shabani: Dive deep into the rapid training of a state-of-the-art Code LLM, explore Replit Ghostwriter's future, and journey from Finance to AI. Discover the transition from Kaplan to Chinchilla and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692584998-screenshot-2023-08-20-at-10-17-26-pm.png"
           },
@@ -1234,15 +1394,19 @@
         },
         {
           "id": "190629271",
-          "topics": ["LLM", "Mo hinh nho", "Tom tat"],
-          "title": "Podcast Khong gian an 28/4/23 [Tom tat] - Lap ban do tuong lai cua cac Mo hinh *thuc su* Mo va Huan luyen Dolly voi gia 30 do - cung Mike Conover cua Databricks",
+          "topics": [
+            "LLM",
+            "Small Models",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 4/28/23 [Summary] - Mapping the future of *truly* Open Models and Training Dolly for $30 — with Mike Conover of Databricks",
           "slug": "latent-space-podcast-4-28-23-summary-mapping-the-future-of-truly-open-models-and",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:33:12+01:00",
-          "description": "Kham pha tuong lai cua cac mo hinh mo voi Mike Conover cua Databricks. Di sau vao qua trinh tao ra Dolly, su chuyen doi tu 1.0 sang 2.0 va nhung anh huong dang sau su phat trien cua no. Tap 9 de cap den co so ha tang mo hinh, tam nhin cua Databricks va nhieu hon nua. #AI #MoHinhMo #Dolly",
+          "description": "Explore the future of open models with Mike Conover of Databricks. Dive deep into Dolly's creation, its transition from 1.0 to 2.0, & the influences behind its development. Ep.9 touches on model infrastructure, Databricks' vision, & more. #AI #OpenModels #Dolly",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694038707-screenshot-2023-09-06-at-3-12-24-pm.png"
           },
@@ -1262,15 +1426,19 @@
         },
         {
           "id": "191164291",
-          "topics": ["LLM", "Doanh nghiep", "Tom tat"],
-          "title": "Podcast Latent Space 21/4/23 [Tom tat] - Tim kiem ho tro boi AI cho Doanh nghiep — voi Deedy Das tu Glean",
+          "topics": [
+            "LLM",
+            "Enterprise",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 4/21/23 [Summary] - AI-powered Search for the Enterprise — with Deedy Das of Glean",
           "slug": "latent-space-podcast-4-21-23-summary-ai-powered-search-for-the-enterprise-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:31:31+01:00",
-          "description": "Tap 8: Tim hieu ve AI trong tim kiem doanh nghiep voi Deedy Das tu Glean. Giai quyet thach thuc trong viec tao ra mot ga khong lo tim kiem AI, so sanh Google voi ChatGPT, su phuc tap cua co so ha tang AI, phat hien van ban do AI tao ra, va tai sao doanh nghiep can nhieu hon chi la Hoi dap Tai lieu.",
+          "description": "Ep.8: Dive into AI in enterprise search with Deedy Das of Glean. Unpack challenges in creating an AI search giant, Google vs ChatGPT comparisons, AI infrastructure intricacies, spotting AI-generated text, and why businesses need more than just Document QA.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694134074-screenshot-2023-09-07-at-5-43-48-pm.png"
           },
@@ -1290,15 +1458,19 @@
         },
         {
           "id": "191165920",
-          "topics": ["Mo hinh ngon ngu lon", "Tom tat", "Danh gia"],
-          "title": "Podcast Khong gian an 4/6/23 [Tom tat] - Co so AI: Co ban ve tieu chuan danh gia",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Evaluation"
+          ],
+          "title": "Latent Space Podcast 4/6/23 [Summary] - AI Fundamentals: Benchmarks 101",
           "slug": "latent-space-podcast-4-6-23-summary-ai-fundamentals-benchmarks-101",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:05:35+01:00",
-          "description": "Kham pha co so AI trong 'Co ban ve tieu chuan danh gia.' Tim hieu lich su danh gia mo hinh ngon ngu lon va kham pha nhung chi tiet phuc tap dinh hinh su tien bo cua hoc may.",
+          "description": "Explore AI Fundamentals in 'Benchmarks 101.' Dive into the history of LLM Benchmarking and uncover the intricacies that shape machine learning's progress.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694154964-screenshot-2023-09-07-at-11-33-20-pm.png"
           },
@@ -1318,15 +1490,19 @@
         },
         {
           "id": "191310297",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Cong cu"],
-          "title": "Podcast Khong gian an 23/3/23 [Tom tat] - Tap khan cap: Thoi diem App Store cua ChatGPT (voi Logan Kilpatrick cua OpenAI, Florent Crivello cua LindyAI va Nader Dabit)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Tools"
+          ],
+          "title": "Latent Space Podcast 3/23/23 [Summary] - Emergency Pod: ChatGPT's App Store Moment (w/ OpenAI's Logan Kilpatrick, LindyAI's Florent Crivello and Nader Dabit)",
           "slug": "latent-space-podcast-3-23-23-summary-emergency-pod-chatgpt-s-app-store-moment-w-o",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:02:01+01:00",
-          "description": "Kham pha tap 4 cua podcast khi cac chuyen gia tu OpenAI & LindyAI di sau vao Plugins ChatGPT. Tim hieu cac truong hop su dung, chien luoc kiem tien va tuong lai cua tich hop AI. #ChatGPT #AIPlugins",
+          "description": "Explore Ep.4 of the podcast as experts from OpenAI & LindyAI delve into ChatGPT Plugins. Discover use cases, monetization strategies & the future of AI integration. #ChatGPT #AIPlugins",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694201898-screenshot-2023-09-08-at-12-31-46-pm.png"
           },
@@ -1346,15 +1522,19 @@
         },
         {
           "id": "191313297",
-          "topics": ["LLM", "Tom tat", "Ma nguon"],
-          "title": "Podcast Khong gian an 3/2/23 [Tom tat] - AI re hon 97%, nhanh hon, tot hon, chinh xac hon — voi Varun Mohan cua Codeium Podcast Khong gian an Tap 2: Tai sao ban dang su dung GPU sai cach",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Code"
+          ],
+          "title": "Latent Space Podcast 3/2/23 [Summary] - 97% Cheaper, Faster, Better, Correct AI — with Varun Mohan of Codeium Latent Space Podcast Ep. 2: Why you are holding your GPUs wrong",
           "slug": "latent-space-podcast-3-2-23-summary-97-cheaper-faster-better-correct-ai-with-v",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:59:56+01:00",
-          "description": "Mo khoa hieu qua AI voi Varun Mohan cua Codeium khi anh ay tiet lo cac phuong phap re hon va nhanh hon 97%. Tim hieu sau hon trong Podcast Khong gian an Tap 2 de toi uu hoa viec su dung GPU cua ban!",
+          "description": "Unlock AI efficiency with Varun Mohan of Codeium as he reveals methods that are 97% cheaper & faster. Dive into Latent Space Podcast Ep. 2 to optimize your GPU usage!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694211494-screenshot-2023-09-08-at-3-05-12-pm.png"
           },
@@ -1374,15 +1554,18 @@
         },
         {
           "id": "191313319",
-          "topics": ["LLM", "Tom tat"],
-          "title": "Podcast Khong gian tiem an 2/23 [Tom tat] - ChatGPT, su on ao ve GPT4, va Xay dung san pham thuan LLM — voi Logan Kilpatrick cua OpenAI",
+          "topics": [
+            "LLM",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 2/23 [Summary] - ChatGPT, GPT4 hype, and Building LLM-native products — with Logan Kilpatrick of OpenAI",
           "slug": "latent-space-podcast-2-23-summary-chatgpt-gpt4-hype-and-building-llm-native-produ",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:48:48+01:00",
-          "description": "Kham pha ChatGPT, su on ao xung quanh GPT4, va tao ra cac san pham thuan LLM voi Logan Kilpatrick cua OpenAI. Tim hieu tuong lai cua AI tren Tap 1 cua Podcast Khong gian tiem an!",
+          "description": "Explore ChatGPT, the buzz around GPT4, & creating LLM-native products with Logan Kilpatrick of OpenAI. Dive into AI's future on Latent Space Podcast Ep. 1!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694214561-screenshot-2023-09-08-at-3-49-03-pm.png"
           },
@@ -1402,15 +1585,18 @@
         },
         {
           "id": "190258948",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon"],
-          "title": "Mo hinh ngon ngu lon, duoc giai thich voi toi thieu toan hoc va thuat ngu chuyen mon [Tom tat]",
+          "topics": [
+            "Summary",
+            "LLM"
+          ],
+          "title": "Large language models, explained with a minimum of math and jargon [Summary]",
           "slug": "large-language-models-explained-with-a-minimum-of-math-and-jargon-eli5-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:40:32+01:00",
-          "description": "Kham pha suc manh cua cac mo hinh ngon ngu AI nhu GPT-3 & GPT-4, hieu suat an tuong cua chung, va khai niem 'ly thuyet tam tri' trong AI.",
+          "description": "Explore the power of AI language models like GPT-3 & GPT-4, their impressive performance, and the concept of 'theory of mind' in AI.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690601993-abr3-img1.png"
           },
@@ -1430,15 +1616,19 @@
         },
         {
           "id": "190259003",
-          "topics": ["LLM", "Tom tat", "Cong nghiep"],
-          "title": "McKinsey: Tiem nang kinh te cua AI tao sinh [Tom tat]",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Industry"
+          ],
+          "title": "McKinsey: The economic potential of generative AI [Summary]",
           "slug": "mckinsey-the-economic-potential-of-generative-ai-eli5-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:28:52+01:00",
-          "description": "Kham pha nghien cuu cua McKinsey ve suc manh bien doi cua AI tao sinh, tiem nang kinh te cua no, va tac dong cua no doi voi cong viec va nang suat trong tuong lai.",
+          "description": "Explore McKinsey's research on the transformative power of generative AI, its economic potential, and its impact on future work and productivity.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690754998-ab5-img1.png"
           },
@@ -1458,15 +1648,18 @@
         },
         {
           "id": "190259043",
-          "topics": ["LLM", "Tom tat"],
-          "title": "Google \"Chung toi khong co loi the, va OpenAI cung vay\" [Binh luan]",
+          "topics": [
+            "LLM",
+            "Summary"
+          ],
+          "title": "Google \"We Have No Moat, And Neither Does OpenAI\" [Commentary]",
           "slug": "google-we-have-no-moat-and-neither-does-openai-commentary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:27:10+01:00",
-          "description": "Kham pha ban ghi nho bi ro ri cua Google va su tien hoa nhanh chong cua AI ma nguon mo trong bai viet blog moi nhat cua chung toi, theo doi tac dong mang tinh dot pha cua LLaMA va su dan chu hoa cua cac Mo hinh Ngon ngu Lon.",
+          "description": "Explore Google's leaked memo and rapid evolution of open-source AI in our latest blog, tracking the groundbreaking impact of LLaMA and the democratization of Large Language Models.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690832197-abc1-img1.png"
           },
@@ -1486,15 +1679,18 @@
         },
         {
           "id": "190259067",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon"],
-          "title": "Tinh trang cua GPT - Andrej Karpathy [Tom tat]",
+          "topics": [
+            "Summary",
+            "LLM"
+          ],
+          "title": "State of GPT - Andrej Karpathy [Summary]",
           "slug": "state-of-gpt-andrej-karpathy-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:24:13+01:00",
-          "description": "Tim hieu sau ve nhung hieu biet cua Andrej Karpathy ve su phat trien cua GPT, kha nang hoc tap manh me, su sup do che do, su dung cong cu va cac khuyen nghi quan trong. #AI #GPT #OpenAI",
+          "description": "Dive into Andrej Karpathy's insights on GPT's development, powerful learning, mode collapse, tool usage, and key recommendations. #AI #GPT #OpenAI",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691029364-abvs1-img1.png"
           },
@@ -1514,15 +1710,18 @@
         },
         {
           "id": "190258672",
-          "topics": ["Bat dau", "Mo hinh ngon ngu lon"],
-          "title": "Giai ma bi an cua AI: Tim hieu sau ve kien thuc va gioi han cua cac Mo hinh Ngon ngu Lon",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Decoding the Mysteries of AI: A Deep Dive into Large Language Models' Knowledge and Limitations",
           "slug": "decoding-the-mysteries-of-ai-a-deep-dive-into-large-language-models-knowledge-and",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:51:17+01:00",
-          "description": "Giai ma bi an cua cac Mo hinh Ngon ngu Lon (LLM). Hieu cach chung thu thap kien thuc, diem cat, gioi han va nhung cam bay tiem tang trong hanh trinh AI cua ban.",
+          "description": "Unravel the enigma of Large Language Models (LLMs). Understand how they acquire knowledge, their cutoffs, limits, and the potential pitfalls on your AI journey.\"",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690333798-ab4-img1.png"
           },
@@ -1542,15 +1741,18 @@
         },
         {
           "id": "190258658",
-          "topics": ["Bat dau", "Mo hinh ngon ngu lon"],
-          "title": "Lam chu nghe thuat dao tao cac mo hinh ngon ngu lon: Mot huong dan toan dien",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Mastering the Art of Training Large Language Models: A Comprehensive Guide",
           "slug": "mastering-the-art-of-training-large-language-models-a-comprehensive-guide",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:38:27+01:00",
-          "description": "Kham pha bi quyet dao tao LLM. Tim hieu nhu cau du lieu, quy trinh dao tao, thach thuc va dau an moi truong cua viec dao tao LLM.",
+          "description": "Unlock the secrets of LLM training. Discover the data needs, training process, challenges, and the environmental footprint of training LLMs.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690330651-ab3-img1.png"
           },
@@ -1570,15 +1772,18 @@
         },
         {
           "id": "190258582",
-          "topics": ["Bat dau", "Mo hinh ngon ngu lon"],
-          "title": "Giai ma LLM: Huong dan toi uu de hieu Mo hinh ngon ngu lon",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Decoding LLMs: Your Ultimate Guide to Understanding Large Language Models",
           "slug": "decoding-llms-your-ultimate-guide-to-understanding-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:29:16+01:00",
-          "description": "Tim hieu sau ve the gioi cua Mo hinh ngon ngu lon (LLM). Kham pha kien truc, co che hoc tap va suc manh cua cac bo bien doi. Bat dau hanh trinh su nghiep AI cua ban tai day.",
+          "description": " Dive deep into the world of Large Language Models (LLMs). Uncover their architecture, learning mechanisms, and the power of transformers. Start your AI career journey here.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690247138-ab2-img1.png"
           },
@@ -1598,15 +1803,18 @@
         },
         {
           "id": "190258905",
-          "topics": ["Bat dau", "Mo hinh ngon ngu lon"],
-          "title": "Lam chu nghe thuat Mo hinh ngon ngu lon: Huong dan thuc te de trien khai Mo hinh ngon ngu lon",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Mastering the Art of LLMs: A Practical Guide to Implementing Large Language Models",
           "slug": "mastering-the-art-of-llms-a-practical-guide-to-implementing-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:25:37+01:00",
-          "description": "Mo khoa suc manh cua AI! Kham pha the gioi cua Mo hinh ngon ngu lon, tim hieu cac nen tang pho bien, va hoc cac phuong phap tot nhat de tang cuong ung dung cua ban voi Mo hinh ngon ngu lon.",
+          "description": "Unlock the power of AI! Navigate the world of Large Language Models, explore popular platforms, and learn best practices to fuel your applications with LLMs.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690421600-ab11-img1.png"
           },
@@ -1627,20 +1835,24 @@
       ]
     },
     {
-      "name": "Dao tao",
+      "name": "Training",
       "slug": "training",
       "articles": [
         {
           "id": "190259319",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Dao tao"],
-          "title": "Podcast Khong gian an 16/8/23 [Tom tat] - Toan hoc trong viec dao tao cac mo hinh ngon ngu lon — voi Quentin Anthony tu Eleuther AI",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Training"
+          ],
+          "title": "Latent Space Podcast 8/16/23 [Summary] - The Mathematics of Training LLMs — with Quentin Anthony of Eleuther AI",
           "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:19:45+01:00",
-          "description": "Tim hieu ve toan hoc dang sau viec dao tao cac mo hinh ngon ngu lon voi Quentin Anthony tu Eleuther AI. Di sau vao bai viet Toan hoc Transformers 101 va lam chu cac ky thuat dao tao phan tan de dat hieu suat GPU toi uu.",
+          "description": "Explore the math behind training LLMs with Quentin Anthony from Eleuther AI. Dive into the Transformers Math 101 article & master distributed training techniques for peak GPU performance.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692324088-screenshot-2023-08-17-at-9-59-17-pm.png"
           },
@@ -1660,15 +1872,20 @@
         },
         {
           "id": "190259111",
-          "topics": ["Tom tat", "Bien doi", "Dao tao", "Ma nguon mo"],
-          "title": "Podcast Khong gian an 26/7/23 [Tom tat] FlashAttention 2: lam cho Transformers nhanh hon 800% - Tri Dao cua Together AI",
+          "topics": [
+            "Summary",
+            "Transformers",
+            "Training",
+            "Open Source"
+          ],
+          "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:14:13+01:00",
-          "description": "Kham pha cach FlashAttention cach mang hoa toc do AI voi Tri Dao, khi anh ay tiet lo suc manh cua FlashAttention 2, di sau vao Phong thi nghiem Hazy cua Stanford va nhung hieu biet ve AI trong tuong lai.",
+          "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2, dives into Stanford's Hazy Lab & future AI insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
           },
@@ -1688,15 +1905,20 @@
         },
         {
           "id": "190260606",
-          "topics": ["LLM", "Dao tao", "Tac nhan", "Da phuong thuc"],
-          "title": "Podcast Khong gian an 5/8/23 [Tom tat] - Gen Sang lap AI: Som bat dau, Xay dung nhanh va Tin tuong vao su vi dai — voi Sharif Shameem cua Lexica",
+          "topics": [
+            "LLM",
+            "Training",
+            "Agents",
+            "Multimodal"
+          ],
+          "title": "Latent Space Podcast 5/8/23 [Summary] - The AI Founder Gene: Being Early, Building Fast, and Believing in Greatness — with Sharif Shameem of Lexica",
           "slug": "latent-space-podcast-5-8-23-summary-the-ai-founder-gene-being-early-building-fast",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:52:09+01:00",
-          "description": "Tap 11 voi Sharif Shameem cua Lexica: Tim hieu tu duy cua nha sang lap AI, kham pha bi quyet de tien phong doi moi, xay dung cong nghe thay doi cuoc choi, dao tao mo hinh, va tiem nang thu vi cua Tac nhan va giai trinh tu he gen.",
+          "description": "Ep.11 with Sharif Shameem of Lexica: Dive into the AI founder mindset, uncovering the secrets to pioneering innovation, building game-changing tech, training models, and the intriguing potential of Agents and genomic sequencing. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692501984-screenshot-2023-08-19-at-11-24-05-pm.png"
           },
@@ -1717,20 +1939,25 @@
       ]
     },
     {
-      "name": "Phan cung",
+      "name": "Hardware",
       "slug": "hardware",
       "articles": [
         {
           "id": "190259129",
-          "topics": ["LLM", "Phan cung", "Tom tat", "Bien", "Canh"],
-          "title": "Podcast Khong gian an 8/10/23 [Tom tat]: LLM o khap moi noi: Chay mo hinh 70B tren trinh duyet va iPhone bang MLC - voi Tianqi Chen tu CMU / OctoML",
+          "topics": [
+            "LLM",
+            "Hardware",
+            "Summary",
+            "Edge"
+          ],
+          "title": "Latent Space Podcast 8/10/23 [Summary]: LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:18:37+01:00",
-          "description": "Kham pha su ky dieu cua MLC voi Tianqi Chen: trien khai mo hinh 70B tren trinh duyet va iPhone. Tim hieu ve XGBoost, su ra doi cua TVM, va tuong lai cua viec trien khai AI pho bien.",
+          "description": "Explore the magic of MLC with Tianqi Chen: deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
           },
@@ -1750,15 +1977,19 @@
         },
         {
           "id": "190259238",
-          "topics": ["Phan cung", "Mo hinh ngon ngu lon", "Tom tat"],
-          "title": "Podcast Khong gian an 20/6/23 [Tom tat] - Thuong mai hoa Petaflop - voi George Hotz cua tiny corp",
+          "topics": [
+            "Hardware",
+            "LLM",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 6/20/23 [Summary] - Commoditizing the Petaflop — with George Hotz of the tiny corp",
           "slug": "latent-space-podcast-6-20-23-summary-commoditizing-the-petaflop-with-george-ho",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:07:15+01:00",
-          "description": "George Hotz cua tiny corp thach thuc Nvidia & Google! Tim hieu ve hop tac voi AMD, thong tin ve ggml, Mojo, Elon & GPT-4, cung mot cai nhin ve Ban gai AI.",
+          "description": "George Hotz of tiny corp challenges Nvidia & Google! Dive into the world of AMD collaborations, insights on ggml, Mojo, Elon & GPT-4, plus a peek into AI Girlfriend. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692154615-screenshot-2023-08-15-at-10-55-40-pm.png"
           },
@@ -1779,20 +2010,25 @@
       ]
     },
     {
-      "name": "Bien",
+      "name": "Edge",
       "slug": "edge",
       "articles": [
         {
           "id": "190259129",
-          "topics": ["LLM", "Phan cung", "Tom tat", "Bien", "Canh"],
-          "title": "Podcast Khong gian an 8/10/23 [Tom tat]: LLM o khap moi noi: Chay mo hinh 70B tren trinh duyet va iPhone bang MLC - voi Tianqi Chen tu CMU / OctoML",
+          "topics": [
+            "LLM",
+            "Hardware",
+            "Summary",
+            "Edge"
+          ],
+          "title": "Latent Space Podcast 8/10/23 [Summary]: LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:18:37+01:00",
-          "description": "Kham pha su ky dieu cua MLC voi Tianqi Chen: trien khai mo hinh 70B tren trinh duyet va iPhone. Tim hieu ve XGBoost, su ra doi cua TVM, va tuong lai cua viec trien khai AI pho bien.",
+          "description": "Explore the magic of MLC with Tianqi Chen: deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
           },
@@ -1813,26 +2049,26 @@
       ]
     },
     {
-      "name": "Ma nguon",
+      "name": "Code",
       "slug": "code",
       "articles": [
         {
           "id": "190259087",
           "topics": [
-            "Tom tat",
-            "Mo hinh ngon ngu lon",
-            "Ma nguon",
-            "Ma nguon mo",
-            "Mo hinh nho"
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
           ],
-          "title": "Podcast Latent Space 8/4/23 [Tom tat] Chuong trinh cheo giua Latent Space va AI Breakdown!",
+          "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:16:33+01:00",
-          "description": "Tham gia AI Breakdown & Latent Space de tong ket cong nghe AI mua he: Tim hieu ve GPT4.5, Llama 2, cac cong cu AI, su noi len cua ky su AI, va nhieu hon nua!",
+          "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
           },
@@ -1852,15 +2088,19 @@
         },
         {
           "id": "190259191",
-          "topics": ["Tom tat", "Ma", "LLM"],
-          "title": "Podcast Khong gian an 7/10/23 [Tom tat] - Trinh dich ma == GPT 4.5 (voi Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, va nhung nguoi khac)",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM"
+          ],
+          "title": "Latent Space Podcast 7/10/23 [Summary] - Code Interpreter == GPT 4.5 (w/ Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, et al.)",
           "slug": "latent-space-podcast-7-10-23-summary-code-interpreter-gpt-4-5-w-simon-willison-al",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:09:26+01:00",
-          "description": "Kham pha Trinh dich ma cua ChatGPT: mot buoc dot pha trong AI. Tim hieu ve kha nang vuot troi gap 1000 lan cung Simon, Alex va cac chuyen gia AI hang dau. #SuyluanTangcuongBangMa #GPT4_5",
+          "description": "Explore ChatGPT's Code Interpreter: a game-changer in AI. Dive into its 1000x capabilities leap with Simon, Alex & top AI experts. #CodeAugmentedInference #GPT4_5",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692048911-screenshot-2023-08-14-at-3-34-05-pm.png"
           },
@@ -1880,15 +2120,20 @@
         },
         {
           "id": "190260557",
-          "topics": ["Tom tat", "Ma", "LLM", "Tac nhan"],
-          "title": "Podcast Khong gian an 25/5/23 [Tom tat] - Go loi Internet voi tac nhan AI - cung Itamar Friedman tu Codium AI va AutoGPT",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM",
+            "Agents"
+          ],
+          "title": "Latent Space Podcast 5/25/23 [Summary] - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
           "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:58:27+01:00",
-          "description": "Kham pha tuong lai cua AI voi Itamar Friedman tu Codium AI trong 'Go loi Internet'. Tim hieu ve cac tac nhan 'DRY cuc doan', dong bo nhanh giua thong so ky thuat va kiem thu, va su can bang giua ma va kiem thu. Ngoai ra, nhung hieu biet tu Toran va mot cai nhin doc quyen ve lo trinh cua AutoGPT!",
+          "description": "Explore the future of AI with Itamar Friedman from Codium AI on 'Debugging the Internet'. Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. Plus, insights from Toran & an exclusive look at AutoGPT's roadmap!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
           },
@@ -1908,15 +2153,19 @@
         },
         {
           "id": "190260671",
-          "topics": ["LLM", "Ma", "Tom tat"],
-          "title": "Podcast Khong gian an 5/3/23 [Tom tat] - Dao tao mot LLM Ma hang dau trong 1 tuan va Dinh luong Cam xuc - voi Reza Shabani cua Replit",
+          "topics": [
+            "LLM",
+            "Code",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 5/3/23 [Summary] - Training a SOTA Code LLM in 1 week and Quantifying the Vibes — with Reza Shabani of Replit",
           "slug": "latent-space-podcast-5-3-23-summary-training-a-sota-code-llm-in-1-week-and-quanti",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:46:08+01:00",
-          "description": "Tap 10 voi Reza Shabani: Di sau vao viec dao tao nhanh chong mot LLM Ma tien tien nhat, kham pha tuong lai cua Replit Ghostwriter, va hanh trinh tu Tai chinh den AI. Kham pha su chuyen doi tu Kaplan sang Chinchilla va nhieu hon nua!",
+          "description": "Ep. 10 with Reza Shabani: Dive deep into the rapid training of a state-of-the-art Code LLM, explore Replit Ghostwriter's future, and journey from Finance to AI. Discover the transition from Kaplan to Chinchilla and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692584998-screenshot-2023-08-20-at-10-17-26-pm.png"
           },
@@ -1936,15 +2185,19 @@
         },
         {
           "id": "191313297",
-          "topics": ["LLM", "Tom tat", "Ma nguon"],
-          "title": "Podcast Khong gian an 3/2/23 [Tom tat] - AI re hon 97%, nhanh hon, tot hon, chinh xac hon — voi Varun Mohan cua Codeium Podcast Khong gian an Tap 2: Tai sao ban dang su dung GPU sai cach",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Code"
+          ],
+          "title": "Latent Space Podcast 3/2/23 [Summary] - 97% Cheaper, Faster, Better, Correct AI — with Varun Mohan of Codeium Latent Space Podcast Ep. 2: Why you are holding your GPUs wrong",
           "slug": "latent-space-podcast-3-2-23-summary-97-cheaper-faster-better-correct-ai-with-v",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:59:56+01:00",
-          "description": "Mo khoa hieu qua AI voi Varun Mohan cua Codeium khi anh ay tiet lo cac phuong phap re hon va nhanh hon 97%. Tim hieu sau hon trong Podcast Khong gian an Tap 2 de toi uu hoa viec su dung GPU cua ban!",
+          "description": "Unlock AI efficiency with Varun Mohan of Codeium as he reveals methods that are 97% cheaper & faster. Dive into Latent Space Podcast Ep. 2 to optimize your GPU usage!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694211494-screenshot-2023-09-08-at-3-05-12-pm.png"
           },
@@ -1965,26 +2218,26 @@
       ]
     },
     {
-      "name": "Ma nguon mo",
+      "name": "Open Source",
       "slug": "open source",
       "articles": [
         {
           "id": "190259087",
           "topics": [
-            "Tom tat",
-            "Mo hinh ngon ngu lon",
-            "Ma nguon",
-            "Ma nguon mo",
-            "Mo hinh nho"
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
           ],
-          "title": "Podcast Latent Space 8/4/23 [Tom tat] Chuong trinh cheo giua Latent Space va AI Breakdown!",
+          "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:16:33+01:00",
-          "description": "Tham gia AI Breakdown & Latent Space de tong ket cong nghe AI mua he: Tim hieu ve GPT4.5, Llama 2, cac cong cu AI, su noi len cua ky su AI, va nhieu hon nua!",
+          "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
           },
@@ -2004,15 +2257,20 @@
         },
         {
           "id": "190259111",
-          "topics": ["Tom tat", "Bien doi", "Dao tao", "Ma nguon mo"],
-          "title": "Podcast Khong gian an 26/7/23 [Tom tat] FlashAttention 2: lam cho Transformers nhanh hon 800% - Tri Dao cua Together AI",
+          "topics": [
+            "Summary",
+            "Transformers",
+            "Training",
+            "Open Source"
+          ],
+          "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:14:13+01:00",
-          "description": "Kham pha cach FlashAttention cach mang hoa toc do AI voi Tri Dao, khi anh ay tiet lo suc manh cua FlashAttention 2, di sau vao Phong thi nghiem Hazy cua Stanford va nhung hieu biet ve AI trong tuong lai.",
+          "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2, dives into Stanford's Hazy Lab & future AI insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
           },
@@ -2032,15 +2290,20 @@
         },
         {
           "id": "190259172",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Ma nguon mo", "Mo hinh nho"],
-          "title": "Podcast Khong gian an 19/7/23 [Tom tat] - Llama 2: Mo hinh ngon ngu lon ma nguon mo moi nhat (voi Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog va nhung nguoi khac)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
           "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:12:38+01:00",
-          "description": "Kham pha Llama 2, dot pha AI moi nhat cung cac chuyen gia Nathan Lambert, Matt Bornstein va nhieu nguoi khac. Tim hieu sau ve bo du lieu, tieu chuan danh gia va du doan AI. Thong tin sau sac ve Llama va nhung chuyen hau truong dang cho ban trong podcast hang dau nay!",
+          "description": "Explore Llama 2, the latest AI breakthrough with experts Nathan Lambert, Matt Bornstein & more. Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
           },
@@ -2060,15 +2323,18 @@
         },
         {
           "id": "190259216",
-          "topics": ["Tom tat", "Ma nguon mo"],
-          "title": "Podcast Khong gian tiem an 7/2/23 [Tom tat] Xu huong AI: mot tap crossover giua Khong gian tiem an va AI Thuc te!",
+          "topics": [
+            "Summary",
+            "Open Source"
+          ],
+          "title": "Latent Space Podcast 7/2/23 [Summary] AI Trends: a Latent Space x Practical AI crossover pod!",
           "slug": "latent-space-podcast-7-2-23-summary-ai-trends-a-latent-space-x-practical-ai-cross",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:08:36+01:00",
-          "description": "Kham pha su ket hop giua AI Thuc te va Khong gian tiem an khi ho di sau vao cac xu huong AI hang dau nam 2023, suy ngam ve cac tap noi bat va chia se nhung hieu biet ve viec dinh huong su tien hoa cua AI.",
+          "description": "Explore the fusion of Practical AI & Latent Space as they delve into 2023's top AI trends, reflect on standout episodes, and share insights on navigating the AI evolution.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692146916-screenshot-2023-08-15-at-5-20-38-pm.png"
           },
@@ -2088,15 +2354,19 @@
         },
         {
           "id": "190260640",
-          "topics": ["Tom tat", "Ma nguon mo", "Mo hinh ngon ngu lon"],
-          "title": "Podcast Khong gian an 5/5/23 [Tom tat] - Khong co ho: AI dong nhan duoc cuoc goi thuc tinh tu Ma nguon mo — voi Simon Willison",
+          "topics": [
+            "Summary",
+            "Open Source",
+            "LLM"
+          ],
+          "title": "Latent Space Podcast 5/5/23 [Summary] - No Moat: Closed AI gets its Open Source wakeup call — ft. Simon Willison",
           "slug": "latent-space-podcast-5-5-23-summary-no-moat-closed-ai-gets-its-open-source-wakeup",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:49:18+01:00",
-          "description": "Kham pha 'Khong co ho: Su thuc tinh Ma nguon mo cua AI dong' cung Simon Willison. Di sau vao nhung hieu biet tu ban ghi nho ro ri ve Ho cua Google, Su thoat chay cua Google Brain, va su tang toc cua Python voi Mojo.",
+          "description": "Explore 'No Moat: Closed AI's Open Source Awakening' with Simon Willison. Dive into leaked Google Moat memo insights, Google Brain Drain, and Python's speed boost with Mojo.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692566921-screenshot-2023-08-20-at-5-25-53-pm.png"
           },
@@ -2117,26 +2387,26 @@
       ]
     },
     {
-      "name": "Mo hinh nho",
+      "name": "Small Models",
       "slug": "small models",
       "articles": [
         {
           "id": "190259087",
           "topics": [
-            "Tom tat",
-            "Mo hinh ngon ngu lon",
-            "Ma nguon",
-            "Ma nguon mo",
-            "Mo hinh nho"
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
           ],
-          "title": "Podcast Latent Space 8/4/23 [Tom tat] Chuong trinh cheo giua Latent Space va AI Breakdown!",
+          "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:16:33+01:00",
-          "description": "Tham gia AI Breakdown & Latent Space de tong ket cong nghe AI mua he: Tim hieu ve GPT4.5, Llama 2, cac cong cu AI, su noi len cua ky su AI, va nhieu hon nua!",
+          "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
           },
@@ -2156,15 +2426,20 @@
         },
         {
           "id": "190259172",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Ma nguon mo", "Mo hinh nho"],
-          "title": "Podcast Khong gian an 19/7/23 [Tom tat] - Llama 2: Mo hinh ngon ngu lon ma nguon mo moi nhat (voi Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog va nhung nguoi khac)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Open Source",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
           "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:12:38+01:00",
-          "description": "Kham pha Llama 2, dot pha AI moi nhat cung cac chuyen gia Nathan Lambert, Matt Bornstein va nhieu nguoi khac. Tim hieu sau ve bo du lieu, tieu chuan danh gia va du doan AI. Thong tin sau sac ve Llama va nhung chuyen hau truong dang cho ban trong podcast hang dau nay!",
+          "description": "Explore Llama 2, the latest AI breakthrough with experts Nathan Lambert, Matt Bornstein & more. Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
           },
@@ -2184,15 +2459,18 @@
         },
         {
           "id": "190260577",
-          "topics": ["Mo hinh ngon ngu lon", "Mo hinh nho"],
-          "title": "Podcast Khong gian an 20/5/23 [Tom tat] - MPT-7B va Su khoi dau cua Boi canh=Vo cung — voi Jonathan Frankle va Abhinav Venigalla cua MosaicML",
+          "topics": [
+            "LLM",
+            "Small Models"
+          ],
+          "title": "Latent Space Podcast 5/20/23 [Summary] - MPT-7B and The Beginning of Context=Infinity — with Jonathan Frankle and Abhinav Venigalla of MosaicML",
           "slug": "latent-space-podcast-5-20-23-summary-mpt-7b-and-the-beginning-of-context-infinity",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:57:33+01:00",
-          "description": "Tim hieu sau ve qua trinh dao tao MPT-7B \"llongboi\" 9 ngay, 200 nghin do cua MosaicML, thong tin chi tiet ve chuan bi du lieu, va su phat trien cua cac mo hinh AI mo voi cac chuyen gia Frankle & Venigalla.",
+          "description": "Dive into MosaicML's 9-day, $200k \"llongboi\" MPT-7B training, data prep insights, & the rise of open AI models with experts Frankle & Venigalla.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692409795-screenshot-2023-08-18-at-9-49-21-pm.png"
           },
@@ -2212,15 +2490,19 @@
         },
         {
           "id": "190629271",
-          "topics": ["LLM", "Mo hinh nho", "Tom tat"],
-          "title": "Podcast Khong gian an 28/4/23 [Tom tat] - Lap ban do tuong lai cua cac Mo hinh *thuc su* Mo va Huan luyen Dolly voi gia 30 do - cung Mike Conover cua Databricks",
+          "topics": [
+            "LLM",
+            "Small Models",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 4/28/23 [Summary] - Mapping the future of *truly* Open Models and Training Dolly for $30 — with Mike Conover of Databricks",
           "slug": "latent-space-podcast-4-28-23-summary-mapping-the-future-of-truly-open-models-and",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:33:12+01:00",
-          "description": "Kham pha tuong lai cua cac mo hinh mo voi Mike Conover cua Databricks. Di sau vao qua trinh tao ra Dolly, su chuyen doi tu 1.0 sang 2.0 va nhung anh huong dang sau su phat trien cua no. Tap 9 de cap den co so ha tang mo hinh, tam nhin cua Databricks va nhieu hon nua. #AI #MoHinhMo #Dolly",
+          "description": "Explore the future of open models with Mike Conover of Databricks. Dive deep into Dolly's creation, its transition from 1.0 to 2.0, & the influences behind its development. Ep.9 touches on model infrastructure, Databricks' vision, & more. #AI #OpenModels #Dolly",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694038707-screenshot-2023-09-06-at-3-12-24-pm.png"
           },
@@ -2241,20 +2523,25 @@
       ]
     },
     {
-      "name": "Bo bien doi",
+      "name": "Transformers",
       "slug": "transformers",
       "articles": [
         {
           "id": "190259111",
-          "topics": ["Tom tat", "Bien doi", "Dao tao", "Ma nguon mo"],
-          "title": "Podcast Khong gian an 26/7/23 [Tom tat] FlashAttention 2: lam cho Transformers nhanh hon 800% - Tri Dao cua Together AI",
+          "topics": [
+            "Summary",
+            "Transformers",
+            "Training",
+            "Open Source"
+          ],
+          "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:14:13+01:00",
-          "description": "Kham pha cach FlashAttention cach mang hoa toc do AI voi Tri Dao, khi anh ay tiet lo suc manh cua FlashAttention 2, di sau vao Phong thi nghiem Hazy cua Stanford va nhung hieu biet ve AI trong tuong lai.",
+          "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2, dives into Stanford's Hazy Lab & future AI insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
           },
@@ -2274,15 +2561,18 @@
         },
         {
           "id": "190258977",
-          "topics": ["Tom tat", "Bien ap"],
-          "title": "So do Bien ap: Huong dan toan dien ve Kien truc Mang nơ-ron Bien ap [Tom tat]",
+          "topics": [
+            "Summary",
+            "Transformers"
+          ],
+          "title": "The Transformer Blueprint: A Holistic Guide to the Transformer Neural Network Architecture [Summary]",
           "slug": "the-transformer-blueprint-a-holistic-guide-to-the-transformer-neural-network-arch",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:39:30+01:00",
-          "description": "Kham pha 'So do Bien ap' - mot huong dan toan dien de hieu va ap dung suc manh bien doi cua Kien truc Mang nơ-ron Bien ap.",
+          "description": "Explore 'The Transformer Blueprint' - an all-inclusive guide to understanding and applying the transformative power of the Transformer Neural Network Architecture.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690679303-abr4-img1.png"
           },
@@ -2303,20 +2593,24 @@
       ]
     },
     {
-      "name": "Chuc nang",
+      "name": "Functions",
       "slug": "functions",
       "articles": [
         {
           "id": "190259294",
-          "topics": ["Mo hinh ngon ngu lon", "Cac chuc nang", "Tom tat"],
-          "title": "Podcast Khong gian an 14/6/23 [Tom tat] - Tap khan cap: API Chuc nang moi cua OpenAI, giam gia 75%, tang do dai ngu canh len 4 lan (voi Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin va nhung nguoi khac)",
+          "topics": [
+            "LLM",
+            "Functions",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 6/14/23 [Summary] - Emergency Pod: OpenAI's new Functions API, 75% Price Drop, 4x Context Length (w/ Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin et al)",
           "slug": "latent-space-podcast-6-14-23-summary-emergency-pod-openai-s-new-functions-api-75",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:05:04+01:00",
-          "description": "Kham pha cac cap nhat thang 6 nam 2023 cua OpenAI voi cac ky su AI hang dau tu Scale, Microsoft, Pinecone va Huggingface. Tim hieu sau ve cac mo hinh Ma x LLM va kham pha Tac nhan Chuc nang De quy.",
+          "description": "Explore the June 2023 OpenAI updates with top AI engineers from Scale, Microsoft, Pinecone, & Huggingface. Dive into the Code x LLM paradigms and discover Recursive Function Agents.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692221668-screenshot-2023-08-16-at-5-32-29-pm.png"
           },
@@ -2337,20 +2631,24 @@
       ]
     },
     {
-      "name": "Trai nghiem nguoi dung",
+      "name": "UX",
       "slug": "ux",
       "articles": [
         {
           "id": "190259333",
-          "topics": ["LLM", "Tom tat", "UX"],
-          "title": "Podcast Khong gian tiem an 6/8/23 [Tom tat] - Tu RLHF den RLHB: Ly do cho viec Hoc tu Hanh vi cua Con nguoi - voi Jeffrey Wang va Joe Reeve cua Amplitude",
+          "topics": [
+            "LLM",
+            "Summary",
+            "UX"
+          ],
+          "title": "Latent Space Podcast 6/8/23 [Summary] - From RLHF to RLHB: The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude",
           "slug": "latent-space-podcast-6-8-23-summary-from-rlhf-to-rlhb-the-case-for-learning-from",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:02:33+01:00",
-          "description": "Kham pha AI & phan tich voi Jeffrey Wang & Joe Reeve tren Latent Space Live! Tim hieu tai sao AI danh gia cao Phan tich va suc manh cua du lieu hanh vi nguon goc.",
+          "description": "Explore AI & analytics with Jeffrey Wang & Joe Reeve on Latent Space Live! Dive into why AI values Analytics and the power of first-party behavioral data. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692386432-screenshot-2023-08-18-at-3-17-04-pm.png"
           },
@@ -2370,15 +2668,19 @@
         },
         {
           "id": "190260528",
-          "topics": ["Tom tat", "LLM", "UX"],
-          "title": "Podcast Khong gian an 6/1/23 [Tom tat] - Xay dung Scenius AI × UX — voi Linus Lee cua Notion AI",
+          "topics": [
+            "Summary",
+            "LLM",
+            "UX"
+          ],
+          "title": "Latent Space Podcast 6/1/23 [Summary] - Building the AI × UX Scenius — with Linus Lee of Notion AI",
           "slug": "latent-space-podcast-6-1-23-summary-building-the-ai-x-ux-scenius-with-linus-le",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T09:00:12+01:00",
-          "description": "Kham pha cach tiep can bien doi cua Notion AI doi voi AI va UX. Tim hieu tuong lai cua khong gian lam viec duoc tang cuong boi AI, gia tri vuot qua giao dien tro chuyen, va nhung hieu biet ve cong viec tri thuc hieu qua. Bao gom tom tat buoi gap mat AI×UX NYC!",
+          "description": "Explore Notion AI's transformative approach to AI and UX. Dive into the future of AI-augmented workspaces, the value beyond chat interfaces, and insights on effective knowledge work. Recap of AI×UX NYC meetup included!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692390655-screenshot-2023-08-18-at-4-28-51-pm.png"
           },
@@ -2399,20 +2701,25 @@
       ]
     },
     {
-      "name": "Tac nhan",
+      "name": "Agents",
       "slug": "agents",
       "articles": [
         {
           "id": "190260557",
-          "topics": ["Tom tat", "Ma", "LLM", "Tac nhan"],
-          "title": "Podcast Khong gian an 25/5/23 [Tom tat] - Go loi Internet voi tac nhan AI - cung Itamar Friedman tu Codium AI va AutoGPT",
+          "topics": [
+            "Summary",
+            "Code",
+            "LLM",
+            "Agents"
+          ],
+          "title": "Latent Space Podcast 5/25/23 [Summary] - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
           "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:58:27+01:00",
-          "description": "Kham pha tuong lai cua AI voi Itamar Friedman tu Codium AI trong 'Go loi Internet'. Tim hieu ve cac tac nhan 'DRY cuc doan', dong bo nhanh giua thong so ky thuat va kiem thu, va su can bang giua ma va kiem thu. Ngoai ra, nhung hieu biet tu Toran va mot cai nhin doc quyen ve lo trinh cua AutoGPT!",
+          "description": "Explore the future of AI with Itamar Friedman from Codium AI on 'Debugging the Internet'. Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. Plus, insights from Toran & an exclusive look at AutoGPT's roadmap!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
           },
@@ -2432,15 +2739,20 @@
         },
         {
           "id": "190260606",
-          "topics": ["LLM", "Dao tao", "Tac nhan", "Da phuong thuc"],
-          "title": "Podcast Khong gian an 5/8/23 [Tom tat] - Gen Sang lap AI: Som bat dau, Xay dung nhanh va Tin tuong vao su vi dai — voi Sharif Shameem cua Lexica",
+          "topics": [
+            "LLM",
+            "Training",
+            "Agents",
+            "Multimodal"
+          ],
+          "title": "Latent Space Podcast 5/8/23 [Summary] - The AI Founder Gene: Being Early, Building Fast, and Believing in Greatness — with Sharif Shameem of Lexica",
           "slug": "latent-space-podcast-5-8-23-summary-the-ai-founder-gene-being-early-building-fast",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:52:09+01:00",
-          "description": "Tap 11 voi Sharif Shameem cua Lexica: Tim hieu tu duy cua nha sang lap AI, kham pha bi quyet de tien phong doi moi, xay dung cong nghe thay doi cuoc choi, dao tao mo hinh, va tiem nang thu vi cua Tac nhan va giai trinh tu he gen.",
+          "description": "Ep.11 with Sharif Shameem of Lexica: Dive into the AI founder mindset, uncovering the secrets to pioneering innovation, building game-changing tech, training models, and the intriguing potential of Agents and genomic sequencing. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692501984-screenshot-2023-08-19-at-11-24-05-pm.png"
           },
@@ -2461,20 +2773,23 @@
       ]
     },
     {
-      "name": "Du lieu co cau truc",
+      "name": "Structured Data",
       "slug": "structured data",
       "articles": [
         {
           "id": "190260597",
-          "topics": ["LLM", "Du lieu co cau truc"],
-          "title": "Podcast Khong gian an 15/5/23 [Tom tat] - Dam bao chat luong va cau truc trong dau ra LLM - voi Shreya Rajpal cua Guardrails AI",
+          "topics": [
+            "LLM",
+            "Structured Data"
+          ],
+          "title": "Latent Space Podcast 5/15/23 [Summary] - Guaranteed quality and structure in LLM outputs - with Shreya Rajpal of Guardrails AI",
           "slug": "latent-space-podcast-5-15-23-summary-guaranteed-quality-and-structure-in-llm-outp",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:56:26+01:00",
-          "description": "Kham pha Tap 12 voi Shreya Rajpal cua Guardrails AI: Di sau vao viec xac thuc dau ra LLM, tinh chinh cau tra loi thong qua vong lap hoi lai, va thiet lap SLA cho cac mo hinh. Lam chu nhung sac thai cua dam bao chat luong AI.",
+          "description": "Explore Ep. 12 with Shreya Rajpal of Guardrails AI: Dive deep into validating LLM outputs, refining answers through re-asking loops, and establishing SLAs for models. Master the nuances of AI quality assurance.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692495732-screenshot-2023-08-19-at-9-38-27-pm.png"
           },
@@ -2495,20 +2810,25 @@
       ]
     },
     {
-      "name": "Da phuong thuc",
+      "name": "Multimodal",
       "slug": "multimodal",
       "articles": [
         {
           "id": "190260606",
-          "topics": ["LLM", "Dao tao", "Tac nhan", "Da phuong thuc"],
-          "title": "Podcast Khong gian an 5/8/23 [Tom tat] - Gen Sang lap AI: Som bat dau, Xay dung nhanh va Tin tuong vao su vi dai — voi Sharif Shameem cua Lexica",
+          "topics": [
+            "LLM",
+            "Training",
+            "Agents",
+            "Multimodal"
+          ],
+          "title": "Latent Space Podcast 5/8/23 [Summary] - The AI Founder Gene: Being Early, Building Fast, and Believing in Greatness — with Sharif Shameem of Lexica",
           "slug": "latent-space-podcast-5-8-23-summary-the-ai-founder-gene-being-early-building-fast",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:52:09+01:00",
-          "description": "Tap 11 voi Sharif Shameem cua Lexica: Tim hieu tu duy cua nha sang lap AI, kham pha bi quyet de tien phong doi moi, xay dung cong nghe thay doi cuoc choi, dao tao mo hinh, va tiem nang thu vi cua Tac nhan va giai trinh tu he gen.",
+          "description": "Ep.11 with Sharif Shameem of Lexica: Dive into the AI founder mindset, uncovering the secrets to pioneering innovation, building game-changing tech, training models, and the intriguing potential of Agents and genomic sequencing. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1692501984-screenshot-2023-08-19-at-11-24-05-pm.png"
           },
@@ -2529,20 +2849,24 @@
       ]
     },
     {
-      "name": "Doanh nghiep",
+      "name": "Enterprise",
       "slug": "enterprise",
       "articles": [
         {
           "id": "191164291",
-          "topics": ["LLM", "Doanh nghiep", "Tom tat"],
-          "title": "Podcast Latent Space 21/4/23 [Tom tat] - Tim kiem ho tro AI cho Doanh nghiep — voi Deedy Das tu Glean",
+          "topics": [
+            "LLM",
+            "Enterprise",
+            "Summary"
+          ],
+          "title": "Latent Space Podcast 4/21/23 [Summary] - AI-powered Search for the Enterprise — with Deedy Das of Glean",
           "slug": "latent-space-podcast-4-21-23-summary-ai-powered-search-for-the-enterprise-with",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:31:31+01:00",
-          "description": "Tap 8: Tim hieu ve AI trong tim kiem doanh nghiep cung Deedy Das tu Glean. Giai quyet thach thuc trong viec tao ra mot ga khong lo tim kiem AI, so sanh Google voi ChatGPT, su phuc tap cua co so ha tang AI, phat hien van ban do AI tao ra, va ly do tai sao doanh nghiep can nhieu hon chi la Hoi dap Tai lieu.",
+          "description": "Ep.8: Dive into AI in enterprise search with Deedy Das of Glean. Unpack challenges in creating an AI search giant, Google vs ChatGPT comparisons, AI infrastructure intricacies, spotting AI-generated text, and why businesses need more than just Document QA.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694134074-screenshot-2023-09-07-at-5-43-48-pm.png"
           },
@@ -2563,20 +2887,23 @@
       ]
     },
     {
-      "name": "Thi giac",
+      "name": "Vision",
       "slug": "vision",
       "articles": [
         {
           "id": "191165673",
-          "topics": ["Tom tat", "Thi giac"],
-          "title": "Podcast Khong gian an 13/4/23 [Tom tat] - Mo hinh Phan doan Bat ky va Nhung Van de Kho cua Thi giac May tinh — voi Joseph Nelson tu Roboflow",
+          "topics": [
+            "Summary",
+            "Vision"
+          ],
+          "title": "Latent Space Podcast 4/13/23 [Summary] - Segment Anything Model and the Hard Problems of Computer Vision — with Joseph Nelson of Roboflow",
           "slug": "latent-space-podcast-4-13-23-summary-segment-anything-model-and-the-hard-problems",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T08:30:03+01:00",
-          "description": "Kham pha Tap 7 voi Joseph Nelson ve Mo hinh Phan doan Bat ky cua Meta. Di sau vao tuong lai cua Thi giac May tinh, tam quan trong cua OCR, Phan doan Hinh anh, va hon the nua. #Roboflow #AI",
+          "description": "Explore Ep.7 with Joseph Nelson on the Segment Anything Model by Meta. Dive deep into Computer Vision's future, the significance of OCR, Image Segmentation, and beyond. #Roboflow #AI",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694150379-screenshot-2023-09-07-at-10-15-52-pm.png"
           },
@@ -2597,20 +2924,24 @@
       ]
     },
     {
-      "name": "Danh gia",
+      "name": "Evaluation",
       "slug": "evaluation",
       "articles": [
         {
           "id": "191165920",
-          "topics": ["Mo hinh ngon ngu lon", "Tom tat", "Danh gia"],
-          "title": "Podcast Khong gian an 4/6/23 [Tom tat] - Co so AI: Co ban ve tieu chuan danh gia",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Evaluation"
+          ],
+          "title": "Latent Space Podcast 4/6/23 [Summary] - AI Fundamentals: Benchmarks 101",
           "slug": "latent-space-podcast-4-6-23-summary-ai-fundamentals-benchmarks-101",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:05:35+01:00",
-          "description": "Kham pha co so AI trong 'Co ban ve tieu chuan danh gia.' Tim hieu lich su danh gia mo hinh ngon ngu lon va kham pha nhung chi tiet phuc tap dinh hinh su tien bo cua hoc may.",
+          "description": "Explore AI Fundamentals in 'Benchmarks 101.' Dive into the history of LLM Benchmarking and uncover the intricacies that shape machine learning's progress.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694154964-screenshot-2023-09-07-at-11-33-20-pm.png"
           },
@@ -2631,20 +2962,23 @@
       ]
     },
     {
-      "name": "Quan ly mo hinh ngon ngu lon",
+      "name": "LLMOps",
       "slug": "llmops",
       "articles": [
         {
           "id": "191301444",
-          "topics": ["Tom tat", "LLMOps"],
-          "title": "Podcast Khong gian an 4/6/23 [Tom tat] - Nghien cuu thuc te: Tu Google Brain den MLOps den LLMOps — voi Shreya Shankar cua UC Berkeley",
+          "topics": [
+            "Summary",
+            "LLMOps"
+          ],
+          "title": "Latent Space Podcast 4/6/23 [Summary] - Grounded Research: From Google Brain to MLOps to LLMOps — with Shreya Shankar of UC Berkeley",
           "slug": "latent-space-podcast-4-6-23-summary-grounded-research-from-google-brain-to-mlops",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:04:09+01:00",
-          "description": "Kham pha su phat trien cua MLOps voi Shreya Shankar tu Google Brain den UC Berkeley. Tim hieu ve viec ket noi phat trien va san xuat, hieu mo hinh ML nhu cac goc nhin co so du lieu doc dao. #ML #NghienCuu",
+          "description": "Explore the evolution of MLOps with Shreya Shankar from Google Brain to UC Berkeley. Dive into bridging development & production, understanding ML models as unique database views. #ML #Research",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694196657-screenshot-2023-09-08-at-11-08-10-am.png"
           },
@@ -2665,20 +2999,24 @@
       ]
     },
     {
-      "name": "Cong cu",
+      "name": "Tools",
       "slug": "tools",
       "articles": [
         {
           "id": "191310297",
-          "topics": ["Tom tat", "Mo hinh ngon ngu lon", "Cong cu"],
-          "title": "Podcast Khong gian an 23/3/23 [Tom tat] - Tap khan cap: Thoi diem App Store cua ChatGPT (voi Logan Kilpatrick cua OpenAI, Florent Crivello cua LindyAI va Nader Dabit)",
+          "topics": [
+            "Summary",
+            "LLM",
+            "Tools"
+          ],
+          "title": "Latent Space Podcast 3/23/23 [Summary] - Emergency Pod: ChatGPT's App Store Moment (w/ OpenAI's Logan Kilpatrick, LindyAI's Florent Crivello and Nader Dabit)",
           "slug": "latent-space-podcast-3-23-23-summary-emergency-pod-chatgpt-s-app-store-moment-w-o",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T07:02:01+01:00",
-          "description": "Kham pha tap 4 cua podcast khi cac chuyen gia tu OpenAI & LindyAI di sau vao Plugins ChatGPT. Tim hieu cac truong hop su dung, chien luoc kiem tien va tuong lai cua tich hop AI. #ChatGPT #AIPlugins",
+          "description": "Explore Ep.4 of the podcast as experts from OpenAI & LindyAI delve into ChatGPT Plugins. Discover use cases, monetization strategies & the future of AI integration. #ChatGPT #AIPlugins",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1694201898-screenshot-2023-09-08-at-12-31-46-pm.png"
           },
@@ -2699,20 +3037,24 @@
       ]
     },
     {
-      "name": "Nganh cong nghiep",
+      "name": "Industry",
       "slug": "industry",
       "articles": [
         {
           "id": "190259003",
-          "topics": ["LLM", "Tom tat", "Cong nghiep"],
-          "title": "McKinsey: Tiem nang kinh te cua AI tao sinh [Tom tat]",
+          "topics": [
+            "LLM",
+            "Summary",
+            "Industry"
+          ],
+          "title": "McKinsey: The economic potential of generative AI [Summary]",
           "slug": "mckinsey-the-economic-potential-of-generative-ai-eli5-summary",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:28:52+01:00",
-          "description": "Kham pha nghien cuu cua McKinsey ve suc manh bien doi cua AI tao sinh, tiem nang kinh te cua no, va tac dong cua no doi voi cong viec va nang suat trong tuong lai.",
+          "description": "Explore McKinsey's research on the transformative power of generative AI, its economic potential, and its impact on future work and productivity.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690754998-ab5-img1.png"
           },
@@ -2732,15 +3074,18 @@
         },
         {
           "id": "190258686",
-          "topics": ["Bat dau", "Nganh cong nghiep"],
-          "title": "Trao quyen cho Tuong lai: Kham pha Suc manh cua Cac Mo hinh Ngon ngu Lon trong Cac Nganh Cong nghiep",
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
+          "title": "Empowering the Future: Unfolding the Power of Large Language Models Across Industries",
           "slug": "empowering-the-future-unfolding-the-power-of-large-language-models-across-industr",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:53:06+01:00",
-          "description": "Kham pha suc manh bien doi cua Cac Mo hinh Ngon ngu Lon trong nhieu linh vuc khac nhau! Tim hieu nhung cau chuyen thanh cong, truong hop su dung va tuong lai cua AI!",
+          "description": "Explore the transformative power of Large Language Models across various sectors! Discover success stories, use cases, and the future of AI!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690344171-ab5-img1.png"
           },
@@ -2761,20 +3106,23 @@
       ]
     },
     {
-      "name": "Bat dau",
+      "name": "Getting Started",
       "slug": "getting started",
       "articles": [
         {
           "id": "190258861",
-          "topics": ["Bat dau", "Ca nhan hoa"],
-          "title": "Mo hinh ngon ngu lon: Tao trai nghiem so ca nhan hoa",
+          "topics": [
+            "Getting Started",
+            "Personalization"
+          ],
+          "title": "Large Language Models: Crafting Personalized Digital Experiences",
           "slug": "large-language-models-crafting-personalized-digital-experiences",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:06:53+01:00",
-          "description": "Khai thac tiem nang cua Mo hinh ngon ngu lon (LLM) trong viec tao trai nghiem so va de xuat noi dung sieu ca nhan hoa. Khoi dau su nghiep AI cua ban ngay hom nay!",
+          "description": "Unleash the potential of Large Language Models (LLMs) in creating hyper-personalized digital experiences and content recommendations. Ignite your AI career today!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690407851-ab10-img1.png"
           },
@@ -2794,15 +3142,18 @@
         },
         {
           "id": "190258847",
-          "topics": ["Bat dau", "Tri tue nhan tao tong quat"],
-          "title": "Nhung ga khong lo cua ngay mai: Tuong lai cua cac mo hinh ngon ngu lon va anh huong cua chung den thi truong lao dong va tri tue nhan tao tong quat",
+          "topics": [
+            "Getting Started",
+            "AGI"
+          ],
+          "title": "Tomorrow's Titans: The Future of Large Language Models and Their Influence on the Job Market and AGI",
           "slug": "tomorrow-s-titans-the-future-of-large-language-models-and-their-influence-on-the",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:05:58+01:00",
-          "description": "Kham pha tuong lai cua cac mo hinh ngon ngu lon, tac dong tiem tang cua chung den thi truong lao dong va vai tro cua chung trong hanh trinh huong toi Tri tue nhan tao tong quat.",
+          "description": "Discover the future of LLMs, their potential impacts on the job market and their role in the journey towards Artificial General Intelligence.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690406895-ab9-img1.png"
           },
@@ -2822,15 +3173,18 @@
         },
         {
           "id": "190258836",
-          "topics": ["Bat dau", "Quyen rieng tu"],
-          "title": "Bao ve Lau dai: Kham pha LLM va Bien gioi cua Quyen rieng tu Du lieu",
+          "topics": [
+            "Getting Started",
+            "Privacy"
+          ],
+          "title": "Securing the Castle: Exploring LLMs and the Frontier of Data Privacy",
           "slug": "securing-the-castle-exploring-llms-and-the-frontier-of-data-privacy",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:04:45+01:00",
-          "description": "Di sau vao the gioi cua LLM va quyen rieng tu du lieu. Kham pha nhung thach thuc va cach chung dang duoc chinh phuc, tung buoc mot.",
+          "description": "Dive deep into the world of LLMs and data privacy. Unearth the challenges and how they are being conquered, one step at a time.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690404787-ab8-img1.png"
           },
@@ -2850,15 +3204,18 @@
         },
         {
           "id": "190258732",
-          "topics": ["Bat dau", "Phap ly"],
-          "title": "Sao chep? Mo hinh ngon ngu lon, ban quyen va tinh trang dao van",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Copy That? LLMs, Copyright, and the Plagiarism Predicament",
           "slug": "copy-that-llms-copyright-and-the-plagiarism-predicament",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:54:04+01:00",
-          "description": "Kham pha su phuc tap ve cach cac Mo hinh ngon ngu lon dieu huong me cung luat ban quyen va moi de doa cua nan dao van.",
+          "description": "Unearth the intricacies of how Large Language Models navigate the labyrinth of copyright laws and the looming threat of plagiarism.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690402165-ab7-img1.png"
           },
@@ -2878,15 +3235,18 @@
         },
         {
           "id": "190258686",
-          "topics": ["Bat dau", "Nganh cong nghiep"],
-          "title": "Trao quyen cho Tuong lai: Kham pha Suc manh cua Cac Mo hinh Ngon ngu Lon trong Cac Nganh Cong nghiep",
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
+          "title": "Empowering the Future: Unfolding the Power of Large Language Models Across Industries",
           "slug": "empowering-the-future-unfolding-the-power-of-large-language-models-across-industr",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:53:06+01:00",
-          "description": "Kham pha suc manh bien doi cua Cac Mo hinh Ngon ngu Lon trong nhieu linh vuc khac nhau! Tim hieu nhung cau chuyen thanh cong, truong hop su dung va tuong lai cua AI!",
+          "description": "Explore the transformative power of Large Language Models across various sectors! Discover success stories, use cases, and the future of AI!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690344171-ab5-img1.png"
           },
@@ -2906,15 +3266,18 @@
         },
         {
           "id": "190258672",
-          "topics": ["Bat dau", "Mo hinh ngon ngu lon"],
-          "title": "Giai ma bi an cua AI: Tim hieu sau ve kien thuc va gioi han cua cac Mo hinh Ngon ngu Lon",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Decoding the Mysteries of AI: A Deep Dive into Large Language Models' Knowledge and Limitations",
           "slug": "decoding-the-mysteries-of-ai-a-deep-dive-into-large-language-models-knowledge-and",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:51:17+01:00",
-          "description": "Giai ma bi an cua cac Mo hinh Ngon ngu Lon (LLM). Hieu cach chung thu thap kien thuc, diem cat, gioi han va nhung cam bay tiem tang trong hanh trinh AI cua ban.",
+          "description": "Unravel the enigma of Large Language Models (LLMs). Understand how they acquire knowledge, their cutoffs, limits, and the potential pitfalls on your AI journey.\"",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690333798-ab4-img1.png"
           },
@@ -2934,15 +3297,18 @@
         },
         {
           "id": "190258658",
-          "topics": ["Bat dau", "Mo hinh ngon ngu lon"],
-          "title": "Lam chu nghe thuat dao tao cac mo hinh ngon ngu lon: Mot huong dan toan dien",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Mastering the Art of Training Large Language Models: A Comprehensive Guide",
           "slug": "mastering-the-art-of-training-large-language-models-a-comprehensive-guide",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:38:27+01:00",
-          "description": "Kham pha bi quyet dao tao LLM. Tim hieu nhu cau du lieu, quy trinh dao tao, thach thuc va dau an moi truong cua viec dao tao LLM.",
+          "description": "Unlock the secrets of LLM training. Discover the data needs, training process, challenges, and the environmental footprint of training LLMs.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690330651-ab3-img1.png"
           },
@@ -2962,15 +3328,18 @@
         },
         {
           "id": "190258582",
-          "topics": ["Bat dau", "Mo hinh ngon ngu lon"],
-          "title": "Giai ma LLM: Huong dan toi uu de hieu Mo hinh ngon ngu lon",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Decoding LLMs: Your Ultimate Guide to Understanding Large Language Models",
           "slug": "decoding-llms-your-ultimate-guide-to-understanding-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:29:16+01:00",
-          "description": "Tim hieu sau ve the gioi cua Mo hinh ngon ngu lon (LLM). Kham pha kien truc, co che hoc tap va suc manh cua cac bo bien doi. Bat dau hanh trinh su nghiep AI cua ban tai day.",
+          "description": " Dive deep into the world of Large Language Models (LLMs). Uncover their architecture, learning mechanisms, and the power of transformers. Start your AI career journey here.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690247138-ab2-img1.png"
           },
@@ -2990,15 +3359,19 @@
         },
         {
           "id": "190258709",
-          "topics": ["Bat dau", "Su can chinh", "An toan"],
-          "title": "Dieu huong qua me cung dao duc: Giai ma dao duc cua cac mo hinh ngon ngu lon",
+          "topics": [
+            "Getting Started",
+            "Alignment",
+            "Safety"
+          ],
+          "title": "Navigating the Moral Maze: Unraveling the Ethics of Large Language Models",
           "slug": "navigating-the-moral-maze-unraveling-the-ethics-of-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:27:55+01:00",
-          "description": "Bat dau hanh trinh qua canh quan phuc tap cua dao duc AI. Kham pha cach thien kien xam nhap vao LLM va tim hieu cac buoc dang duoc thuc hien de dam bao su dung co trach nhiem.",
+          "description": "Embark on a journey through the complex landscape of AI ethics. Discover how bias infiltrates LLMs and learn the steps being taken to ensure responsible usage.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690399140-ab6-img1.png"
           },
@@ -3018,15 +3391,18 @@
         },
         {
           "id": "190258905",
-          "topics": ["Bat dau", "Mo hinh ngon ngu lon"],
-          "title": "Lam chu nghe thuat cua Mo hinh ngon ngu lon: Huong dan thuc te de trien khai cac Mo hinh ngon ngu lon",
+          "topics": [
+            "Getting Started",
+            "LLM"
+          ],
+          "title": "Mastering the Art of LLMs: A Practical Guide to Implementing Large Language Models",
           "slug": "mastering-the-art-of-llms-a-practical-guide-to-implementing-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:25:37+01:00",
-          "description": "Mo khoa suc manh cua AI! Kham pha the gioi cua cac Mo hinh ngon ngu lon, tim hieu cac nen tang pho bien, va hoc cac phuong phap tot nhat de tang cuong ung dung cua ban voi Mo hinh ngon ngu lon.",
+          "description": "Unlock the power of AI! Navigate the world of Large Language Models, explore popular platforms, and learn best practices to fuel your applications with LLMs.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690421600-ab11-img1.png"
           },
@@ -3046,15 +3422,17 @@
         },
         {
           "id": "190258562",
-          "topics": ["Bat dau"],
-          "title": "Lam chu AI: Gioi thieu toan dien ve Mo hinh Ngon ngu Lon (LLM)",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "Mastering AI: A Comprehensive Introduction to Large Language Models (LLMs)",
           "slug": "mastering-ai-a-comprehensive-introduction-to-large-language-models-llms",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:24:02+01:00",
-          "description": "Khoi dau su nghiep AI cua ban voi huong dan chi tiet ve LLM. Tim hieu ve lich su, tinh doc dao va tiem nang tuong lai cua chung trong linh vuc dang phat trien nay.",
+          "description": "Kickstart your AI career with our detailed guide to LLMs. Learn about their history, uniqueness, and future potential in this evolving field.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690162707-ab-img1a.png"
           },
@@ -3075,20 +3453,23 @@
       ]
     },
     {
-      "name": "Ca nhan hoa",
+      "name": "Personalization",
       "slug": "personalization",
       "articles": [
         {
           "id": "190258861",
-          "topics": ["Bat dau", "Ca nhan hoa"],
-          "title": "Mo hinh ngon ngu lon: Tao trai nghiem so ca nhan hoa",
+          "topics": [
+            "Getting Started",
+            "Personalization"
+          ],
+          "title": "Large Language Models: Crafting Personalized Digital Experiences",
           "slug": "large-language-models-crafting-personalized-digital-experiences",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:06:53+01:00",
-          "description": "Khai thac tiem nang cua Mo hinh ngon ngu lon (LLM) trong viec tao trai nghiem so va de xuat noi dung sieu ca nhan hoa. Khoi dau su nghiep AI cua ban ngay hom nay!",
+          "description": "Unleash the potential of Large Language Models (LLMs) in creating hyper-personalized digital experiences and content recommendations. Ignite your AI career today!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690407851-ab10-img1.png"
           },
@@ -3109,20 +3490,23 @@
       ]
     },
     {
-      "name": "Tri tue nhan tao tong quat",
+      "name": "AGI",
       "slug": "agi",
       "articles": [
         {
           "id": "190258847",
-          "topics": ["Bat dau", "Tri tue nhan tao tong quat"],
-          "title": "Nhung ga khong lo cua ngay mai: Tuong lai cua cac mo hinh ngon ngu lon va anh huong cua chung den thi truong lao dong va tri tue nhan tao tong quat",
+          "topics": [
+            "Getting Started",
+            "AGI"
+          ],
+          "title": "Tomorrow's Titans: The Future of Large Language Models and Their Influence on the Job Market and AGI",
           "slug": "tomorrow-s-titans-the-future-of-large-language-models-and-their-influence-on-the",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:05:58+01:00",
-          "description": "Kham pha tuong lai cua cac mo hinh ngon ngu lon, tac dong tiem tang cua chung den thi truong lao dong va vai tro cua chung trong hanh trinh huong toi Tri tue nhan tao tong quat.",
+          "description": "Discover the future of LLMs, their potential impacts on the job market and their role in the journey towards Artificial General Intelligence.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690406895-ab9-img1.png"
           },
@@ -3143,20 +3527,23 @@
       ]
     },
     {
-      "name": "Quyen rieng tu",
+      "name": "Privacy",
       "slug": "privacy",
       "articles": [
         {
           "id": "190258836",
-          "topics": ["Bat dau", "Quyen rieng tu"],
-          "title": "Bao ve Lau dai: Kham pha LLM va Bien gioi cua Quyen rieng tu Du lieu",
+          "topics": [
+            "Getting Started",
+            "Privacy"
+          ],
+          "title": "Securing the Castle: Exploring LLMs and the Frontier of Data Privacy",
           "slug": "securing-the-castle-exploring-llms-and-the-frontier-of-data-privacy",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T06:04:45+01:00",
-          "description": "Di sau vao the gioi cua LLM va quyen rieng tu du lieu. Kham pha nhung thach thuc va cach chung dang duoc chinh phuc, tung buoc mot.",
+          "description": "Dive deep into the world of LLMs and data privacy. Unearth the challenges and how they are being conquered, one step at a time.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690404787-ab8-img1.png"
           },
@@ -3177,20 +3564,23 @@
       ]
     },
     {
-      "name": "Phap ly",
+      "name": "Legal",
       "slug": "legal",
       "articles": [
         {
           "id": "190258732",
-          "topics": ["Bat dau", "Phap ly"],
-          "title": "Sao chep? Mo hinh ngon ngu lon, ban quyen va tinh trang dao van",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Copy That? LLMs, Copyright, and the Plagiarism Predicament",
           "slug": "copy-that-llms-copyright-and-the-plagiarism-predicament",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:54:04+01:00",
-          "description": "Kham pha su phuc tap ve cach cac Mo hinh ngon ngu lon dieu huong me cung luat ban quyen va moi de doa cua nan dao van.",
+          "description": "Unearth the intricacies of how Large Language Models navigate the labyrinth of copyright laws and the looming threat of plagiarism.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690402165-ab7-img1.png"
           },
@@ -3211,20 +3601,24 @@
       ]
     },
     {
-      "name": "Su phu hop",
+      "name": "Alignment",
       "slug": "alignment",
       "articles": [
         {
           "id": "190258709",
-          "topics": ["Bat dau", "Su can chinh", "An toan"],
-          "title": "Dieu huong qua me cung dao duc: Giai ma dao duc cua cac mo hinh ngon ngu lon",
+          "topics": [
+            "Getting Started",
+            "Alignment",
+            "Safety"
+          ],
+          "title": "Navigating the Moral Maze: Unraveling the Ethics of Large Language Models",
           "slug": "navigating-the-moral-maze-unraveling-the-ethics-of-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:27:55+01:00",
-          "description": "Bat dau hanh trinh qua canh quan phuc tap cua dao duc AI. Kham pha cach thien kien xam nhap vao LLM va tim hieu cac buoc dang duoc thuc hien de dam bao su dung co trach nhiem.",
+          "description": "Embark on a journey through the complex landscape of AI ethics. Discover how bias infiltrates LLMs and learn the steps being taken to ensure responsible usage.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690399140-ab6-img1.png"
           },
@@ -3245,20 +3639,24 @@
       ]
     },
     {
-      "name": "An toan",
+      "name": "Safety",
       "slug": "safety",
       "articles": [
         {
           "id": "190258709",
-          "topics": ["Bat dau", "Su can chinh", "An toan"],
-          "title": "Dieu huong qua me cung dao duc: Giai ma dao duc cua cac mo hinh ngon ngu lon",
+          "topics": [
+            "Getting Started",
+            "Alignment",
+            "Safety"
+          ],
+          "title": "Navigating the Moral Maze: Unraveling the Ethics of Large Language Models",
           "slug": "navigating-the-moral-maze-unraveling-the-ethics-of-large-language-models",
           "authorName": "Prof. Otto Nomos",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
           },
           "_publishedAt": "2023-10-05T05:27:55+01:00",
-          "description": "Bat dau hanh trinh qua canh quan phuc tap cua dao duc AI. Kham pha cach thien kien xam nhap vao LLM va tim hieu cac buoc dang duoc thuc hien de dam bao su dung co trach nhiem.",
+          "description": "Embark on a journey through the complex landscape of AI ethics. Discover how bias infiltrates LLMs and learn the steps being taken to ensure responsible usage.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690399140-ab6-img1.png"
           },
@@ -3286,8 +3684,8 @@
       "title": "AI | Bitcash Blog",
       "twitterCard": "summary_large_image"
     },
-    "description": "Tri tue, Duoc tai tao.",
-    "title": "Tri tue nhan tao",
+    "description": "Intelligence, Reimagined.",
+    "title": "Ai",
     "seoType": "ai",
     "id": "178642405",
     "_createdAt": "2023-07-24T18:38:43+01:00"

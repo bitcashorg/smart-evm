@@ -1,0 +1,612 @@
+{
+  "relatedBlogs": [],
+  "blogContent": {
+    "id": "197990687",
+    "topics": [
+      "LLM",
+      "Healthcare",
+      "Summarization"
+    ],
+    "title": "Clinical Text Summarization: Adapting Large Language Models Can Outperform Human Experts",
+    "slug": "openproteinset-training-data-for-structural-biology-at-scale",
+    "authorName": "Prof. Otto Nomos",
+    "authorPicture": {
+      "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+    },
+    "_publishedAt": "2023-10-04T06:50:58+01:00",
+    "description": "Abstract Commentary & Rating",
+    "thumbnail": {
+      "url": "https://www.datocms-assets.com/101962/1692933540-researchpaper10.png"
+    },
+    "contentBlock": [
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Published on Sep 13"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Authors:"
+                    },
+                    {
+                      "url": "https://huggingface.co/davevanveen",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Dave Van Veen"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ","
+                    },
+                    {
+                      "url": "https://huggingface.co/cvanuden",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Cara Van Uden"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ","
+                    },
+                    {
+                      "url": "https://huggingface.co/louisblankemeier",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Louis Blankemeier"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ","
+                    },
+                    {
+                      "url": "https://huggingface.co/JB",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Jean-Benoit Delbrouck"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ","
+                    },
+                    {
+                      "url": "https://huggingface.co/asadaali",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Asad Aali"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ","
+                    },
+                    {
+                      "url": "https://huggingface.co/pogchamp",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Christian Bluethgen"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ",Anuj Pareek,Malgorzata Polacin,"
+                    },
+                    {
+                      "url": "https://huggingface.co/wwcollins",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "William Collins"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ",Neera Ahuja,"
+                    },
+                    {
+                      "url": "https://huggingface.co/cplanglotz",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Curtis P. Langlotz"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ",Jason Hom,Sergios Gatidis,John Pauly,"
+                    },
+                    {
+                      "url": "https://huggingface.co/akshaysc",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Akshay S. Chaudhari"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Abstract"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Sifting through vast textual data and summarizing key information imposes a substantial burden on how clinicians allocate their time. Although large language models (LLMs) have shown immense promise in natural language processing (NLP) tasks, their efficacy across diverse clinical summarization tasks has not yet been rigorously examined. In this work, we employ domain adaptation methods on eight LLMs, spanning six datasets and four distinct summarization tasks: radiology reports, patient questions, progress notes, and doctor-patient dialogue. Our thorough quantitative assessment reveals trade-offs between models and adaptation methods in addition to instances where recent advances in LLMs may not lead to improved results. Further, in a clinical reader study with six physicians, we depict that summaries from the best adapted LLM are preferable to human summaries in terms of completeness and correctness. Our ensuing qualitative analysis delineates mutual challenges faced by both LLMs and human experts. Lastly, we correlate traditional quantitative NLP metrics with reader study scores to enhance our understanding of how these metrics align with physician preferences. Our research marks the first evidence of LLMs outperforming human experts in clinical text summarization across multiple tasks. This implies that integrating LLMs into clinical workflows could alleviate documentation burden, empowering clinicians to focus more on personalized patient care and other irreplaceable human aspects of medicine."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "url": "https://arxiv.org/abs/2309.07430",
+                      "meta": [
+                        {
+                          "id": "rel",
+                          "value": "noreferrer"
+                        },
+                        {
+                          "id": "target",
+                          "value": "_blank"
+                        }
+                      ],
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "View arXiv page"
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://arxiv.org/pdf/2309.07430",
+                      "meta": [
+                        {
+                          "id": "rel",
+                          "value": "noreferrer"
+                        },
+                        {
+                          "id": "target",
+                          "value": "_blank"
+                        }
+                      ],
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "View PDF"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Commentary"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The paper titled \"Clinical Text Summarization: Adapting Large Language Models Can Outperform Human Experts\" delves into a significant application area of Large Language Models (LLMs) – clinical text summarization."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Takeaways:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Clinical Importance"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": The paper addresses the critical challenge of sifting through vast clinical textual data, which consumes a significant amount of clinicians' time."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Diverse Application"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": The paper explores LLMs' efficacy in summarizing four distinct types of clinical texts: radiology reports, patient questions, progress notes, and doctor-patient dialogue."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Superiority to Human Summaries"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Notably, in certain tasks, LLM-generated summaries were found preferable to human-generated ones in terms of completeness and correctness."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "In-depth Analysis"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": The research offers both a quantitative assessment of the models and a qualitative analysis that highlights challenges faced by both humans and LLMs in this domain."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Real-World Impact:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "bulleted",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Time-saving for Clinicians"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": If integrated into clinical workflows, such a tool can significantly reduce the time doctors spend on documentation, allowing them more time for actual patient care."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Improved Patient Care"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": By enabling more concise and accurate summaries of patient information, clinicians might make more informed decisions, potentially leading to better patient outcomes."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Educational Value"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": For medical students and junior doctors, such summaries can serve as effective learning aids, especially when dealing with unfamiliar cases."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Inter-departmental Communication"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Accurate summarization can aid smoother communication between different departments in a hospital, such as between radiology and surgery."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "EHR Integration"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Integration of this tool into Electronic Health Records (EHR) systems can make EHRs more user-friendly and actionable."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Challenges and considerations:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "bulleted",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Dependability"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Given the critical nature of medical data, the reliability of such summaries will be paramount. A single oversight can have significant clinical consequences."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Data Privacy"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Handling patient data brings along significant privacy and ethical considerations. Ensuring the protection of patient data will be crucial."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Generalizability"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": It remains to be seen how well such models perform across diverse patient populations and different healthcare systems."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Given the significant time and accuracy challenges clinicians face with documentation, combined with the paper's findings that LLMs can outperform human experts:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "I'd rate the real-world impact of this paper as a 10 out of 10."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The potential to transform clinical documentation processes, improve inter-departmental communication, and ultimately enhance patient care makes the findings of this paper highly impactful. However, the real-world implementation will require careful consideration of data privacy and model reliability."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "researchpaper10",
+            "height": 816,
+            "width": 1456,
+            "filename": "researchpaper10.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1692933540-researchpaper10.png"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "description": "Abstract Commentary & Rating\n",
+      "title": "Clinical Text Summarization: ... Outperform Human Experts",
+      "twitterCard": null,
+      "image": {
+        "width": 1456,
+        "height": 816,
+        "title": null,
+        "alt": null,
+        "url": "https://www.datocms-assets.com/101962/1692933540-researchpaper10.png"
+      }
+    }
+  },
+  "topics": [
+    "LLM",
+    "Healthcare",
+    "Summarization"
+  ],
+  "shortLink": ""
+}

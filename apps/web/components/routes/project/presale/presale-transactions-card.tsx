@@ -124,9 +124,12 @@ export function PresaleTransactionsCard(params: {
   )
 }
 
-function TransactionRow({ contribution }: { contribution: PresaleContribution }) {
+function TransactionRow({
+  contribution,
+}: { contribution: PresaleContribution }) {
   const chain = allChains.find(
-    (chain) => chain.id.toString() === contribution.transaction.chain_id.toString(),
+    (chain) =>
+      chain.id.toString() === contribution.transaction.chain_id.toString(),
   )
   const isEvm = chain?.chainType === 'evm'
   return (
@@ -143,7 +146,10 @@ function TransactionRow({ contribution }: { contribution: PresaleContribution })
           : 'N/A'}
       </TableCell>
 
-      <TableCell> {contribution.transaction.final ? 'Finalized' : 'Pending'}</TableCell>
+      <TableCell>
+        {' '}
+        {contribution.transaction.final ? 'Finalized' : 'Pending'}
+      </TableCell>
 
       <TableCell>
         {chain?.blockExplorers?.default ? (

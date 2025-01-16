@@ -50,14 +50,19 @@ export function Header({ lang, dict }: HeaderProps) {
   )
 }
 
-const DynamicMobileNav = dynamic(() => import('./mobile-nav').then((c) => c.MobileNav), {
-  loading: MobileNavLoader,
-  ssr: false,
-})
+const DynamicMobileNav = dynamic(
+  () => import('./mobile-nav').then((c) => c.MobileNav),
+  {
+    loading: MobileNavLoader,
+    ssr: false,
+  },
+)
 
 const DynamicSessionButton = dynamic(
   () =>
-    import('@/components/dialogs/session/session-button').then((c) => c.SessionButton),
+    import('@/components/dialogs/session/session-button').then(
+      (c) => c.SessionButton,
+    ),
   {
     loading: SessionButtonLoader,
     ssr: false,

@@ -15,7 +15,9 @@ export interface TranslationData {
 }
 
 // Function to extract text for translation
-export function extractTextForTranslation(blogData: BlogArticleRecord): TranslationData {
+export function extractTextForTranslation(
+  blogData: BlogArticleRecord,
+): TranslationData {
   return {
     title: blogData.title || '',
     description: blogData.description || '',
@@ -43,7 +45,8 @@ export function injectTextAfterTranslation(
   blogData.topics = translatedData.topics
   if (translatedData.seo) {
     blogData.seo.title = translatedData.seo.title ?? blogData.seo.title
-    blogData.seo.description = translatedData.seo.description ?? blogData.seo.description
+    blogData.seo.description =
+      translatedData.seo.description ?? blogData.seo.description
   }
   if (translatedData.contentBlock) {
     blogData.contentBlock = reconstructContentBlock(
@@ -64,13 +67,16 @@ function optimizeContentBlock(
   function extractValues(block: any): any {
     if (block.value) {
       return block.value
-    } else if (block.children) {
+    }
+    if (block.children) {
       return block.children.map(extractValues)
     }
     return ''
   }
 
-  return contentBlock.map((block) => extractValues(block.mainContent.value.document))
+  return contentBlock.map((block) =>
+    extractValues(block.mainContent.value.document),
+  )
 }
 
 function reconstructContentBlock(
@@ -80,7 +86,9 @@ function reconstructContentBlock(
   function applyTranslation(original: any, translation: any): void {
     if (original.value && translation) {
       original.value =
-        typeof translation === 'string' ? translation : translation[0] || original.value
+        typeof translation === 'string'
+          ? translation
+          : translation[0] || original.value
     } else if (original.children && Array.isArray(translation)) {
       original.children.forEach((child: any, idx: number) => {
         applyTranslation(child, translation[idx])
@@ -89,7 +97,10 @@ function reconstructContentBlock(
   }
 
   originalContentBlock.forEach((block: any, index: number) => {
-    applyTranslation(block.mainContent.value.document, translatedContentBlock[index])
+    applyTranslation(
+      block.mainContent.value.document,
+      translatedContentBlock[index],
+    )
   })
 
   return originalContentBlock

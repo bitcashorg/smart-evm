@@ -6,7 +6,9 @@
       "articles": [
         {
           "id": "SpdLuuYEQgW8rwSHNzhmxA",
-          "topics": ["应用程序"],
+          "topics": [
+            "应用程序"
+          ],
           "title": "Masterbots：通过社交分享和用户友好创新提升AI超越ChatGPT",
           "slug": "masterbots-elevating-ai-beyond-chatgpt-with-social-sharing-and-user-friendly-inno",
           "authorName": "Jun Dam",
@@ -34,7 +36,11 @@
         },
         {
           "id": "190259319",
-          "topics": ["摘要", "大型语言模型", "培训"],
+          "topics": [
+            "摘要",
+            "大型语言模型",
+            "培训"
+          ],
           "title": "潜在空间播客 8/16/23 [摘要] - 与Eleuther AI的Quentin Anthony一起探讨训练大型语言模型的数学",
           "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
           "authorName": "Prof. Otto Nomos",
@@ -62,7 +68,12 @@
         },
         {
           "id": "190259129",
-          "topics": ["LLM", "硬件", "摘要", "边缘"],
+          "topics": [
+            "LLM",
+            "硬件",
+            "摘要",
+            "边缘"
+          ],
           "title": "潜在空间播客 8/10/23 [摘要]: LLM无处不在：在浏览器和iPhone上运行70B模型，使用MLC — 与CMU / OctoML的陈天奇",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
@@ -90,7 +101,13 @@
         },
         {
           "id": "190259087",
-          "topics": ["摘要", "大型语言模型", "代码", "开源", "小型模型"],
+          "topics": [
+            "摘要",
+            "大型语言模型",
+            "代码",
+            "开源",
+            "小型模型"
+          ],
           "title": "潜在空间播客 8/4/23 [摘要] 潜在空间 x AI 分析交叉播客！",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
@@ -118,7 +135,12 @@
         },
         {
           "id": "190259111",
-          "topics": ["摘要", "变压器", "培训", "开源"],
+          "topics": [
+            "摘要",
+            "变压器",
+            "培训",
+            "开源"
+          ],
           "title": "潜在空间播客 7/26/23 [摘要] FlashAttention 2：使变压器速度提高 800% - Together AI 的 Tri Dao",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
@@ -152,7 +174,13 @@
       "articles": [
         {
           "id": "198277124",
-          "topics": ["大型语言模型", "金融", "医疗保健", "法律", "提示"],
+          "topics": [
+            "大型语言模型",
+            "金融",
+            "医疗保健",
+            "法律",
+            "提示"
+          ],
           "title": "通过阅读理解适应大型语言模型",
           "slug": "adapting-large-language-models-via-reading-comprehension",
           "authorName": "Prof. Otto Nomos",
@@ -180,7 +208,10 @@
         },
         {
           "id": "198277342",
-          "topics": ["大型语言模型", "多语种"],
+          "topics": [
+            "大型语言模型",
+            "多语种"
+          ],
           "title": "OpenBA：一个开源的150亿参数双语不对称序列到序列模型，从零开始预训练",
           "slug": "openba-an-open-sourced-15b-bilingual-asymmetric-seq2seq-model-pre-trained-from-sc",
           "authorName": "Prof. Otto Nomos",
@@ -208,7 +239,10 @@
         },
         {
           "id": "198277117",
-          "topics": ["LLM", "Retrieval"],
+          "topics": [
+            "LLM",
+            "Retrieval"
+          ],
           "title": "PDFTriage: Question Answering over Long, Structured Documents",
           "slug": "pdftriage-question-answering-over-long-structured-documents",
           "authorName": "Prof. Otto Nomos",
@@ -236,7 +270,10 @@
         },
         {
           "id": "198277138",
-          "topics": ["大型语言模型", "微调"],
+          "topics": [
+            "大型语言模型",
+            "微调"
+          ],
           "title": "排序的LLaMA：利用排序微调（SoFT）解锁大型语言模型中间层的潜力以进行动态推理",
           "slug": "sorted-llama-unlocking-the-potential-of-intermediate-layers-of-large-language-mod",
           "authorName": "Prof. Otto Nomos",
@@ -264,7 +301,11 @@
         },
         {
           "id": "198277150",
-          "topics": ["大型语言模型", "指令调整", "多模态"],
+          "topics": [
+            "大型语言模型",
+            "指令调整",
+            "多模态"
+          ],
           "title": "对规模化指令调整的大型多模态模型的实证研究",
           "slug": "an-empirical-study-of-scaling-instruct-tuned-large-multimodal-models",
           "authorName": "Prof. Otto Nomos",
@@ -293,9 +334,106 @@
       ]
     },
     {
-      "name": "News",
-      "slug": "news",
-      "articles": []
+      "name": "Bitlauncher",
+      "slug": "bitlauncher",
+      "articles": [
+        {
+          "id": "W8caLxKNTdahoemkXQT_sg",
+          "topics": [
+            "how_to",
+            "launchpad",
+            "dao"
+          ],
+          "title": "Welcome to the Bitlauncher Presale Starting September 16th!",
+          "slug": "welcome-to-the-bitlauncher-presale-starting-september-16th",
+          "authorName": "Jun Dam",
+          "authorPicture": {
+            "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
+          },
+          "_publishedAt": "2024-09-12T21:10:12+01:00",
+          "description": "Bitlauncher Presale begins September 16th, 2024, offering a unique opportunity to contribute capital in the intersection of AI and cryptocurrency. Secure your presale tokens at $1 each and be part of this transformative venture.",
+          "thumbnail": {
+            "url": "https://www.datocms-assets.com/101962/1724390484-bitlauncherpresale2.jpg"
+          },
+          "contentBlock": [],
+          "seo": {
+            "description": "Bitlauncher Presale starts September 16th, 2024. Join the AI-crypto revolution by securing presale tokens at $1 each.",
+            "title": "Bitlauncher Presale Starting September 16th!",
+            "twitterCard": "summary_large_image",
+            "image": {
+              "width": 1312,
+              "height": 736,
+              "title": null,
+              "alt": null,
+              "url": "https://www.datocms-assets.com/101962/1724390484-bitlauncherpresale2.jpg"
+            }
+          }
+        },
+        {
+          "id": "TBAOoPr9SPihQxeeKTGUQw",
+          "topics": [
+            "launchpad",
+            "investment",
+            "fundraising"
+          ],
+          "title": "What is a Public Token Presale?",
+          "slug": "what-is-a-public-token-presale",
+          "authorName": "Jun Dam",
+          "authorPicture": {
+            "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
+          },
+          "_publishedAt": "2024-08-27T05:32:23+01:00",
+          "description": "Public token presales provide early investment chances at fixed prices before main sales. They help projects raise pre-launch funds, gauge interest, and build community, offering potential benefits for participants.",
+          "thumbnail": {
+            "url": "https://www.datocms-assets.com/101962/1724733057-pre-sale-bitlauncher-blog.png"
+          },
+          "contentBlock": [],
+          "seo": {
+            "description": "Public token presales offer early investment opportunities before main sale, helping projects raise pre-launch capital.",
+            "title": "What is a Public Token Presale?",
+            "twitterCard": "summary_large_image",
+            "image": {
+              "width": 1312,
+              "height": 736,
+              "title": null,
+              "alt": null,
+              "url": "https://www.datocms-assets.com/101962/1724733057-pre-sale-bitlauncher-blog.png"
+            }
+          }
+        },
+        {
+          "id": "ecAGoOkaROa09DcoVKyOCA",
+          "topics": [
+            "dao",
+            "analysis",
+            "launchpad"
+          ],
+          "title": "What is the Bitlauncher ($BL) Token?",
+          "slug": "what-is-the-bitlauncher-bl-token",
+          "authorName": "Jun Dam",
+          "authorPicture": {
+            "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
+          },
+          "_publishedAt": "2024-08-27T05:06:47+01:00",
+          "description": "Bitlauncher's public token presale offers early investment opportunities in AI and blockchain projects. Secure tokens at $1 each, contribute to pre-launch funding, and join the growing community.",
+          "thumbnail": {
+            "url": "https://www.datocms-assets.com/101962/1724389825-whatisbltoken1.webp"
+          },
+          "contentBlock": [],
+          "seo": {
+            "description": "Bitlauncher ($BL) token: Powering the AI-focused launchpad, enabling governance, transactions, and ecosystem growth.",
+            "title": "What is the Bitlauncher ($BL) Token?",
+            "twitterCard": "summary_large_image",
+            "image": {
+              "width": 1797,
+              "height": 603,
+              "title": null,
+              "alt": null,
+              "url": "https://www.datocms-assets.com/101962/1724356923-bl-thumbnail.png"
+            }
+          }
+        }
+      ]
     },
     {
       "name": "Bitcash",
@@ -303,7 +441,9 @@
       "articles": [
         {
           "id": "CD89KaoLSh6nQbiMhxX0EQ",
-          "topics": ["发射台"],
+          "topics": [
+            "发射台"
+          ],
           "title": "确保信任和完整性：监管合规与安全措施",
           "slug": "ensuring-trust-and-integrity-regulatory-compliance-and-security-measures",
           "authorName": "Jun Dam",
@@ -331,7 +471,9 @@
         },
         {
           "id": "H_DP7HFORBuw9rID5Jkhhw",
-          "topics": ["如何"],
+          "topics": [
+            "如何"
+          ],
           "title": "如何注册并完成Bitcash的KYC",
           "slug": "how-to-register-and-kyc-to-bitcash",
           "authorName": "Roberto \"Andler\" Lucas",
@@ -359,7 +501,9 @@
         },
         {
           "id": "fbM-UqrYQXGhw6HB4C6swQ",
-          "topics": ["发射台"],
+          "topics": [
+            "发射台"
+          ],
           "title": "战略路线图：开创区块链创新与AI初创公司成功",
           "slug": "strategic-roadmap-pioneering-blockchain-innovation-and-ai-startup-success",
           "authorName": "Jun Dam",
@@ -387,7 +531,9 @@
         },
         {
           "id": "I4jShMnWRruvJgDbrucwDw",
-          "topics": ["发射台"],
+          "topics": [
+            "发射台"
+          ],
           "title": "bitLauncher的技术支柱",
           "slug": "the-technological-backbone-of-bitcash-launchpad",
           "authorName": "Jun Dam",
@@ -415,7 +561,9 @@
         },
         {
           "id": "BEfgGhndSsCn5MBU89RO3A",
-          "topics": ["发射台"],
+          "topics": [
+            "发射台"
+          ],
           "title": "赋能创新：bitLauncher的愿景、使命和战略目标",
           "slug": "empowering-innovation-vision-mission-and-strategic-goals-of-bitcash-launchpad",
           "authorName": "Jun Dam",
@@ -449,7 +597,10 @@
       "articles": [
         {
           "id": "166795692",
-          "topics": ["入门", "商业与管理"],
+          "topics": [
+            "入门",
+            "商业与管理"
+          ],
           "title": "掌握现金流：创业者的终极指南",
           "slug": "mastering-cash-flow-the-ultimate-guide-for-startup-founders",
           "authorName": "Bootstrap Briggs",
@@ -477,7 +628,10 @@
         },
         {
           "id": "166788631",
-          "topics": ["入门", "商业与管理"],
+          "topics": [
+            "入门",
+            "商业与管理"
+          ],
           "title": "初创企业智能预算编制：构建坚实财务基础的分步指南",
           "slug": "smart-budgeting-for-startups-a-step-by-step-guide-to-building-a-strong-financial",
           "authorName": "Bootstrap Briggs",
@@ -505,7 +659,10 @@
         },
         {
           "id": "165816954",
-          "topics": ["入门", "团队与人力资源"],
+          "topics": [
+            "入门",
+            "团队与人力资源"
+          ],
           "title": "组建梦之队：组建您的创业团队的终极指南",
           "slug": "building-a-dream-team-the-ultimate-guide-to-assembling-your-startup-squad",
           "authorName": "Bootstrap Briggs",
@@ -533,7 +690,10 @@
         },
         {
           "id": "166322203",
-          "topics": ["入门", "销售与市场"],
+          "topics": [
+            "入门",
+            "销售与市场"
+          ],
           "title": "成功蓝图：为您的初创企业制定赢销售计划指南",
           "slug": "the-blueprint-to-success-a-guide-to-crafting-a-winning-sales-plan-for-your-startu",
           "authorName": "Steve Savant",
@@ -567,7 +727,10 @@
       "articles": [
         {
           "id": "180217169",
-          "topics": ["代币经济学", "评论"],
+          "topics": [
+            "代币经济学",
+            "评论"
+          ],
           "title": "代币化激励的经济学3：代币价值不会使利益相关者保持一致[评论]",
           "slug": "economics-of-tokenized-incentives-3-token-value-won-t-align-stakeholders-commenta",
           "authorName": "Crypto Clairity",
@@ -595,7 +758,10 @@
         },
         {
           "id": "180217123",
-          "topics": ["代币经济学", "评论"],
+          "topics": [
+            "代币经济学",
+            "评论"
+          ],
           "title": "代币化激励的经济学2：选择有效的绩效指标[评论]",
           "slug": "economics-of-tokenized-incentives-2-selecting-effective-performance-metrics-comme",
           "authorName": "Crypto Clairity",
@@ -623,7 +789,10 @@
         },
         {
           "id": "180217082",
-          "topics": ["代币经济学", "评论"],
+          "topics": [
+            "代币经济学",
+            "评论"
+          ],
           "title": "代币化激励的经济学1：绩效支付简介[评论]",
           "slug": "economics-of-tokenized-incentives-1-intro-to-pay-for-performance",
           "authorName": "Crypto Clairity",
@@ -651,7 +820,10 @@
         },
         {
           "id": "180556627",
-          "topics": ["评论", "智能合约"],
+          "topics": [
+            "评论",
+            "智能合约"
+          ],
           "title": "不完整合约与区块链[评论]",
           "slug": "incomplete-contracts-and-blockchain-commentary",
           "authorName": "Crypto Clairity",
@@ -685,7 +857,11 @@
       "articles": [
         {
           "id": "165362142",
-          "topics": ["入门", "工作证明", "挖矿"],
+          "topics": [
+            "入门",
+            "工作证明",
+            "挖矿"
+          ],
           "title": "解锁比特币挖矿的力量：工作证明算法简介",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
@@ -713,7 +889,10 @@
         },
         {
           "id": "165340146",
-          "topics": ["入门", "工作量证明"],
+          "topics": [
+            "入门",
+            "工作量证明"
+          ],
           "title": "比特币的经济安全性：工作量证明如何确保网络的安全与稳定",
           "slug": "the-economic-security-of-bitcoin-how-proof-of-work-enables-a-safe-and-secure-netw",
           "authorName": "Maxi Millie",
@@ -741,7 +920,10 @@
         },
         {
           "id": "165340050",
-          "topics": ["Getting Started", "Legal"],
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
           "title": "Navigating the Legal and Regulatory Landscape of Bitcoin: Understanding the Rules and Opportunities",
           "slug": "navigating-the-legal-and-regulatory-landscape-of-bitcoin-understanding-the-rules",
           "authorName": "Maxi Millie",
@@ -769,7 +951,10 @@
         },
         {
           "id": "165337859",
-          "topics": ["入门", "安全"],
+          "topics": [
+            "入门",
+            "安全"
+          ],
           "title": "比特币存储的未来：比特币钱包和创新存储解决方案简介",
           "slug": "the-future-of-bitcoin-storage-an-introduction-to-bitcoin-wallets-and-innovative-s",
           "authorName": "Maxi Millie",
@@ -803,7 +988,10 @@
       "articles": [
         {
           "id": "174592759",
-          "topics": ["入门", "替代品"],
+          "topics": [
+            "入门",
+            "替代品"
+          ],
           "title": "释放潜力：掌握替代投资以实现投资者成功",
           "slug": "unleashing-the-potential-mastering-alternative-investments-for-contributor-success",
           "authorName": "Mister Moneybags",
@@ -831,7 +1019,10 @@
         },
         {
           "id": "175015363",
-          "topics": ["入门", "共同基金和ETFs"],
+          "topics": [
+            "入门",
+            "共同基金和ETFs"
+          ],
           "title": "揭示交易所交易基金(ETFs)的优缺点：投资者全面指南",
           "slug": "unveiling-the-pros-and-cons-of-exchange-traded-funds-etfs-a-comprehensive-guide-f",
           "authorName": "Mister Moneybags",
@@ -859,7 +1050,10 @@
         },
         {
           "id": "176002890",
-          "topics": ["入门", "风险管理"],
+          "topics": [
+            "入门",
+            "风险管理"
+          ],
           "title": "保护您的投资：全面指南，识别和避免投资欺诈",
           "slug": "shield-your-investments-a-comprehensive-guide-to-recognizing-and-avoiding-investm",
           "authorName": "Mister Moneybags",
@@ -887,7 +1081,10 @@
         },
         {
           "id": "176002763",
-          "topics": ["入门", "保险"],
+          "topics": [
+            "入门",
+            "保险"
+          ],
           "title": "保险规划101：导航人寿、残疾和长期护理保险",
           "slug": "insurance-planning-101-navigating-life-disability-and-long-term-care-insurance",
           "authorName": "Mister Moneybags",

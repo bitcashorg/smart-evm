@@ -2,73 +2,103 @@
   "relatedBlogs": [
     {
       "id": "180563903",
-      "topics": ["DAO", "摘要"],
-      "title": "投票的目的是什么？[摘要]",
+      "topics": [
+        "DAO",
+        "Summary"
+      ],
+      "title": "What is Voting For? [Summary]",
       "slug": "what-is-voting-for-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:58+01:00",
-      "description": "揭示去中心化系统中投票的本质。深入了解区块链中投票的真正目的和力量。",
+      "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
       },
       "seo": {
-        "title": "投票的目的是什么？[摘要]",
-        "description": "揭示去中心化系统中投票的本质。深入了解区块链中投票的真正目的和力量。"
+        "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
+        "title": "What is Voting For? [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
+        }
       }
     },
     {
       "id": "180563908",
-      "topics": ["DAO", "摘要"],
-      "title": "治理的目的是什么？[摘要]",
+      "topics": [
+        "DAO",
+        "Summary"
+      ],
+      "title": "What is Governance For? [Summary]",
       "slug": "what-is-governance-for-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:45+01:00",
-      "description": "探索区块链系统中治理的角色和重要性。了解治理如何推动去中心化和增长。",
+      "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
       },
       "seo": {
-        "title": "治理的目的是什么？[摘要]",
-        "description": "探索区块链系统中治理的角色和重要性。了解治理如何推动去中心化和增长。"
+        "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.\n",
+        "title": "What is Governance For? [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
+        }
       }
     },
     {
       "id": "166981063",
-      "topics": ["入门", "DAO"],
-      "title": "未来已来：去中心化自治组织（DAO）的崛起",
+      "topics": [
+        "Getting Started",
+        "DAO"
+      ],
+      "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
       "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:02+01:00",
-      "description": "在我们的指南中探索去中心化自治组织（DAO）的崛起。了解商业的未来和创业机会。",
+      "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
       },
       "seo": {
-        "title": "去中心化自治组织的崛起",
-        "description": "在我们的指南中探索去中心化自治组织（DAO）的崛起。了解商业的未来和创业机会。"
+        "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
+        "title": "The Rise of Decentralized Autonomous Organizations ",
+        "twitterCard": null,
+        "image": null
       }
     }
   ],
   "blogContent": {
     "id": "166984334",
-    "topics": ["DAO", "法律"],
-    "title": "去中心化自治组织（DAOs）：用于商业和非营利目的的基本法律结构",
+    "topics": [
+      "DAO",
+      "Legal"
+    ],
+    "title": "Decentralized Autonomous Organizations (DAOs): Basic Legal Structures for Business and Non-Profit Purposes",
     "slug": "decentralized-autonomous-organizations-daos-basic-legal-structures-for-business-a",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T08:59:06+01:00",
-    "description": "了解用于商业和非营利目的的基本DAO法律结构。",
+    "description": "Discover the basic DAO legal structures for business and non-profit purposes. ",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1687384353-db2-img1.png"
     },
@@ -95,7 +125,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Decentralized Autonomous Organizations (DAOs) are innovative forms of decentralized, digital organizations that are enabled by blockchain technology. In the world of crypto and blockchain, DAOs have captured the imagination of entrepreneurs, contributors, and legal experts alike. However, when it comes to viewing DAOs legally, it's important to understand that they can be viewed as either a large general partnership or an unincorporated non-profit association."
+                      "value": "Decentralized Autonomous Organizations (DAOs) are innovative forms of decentralized, digital organizations that are enabled by blockchain technology. In the world of crypto and blockchain, DAOs have captured the imagination of entrepreneurs, investors, and legal experts alike. However, when it comes to viewing DAOs legally, it's important to understand that they can be viewed as either a large general partnership or an unincorporated non-profit association."
                     }
                   ]
                 }
@@ -128,7 +158,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "General Partnerships"
                     }
                   ]
@@ -179,7 +211,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Non-profit Associations"
                     }
                   ]
@@ -238,8 +272,8 @@
       }
     ],
     "seo": {
-      "description": "去中心化自治组织（DAOs）：探索商业和非营利目的的法律结构",
-      "title": "DAOs：探索商业和非营利的法律结构",
+      "description": "Decentralized Autonomous Organizations (DAOs): Navigating Legal Structures for Business and Non-Profit Purposes",
+      "title": "DAOs: Navigating Legal Structures for Business & Non-Profit ",
       "twitterCard": null,
       "image": {
         "width": 994,
@@ -250,5 +284,12 @@
       }
     }
   },
-  "topics": ["DAO", "法律"]
+  "topics": [
+    "DAO",
+    "Legal"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

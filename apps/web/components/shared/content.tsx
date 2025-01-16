@@ -13,7 +13,10 @@ export function PageContent({ data }: { data: PageContentData }) {
             return (
               <item.type
                 key={index}
-                className={cn(item.type === 'h1' ? 'heading' : 'heading2', 'text-center')}
+                className={cn(
+                  item.type === 'h1' ? 'heading' : 'heading2',
+                  'text-center',
+                )}
               >
                 <Balancer>
                   {item.text}

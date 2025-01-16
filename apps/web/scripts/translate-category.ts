@@ -2,15 +2,15 @@ import { type Lang, locales } from '@/dictionaries/locales'
 import { anthropicTranslate } from '@/services/anthropic'
 import type { BlogArticleRecord } from '@/services/datocms'
 
-import type { Dirent } from 'fs'
-import * as path from 'path'
+import type { Dirent } from 'node:fs'
+import * as fs from 'node:fs/promises'
+import * as path from 'node:path'
 import { promiseAllWithConcurrencyLimit } from '@/lib/utils'
-import * as fs from 'fs/promises'
 import _ from 'lodash'
 
 async function copyJsonFiles(lang: Lang): Promise<void> {
   console.log('Copying lang', lang)
-  if (lang == 'en') return
+  if (lang === 'en') return
   const sourceDir = path.join('./dictionaries/en/blog')
   const targetDir = path.join(`./dictionaries/${lang}/blog`)
 
@@ -100,7 +100,10 @@ async function processFile(
       )
       if (!seoTranslation) throw new Error('❌ seoTranslation not found')
 
-      if (seoTranslation.finishReason === 'stop' && seoTranslation.translation) {
+      if (
+        seoTranslation.finishReason === 'stop' &&
+        seoTranslation.translation
+      ) {
         const textTranslated = seoTranslation.translation
         translatedContent.pageSeo = {
           ...englishVersion.pageSeo,
@@ -121,10 +124,13 @@ async function processFile(
       lang,
     )
     if (!sectionTranslation) throw new Error('❌ sectionTranslation not found')
-    if (sectionTranslation.finishReason === 'stop' && sectionTranslation.translation) {
+    if (
+      sectionTranslation.finishReason === 'stop' &&
+      sectionTranslation.translation
+    ) {
       // console.log('🧑🏻‍💻 Section names translated!')
-      translatedSectionNames = sectionTranslation.translation.map((name: string) =>
-        name.trim(),
+      translatedSectionNames = sectionTranslation.translation.map(
+        (name: string) => name.trim(),
       )
       // console.log('translatedSectionNames', translatedSectionNames)
     } else {
@@ -132,37 +138,49 @@ async function processFile(
     }
 
     //translate sections
-    const sectionActions = englishVersion.sections.map((section, index) => async () => {
-      const newSection: Section = {
-        ...section,
-        name: translatedSectionNames[index],
-        articles: [],
-      }
-      console.log(`🧑🏻‍💻 Translting section ${newSection.name}`)
-
-      const _articles =
-        optimized.sections.find((s) => s.name === section.name)?.articles || []
-      const articleOpenAICalls = _articles.map((article) => async () => {
-        console.log(`🧑🏻‍💻 Translting ${article.title}`)
-        const articleTranslation = await anthropicTranslate(JSON.stringify(article), lang)
-        if (!articleTranslation) throw new Error('❌ articleTranslation not found')
-        if (
-          articleTranslation.finishReason === 'stop' &&
-          articleTranslation.translation
-        ) {
-          return articleTranslation.translation
-        } else {
-          throw new Error('❌ articleTranslation not found')
+    const sectionActions = englishVersion.sections.map(
+      (section, index) => async () => {
+        const newSection: Section = {
+          ...section,
+          name: translatedSectionNames[index],
+          articles: [],
         }
-      })
+        console.log(`🧑🏻‍💻 Translting section ${newSection.name}`)
 
-      // console.log('🧑🏻‍💻 Articles translating!')
-      newSection.articles = await promiseAllWithConcurrencyLimit(articleOpenAICalls, 1)
-      // console.log('🧑🏻‍💻 Articles translated!')
-      return newSection
-    })
+        const _articles =
+          optimized.sections.find((s) => s.name === section.name)?.articles ||
+          []
+        const articleOpenAICalls = _articles.map((article) => async () => {
+          console.log(`🧑🏻‍💻 Translting ${article.title}`)
+          const articleTranslation = await anthropicTranslate(
+            JSON.stringify(article),
+            lang,
+          )
+          if (!articleTranslation)
+            throw new Error('❌ articleTranslation not found')
+          if (
+            articleTranslation.finishReason === 'stop' &&
+            articleTranslation.translation
+          ) {
+            return articleTranslation.translation
+          }
+          throw new Error('❌ articleTranslation not found')
+        })
 
-    translatedContent.sections = await promiseAllWithConcurrencyLimit(sectionActions, 1)
+        // console.log('🧑🏻‍💻 Articles translating!')
+        newSection.articles = await promiseAllWithConcurrencyLimit(
+          articleOpenAICalls,
+          1,
+        )
+        // console.log('🧑🏻‍💻 Articles translated!')
+        return newSection
+      },
+    )
+
+    translatedContent.sections = await promiseAllWithConcurrencyLimit(
+      sectionActions,
+      1,
+    )
 
     await fs.writeFile(
       targetPath,
@@ -201,7 +219,9 @@ type BlogPageIndexProps = {
 
 async function processLocale(): Promise<void> {
   await promiseAllWithConcurrencyLimit(
-    locales.filter((lang) => lang !== 'en').map((lang) => () => copyJsonFiles(lang)),
+    locales
+      .filter((lang) => lang !== 'en')
+      .map((lang) => () => copyJsonFiles(lang)),
     1,
   )
 }

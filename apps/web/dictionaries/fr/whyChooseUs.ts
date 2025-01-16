@@ -1,6 +1,7 @@
 export const whyChooseUs = {
   title: 'Pourquoi nous choisir',
-  description: 'Découvrez les caractéristiques uniques qui nous distinguent des autres.',
+  description:
+    'Découvrez les caractéristiques uniques qui nous distinguent des autres.',
   features: [
     {
       icon: 'ShoppingBasket',

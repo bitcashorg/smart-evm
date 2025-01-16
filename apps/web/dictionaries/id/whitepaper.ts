@@ -353,7 +353,7 @@ export const whitepaper = {
     },
     {
       type: 'p',
-      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org',
+      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitlauncher Telegram: https://t.me/bitcash_org',
     },
     { type: 'h1', text: 'Glosarium' },
     {
@@ -363,7 +363,7 @@ export const whitepaper = {
     { type: 'h1', text: 'Kontak informasi' },
     {
       type: 'p',
-      text: 'Untuk pertanyaan lebih lanjut, dukungan, atau informasi lebih lanjut tentang platform Bitcash dan penjualan token, silakan gunakan saluran berikut untuk menghubungi kami: Dukungan Umum dan Pertanyaan: Email: support@bitcash.org Media dan Pers: Email: press@bitcash. org Dukungan Pengembang: Email: developer@bitcash.org Media Sosial: Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Perselisihan: https://discord.gg/KuR48XUxnG Youtube: https:// www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org Untuk pembaruan dan pengumuman real-time, ikuti kami di platform media sosial kami dan bergabunglah dalam diskusi komunitas kami. Kami berkomitmen terhadap transparansi dan komunikasi terbuka dan menantikan partisipasi dan masukan Anda. Jika Anda mengalami masalah apa pun atau memerlukan bantuan selama proses partisipasi atau setelahnya, tim dukungan khusus kami siap membantu Anda menyelesaikan pertanyaan Anda dengan cepat dan efisien.',
+      text: 'Untuk pertanyaan lebih lanjut, dukungan, atau informasi lebih lanjut tentang platform Bitcash dan penjualan token, silakan gunakan saluran berikut untuk menghubungi kami: Dukungan Umum dan Pertanyaan: Email: support@bitcash.org Media dan Pers: Email: press@bitcash. org Dukungan Pengembang: Email: developer@bitcash.org Media Sosial: Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Perselisihan: https://discord.gg/KuR48XUxnG Youtube: https:// www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org Untuk pembaruan dan pengumuman real-time, ikuti kami di platform media sosial kami dan bergabunglah dalam diskusi komunitas kami. Kami berkomitmen terhadap transparansi dan komunikasi terbuka dan menantikan partisipasi dan masukan Anda. Jika Anda mengalami masalah apa pun atau memerlukan bantuan selama proses partisipasi atau setelahnya, tim dukungan khusus kami siap membantu Anda menyelesaikan pertanyaan Anda dengan cepat dan efisien.',
     },
   ] as PageContentData,
 }

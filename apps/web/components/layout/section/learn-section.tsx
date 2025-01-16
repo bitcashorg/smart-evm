@@ -96,7 +96,10 @@ const content = {
         "A good place to start is: what is Bitlauncher? (We'll give you the brief version). Bitlauncher is a platform that connects young projects with early community members through initial decentralized offerings (IDOS). It provides a unique opportunity for contributors to engage with up-and-coming tech innovations.",
         'By participating in an IDO on Bitlauncher, users can gain early access to tokens from new blockchain projects. This early access can potentially lead to significant benefits if the projects grow in value and popularity. Bitlauncher aims to democratize the investment process, making it accessible to a broader audience.',
       ],
-      images: ['/images/home/platform-circles.webp', '/images/home/platform-circles.png'],
+      images: [
+        '/images/home/platform-circles.webp',
+        '/images/home/platform-circles.png',
+      ],
       articleLink:
         '/blog/bitlauncher/welcome-to-the-bitlauncher-presale-starting-august-31st',
     },

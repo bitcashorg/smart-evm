@@ -24,8 +24,6 @@
   "devDependencies": {
     "@genql/cli": "^6.0.0",
     "genql": "^2.0.1",
-    "prettier-config": "*",
-    "tsconfig": "*",
     "tsup": "^8.2.4",
     "typescript": "^5.1.3"
   }

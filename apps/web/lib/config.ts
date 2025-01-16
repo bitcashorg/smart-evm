@@ -2,6 +2,8 @@ import { loadEnvConfig } from '@repo/config'
 
 const appEnv = process.env.NEXT_PUBLIC_APP_ENV || 'dev'
 
+export const AVAILABLE_LANGS = ['en', 'es', 'pt', 'fr', 'vi', 'ko', 'zh']
+
 export const appConfig = {
   env: appEnv,
   ...loadEnvConfig(appEnv),
@@ -14,10 +16,12 @@ export const appConfig = {
   },
   analytics: {
     google: {
-      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION_TOKEN || '',
+      siteVerification:
+        process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION_TOKEN || '',
     },
     pinterest: {
-      domainVerification: process.env.NEXT_PUBLIC_PINTEREST_DOMAIN_VERIFICATION_TOKEN || '',
+      domainVerification:
+        process.env.NEXT_PUBLIC_PINTEREST_DOMAIN_VERIFICATION_TOKEN || '',
     },
     multibase: {
       key: process.env.NEXT_PUBLIC_MULTIBASE_API_KEY,
@@ -30,7 +34,6 @@ export const appConfig = {
     sections: process.env.NEXT_PUBLIC_NEW_SECTIONS === 'true',
     learn: process.env.NEXT_PUBLIC_LEARN_SECTION === 'true',
     i18n: process.env.NEXT_PUBLIC_NEW_I18N === 'true',
-    explorations: process.env.NEXT_PUBLIC_EXPLORATIONS === 'true',
     auction: process.env.NEXT_PUBLIC_FEAT_AUCTION === 'true',
   },
   datocms: {

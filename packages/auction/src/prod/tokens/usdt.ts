@@ -1,4 +1,4 @@
-import { erc20Abi } from 'abitype/abis'
+import { erc20Abi } from 'viem'
 import { arbitrum, avalanche, bsc, fantom, gnosis, polygon } from 'viem/chains'
 import type { EVMTokenContractData } from '../../types'
 

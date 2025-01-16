@@ -102,7 +102,9 @@ export async function upsertPresaleDeposits({
   return true
 }
 
-export async function insertTransaction(transaction: TablesInsert<'transaction'>) {
+export async function insertTransaction(
+  transaction: TablesInsert<'transaction'>,
+) {
   const result = await supabase.from('transaction').insert(transaction).select()
   if (!result) {
     console.error('Error inserting transaction:', transaction)
@@ -210,7 +212,9 @@ export async function getPresaleData({ projectId }: { projectId: number }) {
     throw error
   }
 
-  return data as Tables<'presale'> & { presale_address: Tables<'presale_address'>[] }
+  return data as Tables<'presale'> & {
+    presale_address: Tables<'presale_address'>[]
+  }
 }
 
 export async function getWhitelistedAddress(account: string) {

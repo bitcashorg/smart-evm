@@ -2,6 +2,82 @@ import * as graphql from 'graphql';
 import * as graphql_ws from 'graphql-ws';
 import { UInt64, ExtendedAsset, Asset } from '@wharfkit/antelope';
 
+interface ExecutionResult<TData = {
+    [key: string]: any;
+}> {
+    errors?: Array<Error>;
+    data?: TData | null;
+}
+
+interface GraphqlOperation {
+    query: string;
+    variables?: {
+        [name: string]: any;
+    };
+    operationName?: string;
+}
+
+type BatchOptions = {
+    batchInterval?: number;
+    maxBatchSize?: number;
+};
+
+type Headers = HeadersInit | (() => HeadersInit) | (() => Promise<HeadersInit>);
+type BaseFetcher = (operation: GraphqlOperation | GraphqlOperation[]) => Promise<ExecutionResult | ExecutionResult[]>;
+type ClientOptions = Omit<RequestInit, 'body' | 'headers'> & {
+    url?: string;
+    batch?: BatchOptions | boolean;
+    fetcher?: BaseFetcher;
+    fetch?: Function;
+    headers?: Headers;
+};
+
+type FieldsSelection<SRC extends Anify<DST> | undefined, DST> = {
+    scalar: SRC;
+    union: Handle__isUnion<SRC, DST>;
+    object: HandleObject<SRC, DST>;
+    array: SRC extends Nil ? never : SRC extends (infer T)[] ? Array<FieldsSelection<T, DST>> : never;
+    __scalar: Handle__scalar<SRC, DST>;
+    never: never;
+}[DST extends Nil ? 'never' : DST extends false | 0 ? 'never' : SRC extends Scalar ? 'scalar' : SRC extends any[] ? 'array' : SRC extends {
+    __isUnion?: any;
+} ? 'union' : DST extends {
+    __scalar?: any;
+} ? '__scalar' : DST extends {} ? 'object' : 'never'];
+type HandleObject<SRC extends Anify<DST>, DST> = SRC extends Nil ? never : Pick<{
+    [Key in keyof SRC]: Key extends keyof DST ? FieldsSelection<SRC[Key], NonNullable<DST[Key]>> : SRC[Key];
+}, Exclude<keyof DST, FieldsToRemove>>;
+type Handle__scalar<SRC extends Anify<DST>, DST> = SRC extends Nil ? never : Pick<{
+    [Key in keyof SRC]: Key extends keyof DST ? FieldsSelection<SRC[Key], DST[Key]> : SRC[Key];
+}, {
+    [Key in keyof SRC]: SRC[Key] extends Nil ? never : Key extends FieldsToRemove ? never : SRC[Key] extends Scalar ? Key : Key extends keyof DST ? Key : never;
+}[keyof SRC]>;
+type Handle__isUnion<SRC extends Anify<DST>, DST> = SRC extends Nil ? never : Omit<SRC, FieldsToRemove>;
+type Scalar = string | number | Date | boolean | null | undefined;
+type Anify<T> = {
+    [P in keyof T]?: any;
+};
+type FieldsToRemove = '__isUnion' | '__scalar' | '__name' | '__args';
+type Nil = undefined | null;
+
+declare class GenqlError extends Error {
+    errors: Array<GraphqlError>;
+    /**
+     * Partial data returned by the server
+     */
+    data?: any;
+    constructor(errors: any[], data: any);
+}
+interface GraphqlError {
+    message: string;
+    locations?: Array<{
+        line: number;
+        column: number;
+    }>;
+    path?: string[];
+    extensions?: Record<string, any>;
+}
+
 type Scalars = {
     Boolean: boolean;
     Float: number;
@@ -13,74 +89,74 @@ type Scalars = {
 };
 /** columns and relationships of "actions" */
 interface actions {
-    account_disk_deltas: (Scalars['jsonb'] | null);
-    account_ram_deltas: (Scalars['jsonb'] | null);
+    account_disk_deltas: Scalars['jsonb'] | null;
+    account_ram_deltas: Scalars['jsonb'] | null;
     action: Scalars['String'];
     action_ordinal: Scalars['Int'];
     authorization: Scalars['jsonb'];
     chain: Scalars['String'];
-    console: (Scalars['String'] | null);
-    context_free: (Scalars['Boolean'] | null);
+    console: Scalars['String'] | null;
+    context_free: Scalars['Boolean'] | null;
     contract: Scalars['String'];
     data: Scalars['jsonb'];
     global_sequence: Scalars['String'];
-    receipt: (Scalars['jsonb'] | null);
-    receiver: (Scalars['String'] | null);
+    receipt: Scalars['jsonb'] | null;
+    receiver: Scalars['String'] | null;
     /** An object relationship */
-    transaction: (transactions | null);
+    transaction: transactions | null;
     transaction_id: Scalars['String'];
     __typename: 'actions';
 }
 /** aggregated selection of "actions" */
 interface actions_aggregate {
-    aggregate: (actions_aggregate_fields | null);
+    aggregate: actions_aggregate_fields | null;
     nodes: actions[];
     __typename: 'actions_aggregate';
 }
 /** aggregate fields of "actions" */
 interface actions_aggregate_fields {
-    avg: (actions_avg_fields | null);
+    avg: actions_avg_fields | null;
     count: Scalars['Int'];
-    max: (actions_max_fields | null);
-    min: (actions_min_fields | null);
-    stddev: (actions_stddev_fields | null);
-    stddev_pop: (actions_stddev_pop_fields | null);
-    stddev_samp: (actions_stddev_samp_fields | null);
-    sum: (actions_sum_fields | null);
-    var_pop: (actions_var_pop_fields | null);
-    var_samp: (actions_var_samp_fields | null);
-    variance: (actions_variance_fields | null);
+    max: actions_max_fields | null;
+    min: actions_min_fields | null;
+    stddev: actions_stddev_fields | null;
+    stddev_pop: actions_stddev_pop_fields | null;
+    stddev_samp: actions_stddev_samp_fields | null;
+    sum: actions_sum_fields | null;
+    var_pop: actions_var_pop_fields | null;
+    var_samp: actions_var_samp_fields | null;
+    variance: actions_variance_fields | null;
     __typename: 'actions_aggregate_fields';
 }
 /** aggregate avg on columns */
 interface actions_avg_fields {
-    action_ordinal: (Scalars['Float'] | null);
+    action_ordinal: Scalars['Float'] | null;
     __typename: 'actions_avg_fields';
 }
 /** unique or primary key constraints on table "actions" */
 type actions_constraint = 'actions_pkey';
 /** aggregate max on columns */
 interface actions_max_fields {
-    action: (Scalars['String'] | null);
-    action_ordinal: (Scalars['Int'] | null);
-    chain: (Scalars['String'] | null);
-    console: (Scalars['String'] | null);
-    contract: (Scalars['String'] | null);
-    global_sequence: (Scalars['String'] | null);
-    receiver: (Scalars['String'] | null);
-    transaction_id: (Scalars['String'] | null);
+    action: Scalars['String'] | null;
+    action_ordinal: Scalars['Int'] | null;
+    chain: Scalars['String'] | null;
+    console: Scalars['String'] | null;
+    contract: Scalars['String'] | null;
+    global_sequence: Scalars['String'] | null;
+    receiver: Scalars['String'] | null;
+    transaction_id: Scalars['String'] | null;
     __typename: 'actions_max_fields';
 }
 /** aggregate min on columns */
 interface actions_min_fields {
-    action: (Scalars['String'] | null);
-    action_ordinal: (Scalars['Int'] | null);
-    chain: (Scalars['String'] | null);
-    console: (Scalars['String'] | null);
-    contract: (Scalars['String'] | null);
-    global_sequence: (Scalars['String'] | null);
-    receiver: (Scalars['String'] | null);
-    transaction_id: (Scalars['String'] | null);
+    action: Scalars['String'] | null;
+    action_ordinal: Scalars['Int'] | null;
+    chain: Scalars['String'] | null;
+    console: Scalars['String'] | null;
+    contract: Scalars['String'] | null;
+    global_sequence: Scalars['String'] | null;
+    receiver: Scalars['String'] | null;
+    transaction_id: Scalars['String'] | null;
     __typename: 'actions_min_fields';
 }
 /** response of any mutation on the table "actions" */
@@ -95,97 +171,97 @@ interface actions_mutation_response {
 type actions_select_column = 'account_disk_deltas' | 'account_ram_deltas' | 'action' | 'action_ordinal' | 'authorization' | 'chain' | 'console' | 'context_free' | 'contract' | 'data' | 'global_sequence' | 'receipt' | 'receiver' | 'transaction_id';
 /** aggregate stddev on columns */
 interface actions_stddev_fields {
-    action_ordinal: (Scalars['Float'] | null);
+    action_ordinal: Scalars['Float'] | null;
     __typename: 'actions_stddev_fields';
 }
 /** aggregate stddev_pop on columns */
 interface actions_stddev_pop_fields {
-    action_ordinal: (Scalars['Float'] | null);
+    action_ordinal: Scalars['Float'] | null;
     __typename: 'actions_stddev_pop_fields';
 }
 /** aggregate stddev_samp on columns */
 interface actions_stddev_samp_fields {
-    action_ordinal: (Scalars['Float'] | null);
+    action_ordinal: Scalars['Float'] | null;
     __typename: 'actions_stddev_samp_fields';
 }
 /** aggregate sum on columns */
 interface actions_sum_fields {
-    action_ordinal: (Scalars['Int'] | null);
+    action_ordinal: Scalars['Int'] | null;
     __typename: 'actions_sum_fields';
 }
 /** update columns of table "actions" */
 type actions_update_column = 'account_disk_deltas' | 'account_ram_deltas' | 'action' | 'action_ordinal' | 'authorization' | 'chain' | 'console' | 'context_free' | 'contract' | 'data' | 'global_sequence' | 'receipt' | 'receiver' | 'transaction_id';
 /** aggregate var_pop on columns */
 interface actions_var_pop_fields {
-    action_ordinal: (Scalars['Float'] | null);
+    action_ordinal: Scalars['Float'] | null;
     __typename: 'actions_var_pop_fields';
 }
 /** aggregate var_samp on columns */
 interface actions_var_samp_fields {
-    action_ordinal: (Scalars['Float'] | null);
+    action_ordinal: Scalars['Float'] | null;
     __typename: 'actions_var_samp_fields';
 }
 /** aggregate variance on columns */
 interface actions_variance_fields {
-    action_ordinal: (Scalars['Float'] | null);
+    action_ordinal: Scalars['Float'] | null;
     __typename: 'actions_variance_fields';
 }
 /** columns and relationships of "api_users" */
 interface api_users {
     account: Scalars['String'];
     api_key: Scalars['String'];
-    created_at: (Scalars['timestamptz'] | null);
-    domain_names: (Scalars['String'] | null);
+    created_at: Scalars['timestamptz'] | null;
+    domain_names: Scalars['String'] | null;
     id: Scalars['Int'];
-    updated_at: (Scalars['timestamptz'] | null);
+    updated_at: Scalars['timestamptz'] | null;
     __typename: 'api_users';
 }
 /** aggregated selection of "api_users" */
 interface api_users_aggregate {
-    aggregate: (api_users_aggregate_fields | null);
+    aggregate: api_users_aggregate_fields | null;
     nodes: api_users[];
     __typename: 'api_users_aggregate';
 }
 /** aggregate fields of "api_users" */
 interface api_users_aggregate_fields {
-    avg: (api_users_avg_fields | null);
+    avg: api_users_avg_fields | null;
     count: Scalars['Int'];
-    max: (api_users_max_fields | null);
-    min: (api_users_min_fields | null);
-    stddev: (api_users_stddev_fields | null);
-    stddev_pop: (api_users_stddev_pop_fields | null);
-    stddev_samp: (api_users_stddev_samp_fields | null);
-    sum: (api_users_sum_fields | null);
-    var_pop: (api_users_var_pop_fields | null);
-    var_samp: (api_users_var_samp_fields | null);
-    variance: (api_users_variance_fields | null);
+    max: api_users_max_fields | null;
+    min: api_users_min_fields | null;
+    stddev: api_users_stddev_fields | null;
+    stddev_pop: api_users_stddev_pop_fields | null;
+    stddev_samp: api_users_stddev_samp_fields | null;
+    sum: api_users_sum_fields | null;
+    var_pop: api_users_var_pop_fields | null;
+    var_samp: api_users_var_samp_fields | null;
+    variance: api_users_variance_fields | null;
     __typename: 'api_users_aggregate_fields';
 }
 /** aggregate avg on columns */
 interface api_users_avg_fields {
-    id: (Scalars['Float'] | null);
+    id: Scalars['Float'] | null;
     __typename: 'api_users_avg_fields';
 }
 /** unique or primary key constraints on table "api_users" */
 type api_users_constraint = 'api_users_api_key_key' | 'api_users_pkey';
 /** aggregate max on columns */
 interface api_users_max_fields {
-    account: (Scalars['String'] | null);
-    api_key: (Scalars['String'] | null);
-    created_at: (Scalars['timestamptz'] | null);
-    domain_names: (Scalars['String'] | null);
-    id: (Scalars['Int'] | null);
-    updated_at: (Scalars['timestamptz'] | null);
+    account: Scalars['String'] | null;
+    api_key: Scalars['String'] | null;
+    created_at: Scalars['timestamptz'] | null;
+    domain_names: Scalars['String'] | null;
+    id: Scalars['Int'] | null;
+    updated_at: Scalars['timestamptz'] | null;
     __typename: 'api_users_max_fields';
 }
 /** aggregate min on columns */
 interface api_users_min_fields {
-    account: (Scalars['String'] | null);
-    api_key: (Scalars['String'] | null);
-    created_at: (Scalars['timestamptz'] | null);
-    domain_names: (Scalars['String'] | null);
-    id: (Scalars['Int'] | null);
-    updated_at: (Scalars['timestamptz'] | null);
+    account: Scalars['String'] | null;
+    api_key: Scalars['String'] | null;
+    created_at: Scalars['timestamptz'] | null;
+    domain_names: Scalars['String'] | null;
+    id: Scalars['Int'] | null;
+    updated_at: Scalars['timestamptz'] | null;
     __typename: 'api_users_min_fields';
 }
 /** response of any mutation on the table "api_users" */
@@ -200,44 +276,44 @@ interface api_users_mutation_response {
 type api_users_select_column = 'account' | 'api_key' | 'created_at' | 'domain_names' | 'id' | 'updated_at';
 /** aggregate stddev on columns */
 interface api_users_stddev_fields {
-    id: (Scalars['Float'] | null);
+    id: Scalars['Float'] | null;
     __typename: 'api_users_stddev_fields';
 }
 /** aggregate stddev_pop on columns */
 interface api_users_stddev_pop_fields {
-    id: (Scalars['Float'] | null);
+    id: Scalars['Float'] | null;
     __typename: 'api_users_stddev_pop_fields';
 }
 /** aggregate stddev_samp on columns */
 interface api_users_stddev_samp_fields {
-    id: (Scalars['Float'] | null);
+    id: Scalars['Float'] | null;
     __typename: 'api_users_stddev_samp_fields';
 }
 /** aggregate sum on columns */
 interface api_users_sum_fields {
-    id: (Scalars['Int'] | null);
+    id: Scalars['Int'] | null;
     __typename: 'api_users_sum_fields';
 }
 /** update columns of table "api_users" */
 type api_users_update_column = 'account' | 'api_key' | 'created_at' | 'domain_names' | 'id' | 'updated_at';
 /** aggregate var_pop on columns */
 interface api_users_var_pop_fields {
-    id: (Scalars['Float'] | null);
+    id: Scalars['Float'] | null;
     __typename: 'api_users_var_pop_fields';
 }
 /** aggregate var_samp on columns */
 interface api_users_var_samp_fields {
-    id: (Scalars['Float'] | null);
+    id: Scalars['Float'] | null;
     __typename: 'api_users_var_samp_fields';
 }
 /** aggregate variance on columns */
 interface api_users_variance_fields {
-    id: (Scalars['Float'] | null);
+    id: Scalars['Float'] | null;
     __typename: 'api_users_variance_fields';
 }
 /** columns and relationships of "blocks" */
 interface blocks {
-    block_id: (Scalars['String'] | null);
+    block_id: Scalars['String'] | null;
     block_num: Scalars['Int'];
     chain: Scalars['String'];
     /** An object relationship */
@@ -248,48 +324,48 @@ interface blocks {
 }
 /** aggregated selection of "blocks" */
 interface blocks_aggregate {
-    aggregate: (blocks_aggregate_fields | null);
+    aggregate: blocks_aggregate_fields | null;
     nodes: blocks[];
     __typename: 'blocks_aggregate';
 }
 /** aggregate fields of "blocks" */
 interface blocks_aggregate_fields {
-    avg: (blocks_avg_fields | null);
+    avg: blocks_avg_fields | null;
     count: Scalars['Int'];
-    max: (blocks_max_fields | null);
-    min: (blocks_min_fields | null);
-    stddev: (blocks_stddev_fields | null);
-    stddev_pop: (blocks_stddev_pop_fields | null);
-    stddev_samp: (blocks_stddev_samp_fields | null);
-    sum: (blocks_sum_fields | null);
-    var_pop: (blocks_var_pop_fields | null);
-    var_samp: (blocks_var_samp_fields | null);
-    variance: (blocks_variance_fields | null);
+    max: blocks_max_fields | null;
+    min: blocks_min_fields | null;
+    stddev: blocks_stddev_fields | null;
+    stddev_pop: blocks_stddev_pop_fields | null;
+    stddev_samp: blocks_stddev_samp_fields | null;
+    sum: blocks_sum_fields | null;
+    var_pop: blocks_var_pop_fields | null;
+    var_samp: blocks_var_samp_fields | null;
+    variance: blocks_variance_fields | null;
     __typename: 'blocks_aggregate_fields';
 }
 /** aggregate avg on columns */
 interface blocks_avg_fields {
-    block_num: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
     __typename: 'blocks_avg_fields';
 }
 /** unique or primary key constraints on table "blocks" */
 type blocks_constraint = 'blocks_block_id_key' | 'blocks_pkey';
 /** aggregate max on columns */
 interface blocks_max_fields {
-    block_id: (Scalars['String'] | null);
-    block_num: (Scalars['Int'] | null);
-    chain: (Scalars['String'] | null);
-    producer: (Scalars['String'] | null);
-    timestamp: (Scalars['timestamptz'] | null);
+    block_id: Scalars['String'] | null;
+    block_num: Scalars['Int'] | null;
+    chain: Scalars['String'] | null;
+    producer: Scalars['String'] | null;
+    timestamp: Scalars['timestamptz'] | null;
     __typename: 'blocks_max_fields';
 }
 /** aggregate min on columns */
 interface blocks_min_fields {
-    block_id: (Scalars['String'] | null);
-    block_num: (Scalars['Int'] | null);
-    chain: (Scalars['String'] | null);
-    producer: (Scalars['String'] | null);
-    timestamp: (Scalars['timestamptz'] | null);
+    block_id: Scalars['String'] | null;
+    block_num: Scalars['Int'] | null;
+    chain: Scalars['String'] | null;
+    producer: Scalars['String'] | null;
+    timestamp: Scalars['timestamptz'] | null;
     __typename: 'blocks_min_fields';
 }
 /** response of any mutation on the table "blocks" */
@@ -304,39 +380,39 @@ interface blocks_mutation_response {
 type blocks_select_column = 'block_id' | 'block_num' | 'chain' | 'producer' | 'timestamp';
 /** aggregate stddev on columns */
 interface blocks_stddev_fields {
-    block_num: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
     __typename: 'blocks_stddev_fields';
 }
 /** aggregate stddev_pop on columns */
 interface blocks_stddev_pop_fields {
-    block_num: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
     __typename: 'blocks_stddev_pop_fields';
 }
 /** aggregate stddev_samp on columns */
 interface blocks_stddev_samp_fields {
-    block_num: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
     __typename: 'blocks_stddev_samp_fields';
 }
 /** aggregate sum on columns */
 interface blocks_sum_fields {
-    block_num: (Scalars['Int'] | null);
+    block_num: Scalars['Int'] | null;
     __typename: 'blocks_sum_fields';
 }
 /** update columns of table "blocks" */
 type blocks_update_column = 'block_id' | 'block_num' | 'chain' | 'producer' | 'timestamp';
 /** aggregate var_pop on columns */
 interface blocks_var_pop_fields {
-    block_num: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
     __typename: 'blocks_var_pop_fields';
 }
 /** aggregate var_samp on columns */
 interface blocks_var_samp_fields {
-    block_num: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
     __typename: 'blocks_var_samp_fields';
 }
 /** aggregate variance on columns */
 interface blocks_variance_fields {
-    block_num: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
     __typename: 'blocks_variance_fields';
 }
 /** columns and relationships of "chains" */
@@ -356,31 +432,31 @@ interface chains {
 }
 /** aggregated selection of "chains" */
 interface chains_aggregate {
-    aggregate: (chains_aggregate_fields | null);
+    aggregate: chains_aggregate_fields | null;
     nodes: chains[];
     __typename: 'chains_aggregate';
 }
 /** aggregate fields of "chains" */
 interface chains_aggregate_fields {
     count: Scalars['Int'];
-    max: (chains_max_fields | null);
-    min: (chains_min_fields | null);
+    max: chains_max_fields | null;
+    min: chains_min_fields | null;
     __typename: 'chains_aggregate_fields';
 }
 /** unique or primary key constraints on table "chains" */
 type chains_constraint = 'chains_pkey';
 /** aggregate max on columns */
 interface chains_max_fields {
-    chain_id: (Scalars['String'] | null);
-    chain_name: (Scalars['String'] | null);
-    rpc_endpoint: (Scalars['String'] | null);
+    chain_id: Scalars['String'] | null;
+    chain_name: Scalars['String'] | null;
+    rpc_endpoint: Scalars['String'] | null;
     __typename: 'chains_max_fields';
 }
 /** aggregate min on columns */
 interface chains_min_fields {
-    chain_id: (Scalars['String'] | null);
-    chain_name: (Scalars['String'] | null);
-    rpc_endpoint: (Scalars['String'] | null);
+    chain_id: Scalars['String'] | null;
+    chain_name: Scalars['String'] | null;
+    rpc_endpoint: Scalars['String'] | null;
     __typename: 'chains_min_fields';
 }
 /** response of any mutation on the table "chains" */
@@ -407,33 +483,33 @@ interface manifests {
 }
 /** aggregated selection of "manifests" */
 interface manifests_aggregate {
-    aggregate: (manifests_aggregate_fields | null);
+    aggregate: manifests_aggregate_fields | null;
     nodes: manifests[];
     __typename: 'manifests_aggregate';
 }
 /** aggregate fields of "manifests" */
 interface manifests_aggregate_fields {
     count: Scalars['Int'];
-    max: (manifests_max_fields | null);
-    min: (manifests_min_fields | null);
+    max: manifests_max_fields | null;
+    min: manifests_min_fields | null;
     __typename: 'manifests_aggregate_fields';
 }
 /** unique or primary key constraints on table "manifests" */
 type manifests_constraint = 'manifests_pkey';
 /** aggregate max on columns */
 interface manifests_max_fields {
-    app_id: (Scalars['uuid'] | null);
-    app_name: (Scalars['String'] | null);
-    description: (Scalars['String'] | null);
-    url: (Scalars['String'] | null);
+    app_id: Scalars['uuid'] | null;
+    app_name: Scalars['String'] | null;
+    description: Scalars['String'] | null;
+    url: Scalars['String'] | null;
     __typename: 'manifests_max_fields';
 }
 /** aggregate min on columns */
 interface manifests_min_fields {
-    app_id: (Scalars['uuid'] | null);
-    app_name: (Scalars['String'] | null);
-    description: (Scalars['String'] | null);
-    url: (Scalars['String'] | null);
+    app_id: Scalars['uuid'] | null;
+    app_name: Scalars['String'] | null;
+    description: Scalars['String'] | null;
+    url: Scalars['String'] | null;
     __typename: 'manifests_min_fields';
 }
 /** response of any mutation on the table "manifests" */
@@ -450,40 +526,40 @@ type manifests_select_column = 'app_id' | 'app_name' | 'description' | 'url';
 type manifests_update_column = 'app_id' | 'app_name' | 'description' | 'url';
 /** columns and relationships of "mappings" */
 interface mappings {
-    abi: (Scalars['jsonb'] | null);
+    abi: Scalars['jsonb'] | null;
     chain: Scalars['String'];
     contract: Scalars['String'];
-    contract_type: (Scalars['String'] | null);
-    tables: (Scalars['jsonb'] | null);
+    contract_type: Scalars['String'] | null;
+    tables: Scalars['jsonb'] | null;
     __typename: 'mappings';
 }
 /** aggregated selection of "mappings" */
 interface mappings_aggregate {
-    aggregate: (mappings_aggregate_fields | null);
+    aggregate: mappings_aggregate_fields | null;
     nodes: mappings[];
     __typename: 'mappings_aggregate';
 }
 /** aggregate fields of "mappings" */
 interface mappings_aggregate_fields {
     count: Scalars['Int'];
-    max: (mappings_max_fields | null);
-    min: (mappings_min_fields | null);
+    max: mappings_max_fields | null;
+    min: mappings_min_fields | null;
     __typename: 'mappings_aggregate_fields';
 }
 /** unique or primary key constraints on table "mappings" */
 type mappings_constraint = 'mappings_pkey';
 /** aggregate max on columns */
 interface mappings_max_fields {
-    chain: (Scalars['String'] | null);
-    contract: (Scalars['String'] | null);
-    contract_type: (Scalars['String'] | null);
+    chain: Scalars['String'] | null;
+    contract: Scalars['String'] | null;
+    contract_type: Scalars['String'] | null;
     __typename: 'mappings_max_fields';
 }
 /** aggregate min on columns */
 interface mappings_min_fields {
-    chain: (Scalars['String'] | null);
-    contract: (Scalars['String'] | null);
-    contract_type: (Scalars['String'] | null);
+    chain: Scalars['String'] | null;
+    contract: Scalars['String'] | null;
+    contract_type: Scalars['String'] | null;
     __typename: 'mappings_min_fields';
 }
 /** response of any mutation on the table "mappings" */
@@ -501,131 +577,131 @@ type mappings_update_column = 'abi' | 'chain' | 'contract' | 'contract_type' | '
 /** mutation root */
 interface mutation_root {
     /** delete data from the table: "actions" */
-    delete_actions: (actions_mutation_response | null);
+    delete_actions: actions_mutation_response | null;
     /** delete single row from the table: "actions" */
-    delete_actions_by_pk: (actions | null);
+    delete_actions_by_pk: actions | null;
     /** delete data from the table: "api_users" */
-    delete_api_users: (api_users_mutation_response | null);
+    delete_api_users: api_users_mutation_response | null;
     /** delete single row from the table: "api_users" */
-    delete_api_users_by_pk: (api_users | null);
+    delete_api_users_by_pk: api_users | null;
     /** delete data from the table: "blocks" */
-    delete_blocks: (blocks_mutation_response | null);
+    delete_blocks: blocks_mutation_response | null;
     /** delete single row from the table: "blocks" */
-    delete_blocks_by_pk: (blocks | null);
+    delete_blocks_by_pk: blocks | null;
     /** delete data from the table: "chains" */
-    delete_chains: (chains_mutation_response | null);
+    delete_chains: chains_mutation_response | null;
     /** delete single row from the table: "chains" */
-    delete_chains_by_pk: (chains | null);
+    delete_chains_by_pk: chains | null;
     /** delete data from the table: "manifests" */
-    delete_manifests: (manifests_mutation_response | null);
+    delete_manifests: manifests_mutation_response | null;
     /** delete single row from the table: "manifests" */
-    delete_manifests_by_pk: (manifests | null);
+    delete_manifests_by_pk: manifests | null;
     /** delete data from the table: "mappings" */
-    delete_mappings: (mappings_mutation_response | null);
+    delete_mappings: mappings_mutation_response | null;
     /** delete single row from the table: "mappings" */
-    delete_mappings_by_pk: (mappings | null);
+    delete_mappings_by_pk: mappings | null;
     /** delete data from the table: "table_rows" */
-    delete_table_rows: (table_rows_mutation_response | null);
+    delete_table_rows: table_rows_mutation_response | null;
     /** delete single row from the table: "table_rows" */
-    delete_table_rows_by_pk: (table_rows | null);
+    delete_table_rows_by_pk: table_rows | null;
     /** delete data from the table: "transactions" */
-    delete_transactions: (transactions_mutation_response | null);
+    delete_transactions: transactions_mutation_response | null;
     /** delete single row from the table: "transactions" */
-    delete_transactions_by_pk: (transactions | null);
+    delete_transactions_by_pk: transactions | null;
     /** delete data from the table: "whitelists" */
-    delete_whitelists: (whitelists_mutation_response | null);
+    delete_whitelists: whitelists_mutation_response | null;
     /** delete single row from the table: "whitelists" */
-    delete_whitelists_by_pk: (whitelists | null);
+    delete_whitelists_by_pk: whitelists | null;
     /** insert data into the table: "actions" */
-    insert_actions: (actions_mutation_response | null);
+    insert_actions: actions_mutation_response | null;
     /** insert a single row into the table: "actions" */
-    insert_actions_one: (actions | null);
+    insert_actions_one: actions | null;
     /** insert data into the table: "api_users" */
-    insert_api_users: (api_users_mutation_response | null);
+    insert_api_users: api_users_mutation_response | null;
     /** insert a single row into the table: "api_users" */
-    insert_api_users_one: (api_users | null);
+    insert_api_users_one: api_users | null;
     /** insert data into the table: "blocks" */
-    insert_blocks: (blocks_mutation_response | null);
+    insert_blocks: blocks_mutation_response | null;
     /** insert a single row into the table: "blocks" */
-    insert_blocks_one: (blocks | null);
+    insert_blocks_one: blocks | null;
     /** insert data into the table: "chains" */
-    insert_chains: (chains_mutation_response | null);
+    insert_chains: chains_mutation_response | null;
     /** insert a single row into the table: "chains" */
-    insert_chains_one: (chains | null);
+    insert_chains_one: chains | null;
     /** insert data into the table: "manifests" */
-    insert_manifests: (manifests_mutation_response | null);
+    insert_manifests: manifests_mutation_response | null;
     /** insert a single row into the table: "manifests" */
-    insert_manifests_one: (manifests | null);
+    insert_manifests_one: manifests | null;
     /** insert data into the table: "mappings" */
-    insert_mappings: (mappings_mutation_response | null);
+    insert_mappings: mappings_mutation_response | null;
     /** insert a single row into the table: "mappings" */
-    insert_mappings_one: (mappings | null);
+    insert_mappings_one: mappings | null;
     /** insert data into the table: "table_rows" */
-    insert_table_rows: (table_rows_mutation_response | null);
+    insert_table_rows: table_rows_mutation_response | null;
     /** insert a single row into the table: "table_rows" */
-    insert_table_rows_one: (table_rows | null);
+    insert_table_rows_one: table_rows | null;
     /** insert data into the table: "transactions" */
-    insert_transactions: (transactions_mutation_response | null);
+    insert_transactions: transactions_mutation_response | null;
     /** insert a single row into the table: "transactions" */
-    insert_transactions_one: (transactions | null);
+    insert_transactions_one: transactions | null;
     /** insert data into the table: "whitelists" */
-    insert_whitelists: (whitelists_mutation_response | null);
+    insert_whitelists: whitelists_mutation_response | null;
     /** insert a single row into the table: "whitelists" */
-    insert_whitelists_one: (whitelists | null);
+    insert_whitelists_one: whitelists | null;
     /** update data of the table: "actions" */
-    update_actions: (actions_mutation_response | null);
+    update_actions: actions_mutation_response | null;
     /** update single row of the table: "actions" */
-    update_actions_by_pk: (actions | null);
+    update_actions_by_pk: actions | null;
     /** update multiples rows of table: "actions" */
-    update_actions_many: ((actions_mutation_response | null)[] | null);
+    update_actions_many: (actions_mutation_response | null)[] | null;
     /** update data of the table: "api_users" */
-    update_api_users: (api_users_mutation_response | null);
+    update_api_users: api_users_mutation_response | null;
     /** update single row of the table: "api_users" */
-    update_api_users_by_pk: (api_users | null);
+    update_api_users_by_pk: api_users | null;
     /** update multiples rows of table: "api_users" */
-    update_api_users_many: ((api_users_mutation_response | null)[] | null);
+    update_api_users_many: (api_users_mutation_response | null)[] | null;
     /** update data of the table: "blocks" */
-    update_blocks: (blocks_mutation_response | null);
+    update_blocks: blocks_mutation_response | null;
     /** update single row of the table: "blocks" */
-    update_blocks_by_pk: (blocks | null);
+    update_blocks_by_pk: blocks | null;
     /** update multiples rows of table: "blocks" */
-    update_blocks_many: ((blocks_mutation_response | null)[] | null);
+    update_blocks_many: (blocks_mutation_response | null)[] | null;
     /** update data of the table: "chains" */
-    update_chains: (chains_mutation_response | null);
+    update_chains: chains_mutation_response | null;
     /** update single row of the table: "chains" */
-    update_chains_by_pk: (chains | null);
+    update_chains_by_pk: chains | null;
     /** update multiples rows of table: "chains" */
-    update_chains_many: ((chains_mutation_response | null)[] | null);
+    update_chains_many: (chains_mutation_response | null)[] | null;
     /** update data of the table: "manifests" */
-    update_manifests: (manifests_mutation_response | null);
+    update_manifests: manifests_mutation_response | null;
     /** update single row of the table: "manifests" */
-    update_manifests_by_pk: (manifests | null);
+    update_manifests_by_pk: manifests | null;
     /** update multiples rows of table: "manifests" */
-    update_manifests_many: ((manifests_mutation_response | null)[] | null);
+    update_manifests_many: (manifests_mutation_response | null)[] | null;
     /** update data of the table: "mappings" */
-    update_mappings: (mappings_mutation_response | null);
+    update_mappings: mappings_mutation_response | null;
     /** update single row of the table: "mappings" */
-    update_mappings_by_pk: (mappings | null);
+    update_mappings_by_pk: mappings | null;
     /** update multiples rows of table: "mappings" */
-    update_mappings_many: ((mappings_mutation_response | null)[] | null);
+    update_mappings_many: (mappings_mutation_response | null)[] | null;
     /** update data of the table: "table_rows" */
-    update_table_rows: (table_rows_mutation_response | null);
+    update_table_rows: table_rows_mutation_response | null;
     /** update single row of the table: "table_rows" */
-    update_table_rows_by_pk: (table_rows | null);
+    update_table_rows_by_pk: table_rows | null;
     /** update multiples rows of table: "table_rows" */
-    update_table_rows_many: ((table_rows_mutation_response | null)[] | null);
+    update_table_rows_many: (table_rows_mutation_response | null)[] | null;
     /** update data of the table: "transactions" */
-    update_transactions: (transactions_mutation_response | null);
+    update_transactions: transactions_mutation_response | null;
     /** update single row of the table: "transactions" */
-    update_transactions_by_pk: (transactions | null);
+    update_transactions_by_pk: transactions | null;
     /** update multiples rows of table: "transactions" */
-    update_transactions_many: ((transactions_mutation_response | null)[] | null);
+    update_transactions_many: (transactions_mutation_response | null)[] | null;
     /** update data of the table: "whitelists" */
-    update_whitelists: (whitelists_mutation_response | null);
+    update_whitelists: whitelists_mutation_response | null;
     /** update single row of the table: "whitelists" */
-    update_whitelists_by_pk: (whitelists | null);
+    update_whitelists_by_pk: whitelists | null;
     /** update multiples rows of table: "whitelists" */
-    update_whitelists_many: ((whitelists_mutation_response | null)[] | null);
+    update_whitelists_many: (whitelists_mutation_response | null)[] | null;
     __typename: 'mutation_root';
 }
 /** column ordering options */
@@ -636,55 +712,55 @@ interface query_root {
     /** fetch aggregated fields from the table: "actions" */
     actions_aggregate: actions_aggregate;
     /** fetch data from the table: "actions" using primary key columns */
-    actions_by_pk: (actions | null);
+    actions_by_pk: actions | null;
     /** fetch data from the table: "api_users" */
     api_users: api_users[];
     /** fetch aggregated fields from the table: "api_users" */
     api_users_aggregate: api_users_aggregate;
     /** fetch data from the table: "api_users" using primary key columns */
-    api_users_by_pk: (api_users | null);
+    api_users_by_pk: api_users | null;
     /** An array relationship */
     blocks: blocks[];
     /** An aggregate relationship */
     blocks_aggregate: blocks_aggregate;
     /** fetch data from the table: "blocks" using primary key columns */
-    blocks_by_pk: (blocks | null);
+    blocks_by_pk: blocks | null;
     /** fetch data from the table: "chains" */
     chains: chains[];
     /** fetch aggregated fields from the table: "chains" */
     chains_aggregate: chains_aggregate;
     /** fetch data from the table: "chains" using primary key columns */
-    chains_by_pk: (chains | null);
+    chains_by_pk: chains | null;
     /** fetch data from the table: "manifests" */
     manifests: manifests[];
     /** fetch aggregated fields from the table: "manifests" */
     manifests_aggregate: manifests_aggregate;
     /** fetch data from the table: "manifests" using primary key columns */
-    manifests_by_pk: (manifests | null);
+    manifests_by_pk: manifests | null;
     /** fetch data from the table: "mappings" */
     mappings: mappings[];
     /** fetch aggregated fields from the table: "mappings" */
     mappings_aggregate: mappings_aggregate;
     /** fetch data from the table: "mappings" using primary key columns */
-    mappings_by_pk: (mappings | null);
+    mappings_by_pk: mappings | null;
     /** fetch data from the table: "table_rows" */
     table_rows: table_rows[];
     /** fetch aggregated fields from the table: "table_rows" */
     table_rows_aggregate: table_rows_aggregate;
     /** fetch data from the table: "table_rows" using primary key columns */
-    table_rows_by_pk: (table_rows | null);
+    table_rows_by_pk: table_rows | null;
     /** fetch data from the table: "transactions" */
     transactions: transactions[];
     /** fetch aggregated fields from the table: "transactions" */
     transactions_aggregate: transactions_aggregate;
     /** fetch data from the table: "transactions" using primary key columns */
-    transactions_by_pk: (transactions | null);
+    transactions_by_pk: transactions | null;
     /** fetch data from the table: "whitelists" */
     whitelists: whitelists[];
     /** fetch aggregated fields from the table: "whitelists" */
     whitelists_aggregate: whitelists_aggregate;
     /** fetch data from the table: "whitelists" using primary key columns */
-    whitelists_by_pk: (whitelists | null);
+    whitelists_by_pk: whitelists | null;
     __typename: 'query_root';
 }
 interface subscription_root {
@@ -693,7 +769,7 @@ interface subscription_root {
     /** fetch aggregated fields from the table: "actions" */
     actions_aggregate: actions_aggregate;
     /** fetch data from the table: "actions" using primary key columns */
-    actions_by_pk: (actions | null);
+    actions_by_pk: actions | null;
     /** fetch data from the table in a streaming manner: "actions" */
     actions_stream: actions[];
     /** fetch data from the table: "api_users" */
@@ -701,7 +777,7 @@ interface subscription_root {
     /** fetch aggregated fields from the table: "api_users" */
     api_users_aggregate: api_users_aggregate;
     /** fetch data from the table: "api_users" using primary key columns */
-    api_users_by_pk: (api_users | null);
+    api_users_by_pk: api_users | null;
     /** fetch data from the table in a streaming manner: "api_users" */
     api_users_stream: api_users[];
     /** An array relationship */
@@ -709,7 +785,7 @@ interface subscription_root {
     /** An aggregate relationship */
     blocks_aggregate: blocks_aggregate;
     /** fetch data from the table: "blocks" using primary key columns */
-    blocks_by_pk: (blocks | null);
+    blocks_by_pk: blocks | null;
     /** fetch data from the table in a streaming manner: "blocks" */
     blocks_stream: blocks[];
     /** fetch data from the table: "chains" */
@@ -717,7 +793,7 @@ interface subscription_root {
     /** fetch aggregated fields from the table: "chains" */
     chains_aggregate: chains_aggregate;
     /** fetch data from the table: "chains" using primary key columns */
-    chains_by_pk: (chains | null);
+    chains_by_pk: chains | null;
     /** fetch data from the table in a streaming manner: "chains" */
     chains_stream: chains[];
     /** fetch data from the table: "manifests" */
@@ -725,7 +801,7 @@ interface subscription_root {
     /** fetch aggregated fields from the table: "manifests" */
     manifests_aggregate: manifests_aggregate;
     /** fetch data from the table: "manifests" using primary key columns */
-    manifests_by_pk: (manifests | null);
+    manifests_by_pk: manifests | null;
     /** fetch data from the table in a streaming manner: "manifests" */
     manifests_stream: manifests[];
     /** fetch data from the table: "mappings" */
@@ -733,7 +809,7 @@ interface subscription_root {
     /** fetch aggregated fields from the table: "mappings" */
     mappings_aggregate: mappings_aggregate;
     /** fetch data from the table: "mappings" using primary key columns */
-    mappings_by_pk: (mappings | null);
+    mappings_by_pk: mappings | null;
     /** fetch data from the table in a streaming manner: "mappings" */
     mappings_stream: mappings[];
     /** fetch data from the table: "table_rows" */
@@ -741,7 +817,7 @@ interface subscription_root {
     /** fetch aggregated fields from the table: "table_rows" */
     table_rows_aggregate: table_rows_aggregate;
     /** fetch data from the table: "table_rows" using primary key columns */
-    table_rows_by_pk: (table_rows | null);
+    table_rows_by_pk: table_rows | null;
     /** fetch data from the table in a streaming manner: "table_rows" */
     table_rows_stream: table_rows[];
     /** fetch data from the table: "transactions" */
@@ -749,7 +825,7 @@ interface subscription_root {
     /** fetch aggregated fields from the table: "transactions" */
     transactions_aggregate: transactions_aggregate;
     /** fetch data from the table: "transactions" using primary key columns */
-    transactions_by_pk: (transactions | null);
+    transactions_by_pk: transactions | null;
     /** fetch data from the table in a streaming manner: "transactions" */
     transactions_stream: transactions[];
     /** fetch data from the table: "whitelists" */
@@ -757,7 +833,7 @@ interface subscription_root {
     /** fetch aggregated fields from the table: "whitelists" */
     whitelists_aggregate: whitelists_aggregate;
     /** fetch data from the table: "whitelists" using primary key columns */
-    whitelists_by_pk: (whitelists | null);
+    whitelists_by_pk: whitelists | null;
     /** fetch data from the table in a streaming manner: "whitelists" */
     whitelists_stream: whitelists[];
     __typename: 'subscription_root';
@@ -774,35 +850,35 @@ interface table_rows {
 }
 /** aggregated selection of "table_rows" */
 interface table_rows_aggregate {
-    aggregate: (table_rows_aggregate_fields | null);
+    aggregate: table_rows_aggregate_fields | null;
     nodes: table_rows[];
     __typename: 'table_rows_aggregate';
 }
 /** aggregate fields of "table_rows" */
 interface table_rows_aggregate_fields {
     count: Scalars['Int'];
-    max: (table_rows_max_fields | null);
-    min: (table_rows_min_fields | null);
+    max: table_rows_max_fields | null;
+    min: table_rows_min_fields | null;
     __typename: 'table_rows_aggregate_fields';
 }
 /** unique or primary key constraints on table "table_rows" */
 type table_rows_constraint = 'tables_pkey';
 /** aggregate max on columns */
 interface table_rows_max_fields {
-    chain: (Scalars['String'] | null);
-    contract: (Scalars['String'] | null);
-    primary_key: (Scalars['String'] | null);
-    scope: (Scalars['String'] | null);
-    table: (Scalars['String'] | null);
+    chain: Scalars['String'] | null;
+    contract: Scalars['String'] | null;
+    primary_key: Scalars['String'] | null;
+    scope: Scalars['String'] | null;
+    table: Scalars['String'] | null;
     __typename: 'table_rows_max_fields';
 }
 /** aggregate min on columns */
 interface table_rows_min_fields {
-    chain: (Scalars['String'] | null);
-    contract: (Scalars['String'] | null);
-    primary_key: (Scalars['String'] | null);
-    scope: (Scalars['String'] | null);
-    table: (Scalars['String'] | null);
+    chain: Scalars['String'] | null;
+    contract: Scalars['String'] | null;
+    primary_key: Scalars['String'] | null;
+    scope: Scalars['String'] | null;
+    table: Scalars['String'] | null;
     __typename: 'table_rows_min_fields';
 }
 /** response of any mutation on the table "table_rows" */
@@ -821,61 +897,61 @@ type table_rows_update_column = 'chain' | 'contract' | 'data' | 'primary_key' | 
 interface transactions {
     block_num: Scalars['Int'];
     chain: Scalars['String'];
-    cpu_usage_us: (Scalars['Int'] | null);
-    net_usage: (Scalars['Int'] | null);
-    net_usage_words: (Scalars['Int'] | null);
+    cpu_usage_us: Scalars['Int'] | null;
+    net_usage: Scalars['Int'] | null;
+    net_usage_words: Scalars['Int'] | null;
     transaction_id: Scalars['String'];
     __typename: 'transactions';
 }
 /** aggregated selection of "transactions" */
 interface transactions_aggregate {
-    aggregate: (transactions_aggregate_fields | null);
+    aggregate: transactions_aggregate_fields | null;
     nodes: transactions[];
     __typename: 'transactions_aggregate';
 }
 /** aggregate fields of "transactions" */
 interface transactions_aggregate_fields {
-    avg: (transactions_avg_fields | null);
+    avg: transactions_avg_fields | null;
     count: Scalars['Int'];
-    max: (transactions_max_fields | null);
-    min: (transactions_min_fields | null);
-    stddev: (transactions_stddev_fields | null);
-    stddev_pop: (transactions_stddev_pop_fields | null);
-    stddev_samp: (transactions_stddev_samp_fields | null);
-    sum: (transactions_sum_fields | null);
-    var_pop: (transactions_var_pop_fields | null);
-    var_samp: (transactions_var_samp_fields | null);
-    variance: (transactions_variance_fields | null);
+    max: transactions_max_fields | null;
+    min: transactions_min_fields | null;
+    stddev: transactions_stddev_fields | null;
+    stddev_pop: transactions_stddev_pop_fields | null;
+    stddev_samp: transactions_stddev_samp_fields | null;
+    sum: transactions_sum_fields | null;
+    var_pop: transactions_var_pop_fields | null;
+    var_samp: transactions_var_samp_fields | null;
+    variance: transactions_variance_fields | null;
     __typename: 'transactions_aggregate_fields';
 }
 /** aggregate avg on columns */
 interface transactions_avg_fields {
-    block_num: (Scalars['Float'] | null);
-    cpu_usage_us: (Scalars['Float'] | null);
-    net_usage: (Scalars['Float'] | null);
-    net_usage_words: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
+    cpu_usage_us: Scalars['Float'] | null;
+    net_usage: Scalars['Float'] | null;
+    net_usage_words: Scalars['Float'] | null;
     __typename: 'transactions_avg_fields';
 }
 /** unique or primary key constraints on table "transactions" */
 type transactions_constraint = 'transactions_pkey';
 /** aggregate max on columns */
 interface transactions_max_fields {
-    block_num: (Scalars['Int'] | null);
-    chain: (Scalars['String'] | null);
-    cpu_usage_us: (Scalars['Int'] | null);
-    net_usage: (Scalars['Int'] | null);
-    net_usage_words: (Scalars['Int'] | null);
-    transaction_id: (Scalars['String'] | null);
+    block_num: Scalars['Int'] | null;
+    chain: Scalars['String'] | null;
+    cpu_usage_us: Scalars['Int'] | null;
+    net_usage: Scalars['Int'] | null;
+    net_usage_words: Scalars['Int'] | null;
+    transaction_id: Scalars['String'] | null;
     __typename: 'transactions_max_fields';
 }
 /** aggregate min on columns */
 interface transactions_min_fields {
-    block_num: (Scalars['Int'] | null);
-    chain: (Scalars['String'] | null);
-    cpu_usage_us: (Scalars['Int'] | null);
-    net_usage: (Scalars['Int'] | null);
-    net_usage_words: (Scalars['Int'] | null);
-    transaction_id: (Scalars['String'] | null);
+    block_num: Scalars['Int'] | null;
+    chain: Scalars['String'] | null;
+    cpu_usage_us: Scalars['Int'] | null;
+    net_usage: Scalars['Int'] | null;
+    net_usage_words: Scalars['Int'] | null;
+    transaction_id: Scalars['String'] | null;
     __typename: 'transactions_min_fields';
 }
 /** response of any mutation on the table "transactions" */
@@ -890,60 +966,60 @@ interface transactions_mutation_response {
 type transactions_select_column = 'block_num' | 'chain' | 'cpu_usage_us' | 'net_usage' | 'net_usage_words' | 'transaction_id';
 /** aggregate stddev on columns */
 interface transactions_stddev_fields {
-    block_num: (Scalars['Float'] | null);
-    cpu_usage_us: (Scalars['Float'] | null);
-    net_usage: (Scalars['Float'] | null);
-    net_usage_words: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
+    cpu_usage_us: Scalars['Float'] | null;
+    net_usage: Scalars['Float'] | null;
+    net_usage_words: Scalars['Float'] | null;
     __typename: 'transactions_stddev_fields';
 }
 /** aggregate stddev_pop on columns */
 interface transactions_stddev_pop_fields {
-    block_num: (Scalars['Float'] | null);
-    cpu_usage_us: (Scalars['Float'] | null);
-    net_usage: (Scalars['Float'] | null);
-    net_usage_words: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
+    cpu_usage_us: Scalars['Float'] | null;
+    net_usage: Scalars['Float'] | null;
+    net_usage_words: Scalars['Float'] | null;
     __typename: 'transactions_stddev_pop_fields';
 }
 /** aggregate stddev_samp on columns */
 interface transactions_stddev_samp_fields {
-    block_num: (Scalars['Float'] | null);
-    cpu_usage_us: (Scalars['Float'] | null);
-    net_usage: (Scalars['Float'] | null);
-    net_usage_words: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
+    cpu_usage_us: Scalars['Float'] | null;
+    net_usage: Scalars['Float'] | null;
+    net_usage_words: Scalars['Float'] | null;
     __typename: 'transactions_stddev_samp_fields';
 }
 /** aggregate sum on columns */
 interface transactions_sum_fields {
-    block_num: (Scalars['Int'] | null);
-    cpu_usage_us: (Scalars['Int'] | null);
-    net_usage: (Scalars['Int'] | null);
-    net_usage_words: (Scalars['Int'] | null);
+    block_num: Scalars['Int'] | null;
+    cpu_usage_us: Scalars['Int'] | null;
+    net_usage: Scalars['Int'] | null;
+    net_usage_words: Scalars['Int'] | null;
     __typename: 'transactions_sum_fields';
 }
 /** update columns of table "transactions" */
 type transactions_update_column = 'block_num' | 'chain' | 'cpu_usage_us' | 'net_usage' | 'net_usage_words' | 'transaction_id';
 /** aggregate var_pop on columns */
 interface transactions_var_pop_fields {
-    block_num: (Scalars['Float'] | null);
-    cpu_usage_us: (Scalars['Float'] | null);
-    net_usage: (Scalars['Float'] | null);
-    net_usage_words: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
+    cpu_usage_us: Scalars['Float'] | null;
+    net_usage: Scalars['Float'] | null;
+    net_usage_words: Scalars['Float'] | null;
     __typename: 'transactions_var_pop_fields';
 }
 /** aggregate var_samp on columns */
 interface transactions_var_samp_fields {
-    block_num: (Scalars['Float'] | null);
-    cpu_usage_us: (Scalars['Float'] | null);
-    net_usage: (Scalars['Float'] | null);
-    net_usage_words: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
+    cpu_usage_us: Scalars['Float'] | null;
+    net_usage: Scalars['Float'] | null;
+    net_usage_words: Scalars['Float'] | null;
     __typename: 'transactions_var_samp_fields';
 }
 /** aggregate variance on columns */
 interface transactions_variance_fields {
-    block_num: (Scalars['Float'] | null);
-    cpu_usage_us: (Scalars['Float'] | null);
-    net_usage: (Scalars['Float'] | null);
-    net_usage_words: (Scalars['Float'] | null);
+    block_num: Scalars['Float'] | null;
+    cpu_usage_us: Scalars['Float'] | null;
+    net_usage: Scalars['Float'] | null;
+    net_usage_words: Scalars['Float'] | null;
     __typename: 'transactions_variance_fields';
 }
 /** columns and relationships of "whitelists" */
@@ -961,46 +1037,46 @@ interface whitelists {
 }
 /** aggregated selection of "whitelists" */
 interface whitelists_aggregate {
-    aggregate: (whitelists_aggregate_fields | null);
+    aggregate: whitelists_aggregate_fields | null;
     nodes: whitelists[];
     __typename: 'whitelists_aggregate';
 }
 /** aggregate fields of "whitelists" */
 interface whitelists_aggregate_fields {
-    avg: (whitelists_avg_fields | null);
+    avg: whitelists_avg_fields | null;
     count: Scalars['Int'];
-    max: (whitelists_max_fields | null);
-    min: (whitelists_min_fields | null);
-    stddev: (whitelists_stddev_fields | null);
-    stddev_pop: (whitelists_stddev_pop_fields | null);
-    stddev_samp: (whitelists_stddev_samp_fields | null);
-    sum: (whitelists_sum_fields | null);
-    var_pop: (whitelists_var_pop_fields | null);
-    var_samp: (whitelists_var_samp_fields | null);
-    variance: (whitelists_variance_fields | null);
+    max: whitelists_max_fields | null;
+    min: whitelists_min_fields | null;
+    stddev: whitelists_stddev_fields | null;
+    stddev_pop: whitelists_stddev_pop_fields | null;
+    stddev_samp: whitelists_stddev_samp_fields | null;
+    sum: whitelists_sum_fields | null;
+    var_pop: whitelists_var_pop_fields | null;
+    var_samp: whitelists_var_samp_fields | null;
+    variance: whitelists_variance_fields | null;
     __typename: 'whitelists_aggregate_fields';
 }
 /** aggregate avg on columns */
 interface whitelists_avg_fields {
-    start_block: (Scalars['Float'] | null);
+    start_block: Scalars['Float'] | null;
     __typename: 'whitelists_avg_fields';
 }
 /** unique or primary key constraints on table "whitelists" */
 type whitelists_constraint = 'whitelists_pkey';
 /** aggregate max on columns */
 interface whitelists_max_fields {
-    app_id: (Scalars['uuid'] | null);
-    chain: (Scalars['String'] | null);
-    contract: (Scalars['String'] | null);
-    start_block: (Scalars['Int'] | null);
+    app_id: Scalars['uuid'] | null;
+    chain: Scalars['String'] | null;
+    contract: Scalars['String'] | null;
+    start_block: Scalars['Int'] | null;
     __typename: 'whitelists_max_fields';
 }
 /** aggregate min on columns */
 interface whitelists_min_fields {
-    app_id: (Scalars['uuid'] | null);
-    chain: (Scalars['String'] | null);
-    contract: (Scalars['String'] | null);
-    start_block: (Scalars['Int'] | null);
+    app_id: Scalars['uuid'] | null;
+    chain: Scalars['String'] | null;
+    contract: Scalars['String'] | null;
+    start_block: Scalars['Int'] | null;
     __typename: 'whitelists_min_fields';
 }
 /** response of any mutation on the table "whitelists" */
@@ -1015,39 +1091,39 @@ interface whitelists_mutation_response {
 type whitelists_select_column = 'actions' | 'app_id' | 'chain' | 'contract' | 'history_ready' | 'start_block' | 'tables';
 /** aggregate stddev on columns */
 interface whitelists_stddev_fields {
-    start_block: (Scalars['Float'] | null);
+    start_block: Scalars['Float'] | null;
     __typename: 'whitelists_stddev_fields';
 }
 /** aggregate stddev_pop on columns */
 interface whitelists_stddev_pop_fields {
-    start_block: (Scalars['Float'] | null);
+    start_block: Scalars['Float'] | null;
     __typename: 'whitelists_stddev_pop_fields';
 }
 /** aggregate stddev_samp on columns */
 interface whitelists_stddev_samp_fields {
-    start_block: (Scalars['Float'] | null);
+    start_block: Scalars['Float'] | null;
     __typename: 'whitelists_stddev_samp_fields';
 }
 /** aggregate sum on columns */
 interface whitelists_sum_fields {
-    start_block: (Scalars['Int'] | null);
+    start_block: Scalars['Int'] | null;
     __typename: 'whitelists_sum_fields';
 }
 /** update columns of table "whitelists" */
 type whitelists_update_column = 'actions' | 'app_id' | 'chain' | 'contract' | 'history_ready' | 'start_block' | 'tables';
 /** aggregate var_pop on columns */
 interface whitelists_var_pop_fields {
-    start_block: (Scalars['Float'] | null);
+    start_block: Scalars['Float'] | null;
     __typename: 'whitelists_var_pop_fields';
 }
 /** aggregate var_samp on columns */
 interface whitelists_var_samp_fields {
-    start_block: (Scalars['Float'] | null);
+    start_block: Scalars['Float'] | null;
     __typename: 'whitelists_var_samp_fields';
 }
 /** aggregate variance on columns */
 interface whitelists_variance_fields {
-    start_block: (Scalars['Float'] | null);
+    start_block: Scalars['Float'] | null;
     __typename: 'whitelists_variance_fields';
 }
 type Query = query_root;
@@ -1055,72 +1131,72 @@ type Mutation = mutation_root;
 type Subscription = subscription_root;
 /** Boolean expression to compare columns of type "Boolean". All fields are combined with logical 'AND'. */
 interface Boolean_comparison_exp {
-    _eq?: (Scalars['Boolean'] | null);
-    _gt?: (Scalars['Boolean'] | null);
-    _gte?: (Scalars['Boolean'] | null);
-    _in?: (Scalars['Boolean'][] | null);
-    _is_null?: (Scalars['Boolean'] | null);
-    _lt?: (Scalars['Boolean'] | null);
-    _lte?: (Scalars['Boolean'] | null);
-    _neq?: (Scalars['Boolean'] | null);
-    _nin?: (Scalars['Boolean'][] | null);
+    _eq?: Scalars['Boolean'] | null;
+    _gt?: Scalars['Boolean'] | null;
+    _gte?: Scalars['Boolean'] | null;
+    _in?: Scalars['Boolean'][] | null;
+    _is_null?: Scalars['Boolean'] | null;
+    _lt?: Scalars['Boolean'] | null;
+    _lte?: Scalars['Boolean'] | null;
+    _neq?: Scalars['Boolean'] | null;
+    _nin?: Scalars['Boolean'][] | null;
 }
 /** Boolean expression to compare columns of type "Int". All fields are combined with logical 'AND'. */
 interface Int_comparison_exp {
-    _eq?: (Scalars['Int'] | null);
-    _gt?: (Scalars['Int'] | null);
-    _gte?: (Scalars['Int'] | null);
-    _in?: (Scalars['Int'][] | null);
-    _is_null?: (Scalars['Boolean'] | null);
-    _lt?: (Scalars['Int'] | null);
-    _lte?: (Scalars['Int'] | null);
-    _neq?: (Scalars['Int'] | null);
-    _nin?: (Scalars['Int'][] | null);
+    _eq?: Scalars['Int'] | null;
+    _gt?: Scalars['Int'] | null;
+    _gte?: Scalars['Int'] | null;
+    _in?: Scalars['Int'][] | null;
+    _is_null?: Scalars['Boolean'] | null;
+    _lt?: Scalars['Int'] | null;
+    _lte?: Scalars['Int'] | null;
+    _neq?: Scalars['Int'] | null;
+    _nin?: Scalars['Int'][] | null;
 }
 /** Boolean expression to compare columns of type "String". All fields are combined with logical 'AND'. */
 interface String_comparison_exp {
-    _eq?: (Scalars['String'] | null);
-    _gt?: (Scalars['String'] | null);
-    _gte?: (Scalars['String'] | null);
+    _eq?: Scalars['String'] | null;
+    _gt?: Scalars['String'] | null;
+    _gte?: Scalars['String'] | null;
     /** does the column match the given case-insensitive pattern */
-    _ilike?: (Scalars['String'] | null);
-    _in?: (Scalars['String'][] | null);
+    _ilike?: Scalars['String'] | null;
+    _in?: Scalars['String'][] | null;
     /** does the column match the given POSIX regular expression, case insensitive */
-    _iregex?: (Scalars['String'] | null);
-    _is_null?: (Scalars['Boolean'] | null);
+    _iregex?: Scalars['String'] | null;
+    _is_null?: Scalars['Boolean'] | null;
     /** does the column match the given pattern */
-    _like?: (Scalars['String'] | null);
-    _lt?: (Scalars['String'] | null);
-    _lte?: (Scalars['String'] | null);
-    _neq?: (Scalars['String'] | null);
+    _like?: Scalars['String'] | null;
+    _lt?: Scalars['String'] | null;
+    _lte?: Scalars['String'] | null;
+    _neq?: Scalars['String'] | null;
     /** does the column NOT match the given case-insensitive pattern */
-    _nilike?: (Scalars['String'] | null);
-    _nin?: (Scalars['String'][] | null);
+    _nilike?: Scalars['String'] | null;
+    _nin?: Scalars['String'][] | null;
     /** does the column NOT match the given POSIX regular expression, case insensitive */
-    _niregex?: (Scalars['String'] | null);
+    _niregex?: Scalars['String'] | null;
     /** does the column NOT match the given pattern */
-    _nlike?: (Scalars['String'] | null);
+    _nlike?: Scalars['String'] | null;
     /** does the column NOT match the given POSIX regular expression, case sensitive */
-    _nregex?: (Scalars['String'] | null);
+    _nregex?: Scalars['String'] | null;
     /** does the column NOT match the given SQL regular expression */
-    _nsimilar?: (Scalars['String'] | null);
+    _nsimilar?: Scalars['String'] | null;
     /** does the column match the given POSIX regular expression, case sensitive */
-    _regex?: (Scalars['String'] | null);
+    _regex?: Scalars['String'] | null;
     /** does the column match the given SQL regular expression */
-    _similar?: (Scalars['String'] | null);
+    _similar?: Scalars['String'] | null;
 }
 /** columns and relationships of "actions" */
 interface actionsGenqlSelection {
     account_disk_deltas?: {
         __args: {
             /** JSON select path */
-            path?: (Scalars['String'] | null);
+            path?: Scalars['String'] | null;
         };
     } | boolean | number;
     account_ram_deltas?: {
         __args: {
             /** JSON select path */
-            path?: (Scalars['String'] | null);
+            path?: Scalars['String'] | null;
         };
     } | boolean | number;
     action?: boolean | number;
@@ -1128,7 +1204,7 @@ interface actionsGenqlSelection {
     authorization?: {
         __args: {
             /** JSON select path */
-            path?: (Scalars['String'] | null);
+            path?: Scalars['String'] | null;
         };
     } | boolean | number;
     chain?: boolean | number;
@@ -1138,14 +1214,14 @@ interface actionsGenqlSelection {
     data?: {
         __args: {
             /** JSON select path */
-            path?: (Scalars['String'] | null);
+            path?: Scalars['String'] | null;
         };
     } | boolean | number;
     global_sequence?: boolean | number;
     receipt?: {
         __args: {
             /** JSON select path */
-            path?: (Scalars['String'] | null);
+            path?: Scalars['String'] | null;
         };
     } | boolean | number;
     receiver?: boolean | number;
@@ -1167,8 +1243,8 @@ interface actions_aggregate_fieldsGenqlSelection {
     avg?: actions_avg_fieldsGenqlSelection;
     count?: {
         __args: {
-            columns?: (actions_select_column[] | null);
-            distinct?: (Scalars['Boolean'] | null);
+            columns?: actions_select_column[] | null;
+            distinct?: Scalars['Boolean'] | null;
         };
     } | boolean | number;
     max?: actions_max_fieldsGenqlSelection;
@@ -1185,11 +1261,11 @@ interface actions_aggregate_fieldsGenqlSelection {
 }
 /** append existing jsonb value of filtered columns with new jsonb value */
 interface actions_append_input {
-    account_disk_deltas?: (Scalars['jsonb'] | null);
-    account_ram_deltas?: (Scalars['jsonb'] | null);
-    authorization?: (Scalars['jsonb'] | null);
-    data?: (Scalars['jsonb'] | null);
-    receipt?: (Scalars['jsonb'] | null);
+    account_disk_deltas?: Scalars['jsonb'] | null;
+    account_ram_deltas?: Scalars['jsonb'] | null;
+    authorization?: Scalars['jsonb'] | null;
+    data?: Scalars['jsonb'] | null;
+    receipt?: Scalars['jsonb'] | null;
 }
 /** aggregate avg on columns */
 interface actions_avg_fieldsGenqlSelection {
@@ -1199,70 +1275,70 @@ interface actions_avg_fieldsGenqlSelection {
 }
 /** Boolean expression to filter rows from the table "actions". All fields are combined with a logical 'AND'. */
 interface actions_bool_exp {
-    _and?: (actions_bool_exp[] | null);
-    _not?: (actions_bool_exp | null);
-    _or?: (actions_bool_exp[] | null);
-    account_disk_deltas?: (jsonb_comparison_exp | null);
-    account_ram_deltas?: (jsonb_comparison_exp | null);
-    action?: (String_comparison_exp | null);
-    action_ordinal?: (Int_comparison_exp | null);
-    authorization?: (jsonb_comparison_exp | null);
-    chain?: (String_comparison_exp | null);
-    console?: (String_comparison_exp | null);
-    context_free?: (Boolean_comparison_exp | null);
-    contract?: (String_comparison_exp | null);
-    data?: (jsonb_comparison_exp | null);
-    global_sequence?: (String_comparison_exp | null);
-    receipt?: (jsonb_comparison_exp | null);
-    receiver?: (String_comparison_exp | null);
-    transaction?: (transactions_bool_exp | null);
-    transaction_id?: (String_comparison_exp | null);
+    _and?: actions_bool_exp[] | null;
+    _not?: actions_bool_exp | null;
+    _or?: actions_bool_exp[] | null;
+    account_disk_deltas?: jsonb_comparison_exp | null;
+    account_ram_deltas?: jsonb_comparison_exp | null;
+    action?: String_comparison_exp | null;
+    action_ordinal?: Int_comparison_exp | null;
+    authorization?: jsonb_comparison_exp | null;
+    chain?: String_comparison_exp | null;
+    console?: String_comparison_exp | null;
+    context_free?: Boolean_comparison_exp | null;
+    contract?: String_comparison_exp | null;
+    data?: jsonb_comparison_exp | null;
+    global_sequence?: String_comparison_exp | null;
+    receipt?: jsonb_comparison_exp | null;
+    receiver?: String_comparison_exp | null;
+    transaction?: transactions_bool_exp | null;
+    transaction_id?: String_comparison_exp | null;
 }
 /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
 interface actions_delete_at_path_input {
-    account_disk_deltas?: (Scalars['String'][] | null);
-    account_ram_deltas?: (Scalars['String'][] | null);
-    authorization?: (Scalars['String'][] | null);
-    data?: (Scalars['String'][] | null);
-    receipt?: (Scalars['String'][] | null);
+    account_disk_deltas?: Scalars['String'][] | null;
+    account_ram_deltas?: Scalars['String'][] | null;
+    authorization?: Scalars['String'][] | null;
+    data?: Scalars['String'][] | null;
+    receipt?: Scalars['String'][] | null;
 }
 /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
 interface actions_delete_elem_input {
-    account_disk_deltas?: (Scalars['Int'] | null);
-    account_ram_deltas?: (Scalars['Int'] | null);
-    authorization?: (Scalars['Int'] | null);
-    data?: (Scalars['Int'] | null);
-    receipt?: (Scalars['Int'] | null);
+    account_disk_deltas?: Scalars['Int'] | null;
+    account_ram_deltas?: Scalars['Int'] | null;
+    authorization?: Scalars['Int'] | null;
+    data?: Scalars['Int'] | null;
+    receipt?: Scalars['Int'] | null;
 }
 /** delete key/value pair or string element. key/value pairs are matched based on their key value */
 interface actions_delete_key_input {
-    account_disk_deltas?: (Scalars['String'] | null);
-    account_ram_deltas?: (Scalars['String'] | null);
-    authorization?: (Scalars['String'] | null);
-    data?: (Scalars['String'] | null);
-    receipt?: (Scalars['String'] | null);
+    account_disk_deltas?: Scalars['String'] | null;
+    account_ram_deltas?: Scalars['String'] | null;
+    authorization?: Scalars['String'] | null;
+    data?: Scalars['String'] | null;
+    receipt?: Scalars['String'] | null;
 }
 /** input type for incrementing numeric columns in table "actions" */
 interface actions_inc_input {
-    action_ordinal?: (Scalars['Int'] | null);
+    action_ordinal?: Scalars['Int'] | null;
 }
 /** input type for inserting data into table "actions" */
 interface actions_insert_input {
-    account_disk_deltas?: (Scalars['jsonb'] | null);
-    account_ram_deltas?: (Scalars['jsonb'] | null);
-    action?: (Scalars['String'] | null);
-    action_ordinal?: (Scalars['Int'] | null);
-    authorization?: (Scalars['jsonb'] | null);
-    chain?: (Scalars['String'] | null);
-    console?: (Scalars['String'] | null);
-    context_free?: (Scalars['Boolean'] | null);
-    contract?: (Scalars['String'] | null);
-    data?: (Scalars['jsonb'] | null);
-    global_sequence?: (Scalars['String'] | null);
-    receipt?: (Scalars['jsonb'] | null);
-    receiver?: (Scalars['String'] | null);
-    transaction?: (transactions_obj_rel_insert_input | null);
-    transaction_id?: (Scalars['String'] | null);
+    account_disk_deltas?: Scalars['jsonb'] | null;
+    account_ram_deltas?: Scalars['jsonb'] | null;
+    action?: Scalars['String'] | null;
+    action_ordinal?: Scalars['Int'] | null;
+    authorization?: Scalars['jsonb'] | null;
+    chain?: Scalars['String'] | null;
+    console?: Scalars['String'] | null;
+    context_free?: Scalars['Boolean'] | null;
+    contract?: Scalars['String'] | null;
+    data?: Scalars['jsonb'] | null;
+    global_sequence?: Scalars['String'] | null;
+    receipt?: Scalars['jsonb'] | null;
+    receiver?: Scalars['String'] | null;
+    transaction?: transactions_obj_rel_insert_input | null;
+    transaction_id?: Scalars['String'] | null;
 }
 /** aggregate max on columns */
 interface actions_max_fieldsGenqlSelection {
@@ -1303,25 +1379,25 @@ interface actions_mutation_responseGenqlSelection {
 interface actions_on_conflict {
     constraint: actions_constraint;
     update_columns?: actions_update_column[];
-    where?: (actions_bool_exp | null);
+    where?: actions_bool_exp | null;
 }
 /** Ordering options when selecting data from "actions". */
 interface actions_order_by {
-    account_disk_deltas?: (order_by | null);
-    account_ram_deltas?: (order_by | null);
-    action?: (order_by | null);
-    action_ordinal?: (order_by | null);
-    authorization?: (order_by | null);
-    chain?: (order_by | null);
-    console?: (order_by | null);
-    context_free?: (order_by | null);
-    contract?: (order_by | null);
-    data?: (order_by | null);
-    global_sequence?: (order_by | null);
-    receipt?: (order_by | null);
-    receiver?: (order_by | null);
-    transaction?: (transactions_order_by | null);
-    transaction_id?: (order_by | null);
+    account_disk_deltas?: order_by | null;
+    account_ram_deltas?: order_by | null;
+    action?: order_by | null;
+    action_ordinal?: order_by | null;
+    authorization?: order_by | null;
+    chain?: order_by | null;
+    console?: order_by | null;
+    context_free?: order_by | null;
+    contract?: order_by | null;
+    data?: order_by | null;
+    global_sequence?: order_by | null;
+    receipt?: order_by | null;
+    receiver?: order_by | null;
+    transaction?: transactions_order_by | null;
+    transaction_id?: order_by | null;
 }
 /** primary key columns input for table: actions */
 interface actions_pk_columns_input {
@@ -1330,28 +1406,28 @@ interface actions_pk_columns_input {
 }
 /** prepend existing jsonb value of filtered columns with new jsonb value */
 interface actions_prepend_input {
-    account_disk_deltas?: (Scalars['jsonb'] | null);
-    account_ram_deltas?: (Scalars['jsonb'] | null);
-    authorization?: (Scalars['jsonb'] | null);
-    data?: (Scalars['jsonb'] | null);
-    receipt?: (Scalars['jsonb'] | null);
+    account_disk_deltas?: Scalars['jsonb'] | null;
+    account_ram_deltas?: Scalars['jsonb'] | null;
+    authorization?: Scalars['jsonb'] | null;
+    data?: Scalars['jsonb'] | null;
+    receipt?: Scalars['jsonb'] | null;
 }
 /** input type for updating data in table "actions" */
 interface actions_set_input {
-    account_disk_deltas?: (Scalars['jsonb'] | null);
-    account_ram_deltas?: (Scalars['jsonb'] | null);
-    action?: (Scalars['String'] | null);
-    action_ordinal?: (Scalars['Int'] | null);
-    authorization?: (Scalars['jsonb'] | null);
-    chain?: (Scalars['String'] | null);
-    console?: (Scalars['String'] | null);
-    context_free?: (Scalars['Boolean'] | null);
-    contract?: (Scalars['String'] | null);
-    data?: (Scalars['jsonb'] | null);
-    global_sequence?: (Scalars['String'] | null);
-    receipt?: (Scalars['jsonb'] | null);
-    receiver?: (Scalars['String'] | null);
-    transaction_id?: (Scalars['String'] | null);
+    account_disk_deltas?: Scalars['jsonb'] | null;
+    account_ram_deltas?: Scalars['jsonb'] | null;
+    action?: Scalars['String'] | null;
+    action_ordinal?: Scalars['Int'] | null;
+    authorization?: Scalars['jsonb'] | null;
+    chain?: Scalars['String'] | null;
+    console?: Scalars['String'] | null;
+    context_free?: Scalars['Boolean'] | null;
+    contract?: Scalars['String'] | null;
+    data?: Scalars['jsonb'] | null;
+    global_sequence?: Scalars['String'] | null;
+    receipt?: Scalars['jsonb'] | null;
+    receiver?: Scalars['String'] | null;
+    transaction_id?: Scalars['String'] | null;
 }
 /** aggregate stddev on columns */
 interface actions_stddev_fieldsGenqlSelection {
@@ -1376,24 +1452,24 @@ interface actions_stream_cursor_input {
     /** Stream column input with initial value */
     initial_value: actions_stream_cursor_value_input;
     /** cursor ordering */
-    ordering?: (cursor_ordering | null);
+    ordering?: cursor_ordering | null;
 }
 /** Initial value of the column from where the streaming should start */
 interface actions_stream_cursor_value_input {
-    account_disk_deltas?: (Scalars['jsonb'] | null);
-    account_ram_deltas?: (Scalars['jsonb'] | null);
-    action?: (Scalars['String'] | null);
-    action_ordinal?: (Scalars['Int'] | null);
-    authorization?: (Scalars['jsonb'] | null);
-    chain?: (Scalars['String'] | null);
-    console?: (Scalars['String'] | null);
-    context_free?: (Scalars['Boolean'] | null);
-    contract?: (Scalars['String'] | null);
-    data?: (Scalars['jsonb'] | null);
-    global_sequence?: (Scalars['String'] | null);
-    receipt?: (Scalars['jsonb'] | null);
-    receiver?: (Scalars['String'] | null);
-    transaction_id?: (Scalars['String'] | null);
+    account_disk_deltas?: Scalars['jsonb'] | null;
+    account_ram_deltas?: Scalars['jsonb'] | null;
+    action?: Scalars['String'] | null;
+    action_ordinal?: Scalars['Int'] | null;
+    authorization?: Scalars['jsonb'] | null;
+    chain?: Scalars['String'] | null;
+    console?: Scalars['String'] | null;
+    context_free?: Scalars['Boolean'] | null;
+    contract?: Scalars['String'] | null;
+    data?: Scalars['jsonb'] | null;
+    global_sequence?: Scalars['String'] | null;
+    receipt?: Scalars['jsonb'] | null;
+    receiver?: Scalars['String'] | null;
+    transaction_id?: Scalars['String'] | null;
 }
 /** aggregate sum on columns */
 interface actions_sum_fieldsGenqlSelection {
@@ -1403,19 +1479,19 @@ interface actions_sum_fieldsGenqlSelection {
 }
 interface actions_updates {
     /** append existing jsonb value of filtered columns with new jsonb value */
-    _append?: (actions_append_input | null);
+    _append?: actions_append_input | null;
     /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-    _delete_at_path?: (actions_delete_at_path_input | null);
+    _delete_at_path?: actions_delete_at_path_input | null;
     /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-    _delete_elem?: (actions_delete_elem_input | null);
+    _delete_elem?: actions_delete_elem_input | null;
     /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-    _delete_key?: (actions_delete_key_input | null);
+    _delete_key?: actions_delete_key_input | null;
     /** increments the numeric columns with given value of the filtered values */
-    _inc?: (actions_inc_input | null);
+    _inc?: actions_inc_input | null;
     /** prepend existing jsonb value of filtered columns with new jsonb value */
-    _prepend?: (actions_prepend_input | null);
+    _prepend?: actions_prepend_input | null;
     /** sets the columns of the filtered rows to the given values */
-    _set?: (actions_set_input | null);
+    _set?: actions_set_input | null;
     where: actions_bool_exp;
 }
 /** aggregate var_pop on columns */
@@ -1459,8 +1535,8 @@ interface api_users_aggregate_fieldsGenqlSelection {
     avg?: api_users_avg_fieldsGenqlSelection;
     count?: {
         __args: {
-            columns?: (api_users_select_column[] | null);
-            distinct?: (Scalars['Boolean'] | null);
+            columns?: api_users_select_column[] | null;
+            distinct?: Scalars['Boolean'] | null;
         };
     } | boolean | number;
     max?: api_users_max_fieldsGenqlSelection;
@@ -1483,28 +1559,28 @@ interface api_users_avg_fieldsGenqlSelection {
 }
 /** Boolean expression to filter rows from the table "api_users". All fields are combined with a logical 'AND'. */
 interface api_users_bool_exp {
-    _and?: (api_users_bool_exp[] | null);
-    _not?: (api_users_bool_exp | null);
-    _or?: (api_users_bool_exp[] | null);
-    account?: (String_comparison_exp | null);
-    api_key?: (String_comparison_exp | null);
-    created_at?: (timestamptz_comparison_exp | null);
-    domain_names?: (String_comparison_exp | null);
-    id?: (Int_comparison_exp | null);
-    updated_at?: (timestamptz_comparison_exp | null);
+    _and?: api_users_bool_exp[] | null;
+    _not?: api_users_bool_exp | null;
+    _or?: api_users_bool_exp[] | null;
+    account?: String_comparison_exp | null;
+    api_key?: String_comparison_exp | null;
+    created_at?: timestamptz_comparison_exp | null;
+    domain_names?: String_comparison_exp | null;
+    id?: Int_comparison_exp | null;
+    updated_at?: timestamptz_comparison_exp | null;
 }
 /** input type for incrementing numeric columns in table "api_users" */
 interface api_users_inc_input {
-    id?: (Scalars['Int'] | null);
+    id?: Scalars['Int'] | null;
 }
 /** input type for inserting data into table "api_users" */
 interface api_users_insert_input {
-    account?: (Scalars['String'] | null);
-    api_key?: (Scalars['String'] | null);
-    created_at?: (Scalars['timestamptz'] | null);
-    domain_names?: (Scalars['String'] | null);
-    id?: (Scalars['Int'] | null);
-    updated_at?: (Scalars['timestamptz'] | null);
+    account?: Scalars['String'] | null;
+    api_key?: Scalars['String'] | null;
+    created_at?: Scalars['timestamptz'] | null;
+    domain_names?: Scalars['String'] | null;
+    id?: Scalars['Int'] | null;
+    updated_at?: Scalars['timestamptz'] | null;
 }
 /** aggregate max on columns */
 interface api_users_max_fieldsGenqlSelection {
@@ -1541,16 +1617,16 @@ interface api_users_mutation_responseGenqlSelection {
 interface api_users_on_conflict {
     constraint: api_users_constraint;
     update_columns?: api_users_update_column[];
-    where?: (api_users_bool_exp | null);
+    where?: api_users_bool_exp | null;
 }
 /** Ordering options when selecting data from "api_users". */
 interface api_users_order_by {
-    account?: (order_by | null);
-    api_key?: (order_by | null);
-    created_at?: (order_by | null);
-    domain_names?: (order_by | null);
-    id?: (order_by | null);
-    updated_at?: (order_by | null);
+    account?: order_by | null;
+    api_key?: order_by | null;
+    created_at?: order_by | null;
+    domain_names?: order_by | null;
+    id?: order_by | null;
+    updated_at?: order_by | null;
 }
 /** primary key columns input for table: api_users */
 interface api_users_pk_columns_input {
@@ -1558,12 +1634,12 @@ interface api_users_pk_columns_input {
 }
 /** input type for updating data in table "api_users" */
 interface api_users_set_input {
-    account?: (Scalars['String'] | null);
-    api_key?: (Scalars['String'] | null);
-    created_at?: (Scalars['timestamptz'] | null);
-    domain_names?: (Scalars['String'] | null);
-    id?: (Scalars['Int'] | null);
-    updated_at?: (Scalars['timestamptz'] | null);
+    account?: Scalars['String'] | null;
+    api_key?: Scalars['String'] | null;
+    created_at?: Scalars['timestamptz'] | null;
+    domain_names?: Scalars['String'] | null;
+    id?: Scalars['Int'] | null;
+    updated_at?: Scalars['timestamptz'] | null;
 }
 /** aggregate stddev on columns */
 interface api_users_stddev_fieldsGenqlSelection {
@@ -1588,16 +1664,16 @@ interface api_users_stream_cursor_input {
     /** Stream column input with initial value */
     initial_value: api_users_stream_cursor_value_input;
     /** cursor ordering */
-    ordering?: (cursor_ordering | null);
+    ordering?: cursor_ordering | null;
 }
 /** Initial value of the column from where the streaming should start */
 interface api_users_stream_cursor_value_input {
-    account?: (Scalars['String'] | null);
-    api_key?: (Scalars['String'] | null);
-    created_at?: (Scalars['timestamptz'] | null);
-    domain_names?: (Scalars['String'] | null);
-    id?: (Scalars['Int'] | null);
-    updated_at?: (Scalars['timestamptz'] | null);
+    account?: Scalars['String'] | null;
+    api_key?: Scalars['String'] | null;
+    created_at?: Scalars['timestamptz'] | null;
+    domain_names?: Scalars['String'] | null;
+    id?: Scalars['Int'] | null;
+    updated_at?: Scalars['timestamptz'] | null;
 }
 /** aggregate sum on columns */
 interface api_users_sum_fieldsGenqlSelection {
@@ -1607,9 +1683,9 @@ interface api_users_sum_fieldsGenqlSelection {
 }
 interface api_users_updates {
     /** increments the numeric columns with given value of the filtered values */
-    _inc?: (api_users_inc_input | null);
+    _inc?: api_users_inc_input | null;
     /** sets the columns of the filtered rows to the given values */
-    _set?: (api_users_set_input | null);
+    _set?: api_users_set_input | null;
     where: api_users_bool_exp;
 }
 /** aggregate var_pop on columns */
@@ -1650,12 +1726,12 @@ interface blocks_aggregateGenqlSelection {
     __scalar?: boolean | number;
 }
 interface blocks_aggregate_bool_exp {
-    count?: (blocks_aggregate_bool_exp_count | null);
+    count?: blocks_aggregate_bool_exp_count | null;
 }
 interface blocks_aggregate_bool_exp_count {
-    arguments?: (blocks_select_column[] | null);
-    distinct?: (Scalars['Boolean'] | null);
-    filter?: (blocks_bool_exp | null);
+    arguments?: blocks_select_column[] | null;
+    distinct?: Scalars['Boolean'] | null;
+    filter?: blocks_bool_exp | null;
     predicate: Int_comparison_exp;
 }
 /** aggregate fields of "blocks" */
@@ -1663,8 +1739,8 @@ interface blocks_aggregate_fieldsGenqlSelection {
     avg?: blocks_avg_fieldsGenqlSelection;
     count?: {
         __args: {
-            columns?: (blocks_select_column[] | null);
-            distinct?: (Scalars['Boolean'] | null);
+            columns?: blocks_select_column[] | null;
+            distinct?: Scalars['Boolean'] | null;
         };
     } | boolean | number;
     max?: blocks_max_fieldsGenqlSelection;
@@ -1681,23 +1757,23 @@ interface blocks_aggregate_fieldsGenqlSelection {
 }
 /** order by aggregate values of table "blocks" */
 interface blocks_aggregate_order_by {
-    avg?: (blocks_avg_order_by | null);
-    count?: (order_by | null);
-    max?: (blocks_max_order_by | null);
-    min?: (blocks_min_order_by | null);
-    stddev?: (blocks_stddev_order_by | null);
-    stddev_pop?: (blocks_stddev_pop_order_by | null);
-    stddev_samp?: (blocks_stddev_samp_order_by | null);
-    sum?: (blocks_sum_order_by | null);
-    var_pop?: (blocks_var_pop_order_by | null);
-    var_samp?: (blocks_var_samp_order_by | null);
-    variance?: (blocks_variance_order_by | null);
+    avg?: blocks_avg_order_by | null;
+    count?: order_by | null;
+    max?: blocks_max_order_by | null;
+    min?: blocks_min_order_by | null;
+    stddev?: blocks_stddev_order_by | null;
+    stddev_pop?: blocks_stddev_pop_order_by | null;
+    stddev_samp?: blocks_stddev_samp_order_by | null;
+    sum?: blocks_sum_order_by | null;
+    var_pop?: blocks_var_pop_order_by | null;
+    var_samp?: blocks_var_samp_order_by | null;
+    variance?: blocks_variance_order_by | null;
 }
 /** input type for inserting array relation for remote table "blocks" */
 interface blocks_arr_rel_insert_input {
     data: blocks_insert_input[];
     /** upsert condition */
-    on_conflict?: (blocks_on_conflict | null);
+    on_conflict?: blocks_on_conflict | null;
 }
 /** aggregate avg on columns */
 interface blocks_avg_fieldsGenqlSelection {
@@ -1707,32 +1783,32 @@ interface blocks_avg_fieldsGenqlSelection {
 }
 /** order by avg() on columns of table "blocks" */
 interface blocks_avg_order_by {
-    block_num?: (order_by | null);
+    block_num?: order_by | null;
 }
 /** Boolean expression to filter rows from the table "blocks". All fields are combined with a logical 'AND'. */
 interface blocks_bool_exp {
-    _and?: (blocks_bool_exp[] | null);
-    _not?: (blocks_bool_exp | null);
-    _or?: (blocks_bool_exp[] | null);
-    block_id?: (String_comparison_exp | null);
-    block_num?: (Int_comparison_exp | null);
-    chain?: (String_comparison_exp | null);
-    chian?: (chains_bool_exp | null);
-    producer?: (String_comparison_exp | null);
-    timestamp?: (timestamptz_comparison_exp | null);
+    _and?: blocks_bool_exp[] | null;
+    _not?: blocks_bool_exp | null;
+    _or?: blocks_bool_exp[] | null;
+    block_id?: String_comparison_exp | null;
+    block_num?: Int_comparison_exp | null;
+    chain?: String_comparison_exp | null;
+    chian?: chains_bool_exp | null;
+    producer?: String_comparison_exp | null;
+    timestamp?: timestamptz_comparison_exp | null;
 }
 /** input type for incrementing numeric columns in table "blocks" */
 interface blocks_inc_input {
-    block_num?: (Scalars['Int'] | null);
+    block_num?: Scalars['Int'] | null;
 }
 /** input type for inserting data into table "blocks" */
 interface blocks_insert_input {
-    block_id?: (Scalars['String'] | null);
-    block_num?: (Scalars['Int'] | null);
-    chain?: (Scalars['String'] | null);
-    chian?: (chains_obj_rel_insert_input | null);
-    producer?: (Scalars['String'] | null);
-    timestamp?: (Scalars['timestamptz'] | null);
+    block_id?: Scalars['String'] | null;
+    block_num?: Scalars['Int'] | null;
+    chain?: Scalars['String'] | null;
+    chian?: chains_obj_rel_insert_input | null;
+    producer?: Scalars['String'] | null;
+    timestamp?: Scalars['timestamptz'] | null;
 }
 /** aggregate max on columns */
 interface blocks_max_fieldsGenqlSelection {
@@ -1746,11 +1822,11 @@ interface blocks_max_fieldsGenqlSelection {
 }
 /** order by max() on columns of table "blocks" */
 interface blocks_max_order_by {
-    block_id?: (order_by | null);
-    block_num?: (order_by | null);
-    chain?: (order_by | null);
-    producer?: (order_by | null);
-    timestamp?: (order_by | null);
+    block_id?: order_by | null;
+    block_num?: order_by | null;
+    chain?: order_by | null;
+    producer?: order_by | null;
+    timestamp?: order_by | null;
 }
 /** aggregate min on columns */
 interface blocks_min_fieldsGenqlSelection {
@@ -1764,11 +1840,11 @@ interface blocks_min_fieldsGenqlSelection {
 }
 /** order by min() on columns of table "blocks" */
 interface blocks_min_order_by {
-    block_id?: (order_by | null);
-    block_num?: (order_by | null);
-    chain?: (order_by | null);
-    producer?: (order_by | null);
-    timestamp?: (order_by | null);
+    block_id?: order_by | null;
+    block_num?: order_by | null;
+    chain?: order_by | null;
+    producer?: order_by | null;
+    timestamp?: order_by | null;
 }
 /** response of any mutation on the table "blocks" */
 interface blocks_mutation_responseGenqlSelection {
@@ -1783,16 +1859,16 @@ interface blocks_mutation_responseGenqlSelection {
 interface blocks_on_conflict {
     constraint: blocks_constraint;
     update_columns?: blocks_update_column[];
-    where?: (blocks_bool_exp | null);
+    where?: blocks_bool_exp | null;
 }
 /** Ordering options when selecting data from "blocks". */
 interface blocks_order_by {
-    block_id?: (order_by | null);
-    block_num?: (order_by | null);
-    chain?: (order_by | null);
-    chian?: (chains_order_by | null);
-    producer?: (order_by | null);
-    timestamp?: (order_by | null);
+    block_id?: order_by | null;
+    block_num?: order_by | null;
+    chain?: order_by | null;
+    chian?: chains_order_by | null;
+    producer?: order_by | null;
+    timestamp?: order_by | null;
 }
 /** primary key columns input for table: blocks */
 interface blocks_pk_columns_input {
@@ -1801,11 +1877,11 @@ interface blocks_pk_columns_input {
 }
 /** input type for updating data in table "blocks" */
 interface blocks_set_input {
-    block_id?: (Scalars['String'] | null);
-    block_num?: (Scalars['Int'] | null);
-    chain?: (Scalars['String'] | null);
-    producer?: (Scalars['String'] | null);
-    timestamp?: (Scalars['timestamptz'] | null);
+    block_id?: Scalars['String'] | null;
+    block_num?: Scalars['Int'] | null;
+    chain?: Scalars['String'] | null;
+    producer?: Scalars['String'] | null;
+    timestamp?: Scalars['timestamptz'] | null;
 }
 /** aggregate stddev on columns */
 interface blocks_stddev_fieldsGenqlSelection {
@@ -1815,7 +1891,7 @@ interface blocks_stddev_fieldsGenqlSelection {
 }
 /** order by stddev() on columns of table "blocks" */
 interface blocks_stddev_order_by {
-    block_num?: (order_by | null);
+    block_num?: order_by | null;
 }
 /** aggregate stddev_pop on columns */
 interface blocks_stddev_pop_fieldsGenqlSelection {
@@ -1825,7 +1901,7 @@ interface blocks_stddev_pop_fieldsGenqlSelection {
 }
 /** order by stddev_pop() on columns of table "blocks" */
 interface blocks_stddev_pop_order_by {
-    block_num?: (order_by | null);
+    block_num?: order_by | null;
 }
 /** aggregate stddev_samp on columns */
 interface blocks_stddev_samp_fieldsGenqlSelection {
@@ -1835,22 +1911,22 @@ interface blocks_stddev_samp_fieldsGenqlSelection {
 }
 /** order by stddev_samp() on columns of table "blocks" */
 interface blocks_stddev_samp_order_by {
-    block_num?: (order_by | null);
+    block_num?: order_by | null;
 }
 /** Streaming cursor of the table "blocks" */
 interface blocks_stream_cursor_input {
     /** Stream column input with initial value */
     initial_value: blocks_stream_cursor_value_input;
     /** cursor ordering */
-    ordering?: (cursor_ordering | null);
+    ordering?: cursor_ordering | null;
 }
 /** Initial value of the column from where the streaming should start */
 interface blocks_stream_cursor_value_input {
-    block_id?: (Scalars['String'] | null);
-    block_num?: (Scalars['Int'] | null);
-    chain?: (Scalars['String'] | null);
-    producer?: (Scalars['String'] | null);
-    timestamp?: (Scalars['timestamptz'] | null);
+    block_id?: Scalars['String'] | null;
+    block_num?: Scalars['Int'] | null;
+    chain?: Scalars['String'] | null;
+    producer?: Scalars['String'] | null;
+    timestamp?: Scalars['timestamptz'] | null;
 }
 /** aggregate sum on columns */
 interface blocks_sum_fieldsGenqlSelection {
@@ -1860,13 +1936,13 @@ interface blocks_sum_fieldsGenqlSelection {
 }
 /** order by sum() on columns of table "blocks" */
 interface blocks_sum_order_by {
-    block_num?: (order_by | null);
+    block_num?: order_by | null;
 }
 interface blocks_updates {
     /** increments the numeric columns with given value of the filtered values */
-    _inc?: (blocks_inc_input | null);
+    _inc?: blocks_inc_input | null;
     /** sets the columns of the filtered rows to the given values */
-    _set?: (blocks_set_input | null);
+    _set?: blocks_set_input | null;
     where: blocks_bool_exp;
 }
 /** aggregate var_pop on columns */
@@ -1877,7 +1953,7 @@ interface blocks_var_pop_fieldsGenqlSelection {
 }
 /** order by var_pop() on columns of table "blocks" */
 interface blocks_var_pop_order_by {
-    block_num?: (order_by | null);
+    block_num?: order_by | null;
 }
 /** aggregate var_samp on columns */
 interface blocks_var_samp_fieldsGenqlSelection {
@@ -1887,7 +1963,7 @@ interface blocks_var_samp_fieldsGenqlSelection {
 }
 /** order by var_samp() on columns of table "blocks" */
 interface blocks_var_samp_order_by {
-    block_num?: (order_by | null);
+    block_num?: order_by | null;
 }
 /** aggregate variance on columns */
 interface blocks_variance_fieldsGenqlSelection {
@@ -1897,73 +1973,73 @@ interface blocks_variance_fieldsGenqlSelection {
 }
 /** order by variance() on columns of table "blocks" */
 interface blocks_variance_order_by {
-    block_num?: (order_by | null);
+    block_num?: order_by | null;
 }
 /** columns and relationships of "chains" */
 interface chainsGenqlSelection {
     /** An array relationship */
-    blocks?: (blocksGenqlSelection & {
+    blocks?: blocksGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (blocks_select_column[] | null);
+            distinct_on?: blocks_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (blocks_order_by[] | null);
+            order_by?: blocks_order_by[] | null;
             /** filter the rows returned */
-            where?: (blocks_bool_exp | null);
+            where?: blocks_bool_exp | null;
         };
-    });
+    };
     /** An aggregate relationship */
-    blocks_aggregate?: (blocks_aggregateGenqlSelection & {
+    blocks_aggregate?: blocks_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (blocks_select_column[] | null);
+            distinct_on?: blocks_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (blocks_order_by[] | null);
+            order_by?: blocks_order_by[] | null;
             /** filter the rows returned */
-            where?: (blocks_bool_exp | null);
+            where?: blocks_bool_exp | null;
         };
-    });
+    };
     chain_id?: boolean | number;
     chain_name?: boolean | number;
     rpc_endpoint?: boolean | number;
     /** fetch data from the table: "table_rows" */
-    table_rows?: (table_rowsGenqlSelection & {
+    table_rows?: table_rowsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (table_rows_select_column[] | null);
+            distinct_on?: table_rows_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (table_rows_order_by[] | null);
+            order_by?: table_rows_order_by[] | null;
             /** filter the rows returned */
-            where?: (table_rows_bool_exp | null);
+            where?: table_rows_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "table_rows" */
-    table_rows_aggregate?: (table_rows_aggregateGenqlSelection & {
+    table_rows_aggregate?: table_rows_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (table_rows_select_column[] | null);
+            distinct_on?: table_rows_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (table_rows_order_by[] | null);
+            order_by?: table_rows_order_by[] | null;
             /** filter the rows returned */
-            where?: (table_rows_bool_exp | null);
+            where?: table_rows_bool_exp | null;
         };
-    });
+    };
     __typename?: boolean | number;
     __scalar?: boolean | number;
 }
@@ -1978,8 +2054,8 @@ interface chains_aggregateGenqlSelection {
 interface chains_aggregate_fieldsGenqlSelection {
     count?: {
         __args: {
-            columns?: (chains_select_column[] | null);
-            distinct?: (Scalars['Boolean'] | null);
+            columns?: chains_select_column[] | null;
+            distinct?: Scalars['Boolean'] | null;
         };
     } | boolean | number;
     max?: chains_max_fieldsGenqlSelection;
@@ -1989,24 +2065,24 @@ interface chains_aggregate_fieldsGenqlSelection {
 }
 /** Boolean expression to filter rows from the table "chains". All fields are combined with a logical 'AND'. */
 interface chains_bool_exp {
-    _and?: (chains_bool_exp[] | null);
-    _not?: (chains_bool_exp | null);
-    _or?: (chains_bool_exp[] | null);
-    blocks?: (blocks_bool_exp | null);
-    blocks_aggregate?: (blocks_aggregate_bool_exp | null);
-    chain_id?: (String_comparison_exp | null);
-    chain_name?: (String_comparison_exp | null);
-    rpc_endpoint?: (String_comparison_exp | null);
-    table_rows?: (table_rows_bool_exp | null);
-    table_rows_aggregate?: (table_rows_aggregate_bool_exp | null);
+    _and?: chains_bool_exp[] | null;
+    _not?: chains_bool_exp | null;
+    _or?: chains_bool_exp[] | null;
+    blocks?: blocks_bool_exp | null;
+    blocks_aggregate?: blocks_aggregate_bool_exp | null;
+    chain_id?: String_comparison_exp | null;
+    chain_name?: String_comparison_exp | null;
+    rpc_endpoint?: String_comparison_exp | null;
+    table_rows?: table_rows_bool_exp | null;
+    table_rows_aggregate?: table_rows_aggregate_bool_exp | null;
 }
 /** input type for inserting data into table "chains" */
 interface chains_insert_input {
-    blocks?: (blocks_arr_rel_insert_input | null);
-    chain_id?: (Scalars['String'] | null);
-    chain_name?: (Scalars['String'] | null);
-    rpc_endpoint?: (Scalars['String'] | null);
-    table_rows?: (table_rows_arr_rel_insert_input | null);
+    blocks?: blocks_arr_rel_insert_input | null;
+    chain_id?: Scalars['String'] | null;
+    chain_name?: Scalars['String'] | null;
+    rpc_endpoint?: Scalars['String'] | null;
+    table_rows?: table_rows_arr_rel_insert_input | null;
 }
 /** aggregate max on columns */
 interface chains_max_fieldsGenqlSelection {
@@ -2037,21 +2113,21 @@ interface chains_mutation_responseGenqlSelection {
 interface chains_obj_rel_insert_input {
     data: chains_insert_input;
     /** upsert condition */
-    on_conflict?: (chains_on_conflict | null);
+    on_conflict?: chains_on_conflict | null;
 }
 /** on_conflict condition type for table "chains" */
 interface chains_on_conflict {
     constraint: chains_constraint;
     update_columns?: chains_update_column[];
-    where?: (chains_bool_exp | null);
+    where?: chains_bool_exp | null;
 }
 /** Ordering options when selecting data from "chains". */
 interface chains_order_by {
-    blocks_aggregate?: (blocks_aggregate_order_by | null);
-    chain_id?: (order_by | null);
-    chain_name?: (order_by | null);
-    rpc_endpoint?: (order_by | null);
-    table_rows_aggregate?: (table_rows_aggregate_order_by | null);
+    blocks_aggregate?: blocks_aggregate_order_by | null;
+    chain_id?: order_by | null;
+    chain_name?: order_by | null;
+    rpc_endpoint?: order_by | null;
+    table_rows_aggregate?: table_rows_aggregate_order_by | null;
 }
 /** primary key columns input for table: chains */
 interface chains_pk_columns_input {
@@ -2059,53 +2135,53 @@ interface chains_pk_columns_input {
 }
 /** input type for updating data in table "chains" */
 interface chains_set_input {
-    chain_id?: (Scalars['String'] | null);
-    chain_name?: (Scalars['String'] | null);
-    rpc_endpoint?: (Scalars['String'] | null);
+    chain_id?: Scalars['String'] | null;
+    chain_name?: Scalars['String'] | null;
+    rpc_endpoint?: Scalars['String'] | null;
 }
 /** Streaming cursor of the table "chains" */
 interface chains_stream_cursor_input {
     /** Stream column input with initial value */
     initial_value: chains_stream_cursor_value_input;
     /** cursor ordering */
-    ordering?: (cursor_ordering | null);
+    ordering?: cursor_ordering | null;
 }
 /** Initial value of the column from where the streaming should start */
 interface chains_stream_cursor_value_input {
-    chain_id?: (Scalars['String'] | null);
-    chain_name?: (Scalars['String'] | null);
-    rpc_endpoint?: (Scalars['String'] | null);
+    chain_id?: Scalars['String'] | null;
+    chain_name?: Scalars['String'] | null;
+    rpc_endpoint?: Scalars['String'] | null;
 }
 interface chains_updates {
     /** sets the columns of the filtered rows to the given values */
-    _set?: (chains_set_input | null);
+    _set?: chains_set_input | null;
     where: chains_bool_exp;
 }
 interface jsonb_cast_exp {
-    String?: (String_comparison_exp | null);
+    String?: String_comparison_exp | null;
 }
 /** Boolean expression to compare columns of type "jsonb". All fields are combined with logical 'AND'. */
 interface jsonb_comparison_exp {
-    _cast?: (jsonb_cast_exp | null);
+    _cast?: jsonb_cast_exp | null;
     /** is the column contained in the given json value */
-    _contained_in?: (Scalars['jsonb'] | null);
+    _contained_in?: Scalars['jsonb'] | null;
     /** does the column contain the given json value at the top level */
-    _contains?: (Scalars['jsonb'] | null);
-    _eq?: (Scalars['jsonb'] | null);
-    _gt?: (Scalars['jsonb'] | null);
-    _gte?: (Scalars['jsonb'] | null);
+    _contains?: Scalars['jsonb'] | null;
+    _eq?: Scalars['jsonb'] | null;
+    _gt?: Scalars['jsonb'] | null;
+    _gte?: Scalars['jsonb'] | null;
     /** does the string exist as a top-level key in the column */
-    _has_key?: (Scalars['String'] | null);
+    _has_key?: Scalars['String'] | null;
     /** do all of these strings exist as top-level keys in the column */
-    _has_keys_all?: (Scalars['String'][] | null);
+    _has_keys_all?: Scalars['String'][] | null;
     /** do any of these strings exist as top-level keys in the column */
-    _has_keys_any?: (Scalars['String'][] | null);
-    _in?: (Scalars['jsonb'][] | null);
-    _is_null?: (Scalars['Boolean'] | null);
-    _lt?: (Scalars['jsonb'] | null);
-    _lte?: (Scalars['jsonb'] | null);
-    _neq?: (Scalars['jsonb'] | null);
-    _nin?: (Scalars['jsonb'][] | null);
+    _has_keys_any?: Scalars['String'][] | null;
+    _in?: Scalars['jsonb'][] | null;
+    _is_null?: Scalars['Boolean'] | null;
+    _lt?: Scalars['jsonb'] | null;
+    _lte?: Scalars['jsonb'] | null;
+    _neq?: Scalars['jsonb'] | null;
+    _nin?: Scalars['jsonb'][] | null;
 }
 /** columns and relationships of "manifests" */
 interface manifestsGenqlSelection {
@@ -2127,8 +2203,8 @@ interface manifests_aggregateGenqlSelection {
 interface manifests_aggregate_fieldsGenqlSelection {
     count?: {
         __args: {
-            columns?: (manifests_select_column[] | null);
-            distinct?: (Scalars['Boolean'] | null);
+            columns?: manifests_select_column[] | null;
+            distinct?: Scalars['Boolean'] | null;
         };
     } | boolean | number;
     max?: manifests_max_fieldsGenqlSelection;
@@ -2138,20 +2214,20 @@ interface manifests_aggregate_fieldsGenqlSelection {
 }
 /** Boolean expression to filter rows from the table "manifests". All fields are combined with a logical 'AND'. */
 interface manifests_bool_exp {
-    _and?: (manifests_bool_exp[] | null);
-    _not?: (manifests_bool_exp | null);
-    _or?: (manifests_bool_exp[] | null);
-    app_id?: (uuid_comparison_exp | null);
-    app_name?: (String_comparison_exp | null);
-    description?: (String_comparison_exp | null);
-    url?: (String_comparison_exp | null);
+    _and?: manifests_bool_exp[] | null;
+    _not?: manifests_bool_exp | null;
+    _or?: manifests_bool_exp[] | null;
+    app_id?: uuid_comparison_exp | null;
+    app_name?: String_comparison_exp | null;
+    description?: String_comparison_exp | null;
+    url?: String_comparison_exp | null;
 }
 /** input type for inserting data into table "manifests" */
 interface manifests_insert_input {
-    app_id?: (Scalars['uuid'] | null);
-    app_name?: (Scalars['String'] | null);
-    description?: (Scalars['String'] | null);
-    url?: (Scalars['String'] | null);
+    app_id?: Scalars['uuid'] | null;
+    app_name?: Scalars['String'] | null;
+    description?: Scalars['String'] | null;
+    url?: Scalars['String'] | null;
 }
 /** aggregate max on columns */
 interface manifests_max_fieldsGenqlSelection {
@@ -2184,20 +2260,20 @@ interface manifests_mutation_responseGenqlSelection {
 interface manifests_obj_rel_insert_input {
     data: manifests_insert_input;
     /** upsert condition */
-    on_conflict?: (manifests_on_conflict | null);
+    on_conflict?: manifests_on_conflict | null;
 }
 /** on_conflict condition type for table "manifests" */
 interface manifests_on_conflict {
     constraint: manifests_constraint;
     update_columns?: manifests_update_column[];
-    where?: (manifests_bool_exp | null);
+    where?: manifests_bool_exp | null;
 }
 /** Ordering options when selecting data from "manifests". */
 interface manifests_order_by {
-    app_id?: (order_by | null);
-    app_name?: (order_by | null);
-    description?: (order_by | null);
-    url?: (order_by | null);
+    app_id?: order_by | null;
+    app_name?: order_by | null;
+    description?: order_by | null;
+    url?: order_by | null;
 }
 /** primary key columns input for table: manifests */
 interface manifests_pk_columns_input {
@@ -2205,28 +2281,28 @@ interface manifests_pk_columns_input {
 }
 /** input type for updating data in table "manifests" */
 interface manifests_set_input {
-    app_id?: (Scalars['uuid'] | null);
-    app_name?: (Scalars['String'] | null);
-    description?: (Scalars['String'] | null);
-    url?: (Scalars['String'] | null);
+    app_id?: Scalars['uuid'] | null;
+    app_name?: Scalars['String'] | null;
+    description?: Scalars['String'] | null;
+    url?: Scalars['String'] | null;
 }
 /** Streaming cursor of the table "manifests" */
 interface manifests_stream_cursor_input {
     /** Stream column input with initial value */
     initial_value: manifests_stream_cursor_value_input;
     /** cursor ordering */
-    ordering?: (cursor_ordering | null);
+    ordering?: cursor_ordering | null;
 }
 /** Initial value of the column from where the streaming should start */
 interface manifests_stream_cursor_value_input {
-    app_id?: (Scalars['uuid'] | null);
-    app_name?: (Scalars['String'] | null);
-    description?: (Scalars['String'] | null);
-    url?: (Scalars['String'] | null);
+    app_id?: Scalars['uuid'] | null;
+    app_name?: Scalars['String'] | null;
+    description?: Scalars['String'] | null;
+    url?: Scalars['String'] | null;
 }
 interface manifests_updates {
     /** sets the columns of the filtered rows to the given values */
-    _set?: (manifests_set_input | null);
+    _set?: manifests_set_input | null;
     where: manifests_bool_exp;
 }
 /** columns and relationships of "mappings" */
@@ -2234,7 +2310,7 @@ interface mappingsGenqlSelection {
     abi?: {
         __args: {
             /** JSON select path */
-            path?: (Scalars['String'] | null);
+            path?: Scalars['String'] | null;
         };
     } | boolean | number;
     chain?: boolean | number;
@@ -2243,7 +2319,7 @@ interface mappingsGenqlSelection {
     tables?: {
         __args: {
             /** JSON select path */
-            path?: (Scalars['String'] | null);
+            path?: Scalars['String'] | null;
         };
     } | boolean | number;
     __typename?: boolean | number;
@@ -2260,8 +2336,8 @@ interface mappings_aggregateGenqlSelection {
 interface mappings_aggregate_fieldsGenqlSelection {
     count?: {
         __args: {
-            columns?: (mappings_select_column[] | null);
-            distinct?: (Scalars['Boolean'] | null);
+            columns?: mappings_select_column[] | null;
+            distinct?: Scalars['Boolean'] | null;
         };
     } | boolean | number;
     max?: mappings_max_fieldsGenqlSelection;
@@ -2271,42 +2347,42 @@ interface mappings_aggregate_fieldsGenqlSelection {
 }
 /** append existing jsonb value of filtered columns with new jsonb value */
 interface mappings_append_input {
-    abi?: (Scalars['jsonb'] | null);
-    tables?: (Scalars['jsonb'] | null);
+    abi?: Scalars['jsonb'] | null;
+    tables?: Scalars['jsonb'] | null;
 }
 /** Boolean expression to filter rows from the table "mappings". All fields are combined with a logical 'AND'. */
 interface mappings_bool_exp {
-    _and?: (mappings_bool_exp[] | null);
-    _not?: (mappings_bool_exp | null);
-    _or?: (mappings_bool_exp[] | null);
-    abi?: (jsonb_comparison_exp | null);
-    chain?: (String_comparison_exp | null);
-    contract?: (String_comparison_exp | null);
-    contract_type?: (String_comparison_exp | null);
-    tables?: (jsonb_comparison_exp | null);
+    _and?: mappings_bool_exp[] | null;
+    _not?: mappings_bool_exp | null;
+    _or?: mappings_bool_exp[] | null;
+    abi?: jsonb_comparison_exp | null;
+    chain?: String_comparison_exp | null;
+    contract?: String_comparison_exp | null;
+    contract_type?: String_comparison_exp | null;
+    tables?: jsonb_comparison_exp | null;
 }
 /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
 interface mappings_delete_at_path_input {
-    abi?: (Scalars['String'][] | null);
-    tables?: (Scalars['String'][] | null);
+    abi?: Scalars['String'][] | null;
+    tables?: Scalars['String'][] | null;
 }
 /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
 interface mappings_delete_elem_input {
-    abi?: (Scalars['Int'] | null);
-    tables?: (Scalars['Int'] | null);
+    abi?: Scalars['Int'] | null;
+    tables?: Scalars['Int'] | null;
 }
 /** delete key/value pair or string element. key/value pairs are matched based on their key value */
 interface mappings_delete_key_input {
-    abi?: (Scalars['String'] | null);
-    tables?: (Scalars['String'] | null);
+    abi?: Scalars['String'] | null;
+    tables?: Scalars['String'] | null;
 }
 /** input type for inserting data into table "mappings" */
 interface mappings_insert_input {
-    abi?: (Scalars['jsonb'] | null);
-    chain?: (Scalars['String'] | null);
-    contract?: (Scalars['String'] | null);
-    contract_type?: (Scalars['String'] | null);
-    tables?: (Scalars['jsonb'] | null);
+    abi?: Scalars['jsonb'] | null;
+    chain?: Scalars['String'] | null;
+    contract?: Scalars['String'] | null;
+    contract_type?: Scalars['String'] | null;
+    tables?: Scalars['jsonb'] | null;
 }
 /** aggregate max on columns */
 interface mappings_max_fieldsGenqlSelection {
@@ -2337,15 +2413,15 @@ interface mappings_mutation_responseGenqlSelection {
 interface mappings_on_conflict {
     constraint: mappings_constraint;
     update_columns?: mappings_update_column[];
-    where?: (mappings_bool_exp | null);
+    where?: mappings_bool_exp | null;
 }
 /** Ordering options when selecting data from "mappings". */
 interface mappings_order_by {
-    abi?: (order_by | null);
-    chain?: (order_by | null);
-    contract?: (order_by | null);
-    contract_type?: (order_by | null);
-    tables?: (order_by | null);
+    abi?: order_by | null;
+    chain?: order_by | null;
+    contract?: order_by | null;
+    contract_type?: order_by | null;
+    tables?: order_by | null;
 }
 /** primary key columns input for table: mappings */
 interface mappings_pk_columns_input {
@@ -2354,139 +2430,139 @@ interface mappings_pk_columns_input {
 }
 /** prepend existing jsonb value of filtered columns with new jsonb value */
 interface mappings_prepend_input {
-    abi?: (Scalars['jsonb'] | null);
-    tables?: (Scalars['jsonb'] | null);
+    abi?: Scalars['jsonb'] | null;
+    tables?: Scalars['jsonb'] | null;
 }
 /** input type for updating data in table "mappings" */
 interface mappings_set_input {
-    abi?: (Scalars['jsonb'] | null);
-    chain?: (Scalars['String'] | null);
-    contract?: (Scalars['String'] | null);
-    contract_type?: (Scalars['String'] | null);
-    tables?: (Scalars['jsonb'] | null);
+    abi?: Scalars['jsonb'] | null;
+    chain?: Scalars['String'] | null;
+    contract?: Scalars['String'] | null;
+    contract_type?: Scalars['String'] | null;
+    tables?: Scalars['jsonb'] | null;
 }
 /** Streaming cursor of the table "mappings" */
 interface mappings_stream_cursor_input {
     /** Stream column input with initial value */
     initial_value: mappings_stream_cursor_value_input;
     /** cursor ordering */
-    ordering?: (cursor_ordering | null);
+    ordering?: cursor_ordering | null;
 }
 /** Initial value of the column from where the streaming should start */
 interface mappings_stream_cursor_value_input {
-    abi?: (Scalars['jsonb'] | null);
-    chain?: (Scalars['String'] | null);
-    contract?: (Scalars['String'] | null);
-    contract_type?: (Scalars['String'] | null);
-    tables?: (Scalars['jsonb'] | null);
+    abi?: Scalars['jsonb'] | null;
+    chain?: Scalars['String'] | null;
+    contract?: Scalars['String'] | null;
+    contract_type?: Scalars['String'] | null;
+    tables?: Scalars['jsonb'] | null;
 }
 interface mappings_updates {
     /** append existing jsonb value of filtered columns with new jsonb value */
-    _append?: (mappings_append_input | null);
+    _append?: mappings_append_input | null;
     /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-    _delete_at_path?: (mappings_delete_at_path_input | null);
+    _delete_at_path?: mappings_delete_at_path_input | null;
     /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-    _delete_elem?: (mappings_delete_elem_input | null);
+    _delete_elem?: mappings_delete_elem_input | null;
     /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-    _delete_key?: (mappings_delete_key_input | null);
+    _delete_key?: mappings_delete_key_input | null;
     /** prepend existing jsonb value of filtered columns with new jsonb value */
-    _prepend?: (mappings_prepend_input | null);
+    _prepend?: mappings_prepend_input | null;
     /** sets the columns of the filtered rows to the given values */
-    _set?: (mappings_set_input | null);
+    _set?: mappings_set_input | null;
     where: mappings_bool_exp;
 }
 /** mutation root */
 interface mutation_rootGenqlSelection {
     /** delete data from the table: "actions" */
-    delete_actions?: (actions_mutation_responseGenqlSelection & {
+    delete_actions?: actions_mutation_responseGenqlSelection & {
         __args: {
             /** filter the rows which have to be deleted */
             where: actions_bool_exp;
         };
-    });
+    };
     /** delete single row from the table: "actions" */
-    delete_actions_by_pk?: (actionsGenqlSelection & {
+    delete_actions_by_pk?: actionsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             global_sequence: Scalars['String'];
         };
-    });
+    };
     /** delete data from the table: "api_users" */
-    delete_api_users?: (api_users_mutation_responseGenqlSelection & {
+    delete_api_users?: api_users_mutation_responseGenqlSelection & {
         __args: {
             /** filter the rows which have to be deleted */
             where: api_users_bool_exp;
         };
-    });
+    };
     /** delete single row from the table: "api_users" */
-    delete_api_users_by_pk?: (api_usersGenqlSelection & {
+    delete_api_users_by_pk?: api_usersGenqlSelection & {
         __args: {
             id: Scalars['Int'];
         };
-    });
+    };
     /** delete data from the table: "blocks" */
-    delete_blocks?: (blocks_mutation_responseGenqlSelection & {
+    delete_blocks?: blocks_mutation_responseGenqlSelection & {
         __args: {
             /** filter the rows which have to be deleted */
             where: blocks_bool_exp;
         };
-    });
+    };
     /** delete single row from the table: "blocks" */
-    delete_blocks_by_pk?: (blocksGenqlSelection & {
+    delete_blocks_by_pk?: blocksGenqlSelection & {
         __args: {
             block_num: Scalars['Int'];
             chain: Scalars['String'];
         };
-    });
+    };
     /** delete data from the table: "chains" */
-    delete_chains?: (chains_mutation_responseGenqlSelection & {
+    delete_chains?: chains_mutation_responseGenqlSelection & {
         __args: {
             /** filter the rows which have to be deleted */
             where: chains_bool_exp;
         };
-    });
+    };
     /** delete single row from the table: "chains" */
-    delete_chains_by_pk?: (chainsGenqlSelection & {
+    delete_chains_by_pk?: chainsGenqlSelection & {
         __args: {
             chain_name: Scalars['String'];
         };
-    });
+    };
     /** delete data from the table: "manifests" */
-    delete_manifests?: (manifests_mutation_responseGenqlSelection & {
+    delete_manifests?: manifests_mutation_responseGenqlSelection & {
         __args: {
             /** filter the rows which have to be deleted */
             where: manifests_bool_exp;
         };
-    });
+    };
     /** delete single row from the table: "manifests" */
-    delete_manifests_by_pk?: (manifestsGenqlSelection & {
+    delete_manifests_by_pk?: manifestsGenqlSelection & {
         __args: {
             app_id: Scalars['uuid'];
         };
-    });
+    };
     /** delete data from the table: "mappings" */
-    delete_mappings?: (mappings_mutation_responseGenqlSelection & {
+    delete_mappings?: mappings_mutation_responseGenqlSelection & {
         __args: {
             /** filter the rows which have to be deleted */
             where: mappings_bool_exp;
         };
-    });
+    };
     /** delete single row from the table: "mappings" */
-    delete_mappings_by_pk?: (mappingsGenqlSelection & {
+    delete_mappings_by_pk?: mappingsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             contract: Scalars['String'];
         };
-    });
+    };
     /** delete data from the table: "table_rows" */
-    delete_table_rows?: (table_rows_mutation_responseGenqlSelection & {
+    delete_table_rows?: table_rows_mutation_responseGenqlSelection & {
         __args: {
             /** filter the rows which have to be deleted */
             where: table_rows_bool_exp;
         };
-    });
+    };
     /** delete single row from the table: "table_rows" */
-    delete_table_rows_by_pk?: (table_rowsGenqlSelection & {
+    delete_table_rows_by_pk?: table_rowsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             contract: Scalars['String'];
@@ -2494,769 +2570,769 @@ interface mutation_rootGenqlSelection {
             scope: Scalars['String'];
             table: Scalars['String'];
         };
-    });
+    };
     /** delete data from the table: "transactions" */
-    delete_transactions?: (transactions_mutation_responseGenqlSelection & {
+    delete_transactions?: transactions_mutation_responseGenqlSelection & {
         __args: {
             /** filter the rows which have to be deleted */
             where: transactions_bool_exp;
         };
-    });
+    };
     /** delete single row from the table: "transactions" */
-    delete_transactions_by_pk?: (transactionsGenqlSelection & {
+    delete_transactions_by_pk?: transactionsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             transaction_id: Scalars['String'];
         };
-    });
+    };
     /** delete data from the table: "whitelists" */
-    delete_whitelists?: (whitelists_mutation_responseGenqlSelection & {
+    delete_whitelists?: whitelists_mutation_responseGenqlSelection & {
         __args: {
             /** filter the rows which have to be deleted */
             where: whitelists_bool_exp;
         };
-    });
+    };
     /** delete single row from the table: "whitelists" */
-    delete_whitelists_by_pk?: (whitelistsGenqlSelection & {
+    delete_whitelists_by_pk?: whitelistsGenqlSelection & {
         __args: {
             app_id: Scalars['uuid'];
             chain: Scalars['String'];
             contract: Scalars['String'];
         };
-    });
+    };
     /** insert data into the table: "actions" */
-    insert_actions?: (actions_mutation_responseGenqlSelection & {
+    insert_actions?: actions_mutation_responseGenqlSelection & {
         __args: {
             /** the rows to be inserted */
             objects: actions_insert_input[];
             /** upsert condition */
-            on_conflict?: (actions_on_conflict | null);
+            on_conflict?: actions_on_conflict | null;
         };
-    });
+    };
     /** insert a single row into the table: "actions" */
-    insert_actions_one?: (actionsGenqlSelection & {
+    insert_actions_one?: actionsGenqlSelection & {
         __args: {
             /** the row to be inserted */
             object: actions_insert_input;
             /** upsert condition */
-            on_conflict?: (actions_on_conflict | null);
+            on_conflict?: actions_on_conflict | null;
         };
-    });
+    };
     /** insert data into the table: "api_users" */
-    insert_api_users?: (api_users_mutation_responseGenqlSelection & {
+    insert_api_users?: api_users_mutation_responseGenqlSelection & {
         __args: {
             /** the rows to be inserted */
             objects: api_users_insert_input[];
             /** upsert condition */
-            on_conflict?: (api_users_on_conflict | null);
+            on_conflict?: api_users_on_conflict | null;
         };
-    });
+    };
     /** insert a single row into the table: "api_users" */
-    insert_api_users_one?: (api_usersGenqlSelection & {
+    insert_api_users_one?: api_usersGenqlSelection & {
         __args: {
             /** the row to be inserted */
             object: api_users_insert_input;
             /** upsert condition */
-            on_conflict?: (api_users_on_conflict | null);
+            on_conflict?: api_users_on_conflict | null;
         };
-    });
+    };
     /** insert data into the table: "blocks" */
-    insert_blocks?: (blocks_mutation_responseGenqlSelection & {
+    insert_blocks?: blocks_mutation_responseGenqlSelection & {
         __args: {
             /** the rows to be inserted */
             objects: blocks_insert_input[];
             /** upsert condition */
-            on_conflict?: (blocks_on_conflict | null);
+            on_conflict?: blocks_on_conflict | null;
         };
-    });
+    };
     /** insert a single row into the table: "blocks" */
-    insert_blocks_one?: (blocksGenqlSelection & {
+    insert_blocks_one?: blocksGenqlSelection & {
         __args: {
             /** the row to be inserted */
             object: blocks_insert_input;
             /** upsert condition */
-            on_conflict?: (blocks_on_conflict | null);
+            on_conflict?: blocks_on_conflict | null;
         };
-    });
+    };
     /** insert data into the table: "chains" */
-    insert_chains?: (chains_mutation_responseGenqlSelection & {
+    insert_chains?: chains_mutation_responseGenqlSelection & {
         __args: {
             /** the rows to be inserted */
             objects: chains_insert_input[];
             /** upsert condition */
-            on_conflict?: (chains_on_conflict | null);
+            on_conflict?: chains_on_conflict | null;
         };
-    });
+    };
     /** insert a single row into the table: "chains" */
-    insert_chains_one?: (chainsGenqlSelection & {
+    insert_chains_one?: chainsGenqlSelection & {
         __args: {
             /** the row to be inserted */
             object: chains_insert_input;
             /** upsert condition */
-            on_conflict?: (chains_on_conflict | null);
+            on_conflict?: chains_on_conflict | null;
         };
-    });
+    };
     /** insert data into the table: "manifests" */
-    insert_manifests?: (manifests_mutation_responseGenqlSelection & {
+    insert_manifests?: manifests_mutation_responseGenqlSelection & {
         __args: {
             /** the rows to be inserted */
             objects: manifests_insert_input[];
             /** upsert condition */
-            on_conflict?: (manifests_on_conflict | null);
+            on_conflict?: manifests_on_conflict | null;
         };
-    });
+    };
     /** insert a single row into the table: "manifests" */
-    insert_manifests_one?: (manifestsGenqlSelection & {
+    insert_manifests_one?: manifestsGenqlSelection & {
         __args: {
             /** the row to be inserted */
             object: manifests_insert_input;
             /** upsert condition */
-            on_conflict?: (manifests_on_conflict | null);
+            on_conflict?: manifests_on_conflict | null;
         };
-    });
+    };
     /** insert data into the table: "mappings" */
-    insert_mappings?: (mappings_mutation_responseGenqlSelection & {
+    insert_mappings?: mappings_mutation_responseGenqlSelection & {
         __args: {
             /** the rows to be inserted */
             objects: mappings_insert_input[];
             /** upsert condition */
-            on_conflict?: (mappings_on_conflict | null);
+            on_conflict?: mappings_on_conflict | null;
         };
-    });
+    };
     /** insert a single row into the table: "mappings" */
-    insert_mappings_one?: (mappingsGenqlSelection & {
+    insert_mappings_one?: mappingsGenqlSelection & {
         __args: {
             /** the row to be inserted */
             object: mappings_insert_input;
             /** upsert condition */
-            on_conflict?: (mappings_on_conflict | null);
+            on_conflict?: mappings_on_conflict | null;
         };
-    });
+    };
     /** insert data into the table: "table_rows" */
-    insert_table_rows?: (table_rows_mutation_responseGenqlSelection & {
+    insert_table_rows?: table_rows_mutation_responseGenqlSelection & {
         __args: {
             /** the rows to be inserted */
             objects: table_rows_insert_input[];
             /** upsert condition */
-            on_conflict?: (table_rows_on_conflict | null);
+            on_conflict?: table_rows_on_conflict | null;
         };
-    });
+    };
     /** insert a single row into the table: "table_rows" */
-    insert_table_rows_one?: (table_rowsGenqlSelection & {
+    insert_table_rows_one?: table_rowsGenqlSelection & {
         __args: {
             /** the row to be inserted */
             object: table_rows_insert_input;
             /** upsert condition */
-            on_conflict?: (table_rows_on_conflict | null);
+            on_conflict?: table_rows_on_conflict | null;
         };
-    });
+    };
     /** insert data into the table: "transactions" */
-    insert_transactions?: (transactions_mutation_responseGenqlSelection & {
+    insert_transactions?: transactions_mutation_responseGenqlSelection & {
         __args: {
             /** the rows to be inserted */
             objects: transactions_insert_input[];
             /** upsert condition */
-            on_conflict?: (transactions_on_conflict | null);
+            on_conflict?: transactions_on_conflict | null;
         };
-    });
+    };
     /** insert a single row into the table: "transactions" */
-    insert_transactions_one?: (transactionsGenqlSelection & {
+    insert_transactions_one?: transactionsGenqlSelection & {
         __args: {
             /** the row to be inserted */
             object: transactions_insert_input;
             /** upsert condition */
-            on_conflict?: (transactions_on_conflict | null);
+            on_conflict?: transactions_on_conflict | null;
         };
-    });
+    };
     /** insert data into the table: "whitelists" */
-    insert_whitelists?: (whitelists_mutation_responseGenqlSelection & {
+    insert_whitelists?: whitelists_mutation_responseGenqlSelection & {
         __args: {
             /** the rows to be inserted */
             objects: whitelists_insert_input[];
             /** upsert condition */
-            on_conflict?: (whitelists_on_conflict | null);
+            on_conflict?: whitelists_on_conflict | null;
         };
-    });
+    };
     /** insert a single row into the table: "whitelists" */
-    insert_whitelists_one?: (whitelistsGenqlSelection & {
+    insert_whitelists_one?: whitelistsGenqlSelection & {
         __args: {
             /** the row to be inserted */
             object: whitelists_insert_input;
             /** upsert condition */
-            on_conflict?: (whitelists_on_conflict | null);
+            on_conflict?: whitelists_on_conflict | null;
         };
-    });
+    };
     /** update data of the table: "actions" */
-    update_actions?: (actions_mutation_responseGenqlSelection & {
+    update_actions?: actions_mutation_responseGenqlSelection & {
         __args: {
             /** append existing jsonb value of filtered columns with new jsonb value */
-            _append?: (actions_append_input | null);
+            _append?: actions_append_input | null;
             /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-            _delete_at_path?: (actions_delete_at_path_input | null);
+            _delete_at_path?: actions_delete_at_path_input | null;
             /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-            _delete_elem?: (actions_delete_elem_input | null);
+            _delete_elem?: actions_delete_elem_input | null;
             /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-            _delete_key?: (actions_delete_key_input | null);
+            _delete_key?: actions_delete_key_input | null;
             /** increments the numeric columns with given value of the filtered values */
-            _inc?: (actions_inc_input | null);
+            _inc?: actions_inc_input | null;
             /** prepend existing jsonb value of filtered columns with new jsonb value */
-            _prepend?: (actions_prepend_input | null);
+            _prepend?: actions_prepend_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (actions_set_input | null);
+            _set?: actions_set_input | null;
             /** filter the rows which have to be updated */
             where: actions_bool_exp;
         };
-    });
+    };
     /** update single row of the table: "actions" */
-    update_actions_by_pk?: (actionsGenqlSelection & {
+    update_actions_by_pk?: actionsGenqlSelection & {
         __args: {
             /** append existing jsonb value of filtered columns with new jsonb value */
-            _append?: (actions_append_input | null);
+            _append?: actions_append_input | null;
             /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-            _delete_at_path?: (actions_delete_at_path_input | null);
+            _delete_at_path?: actions_delete_at_path_input | null;
             /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-            _delete_elem?: (actions_delete_elem_input | null);
+            _delete_elem?: actions_delete_elem_input | null;
             /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-            _delete_key?: (actions_delete_key_input | null);
+            _delete_key?: actions_delete_key_input | null;
             /** increments the numeric columns with given value of the filtered values */
-            _inc?: (actions_inc_input | null);
+            _inc?: actions_inc_input | null;
             /** prepend existing jsonb value of filtered columns with new jsonb value */
-            _prepend?: (actions_prepend_input | null);
+            _prepend?: actions_prepend_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (actions_set_input | null);
+            _set?: actions_set_input | null;
             pk_columns: actions_pk_columns_input;
         };
-    });
+    };
     /** update multiples rows of table: "actions" */
-    update_actions_many?: (actions_mutation_responseGenqlSelection & {
+    update_actions_many?: actions_mutation_responseGenqlSelection & {
         __args: {
             /** updates to execute, in order */
             updates: actions_updates[];
         };
-    });
+    };
     /** update data of the table: "api_users" */
-    update_api_users?: (api_users_mutation_responseGenqlSelection & {
+    update_api_users?: api_users_mutation_responseGenqlSelection & {
         __args: {
             /** increments the numeric columns with given value of the filtered values */
-            _inc?: (api_users_inc_input | null);
+            _inc?: api_users_inc_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (api_users_set_input | null);
+            _set?: api_users_set_input | null;
             /** filter the rows which have to be updated */
             where: api_users_bool_exp;
         };
-    });
+    };
     /** update single row of the table: "api_users" */
-    update_api_users_by_pk?: (api_usersGenqlSelection & {
+    update_api_users_by_pk?: api_usersGenqlSelection & {
         __args: {
             /** increments the numeric columns with given value of the filtered values */
-            _inc?: (api_users_inc_input | null);
+            _inc?: api_users_inc_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (api_users_set_input | null);
+            _set?: api_users_set_input | null;
             pk_columns: api_users_pk_columns_input;
         };
-    });
+    };
     /** update multiples rows of table: "api_users" */
-    update_api_users_many?: (api_users_mutation_responseGenqlSelection & {
+    update_api_users_many?: api_users_mutation_responseGenqlSelection & {
         __args: {
             /** updates to execute, in order */
             updates: api_users_updates[];
         };
-    });
+    };
     /** update data of the table: "blocks" */
-    update_blocks?: (blocks_mutation_responseGenqlSelection & {
+    update_blocks?: blocks_mutation_responseGenqlSelection & {
         __args: {
             /** increments the numeric columns with given value of the filtered values */
-            _inc?: (blocks_inc_input | null);
+            _inc?: blocks_inc_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (blocks_set_input | null);
+            _set?: blocks_set_input | null;
             /** filter the rows which have to be updated */
             where: blocks_bool_exp;
         };
-    });
+    };
     /** update single row of the table: "blocks" */
-    update_blocks_by_pk?: (blocksGenqlSelection & {
+    update_blocks_by_pk?: blocksGenqlSelection & {
         __args: {
             /** increments the numeric columns with given value of the filtered values */
-            _inc?: (blocks_inc_input | null);
+            _inc?: blocks_inc_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (blocks_set_input | null);
+            _set?: blocks_set_input | null;
             pk_columns: blocks_pk_columns_input;
         };
-    });
+    };
     /** update multiples rows of table: "blocks" */
-    update_blocks_many?: (blocks_mutation_responseGenqlSelection & {
+    update_blocks_many?: blocks_mutation_responseGenqlSelection & {
         __args: {
             /** updates to execute, in order */
             updates: blocks_updates[];
         };
-    });
+    };
     /** update data of the table: "chains" */
-    update_chains?: (chains_mutation_responseGenqlSelection & {
+    update_chains?: chains_mutation_responseGenqlSelection & {
         __args: {
             /** sets the columns of the filtered rows to the given values */
-            _set?: (chains_set_input | null);
+            _set?: chains_set_input | null;
             /** filter the rows which have to be updated */
             where: chains_bool_exp;
         };
-    });
+    };
     /** update single row of the table: "chains" */
-    update_chains_by_pk?: (chainsGenqlSelection & {
+    update_chains_by_pk?: chainsGenqlSelection & {
         __args: {
             /** sets the columns of the filtered rows to the given values */
-            _set?: (chains_set_input | null);
+            _set?: chains_set_input | null;
             pk_columns: chains_pk_columns_input;
         };
-    });
+    };
     /** update multiples rows of table: "chains" */
-    update_chains_many?: (chains_mutation_responseGenqlSelection & {
+    update_chains_many?: chains_mutation_responseGenqlSelection & {
         __args: {
             /** updates to execute, in order */
             updates: chains_updates[];
         };
-    });
+    };
     /** update data of the table: "manifests" */
-    update_manifests?: (manifests_mutation_responseGenqlSelection & {
+    update_manifests?: manifests_mutation_responseGenqlSelection & {
         __args: {
             /** sets the columns of the filtered rows to the given values */
-            _set?: (manifests_set_input | null);
+            _set?: manifests_set_input | null;
             /** filter the rows which have to be updated */
             where: manifests_bool_exp;
         };
-    });
+    };
     /** update single row of the table: "manifests" */
-    update_manifests_by_pk?: (manifestsGenqlSelection & {
+    update_manifests_by_pk?: manifestsGenqlSelection & {
         __args: {
             /** sets the columns of the filtered rows to the given values */
-            _set?: (manifests_set_input | null);
+            _set?: manifests_set_input | null;
             pk_columns: manifests_pk_columns_input;
         };
-    });
+    };
     /** update multiples rows of table: "manifests" */
-    update_manifests_many?: (manifests_mutation_responseGenqlSelection & {
+    update_manifests_many?: manifests_mutation_responseGenqlSelection & {
         __args: {
             /** updates to execute, in order */
             updates: manifests_updates[];
         };
-    });
+    };
     /** update data of the table: "mappings" */
-    update_mappings?: (mappings_mutation_responseGenqlSelection & {
+    update_mappings?: mappings_mutation_responseGenqlSelection & {
         __args: {
             /** append existing jsonb value of filtered columns with new jsonb value */
-            _append?: (mappings_append_input | null);
+            _append?: mappings_append_input | null;
             /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-            _delete_at_path?: (mappings_delete_at_path_input | null);
+            _delete_at_path?: mappings_delete_at_path_input | null;
             /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-            _delete_elem?: (mappings_delete_elem_input | null);
+            _delete_elem?: mappings_delete_elem_input | null;
             /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-            _delete_key?: (mappings_delete_key_input | null);
+            _delete_key?: mappings_delete_key_input | null;
             /** prepend existing jsonb value of filtered columns with new jsonb value */
-            _prepend?: (mappings_prepend_input | null);
+            _prepend?: mappings_prepend_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (mappings_set_input | null);
+            _set?: mappings_set_input | null;
             /** filter the rows which have to be updated */
             where: mappings_bool_exp;
         };
-    });
+    };
     /** update single row of the table: "mappings" */
-    update_mappings_by_pk?: (mappingsGenqlSelection & {
+    update_mappings_by_pk?: mappingsGenqlSelection & {
         __args: {
             /** append existing jsonb value of filtered columns with new jsonb value */
-            _append?: (mappings_append_input | null);
+            _append?: mappings_append_input | null;
             /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-            _delete_at_path?: (mappings_delete_at_path_input | null);
+            _delete_at_path?: mappings_delete_at_path_input | null;
             /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-            _delete_elem?: (mappings_delete_elem_input | null);
+            _delete_elem?: mappings_delete_elem_input | null;
             /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-            _delete_key?: (mappings_delete_key_input | null);
+            _delete_key?: mappings_delete_key_input | null;
             /** prepend existing jsonb value of filtered columns with new jsonb value */
-            _prepend?: (mappings_prepend_input | null);
+            _prepend?: mappings_prepend_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (mappings_set_input | null);
+            _set?: mappings_set_input | null;
             pk_columns: mappings_pk_columns_input;
         };
-    });
+    };
     /** update multiples rows of table: "mappings" */
-    update_mappings_many?: (mappings_mutation_responseGenqlSelection & {
+    update_mappings_many?: mappings_mutation_responseGenqlSelection & {
         __args: {
             /** updates to execute, in order */
             updates: mappings_updates[];
         };
-    });
+    };
     /** update data of the table: "table_rows" */
-    update_table_rows?: (table_rows_mutation_responseGenqlSelection & {
+    update_table_rows?: table_rows_mutation_responseGenqlSelection & {
         __args: {
             /** append existing jsonb value of filtered columns with new jsonb value */
-            _append?: (table_rows_append_input | null);
+            _append?: table_rows_append_input | null;
             /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-            _delete_at_path?: (table_rows_delete_at_path_input | null);
+            _delete_at_path?: table_rows_delete_at_path_input | null;
             /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-            _delete_elem?: (table_rows_delete_elem_input | null);
+            _delete_elem?: table_rows_delete_elem_input | null;
             /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-            _delete_key?: (table_rows_delete_key_input | null);
+            _delete_key?: table_rows_delete_key_input | null;
             /** prepend existing jsonb value of filtered columns with new jsonb value */
-            _prepend?: (table_rows_prepend_input | null);
+            _prepend?: table_rows_prepend_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (table_rows_set_input | null);
+            _set?: table_rows_set_input | null;
             /** filter the rows which have to be updated */
             where: table_rows_bool_exp;
         };
-    });
+    };
     /** update single row of the table: "table_rows" */
-    update_table_rows_by_pk?: (table_rowsGenqlSelection & {
+    update_table_rows_by_pk?: table_rowsGenqlSelection & {
         __args: {
             /** append existing jsonb value of filtered columns with new jsonb value */
-            _append?: (table_rows_append_input | null);
+            _append?: table_rows_append_input | null;
             /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-            _delete_at_path?: (table_rows_delete_at_path_input | null);
+            _delete_at_path?: table_rows_delete_at_path_input | null;
             /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-            _delete_elem?: (table_rows_delete_elem_input | null);
+            _delete_elem?: table_rows_delete_elem_input | null;
             /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-            _delete_key?: (table_rows_delete_key_input | null);
+            _delete_key?: table_rows_delete_key_input | null;
             /** prepend existing jsonb value of filtered columns with new jsonb value */
-            _prepend?: (table_rows_prepend_input | null);
+            _prepend?: table_rows_prepend_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (table_rows_set_input | null);
+            _set?: table_rows_set_input | null;
             pk_columns: table_rows_pk_columns_input;
         };
-    });
+    };
     /** update multiples rows of table: "table_rows" */
-    update_table_rows_many?: (table_rows_mutation_responseGenqlSelection & {
+    update_table_rows_many?: table_rows_mutation_responseGenqlSelection & {
         __args: {
             /** updates to execute, in order */
             updates: table_rows_updates[];
         };
-    });
+    };
     /** update data of the table: "transactions" */
-    update_transactions?: (transactions_mutation_responseGenqlSelection & {
+    update_transactions?: transactions_mutation_responseGenqlSelection & {
         __args: {
             /** increments the numeric columns with given value of the filtered values */
-            _inc?: (transactions_inc_input | null);
+            _inc?: transactions_inc_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (transactions_set_input | null);
+            _set?: transactions_set_input | null;
             /** filter the rows which have to be updated */
             where: transactions_bool_exp;
         };
-    });
+    };
     /** update single row of the table: "transactions" */
-    update_transactions_by_pk?: (transactionsGenqlSelection & {
+    update_transactions_by_pk?: transactionsGenqlSelection & {
         __args: {
             /** increments the numeric columns with given value of the filtered values */
-            _inc?: (transactions_inc_input | null);
+            _inc?: transactions_inc_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (transactions_set_input | null);
+            _set?: transactions_set_input | null;
             pk_columns: transactions_pk_columns_input;
         };
-    });
+    };
     /** update multiples rows of table: "transactions" */
-    update_transactions_many?: (transactions_mutation_responseGenqlSelection & {
+    update_transactions_many?: transactions_mutation_responseGenqlSelection & {
         __args: {
             /** updates to execute, in order */
             updates: transactions_updates[];
         };
-    });
+    };
     /** update data of the table: "whitelists" */
-    update_whitelists?: (whitelists_mutation_responseGenqlSelection & {
+    update_whitelists?: whitelists_mutation_responseGenqlSelection & {
         __args: {
             /** append existing jsonb value of filtered columns with new jsonb value */
-            _append?: (whitelists_append_input | null);
+            _append?: whitelists_append_input | null;
             /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-            _delete_at_path?: (whitelists_delete_at_path_input | null);
+            _delete_at_path?: whitelists_delete_at_path_input | null;
             /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-            _delete_elem?: (whitelists_delete_elem_input | null);
+            _delete_elem?: whitelists_delete_elem_input | null;
             /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-            _delete_key?: (whitelists_delete_key_input | null);
+            _delete_key?: whitelists_delete_key_input | null;
             /** increments the numeric columns with given value of the filtered values */
-            _inc?: (whitelists_inc_input | null);
+            _inc?: whitelists_inc_input | null;
             /** prepend existing jsonb value of filtered columns with new jsonb value */
-            _prepend?: (whitelists_prepend_input | null);
+            _prepend?: whitelists_prepend_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (whitelists_set_input | null);
+            _set?: whitelists_set_input | null;
             /** filter the rows which have to be updated */
             where: whitelists_bool_exp;
         };
-    });
+    };
     /** update single row of the table: "whitelists" */
-    update_whitelists_by_pk?: (whitelistsGenqlSelection & {
+    update_whitelists_by_pk?: whitelistsGenqlSelection & {
         __args: {
             /** append existing jsonb value of filtered columns with new jsonb value */
-            _append?: (whitelists_append_input | null);
+            _append?: whitelists_append_input | null;
             /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-            _delete_at_path?: (whitelists_delete_at_path_input | null);
+            _delete_at_path?: whitelists_delete_at_path_input | null;
             /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-            _delete_elem?: (whitelists_delete_elem_input | null);
+            _delete_elem?: whitelists_delete_elem_input | null;
             /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-            _delete_key?: (whitelists_delete_key_input | null);
+            _delete_key?: whitelists_delete_key_input | null;
             /** increments the numeric columns with given value of the filtered values */
-            _inc?: (whitelists_inc_input | null);
+            _inc?: whitelists_inc_input | null;
             /** prepend existing jsonb value of filtered columns with new jsonb value */
-            _prepend?: (whitelists_prepend_input | null);
+            _prepend?: whitelists_prepend_input | null;
             /** sets the columns of the filtered rows to the given values */
-            _set?: (whitelists_set_input | null);
+            _set?: whitelists_set_input | null;
             pk_columns: whitelists_pk_columns_input;
         };
-    });
+    };
     /** update multiples rows of table: "whitelists" */
-    update_whitelists_many?: (whitelists_mutation_responseGenqlSelection & {
+    update_whitelists_many?: whitelists_mutation_responseGenqlSelection & {
         __args: {
             /** updates to execute, in order */
             updates: whitelists_updates[];
         };
-    });
+    };
     __typename?: boolean | number;
     __scalar?: boolean | number;
 }
 interface query_rootGenqlSelection {
     /** fetch data from the table: "actions" */
-    actions?: (actionsGenqlSelection & {
+    actions?: actionsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (actions_select_column[] | null);
+            distinct_on?: actions_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (actions_order_by[] | null);
+            order_by?: actions_order_by[] | null;
             /** filter the rows returned */
-            where?: (actions_bool_exp | null);
+            where?: actions_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "actions" */
-    actions_aggregate?: (actions_aggregateGenqlSelection & {
+    actions_aggregate?: actions_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (actions_select_column[] | null);
+            distinct_on?: actions_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (actions_order_by[] | null);
+            order_by?: actions_order_by[] | null;
             /** filter the rows returned */
-            where?: (actions_bool_exp | null);
+            where?: actions_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "actions" using primary key columns */
-    actions_by_pk?: (actionsGenqlSelection & {
+    actions_by_pk?: actionsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             global_sequence: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table: "api_users" */
-    api_users?: (api_usersGenqlSelection & {
+    api_users?: api_usersGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (api_users_select_column[] | null);
+            distinct_on?: api_users_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (api_users_order_by[] | null);
+            order_by?: api_users_order_by[] | null;
             /** filter the rows returned */
-            where?: (api_users_bool_exp | null);
+            where?: api_users_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "api_users" */
-    api_users_aggregate?: (api_users_aggregateGenqlSelection & {
+    api_users_aggregate?: api_users_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (api_users_select_column[] | null);
+            distinct_on?: api_users_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (api_users_order_by[] | null);
+            order_by?: api_users_order_by[] | null;
             /** filter the rows returned */
-            where?: (api_users_bool_exp | null);
+            where?: api_users_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "api_users" using primary key columns */
-    api_users_by_pk?: (api_usersGenqlSelection & {
+    api_users_by_pk?: api_usersGenqlSelection & {
         __args: {
             id: Scalars['Int'];
         };
-    });
+    };
     /** An array relationship */
-    blocks?: (blocksGenqlSelection & {
+    blocks?: blocksGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (blocks_select_column[] | null);
+            distinct_on?: blocks_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (blocks_order_by[] | null);
+            order_by?: blocks_order_by[] | null;
             /** filter the rows returned */
-            where?: (blocks_bool_exp | null);
+            where?: blocks_bool_exp | null;
         };
-    });
+    };
     /** An aggregate relationship */
-    blocks_aggregate?: (blocks_aggregateGenqlSelection & {
+    blocks_aggregate?: blocks_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (blocks_select_column[] | null);
+            distinct_on?: blocks_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (blocks_order_by[] | null);
+            order_by?: blocks_order_by[] | null;
             /** filter the rows returned */
-            where?: (blocks_bool_exp | null);
+            where?: blocks_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "blocks" using primary key columns */
-    blocks_by_pk?: (blocksGenqlSelection & {
+    blocks_by_pk?: blocksGenqlSelection & {
         __args: {
             block_num: Scalars['Int'];
             chain: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table: "chains" */
-    chains?: (chainsGenqlSelection & {
+    chains?: chainsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (chains_select_column[] | null);
+            distinct_on?: chains_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (chains_order_by[] | null);
+            order_by?: chains_order_by[] | null;
             /** filter the rows returned */
-            where?: (chains_bool_exp | null);
+            where?: chains_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "chains" */
-    chains_aggregate?: (chains_aggregateGenqlSelection & {
+    chains_aggregate?: chains_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (chains_select_column[] | null);
+            distinct_on?: chains_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (chains_order_by[] | null);
+            order_by?: chains_order_by[] | null;
             /** filter the rows returned */
-            where?: (chains_bool_exp | null);
+            where?: chains_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "chains" using primary key columns */
-    chains_by_pk?: (chainsGenqlSelection & {
+    chains_by_pk?: chainsGenqlSelection & {
         __args: {
             chain_name: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table: "manifests" */
-    manifests?: (manifestsGenqlSelection & {
+    manifests?: manifestsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (manifests_select_column[] | null);
+            distinct_on?: manifests_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (manifests_order_by[] | null);
+            order_by?: manifests_order_by[] | null;
             /** filter the rows returned */
-            where?: (manifests_bool_exp | null);
+            where?: manifests_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "manifests" */
-    manifests_aggregate?: (manifests_aggregateGenqlSelection & {
+    manifests_aggregate?: manifests_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (manifests_select_column[] | null);
+            distinct_on?: manifests_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (manifests_order_by[] | null);
+            order_by?: manifests_order_by[] | null;
             /** filter the rows returned */
-            where?: (manifests_bool_exp | null);
+            where?: manifests_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "manifests" using primary key columns */
-    manifests_by_pk?: (manifestsGenqlSelection & {
+    manifests_by_pk?: manifestsGenqlSelection & {
         __args: {
             app_id: Scalars['uuid'];
         };
-    });
+    };
     /** fetch data from the table: "mappings" */
-    mappings?: (mappingsGenqlSelection & {
+    mappings?: mappingsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (mappings_select_column[] | null);
+            distinct_on?: mappings_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (mappings_order_by[] | null);
+            order_by?: mappings_order_by[] | null;
             /** filter the rows returned */
-            where?: (mappings_bool_exp | null);
+            where?: mappings_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "mappings" */
-    mappings_aggregate?: (mappings_aggregateGenqlSelection & {
+    mappings_aggregate?: mappings_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (mappings_select_column[] | null);
+            distinct_on?: mappings_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (mappings_order_by[] | null);
+            order_by?: mappings_order_by[] | null;
             /** filter the rows returned */
-            where?: (mappings_bool_exp | null);
+            where?: mappings_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "mappings" using primary key columns */
-    mappings_by_pk?: (mappingsGenqlSelection & {
+    mappings_by_pk?: mappingsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             contract: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table: "table_rows" */
-    table_rows?: (table_rowsGenqlSelection & {
+    table_rows?: table_rowsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (table_rows_select_column[] | null);
+            distinct_on?: table_rows_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (table_rows_order_by[] | null);
+            order_by?: table_rows_order_by[] | null;
             /** filter the rows returned */
-            where?: (table_rows_bool_exp | null);
+            where?: table_rows_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "table_rows" */
-    table_rows_aggregate?: (table_rows_aggregateGenqlSelection & {
+    table_rows_aggregate?: table_rows_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (table_rows_select_column[] | null);
+            distinct_on?: table_rows_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (table_rows_order_by[] | null);
+            order_by?: table_rows_order_by[] | null;
             /** filter the rows returned */
-            where?: (table_rows_bool_exp | null);
+            where?: table_rows_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "table_rows" using primary key columns */
-    table_rows_by_pk?: (table_rowsGenqlSelection & {
+    table_rows_by_pk?: table_rowsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             contract: Scalars['String'];
@@ -3264,403 +3340,403 @@ interface query_rootGenqlSelection {
             scope: Scalars['String'];
             table: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table: "transactions" */
-    transactions?: (transactionsGenqlSelection & {
+    transactions?: transactionsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (transactions_select_column[] | null);
+            distinct_on?: transactions_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (transactions_order_by[] | null);
+            order_by?: transactions_order_by[] | null;
             /** filter the rows returned */
-            where?: (transactions_bool_exp | null);
+            where?: transactions_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "transactions" */
-    transactions_aggregate?: (transactions_aggregateGenqlSelection & {
+    transactions_aggregate?: transactions_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (transactions_select_column[] | null);
+            distinct_on?: transactions_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (transactions_order_by[] | null);
+            order_by?: transactions_order_by[] | null;
             /** filter the rows returned */
-            where?: (transactions_bool_exp | null);
+            where?: transactions_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "transactions" using primary key columns */
-    transactions_by_pk?: (transactionsGenqlSelection & {
+    transactions_by_pk?: transactionsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             transaction_id: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table: "whitelists" */
-    whitelists?: (whitelistsGenqlSelection & {
+    whitelists?: whitelistsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (whitelists_select_column[] | null);
+            distinct_on?: whitelists_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (whitelists_order_by[] | null);
+            order_by?: whitelists_order_by[] | null;
             /** filter the rows returned */
-            where?: (whitelists_bool_exp | null);
+            where?: whitelists_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "whitelists" */
-    whitelists_aggregate?: (whitelists_aggregateGenqlSelection & {
+    whitelists_aggregate?: whitelists_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (whitelists_select_column[] | null);
+            distinct_on?: whitelists_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (whitelists_order_by[] | null);
+            order_by?: whitelists_order_by[] | null;
             /** filter the rows returned */
-            where?: (whitelists_bool_exp | null);
+            where?: whitelists_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "whitelists" using primary key columns */
-    whitelists_by_pk?: (whitelistsGenqlSelection & {
+    whitelists_by_pk?: whitelistsGenqlSelection & {
         __args: {
             app_id: Scalars['uuid'];
             chain: Scalars['String'];
             contract: Scalars['String'];
         };
-    });
+    };
     __typename?: boolean | number;
     __scalar?: boolean | number;
 }
 interface subscription_rootGenqlSelection {
     /** fetch data from the table: "actions" */
-    actions?: (actionsGenqlSelection & {
+    actions?: actionsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (actions_select_column[] | null);
+            distinct_on?: actions_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (actions_order_by[] | null);
+            order_by?: actions_order_by[] | null;
             /** filter the rows returned */
-            where?: (actions_bool_exp | null);
+            where?: actions_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "actions" */
-    actions_aggregate?: (actions_aggregateGenqlSelection & {
+    actions_aggregate?: actions_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (actions_select_column[] | null);
+            distinct_on?: actions_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (actions_order_by[] | null);
+            order_by?: actions_order_by[] | null;
             /** filter the rows returned */
-            where?: (actions_bool_exp | null);
+            where?: actions_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "actions" using primary key columns */
-    actions_by_pk?: (actionsGenqlSelection & {
+    actions_by_pk?: actionsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             global_sequence: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table in a streaming manner: "actions" */
-    actions_stream?: (actionsGenqlSelection & {
+    actions_stream?: actionsGenqlSelection & {
         __args: {
             /** maximum number of rows returned in a single batch */
             batch_size: Scalars['Int'];
             /** cursor to stream the results returned by the query */
             cursor: (actions_stream_cursor_input | null)[];
             /** filter the rows returned */
-            where?: (actions_bool_exp | null);
+            where?: actions_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "api_users" */
-    api_users?: (api_usersGenqlSelection & {
+    api_users?: api_usersGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (api_users_select_column[] | null);
+            distinct_on?: api_users_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (api_users_order_by[] | null);
+            order_by?: api_users_order_by[] | null;
             /** filter the rows returned */
-            where?: (api_users_bool_exp | null);
+            where?: api_users_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "api_users" */
-    api_users_aggregate?: (api_users_aggregateGenqlSelection & {
+    api_users_aggregate?: api_users_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (api_users_select_column[] | null);
+            distinct_on?: api_users_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (api_users_order_by[] | null);
+            order_by?: api_users_order_by[] | null;
             /** filter the rows returned */
-            where?: (api_users_bool_exp | null);
+            where?: api_users_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "api_users" using primary key columns */
-    api_users_by_pk?: (api_usersGenqlSelection & {
+    api_users_by_pk?: api_usersGenqlSelection & {
         __args: {
             id: Scalars['Int'];
         };
-    });
+    };
     /** fetch data from the table in a streaming manner: "api_users" */
-    api_users_stream?: (api_usersGenqlSelection & {
+    api_users_stream?: api_usersGenqlSelection & {
         __args: {
             /** maximum number of rows returned in a single batch */
             batch_size: Scalars['Int'];
             /** cursor to stream the results returned by the query */
             cursor: (api_users_stream_cursor_input | null)[];
             /** filter the rows returned */
-            where?: (api_users_bool_exp | null);
+            where?: api_users_bool_exp | null;
         };
-    });
+    };
     /** An array relationship */
-    blocks?: (blocksGenqlSelection & {
+    blocks?: blocksGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (blocks_select_column[] | null);
+            distinct_on?: blocks_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (blocks_order_by[] | null);
+            order_by?: blocks_order_by[] | null;
             /** filter the rows returned */
-            where?: (blocks_bool_exp | null);
+            where?: blocks_bool_exp | null;
         };
-    });
+    };
     /** An aggregate relationship */
-    blocks_aggregate?: (blocks_aggregateGenqlSelection & {
+    blocks_aggregate?: blocks_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (blocks_select_column[] | null);
+            distinct_on?: blocks_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (blocks_order_by[] | null);
+            order_by?: blocks_order_by[] | null;
             /** filter the rows returned */
-            where?: (blocks_bool_exp | null);
+            where?: blocks_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "blocks" using primary key columns */
-    blocks_by_pk?: (blocksGenqlSelection & {
+    blocks_by_pk?: blocksGenqlSelection & {
         __args: {
             block_num: Scalars['Int'];
             chain: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table in a streaming manner: "blocks" */
-    blocks_stream?: (blocksGenqlSelection & {
+    blocks_stream?: blocksGenqlSelection & {
         __args: {
             /** maximum number of rows returned in a single batch */
             batch_size: Scalars['Int'];
             /** cursor to stream the results returned by the query */
             cursor: (blocks_stream_cursor_input | null)[];
             /** filter the rows returned */
-            where?: (blocks_bool_exp | null);
+            where?: blocks_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "chains" */
-    chains?: (chainsGenqlSelection & {
+    chains?: chainsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (chains_select_column[] | null);
+            distinct_on?: chains_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (chains_order_by[] | null);
+            order_by?: chains_order_by[] | null;
             /** filter the rows returned */
-            where?: (chains_bool_exp | null);
+            where?: chains_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "chains" */
-    chains_aggregate?: (chains_aggregateGenqlSelection & {
+    chains_aggregate?: chains_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (chains_select_column[] | null);
+            distinct_on?: chains_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (chains_order_by[] | null);
+            order_by?: chains_order_by[] | null;
             /** filter the rows returned */
-            where?: (chains_bool_exp | null);
+            where?: chains_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "chains" using primary key columns */
-    chains_by_pk?: (chainsGenqlSelection & {
+    chains_by_pk?: chainsGenqlSelection & {
         __args: {
             chain_name: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table in a streaming manner: "chains" */
-    chains_stream?: (chainsGenqlSelection & {
+    chains_stream?: chainsGenqlSelection & {
         __args: {
             /** maximum number of rows returned in a single batch */
             batch_size: Scalars['Int'];
             /** cursor to stream the results returned by the query */
             cursor: (chains_stream_cursor_input | null)[];
             /** filter the rows returned */
-            where?: (chains_bool_exp | null);
+            where?: chains_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "manifests" */
-    manifests?: (manifestsGenqlSelection & {
+    manifests?: manifestsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (manifests_select_column[] | null);
+            distinct_on?: manifests_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (manifests_order_by[] | null);
+            order_by?: manifests_order_by[] | null;
             /** filter the rows returned */
-            where?: (manifests_bool_exp | null);
+            where?: manifests_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "manifests" */
-    manifests_aggregate?: (manifests_aggregateGenqlSelection & {
+    manifests_aggregate?: manifests_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (manifests_select_column[] | null);
+            distinct_on?: manifests_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (manifests_order_by[] | null);
+            order_by?: manifests_order_by[] | null;
             /** filter the rows returned */
-            where?: (manifests_bool_exp | null);
+            where?: manifests_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "manifests" using primary key columns */
-    manifests_by_pk?: (manifestsGenqlSelection & {
+    manifests_by_pk?: manifestsGenqlSelection & {
         __args: {
             app_id: Scalars['uuid'];
         };
-    });
+    };
     /** fetch data from the table in a streaming manner: "manifests" */
-    manifests_stream?: (manifestsGenqlSelection & {
+    manifests_stream?: manifestsGenqlSelection & {
         __args: {
             /** maximum number of rows returned in a single batch */
             batch_size: Scalars['Int'];
             /** cursor to stream the results returned by the query */
             cursor: (manifests_stream_cursor_input | null)[];
             /** filter the rows returned */
-            where?: (manifests_bool_exp | null);
+            where?: manifests_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "mappings" */
-    mappings?: (mappingsGenqlSelection & {
+    mappings?: mappingsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (mappings_select_column[] | null);
+            distinct_on?: mappings_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (mappings_order_by[] | null);
+            order_by?: mappings_order_by[] | null;
             /** filter the rows returned */
-            where?: (mappings_bool_exp | null);
+            where?: mappings_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "mappings" */
-    mappings_aggregate?: (mappings_aggregateGenqlSelection & {
+    mappings_aggregate?: mappings_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (mappings_select_column[] | null);
+            distinct_on?: mappings_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (mappings_order_by[] | null);
+            order_by?: mappings_order_by[] | null;
             /** filter the rows returned */
-            where?: (mappings_bool_exp | null);
+            where?: mappings_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "mappings" using primary key columns */
-    mappings_by_pk?: (mappingsGenqlSelection & {
+    mappings_by_pk?: mappingsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             contract: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table in a streaming manner: "mappings" */
-    mappings_stream?: (mappingsGenqlSelection & {
+    mappings_stream?: mappingsGenqlSelection & {
         __args: {
             /** maximum number of rows returned in a single batch */
             batch_size: Scalars['Int'];
             /** cursor to stream the results returned by the query */
             cursor: (mappings_stream_cursor_input | null)[];
             /** filter the rows returned */
-            where?: (mappings_bool_exp | null);
+            where?: mappings_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "table_rows" */
-    table_rows?: (table_rowsGenqlSelection & {
+    table_rows?: table_rowsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (table_rows_select_column[] | null);
+            distinct_on?: table_rows_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (table_rows_order_by[] | null);
+            order_by?: table_rows_order_by[] | null;
             /** filter the rows returned */
-            where?: (table_rows_bool_exp | null);
+            where?: table_rows_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "table_rows" */
-    table_rows_aggregate?: (table_rows_aggregateGenqlSelection & {
+    table_rows_aggregate?: table_rows_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (table_rows_select_column[] | null);
+            distinct_on?: table_rows_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (table_rows_order_by[] | null);
+            order_by?: table_rows_order_by[] | null;
             /** filter the rows returned */
-            where?: (table_rows_bool_exp | null);
+            where?: table_rows_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "table_rows" using primary key columns */
-    table_rows_by_pk?: (table_rowsGenqlSelection & {
+    table_rows_by_pk?: table_rowsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             contract: Scalars['String'];
@@ -3668,115 +3744,115 @@ interface subscription_rootGenqlSelection {
             scope: Scalars['String'];
             table: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table in a streaming manner: "table_rows" */
-    table_rows_stream?: (table_rowsGenqlSelection & {
+    table_rows_stream?: table_rowsGenqlSelection & {
         __args: {
             /** maximum number of rows returned in a single batch */
             batch_size: Scalars['Int'];
             /** cursor to stream the results returned by the query */
             cursor: (table_rows_stream_cursor_input | null)[];
             /** filter the rows returned */
-            where?: (table_rows_bool_exp | null);
+            where?: table_rows_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "transactions" */
-    transactions?: (transactionsGenqlSelection & {
+    transactions?: transactionsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (transactions_select_column[] | null);
+            distinct_on?: transactions_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (transactions_order_by[] | null);
+            order_by?: transactions_order_by[] | null;
             /** filter the rows returned */
-            where?: (transactions_bool_exp | null);
+            where?: transactions_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "transactions" */
-    transactions_aggregate?: (transactions_aggregateGenqlSelection & {
+    transactions_aggregate?: transactions_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (transactions_select_column[] | null);
+            distinct_on?: transactions_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (transactions_order_by[] | null);
+            order_by?: transactions_order_by[] | null;
             /** filter the rows returned */
-            where?: (transactions_bool_exp | null);
+            where?: transactions_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "transactions" using primary key columns */
-    transactions_by_pk?: (transactionsGenqlSelection & {
+    transactions_by_pk?: transactionsGenqlSelection & {
         __args: {
             chain: Scalars['String'];
             transaction_id: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table in a streaming manner: "transactions" */
-    transactions_stream?: (transactionsGenqlSelection & {
+    transactions_stream?: transactionsGenqlSelection & {
         __args: {
             /** maximum number of rows returned in a single batch */
             batch_size: Scalars['Int'];
             /** cursor to stream the results returned by the query */
             cursor: (transactions_stream_cursor_input | null)[];
             /** filter the rows returned */
-            where?: (transactions_bool_exp | null);
+            where?: transactions_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "whitelists" */
-    whitelists?: (whitelistsGenqlSelection & {
+    whitelists?: whitelistsGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (whitelists_select_column[] | null);
+            distinct_on?: whitelists_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (whitelists_order_by[] | null);
+            order_by?: whitelists_order_by[] | null;
             /** filter the rows returned */
-            where?: (whitelists_bool_exp | null);
+            where?: whitelists_bool_exp | null;
         };
-    });
+    };
     /** fetch aggregated fields from the table: "whitelists" */
-    whitelists_aggregate?: (whitelists_aggregateGenqlSelection & {
+    whitelists_aggregate?: whitelists_aggregateGenqlSelection & {
         __args?: {
             /** distinct select on columns */
-            distinct_on?: (whitelists_select_column[] | null);
+            distinct_on?: whitelists_select_column[] | null;
             /** limit the number of rows returned */
-            limit?: (Scalars['Int'] | null);
+            limit?: Scalars['Int'] | null;
             /** skip the first n rows. Use only with order_by */
-            offset?: (Scalars['Int'] | null);
+            offset?: Scalars['Int'] | null;
             /** sort the rows by one or more columns */
-            order_by?: (whitelists_order_by[] | null);
+            order_by?: whitelists_order_by[] | null;
             /** filter the rows returned */
-            where?: (whitelists_bool_exp | null);
+            where?: whitelists_bool_exp | null;
         };
-    });
+    };
     /** fetch data from the table: "whitelists" using primary key columns */
-    whitelists_by_pk?: (whitelistsGenqlSelection & {
+    whitelists_by_pk?: whitelistsGenqlSelection & {
         __args: {
             app_id: Scalars['uuid'];
             chain: Scalars['String'];
             contract: Scalars['String'];
         };
-    });
+    };
     /** fetch data from the table in a streaming manner: "whitelists" */
-    whitelists_stream?: (whitelistsGenqlSelection & {
+    whitelists_stream?: whitelistsGenqlSelection & {
         __args: {
             /** maximum number of rows returned in a single batch */
             batch_size: Scalars['Int'];
             /** cursor to stream the results returned by the query */
             cursor: (whitelists_stream_cursor_input | null)[];
             /** filter the rows returned */
-            where?: (whitelists_bool_exp | null);
+            where?: whitelists_bool_exp | null;
         };
-    });
+    };
     __typename?: boolean | number;
     __scalar?: boolean | number;
 }
@@ -3787,7 +3863,7 @@ interface table_rowsGenqlSelection {
     data?: {
         __args: {
             /** JSON select path */
-            path?: (Scalars['String'] | null);
+            path?: Scalars['String'] | null;
         };
     } | boolean | number;
     primary_key?: boolean | number;
@@ -3804,20 +3880,20 @@ interface table_rows_aggregateGenqlSelection {
     __scalar?: boolean | number;
 }
 interface table_rows_aggregate_bool_exp {
-    count?: (table_rows_aggregate_bool_exp_count | null);
+    count?: table_rows_aggregate_bool_exp_count | null;
 }
 interface table_rows_aggregate_bool_exp_count {
-    arguments?: (table_rows_select_column[] | null);
-    distinct?: (Scalars['Boolean'] | null);
-    filter?: (table_rows_bool_exp | null);
+    arguments?: table_rows_select_column[] | null;
+    distinct?: Scalars['Boolean'] | null;
+    filter?: table_rows_bool_exp | null;
     predicate: Int_comparison_exp;
 }
 /** aggregate fields of "table_rows" */
 interface table_rows_aggregate_fieldsGenqlSelection {
     count?: {
         __args: {
-            columns?: (table_rows_select_column[] | null);
-            distinct?: (Scalars['Boolean'] | null);
+            columns?: table_rows_select_column[] | null;
+            distinct?: Scalars['Boolean'] | null;
         };
     } | boolean | number;
     max?: table_rows_max_fieldsGenqlSelection;
@@ -3827,52 +3903,52 @@ interface table_rows_aggregate_fieldsGenqlSelection {
 }
 /** order by aggregate values of table "table_rows" */
 interface table_rows_aggregate_order_by {
-    count?: (order_by | null);
-    max?: (table_rows_max_order_by | null);
-    min?: (table_rows_min_order_by | null);
+    count?: order_by | null;
+    max?: table_rows_max_order_by | null;
+    min?: table_rows_min_order_by | null;
 }
 /** append existing jsonb value of filtered columns with new jsonb value */
 interface table_rows_append_input {
-    data?: (Scalars['jsonb'] | null);
+    data?: Scalars['jsonb'] | null;
 }
 /** input type for inserting array relation for remote table "table_rows" */
 interface table_rows_arr_rel_insert_input {
     data: table_rows_insert_input[];
     /** upsert condition */
-    on_conflict?: (table_rows_on_conflict | null);
+    on_conflict?: table_rows_on_conflict | null;
 }
 /** Boolean expression to filter rows from the table "table_rows". All fields are combined with a logical 'AND'. */
 interface table_rows_bool_exp {
-    _and?: (table_rows_bool_exp[] | null);
-    _not?: (table_rows_bool_exp | null);
-    _or?: (table_rows_bool_exp[] | null);
-    chain?: (String_comparison_exp | null);
-    contract?: (String_comparison_exp | null);
-    data?: (jsonb_comparison_exp | null);
-    primary_key?: (String_comparison_exp | null);
-    scope?: (String_comparison_exp | null);
-    table?: (String_comparison_exp | null);
+    _and?: table_rows_bool_exp[] | null;
+    _not?: table_rows_bool_exp | null;
+    _or?: table_rows_bool_exp[] | null;
+    chain?: String_comparison_exp | null;
+    contract?: String_comparison_exp | null;
+    data?: jsonb_comparison_exp | null;
+    primary_key?: String_comparison_exp | null;
+    scope?: String_comparison_exp | null;
+    table?: String_comparison_exp | null;
 }
 /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
 interface table_rows_delete_at_path_input {
-    data?: (Scalars['String'][] | null);
+    data?: Scalars['String'][] | null;
 }
 /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
 interface table_rows_delete_elem_input {
-    data?: (Scalars['Int'] | null);
+    data?: Scalars['Int'] | null;
 }
 /** delete key/value pair or string element. key/value pairs are matched based on their key value */
 interface table_rows_delete_key_input {
-    data?: (Scalars['String'] | null);
+    data?: Scalars['String'] | null;
 }
 /** input type for inserting data into table "table_rows" */
 interface table_rows_insert_input {
-    chain?: (Scalars['String'] | null);
-    contract?: (Scalars['String'] | null);
-    data?: (Scalars['jsonb'] | null);
-    primary_key?: (Scalars['String'] | null);
-    scope?: (Scalars['String'] | null);
-    table?: (Scalars['String'] | null);
+    chain?: Scalars['String'] | null;
+    contract?: Scalars['String'] | null;
+    data?: Scalars['jsonb'] | null;
+    primary_key?: Scalars['String'] | null;
+    scope?: Scalars['String'] | null;
+    table?: Scalars['String'] | null;
 }
 /** aggregate max on columns */
 interface table_rows_max_fieldsGenqlSelection {
@@ -3886,11 +3962,11 @@ interface table_rows_max_fieldsGenqlSelection {
 }
 /** order by max() on columns of table "table_rows" */
 interface table_rows_max_order_by {
-    chain?: (order_by | null);
-    contract?: (order_by | null);
-    primary_key?: (order_by | null);
-    scope?: (order_by | null);
-    table?: (order_by | null);
+    chain?: order_by | null;
+    contract?: order_by | null;
+    primary_key?: order_by | null;
+    scope?: order_by | null;
+    table?: order_by | null;
 }
 /** aggregate min on columns */
 interface table_rows_min_fieldsGenqlSelection {
@@ -3904,11 +3980,11 @@ interface table_rows_min_fieldsGenqlSelection {
 }
 /** order by min() on columns of table "table_rows" */
 interface table_rows_min_order_by {
-    chain?: (order_by | null);
-    contract?: (order_by | null);
-    primary_key?: (order_by | null);
-    scope?: (order_by | null);
-    table?: (order_by | null);
+    chain?: order_by | null;
+    contract?: order_by | null;
+    primary_key?: order_by | null;
+    scope?: order_by | null;
+    table?: order_by | null;
 }
 /** response of any mutation on the table "table_rows" */
 interface table_rows_mutation_responseGenqlSelection {
@@ -3923,16 +3999,16 @@ interface table_rows_mutation_responseGenqlSelection {
 interface table_rows_on_conflict {
     constraint: table_rows_constraint;
     update_columns?: table_rows_update_column[];
-    where?: (table_rows_bool_exp | null);
+    where?: table_rows_bool_exp | null;
 }
 /** Ordering options when selecting data from "table_rows". */
 interface table_rows_order_by {
-    chain?: (order_by | null);
-    contract?: (order_by | null);
-    data?: (order_by | null);
-    primary_key?: (order_by | null);
-    scope?: (order_by | null);
-    table?: (order_by | null);
+    chain?: order_by | null;
+    contract?: order_by | null;
+    data?: order_by | null;
+    primary_key?: order_by | null;
+    scope?: order_by | null;
+    table?: order_by | null;
 }
 /** primary key columns input for table: table_rows */
 interface table_rows_pk_columns_input {
@@ -3944,59 +4020,59 @@ interface table_rows_pk_columns_input {
 }
 /** prepend existing jsonb value of filtered columns with new jsonb value */
 interface table_rows_prepend_input {
-    data?: (Scalars['jsonb'] | null);
+    data?: Scalars['jsonb'] | null;
 }
 /** input type for updating data in table "table_rows" */
 interface table_rows_set_input {
-    chain?: (Scalars['String'] | null);
-    contract?: (Scalars['String'] | null);
-    data?: (Scalars['jsonb'] | null);
-    primary_key?: (Scalars['String'] | null);
-    scope?: (Scalars['String'] | null);
-    table?: (Scalars['String'] | null);
+    chain?: Scalars['String'] | null;
+    contract?: Scalars['String'] | null;
+    data?: Scalars['jsonb'] | null;
+    primary_key?: Scalars['String'] | null;
+    scope?: Scalars['String'] | null;
+    table?: Scalars['String'] | null;
 }
 /** Streaming cursor of the table "table_rows" */
 interface table_rows_stream_cursor_input {
     /** Stream column input with initial value */
     initial_value: table_rows_stream_cursor_value_input;
     /** cursor ordering */
-    ordering?: (cursor_ordering | null);
+    ordering?: cursor_ordering | null;
 }
 /** Initial value of the column from where the streaming should start */
 interface table_rows_stream_cursor_value_input {
-    chain?: (Scalars['String'] | null);
-    contract?: (Scalars['String'] | null);
-    data?: (Scalars['jsonb'] | null);
-    primary_key?: (Scalars['String'] | null);
-    scope?: (Scalars['String'] | null);
-    table?: (Scalars['String'] | null);
+    chain?: Scalars['String'] | null;
+    contract?: Scalars['String'] | null;
+    data?: Scalars['jsonb'] | null;
+    primary_key?: Scalars['String'] | null;
+    scope?: Scalars['String'] | null;
+    table?: Scalars['String'] | null;
 }
 interface table_rows_updates {
     /** append existing jsonb value of filtered columns with new jsonb value */
-    _append?: (table_rows_append_input | null);
+    _append?: table_rows_append_input | null;
     /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-    _delete_at_path?: (table_rows_delete_at_path_input | null);
+    _delete_at_path?: table_rows_delete_at_path_input | null;
     /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-    _delete_elem?: (table_rows_delete_elem_input | null);
+    _delete_elem?: table_rows_delete_elem_input | null;
     /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-    _delete_key?: (table_rows_delete_key_input | null);
+    _delete_key?: table_rows_delete_key_input | null;
     /** prepend existing jsonb value of filtered columns with new jsonb value */
-    _prepend?: (table_rows_prepend_input | null);
+    _prepend?: table_rows_prepend_input | null;
     /** sets the columns of the filtered rows to the given values */
-    _set?: (table_rows_set_input | null);
+    _set?: table_rows_set_input | null;
     where: table_rows_bool_exp;
 }
 /** Boolean expression to compare columns of type "timestamptz". All fields are combined with logical 'AND'. */
 interface timestamptz_comparison_exp {
-    _eq?: (Scalars['timestamptz'] | null);
-    _gt?: (Scalars['timestamptz'] | null);
-    _gte?: (Scalars['timestamptz'] | null);
-    _in?: (Scalars['timestamptz'][] | null);
-    _is_null?: (Scalars['Boolean'] | null);
-    _lt?: (Scalars['timestamptz'] | null);
-    _lte?: (Scalars['timestamptz'] | null);
-    _neq?: (Scalars['timestamptz'] | null);
-    _nin?: (Scalars['timestamptz'][] | null);
+    _eq?: Scalars['timestamptz'] | null;
+    _gt?: Scalars['timestamptz'] | null;
+    _gte?: Scalars['timestamptz'] | null;
+    _in?: Scalars['timestamptz'][] | null;
+    _is_null?: Scalars['Boolean'] | null;
+    _lt?: Scalars['timestamptz'] | null;
+    _lte?: Scalars['timestamptz'] | null;
+    _neq?: Scalars['timestamptz'] | null;
+    _nin?: Scalars['timestamptz'][] | null;
 }
 /** columns and relationships of "transactions" */
 interface transactionsGenqlSelection {
@@ -4021,8 +4097,8 @@ interface transactions_aggregate_fieldsGenqlSelection {
     avg?: transactions_avg_fieldsGenqlSelection;
     count?: {
         __args: {
-            columns?: (transactions_select_column[] | null);
-            distinct?: (Scalars['Boolean'] | null);
+            columns?: transactions_select_column[] | null;
+            distinct?: Scalars['Boolean'] | null;
         };
     } | boolean | number;
     max?: transactions_max_fieldsGenqlSelection;
@@ -4048,31 +4124,31 @@ interface transactions_avg_fieldsGenqlSelection {
 }
 /** Boolean expression to filter rows from the table "transactions". All fields are combined with a logical 'AND'. */
 interface transactions_bool_exp {
-    _and?: (transactions_bool_exp[] | null);
-    _not?: (transactions_bool_exp | null);
-    _or?: (transactions_bool_exp[] | null);
-    block_num?: (Int_comparison_exp | null);
-    chain?: (String_comparison_exp | null);
-    cpu_usage_us?: (Int_comparison_exp | null);
-    net_usage?: (Int_comparison_exp | null);
-    net_usage_words?: (Int_comparison_exp | null);
-    transaction_id?: (String_comparison_exp | null);
+    _and?: transactions_bool_exp[] | null;
+    _not?: transactions_bool_exp | null;
+    _or?: transactions_bool_exp[] | null;
+    block_num?: Int_comparison_exp | null;
+    chain?: String_comparison_exp | null;
+    cpu_usage_us?: Int_comparison_exp | null;
+    net_usage?: Int_comparison_exp | null;
+    net_usage_words?: Int_comparison_exp | null;
+    transaction_id?: String_comparison_exp | null;
 }
 /** input type for incrementing numeric columns in table "transactions" */
 interface transactions_inc_input {
-    block_num?: (Scalars['Int'] | null);
-    cpu_usage_us?: (Scalars['Int'] | null);
-    net_usage?: (Scalars['Int'] | null);
-    net_usage_words?: (Scalars['Int'] | null);
+    block_num?: Scalars['Int'] | null;
+    cpu_usage_us?: Scalars['Int'] | null;
+    net_usage?: Scalars['Int'] | null;
+    net_usage_words?: Scalars['Int'] | null;
 }
 /** input type for inserting data into table "transactions" */
 interface transactions_insert_input {
-    block_num?: (Scalars['Int'] | null);
-    chain?: (Scalars['String'] | null);
-    cpu_usage_us?: (Scalars['Int'] | null);
-    net_usage?: (Scalars['Int'] | null);
-    net_usage_words?: (Scalars['Int'] | null);
-    transaction_id?: (Scalars['String'] | null);
+    block_num?: Scalars['Int'] | null;
+    chain?: Scalars['String'] | null;
+    cpu_usage_us?: Scalars['Int'] | null;
+    net_usage?: Scalars['Int'] | null;
+    net_usage_words?: Scalars['Int'] | null;
+    transaction_id?: Scalars['String'] | null;
 }
 /** aggregate max on columns */
 interface transactions_max_fieldsGenqlSelection {
@@ -4109,22 +4185,22 @@ interface transactions_mutation_responseGenqlSelection {
 interface transactions_obj_rel_insert_input {
     data: transactions_insert_input;
     /** upsert condition */
-    on_conflict?: (transactions_on_conflict | null);
+    on_conflict?: transactions_on_conflict | null;
 }
 /** on_conflict condition type for table "transactions" */
 interface transactions_on_conflict {
     constraint: transactions_constraint;
     update_columns?: transactions_update_column[];
-    where?: (transactions_bool_exp | null);
+    where?: transactions_bool_exp | null;
 }
 /** Ordering options when selecting data from "transactions". */
 interface transactions_order_by {
-    block_num?: (order_by | null);
-    chain?: (order_by | null);
-    cpu_usage_us?: (order_by | null);
-    net_usage?: (order_by | null);
-    net_usage_words?: (order_by | null);
-    transaction_id?: (order_by | null);
+    block_num?: order_by | null;
+    chain?: order_by | null;
+    cpu_usage_us?: order_by | null;
+    net_usage?: order_by | null;
+    net_usage_words?: order_by | null;
+    transaction_id?: order_by | null;
 }
 /** primary key columns input for table: transactions */
 interface transactions_pk_columns_input {
@@ -4133,12 +4209,12 @@ interface transactions_pk_columns_input {
 }
 /** input type for updating data in table "transactions" */
 interface transactions_set_input {
-    block_num?: (Scalars['Int'] | null);
-    chain?: (Scalars['String'] | null);
-    cpu_usage_us?: (Scalars['Int'] | null);
-    net_usage?: (Scalars['Int'] | null);
-    net_usage_words?: (Scalars['Int'] | null);
-    transaction_id?: (Scalars['String'] | null);
+    block_num?: Scalars['Int'] | null;
+    chain?: Scalars['String'] | null;
+    cpu_usage_us?: Scalars['Int'] | null;
+    net_usage?: Scalars['Int'] | null;
+    net_usage_words?: Scalars['Int'] | null;
+    transaction_id?: Scalars['String'] | null;
 }
 /** aggregate stddev on columns */
 interface transactions_stddev_fieldsGenqlSelection {
@@ -4172,16 +4248,16 @@ interface transactions_stream_cursor_input {
     /** Stream column input with initial value */
     initial_value: transactions_stream_cursor_value_input;
     /** cursor ordering */
-    ordering?: (cursor_ordering | null);
+    ordering?: cursor_ordering | null;
 }
 /** Initial value of the column from where the streaming should start */
 interface transactions_stream_cursor_value_input {
-    block_num?: (Scalars['Int'] | null);
-    chain?: (Scalars['String'] | null);
-    cpu_usage_us?: (Scalars['Int'] | null);
-    net_usage?: (Scalars['Int'] | null);
-    net_usage_words?: (Scalars['Int'] | null);
-    transaction_id?: (Scalars['String'] | null);
+    block_num?: Scalars['Int'] | null;
+    chain?: Scalars['String'] | null;
+    cpu_usage_us?: Scalars['Int'] | null;
+    net_usage?: Scalars['Int'] | null;
+    net_usage_words?: Scalars['Int'] | null;
+    transaction_id?: Scalars['String'] | null;
 }
 /** aggregate sum on columns */
 interface transactions_sum_fieldsGenqlSelection {
@@ -4194,9 +4270,9 @@ interface transactions_sum_fieldsGenqlSelection {
 }
 interface transactions_updates {
     /** increments the numeric columns with given value of the filtered values */
-    _inc?: (transactions_inc_input | null);
+    _inc?: transactions_inc_input | null;
     /** sets the columns of the filtered rows to the given values */
-    _set?: (transactions_set_input | null);
+    _set?: transactions_set_input | null;
     where: transactions_bool_exp;
 }
 /** aggregate var_pop on columns */
@@ -4228,22 +4304,22 @@ interface transactions_variance_fieldsGenqlSelection {
 }
 /** Boolean expression to compare columns of type "uuid". All fields are combined with logical 'AND'. */
 interface uuid_comparison_exp {
-    _eq?: (Scalars['uuid'] | null);
-    _gt?: (Scalars['uuid'] | null);
-    _gte?: (Scalars['uuid'] | null);
-    _in?: (Scalars['uuid'][] | null);
-    _is_null?: (Scalars['Boolean'] | null);
-    _lt?: (Scalars['uuid'] | null);
-    _lte?: (Scalars['uuid'] | null);
-    _neq?: (Scalars['uuid'] | null);
-    _nin?: (Scalars['uuid'][] | null);
+    _eq?: Scalars['uuid'] | null;
+    _gt?: Scalars['uuid'] | null;
+    _gte?: Scalars['uuid'] | null;
+    _in?: Scalars['uuid'][] | null;
+    _is_null?: Scalars['Boolean'] | null;
+    _lt?: Scalars['uuid'] | null;
+    _lte?: Scalars['uuid'] | null;
+    _neq?: Scalars['uuid'] | null;
+    _nin?: Scalars['uuid'][] | null;
 }
 /** columns and relationships of "whitelists" */
 interface whitelistsGenqlSelection {
     actions?: {
         __args: {
             /** JSON select path */
-            path?: (Scalars['String'] | null);
+            path?: Scalars['String'] | null;
         };
     } | boolean | number;
     app_id?: boolean | number;
@@ -4256,7 +4332,7 @@ interface whitelistsGenqlSelection {
     tables?: {
         __args: {
             /** JSON select path */
-            path?: (Scalars['String'] | null);
+            path?: Scalars['String'] | null;
         };
     } | boolean | number;
     __typename?: boolean | number;
@@ -4274,8 +4350,8 @@ interface whitelists_aggregate_fieldsGenqlSelection {
     avg?: whitelists_avg_fieldsGenqlSelection;
     count?: {
         __args: {
-            columns?: (whitelists_select_column[] | null);
-            distinct?: (Scalars['Boolean'] | null);
+            columns?: whitelists_select_column[] | null;
+            distinct?: Scalars['Boolean'] | null;
         };
     } | boolean | number;
     max?: whitelists_max_fieldsGenqlSelection;
@@ -4292,8 +4368,8 @@ interface whitelists_aggregate_fieldsGenqlSelection {
 }
 /** append existing jsonb value of filtered columns with new jsonb value */
 interface whitelists_append_input {
-    actions?: (Scalars['jsonb'] | null);
-    tables?: (Scalars['jsonb'] | null);
+    actions?: Scalars['jsonb'] | null;
+    tables?: Scalars['jsonb'] | null;
 }
 /** aggregate avg on columns */
 interface whitelists_avg_fieldsGenqlSelection {
@@ -4303,47 +4379,47 @@ interface whitelists_avg_fieldsGenqlSelection {
 }
 /** Boolean expression to filter rows from the table "whitelists". All fields are combined with a logical 'AND'. */
 interface whitelists_bool_exp {
-    _and?: (whitelists_bool_exp[] | null);
-    _not?: (whitelists_bool_exp | null);
-    _or?: (whitelists_bool_exp[] | null);
-    actions?: (jsonb_comparison_exp | null);
-    app_id?: (uuid_comparison_exp | null);
-    chain?: (String_comparison_exp | null);
-    contract?: (String_comparison_exp | null);
-    history_ready?: (Boolean_comparison_exp | null);
-    manifest?: (manifests_bool_exp | null);
-    start_block?: (Int_comparison_exp | null);
-    tables?: (jsonb_comparison_exp | null);
+    _and?: whitelists_bool_exp[] | null;
+    _not?: whitelists_bool_exp | null;
+    _or?: whitelists_bool_exp[] | null;
+    actions?: jsonb_comparison_exp | null;
+    app_id?: uuid_comparison_exp | null;
+    chain?: String_comparison_exp | null;
+    contract?: String_comparison_exp | null;
+    history_ready?: Boolean_comparison_exp | null;
+    manifest?: manifests_bool_exp | null;
+    start_block?: Int_comparison_exp | null;
+    tables?: jsonb_comparison_exp | null;
 }
 /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
 interface whitelists_delete_at_path_input {
-    actions?: (Scalars['String'][] | null);
-    tables?: (Scalars['String'][] | null);
+    actions?: Scalars['String'][] | null;
+    tables?: Scalars['String'][] | null;
 }
 /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
 interface whitelists_delete_elem_input {
-    actions?: (Scalars['Int'] | null);
-    tables?: (Scalars['Int'] | null);
+    actions?: Scalars['Int'] | null;
+    tables?: Scalars['Int'] | null;
 }
 /** delete key/value pair or string element. key/value pairs are matched based on their key value */
 interface whitelists_delete_key_input {
-    actions?: (Scalars['String'] | null);
-    tables?: (Scalars['String'] | null);
+    actions?: Scalars['String'] | null;
+    tables?: Scalars['String'] | null;
 }
 /** input type for incrementing numeric columns in table "whitelists" */
 interface whitelists_inc_input {
-    start_block?: (Scalars['Int'] | null);
+    start_block?: Scalars['Int'] | null;
 }
 /** input type for inserting data into table "whitelists" */
 interface whitelists_insert_input {
-    actions?: (Scalars['jsonb'] | null);
-    app_id?: (Scalars['uuid'] | null);
-    chain?: (Scalars['String'] | null);
-    contract?: (Scalars['String'] | null);
-    history_ready?: (Scalars['Boolean'] | null);
-    manifest?: (manifests_obj_rel_insert_input | null);
-    start_block?: (Scalars['Int'] | null);
-    tables?: (Scalars['jsonb'] | null);
+    actions?: Scalars['jsonb'] | null;
+    app_id?: Scalars['uuid'] | null;
+    chain?: Scalars['String'] | null;
+    contract?: Scalars['String'] | null;
+    history_ready?: Scalars['Boolean'] | null;
+    manifest?: manifests_obj_rel_insert_input | null;
+    start_block?: Scalars['Int'] | null;
+    tables?: Scalars['jsonb'] | null;
 }
 /** aggregate max on columns */
 interface whitelists_max_fieldsGenqlSelection {
@@ -4376,18 +4452,18 @@ interface whitelists_mutation_responseGenqlSelection {
 interface whitelists_on_conflict {
     constraint: whitelists_constraint;
     update_columns?: whitelists_update_column[];
-    where?: (whitelists_bool_exp | null);
+    where?: whitelists_bool_exp | null;
 }
 /** Ordering options when selecting data from "whitelists". */
 interface whitelists_order_by {
-    actions?: (order_by | null);
-    app_id?: (order_by | null);
-    chain?: (order_by | null);
-    contract?: (order_by | null);
-    history_ready?: (order_by | null);
-    manifest?: (manifests_order_by | null);
-    start_block?: (order_by | null);
-    tables?: (order_by | null);
+    actions?: order_by | null;
+    app_id?: order_by | null;
+    chain?: order_by | null;
+    contract?: order_by | null;
+    history_ready?: order_by | null;
+    manifest?: manifests_order_by | null;
+    start_block?: order_by | null;
+    tables?: order_by | null;
 }
 /** primary key columns input for table: whitelists */
 interface whitelists_pk_columns_input {
@@ -4397,18 +4473,18 @@ interface whitelists_pk_columns_input {
 }
 /** prepend existing jsonb value of filtered columns with new jsonb value */
 interface whitelists_prepend_input {
-    actions?: (Scalars['jsonb'] | null);
-    tables?: (Scalars['jsonb'] | null);
+    actions?: Scalars['jsonb'] | null;
+    tables?: Scalars['jsonb'] | null;
 }
 /** input type for updating data in table "whitelists" */
 interface whitelists_set_input {
-    actions?: (Scalars['jsonb'] | null);
-    app_id?: (Scalars['uuid'] | null);
-    chain?: (Scalars['String'] | null);
-    contract?: (Scalars['String'] | null);
-    history_ready?: (Scalars['Boolean'] | null);
-    start_block?: (Scalars['Int'] | null);
-    tables?: (Scalars['jsonb'] | null);
+    actions?: Scalars['jsonb'] | null;
+    app_id?: Scalars['uuid'] | null;
+    chain?: Scalars['String'] | null;
+    contract?: Scalars['String'] | null;
+    history_ready?: Scalars['Boolean'] | null;
+    start_block?: Scalars['Int'] | null;
+    tables?: Scalars['jsonb'] | null;
 }
 /** aggregate stddev on columns */
 interface whitelists_stddev_fieldsGenqlSelection {
@@ -4433,17 +4509,17 @@ interface whitelists_stream_cursor_input {
     /** Stream column input with initial value */
     initial_value: whitelists_stream_cursor_value_input;
     /** cursor ordering */
-    ordering?: (cursor_ordering | null);
+    ordering?: cursor_ordering | null;
 }
 /** Initial value of the column from where the streaming should start */
 interface whitelists_stream_cursor_value_input {
-    actions?: (Scalars['jsonb'] | null);
-    app_id?: (Scalars['uuid'] | null);
-    chain?: (Scalars['String'] | null);
-    contract?: (Scalars['String'] | null);
-    history_ready?: (Scalars['Boolean'] | null);
-    start_block?: (Scalars['Int'] | null);
-    tables?: (Scalars['jsonb'] | null);
+    actions?: Scalars['jsonb'] | null;
+    app_id?: Scalars['uuid'] | null;
+    chain?: Scalars['String'] | null;
+    contract?: Scalars['String'] | null;
+    history_ready?: Scalars['Boolean'] | null;
+    start_block?: Scalars['Int'] | null;
+    tables?: Scalars['jsonb'] | null;
 }
 /** aggregate sum on columns */
 interface whitelists_sum_fieldsGenqlSelection {
@@ -4453,19 +4529,19 @@ interface whitelists_sum_fieldsGenqlSelection {
 }
 interface whitelists_updates {
     /** append existing jsonb value of filtered columns with new jsonb value */
-    _append?: (whitelists_append_input | null);
+    _append?: whitelists_append_input | null;
     /** delete the field or element with specified path (for JSON arrays, negative integers count from the end) */
-    _delete_at_path?: (whitelists_delete_at_path_input | null);
+    _delete_at_path?: whitelists_delete_at_path_input | null;
     /** delete the array element with specified index (negative integers count from the end). throws an error if top level container is not an array */
-    _delete_elem?: (whitelists_delete_elem_input | null);
+    _delete_elem?: whitelists_delete_elem_input | null;
     /** delete key/value pair or string element. key/value pairs are matched based on their key value */
-    _delete_key?: (whitelists_delete_key_input | null);
+    _delete_key?: whitelists_delete_key_input | null;
     /** increments the numeric columns with given value of the filtered values */
-    _inc?: (whitelists_inc_input | null);
+    _inc?: whitelists_inc_input | null;
     /** prepend existing jsonb value of filtered columns with new jsonb value */
-    _prepend?: (whitelists_prepend_input | null);
+    _prepend?: whitelists_prepend_input | null;
     /** sets the columns of the filtered rows to the given values */
-    _set?: (whitelists_set_input | null);
+    _set?: whitelists_set_input | null;
     where: whitelists_bool_exp;
 }
 /** aggregate var_pop on columns */
@@ -4970,87 +5046,11 @@ declare const enumWhitelistsUpdateColumn: {
     tables: "tables";
 };
 type chain_graph_actions_subscription_variables = {
-    where?: (actions_bool_exp | null);
-    order_by?: (Array<actions_order_by> | actions_order_by);
+    where?: actions_bool_exp | null;
+    order_by?: Array<actions_order_by> | actions_order_by;
     offset?: Scalars['Int'];
     limit?: Scalars['Int'];
 };
-
-interface ExecutionResult<TData = {
-    [key: string]: any;
-}> {
-    errors?: Array<Error>;
-    data?: TData | null;
-}
-
-interface GraphqlOperation {
-    query: string;
-    variables?: {
-        [name: string]: any;
-    };
-    operationName?: string;
-}
-
-type BatchOptions = {
-    batchInterval?: number;
-    maxBatchSize?: number;
-};
-
-type Headers = HeadersInit | (() => HeadersInit) | (() => Promise<HeadersInit>);
-type BaseFetcher = (operation: GraphqlOperation | GraphqlOperation[]) => Promise<ExecutionResult | ExecutionResult[]>;
-type ClientOptions = Omit<RequestInit, 'body' | 'headers'> & {
-    url?: string;
-    batch?: BatchOptions | boolean;
-    fetcher?: BaseFetcher;
-    fetch?: Function;
-    headers?: Headers;
-};
-
-type FieldsSelection<SRC extends Anify<DST> | undefined, DST> = {
-    scalar: SRC;
-    union: Handle__isUnion<SRC, DST>;
-    object: HandleObject<SRC, DST>;
-    array: SRC extends Nil ? never : SRC extends (infer T)[] ? Array<FieldsSelection<T, DST>> : never;
-    __scalar: Handle__scalar<SRC, DST>;
-    never: never;
-}[DST extends Nil ? 'never' : DST extends false | 0 ? 'never' : SRC extends Scalar ? 'scalar' : SRC extends any[] ? 'array' : SRC extends {
-    __isUnion?: any;
-} ? 'union' : DST extends {
-    __scalar?: any;
-} ? '__scalar' : DST extends {} ? 'object' : 'never'];
-type HandleObject<SRC extends Anify<DST>, DST> = SRC extends Nil ? never : Pick<{
-    [Key in keyof SRC]: Key extends keyof DST ? FieldsSelection<SRC[Key], NonNullable<DST[Key]>> : SRC[Key];
-}, Exclude<keyof DST, FieldsToRemove>>;
-type Handle__scalar<SRC extends Anify<DST>, DST> = SRC extends Nil ? never : Pick<{
-    [Key in keyof SRC]: Key extends keyof DST ? FieldsSelection<SRC[Key], DST[Key]> : SRC[Key];
-}, {
-    [Key in keyof SRC]: SRC[Key] extends Nil ? never : Key extends FieldsToRemove ? never : SRC[Key] extends Scalar ? Key : Key extends keyof DST ? Key : never;
-}[keyof SRC]>;
-type Handle__isUnion<SRC extends Anify<DST>, DST> = SRC extends Nil ? never : Omit<SRC, FieldsToRemove>;
-type Scalar = string | number | Date | boolean | null | undefined;
-type Anify<T> = {
-    [P in keyof T]?: any;
-};
-type FieldsToRemove = '__isUnion' | '__scalar' | '__name' | '__args';
-type Nil = undefined | null;
-
-declare class GenqlError extends Error {
-    errors: Array<GraphqlError>;
-    /**
-     * Partial data returned by the server
-     */
-    data?: any;
-    constructor(errors: any[], data: any);
-}
-interface GraphqlError {
-    message: string;
-    locations?: Array<{
-        line: number;
-        column: number;
-    }>;
-    path?: string[];
-    extensions?: Record<string, any>;
-}
 
 interface Client {
     query<R extends query_rootGenqlSelection>(request: R & {
@@ -5083,7 +5083,7 @@ type GraphQLSdkProps = {
     options?: any;
 };
 
-declare function createChaingraphClient({ config, options }?: GraphQLSdkProps): {
+declare function createChaingraphClient({ config, options, }?: GraphQLSdkProps): {
     query<R extends query_rootGenqlSelection>(request: R & {
         __name?: string;
     }): Promise<FieldsSelection<query_root, R>>;

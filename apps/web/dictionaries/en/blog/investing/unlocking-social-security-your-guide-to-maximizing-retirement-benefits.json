@@ -2,7 +2,10 @@
   "relatedBlogs": [
     {
       "id": "174592759",
-      "topics": ["Getting Started", "Alternatives"],
+      "topics": [
+        "Getting Started",
+        "Alternatives"
+      ],
       "title": "Unleashing the Potential: Mastering Alternative Investments for Contributor Success",
       "slug": "unleashing-the-potential-mastering-alternative-investments-for-contributor-success",
       "authorName": "Mister Moneybags",
@@ -29,7 +32,10 @@
     },
     {
       "id": "175015363",
-      "topics": ["Getting Started", "Mutual Funds & ETFs"],
+      "topics": [
+        "Getting Started",
+        "Mutual Funds & ETFs"
+      ],
       "title": "Unveiling the Pros and Cons of Exchange-Traded Funds (ETFs): A Comprehensive Guide for Contributors",
       "slug": "unveiling-the-pros-and-cons-of-exchange-traded-funds-etfs-a-comprehensive-guide-f",
       "authorName": "Mister Moneybags",
@@ -56,7 +62,10 @@
     },
     {
       "id": "176002890",
-      "topics": ["Getting Started", "Risk Management"],
+      "topics": [
+        "Getting Started",
+        "Risk Management"
+      ],
       "title": "Shield Your Investments: A Comprehensive Guide to Recognizing and Avoiding Investment Fraud",
       "slug": "shield-your-investments-a-comprehensive-guide-to-recognizing-and-avoiding-investm",
       "authorName": "Mister Moneybags",
@@ -83,7 +92,10 @@
     },
     {
       "id": "175940742",
-      "topics": ["Getting Started", "Education"],
+      "topics": [
+        "Getting Started",
+        "Education"
+      ],
       "title": "Unlocking the Key to College Savings: Maximizing Education Funds with 529 Plans and Coverdell ESAs",
       "slug": "unlocking-the-key-to-college-savings-maximizing-education-funds-with-529-plans-an",
       "authorName": "Mister Moneybags",
@@ -110,7 +122,10 @@
     },
     {
       "id": "175940646",
-      "topics": ["Getting Started", "Retirement"],
+      "topics": [
+        "Getting Started",
+        "Retirement"
+      ],
       "title": "Mastering Retirement Planning: Decoding 401(k)s, IRAs, and Pension Plans for a Secure Future",
       "slug": "mastering-retirement-planning-decoding-401-k-s-iras-and-pension-plans-for-a-secur",
       "authorName": "Mister Moneybags",
@@ -137,7 +152,10 @@
     },
     {
       "id": "175530377",
-      "topics": ["Getting Started", "Tax Planning"],
+      "topics": [
+        "Getting Started",
+        "Tax Planning"
+      ],
       "title": "Maximizing Returns: The Ultimate Guide to Tax Planning for Contributors",
       "slug": "maximizing-returns-the-ultimate-guide-to-tax-planning-for-contributors",
       "authorName": "Mister Moneybags",
@@ -164,7 +182,10 @@
     },
     {
       "id": "175528452",
-      "topics": ["Getting Started", "Estate Planning"],
+      "topics": [
+        "Getting Started",
+        "Estate Planning"
+      ],
       "title": "Secure Your Legacy: A Comprehensive Guide to Estate Planning, Wills, Trusts, and Inheritance Taxes",
       "slug": "secure-your-legacy-a-comprehensive-guide-to-estate-planning-wills-trusts-and-inhe",
       "authorName": "Mister Moneybags",
@@ -191,7 +212,10 @@
     },
     {
       "id": "175337478",
-      "topics": ["Getting Started", "Financial Planning"],
+      "topics": [
+        "Getting Started",
+        "Financial Planning"
+      ],
       "title": "Mastering Your Finances: The Ultimate Guide to Budgeting, Debt Reduction, and Retirement Planning",
       "slug": "mastering-your-finances-the-ultimate-guide-to-budgeting-debt-reduction-and-retire",
       "authorName": "Mister Moneybags",
@@ -218,7 +242,9 @@
     },
     {
       "id": "175337425",
-      "topics": ["Getting Started"],
+      "topics": [
+        "Getting Started"
+      ],
       "title": "Mastering Your Mind: Overcoming Contributor Biases for Financial Success",
       "slug": "mastering-your-mind-overcoming-contributor-biases-for-financial-success",
       "authorName": "Mister Moneybags",
@@ -245,7 +271,10 @@
     },
     {
       "id": "173914322",
-      "topics": ["Getting Started", "stocks"],
+      "topics": [
+        "Getting Started",
+        "stocks"
+      ],
       "title": "Understanding the Stock Market: How it Works, Market Indicators, and Historical Trends.",
       "slug": "understanding-the-stock-market-how-it-works-market-indicators-and-historical-tren",
       "authorName": "Mister Moneybags",
@@ -272,7 +301,10 @@
     },
     {
       "id": "174362868",
-      "topics": ["Getting Started", "realestate"],
+      "topics": [
+        "Getting Started",
+        "realestate"
+      ],
       "title": "From Houses to High-Rises: Mastering Real Estate Investing in Residential, Commercial, and REITs",
       "slug": "from-houses-to-high-rises-mastering-real-estate-investing-in-residential-commerci",
       "authorName": "Mister Moneybags",
@@ -299,7 +331,10 @@
     },
     {
       "id": "175016379",
-      "topics": ["Getting Started", "Risk Management"],
+      "topics": [
+        "Getting Started",
+        "Risk Management"
+      ],
       "title": "Mastering Risk Tolerance: Unveiling Your Unique Contributor DNA",
       "slug": "mastering-risk-tolerance-unveiling-your-unique-contributor-dna",
       "authorName": "Mister Moneybags",
@@ -327,7 +362,10 @@
   ],
   "blogContent": {
     "id": "175685081",
-    "topics": ["Getting Started", "Retirement"],
+    "topics": [
+      "Getting Started",
+      "Retirement"
+    ],
     "title": "Unlocking Social Security: Your Guide to Maximizing Retirement Benefits",
     "slug": "unlocking-social-security-your-guide-to-maximizing-retirement-benefits",
     "authorName": "Mister Moneybags",
@@ -1224,5 +1262,9 @@
       }
     }
   },
-  "topics": ["Getting Started", "Retirement"]
+  "topics": [
+    "Getting Started",
+    "Retirement"
+  ],
+  "shortLink": ""
 }

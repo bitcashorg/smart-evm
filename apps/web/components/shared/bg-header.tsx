@@ -23,7 +23,10 @@ export function BgHeader({
           <div className="sectionsSubheading">{subheading}</div>
         </div>
         <div
-          className={cn('infopages-background', `infopages-background--${background}`)}
+          className={cn(
+            'infopages-background',
+            `infopages-background--${background}`,
+          )}
         >
           <div className="absolute bottom-0 m-4">
             <CommunityCard />

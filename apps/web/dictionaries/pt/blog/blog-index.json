@@ -6,7 +6,9 @@
       "articles": [
         {
           "id": "SpdLuuYEQgW8rwSHNzhmxA",
-          "topics": ["Aplicativos"],
+          "topics": [
+            "Aplicativos"
+          ],
           "title": "Masterbots: Elevando a IA Alem do ChatGPT com Compartilhamento Social e Inovacao Amigavel ao Usuario",
           "slug": "masterbots-elevating-ai-beyond-chatgpt-with-social-sharing-and-user-friendly-inno",
           "authorName": "Jun Dam",
@@ -34,7 +36,11 @@
         },
         {
           "id": "190259319",
-          "topics": ["Resumo", "LLM", "Treinamento"],
+          "topics": [
+            "Resumo",
+            "LLM",
+            "Treinamento"
+          ],
           "title": "Podcast Espaco Latente 16/08/23 [Resumo] - A Matematica do Treinamento de LLMs com Quentin Anthony da Eleuther AI",
           "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
           "authorName": "Prof. Otto Nomos",
@@ -62,7 +68,12 @@
         },
         {
           "id": "190259129",
-          "topics": ["LLM", "Hardware", "Resumo", "Borda"],
+          "topics": [
+            "LLM",
+            "Hardware",
+            "Resumo",
+            "Borda"
+          ],
           "title": "Podcast Espaço Latente 8/10/23 [Resumo]: LLMs por toda parte: Executando modelos de 70B em navegadores e iPhones usando MLC — com Tianqi Chen da CMU / OctoML",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
@@ -90,7 +101,13 @@
         },
         {
           "id": "190259087",
-          "topics": ["Summary", "LLM", "Code", "Open Source", "Small Models"],
+          "topics": [
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
+          ],
           "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
@@ -118,7 +135,12 @@
         },
         {
           "id": "190259111",
-          "topics": ["Summary", "Transformers", "Training", "Open Source"],
+          "topics": [
+            "Summary",
+            "Transformers",
+            "Training",
+            "Open Source"
+          ],
           "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
@@ -152,7 +174,13 @@
       "articles": [
         {
           "id": "198277124",
-          "topics": ["PLM", "Finanças", "Saúde", "Jurídico", "Prompting"],
+          "topics": [
+            "PLM",
+            "Finanças",
+            "Saúde",
+            "Jurídico",
+            "Prompting"
+          ],
           "title": "Adaptando Modelos de Linguagem de Grande Escala via Compreensão de Leitura",
           "slug": "adapting-large-language-models-via-reading-comprehension",
           "authorName": "Prof. Otto Nomos",
@@ -180,7 +208,10 @@
         },
         {
           "id": "198277342",
-          "topics": ["LLM", "Multilíngue"],
+          "topics": [
+            "LLM",
+            "Multilíngue"
+          ],
           "title": "OpenBA: Um Modelo Assimétrico Bilíngue de 15B de código aberto seq2seq Pré-treinado do Zero",
           "slug": "openba-an-open-sourced-15b-bilingual-asymmetric-seq2seq-model-pre-trained-from-sc",
           "authorName": "Prof. Otto Nomos",
@@ -208,7 +239,10 @@
         },
         {
           "id": "198277117",
-          "topics": ["LLM", "Recuperacao"],
+          "topics": [
+            "LLM",
+            "Recuperacao"
+          ],
           "title": "PDFTriage: Respondendo Perguntas em Documentos Longos e Estruturados",
           "slug": "pdftriage-question-answering-over-long-structured-documents",
           "authorName": "Prof. Otto Nomos",
@@ -236,7 +270,10 @@
         },
         {
           "id": "198277138",
-          "topics": ["LLM", "Ajuste fino"],
+          "topics": [
+            "LLM",
+            "Ajuste fino"
+          ],
           "title": "LLaMA Ordenada: Desbloqueando o Potencial das Camadas Intermediarias de Modelos de Linguagem de Grande Escala para Inferencia Dinamica Usando Ajuste Fino Ordenado (SoFT)",
           "slug": "sorted-llama-unlocking-the-potential-of-intermediate-layers-of-large-language-mod",
           "authorName": "Prof. Otto Nomos",
@@ -264,7 +301,11 @@
         },
         {
           "id": "198277150",
-          "topics": ["LLM", "Ajuste de Instrucoes", "Multimodal"],
+          "topics": [
+            "LLM",
+            "Ajuste de Instrucoes",
+            "Multimodal"
+          ],
           "title": "Um Estudo Empirico sobre o Dimensionamento de Modelos Multimodais Grandes com Ajuste de Instrucoes",
           "slug": "an-empirical-study-of-scaling-instruct-tuned-large-multimodal-models",
           "authorName": "Prof. Otto Nomos",
@@ -293,9 +334,106 @@
       ]
     },
     {
-      "name": "News",
-      "slug": "news",
-      "articles": []
+      "name": "Bitlauncher",
+      "slug": "bitlauncher",
+      "articles": [
+        {
+          "id": "W8caLxKNTdahoemkXQT_sg",
+          "topics": [
+            "how_to",
+            "launchpad",
+            "dao"
+          ],
+          "title": "Welcome to the Bitlauncher Presale Starting September 16th!",
+          "slug": "welcome-to-the-bitlauncher-presale-starting-september-16th",
+          "authorName": "Jun Dam",
+          "authorPicture": {
+            "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
+          },
+          "_publishedAt": "2024-09-12T21:10:12+01:00",
+          "description": "Bitlauncher Presale begins September 16th, 2024, offering a unique opportunity to contribute capital in the intersection of AI and cryptocurrency. Secure your presale tokens at $1 each and be part of this transformative venture.",
+          "thumbnail": {
+            "url": "https://www.datocms-assets.com/101962/1724390484-bitlauncherpresale2.jpg"
+          },
+          "contentBlock": [],
+          "seo": {
+            "description": "Bitlauncher Presale starts September 16th, 2024. Join the AI-crypto revolution by securing presale tokens at $1 each.",
+            "title": "Bitlauncher Presale Starting September 16th!",
+            "twitterCard": "summary_large_image",
+            "image": {
+              "width": 1312,
+              "height": 736,
+              "title": null,
+              "alt": null,
+              "url": "https://www.datocms-assets.com/101962/1724390484-bitlauncherpresale2.jpg"
+            }
+          }
+        },
+        {
+          "id": "TBAOoPr9SPihQxeeKTGUQw",
+          "topics": [
+            "launchpad",
+            "investment",
+            "fundraising"
+          ],
+          "title": "What is a Public Token Presale?",
+          "slug": "what-is-a-public-token-presale",
+          "authorName": "Jun Dam",
+          "authorPicture": {
+            "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
+          },
+          "_publishedAt": "2024-08-27T05:32:23+01:00",
+          "description": "Public token presales provide early investment chances at fixed prices before main sales. They help projects raise pre-launch funds, gauge interest, and build community, offering potential benefits for participants.",
+          "thumbnail": {
+            "url": "https://www.datocms-assets.com/101962/1724733057-pre-sale-bitlauncher-blog.png"
+          },
+          "contentBlock": [],
+          "seo": {
+            "description": "Public token presales offer early investment opportunities before main sale, helping projects raise pre-launch capital.",
+            "title": "What is a Public Token Presale?",
+            "twitterCard": "summary_large_image",
+            "image": {
+              "width": 1312,
+              "height": 736,
+              "title": null,
+              "alt": null,
+              "url": "https://www.datocms-assets.com/101962/1724733057-pre-sale-bitlauncher-blog.png"
+            }
+          }
+        },
+        {
+          "id": "ecAGoOkaROa09DcoVKyOCA",
+          "topics": [
+            "dao",
+            "analysis",
+            "launchpad"
+          ],
+          "title": "What is the Bitlauncher ($BL) Token?",
+          "slug": "what-is-the-bitlauncher-bl-token",
+          "authorName": "Jun Dam",
+          "authorPicture": {
+            "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
+          },
+          "_publishedAt": "2024-08-27T05:06:47+01:00",
+          "description": "Bitlauncher's public token presale offers early investment opportunities in AI and blockchain projects. Secure tokens at $1 each, contribute to pre-launch funding, and join the growing community.",
+          "thumbnail": {
+            "url": "https://www.datocms-assets.com/101962/1724389825-whatisbltoken1.webp"
+          },
+          "contentBlock": [],
+          "seo": {
+            "description": "Bitlauncher ($BL) token: Powering the AI-focused launchpad, enabling governance, transactions, and ecosystem growth.",
+            "title": "What is the Bitlauncher ($BL) Token?",
+            "twitterCard": "summary_large_image",
+            "image": {
+              "width": 1797,
+              "height": 603,
+              "title": null,
+              "alt": null,
+              "url": "https://www.datocms-assets.com/101962/1724356923-bl-thumbnail.png"
+            }
+          }
+        }
+      ]
     },
     {
       "name": "Bitcash",
@@ -303,7 +441,9 @@
       "articles": [
         {
           "id": "CD89KaoLSh6nQbiMhxX0EQ",
-          "topics": ["plataforma de lancamento"],
+          "topics": [
+            "plataforma de lancamento"
+          ],
           "title": "Garantindo Confianca e Integridade: Conformidade Regulamentar e Medidas de Seguranca",
           "slug": "ensuring-trust-and-integrity-regulatory-compliance-and-security-measures",
           "authorName": "Jun Dam",
@@ -331,7 +471,9 @@
         },
         {
           "id": "H_DP7HFORBuw9rID5Jkhhw",
-          "topics": ["como_fazer"],
+          "topics": [
+            "como_fazer"
+          ],
           "title": "Como se Registrar e fazer KYC no Bitcash",
           "slug": "how-to-register-and-kyc-to-bitcash",
           "authorName": "Roberto \"Andler\" Lucas",
@@ -359,7 +501,9 @@
         },
         {
           "id": "fbM-UqrYQXGhw6HB4C6swQ",
-          "topics": ["plataforma de lançamento"],
+          "topics": [
+            "plataforma de lançamento"
+          ],
           "title": "Roteiro Estratégico: Inovação Pioneira em Blockchain e Sucesso de Startups de IA",
           "slug": "strategic-roadmap-pioneering-blockchain-innovation-and-ai-startup-success",
           "authorName": "Jun Dam",
@@ -387,7 +531,9 @@
         },
         {
           "id": "I4jShMnWRruvJgDbrucwDw",
-          "topics": ["launchpad"],
+          "topics": [
+            "launchpad"
+          ],
           "title": "The Technological Backbone of bitLauncher",
           "slug": "the-technological-backbone-of-bitcash-launchpad",
           "authorName": "Jun Dam",
@@ -415,7 +561,9 @@
         },
         {
           "id": "BEfgGhndSsCn5MBU89RO3A",
-          "topics": ["launchpad"],
+          "topics": [
+            "launchpad"
+          ],
           "title": "Empowering Innovation: Vision, Mission, and Strategic Goals of bitLauncher",
           "slug": "empowering-innovation-vision-mission-and-strategic-goals-of-bitcash-launchpad",
           "authorName": "Jun Dam",
@@ -449,7 +597,10 @@
       "articles": [
         {
           "id": "166795692",
-          "topics": ["Introdução", "Negócios & Administração"],
+          "topics": [
+            "Introdução",
+            "Negócios & Administração"
+          ],
           "title": "Dominando o Fluxo de Caixa: O Guia Definitivo para Fundadores de Startups",
           "slug": "mastering-cash-flow-the-ultimate-guide-for-startup-founders",
           "authorName": "Bootstrap Briggs",
@@ -477,7 +628,10 @@
         },
         {
           "id": "166788631",
-          "topics": ["Introdução", "Negócios & Administração"],
+          "topics": [
+            "Introdução",
+            "Negócios & Administração"
+          ],
           "title": "Orçamento Inteligente para Startups: Um Guia Passo a Passo para Construir uma Base Financeira Sólida",
           "slug": "smart-budgeting-for-startups-a-step-by-step-guide-to-building-a-strong-financial",
           "authorName": "Bootstrap Briggs",
@@ -505,7 +659,10 @@
         },
         {
           "id": "165816954",
-          "topics": ["Introdução", "Equipes & RH"],
+          "topics": [
+            "Introdução",
+            "Equipes & RH"
+          ],
           "title": "Construindo uma Equipe dos Sonhos: O Guia Definitivo para Montar seu Esquadrão de Startup",
           "slug": "building-a-dream-team-the-ultimate-guide-to-assembling-your-startup-squad",
           "authorName": "Bootstrap Briggs",
@@ -533,7 +690,10 @@
         },
         {
           "id": "166322203",
-          "topics": ["Getting Started", "Sales & Marketing"],
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
           "title": "The Blueprint to Success: A Guide to Crafting a Winning Sales Plan for Your Startup",
           "slug": "the-blueprint-to-success-a-guide-to-crafting-a-winning-sales-plan-for-your-startu",
           "authorName": "Steve Savant",
@@ -567,7 +727,10 @@
       "articles": [
         {
           "id": "180217169",
-          "topics": ["Tokenomia", "Comentario"],
+          "topics": [
+            "Tokenomia",
+            "Comentario"
+          ],
           "title": "Economia dos Incentivos Tokenizados 3: Valor do Token Nao Alinhara os Stakeholders [Comentario]",
           "slug": "economics-of-tokenized-incentives-3-token-value-won-t-align-stakeholders-commenta",
           "authorName": "Crypto Clairity",
@@ -595,7 +758,10 @@
         },
         {
           "id": "180217123",
-          "topics": ["Tokenomia", "Comentario"],
+          "topics": [
+            "Tokenomia",
+            "Comentario"
+          ],
           "title": "Economia dos Incentivos Tokenizados 2: Selecionando Metricas de Desempenho Eficazes [Comentario]",
           "slug": "economics-of-tokenized-incentives-2-selecting-effective-performance-metrics-comme",
           "authorName": "Crypto Clairity",
@@ -623,7 +789,10 @@
         },
         {
           "id": "180217082",
-          "topics": ["Tokenômica", "Comentário"],
+          "topics": [
+            "Tokenômica",
+            "Comentário"
+          ],
           "title": "Economia dos Incentivos Tokenizados 1: Introdução ao Pagamento por Desempenho [Comentário]",
           "slug": "economics-of-tokenized-incentives-1-intro-to-pay-for-performance",
           "authorName": "Crypto Clairity",
@@ -651,7 +820,10 @@
         },
         {
           "id": "180556627",
-          "topics": ["Commentary", "Smart Contracts"],
+          "topics": [
+            "Commentary",
+            "Smart Contracts"
+          ],
           "title": "Incomplete Contracts and Blockchain [Commentary]",
           "slug": "incomplete-contracts-and-blockchain-commentary",
           "authorName": "Crypto Clairity",
@@ -685,7 +857,11 @@
       "articles": [
         {
           "id": "165362142",
-          "topics": ["Introducao", "Prova-de-Trabalho", "Mineracao"],
+          "topics": [
+            "Introducao",
+            "Prova-de-Trabalho",
+            "Mineracao"
+          ],
           "title": "Desvendando o Poder da Mineracao de Bitcoin: Uma Introducao aos Algoritmos de Prova-de-Trabalho",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
@@ -713,7 +889,10 @@
         },
         {
           "id": "165340146",
-          "topics": ["Introdução", "Prova-de-Trabalho"],
+          "topics": [
+            "Introdução",
+            "Prova-de-Trabalho"
+          ],
           "title": "A Segurança Econômica do Bitcoin: Como a Prova-de-Trabalho Garante uma Rede Segura e Protegida",
           "slug": "the-economic-security-of-bitcoin-how-proof-of-work-enables-a-safe-and-secure-netw",
           "authorName": "Maxi Millie",
@@ -741,7 +920,10 @@
         },
         {
           "id": "165340050",
-          "topics": ["Introdução", "Jurídico"],
+          "topics": [
+            "Introdução",
+            "Jurídico"
+          ],
           "title": "Navegando pelo Cenário Legal e Regulatório do Bitcoin: Entendendo as Regras e Oportunidades",
           "slug": "navigating-the-legal-and-regulatory-landscape-of-bitcoin-understanding-the-rules",
           "authorName": "Maxi Millie",
@@ -769,7 +951,10 @@
         },
         {
           "id": "165337859",
-          "topics": ["Getting Started", "Security"],
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
           "title": "The Future of Bitcoin Storage: An Introduction to Bitcoin Wallets and Innovative Storage Solutions",
           "slug": "the-future-of-bitcoin-storage-an-introduction-to-bitcoin-wallets-and-innovative-s",
           "authorName": "Maxi Millie",
@@ -803,7 +988,10 @@
       "articles": [
         {
           "id": "174592759",
-          "topics": ["Introdução", "Alternativas"],
+          "topics": [
+            "Introdução",
+            "Alternativas"
+          ],
           "title": "Liberando o Potencial: Dominando Investimentos Alternativos para o Sucesso do Investidor",
           "slug": "unleashing-the-potential-mastering-alternative-investments-for-contributor-success",
           "authorName": "Mister Moneybags",
@@ -831,7 +1019,10 @@
         },
         {
           "id": "175015363",
-          "topics": ["Introdução", "Fundos Mútuos e ETFs"],
+          "topics": [
+            "Introdução",
+            "Fundos Mútuos e ETFs"
+          ],
           "title": "Revelando os Prós e Contras dos Fundos Negociados em Bolsa (ETFs): Um Guia Completo para Investidores",
           "slug": "unveiling-the-pros-and-cons-of-exchange-traded-funds-etfs-a-comprehensive-guide-f",
           "authorName": "Mister Moneybags",
@@ -859,7 +1050,10 @@
         },
         {
           "id": "176002890",
-          "topics": ["Introdução", "Gestão de Risco"],
+          "topics": [
+            "Introdução",
+            "Gestão de Risco"
+          ],
           "title": "Proteja Seus Investimentos: Um Guia Completo para Reconhecer e Evitar Fraudes em Investimentos",
           "slug": "shield-your-investments-a-comprehensive-guide-to-recognizing-and-avoiding-investm",
           "authorName": "Mister Moneybags",
@@ -887,7 +1081,10 @@
         },
         {
           "id": "176002763",
-          "topics": ["Getting Started", "Insurance"],
+          "topics": [
+            "Getting Started",
+            "Insurance"
+          ],
           "title": "Insurance Planning 101: Navigating Life, Disability, and Long-Term Care Insurance",
           "slug": "insurance-planning-101-navigating-life-disability-and-long-term-care-insurance",
           "authorName": "Mister Moneybags",

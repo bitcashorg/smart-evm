@@ -1,0 +1,1456 @@
+{
+  "relatedBlogs": [],
+  "blogContent": {
+    "id": "H_DP7HFORBuw9rID5Jkhhw",
+    "topics": [
+      "how_to"
+    ],
+    "title": "How to Register and KYC to Bitcash",
+    "slug": "how-to-register-and-kyc-to-bitcash",
+    "authorName": "Roberto \"Andler\" Lucas",
+    "authorPicture": {
+      "url": "https://www.datocms-assets.com/101962/1715639160-andler-file-photo.jpg"
+    },
+    "_publishedAt": "2024-06-20T16:20:40+01:00",
+    "description": "We are covering a range of topics, including registering for a Bitcash account, setting up an account name and referrer, identifying and securing devices, providing identification and personal information for KYC, taking photos for KYC verification, and waiting for approval and joining the community.",
+    "thumbnail": {
+      "url": "https://www.datocms-assets.com/101962/1715638953-bitcash-logo-frame-w-bg.png"
+    },
+    "contentBlock": [
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The Bitcash Wallet App offers a comprehensive web3 experience with a robust KYC process, secure passkey integration, and an engaging rewards system. These features not only enhance user security and convenience but also foster a strong community by incentivizing participation. To further improve the user experience, expanding support for additional cryptocurrencies and providing more educational resources could be considered. Overall, the Bitcash Wallet App is well-positioned to attract and retain users within the cryptocurrency, DeFi, and web3 ecosystem."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "splash-edited",
+            "height": 1440,
+            "width": 1440,
+            "filename": "splash-edited.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1715831775-splash-edited.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Step 0 (Optional) - Register from Bitlauncher"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "If you are an investor and you want to participate in the pre-sale of our upcoming "
+                    },
+                    {
+                      "url": "https://bitlauncher.ai/bitcash-bitlauncher",
+                      "meta": [
+                        {
+                          "id": "target",
+                          "value": "_blank"
+                        }
+                      ],
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "marks": [
+                            "strong"
+                          ],
+                          "value": "BC token"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ", connect an EOS EVM wallet to your account and more, you can register your Bitcash account by following these steps:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Go to "
+                            },
+                            {
+                              "url": "https://bitlauncher.ai",
+                              "meta": [
+                                {
+                                  "id": "target",
+                                  "value": "_blank"
+                                }
+                              ],
+                              "type": "link",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "marks": [
+                                    "strong"
+                                  ],
+                                  "value": "bitlauncher.ai"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "span",
+                              "value": " and scroll down to the "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Only 3 Steps Needed"
+                            },
+                            {
+                              "type": "span",
+                              "value": " section."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Click on the \"Sign Up and Complete KYC\" card where the image indicates."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "blockquote",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Completing these steps will take you to our Bitcash Wallet app to begin the registration."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Step 1 - Your Identity At The Bitcash Wallet App."
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Setting your account name."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Choose an account name that identifies you, between letters "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "a"
+                    },
+                    {
+                      "type": "span",
+                      "value": " to "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "z "
+                    },
+                    {
+                      "type": "span",
+                      "value": "and/or numbers from "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "1 "
+                    },
+                    {
+                      "type": "span",
+                      "value": "to "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "5"
+                    },
+                    {
+                      "type": "span",
+                      "value": " and "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "up to 9"
+                    },
+                    {
+                      "type": "span",
+                      "value": " characters long. It can be less and be only letters or letters with numbers. At the end of the process (and when your account is approved), it will have the "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": ".bk "
+                    },
+                    {
+                      "type": "span",
+                      "value": "domain at the end of the name."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Be mindful of your account name, it will be forever! Ensure to follow:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "bulleted",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Choose a unique and memorable name."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Avoid offensive, misleading, or promotional names."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Represent one person; don’t use organization names."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Keep it simple and easy to spell for you and your peers."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Setting a referrer."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "A "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "referrer "
+                    },
+                    {
+                      "type": "span",
+                      "value": "is an existent and approved Bitcash account which refers you to the wallet app. It is not required to add the "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": ".bk"
+                    },
+                    {
+                      "type": "span",
+                      "value": " at the end of the account name. If you do not have a referrer to connect, you can provide the "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "bank.bk "
+                    },
+                    {
+                      "type": "span",
+                      "value": "account (our bank smart contract)."
+                    }
+                  ]
+                },
+                {
+                  "type": "blockquote",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "If you are coming from Bitlauncher or you have clicked on a share link, this field may be already filled."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "kyc-step-frame-1",
+            "height": 1440,
+            "width": 1440,
+            "filename": "kyc-step-frame-1.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1715841179-kyc-step-frame-1.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Step 2 - Identify Your Device"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Giving a name tag for your main device is ideal for you to quickly identify your connected devices."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "With Bitcash Wallet you can link more than one mobile/tablet device, to be capable of logging in with different devices. By default, we provide you a general name, but it is always good to assign a name."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Once the "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Device Name "
+                    },
+                    {
+                      "type": "span",
+                      "value": "is assigned and we click on the "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Next button"
+                    },
+                    {
+                      "type": "span",
+                      "value": ", it will request to create a "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "passkey "
+                    },
+                    {
+                      "type": "span",
+                      "value": "and create a "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "code"
+                      ],
+                      "value": "WebAuthN "
+                    },
+                    {
+                      "type": "span",
+                      "value": "connection between your device with your new account. You can pick any of the options to authenticate your account. This is how you will be logging in with your account."
+                    }
+                  ]
+                },
+                {
+                  "type": "blockquote",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "If you cannot move forward to the next screen, first try to use either "
+                        },
+                        {
+                          "type": "span",
+                          "marks": [
+                            "strong"
+                          ],
+                          "value": "Google"
+                        },
+                        {
+                          "type": "span",
+                          "value": ", "
+                        },
+                        {
+                          "type": "span",
+                          "marks": [
+                            "strong"
+                          ],
+                          "value": "Opera (Not Mini)"
+                        },
+                        {
+                          "type": "span",
+                          "value": " or "
+                        },
+                        {
+                          "type": "span",
+                          "marks": [
+                            "strong"
+                          ],
+                          "value": "Safari"
+                        },
+                        {
+                          "type": "span",
+                          "value": " mobile browsers with the latest version to ensure full compatibility and security."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "If retrying is not possible to move forward after checking the mobile browser, check your smartphone security compatibility with "
+                        },
+                        {
+                          "type": "span",
+                          "marks": [
+                            "strong"
+                          ],
+                          "value": "passkeys"
+                        },
+                        {
+                          "type": "span",
+                          "value": "."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "kyc-step-frame-2",
+            "height": 1440,
+            "width": 1440,
+            "filename": "kyc-step-frame-2.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1715841173-kyc-step-frame-2.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Step 3 - Provide Your Identify (KYC)"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "These security measures protect your account from unauthorized access and ensure you are the rightful owner. It also enables us to accurately award app rewards tailored to your region. Therefore, it is important for us to you to provide your:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Full name:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " Must match with the name of your given identification."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Identification Type and Number:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " It can be a "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "National ID"
+                            },
+                            {
+                              "type": "span",
+                              "value": ","
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": " Drivers License "
+                            },
+                            {
+                              "type": "span",
+                              "value": "or "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Passport"
+                            },
+                            {
+                              "type": "span",
+                              "value": "."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Country:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " This automatically pops up, else pick the country of your "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "identification origin"
+                            },
+                            {
+                              "type": "span",
+                              "value": "."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Phone Number:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " Your phone number for the Bitcash communities and security."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Email Address:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " Your email address for Bitcash community communications."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Photo ID:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " Your "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "selfie photo"
+                            },
+                            {
+                              "type": "span",
+                              "value": " holding your identification and a "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "close-up identification photo ID"
+                            },
+                            {
+                              "type": "span",
+                              "value": "."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Subscribe to our Newsletter (Optional). "
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Step 3.1 - How Do I Take The Pictures?"
+                    }
+                  ]
+                },
+                {
+                  "type": "blockquote",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "We highly recommend cleaning the camera, and the sensors and having a clean room with enough light to make the facial recognition."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To start taking the pictures, it is required for security measures to "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Grant Permission "
+                    },
+                    {
+                      "type": "span",
+                      "value": "for "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "localization "
+                    },
+                    {
+                      "type": "span",
+                      "value": "and "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "camera"
+                    },
+                    {
+                      "type": "span",
+                      "value": " access. It is important to follow up on the instructions given at each step to have a seamless experience while taking the pictures."
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "When do I know that I am taking the picture right?"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "When taking the picture, there should be:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "bulleted",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "A green frame with a checkmark at the right top corner of the camera recording frame."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "There should be a message below the camera recording frame "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Photo is OK"
+                            },
+                            {
+                              "type": "span",
+                              "value": "."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "The "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Take Selfie"
+                            },
+                            {
+                              "type": "span",
+                              "value": " button colour has changed to a darker one."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "After taking the "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Selfie"
+                            },
+                            {
+                              "type": "span",
+                              "value": ", it will process the image show again the "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Photo is OK "
+                            },
+                            {
+                              "type": "span",
+                              "value": "message and give a "
+                            },
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Continue "
+                            },
+                            {
+                              "type": "span",
+                              "value": "button."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "If after "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Taking Selfie "
+                    },
+                    {
+                      "type": "span",
+                      "value": "it shows a red frame with a red text message, try to stay still until the validation is completed. Some devices can be affected by the sensor if moved."
+                    }
+                  ]
+                },
+                {
+                  "type": "blockquote",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "If retrying doesn't happen, make sure to have enough light and/or nothing is obscuring your face (e.g.: glasses, facial jewellery)."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "kyc-step-frame-3",
+            "height": 1440,
+            "width": 1440,
+            "filename": "kyc-step-frame-3.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1715841166-kyc-step-frame-3.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "blockquote",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "For the "
+                        },
+                        {
+                          "type": "span",
+                          "marks": [
+                            "strong"
+                          ],
+                          "value": "Card ID Photo "
+                        },
+                        {
+                          "type": "span",
+                          "value": "is simpler than the "
+                        },
+                        {
+                          "type": "span",
+                          "marks": [
+                            "strong"
+                          ],
+                          "value": "Selfie"
+                        },
+                        {
+                          "type": "span",
+                          "value": ". Make sure to put your ID given on the KYC form before inside of the frame that appears on the camera recording frame."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "kyc-step-frame-4",
+            "height": 1440,
+            "width": 1440,
+            "filename": "kyc-step-frame-4.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1715841161-kyc-step-frame-4.png"
+          },
+          {
+            "basename": "kyc-step-frame-5",
+            "height": 1440,
+            "width": 1440,
+            "filename": "kyc-step-frame-5.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1715841154-kyc-step-frame-5.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Step 4 - Wait for Approval and Join the Community!"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "After ensuring the data is correct and all steps are completed, it is time now to continue and complete registration!"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "You will be taken to "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "success"
+                    },
+                    {
+                      "type": "span",
+                      "value": "! Here you will find a button that takes you to our "
+                    },
+                    {
+                      "url": "https://discord.gg/MG38R6YbF5",
+                      "meta": [
+                        {
+                          "id": "target",
+                          "value": "_blank"
+                        }
+                      ],
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "marks": [
+                            "strong"
+                          ],
+                          "value": "Discord Community"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ". There you can follow up the onboarding process to our community."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Enjoy!"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "kyc-step-frame-6",
+            "height": 1440,
+            "width": 1440,
+            "filename": "kyc-step-frame-6.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1715841149-kyc-step-frame-6.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "FAQs"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "1. I registered before KYC, Do I still need to do KYC?"
+                    }
+                  ]
+                },
+                {
+                  "type": "blockquote",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Yes you do, you can complete the process by going to Settings > Profile Settings and providing the missing information. Our team checks daily for new requests and will notify you by email when we complete the verification of the information given."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "2. I used to log in with my phone but now I can't after I reset my phone and/or change my phone password."
+                    }
+                  ]
+                },
+                {
+                  "type": "blockquote",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Your device access is attached to your phone. Any change on the access like password updates or changing the method (face-ID, fingerprint, pin, pattern) from the original made while the account was created it may affect your app experience, losing access to it. If you experience any issues, please contact our "
+                        },
+                        {
+                          "url": "https://discord.com/channels/856694458388054026/1222398643210813550",
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            }
+                          ],
+                          "type": "link",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "support channel"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "span",
+                          "value": "; we will take care of your case!"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "What it is a \"WebAuthN\"?"
+                    }
+                  ]
+                },
+                {
+                  "type": "blockquote",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "WebAuthn is a modern security standard that simplifies signing in to websites without needing a password. It allows users to use their fingerprint, face, or a security key for authentication, making it more convenient and secure."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Why is it important to keep my phone safe?"
+                    }
+                  ]
+                },
+                {
+                  "type": "blockquote",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Keeping and not losing your phone safe using the Bitcash Wallet app is important because a lost or stolen device can still pose a security risk if it is not properly secured."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "By using the Bitcash Wallet app, you ensure that even if your phone is lost or stolen, the data stored on it remains inaccessible without your biometric information or security key. This helps protect your privacy and prevent identity theft, nevertheless, you will lose access to your account because your account is attached to your phone and a recovery process must be started."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "kyc-step-frame-7",
+            "height": 1440,
+            "width": 1440,
+            "filename": "kyc-step-frame-7.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1715841141-kyc-step-frame-7.png"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "description": "We are learning how to register a Bitcash account, set up the account, identify devices, KYC, and waiting for approval and join the community!",
+      "title": "How to Register and KYC to Bitcash",
+      "twitterCard": "summary",
+      "image": {
+        "width": 1440,
+        "height": 1440,
+        "title": null,
+        "alt": null,
+        "url": "https://www.datocms-assets.com/101962/1715831775-splash-edited.png"
+      }
+    }
+  },
+  "topics": [
+    "how_to"
+  ],
+  "shortLink": ""
+}

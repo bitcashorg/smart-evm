@@ -8,12 +8,14 @@ export default {
     },
     {
       title: 'Get USD\nCredits',
-      description: 'Deposit USDT on any chain to get USD Credit Tokens on EOS EVM',
+      description:
+        'Deposit USDT on any chain to get USD Credit Tokens on EOS EVM',
       href: '#',
     },
     {
       title: 'Place\nBids',
-      description: 'Select a project from the Auctions list and place your bids.',
+      description:
+        'Select a project from the Auctions list and place your bids.',
       href: '#',
     },
   ],

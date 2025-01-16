@@ -30,6 +30,7 @@ export const eosEvmTestnet: Chain = {
     },
   },
   testnet: true,
+  fees: undefined,
 }
 
 export const eosEvmMainnet: Chain = {

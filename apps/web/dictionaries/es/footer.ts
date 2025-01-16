@@ -14,7 +14,8 @@ export default {
     },
     {
       title: 'Haz\nOfertas',
-      description: 'Selecciona un proyecto de la lista de subastas y haz tus ofertas.',
+      description:
+        'Selecciona un proyecto de la lista de subastas y haz tus ofertas.',
       href: '#',
     },
   ],

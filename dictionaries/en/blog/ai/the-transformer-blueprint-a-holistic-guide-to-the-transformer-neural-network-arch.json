@@ -1,0 +1,1918 @@
+{
+  "relatedBlogs": [
+    {
+      "id": "190259319",
+      "topics": [
+        "Summary",
+        "LLM",
+        "Training"
+      ],
+      "title": "Latent Space Podcast 8/16/23 [Summary] - The Mathematics of Training LLMs — with Quentin Anthony of Eleuther AI",
+      "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:19:45+01:00",
+      "description": "Explore the math behind training LLMs with Quentin Anthony from Eleuther AI. Dive into the Transformers Math 101 article & master distributed training techniques for peak GPU performance.",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692324088-screenshot-2023-08-17-at-9-59-17-pm.png"
+      },
+      "seo": {
+        "description": "Dive into the Transformers Math 101 article & master distributed training techniques for peak GPU performance.",
+        "title": "Latent Space Podcast 8/16/23 [Summary] Math of Training LLMs",
+        "twitterCard": null,
+        "image": {
+          "width": 1576,
+          "height": 554,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692324088-screenshot-2023-08-17-at-9-59-17-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190259129",
+      "topics": [
+        "LLM",
+        "Hardware",
+        "Summary",
+        "Edge"
+      ],
+      "title": "Latent Space Podcast 8/10/23 [Summary]: LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
+      "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:18:37+01:00",
+      "description": "Explore the magic of MLC with Tianqi Chen: deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
+      },
+      "seo": {
+        "description": "Explore deploying 70B models on browsers & iPhones. Dive into XGBoost, TVM's creation, & the future of universal AI deployments. ",
+        "title": "Latent Space 8/10/23 [Summary]: LLMs Everywhere",
+        "twitterCard": null,
+        "image": {
+          "width": 1538,
+          "height": 548,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1691894611-screenshot-2023-08-12-at-10-42-43-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190259087",
+      "topics": [
+        "Summary",
+        "LLM",
+        "Code",
+        "Open Source",
+        "Small Models"
+      ],
+      "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
+      "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:16:33+01:00",
+      "description": "Join AI Breakdown & Latent Space for the summer AI tech roundup: Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
+      },
+      "seo": {
+        "description": "Dive into GPT4.5, Llama 2, AI tools, the rising AI engineer, and more!",
+        "title": "Latent Space Podcast 8/4/23 [Summary] AI Breakdown crossover",
+        "twitterCard": null,
+        "image": {
+          "width": 1578,
+          "height": 558,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1691539617-screenshot-2023-08-08-at-8-02-52-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190259111",
+      "topics": [
+        "Summary",
+        "Transformers",
+        "Training",
+        "Open Source"
+      ],
+      "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
+      "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:14:13+01:00",
+      "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2, dives into Stanford's Hazy Lab & future AI insights.",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
+      },
+      "seo": {
+        "description": "Discover how FlashAttention revolutionized AI speed with Tri Dao, as he unveils the power of FlashAttention 2",
+        "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2",
+        "twitterCard": null,
+        "image": {
+          "width": 1648,
+          "height": 594,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1691543194-screenshot-2023-08-08-at-8-43-59-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190259172",
+      "topics": [
+        "Summary",
+        "LLM",
+        "Open Source",
+        "Small Models"
+      ],
+      "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
+      "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:12:38+01:00",
+      "description": "Explore Llama 2, the latest AI breakthrough with experts Nathan Lambert, Matt Bornstein & more. Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
+      },
+      "seo": {
+        "description": "Dive into datasets, benchmarks & AI predictions. Llama insights & drama await in this top podcast!",
+        "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2",
+        "twitterCard": null,
+        "image": {
+          "width": 1632,
+          "height": 574,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1691968295-screenshot-2023-08-13-at-7-11-06-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190259191",
+      "topics": [
+        "Summary",
+        "Code",
+        "LLM"
+      ],
+      "title": "Latent Space Podcast 7/10/23 [Summary] - Code Interpreter == GPT 4.5 (w/ Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, et al.)",
+      "slug": "latent-space-podcast-7-10-23-summary-code-interpreter-gpt-4-5-w-simon-willison-al",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:09:26+01:00",
+      "description": "Explore ChatGPT's Code Interpreter: a game-changer in AI. Dive into its 1000x capabilities leap with Simon, Alex & top AI experts. #CodeAugmentedInference #GPT4_5",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692048911-screenshot-2023-08-14-at-3-34-05-pm.png"
+      },
+      "seo": {
+        "description": "Explore ChatGPT's Code Interpreter: a game-changer in AI. Dive into its 1000x capabilities leap with Simon, Alex & top AI experts. ",
+        "title": "Latent Space Podcast  [Summary] Code Interpreter = GPT 4.5",
+        "twitterCard": null,
+        "image": {
+          "width": 1596,
+          "height": 582,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692048911-screenshot-2023-08-14-at-3-34-05-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190259216",
+      "topics": [
+        "Summary",
+        "Open Source"
+      ],
+      "title": "Latent Space Podcast 7/2/23 [Summary] AI Trends: a Latent Space x Practical AI crossover pod!",
+      "slug": "latent-space-podcast-7-2-23-summary-ai-trends-a-latent-space-x-practical-ai-cross",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:08:36+01:00",
+      "description": "Explore the fusion of Practical AI & Latent Space as they delve into 2023's top AI trends, reflect on standout episodes, and share insights on navigating the AI evolution.",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692146916-screenshot-2023-08-15-at-5-20-38-pm.png"
+      },
+      "seo": {
+        "description": "2023's top AI trends, reflect on standout episodes, and share insights on navigating the AI evolution.",
+        "title": "Latent Space Podcast 7/2/23 [Summary] AI Trends ",
+        "twitterCard": null,
+        "image": {
+          "width": 1600,
+          "height": 532,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692146916-screenshot-2023-08-15-at-5-20-38-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190259238",
+      "topics": [
+        "Hardware",
+        "LLM",
+        "Summary"
+      ],
+      "title": "Latent Space Podcast 6/20/23 [Summary] - Commoditizing the Petaflop — with George Hotz of the tiny corp",
+      "slug": "latent-space-podcast-6-20-23-summary-commoditizing-the-petaflop-with-george-ho",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:07:15+01:00",
+      "description": "George Hotz of tiny corp challenges Nvidia & Google! Dive into the world of AMD collaborations, insights on ggml, Mojo, Elon & GPT-4, plus a peek into AI Girlfriend. ",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692154615-screenshot-2023-08-15-at-10-55-40-pm.png"
+      },
+      "seo": {
+        "description": "George Hotz of tiny corp challenges Nvidia & Google! AMD collaborations, insights on ggml, Mojo, Elon & GPT-4, plus a peek into AI Girlfriend. ",
+        "title": "Latent Space Podcast 6/20/23 [Summary] - George Hotz ",
+        "twitterCard": null,
+        "image": {
+          "width": 1586,
+          "height": 508,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692154615-screenshot-2023-08-15-at-10-55-40-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190259294",
+      "topics": [
+        "LLM",
+        "Functions",
+        "Summary"
+      ],
+      "title": "Latent Space Podcast 6/14/23 [Summary] - Emergency Pod: OpenAI's new Functions API, 75% Price Drop, 4x Context Length (w/ Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin et al)",
+      "slug": "latent-space-podcast-6-14-23-summary-emergency-pod-openai-s-new-functions-api-75",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:05:04+01:00",
+      "description": "Explore the June 2023 OpenAI updates with top AI engineers from Scale, Microsoft, Pinecone, & Huggingface. Dive into the Code x LLM paradigms and discover Recursive Function Agents.",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692221668-screenshot-2023-08-16-at-5-32-29-pm.png"
+      },
+      "seo": {
+        "description": "Explore the June 2023 OpenAI updates with top AI engineers from Scale, Microsoft, Pinecone, & Huggingface. ",
+        "title": "Latent Space Podcast 6/20/23 [Summary] - Emergency Pod",
+        "twitterCard": null,
+        "image": {
+          "width": 1626,
+          "height": 606,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692221668-screenshot-2023-08-16-at-5-32-29-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190259333",
+      "topics": [
+        "LLM",
+        "Summary",
+        "UX"
+      ],
+      "title": "Latent Space Podcast 6/8/23 [Summary] - From RLHF to RLHB: The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude",
+      "slug": "latent-space-podcast-6-8-23-summary-from-rlhf-to-rlhb-the-case-for-learning-from",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:02:33+01:00",
+      "description": "Explore AI & analytics with Jeffrey Wang & Joe Reeve on Latent Space Live! Dive into why AI values Analytics and the power of first-party behavioral data. ",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692386432-screenshot-2023-08-18-at-3-17-04-pm.png"
+      },
+      "seo": {
+        "description": "Explore AI & analytics with Jeffrey Wang & Joe Reeve on Latent Space Live! Dive into why AI values Analytics and the power of first-party behavioral data. ",
+        "title": "Latent Space Podcast 6/8/23 [Summary] - From RLHF to RLHB",
+        "twitterCard": null,
+        "image": {
+          "width": 1674,
+          "height": 550,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692386432-screenshot-2023-08-18-at-3-17-04-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190260528",
+      "topics": [
+        "Summary",
+        "LLM",
+        "UX"
+      ],
+      "title": "Latent Space Podcast 6/1/23 [Summary] - Building the AI × UX Scenius — with Linus Lee of Notion AI",
+      "slug": "latent-space-podcast-6-1-23-summary-building-the-ai-x-ux-scenius-with-linus-le",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T09:00:12+01:00",
+      "description": "Explore Notion AI's transformative approach to AI and UX. Dive into the future of AI-augmented workspaces, the value beyond chat interfaces, and insights on effective knowledge work. Recap of AI×UX NYC meetup included!",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692390655-screenshot-2023-08-18-at-4-28-51-pm.png"
+      },
+      "seo": {
+        "description": "Explore Notion AI's transformative approach to AI and UX. ",
+        "title": "Latent Space Podcast 6/1/23 [Summary] - AI × UX Scenius",
+        "twitterCard": null,
+        "image": {
+          "width": 1614,
+          "height": 546,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692390655-screenshot-2023-08-18-at-4-28-51-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190260557",
+      "topics": [
+        "Summary",
+        "Code",
+        "LLM",
+        "Agents"
+      ],
+      "title": "Latent Space Podcast 5/25/23 [Summary] - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
+      "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T08:58:27+01:00",
+      "description": "Explore the future of AI with Itamar Friedman from Codium AI on 'Debugging the Internet'. Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. Plus, insights from Toran & an exclusive look at AutoGPT's roadmap!",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
+      },
+      "seo": {
+        "description": "Dive into 'Extreme DRY' agents, the rapid sync of specs & tests, and the balance between code & testing. ",
+        "title": "Latent Space Pod 5/25/23 [Summary] Debugging the Internet",
+        "twitterCard": null,
+        "image": {
+          "width": 1568,
+          "height": 548,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692397413-screenshot-2023-08-18-at-6-10-09-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190260640",
+      "topics": [
+        "Summary",
+        "Open Source",
+        "LLM"
+      ],
+      "title": "Latent Space Podcast 5/5/23 [Summary] - No Moat: Closed AI gets its Open Source wakeup call — ft. Simon Willison",
+      "slug": "latent-space-podcast-5-5-23-summary-no-moat-closed-ai-gets-its-open-source-wakeup",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T08:49:18+01:00",
+      "description": "Explore 'No Moat: Closed AI's Open Source Awakening' with Simon Willison. Dive into leaked Google Moat memo insights, Google Brain Drain, and Python's speed boost with Mojo.",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692566921-screenshot-2023-08-20-at-5-25-53-pm.png"
+      },
+      "seo": {
+        "description": "Explore 'No Moat: Closed AI's Open Source Awakening' with Simon Willison. Dive into leaked Google Moat memo insights.",
+        "title": "Latent Space Podcast 5/5/23 [Summary] - No Moat",
+        "twitterCard": null,
+        "image": {
+          "width": 1602,
+          "height": 532,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692566921-screenshot-2023-08-20-at-5-25-53-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190260671",
+      "topics": [
+        "LLM",
+        "Code",
+        "Summary"
+      ],
+      "title": "Latent Space Podcast 5/3/23 [Summary] - Training a SOTA Code LLM in 1 week and Quantifying the Vibes — with Reza Shabani of Replit",
+      "slug": "latent-space-podcast-5-3-23-summary-training-a-sota-code-llm-in-1-week-and-quanti",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T08:46:08+01:00",
+      "description": "Ep. 10 with Reza Shabani: Dive deep into the rapid training of a state-of-the-art Code LLM, explore Replit Ghostwriter's future, and journey from Finance to AI. Discover the transition from Kaplan to Chinchilla and more!",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692584998-screenshot-2023-08-20-at-10-17-26-pm.png"
+      },
+      "seo": {
+        "description": "Ep. 10 with Reza Shabani: Dive deep into the rapid training of a state-of-the-art Code LLM!",
+        "title": "Latent Space Pod 5/3/23 [Summary] - SOTA Code LLM",
+        "twitterCard": null,
+        "image": {
+          "width": 1566,
+          "height": 530,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692584998-screenshot-2023-08-20-at-10-17-26-pm.png"
+        }
+      }
+    },
+    {
+      "id": "190629271",
+      "topics": [
+        "LLM",
+        "Small Models",
+        "Summary"
+      ],
+      "title": "Latent Space Podcast 4/28/23 [Summary] - Mapping the future of *truly* Open Models and Training Dolly for $30 — with Mike Conover of Databricks",
+      "slug": "latent-space-podcast-4-28-23-summary-mapping-the-future-of-truly-open-models-and",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T08:33:12+01:00",
+      "description": "Explore the future of open models with Mike Conover of Databricks. Dive deep into Dolly's creation, its transition from 1.0 to 2.0, & the influences behind its development. Ep.9 touches on model infrastructure, Databricks' vision, & more. #AI #OpenModels #Dolly",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1694038707-screenshot-2023-09-06-at-3-12-24-pm.png"
+      },
+      "seo": {
+        "description": "Ep.9 touches on model infrastructure, Databricks' vision, & more. #AI #OpenModels #Dolly",
+        "title": "Latent Space Pod 4/28/23 [Summary] - Mike of Databricks",
+        "twitterCard": null,
+        "image": {
+          "width": 1572,
+          "height": 628,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1694038707-screenshot-2023-09-06-at-3-12-24-pm.png"
+        }
+      }
+    },
+    {
+      "id": "191164291",
+      "topics": [
+        "LLM",
+        "Enterprise",
+        "Summary"
+      ],
+      "title": "Latent Space Podcast 4/21/23 [Summary] - AI-powered Search for the Enterprise — with Deedy Das of Glean",
+      "slug": "latent-space-podcast-4-21-23-summary-ai-powered-search-for-the-enterprise-with",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-05T08:31:31+01:00",
+      "description": "Ep.8: Dive into AI in enterprise search with Deedy Das of Glean. Unpack challenges in creating an AI search giant, Google vs ChatGPT comparisons, AI infrastructure intricacies, spotting AI-generated text, and why businesses need more than just Document QA.",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1694134074-screenshot-2023-09-07-at-5-43-48-pm.png"
+      },
+      "seo": {
+        "description": "Ep.8: Dive into AI in enterprise search with Deedy Das of Glean. Unpack challenges in creating an AI search giant, Google vs ChatGPT ...",
+        "title": "Latent Space Podcast 4/21/23 [Summary] - with Deedy Das ",
+        "twitterCard": null,
+        "image": {
+          "width": 1608,
+          "height": 530,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1694134074-screenshot-2023-09-07-at-5-43-48-pm.png"
+        }
+      }
+    }
+  ],
+  "blogContent": {
+    "id": "190258977",
+    "topics": [
+      "Summary",
+      "Transformers"
+    ],
+    "title": "The Transformer Blueprint: A Holistic Guide to the Transformer Neural Network Architecture [Summary]",
+    "slug": "the-transformer-blueprint-a-holistic-guide-to-the-transformer-neural-network-arch",
+    "authorName": "Prof. Otto Nomos",
+    "authorPicture": {
+      "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+    },
+    "_publishedAt": "2023-10-05T06:39:30+01:00",
+    "description": "Explore 'The Transformer Blueprint' - an all-inclusive guide to understanding and applying the transformative power of the Transformer Neural Network Architecture.",
+    "thumbnail": {
+      "url": "https://www.datocms-assets.com/101962/1690679303-abr4-img1.png"
+    },
+    "contentBlock": [
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Original link: "
+                    },
+                    {
+                      "url": "https://deeprevision.github.io/posts/001-transformer/",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "https://deeprevision.github.io/posts/001-transformer/"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": "\nAuthor: "
+                    },
+                    {
+                      "url": "https://nyandwi.com/",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Jean Nyandwi"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Introduction"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The Transformer model is a type of artificial intelligence model that has become a revolutionary tool in the field of computer science since it was introduced in 2017 in a paper titled \"Attention is All You Need.\" Initially created for tasks like translating one language to another, this model has shown its versatility, proving useful not just in natural language processing (the technology that helps computers understand human language), but also in other areas as a general-purpose tool."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To break this down simply, imagine if you had a tool that could not only help you understand and translate languages but also perform other tasks like identifying objects in photos or predicting stock market trends. That's what the Transformer model is like in the world of artificial intelligence."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "In our deep dive, we'll peel back the layers of the Transformer model, exploring how it pays attention to the right information, how it encodes and decodes data, and how it forms its structure. Beyond the basics, we'll also check out bigger, more powerful models that use the Transformer's capabilities. Plus, we'll look at how the Transformer model is used outside of language processing and discuss the current issues and potential future developments related to this powerful AI tool. For those who want to learn more, we'll also share a list of resources where you can find open-source versions of the model and more information."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr4-img1",
+            "height": 862,
+            "width": 862,
+            "filename": "abr4-img1.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690679303-abr4-img1.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Neural Networks Before Transformers"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Before the invention of the Transformer model, several other types of artificial intelligence (AI) models were used to try to understand and work with sequence data - that's data where the order matters, like the words in a sentence or the notes in a song."
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Multilayer Perceptrons (MLPs): These are a classic type of AI model, made up of multiple layers of nodes that each process the data a bit. The problem is, they don't consider the order of the data - it's like trying to understand a sentence by looking at all the words at once, without considering which word comes before or after another. Plus, MLPs can be quite complicated and require lots of parameters (instructions for the AI on how to handle the data), which isn't great."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Convolutional Neural Networks (CNNs or ConvNets): These models are mostly used for image processing, but have also been used with text and video. They bundle computations in local parts of the input data, which is good for processing efficiency, but they struggle with variable-length data (like a sentence that can be short or long) and can require many layers to handle long-term dependencies, or relationships between elements far apart in the sequence."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Recurrent Neural Networks (RNNs): These models were actually designed for sequence data. They're set up so that information can loop back within the model, which helps it remember earlier parts of the data. Variations of RNNs like Long Short Term Memories (LSTMs) and Gated Recurrent Units (GRUs) are even better at handling longer sequences. However, RNNs can be unstable with very long sequences, and they're not easy to scale up for bigger tasks because they can't be easily parallelized (run parts at the same time) on today's powerful hardware."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "These limitations with MLPs, CNNs, and RNNs motivated the development of the Transformer model. Unlike these earlier models, Transformers can handle sequence data well, scale up efficiently, remain stable over long sequences, and consider the global context of the data. Now that we understand the issues with earlier models, we're ready to dive into the Transformer architecture!"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Transformer Architecture"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The Transformer is an AI model that processes sequential data, like text, audio, video, and even images (when they're broken down into a sequence of parts). What's unique about the Transformer is that it doesn't use recurrent or convolutional layers, which are common in other models. Instead, it relies on something called 'Attention', along with other basic layers including fully-connected layers, normalization layers, embedding layers, and positional encoding layers."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Let's visualize the Transformer like a factory assembly line for data. Here's how it works:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Encoder:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " This is the first station on the assembly line, and it handles the input data. The job of the encoder is to transform the input sequence into a condensed representation. In the original Transformer model, the encoding process is repeated six times. Each repetition (or 'block') consists of three main sub-layers: multi-head attention, layer normalization, and MLPs (multilayer perceptrons). The more times the encoding process is repeated, the more the model is able to capture the overall context of the input data, which usually leads to better results."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Decoder:"
+                            },
+                            {
+                              "type": "span",
+                              "value": " This is the second station, where the output is generated. The decoder is similar to the encoder, but it has an extra multi-head attention layer that operates on the output of the encoder. Essentially, the decoder's job is to merge the encoder output with the target sequence and make predictions for the next element in the sequence. The decoder also repeats the same number of times as the encoder (typically six in the original Transformer)."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "An important point about the decoder is that it's designed to 'mask' future data in the sequence to prevent the model from 'cheating' by peeking ahead at data it shouldn't have access to. This helps to create a model that can generalize well beyond the training data."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "So, in simple terms, the Transformer model is like a factory line that takes in sequential data, processes it piece by piece while paying attention to its overall context, and then makes educated predictions about what comes next."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "screenshot-2023-07-29-at-9-21-30-pm",
+            "height": 1014,
+            "width": 1648,
+            "filename": "screenshot-2023-07-29-at-9-21-30-pm.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690680107-screenshot-2023-07-29-at-9-21-30-pm.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "What Really is Attention?"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Attention is the star player in the Transformer AI model. It's a mechanism that allows the AI to focus more on important parts of the input data and less on the less relevant parts. Let's compare it to reading a book. While reading, your brain naturally focuses on the key details that move the story forward, and pays less attention to the less important descriptions. The Attention mechanism in the Transformer model does something similar for data."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This idea first popped up in machine translation, where Attention was used to identify where the most important information in a sentence was concentrated. For example, when translating a sentence from English to French, not only does Attention help translate the words correctly, it also helps arrange the translated words in an order that makes sense in French."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Another early use of Attention was in image captioning. In this task, the AI model had to generate a sentence that describes what's happening in a picture. The Attention mechanism helped the model focus on the important parts of the picture when generating the caption."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Now, let's think of the Attention mechanism in the Transformer model like the eye of the AI. It helps the model focus on the important parts of the data while ignoring the less important bits, just like how our eyes naturally focus on what's important when we're reading a book or looking at a picture. Next, we'll take a look at how this 'eye' works in detail with the help of three elements: queries, keys, and values."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr4-img2",
+            "height": 862,
+            "width": 862,
+            "filename": "abr4-img2.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690681298-abr4-img2.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Attention Function: Query, Key, Value"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The Attention function in AI can be likened to how a search engine works when you're looking for something. Let's say you're searching for papers about \"attention\" on an academic database like ArXiv. Here's how the three elements of the Attention function - query, key, and value - come into play:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Query"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": This is your search term, like \"attention\" in our example. It's what you're looking for."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Key"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": These are like the tags or categories that each paper on ArXiv has. When you search for something, the system will compare your query to these keys to find matches."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Value"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": These are the actual papers in the database. Once the system finds keys that match your query, it'll return the papers (values) associated with those keys."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Now, let's translate this to the AI context. The Attention function uses these three elements to determine which parts of the input data (like a sentence or an image) the AI should focus on. Here's a step-by-step breakdown of what happens:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "It compares the query and key to measure how similar they are (like comparing your search term to the paper categories on ArXiv)."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "This comparison is then scaled down to avoid situations where very large values would result in very small gradients, which could hamper learning."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "The scaled comparison is then normalized into a probability distribution using a softmax function, turning them into weights (imagine this as determining how relevant each paper is to your search term)."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "These weights are then multiplied with the values, resulting in a weighted value, which tells the AI how much attention to give to each part of the input data."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This process is what makes the Transformer model so efficient. It allows the model to process all parts of the input data at once (parallellization), rather than one at a time, making it faster and more efficient, especially for larger models and massive datasets."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The Attention function we've just described is known as scaled-dot product attention, which is a type of attention. Other types include additive attention, content-based attention, location-based attention, and general attention. These can be applied to either the whole input data (global attention) or specific parts of it (local attention)."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Multi-Head Attention"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Multi-Head Attention is a method used in Transformer models, a type of artificial intelligence model used for tasks like language translation. Essentially, it's a way of letting the model pay attention to different parts of the input at the same time, in parallel, and combine these 'attention views' to understand the input better."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Here's a more simple breakdown:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Imagine you're in a crowded room, and you're trying to understand multiple conversations at once. Rather than trying to focus on all the noise together, you could 'split' your hearing into several 'heads'. Each 'head' listens to a different conversation independently, gets the gist of it, and then all these separate understandings are combined for you to get a fuller picture of what's happening in the room. That's what Multi-Head Attention does."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The key point here is that each 'head' looks at the same conversation (or data in AI terms), but from different 'perspectives', highlighting different features or aspects. After they've done their individual work, all the different perspectives are merged together. This gives the AI model a more comprehensive understanding of the data."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "An important thing about Multi-Head Attention is that it doesn't make the model more computationally expensive. This is because the dimension (the complexity or detail level) of each head is divided by the total number of heads. So, the overall amount of data the model has to handle stays the same."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To draw an analogy with another AI technique, Multi-Head Attention can be compared to a concept called 'depth-wise separable convolution' used in Convolutional Neural Networks (ConvNets), which are often used for image processing tasks. This method also splits input data into multiple channels, processes each channel independently, and then combines the outputs. The goal in both cases is to get a fuller and more nuanced understanding of the data."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Other Transformer Components"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Let's break down the components of the Transformer architecture in AI in simpler terms:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Multilayer Perceptrons (MLPs)"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": MLPs are like tiny little brains within the Transformer that help process information. They're made of two layers, with a special function called ReLU sandwiched in between. This is applied to each piece of input data separately but in the same way."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Embeddings and Positional Encoding Layers"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": These are like the Transformer's translation system. They convert input data (like words in a sentence) into vectors, which are like lists of numbers that computers can understand. This is done twice, once for the source (input) and once for the target (output). Embeddings help group similar words together. The positional encodings preserve the order of words in a sentence because unlike us, the Transformer doesn't inherently know which word comes first, second, and so on."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Residual Connections, Layer Normalization, and Dropout"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": These are techniques that make the Transformer smarter and more efficient. Residual connections help signals move better within the model, making it learn faster. Layer normalization balances the activity levels across different parts of the Transformer, speeding up the learning process. The position of layer normalization within the model can vary, and it's an active area of research. Dropout is like a random filter applied to prevent overfitting, which happens when a model is too closely fitted to the training data and performs poorly with new data."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Linear and Softmax Layers"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": These are the last step of the Transformer. The linear layer maps the decoded vectors (the Transformer's interpretation of the input data) to the size of the vocabulary (the number of unique words the model knows). Then, the softmax layer turns these into probabilities of what the next word (or token) in the sequence could be."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "So, in essence, a Transformer takes in words, translates them into vectors using embeddings, figures out their order using positional encodings, processes this information using MLPs, adjusts the signals using residual connections and layer normalization, prevents overfitting using dropout, and finally outputs probabilities for the next word in the sequence using the linear and softmax layers."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Visualizing Attention"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "\"Visualizing Attention\" is a way to peek into what a neural network, like a Transformer, pays attention to when it's processing information."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Think of it like reading a book. Your brain naturally pays more attention to certain words or phrases that it thinks are more important. The concept of attention in AI is similar. When a Transformer reads data (like a sentence), it pays more attention to certain parts over others."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Visualizing attention is like drawing a heat map over a sentence, showing where the Transformer is focusing. This can help us understand how the Transformer thinks and what parts of the data it considers most important."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "One of the benefits of attention is its ability to handle long-term dependencies. That means if a sentence refers to something mentioned much earlier, a Transformer is likely to remember it, unlike traditional models that tend to forget over time."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Attention also allows Transformers to process information in parallel, all at once, instead of one-by-one, making them faster and more efficient."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "An additional benefit is that attention gives us a way to visualize and understand what the model is focusing on, unlike many other AI techniques. This \"attention map\" can highlight which parts of the data were most influential in the Transformer's output."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "However, attention also comes with some challenges. For instance, it can require a lot of memory and computation power, especially with longer sequences of data. Also, while attention can provide some interpretability, it doesn't give a full picture of what's happening inside the complex model."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Large Language Transformer Models "
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Evolution of LLMs"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Large Language Models (LLMs) have fundamentally transformed the way we interact with machines, especially in the realm of natural language. These models, like ChatGPT and Bard, can perform specific tasks that usually required data specifically gathered for those tasks."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "LLMs are essentially transformer models on steroids. They have grown in size, starting from 65 million parameters in the base model to billions of parameters in recent versions. A parameter here is like a knowledge unit that the model learns."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Training an LLM starts with feeding it massive amounts of text data, such as books, articles, and web content. The aim is to help the model understand a broad range of topics. This phase, called the pretraining phase, happens in an unsupervised manner. That means the model isn't given any labels or categories; it's just asked to figure things out on its own."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To train these models, they are often given a goal like predicting the next word in a sentence (known as next-token prediction) or filling in a missing word (masked language modelling). This helps the model to understand and generate text better."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "After pretraining, these models can be used directly or fine-tuned for specific tasks. Fine-tuning involves providing some examples of a task and letting the model figure out how to perform that task. This is known as few-shot learning. If no examples are provided and the model is asked to perform the task right away, it's called zero-shot learning."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "However, for more complex tasks that are harder to explain through prompts, fine-tuning is often necessary. This is where the model is trained on specific data related to the task. This helps the model to perform better in specialized fields like mathematics, medicine, and scientific areas."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The field of LLMs is evolving, and each model can have unique design choices, ranging from encoder models, decoder models, to combined encoder-decoder architectures."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Vertical LLMs"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Large Language Models (LLMs) are typically known as foundational models because they are trained on vast amounts of data and can be fine-tuned for many different tasks. However, while these foundational LLMs are excellent at general tasks, they might struggle with more complex tasks that require specific expertise."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Imagine you have a friend who knows a little bit about everything. This friend can help you with simple questions about a wide range of topics, but if you need in-depth information about something very specific, like law, medicine, or finance, they may not be the best resource. This is where vertical LLMs come in."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Vertical LLMs are like specialists. They are designed to excel in specific domains, essentially acting as an expert in that field. They're fine-tuned using data related to a specific subject, so they're much better at answering complex questions about that topic."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Just like you'd go to a doctor for medical advice or a lawyer for legal help, you'd use a vertical LLM for specific tasks. For example, MedPaLM and ClinicalGPT are vertical LLMs focused on medicine, FinGPT is specialized in finance, and Galactica and Minerva focus on physics. So while foundational models are like generalists, vertical LLMs are the specialists in the world of AI."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Transformers Beyond NLP: Vision and other Modalities"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The Transformer model, first designed for tasks related to natural language processing, has significantly expanded its reach to other fields, including visual recognition and more."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Consider visual recognition. Before Transformers, Convolutional Neural Networks (ConvNets) were the best tools we had for visual tasks. But they have some limitations, mainly due to their spatial biases. In 2018, a new application of Transformers, called the Image Transformer, was introduced. It treated image generation like a text generation problem, sequentially creating pixels until it formed a complete image."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "However, because images often have high resolution, it wasn't practical to apply this self-attention mechanism to larger images. A groundbreaking solution came with the Vision Transformer (ViT), which processed images as a sequence of smaller patches, significantly reducing the computational load."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "ViT's success was also aided by unsupervised pretraining on vast amounts of unlabelled data, just like in NLP. Since then, ViT has been used as a base for many other projects, combining with ConvNets to achieve great results in various computer vision tasks."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "But Transformers haven't stopped at language and vision. They're also used in reinforcement learning (used in games and robotics), speech recognition, and even multi-modal learning, which includes pretty much all forms of data."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "In simple terms, imagine Transformers as a versatile toolbox. Initially, we only used this toolbox for language-related tasks. But soon, we found that it could be very useful for other tasks too, like recognizing images, learning from game play, understanding speech, and much more. However, despite their versatility, Transformers still have challenges and limitations that need to be addressed.\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr4-img3",
+            "height": 862,
+            "width": 862,
+            "filename": "abr4-img3.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690682233-abr4-img3.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Transformer: Current Challenges and Future Directions"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Transformers have shown impressive performance across various fields such as language, vision, robotics, and reinforcement learning. However, they come with a high computational cost due to a feature called self-attention, which increases the time and memory required. This makes it challenging to use Transformers on low-budget devices like smartphones and microcontrollers."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Imagine Transformers as an engine. They're extremely powerful, but they also consume a lot of fuel (computational power and memory), making them expensive to run. Some models, often called \"xformers,\" claim to reduce this cost, but they're usually designed for specific tasks or devices and often fail to be as efficient and universal as the original Transformers."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "In response to this, a new approach called FlashAttention has been developed. It computes attention values (a key aspect of Transformer's workings) much faster than standard methods. Think of it as an engine modification that significantly improves the fuel efficiency without losing any of the power."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "FlashAttention does this by using two techniques: tiling and recomputation. Tiling involves splitting larger problems (large matrices) into smaller blocks, and solving them separately, which saves memory. Recomputation means not storing certain computations, but doing them again when needed, again saving memory. The idea here is to maximize computational operations (FLOPs) while reducing memory usage because GPUs, the 'engine' running these computations, are usually limited by memory but not by computation power."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "FlashAttention is already being used in several software libraries, and there's an even faster version called FlashAttention2. It improves on the original by splitting different parts of the computation and parallelizing over different dimensions, further speeding up the computation process."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "So in a nutshell, while Transformers are powerful tools in AI, they face challenges in terms of computational efficiency. But with techniques like FlashAttention, we're finding ways to make them faster and more efficient, just like improving the fuel efficiency of a powerful engine."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Transformers with Effective Long Contexts"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Transformers, the powerful engines of AI, face a challenge when it comes to dealing with long context lengths. This means they have difficulty when they need to process and remember a lot of information at once. It's like trying to remember every detail of a long movie after watching it just once. This is problematic for tasks like carrying on long conversations, summarizing extensive documents, or making long-term plans, all of which need a lot of context to do well."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Recently, researchers have been trying to extend the 'memory span' of Transformers so they can handle more information at once. But an interesting discovery was made by some scientists. Even if a model can technically handle more context, its performance can actually drop as the context gets longer. To put it in simpler terms, just because a Transformer can remember a 3-hour movie doesn't mean it'll understand it any better than a 30-minute episode."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Furthermore, the researchers found that these models perform better if the most important information is at the start or end of the context, like a movie where all the important scenes are at the beginning or end. But if important details are in the middle, performance drops. So, these models are like 'U-shaped' reasoners."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "All these findings are fascinating and could help in designing better AI models in the future. But it's essential to remember that this is still a new and active area of research. The hope is to create Transformers that can handle long sequences of information and understand it well, no matter where the crucial information is placed. This would be like having a perfect memory and comprehension for long movies, which is the ultimate goal for these AI models."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Multimodal Transformer"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Imagine you're trying to build a tool that can understand and process not only text, but also pictures, audio, and other types of data - this is the idea behind multimodal transformers in AI. Just like a multitool, the goal is to make one model that's versatile enough to handle all these different 'modes' or types of data equally well."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Transformers, which are a type of AI model, have been used in a lot of areas like language, images, robotics, and speech. But creating a transformer that works equally well with all types of data without needing special adjustments is still a challenge. It's like trying to make a single multitool that works perfectly for every task, from screwing in a lightbulb to fixing a car engine."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Why is this so tough? Well, think about the difference between reading a book, looking at a picture, or listening to a song. Each type of data, or 'modality', has its own unique features that make it different from the others. Transformers are good at handling data that can be broken down into a sequence of pieces, like words in a sentence. But how we break down a picture or a song into pieces can vary greatly, so it's a challenge to create one model that can handle all of these effectively."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Creating such a model would be a huge step forward in AI. It would mean creating models that can smoothly switch between different types of data, which could open up new areas of research."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Currently, most of the best models in this area use separate processes to handle each type of data, and many are designed for visual language learning. Some examples of these models include Flamingo, Gato, ImageBind, OFA, Unified-IO, and Meta-Transformer. However, this piece does not delve deeply into the specifics of these models."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Open-source Implementations of Transformer"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Imagine you want to build something complex, like a car. Instead of starting from scratch, you'd prefer to have a blueprint or even parts of the car ready-made. This is what open-source implementations of transformers in AI do - they give you ready-made parts to work with."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The original 'blueprint' for transformers was made in a tool called Tensor2Tensor, but it's not used anymore. Its successor is called Trax and is based on a tool called JAX."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "There are several popular open-source implementations of transformers out there. Think of these like different brands of car parts that you can choose from. One of the most well-known is called the HuggingFace Transformer library. This library is like a toolkit that simplifies the process of using transformers for language and image tasks. It's user-friendly, neat, and has a large community of developers adding to it."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Two other popular options are called minGPT and nanoGPT, created by a researcher named Andrej Karpathy. Additionally, there's a tool called x-transformers, which provides concise versions of various transformer models that are usually based on the latest research."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The good news is that you likely won't need to build a transformer from scratch. Modern tools for creating AI models, like PyTorch, Keras, and JAX, offer ready-made 'parts' or layers that you can easily use, just like picking out parts to build a car."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr4-img4",
+            "height": 862,
+            "width": 862,
+            "filename": "abr4-img4.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690682311-abr4-img4.png"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "description": "An all-inclusive guide to understanding and applying the transformative power of the Transformer Neural Network Architecture.",
+      "title": "The Transformer Blueprint [Summary]",
+      "twitterCard": null,
+      "image": {
+        "width": 862,
+        "height": 862,
+        "title": null,
+        "alt": null,
+        "url": "https://www.datocms-assets.com/101962/1690679303-abr4-img1.png"
+      }
+    }
+  },
+  "topics": [
+    "Summary",
+    "Transformers"
+  ],
+  "shortLink": ""
+}

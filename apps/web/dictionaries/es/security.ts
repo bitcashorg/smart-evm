@@ -1,4 +1,7 @@
-import type { ContentTextType, PageContentData } from '@/components/shared/content'
+import type {
+  ContentTextType,
+  PageContentData,
+} from '@/components/shared/content'
 
 const securityTips = [
   {

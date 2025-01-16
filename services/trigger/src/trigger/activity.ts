@@ -40,7 +40,10 @@ export const addressActivityTask = task({
         await setDepositToProcessing(txn)
 
         // validate transaction inputs
-        const { presale, valueInTokenUnits } = await validateTransaction(txn, token)
+        const { presale, valueInTokenUnits } = await validateTransaction(
+          txn,
+          token,
+        )
 
         // issue presale tokens
         const issuanceHash = await issuePresaleTokens(
@@ -82,7 +85,8 @@ async function validateTransaction(txn: AlchemyActivity, token: EVMToken) {
   const presale = await getPresaleByAddress(txn.toAddress as Address)
   if (!presale) throw new Error('Presale not found')
   if (!presale.project) throw new Error('Project not found')
-  if (!presale.project.token_address) throw new Error('Project token address not found')
+  if (!presale.project.token_address)
+    throw new Error('Project token address not found')
 
   // TODO: Implement actual check for presale period
   const currentTimestamp = Date.now()
@@ -105,7 +109,10 @@ async function validateTransaction(txn: AlchemyActivity, token: EVMToken) {
     projectId: presale.project_id,
     supabase,
   })
-  const totalDeposits = deposits.reduce((acc, deposit) => acc + Number(deposit.amount), 0)
+  const totalDeposits = deposits.reduce(
+    (acc, deposit) => acc + Number(deposit.amount),
+    0,
+  )
   const totalDepositsInUnits = BigInt(totalDeposits)
   const isValidAmount = true
   // const isValidAmount = txnValueInUnits + totalDepositsInUnits <= maxAllocationInUnits
@@ -152,13 +159,16 @@ async function setDepositToProcessing(txn: AlchemyActivity) {
     depositHash: txn.hash,
     state: 'processing',
   })
-  if (!processingDeposit) throw new Error(`Error processing deposit: ${txn.hash}`)
+  if (!processingDeposit)
+    throw new Error(`Error processing deposit: ${txn.hash}`)
 }
 
 async function getSupportedToken(address: Address) {
   if (!address) throw new Error('Missing transaction contract address')
 
-  const token = evmTokens.find((t) => isAddressEqual(t.address, getAddress(address)))
+  const token = evmTokens.find((t) =>
+    isAddressEqual(t.address, getAddress(address)),
+  )
   console.log(`Token ${token?.symbol}`, token)
   if (!token) throw new Error('Unsupported token')
   return token

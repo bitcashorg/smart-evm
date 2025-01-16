@@ -23,7 +23,9 @@ describe('DepositAndPlaceOrder - integration tests', async () => {
     easyAuction = await EasyAuction.deploy()
     const WETH9 = await ethers.getContractFactory('WETH9')
     weth9 = await WETH9.deploy()
-    const DepositAndPlaceOrder = await ethers.getContractFactory('DepositAndPlaceOrder')
+    const DepositAndPlaceOrder = await ethers.getContractFactory(
+      'DepositAndPlaceOrder',
+    )
     depositAndPlaceOrder = await DepositAndPlaceOrder.deploy(
       easyAuction.address,
       weth9.address,
@@ -57,9 +59,9 @@ describe('DepositAndPlaceOrder - integration tests', async () => {
           { value: biddingAmount },
         )
 
-      expect(await biddingToken.connect(user_2).balanceOf(easyAuction.address)).to.equal(
-        biddingAmount,
-      )
+      expect(
+        await biddingToken.connect(user_2).balanceOf(easyAuction.address),
+      ).to.equal(biddingAmount)
       const balanceBeforeOrderPlacementOfUser2 = await biddingToken.balanceOf(
         user_2.address,
       )
@@ -108,13 +110,12 @@ describe('DepositAndPlaceOrder - integration tests', async () => {
       ).to.revertedWith('too much value sent')
     })
     it('unit test: throws, if nativeToken is not supporting deposit', async () => {
-      const DepositAndPlaceOrder = await ethers.getContractFactory('DepositAndPlaceOrder')
-
-      const { auctioningToken, biddingToken } = await createTokensAndMintAndApprove(
-        easyAuction,
-        [user_1, user_2],
-        hre,
+      const DepositAndPlaceOrder = await ethers.getContractFactory(
+        'DepositAndPlaceOrder',
       )
+
+      const { auctioningToken, biddingToken } =
+        await createTokensAndMintAndApprove(easyAuction, [user_1, user_2], hre)
       depositAndPlaceOrder = await DepositAndPlaceOrder.deploy(
         easyAuction.address,
         biddingToken.address, //<-- introduces the error

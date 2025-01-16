@@ -23,12 +23,14 @@ export default {
         'A venda de tokens está aberta a uma audiência global, com restrições específicas que excluem participantes dos EUA e de países sancionados pelos EUA para cumprir padrões regulatórios e garantir a participação mais ampla possível mantendo a integridade legal.',
     },
     {
-      question: 'O que diferencia este projeto de outros ICOs ou vendas de tokens?',
+      question:
+        'O que diferencia este projeto de outros ICOs ou vendas de tokens?',
       answer:
         'Nosso projeto tem um foco único no setor de IA, utilizando um modelo de tokenômica de mint-and-burn que espelha o modelo de acionistas, enfatizando crescimento sustentável, transparência e engajamento comunitário no ecossistema de startups de tecnologia.',
     },
     {
-      question: 'Como os fundos arrecadados com a venda de tokens serão usados?',
+      question:
+        'Como os fundos arrecadados com a venda de tokens serão usados?',
       answer:
         'Os fundos da venda de tokens são primariamente alocados para o desenvolvimento adicional e marketing do lançador e carteira, além da criação da cadeia L1 sem fins lucrativos e sem pré-mineração baseada na tecnologia Antelope, visando a distribuição mais justa de tokens e contribuindo para o crescimento e sustentabilidade do ecossistema.',
     },
@@ -58,7 +60,7 @@ export default {
     {
       question: 'Onde posso encontrar mais informações ou participar?',
       answer:
-        'Para informações mais detalhadas, atualizações e para se juntar à nossa comunidade, visite nosso site oficial, participe de nossos canais de mídia social e assine nossa newsletter. Damos as boas-vindas a todos interessados em contribuir ou participar do futuro de IA e criptomoedas através do nosso lançador. Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://blog.bitcash.org/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitcashorg, Telegram: https://t.me/bitcash_org. Através destas perguntas frequentes, nosso objetivo é abordar as questões centrais sobre nosso projeto, elucidando nosso compromisso com inovação, transparência e empoderamento da comunidade nos cenários em evolução de IA e criptomoedas.',
+        'Para informações mais detalhadas, atualizações e para se juntar à nossa comunidade, visite nosso site oficial, participe de nossos canais de mídia social e assine nossa newsletter. Damos as boas-vindas a todos interessados em contribuir ou participar do futuro de IA e criptomoedas através do nosso lançador. Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://bitlauncher.ai/blog/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitlauncher, Telegram: https://t.me/bitcash_org. Através destas perguntas frequentes, nosso objetivo é abordar as questões centrais sobre nosso projeto, elucidando nosso compromisso com inovação, transparência e empoderamento da comunidade nos cenários em evolução de IA e criptomoedas.',
     },
   ],
 } as const

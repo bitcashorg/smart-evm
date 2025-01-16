@@ -17,7 +17,9 @@ export function toSmallestUnit(value: string | number, decimals = 18) {
   // If there's a fractional part, scale it accordingly and add it to the amount in base unit
   if (fractionalPart !== '0') {
     const fractionalBase = ten.pow(new BN(fractionalPart.length))
-    const scaledFractionalPart = new BN(fractionalPart).mul(base).div(fractionalBase)
+    const scaledFractionalPart = new BN(fractionalPart)
+      .mul(base)
+      .div(fractionalBase)
     amountInBaseUnit = amountInBaseUnit.add(scaledFractionalPart)
   }
 

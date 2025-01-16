@@ -28,7 +28,8 @@ export default {
         "Funds from the token sale are primarily allocated to further development and marketing of the launchpad and wallet, as well as the creation of the non-profit, no-premine L1 chain based on Antelope technology, aiming for the fairest token distribution and contributing to the ecosystem's growth and sustainability.",
     },
     {
-      question: 'How does the launchpad ensure regulatory compliance and security?',
+      question:
+        'How does the launchpad ensure regulatory compliance and security?',
       answer:
         'We adopt a proactive approach to regulatory compliance, including user restrictions, KYC and AML policies, and adherence to data protection laws, alongside implementing robust security measures such as end-to-end encryption and regular security audits.',
     },
@@ -38,7 +39,8 @@ export default {
         'Beyond funding, the launchpad offers startups access to a network of resources, including guidance on business management, marketing, and development, along with tools for efficient payment processing and organizational management through DAO technology.',
     },
     {
-      question: 'How can startups and capital contributors benefit from participating?',
+      question:
+        'How can startups and capital contributors benefit from participating?',
       answer:
         'Startups gain access to capital, resources, and a global community, enhancing their growth potential and market reach. capital contributors benefit from early access to innovative AI projects with high growth potential, contributing to a diversified and forward-looking capital contribution portfolio.',
     },

@@ -3,7 +3,10 @@ import '@nomiclabs/hardhat-ethers'
 import { BigNumber } from 'ethers'
 import { task } from 'hardhat/config'
 
-import { calculateClearingPrice, getAuctionEndTimeStamp } from '../priceCalculation'
+import {
+  calculateClearingPrice,
+  getAuctionEndTimeStamp,
+} from '../priceCalculation'
 
 import { getEasyAuctionContract, getEhtersSigners } from './utils'
 
@@ -16,12 +19,18 @@ export const clearAuction: () => void = () => {
       const [caller] = await getEhtersSigners(hardhatRuntime)
       console.log(`Using the account: ${caller.address}`)
       const easyAuction = await getEasyAuctionContract(hardhatRuntime)
-      const auctionEndDate = await getAuctionEndTimeStamp(easyAuction, taskArgs.auctionId)
+      const auctionEndDate = await getAuctionEndTimeStamp(
+        easyAuction,
+        taskArgs.auctionId,
+      )
       if (auctionEndDate.gt(BigNumber.from(Math.floor(+new Date() / 1000)))) {
         throw new Error('Auction not yet ended')
       }
       const { clearingOrder: price, numberOfOrdersToClear } =
-        await calculateClearingPrice(easyAuction, BigNumber.from(taskArgs.auctionId))
+        await calculateClearingPrice(
+          easyAuction,
+          BigNumber.from(taskArgs.auctionId),
+        )
       console.log('Clearing price will be:', price)
       console.log(
         'And in total ',
@@ -37,17 +46,23 @@ export const clearAuction: () => void = () => {
         )
         for (
           let i = 0;
-          i < Math.floor(numberOfOrdersToClear / PRECALCULATION_ITERATION_STEPS);
+          i <
+          Math.floor(numberOfOrdersToClear / PRECALCULATION_ITERATION_STEPS);
           i++
         ) {
           const tx = await easyAuction
             .connect(caller)
-            .precalculateSellAmountSum(taskArgs.auctionId, PRECALCULATION_ITERATION_STEPS)
+            .precalculateSellAmountSum(
+              taskArgs.auctionId,
+              PRECALCULATION_ITERATION_STEPS,
+            )
           const txResult = await tx.wait()
           console.log(txResult)
         }
       }
-      const tx = await easyAuction.connect(caller).settleAuction(taskArgs.auctionId)
+      const tx = await easyAuction
+        .connect(caller)
+        .settleAuction(taskArgs.auctionId)
       const txResult = await tx.wait()
       console.log(txResult)
     })

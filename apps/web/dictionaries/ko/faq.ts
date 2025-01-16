@@ -49,14 +49,15 @@ export default {
         '스타트업은 자본, 자원, 그리고 글로벌 커뮤니티에 접근함으로써 성장 잠재력과 시장 접근성을 향상시킵니다. 자본 공여자는 고성장 잠재력이 높은 혁신적인 AI 프로젝트에 대한 초기 접근을 통해 다양하고 전망 좋은 자본 공여 포트폴리오에 기여합니다.',
     },
     {
-      question: '이 프로젝트는 광범위한 AI 및 암호화 커뮤니티에 어떻게 기여합니까?',
+      question:
+        '이 프로젝트는 광범위한 AI 및 암호화 커뮤니티에 어떻게 기여합니까?',
       answer:
         '암호화폐 프레임워크 내에서 AI 스타트업의 성장과 발전을 촉진함으로써 저희 프로젝트는 기술 발전에 기여하고, 윤리적이고 지속 가능한 비즈니스 관행을 장려하며, 두 가지 동적 분야의 교차점에서 혁신의 커뮤니티를 육성합니다.',
     },
     {
       question: '자세한 정보를 찾거나 참여할 수 있는 곳은 어디입니까?',
       answer:
-        '더 자세한 정보와 업데이트, 그리고 저희 커뮤니티에 참여하려면 공식 웹사이트를 방문하시거나 저희 소셜 미디어 채널에 가입하시고 뉴스레터를 구독해 주세요. 저희는 AI와 암호화폐의 미래에 기여하거나 참여하고자 하는 모든 분들을 환영합니다. Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://blog.bitcash.org/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitcashorg, Telegram: https://t.me/bitcash_org. 이 FAQ를 통해 저희는 AI와 암호화폐의 변화하는 풍경 속에서 혁신, 투명성, 그리고 커뮤니티 인권 증진에 대한 저희의 헌신을 설명하고자 합니다.',
+        '더 자세한 정보와 업데이트, 그리고 저희 커뮤니티에 참여하려면 공식 웹사이트를 방문하시거나 저희 소셜 미디어 채널에 가입하시고 뉴스레터를 구독해 주세요. 저희는 AI와 암호화폐의 미래에 기여하거나 참여하고자 하는 모든 분들을 환영합니다. Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://bitlauncher.ai/blog/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitlauncher, Telegram: https://t.me/bitcash_org. 이 FAQ를 통해 저희는 AI와 암호화폐의 변화하는 풍경 속에서 혁신, 투명성, 그리고 커뮤니티 인권 증진에 대한 저희의 헌신을 설명하고자 합니다.',
     },
   ],
 } as const

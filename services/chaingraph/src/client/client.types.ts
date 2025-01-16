@@ -1,4 +1,4 @@
-import { createChaingraphClient } from ".."
+import type { createChaingraphClient } from '..'
 
 export type ChaingraphClient = ReturnType<typeof createChaingraphClient>
 

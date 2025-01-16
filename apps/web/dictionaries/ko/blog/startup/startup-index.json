@@ -1,20 +1,23 @@
 {
   "sections": [
     {
-      "name": "시작하기",
+      "name": "Getting Started",
       "slug": "getting started",
       "articles": [
         {
           "id": "165921766",
-          "topics": ["시작하기", "법률"],
-          "title": "법률 환경 탐색: 스타트업 창업자를 위한 필수 법률 고려사항",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal Landscape: Essential Legal Considerations for Startup Founders",
           "slug": "navigating-the-legal-landscape-essential-legal-considerations-for-startup-founder",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2024-06-20T17:21:44+01:00",
-          "description": "우리의 가이드로 법률 환경을 자신있게 탐색하세요. 스타트업 창업자가 사업 성장을 보호하고 보장하기 위한 필수 법률 고려사항입니다.",
+          "description": "Navigate the legal landscape confidently with our guide. Essential legal considerations for startup founders to protect and ensure business growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687128753-sb8-img2.png"
           },
@@ -34,15 +37,18 @@
         },
         {
           "id": "166795692",
-          "topics": ["시작하기", "비즈니스 및 관리"],
-          "title": "현금 흐름 마스터하기: 스타트업 창업자를 위한 궁극의 가이드",
+          "topics": [
+            "Getting Started",
+            "Business & Admin"
+          ],
+          "title": "Mastering Cash Flow: The Ultimate Guide for Startup Founders",
           "slug": "mastering-cash-flow-the-ultimate-guide-for-startup-founders",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2024-06-20T16:40:26+01:00",
-          "description": "스타트업 창업자를 위한 궁극의 가이드로 현금 흐름을 마스터하세요. 유동성 유지, 재무 관리, 비즈니스 안정성 확보를 위한 전략을 배우세요.",
+          "description": "Master cash flow with our ultimate guide for startup founders. Learn strategies to maintain liquidity, manage finances, and ensure business stability.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687312847-sb20-img1.png"
           },
@@ -62,15 +68,18 @@
         },
         {
           "id": "166788631",
-          "topics": ["시작하기", "비즈니스 및 관리"],
-          "title": "스타트업을 위한 스마트 예산 수립: 강력한 재무 기반 구축을 위한 단계별 가이드",
+          "topics": [
+            "Getting Started",
+            "Business & Admin"
+          ],
+          "title": "Smart Budgeting for Startups: A Step-by-Step Guide to Building a Strong Financial Foundation",
           "slug": "smart-budgeting-for-startups-a-step-by-step-guide-to-building-a-strong-financial",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2024-06-20T16:40:00+01:00",
-          "description": "스타트업을 위한 스마트 예산 수립 가이드로 강력한 재무 기반을 구축하세요. 지속 가능한 비즈니스 성장을 위해 자금을 효과적으로 관리하는 방법을 배우세요.",
+          "description": "Build a strong financial foundation with our smart budgeting guide for startups. Learn to manage funds effectively for sustainable business growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687310597-sb19-img1.png"
           },
@@ -90,15 +99,18 @@
         },
         {
           "id": "165816954",
-          "topics": ["시작하기", "팀 및 인사"],
-          "title": "꿈의 팀 만들기: 스타트업 팀 구성을 위한 궁극의 가이드",
+          "topics": [
+            "Getting Started",
+            "Teams & HR"
+          ],
+          "title": "Building a Dream Team: The Ultimate Guide to Assembling Your Startup Squad",
           "slug": "building-a-dream-team-the-ultimate-guide-to-assembling-your-startup-squad",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2024-06-19T03:48:19+01:00",
-          "description": "우리의 포괄적인 가이드로 이상적인 스타트업 팀을 구성하세요. 전문가의 조언으로 팀 효율성과 스타트업 성장을 높이세요.",
+          "description": "Form your ideal startup team with our comprehensive guide. Boost team efficiency and startup growth with our expert advice.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687119615-sb5-img1.png"
           },
@@ -118,15 +130,18 @@
         },
         {
           "id": "166322203",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "성공을 위한 청사진: 스타트업을 위한 성공적인 영업 계획 수립 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "The Blueprint to Success: A Guide to Crafting a Winning Sales Plan for Your Startup",
           "slug": "the-blueprint-to-success-a-guide-to-crafting-a-winning-sales-plan-for-your-startu",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T02:08:22+01:00",
-          "description": "우리의 성공 청사진으로 스타트업을 위한 성공적인 영업 계획을 수립하세요. 수익 창출과 지속 가능한 성장을 달성하기 위한 통찰력을 얻으세요.",
+          "description": "Craft a winning sales plan for your startup with our blueprint to success. Gain insights into driving revenue and achieving sustainable growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687212250-sb16-img1.png"
           },
@@ -146,15 +161,18 @@
         },
         {
           "id": "166788522",
-          "topics": ["시작하기", "비즈니스 및 관리"],
-          "title": "번영 전망: 스타트업을 위한 현실적인 재무 예측 설정 가이드",
+          "topics": [
+            "Getting Started",
+            "Business & Admin"
+          ],
+          "title": "Projecting Prosperity: A Guide to Setting Realistic Financial Projections for Your Startup",
           "slug": "projecting-prosperity-a-guide-to-setting-realistic-financial-projections-for-your",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2023-10-05T02:07:18+01:00",
-          "description": "스타트업 가이드로 현실적인 재무 예측을 설정하세요. 번영을 전망하고, 재무를 관리하며, 비즈니스의 미래를 확보하는 방법을 배우세요.",
+          "description": "Set realistic financial projections with our startup guide. Learn to project prosperity, manage finances, and secure the future of your business.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687308062-sb18-img1.png"
           },
@@ -174,15 +192,18 @@
         },
         {
           "id": "166788454",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "스타트업을 위한 고객 획득 비용 마스터하기 완벽 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "The Ultimate Guide to Mastering Customer Acquisition Costs for Startups",
           "slug": "the-ultimate-guide-to-mastering-customer-acquisition-costs-for-startups",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2023-10-05T02:06:22+01:00",
-          "description": "완벽한 가이드로 고객 획득 비용을 마스터하세요. 지출을 최적화하고 고객을 유치하며 스타트업의 수익성을 극대화하는 방법을 배우세요.",
+          "description": "Master customer acquisition costs with our ultimate guide. Learn to optimize spending, attract customers and maximize your startup's profitability.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687305683-sb17-img1.png"
           },
@@ -202,15 +223,18 @@
         },
         {
           "id": "166286175",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "스타트업을 위한 소셜 미디어 활용 가이드: 마케팅 도달 범위 극대화하기",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "Maximizing Your Marketing Reach: A Guide to Utilizing Social Media for Startups",
           "slug": "maximizing-your-marketing-reach-a-guide-to-utilizing-social-media-for-startups",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T02:05:42+01:00",
-          "description": "스타트업을 위한 소셜 미디어 가이드로 마케팅 도달 범위를 극대화하세요. 고객과 소통하고 비즈니스 성장을 위해 플랫폼을 활용하는 방법을 배우세요.",
+          "description": "Maximize your marketing reach with our guide on social media for startups. Learn to engage audiences and leverage platforms for business growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687209924-sb15-img2.png"
           },
@@ -230,15 +254,18 @@
         },
         {
           "id": "166286117",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "성공을 향한 브랜딩: 스타트업 창업자를 위한 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "Branding Your Way to Success: A Guide for Start-Up Founders",
           "slug": "branding-your-way-to-success-a-guide-for-start-up-founders",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T02:04:38+01:00",
-          "description": "우리의 스타트업 가이드로 성공을 향한 브랜딩을 시작하세요. 효과적인 브랜딩 전략이 어떻게 인지도를 높이고 비즈니스 성장을 촉진할 수 있는지 알아보세요.",
+          "description": "Brand your way to success with our startup guide. Learn how effective branding strategies can enhance recognition and drive your business growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687208232-sb14-img0.png"
           },
@@ -258,15 +285,18 @@
         },
         {
           "id": "166277989",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "마케팅의 힘 풀어내기: 스타트업 창업자를 위한 종합 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "Unleashing the Power of Marketing: A Comprehensive Guide for Startup Founders",
           "slug": "unleashing-the-power-of-marketing-a-comprehensive-guide-for-startup-founders",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T02:03:38+01:00",
-          "description": "종합 가이드로 스타트업의 마케팅 잠재력을 풀어내세요. 고객을 사로잡고 비즈니스 성장을 이끄는 전략을 배우세요.",
+          "description": "Unleash your startup's marketing potential with our comprehensive guide. Learn strategies to engage your audience and drive business growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687204747-sb13-img1.png"
           },
@@ -286,15 +316,18 @@
         },
         {
           "id": "166263351",
-          "topics": ["시작하기", "비즈니스 및 관리"],
-          "title": "당신의 강점을 발견하세요: 설득력 있는 고유 가치 제안 만들기",
+          "topics": [
+            "Getting Started",
+            "Business & Admin"
+          ],
+          "title": "Discover Your Edge: Crafting a Compelling Unique Value Proposition",
           "slug": "discover-your-edge-crafting-a-compelling-unique-value-proposition",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T02:02:11+01:00",
-          "description": "우리의 가이드로 설득력 있는 고유 가치 제안을 만드세요. 시장에서 돋보이고 스타트업의 성장을 가속화할 수 있는 당신만의 강점을 발견하세요.",
+          "description": "Craft a compelling Unique Value Proposition with our guide. Discover your edge to stand out in the market and accelerate your startup's growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687202780-sb12-img1.png"
           },
@@ -314,15 +347,17 @@
         },
         {
           "id": "166263240",
-          "topics": ["시작하기"],
-          "title": "스타트업 시작하기: 최소 기능 제품 구축을 위한 궁극적인 가이드",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "Jumpstarting Your Startup: The Ultimate Guide to Building a Minimal Viable Product",
           "slug": "jumpstarting-your-startup-the-ultimate-guide-to-building-a-minimal-viable-product",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2023-10-05T02:00:20+01:00",
-          "description": "최소 기능 제품 구축에 대한 가이드로 스타트업을 시작하세요. 아이디어를 검증하고 초기 시장 견인력을 얻기 위한 필수 단계입니다.",
+          "description": "Jumpstart your startup with our guide on building a minimal viable product. Essential steps to validate your idea and achieve early market traction.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687200682-sb11-img12.png"
           },
@@ -342,15 +377,18 @@
         },
         {
           "id": "165927224",
-          "topics": ["시작하기", "법률"],
-          "title": "사업 구조의 미로 해독하기: 스타트업 창업자를 위한 가이드",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": " Decoding the Business Structure Maze: A Guide for Start-Up Founders",
           "slug": "decoding-the-business-structure-maze-a-guide-for-start-up-founders",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:59:45+01:00",
-          "description": "우리의 가이드로 사업 구조의 미로를 해독하세요. 스타트업 창업자들이 견고하고 지속 가능한 사업 프레임워크를 구축하는 데 필요한 중요한 통찰력을 제공합니다.",
+          "description": "Decipher the business structure maze with our guide. Vital insights for startup founders to establish a solid and sustainable business framework.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687132710-sb10-img1.png"
           },
@@ -370,15 +408,18 @@
         },
         {
           "id": "165921857",
-          "topics": ["시작하기", "법률"],
-          "title": "스타트업의 핵심 자산 보호하기: 지적 재산권 보호 가이드",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Safeguarding Your Startup's Crown Jewels: A Guide to Protecting Your Intellectual Property",
           "slug": "safeguarding-your-startup-s-crown-jewels-a-guide-to-protecting-your-intellectual",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:58:48+01:00",
-          "description": "지적 재산권 가이드를 통해 스타트업의 가장 가치 있는 자산을 보호하는 방법을 배우세요. 비즈니스의 미래를 지키기 위한 필수 전략입니다.",
+          "description": "Learn to protect your startup's most valuable assets with our intellectual property guide. Essential strategies for safeguarding your business future.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687130315-sb9-img1.png"
           },
@@ -398,27 +439,30 @@
         },
         {
           "id": "165817305",
-          "topics": ["시작하기", "자금 조달"],
-          "title": "성공적인 스타트업 자금 조달의 비밀 풀기: 종합 가이드",
+          "topics": [
+            "Getting Started",
+            "Fundraising"
+          ],
+          "title": "Unlocking the Secrets of Successful Startup Fundraising: A Comprehensive Guide",
           "slug": "unlocking-the-secrets-of-successful-startup-fundraising-a-comprehensive-guide",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:57:06+01:00",
-          "description": "종합 가이드에서 성공적인 스타트업 자금 조달의 비밀을 발견하세요. 투자자를 유치하고 벤처에 필요한 자금을 확보하는 방법을 배우세요.",
+          "description": "Discover the secrets of successful startup fundraising in our comprehensive guide. Learn to attract investors and secure the funding your venture needs.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687124658-sb7-img1.png"
           },
           "contentBlock": [],
           "seo": {
-            "description": "Discover the secrets of successful startup fundraising in our comprehensive guide. Learn to attract contributors and secure the funding your venture needs.",
+            "description": "Discover the secrets of successful startup fundraising in our comprehensive guide. Learn to attract investors and secure the funding your venture needs.",
             "title": "Unlocking the Secrets of Successful Startup Fundraising",
             "twitterCard": null,
             "image": {
               "width": 1024,
               "height": 1024,
-              "title": "Who Are the Contributors Who Will Support Your Vision?",
+              "title": "Who Are the Investors Who Will Support Your Vision?",
               "alt": null,
               "url": "https://www.datocms-assets.com/101962/1687124658-sb7-img1.png"
             }
@@ -426,15 +470,18 @@
         },
         {
           "id": "165812094",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "스타트업 창업자를 위한 타겟 시장의 힘 활용하기: 종합 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "Unleashing the Power of Your Target Market: A Comprehensive Guide for Startup Founders",
           "slug": "unleashing-the-power-of-your-target-market-a-comprehensive-guide-for-startup-foun",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:56:10+01:00",
-          "description": "우리의 가이드로 스타트업 성공을 열어보세요: 타겟 시장의 잠재력을 이해하고 참여하며 극대화하세요. 전략적 인사이트로 성장을 촉진하세요.",
+          "description": "Unlock startup success with our guide: Understand, engage, and maximize your target market's potential. Boost growth with strategic insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687109735-sb1-img0.png"
           },
@@ -454,15 +501,17 @@
         },
         {
           "id": "165813334",
-          "topics": ["시작하기"],
-          "title": "스타트업 아이디어 검증을 위한 궁극의 가이드: MVP부터 자신감 있는 확장까지",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "The Ultimate Guide to Validating Your Startup Idea: From MVP to Scaling with Confidence",
           "slug": "the-ultimate-guide-to-validating-your-startup-idea-from-mvp-to-scaling-with-confi",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:54:33+01:00",
-          "description": "스타트업을 시작하세요: 아이디어를 검증하고, MVP를 구축하며, 우리의 포괄적인 가이드로 자신 있게 확장하는 방법을 배우세요.",
+          "description": "Get your startup off the ground: Learn to validate your idea, build an MVP, and scale confidently with our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687112539-sb2-img1.png"
           },
@@ -482,15 +531,17 @@
         },
         {
           "id": "165817167",
-          "topics": ["시작하기"],
-          "title": "네트워크 극대화하기: 비즈니스 기회를 여는 열쇠",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "Maximizing Your Network: The Key to Unlocking Business Opportunities",
           "slug": "maximizing-your-network-the-key-to-unlocking-business-opportunities",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2023-10-05T01:53:17+01:00",
-          "description": "네트워크를 극대화하여 비즈니스 기회를 열어보세요. 전략적 네트워킹 가이드로 인맥을 강화하세요",
+          "description": "Unlock business opportunities by maximizing your network. Boost connections with our strategic networking guide",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687123001-sb6-img1.png"
           },
@@ -510,15 +561,18 @@
         },
         {
           "id": "165815183",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "시장 조사의 힘: 스타트업 창업자를 위한 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "The Power of Market Research: A Guide for Startup Founders",
           "slug": "the-power-of-market-research-a-guide-for-startup-founders",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:52:41+01:00",
-          "description": "스타트업 가이드에서 시장 조사의 힘을 발견하세요. 통찰력을 얻고 정보에 기반한 결정을 내리며 비즈니스를 발전시키세요",
+          "description": "Discover the power of market research in our startup guide. Uncover insights, make informed decisions, and drive your business forward",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687114662-sb3-img1edited.png"
           },
@@ -538,15 +592,17 @@
         },
         {
           "id": "165816931",
-          "topics": ["시작하기"],
-          "title": "스타트업을 위한 성공적인 사업 계획 수립 완벽 가이드",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "The Ultimate Guide to Crafting a Winning Business Plan for Your Startup",
           "slug": "the-ultimate-guide-to-crafting-a-winning-business-plan-for-your-startup",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2023-10-05T01:49:20+01:00",
-          "description": "우리의 완벽한 가이드로 성공적인 스타트업 사업 계획을 만드세요. 전략적 통찰력을 통해 계획의 효과를 높이세요.",
+          "description": "Create a successful startup business plan with our ultimate guide. Boost your plan's effectiveness through strategic insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687116714-cb4-img1edited.png"
           },
@@ -567,20 +623,23 @@
       ]
     },
     {
-      "name": "법률",
+      "name": "Legal",
       "slug": "legal",
       "articles": [
         {
           "id": "165921766",
-          "topics": ["시작하기", "법률"],
-          "title": "법률 환경 탐색: 스타트업 창업자를 위한 필수 법률 고려사항",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal Landscape: Essential Legal Considerations for Startup Founders",
           "slug": "navigating-the-legal-landscape-essential-legal-considerations-for-startup-founder",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2024-06-20T17:21:44+01:00",
-          "description": "우리의 가이드로 법률 환경을 자신있게 탐색하세요. 스타트업 창업자가 사업 성장을 보호하고 보장하기 위한 필수 법률 고려사항입니다.",
+          "description": "Navigate the legal landscape confidently with our guide. Essential legal considerations for startup founders to protect and ensure business growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687128753-sb8-img2.png"
           },
@@ -600,15 +659,18 @@
         },
         {
           "id": "165927224",
-          "topics": ["시작하기", "법률"],
-          "title": "사업 구조의 미로 해독하기: 스타트업 창업자를 위한 가이드",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": " Decoding the Business Structure Maze: A Guide for Start-Up Founders",
           "slug": "decoding-the-business-structure-maze-a-guide-for-start-up-founders",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:59:45+01:00",
-          "description": "우리의 가이드로 사업 구조의 미로를 해독하세요. 스타트업 창업자들이 견고하고 지속 가능한 사업 프레임워크를 구축하는 데 필요한 중요한 통찰력을 제공합니다.",
+          "description": "Decipher the business structure maze with our guide. Vital insights for startup founders to establish a solid and sustainable business framework.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687132710-sb10-img1.png"
           },
@@ -628,15 +690,18 @@
         },
         {
           "id": "165921857",
-          "topics": ["시작하기", "법률"],
-          "title": "스타트업의 핵심 자산 보호하기: 지적 재산권 보호 가이드",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Safeguarding Your Startup's Crown Jewels: A Guide to Protecting Your Intellectual Property",
           "slug": "safeguarding-your-startup-s-crown-jewels-a-guide-to-protecting-your-intellectual",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:58:48+01:00",
-          "description": "지적 재산권 가이드를 통해 스타트업의 가장 가치 있는 자산을 보호하는 방법을 배우세요. 비즈니스의 미래를 지키기 위한 필수 전략입니다.",
+          "description": "Learn to protect your startup's most valuable assets with our intellectual property guide. Essential strategies for safeguarding your business future.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687130315-sb9-img1.png"
           },
@@ -657,20 +722,23 @@
       ]
     },
     {
-      "name": "비즈니스 및 관리",
+      "name": "Business & Admin",
       "slug": "business & admin",
       "articles": [
         {
           "id": "166795692",
-          "topics": ["시작하기", "비즈니스 및 관리"],
-          "title": "현금 흐름 마스터하기: 스타트업 창업자를 위한 궁극의 가이드",
+          "topics": [
+            "Getting Started",
+            "Business & Admin"
+          ],
+          "title": "Mastering Cash Flow: The Ultimate Guide for Startup Founders",
           "slug": "mastering-cash-flow-the-ultimate-guide-for-startup-founders",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2024-06-20T16:40:26+01:00",
-          "description": "스타트업 창업자를 위한 궁극의 가이드로 현금 흐름을 마스터하세요. 유동성 유지, 재무 관리, 비즈니스 안정성 확보를 위한 전략을 배우세요.",
+          "description": "Master cash flow with our ultimate guide for startup founders. Learn strategies to maintain liquidity, manage finances, and ensure business stability.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687312847-sb20-img1.png"
           },
@@ -690,15 +758,18 @@
         },
         {
           "id": "166788631",
-          "topics": ["시작하기", "비즈니스 및 관리"],
-          "title": "스타트업을 위한 스마트 예산 수립: 강력한 재무 기반 구축을 위한 단계별 가이드",
+          "topics": [
+            "Getting Started",
+            "Business & Admin"
+          ],
+          "title": "Smart Budgeting for Startups: A Step-by-Step Guide to Building a Strong Financial Foundation",
           "slug": "smart-budgeting-for-startups-a-step-by-step-guide-to-building-a-strong-financial",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2024-06-20T16:40:00+01:00",
-          "description": "스타트업을 위한 스마트 예산 수립 가이드로 강력한 재무 기반을 구축하세요. 지속 가능한 비즈니스 성장을 위해 자금을 효과적으로 관리하는 방법을 배우세요.",
+          "description": "Build a strong financial foundation with our smart budgeting guide for startups. Learn to manage funds effectively for sustainable business growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687310597-sb19-img1.png"
           },
@@ -718,15 +789,18 @@
         },
         {
           "id": "166788522",
-          "topics": ["시작하기", "비즈니스 및 관리"],
-          "title": "번영 전망: 스타트업을 위한 현실적인 재무 예측 설정 가이드",
+          "topics": [
+            "Getting Started",
+            "Business & Admin"
+          ],
+          "title": "Projecting Prosperity: A Guide to Setting Realistic Financial Projections for Your Startup",
           "slug": "projecting-prosperity-a-guide-to-setting-realistic-financial-projections-for-your",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2023-10-05T02:07:18+01:00",
-          "description": "스타트업 가이드로 현실적인 재무 예측을 설정하세요. 번영을 전망하고, 재무를 관리하며, 비즈니스의 미래를 확보하는 방법을 배우세요.",
+          "description": "Set realistic financial projections with our startup guide. Learn to project prosperity, manage finances, and secure the future of your business.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687308062-sb18-img1.png"
           },
@@ -746,15 +820,18 @@
         },
         {
           "id": "166263351",
-          "topics": ["시작하기", "비즈니스 및 관리"],
-          "title": "당신의 강점을 발견하세요: 설득력 있는 고유 가치 제안 만들기",
+          "topics": [
+            "Getting Started",
+            "Business & Admin"
+          ],
+          "title": "Discover Your Edge: Crafting a Compelling Unique Value Proposition",
           "slug": "discover-your-edge-crafting-a-compelling-unique-value-proposition",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T02:02:11+01:00",
-          "description": "우리의 가이드로 설득력 있는 고유 가치 제안을 만드세요. 시장에서 돋보이고 스타트업의 성장을 가속화할 수 있는 당신만의 강점을 발견하세요.",
+          "description": "Craft a compelling Unique Value Proposition with our guide. Discover your edge to stand out in the market and accelerate your startup's growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687202780-sb12-img1.png"
           },
@@ -775,20 +852,23 @@
       ]
     },
     {
-      "name": "팀 및 인사",
+      "name": "Teams & HR",
       "slug": "teams & hr",
       "articles": [
         {
           "id": "165816954",
-          "topics": ["시작하기", "팀 및 인사"],
-          "title": "꿈의 팀 만들기: 스타트업 팀 구성을 위한 궁극의 가이드",
+          "topics": [
+            "Getting Started",
+            "Teams & HR"
+          ],
+          "title": "Building a Dream Team: The Ultimate Guide to Assembling Your Startup Squad",
           "slug": "building-a-dream-team-the-ultimate-guide-to-assembling-your-startup-squad",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2024-06-19T03:48:19+01:00",
-          "description": "우리의 포괄적인 가이드로 이상적인 스타트업 팀을 구성하세요. 전문가의 조언으로 팀 효율성과 스타트업 성장을 높이세요.",
+          "description": "Form your ideal startup team with our comprehensive guide. Boost team efficiency and startup growth with our expert advice.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687119615-sb5-img1.png"
           },
@@ -809,20 +889,23 @@
       ]
     },
     {
-      "name": "영업 및 마케팅",
+      "name": "Sales & Marketing",
       "slug": "sales & marketing",
       "articles": [
         {
           "id": "166322203",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "성공을 위한 청사진: 스타트업을 위한 성공적인 영업 계획 수립 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "The Blueprint to Success: A Guide to Crafting a Winning Sales Plan for Your Startup",
           "slug": "the-blueprint-to-success-a-guide-to-crafting-a-winning-sales-plan-for-your-startu",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T02:08:22+01:00",
-          "description": "우리의 성공 청사진으로 스타트업을 위한 성공적인 영업 계획을 수립하세요. 수익 창출과 지속 가능한 성장을 달성하기 위한 통찰력을 얻으세요.",
+          "description": "Craft a winning sales plan for your startup with our blueprint to success. Gain insights into driving revenue and achieving sustainable growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687212250-sb16-img1.png"
           },
@@ -842,15 +925,18 @@
         },
         {
           "id": "166788454",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "스타트업을 위한 고객 획득 비용 마스터하기 궁극의 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "The Ultimate Guide to Mastering Customer Acquisition Costs for Startups",
           "slug": "the-ultimate-guide-to-mastering-customer-acquisition-costs-for-startups",
           "authorName": "Bootstrap Briggs",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760071-startupblogger2.png"
           },
           "_publishedAt": "2023-10-05T02:06:22+01:00",
-          "description": "궁극의 가이드로 고객 획득 비용을 마스터하세요. 지출을 최적화하고 고객을 유치하며 스타트업의 수익성을 극대화하는 방법을 배우세요.",
+          "description": "Master customer acquisition costs with our ultimate guide. Learn to optimize spending, attract customers and maximize your startup's profitability.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687305683-sb17-img1.png"
           },
@@ -870,15 +956,18 @@
         },
         {
           "id": "166286175",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "스타트업을 위한 소셜 미디어 활용 가이드: 마케팅 도달 범위 극대화하기",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "Maximizing Your Marketing Reach: A Guide to Utilizing Social Media for Startups",
           "slug": "maximizing-your-marketing-reach-a-guide-to-utilizing-social-media-for-startups",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T02:05:42+01:00",
-          "description": "스타트업을 위한 소셜 미디어 가이드로 마케팅 도달 범위를 극대화하세요. 고객과 소통하고 비즈니스 성장을 위해 플랫폼을 활용하는 방법을 배우세요.",
+          "description": "Maximize your marketing reach with our guide on social media for startups. Learn to engage audiences and leverage platforms for business growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687209924-sb15-img2.png"
           },
@@ -898,15 +987,18 @@
         },
         {
           "id": "166286117",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "성공을 향한 브랜딩: 스타트업 창업자를 위한 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "Branding Your Way to Success: A Guide for Start-Up Founders",
           "slug": "branding-your-way-to-success-a-guide-for-start-up-founders",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T02:04:38+01:00",
-          "description": "우리의 스타트업 가이드로 성공을 향한 브랜딩을 시작하세요. 효과적인 브랜딩 전략이 어떻게 인지도를 높이고 비즈니스 성장을 촉진할 수 있는지 알아보세요.",
+          "description": "Brand your way to success with our startup guide. Learn how effective branding strategies can enhance recognition and drive your business growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687208232-sb14-img0.png"
           },
@@ -926,15 +1018,18 @@
         },
         {
           "id": "166277989",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "마케팅의 힘 풀어내기: 스타트업 창업자를 위한 종합 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "Unleashing the Power of Marketing: A Comprehensive Guide for Startup Founders",
           "slug": "unleashing-the-power-of-marketing-a-comprehensive-guide-for-startup-founders",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T02:03:38+01:00",
-          "description": "종합 가이드로 스타트업의 마케팅 잠재력을 풀어내세요. 고객을 사로잡고 비즈니스 성장을 이끄는 전략을 배우세요.",
+          "description": "Unleash your startup's marketing potential with our comprehensive guide. Learn strategies to engage your audience and drive business growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687204747-sb13-img1.png"
           },
@@ -954,15 +1049,18 @@
         },
         {
           "id": "165812094",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "스타트업 창업자를 위한 타겟 시장의 힘 활용하기: 종합 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "Unleashing the Power of Your Target Market: A Comprehensive Guide for Startup Founders",
           "slug": "unleashing-the-power-of-your-target-market-a-comprehensive-guide-for-startup-foun",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:56:10+01:00",
-          "description": "우리의 가이드로 스타트업 성공을 열어보세요: 타겟 시장의 잠재력을 이해하고 참여하며 극대화하세요. 전략적 인사이트로 성장을 촉진하세요.",
+          "description": "Unlock startup success with our guide: Understand, engage, and maximize your target market's potential. Boost growth with strategic insights.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687109735-sb1-img0.png"
           },
@@ -982,15 +1080,18 @@
         },
         {
           "id": "165815183",
-          "topics": ["시작하기", "영업 및 마케팅"],
-          "title": "시장 조사의 힘: 스타트업 창업자를 위한 가이드",
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
+          "title": "The Power of Market Research: A Guide for Startup Founders",
           "slug": "the-power-of-market-research-a-guide-for-startup-founders",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:52:41+01:00",
-          "description": "스타트업 가이드에서 시장 조사의 힘을 발견하세요. 통찰력을 얻고 정보에 기반한 결정을 내리며 비즈니스를 발전시키세요",
+          "description": "Discover the power of market research in our startup guide. Uncover insights, make informed decisions, and drive your business forward",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687114662-sb3-img1edited.png"
           },
@@ -1011,32 +1112,35 @@
       ]
     },
     {
-      "name": "자금 모금",
+      "name": "Fundraising",
       "slug": "fundraising",
       "articles": [
         {
           "id": "165817305",
-          "topics": ["시작하기", "자금 조달"],
-          "title": "성공적인 스타트업 자금 조달의 비밀 풀기: 종합 가이드",
+          "topics": [
+            "Getting Started",
+            "Fundraising"
+          ],
+          "title": "Unlocking the Secrets of Successful Startup Fundraising: A Comprehensive Guide",
           "slug": "unlocking-the-secrets-of-successful-startup-fundraising-a-comprehensive-guide",
           "authorName": "Steve Savant",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694760845-startupbloggeralt2.png"
           },
           "_publishedAt": "2023-10-05T01:57:06+01:00",
-          "description": "종합 가이드에서 성공적인 스타트업 자금 조달의 비밀을 발견하세요. 투자자를 유치하고 벤처에 필요한 자금을 확보하는 방법을 배우세요.",
+          "description": "Discover the secrets of successful startup fundraising in our comprehensive guide. Learn to attract investors and secure the funding your venture needs.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687124658-sb7-img1.png"
           },
           "contentBlock": [],
           "seo": {
-            "description": "Discover the secrets of successful startup fundraising in our comprehensive guide. Learn to attract contributors and secure the funding your venture needs.",
+            "description": "Discover the secrets of successful startup fundraising in our comprehensive guide. Learn to attract investors and secure the funding your venture needs.",
             "title": "Unlocking the Secrets of Successful Startup Fundraising",
             "twitterCard": null,
             "image": {
               "width": 1024,
               "height": 1024,
-              "title": "Who Are the Contributors Who Will Support Your Vision?",
+              "title": "Who Are the Investors Who Will Support Your Vision?",
               "alt": null,
               "url": "https://www.datocms-assets.com/101962/1687124658-sb7-img1.png"
             }
@@ -1052,8 +1156,8 @@
       "title": "Startups | Bitcash Blog",
       "twitterCard": "summary_large_image"
     },
-    "description": "꿈꾸세요. 만드세요. 확장하세요.",
-    "title": "스타트업",
+    "description": "Dream It. Build It. Scale It.",
+    "title": "Startups",
     "seoType": "startup",
     "id": "178642409",
     "_createdAt": "2023-07-24T18:40:21+01:00"

@@ -1,20 +1,23 @@
 {
   "sections": [
     {
-      "name": "시작하기",
+      "name": "Getting Started",
       "slug": "getting started",
       "articles": [
         {
           "id": "165365457",
-          "topics": ["시작하기", "결제"],
-          "title": "비트코인으로 온라인 구매 간소화하기: 거래에 비트코인 사용 가이드",
+          "topics": [
+            "Getting Started",
+            " Payments"
+          ],
+          "title": "Streamlining Online Purchases with Bitcoin: A Guide to Using Bitcoin for Transactions",
           "slug": "streamlining-online-purchases-with-bitcoin-a-guide-to-using-bitcoin-for-transacti",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T06:03:51+01:00",
-          "description": "비트코인으로 온라인 구매의 편리함을 경험하세요. 우리의 포괄적인 가이드에서 안전하고 원활한 거래를 위해 비트코인을 쉽게 사용하는 방법을 배워보세요.",
+          "description": "Unlock the convenience of online purchases with Bitcoin. Learn how to effortlessly use Bitcoin for secure and seamless transactions in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858962-bb10-img1.png"
           },
@@ -34,15 +37,19 @@
         },
         {
           "id": "165362142",
-          "topics": ["시작하기", "작업증명", "채굴"],
-          "title": "비트코인 채굴의 힘 풀기: 작업증명 알고리즘 소개",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work",
+            "Mining"
+          ],
+          "title": "Unlocking the Power of Bitcoin Mining: An Introduction to Proof-of-Work Algorithms",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:55:09+01:00",
-          "description": "비트코인 채굴의 세계와 흥미로운 작업증명 알고리즘 개념을 탐구해보세요. 이 혁신적인 기술의 잠재력과 보상을 살펴보세요.",
+          "description": "Delve into the world of Bitcoin mining and the fascinating concept of proof-of-work algorithms. Explore the potential and rewards of this transformative technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858321-bb9-img0edited.png"
           },
@@ -62,15 +69,18 @@
         },
         {
           "id": "165340146",
-          "topics": ["시작하기", "작업 증명"],
-          "title": "비트코인의 경제적 보안: 작업 증명이 어떻게 안전하고 보안된 네트워크를 가능하게 하는가",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work"
+          ],
+          "title": "The Economic Security of Bitcoin: How Proof-of-Work Enables a Safe and Secure Network",
           "slug": "the-economic-security-of-bitcoin-how-proof-of-work-enables-a-safe-and-secure-netw",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:53:43+01:00",
-          "description": "비트코인의 경제적 보안과 작업 증명의 힘을 알아보세요. 이 혁신적인 기술이 어떻게 미래를 위한 안전하고 보안된 네트워크를 보장하는지 탐구해보세요.",
+          "description": "Discover the economic security of Bitcoin and the power of proof-of-work. Explore how this innovative technology ensures a safe and secure network for the future.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686856982-bb8-img1.png"
           },
@@ -90,15 +100,18 @@
         },
         {
           "id": "165340050",
-          "topics": ["시작하기", "법률"],
-          "title": "비트코인의 법적 및 규제 환경 탐색: 규칙과 기회 이해하기",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal and Regulatory Landscape of Bitcoin: Understanding the Rules and Opportunities",
           "slug": "navigating-the-legal-and-regulatory-landscape-of-bitcoin-understanding-the-rules",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:52:05+01:00",
-          "description": "비트코인의 법적 및 규제 환경에 대한 포괄적인 가이드로 정보를 얻고 규정을 준수하세요. 자신감을 가지고 암호화폐의 복잡성을 탐색하세요.",
+          "description": "Stay informed and compliant with our comprehensive guide to the legal and regulatory landscape of Bitcoin. Navigate the complexities of cryptocurrency with confidence.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686855768-bb7-img1edited.png"
           },
@@ -118,15 +131,18 @@
         },
         {
           "id": "165337859",
-          "topics": ["시작하기", "보안"],
-          "title": "비트코인 저장의 미래: 비트코인 지갑과 혁신적인 저장 솔루션 소개",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "The Future of Bitcoin Storage: An Introduction to Bitcoin Wallets and Innovative Storage Solutions",
           "slug": "the-future-of-bitcoin-storage-an-introduction-to-bitcoin-wallets-and-innovative-s",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:50:52+01:00",
-          "description": "비트코인 지갑과 혁신적인 저장 솔루션의 세계를 탐험해보세요. 포괄적인 입문 가이드로 디지털 자산을 안전하게 보관하고 관리하는 방법을 배워보세요.",
+          "description": "Explore the world of Bitcoin wallets and innovative storage solutions. Learn how to secure and manage your digital assets with our comprehensive introductory guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686854653-bb6-img1.png"
           },
@@ -146,15 +162,17 @@
         },
         {
           "id": "165005184",
-          "topics": ["시작하기"],
-          "title": "비트코인 거래소 조사 및 평가의 기술: 투자자를 위한 가이드",
-          "slug": "the-art-of-researching-and-evaluating-bitcoin-exchanges-a-guide-for-contributors",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "The Art of Researching and Evaluating Bitcoin Exchanges: A Guide for Investors",
+          "slug": "the-art-of-researching-and-evaluating-bitcoin-exchanges-a-guide-for-investors",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:50:29+01:00",
-          "description": "비트코인 거래소 조사 및 평가의 비밀을 알아보세요. 자신 있는 투자를 위한 필수 팁과 통찰력을 발견하세요.",
+          "description": "Unlock the secrets of researching and evaluating Bitcoin exchanges. Discover essential tips and insights for confident investing.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686794861-bb5-img1.png"
           },
@@ -174,15 +192,18 @@
         },
         {
           "id": "164973196",
-          "topics": ["시작하기", "역사"],
-          "title": "비트코인의 역사와 진화",
+          "topics": [
+            "Getting Started",
+            "History"
+          ],
+          "title": "The History and Evolution of Bitcoin",
           "slug": "the-history-and-evolution-of-bitcoin",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:38:06+01:00",
-          "description": "비트코인의 역사와 진화의 매력적인 여정을 추적해보세요. 이 혁신적인 기술의 기원, 주요 이정표, 그리고 변혁적인 영향을 발견하세요.",
+          "description": "Trace the captivating journey of Bitcoin's history and evolution. Uncover the origins, milestones, and transformative impact of this groundbreaking technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686789411-bb2-img1edited.png"
           },
@@ -202,15 +223,18 @@
         },
         {
           "id": "165004875",
-          "topics": ["시작하기", "보안"],
-          "title": "디지털 시대에 비트코인을 안전하게 보관하는 방법",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "How to Keep Your Bitcoins Safe in the Digital Age",
           "slug": "how-to-keep-your-bitcoins-safe-in-the-digital-age",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:28:36+01:00",
-          "description": "전문가의 팁과 전략으로 디지털 시대에 비트코인을 안전하게 지키세요. 귀중한 디지털 자산을 보호하는 필수 기술을 배우세요.",
+          "description": "Safeguard your Bitcoins in the digital era with our expert tips and strategies. Learn essential techniques to protect your valuable digital assets.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686791711-bb3-img1.png"
           },
@@ -230,15 +254,18 @@
         },
         {
           "id": "165005107",
-          "topics": ["시작하기", "거래소"],
-          "title": "비트코인 매매에 대한 간단한 가이드",
+          "topics": [
+            "Getting Started",
+            "Exchange"
+          ],
+          "title": "The Simplified Guide to Buying and Selling Bitcoins",
           "slug": "the-simplified-guide-to-buying-and-selling-bitcoins",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:26:26+01:00",
-          "description": "간단한 가이드로 비트코인 매매의 기술을 익히세요. 단계별 전략과 전문가 팁을 배워보세요.",
+          "description": "Master the art of buying and selling Bitcoin with our simplified guide. Learn step-by-step strategies and expert tips.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686793200-bb4-img1.png"
           },
@@ -258,15 +285,17 @@
         },
         {
           "id": "164904960",
-          "topics": ["시작하기"],
-          "title": "비트코인에 대해 다르게 생각하기: 탈중앙화 화폐의 미래",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "Think Differently About Bitcoin: The Future of Decentralized Currency",
           "slug": "think-differently-about-bitcoin-the-future-of-decentralized-currency",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T04:44:43+01:00",
-          "description": "흥미진진한 블로그 게시물을 통해 비트코인과 그 혁명적 잠재력에 대해 다르게 생각하는 방법을 알아보세요. 놓치지 마세요!",
+          "description": "Discover how to think differently about Bitcoin and its revolutionary potential with our captivating blog post. Explore Don't miss out!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686760978-bb1-img1.png"
           },
@@ -287,20 +316,23 @@
       ]
     },
     {
-      "name": "결제",
+      "name": " Payments",
       "slug": " payments",
       "articles": [
         {
           "id": "165365457",
-          "topics": ["시작하기", "결제"],
-          "title": "비트코인으로 온라인 구매 간소화하기: 거래에 비트코인 사용 가이드",
+          "topics": [
+            "Getting Started",
+            " Payments"
+          ],
+          "title": "Streamlining Online Purchases with Bitcoin: A Guide to Using Bitcoin for Transactions",
           "slug": "streamlining-online-purchases-with-bitcoin-a-guide-to-using-bitcoin-for-transacti",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T06:03:51+01:00",
-          "description": "비트코인으로 온라인 구매의 편리함을 경험하세요. 우리의 포괄적인 가이드에서 안전하고 원활한 거래를 위해 비트코인을 쉽게 사용하는 방법을 배워보세요.",
+          "description": "Unlock the convenience of online purchases with Bitcoin. Learn how to effortlessly use Bitcoin for secure and seamless transactions in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858962-bb10-img1.png"
           },
@@ -321,20 +353,24 @@
       ]
     },
     {
-      "name": "작업 증명",
+      "name": "Proof-of-Work",
       "slug": "proof-of-work",
       "articles": [
         {
           "id": "165362142",
-          "topics": ["시작하기", "작업증명", "채굴"],
-          "title": "비트코인 채굴의 힘 풀기: 작업증명 알고리즘 소개",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work",
+            "Mining"
+          ],
+          "title": "Unlocking the Power of Bitcoin Mining: An Introduction to Proof-of-Work Algorithms",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:55:09+01:00",
-          "description": "비트코인 채굴의 세계와 흥미로운 작업증명 알고리즘 개념을 탐구해보세요. 이 혁신적인 기술의 잠재력과 보상을 살펴보세요.",
+          "description": "Delve into the world of Bitcoin mining and the fascinating concept of proof-of-work algorithms. Explore the potential and rewards of this transformative technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858321-bb9-img0edited.png"
           },
@@ -354,15 +390,18 @@
         },
         {
           "id": "165340146",
-          "topics": ["시작하기", "작업 증명"],
-          "title": "비트코인의 경제적 보안: 작업 증명이 어떻게 안전하고 보안된 네트워크를 가능하게 하는가",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work"
+          ],
+          "title": "The Economic Security of Bitcoin: How Proof-of-Work Enables a Safe and Secure Network",
           "slug": "the-economic-security-of-bitcoin-how-proof-of-work-enables-a-safe-and-secure-netw",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:53:43+01:00",
-          "description": "비트코인의 경제적 보안과 작업 증명의 힘을 알아보세요. 이 혁신적인 기술이 미래를 위한 안전하고 보안된 네트워크를 어떻게 보장하는지 탐구해보세요.",
+          "description": "Discover the economic security of Bitcoin and the power of proof-of-work. Explore how this innovative technology ensures a safe and secure network for the future.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686856982-bb8-img1.png"
           },
@@ -383,20 +422,24 @@
       ]
     },
     {
-      "name": "채굴",
+      "name": "Mining",
       "slug": "mining",
       "articles": [
         {
           "id": "165362142",
-          "topics": ["시작하기", "작업증명", "채굴"],
-          "title": "비트코인 채굴의 힘 풀기: 작업증명 알고리즘 소개",
+          "topics": [
+            "Getting Started",
+            "Proof-of-Work",
+            "Mining"
+          ],
+          "title": "Unlocking the Power of Bitcoin Mining: An Introduction to Proof-of-Work Algorithms",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:55:09+01:00",
-          "description": "비트코인 채굴의 세계와 흥미로운 작업증명 알고리즘 개념을 탐구해보세요. 이 혁신적인 기술의 잠재력과 보상을 살펴보세요.",
+          "description": "Delve into the world of Bitcoin mining and the fascinating concept of proof-of-work algorithms. Explore the potential and rewards of this transformative technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686858321-bb9-img0edited.png"
           },
@@ -417,20 +460,23 @@
       ]
     },
     {
-      "name": "법률",
+      "name": "Legal",
       "slug": "legal",
       "articles": [
         {
           "id": "165340050",
-          "topics": ["시작하기", "법률"],
-          "title": "비트코인의 법적 및 규제 환경 탐색: 규칙과 기회 이해하기",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal and Regulatory Landscape of Bitcoin: Understanding the Rules and Opportunities",
           "slug": "navigating-the-legal-and-regulatory-landscape-of-bitcoin-understanding-the-rules",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:52:05+01:00",
-          "description": "비트코인의 법적 및 규제 환경에 대한 포괄적인 가이드로 정보를 얻고 규정을 준수하세요. 자신감을 가지고 암호화폐의 복잡성을 탐색하세요.",
+          "description": "Stay informed and compliant with our comprehensive guide to the legal and regulatory landscape of Bitcoin. Navigate the complexities of cryptocurrency with confidence.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686855768-bb7-img1edited.png"
           },
@@ -451,20 +497,23 @@
       ]
     },
     {
-      "name": "보안",
+      "name": "Security",
       "slug": "security",
       "articles": [
         {
           "id": "165337859",
-          "topics": ["시작하기", "보안"],
-          "title": "비트코인 저장의 미래: 비트코인 지갑과 혁신적인 저장 솔루션 소개",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "The Future of Bitcoin Storage: An Introduction to Bitcoin Wallets and Innovative Storage Solutions",
           "slug": "the-future-of-bitcoin-storage-an-introduction-to-bitcoin-wallets-and-innovative-s",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:50:52+01:00",
-          "description": "비트코인 지갑과 혁신적인 저장 솔루션의 세계를 탐험해보세요. 포괄적인 입문 가이드로 디지털 자산을 안전하게 보관하고 관리하는 방법을 배워보세요.",
+          "description": "Explore the world of Bitcoin wallets and innovative storage solutions. Learn how to secure and manage your digital assets with our comprehensive introductory guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686854653-bb6-img1.png"
           },
@@ -484,15 +533,18 @@
         },
         {
           "id": "165004875",
-          "topics": ["시작하기", "보안"],
-          "title": "디지털 시대에 비트코인을 안전하게 보관하는 방법",
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
+          "title": "How to Keep Your Bitcoins Safe in the Digital Age",
           "slug": "how-to-keep-your-bitcoins-safe-in-the-digital-age",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:28:36+01:00",
-          "description": "전문가의 팁과 전략으로 디지털 시대에 비트코인을 안전하게 지키세요. 귀중한 디지털 자산을 보호하는 필수 기술을 배우세요.",
+          "description": "Safeguard your Bitcoins in the digital era with our expert tips and strategies. Learn essential techniques to protect your valuable digital assets.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686791711-bb3-img1.png"
           },
@@ -513,20 +565,23 @@
       ]
     },
     {
-      "name": "역사",
+      "name": "History",
       "slug": "history",
       "articles": [
         {
           "id": "164973196",
-          "topics": ["시작하기", "역사"],
-          "title": "비트코인의 역사와 진화",
+          "topics": [
+            "Getting Started",
+            "History"
+          ],
+          "title": "The History and Evolution of Bitcoin",
           "slug": "the-history-and-evolution-of-bitcoin",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:38:06+01:00",
-          "description": "비트코인의 역사와 진화의 매력적인 여정을 추적해보세요. 이 혁신적인 기술의 기원, 주요 이정표, 그리고 변혁적인 영향을 발견하세요.",
+          "description": "Trace the captivating journey of Bitcoin's history and evolution. Uncover the origins, milestones, and transformative impact of this groundbreaking technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686789411-bb2-img1edited.png"
           },
@@ -547,20 +602,23 @@
       ]
     },
     {
-      "name": "거래소",
+      "name": "Exchange",
       "slug": "exchange",
       "articles": [
         {
           "id": "165005107",
-          "topics": ["시작하기", "거래소"],
-          "title": "비트코인 매매에 대한 간단한 가이드",
+          "topics": [
+            "Getting Started",
+            "Exchange"
+          ],
+          "title": "The Simplified Guide to Buying and Selling Bitcoins",
           "slug": "the-simplified-guide-to-buying-and-selling-bitcoins",
           "authorName": "Maxi Millie",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694419898-maximillie1.png"
           },
           "_publishedAt": "2023-10-05T05:26:26+01:00",
-          "description": "간단한 가이드로 비트코인 매매의 기술을 익히세요. 단계별 전략과 전문가 팁을 배워보세요.",
+          "description": "Master the art of buying and selling Bitcoin with our simplified guide. Learn step-by-step strategies and expert tips.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686793200-bb4-img1.png"
           },
@@ -588,8 +646,8 @@
       "title": "Bitcoin | Bitcash Blog",
       "twitterCard": "summary_large_image"
     },
-    "description": "디지털 골드 시대를 개척하다",
-    "title": "비트코인",
+    "description": "Pioneering the Digital Gold Era",
+    "title": "Bitcoin",
     "seoType": "bitcoin",
     "id": "178642411",
     "_createdAt": "2023-07-24T18:41:46+01:00"

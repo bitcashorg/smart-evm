@@ -14,11 +14,12 @@ export const createTestToken: () => void = () => {
       console.log(`Using the account: ${caller.address}`)
 
       const easyAuction = await getEasyAuctionContract(hardhatRuntime)
-      const { auctioningToken, biddingToken } = await createTokensAndMintAndApprove(
-        easyAuction,
-        [caller as Wallet],
-        hardhatRuntime,
-      )
+      const { auctioningToken, biddingToken } =
+        await createTokensAndMintAndApprove(
+          easyAuction,
+          [caller as Wallet],
+          hardhatRuntime,
+        )
       console.log(
         'Following tokens were created: ',
         auctioningToken.address,

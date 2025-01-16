@@ -353,7 +353,7 @@ export const whitepaper = {
     },
     {
       type: 'p',
-      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org',
+      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitlauncher Telegram: https://t.me/bitcash_org',
     },
     { type: 'h1', text: 'Bảng chú giải' },
     {
@@ -363,7 +363,7 @@ export const whitepaper = {
     { type: 'h1', text: 'Thông tin liên lạc' },
     {
       type: 'p',
-      text: 'Để biết thêm thắc mắc, hỗ trợ hoặc biết thêm thông tin về nền tảng Bitcash và bán mã thông báo, vui lòng sử dụng các kênh sau để liên hệ với chúng tôi: Hỗ trợ và yêu cầu chung: Email: support@bitcash.org Truyền thông và báo chí: Email: press@bitcash. org Hỗ trợ nhà phát triển: Email:developers@bitcash.org Mạng xã hội: Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https:// www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org Để biết thông tin và cập nhật theo thời gian thực, hãy theo dõi chúng tôi trên nền tảng truyền thông xã hội và tham gia các cuộc thảo luận cộng đồng của chúng tôi. Chúng tôi cam kết minh bạch và giao tiếp cởi mở, đồng thời mong nhận được sự tham gia và phản hồi của bạn. Nếu bạn gặp bất kỳ vấn đề nào hoặc cần hỗ trợ trong quá trình tham gia hoặc sau đó, nhóm hỗ trợ tận tâm của chúng tôi sẵn sàng giúp bạn giải quyết các thắc mắc của mình một cách nhanh chóng và hiệu quả.',
+      text: 'Để biết thêm thắc mắc, hỗ trợ hoặc biết thêm thông tin về nền tảng Bitcash và bán mã thông báo, vui lòng sử dụng các kênh sau để liên hệ với chúng tôi: Hỗ trợ và yêu cầu chung: Email: support@bitcash.org Truyền thông và báo chí: Email: press@bitcash. org Hỗ trợ nhà phát triển: Email:developers@bitcash.org Mạng xã hội: Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https:// www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org Để biết thông tin và cập nhật theo thời gian thực, hãy theo dõi chúng tôi trên nền tảng truyền thông xã hội và tham gia các cuộc thảo luận cộng đồng của chúng tôi. Chúng tôi cam kết minh bạch và giao tiếp cởi mở, đồng thời mong nhận được sự tham gia và phản hồi của bạn. Nếu bạn gặp bất kỳ vấn đề nào hoặc cần hỗ trợ trong quá trình tham gia hoặc sau đó, nhóm hỗ trợ tận tâm của chúng tôi sẵn sàng giúp bạn giải quyết các thắc mắc của mình một cách nhanh chóng và hiệu quả.',
     },
   ] as PageContentData,
 }

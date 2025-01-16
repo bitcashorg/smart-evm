@@ -15,7 +15,9 @@ export function ProjectPresaleData({
   numberOfContributors: number
 }) {
   const [contributors, setContributors] = useState<number>(numberOfContributors)
-  const [totalRaised, setTotalRaised] = useState<bigint>(BigInt(presale.total_raised))
+  const [totalRaised, setTotalRaised] = useState<bigint>(
+    BigInt(presale.total_raised),
+  )
   const supabase = useSupabaseClient()
 
   useEffect(() => {
@@ -30,7 +32,10 @@ export function ProjectPresaleData({
           filter: `id=eq.${presale.id}`,
         },
         (payload) => {
-          if (payload.eventType === 'INSERT' || payload.eventType === 'UPDATE') {
+          if (
+            payload.eventType === 'INSERT' ||
+            payload.eventType === 'UPDATE'
+          ) {
             setTotalRaised(BigInt(payload.new.total_raised))
             setContributors(payload.new.contributors)
           }

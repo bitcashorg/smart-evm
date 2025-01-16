@@ -2,35 +2,51 @@
   "relatedBlogs": [
     {
       "id": "180556595",
-      "topics": ["筹款", "代币经济学", "评论"],
-      "title": "区块链效应：无市场权力成本的网络效应 [评论]",
+      "topics": [
+        "Fundraising",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
       "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:11:14+01:00",
-      "description": "探索区块链如何实现网络效应而不带来市场权力的负面影响。发现改变游戏规则的区块链效应。",
+      "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
       },
       "seo": {
-        "title": "无市场权力成本的网络效应 [评论]",
-        "description": "探索区块链如何实现网络效应而不带来市场权力的负面影响。发现改变游戏规则的区块链效应。"
+        "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
+        "title": "Network Effects without Market Power Costs [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
+        }
       }
     }
   ],
   "blogContent": {
     "id": "180563922",
-    "topics": ["筹款", "代币经济学", "评论"],
-    "title": "ICO利用网络效应[评论]",
+    "topics": [
+      "Fundraising",
+      "Tokenomics",
+      "Commentary"
+    ],
+    "title": "ICOs Leverage Network Effects [Commentary]",
     "slug": "icos-leverage-network-effects-commentary",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T09:12:06+01:00",
-    "description": "了解ICO如何利用网络效应的力量来推动其成功。ICO和网络效应,一个充满活力的组合!",
+    "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
     },
@@ -168,7 +184,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Showcase Product Demand:"
                             },
                             {
@@ -187,7 +205,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Leverage Network Effects:"
                             },
                             {
@@ -206,7 +226,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Discourage Speculators:"
                             },
                             {
@@ -225,12 +247,14 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Define Priorities:"
                             },
                             {
                               "type": "span",
-                              "value": " Startups should indicate their priorities by selecting appropriate token sale strategies. This can help potential contributors understand the startup's focus—whether it is on attracting future platform users or raising immediate funds."
+                              "value": " Startups should indicate their priorities by selecting appropriate token sale strategies. This can help potential investors understand the startup's focus—whether it is on attracting future platform users or raising immediate funds."
                             }
                           ]
                         }
@@ -265,8 +289,8 @@
       }
     ],
     "seo": {
-      "description": "了解ICO如何利用网络效应的力量来推动其成功。ICO和网络效应,一个充满活力的组合!",
-      "title": "ICO利用网络效应[评论]",
+      "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
+      "title": "ICOs Leverage Network Effects [Commentary]",
       "twitterCard": null,
       "image": {
         "width": 862,
@@ -277,5 +301,13 @@
       }
     }
   },
-  "topics": ["筹款", "代币经济学", "评论"]
+  "topics": [
+    "Fundraising",
+    "Tokenomics",
+    "Commentary"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

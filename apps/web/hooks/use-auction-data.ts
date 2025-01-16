@@ -99,7 +99,10 @@ function readableOrder(order: Order) {
   return { userId, buyAmount, sellAmount }
 }
 
-function readableTokenQuantity(quantity: BN | string | number, tokenSymbol: string) {
+function readableTokenQuantity(
+  quantity: BN | string | number,
+  tokenSymbol: string,
+) {
   const decimals = 6
   const divisor = new BN(10).pow(new BN(decimals))
   const quantityReadable = new BN(quantity).div(divisor)

@@ -2,15 +2,21 @@
   "relatedBlogs": [],
   "blogContent": {
     "id": "198277124",
-    "topics": ["MLG", "Finanzas", "Salud", "Legal", "Indicaciones"],
-    "title": "Adaptacion de Modelos de Lenguaje Grandes mediante Comprension Lectora",
+    "topics": [
+      "LLM",
+      "Finance",
+      "Healthcare",
+      "Legal",
+      "Prompting"
+    ],
+    "title": "Adapting Large Language Models via Reading Comprehension",
     "slug": "adapting-large-language-models-via-reading-comprehension",
     "authorName": "Prof. Otto Nomos",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
     },
     "_publishedAt": "2024-05-27T03:34:22+01:00",
-    "description": "Comentario y Calificacion del Resumen",
+    "description": "Abstract Commentary & Rating",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
     },
@@ -168,7 +174,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Influence of Continued Pre-training"
                             },
                             {
@@ -187,7 +195,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Human-Inspired Learning"
                             },
                             {
@@ -206,7 +216,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Broad Applicability"
                             },
                             {
@@ -225,7 +237,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Competitive Performance"
                             },
                             {
@@ -244,7 +258,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Generalization Potential"
                             },
                             {
@@ -278,7 +294,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Efficient Domain Adaptation"
                             },
                             {
@@ -297,7 +315,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Resource Conservation"
                             },
                             {
@@ -316,7 +336,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Improved Reading Comprehension"
                             },
                             {
@@ -335,7 +357,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Wider Applicability"
                             },
                             {
@@ -369,7 +393,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Specificity vs. Generality Trade-off"
                             },
                             {
@@ -427,8 +453,8 @@
       }
     ],
     "seo": {
-      "description": "Comentario y Calificacion del Resumen",
-      "title": "Adaptacion de Modelos de Lenguaje Grandes mediante Comprension Lectora",
+      "description": "Abstract Commentary & Rating\n",
+      "title": "Adapting Large Language Models via Reading Comprehension",
       "twitterCard": null,
       "image": {
         "width": 1456,
@@ -439,5 +465,12 @@
       }
     }
   },
-  "topics": ["LLM", "Finanzas", "Salud", "Legal", "Indicaciones"]
+  "topics": [
+    "LLM",
+    "Finance",
+    "Healthcare",
+    "Legal",
+    "Prompting"
+  ],
+  "shortLink": ""
 }

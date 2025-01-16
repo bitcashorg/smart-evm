@@ -1,0 +1,1069 @@
+{
+  "relatedBlogs": [
+    {
+      "id": "198277124",
+      "topics": [
+        "LLM",
+        "Finance",
+        "Healthcare",
+        "Legal",
+        "Prompting"
+      ],
+      "title": "Adapting Large Language Models via Reading Comprehension",
+      "slug": "adapting-large-language-models-via-reading-comprehension",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:34:22+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Adapting Large Language Models via Reading Comprehension",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277342",
+      "topics": [
+        "LLM",
+        "Multilingual"
+      ],
+      "title": "OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch",
+      "slug": "openba-an-open-sourced-15b-bilingual-asymmetric-seq2seq-model-pre-trained-from-sc",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:34:02+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "OpenBA: An Open-sourced 15B Bilingual ... Model ...",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277117",
+      "topics": [
+        "LLM",
+        "Retrieval"
+      ],
+      "title": "PDFTriage: Question Answering over Long, Structured Documents",
+      "slug": "pdftriage-question-answering-over-long-structured-documents",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:33:49+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "PDFTriage: Q & A over Long, Structured Documents",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277138",
+      "topics": [
+        "LLM",
+        "Fine-tuning"
+      ],
+      "title": "Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference Using Sorted Fine-Tuning (SoFT)",
+      "slug": "sorted-llama-unlocking-the-potential-of-intermediate-layers-of-large-language-mod",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:33:31+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Sorted LLaMA: ... Inference Using Sorted Fine-Tuning (SoFT)",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277150",
+      "topics": [
+        "LLM",
+        "Instruction Tuning",
+        "Multimodal"
+      ],
+      "title": "An Empirical Study of Scaling Instruct-Tuned Large Multimodal Models",
+      "slug": "an-empirical-study-of-scaling-instruct-tuned-large-multimodal-models",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:33:15+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "An Empirical Study of Scaling Instruct-Tuned LLMs",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277160",
+      "topics": [
+        "LLM",
+        "Agents",
+        "Gaming"
+      ],
+      "title": "MindAgent: Emergent Gaming Interaction",
+      "slug": "mindagent-emergent-gaming-interaction",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-27T03:32:58+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "MindAgent: Emergent Gaming Interaction",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+        }
+      }
+    },
+    {
+      "id": "198277196",
+      "topics": [
+        "LLM",
+        "Structured Data"
+      ],
+      "title": "Struc-Bench: Are Large Language Models Really Good at Generating Complex Structured Data?",
+      "slug": "struc-bench-are-large-language-models-really-good-at-generating-complex-structure",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-25T03:38:38+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Struc-Bench:..Generating Complex Structured Data?",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277217",
+      "topics": [
+        "LLM",
+        "Privacy",
+        "Edge"
+      ],
+      "title": "  Recovering from Privacy-Preserving Masking with Large Language Models",
+      "slug": "recovering-from-privacy-preserving-masking-with-large-language-models",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-25T03:38:26+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "  Recovering from Privacy-Preserving Masking with LLMs",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277239",
+      "topics": [
+        "LLM",
+        "Chat"
+      ],
+      "title": "S3-DST: Structured Open-Domain Dialogue Segmentation and State Tracking in the Era of LLMs",
+      "slug": "s3-dst-structured-open-domain-dialogue-segmentation-and-state-tracking-in-the-era",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-25T03:38:11+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "S3-DST: Structured Open-Domain Dialogue Segmentation...",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277253",
+      "topics": [
+        "LLM",
+        "Audio"
+      ],
+      "title": "Augmenting text for spoken language understanding with Large Language Models",
+      "slug": "augmenting-text-for-spoken-language-understanding-with-large-language-models",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-25T03:37:49+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Augmenting text for spoken language understanding ...",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277277",
+      "topics": [
+        "LLM",
+        "Compression"
+      ],
+      "title": "Language Modeling Is Compression",
+      "slug": "language-modeling-is-compression",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-25T03:37:32+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Language Modeling Is Compression",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277345",
+      "topics": [
+        "LLM",
+        "Multilingual"
+      ],
+      "title": "Baichuan 2: Open Large-scale Language Models",
+      "slug": "baichuan-2-open-large-scale-language-models",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-24T05:59:10+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Baichuan 2: Open Large-scale Language Models",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277360",
+      "topics": [
+        "LLM",
+        "RLHF"
+      ],
+      "title": "Stabilizing RLHF through Advantage Model and Selective Rehearsal",
+      "slug": "stabilizing-rlhf-through-advantage-model-and-selective-rehearsal",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-24T05:22:15+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Stabilizing RLHF ... Advantage Model & Selective Rehearsal",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277446",
+      "topics": [
+        "LLM",
+        "Hallucination"
+      ],
+      "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+      "slug": "chain-of-verification-reduces-hallucination-in-large-language-models",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-24T05:21:05+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Chain-of-Verification Reduces Hallucination in LLMs",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277458",
+      "topics": [
+        "LLM",
+        "Hallucination",
+        "Entity",
+        "Structured Data"
+      ],
+      "title": "LMDX: Language Model-based Document Information Extraction and Localization",
+      "slug": "lmdx-language-model-based-document-information-extraction-and-localization",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2024-05-24T05:20:31+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "LMDX: ..Document Information Extraction and Localization",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277209",
+      "topics": [
+        "LLM",
+        "Data"
+      ],
+      "title": "  SlimPajama-DC: Understanding Data Combinations for LLM Training",
+      "slug": "accelerating-llm-inference-with-staged-speculative-decoding",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-04T23:43:32+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "  SlimPajama-DC: Understanding Data Combos for LLM Training",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+        }
+      }
+    },
+    {
+      "id": "198277109",
+      "topics": [
+        "LLM",
+        "Reasoning"
+      ],
+      "title": "Contrastive Decoding Improves Reasoning in Large Language Models",
+      "slug": "pde-refiner-achieving-accurate-long-rollouts-with-neural-pde-solvers",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-04T22:18:11+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "Contrastive Decoding Improves Reasoning in LLMs",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198277099",
+      "topics": [
+        "LLM",
+        "Multilingual",
+        "Data"
+      ],
+      "title": "CulturaX: A Cleaned, Enormous, and Multilingual Dataset for Large Language Models in 167 Languages",
+      "slug": "pde-refiner-achieving-accurate-long-rollouts-with-neural-pde-solvers",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-04T22:14:53+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "CulturaX: A Cleaned, Enormous, and Multilingual Dataset...",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+        }
+      }
+    },
+    {
+      "id": "198044929",
+      "topics": [
+        "LLM",
+        "Data",
+        "Agents"
+      ],
+      "title": "A Data Source for Reasoning Embodied Agents",
+      "slug": "accelerating-llm-inference-with-staged-speculative-decoding",
+      "authorName": "Prof. Otto Nomos",
+      "authorPicture": {
+        "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+      },
+      "_publishedAt": "2023-10-04T07:33:25+01:00",
+      "description": "Abstract Commentary & Rating",
+      "thumbnail": {
+        "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+      },
+      "seo": {
+        "description": "Abstract Commentary & Rating\n",
+        "title": "A Data Source for Reasoning Embodied Agents",
+        "twitterCard": null,
+        "image": {
+          "width": 1456,
+          "height": 816,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
+        }
+      }
+    }
+  ],
+  "blogContent": {
+    "id": "189577629",
+    "topics": [
+      "LLM",
+      "Alignment",
+      "Survey",
+      "Evaluation"
+    ],
+    "title": "Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment",
+    "slug": "trustworthy-llms-a-survey-and-guideline-for-evaluating-large-language-models-alig",
+    "authorName": "Prof. Otto Nomos",
+    "authorPicture": {
+      "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+    },
+    "_publishedAt": "2023-10-02T05:45:28+01:00",
+    "description": "Abstract Commentary & Rating",
+    "thumbnail": {
+      "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+    },
+    "contentBlock": [
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Published on Aug 9\n\nAuthors:Yang Liu,"
+                    },
+                    {
+                      "url": "https://huggingface.co/kevinyaoresearch",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Yuanshun Yao"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ",Jean-Francois Ton,Xiaoying Zhang,Ruocheng Guo Hao Cheng,Yegor Klochkov,"
+                    },
+                    {
+                      "url": "https://huggingface.co/faaizt",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "Muhammad Faaiz Taufiq"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": ",Hang Li"
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Abstract"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Ensuring alignment, which refers to making models behave in accordance with human intentions [1,2], has become a critical task before deploying large language models (LLMs) in real-world applications. For instance, OpenAI devoted six months to iteratively aligning GPT-4 before its release [3]. However, a major challenge faced by practitioners is the lack of clear guidance on evaluating whether LLM outputs align with social norms, values, and regulations. This obstacle hinders systematic iteration and deployment of LLMs. To address this issue, this paper presents a comprehensive survey of key dimensions that are crucial to consider when assessing LLM trustworthiness. The survey covers seven major categories of LLM trustworthiness: reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness. Each major category is further divided into several sub-categories, resulting in a total of 29 sub-categories. Additionally, a subset of 8 sub-categories is selected for further investigation, where corresponding measurement studies are designed and conducted on several widely-used LLMs. The measurement results indicate that, in general, more aligned models tend to perform better in terms of overall trustworthiness. However, the effectiveness of alignment varies across the different trustworthiness categories considered. This highlights the importance of conducting more fine-grained analyses, testing, and making continuous improvements on LLM alignment. By shedding light on these key dimensions of LLM trustworthiness, this paper aims to provide valuable insights and guidance to practitioners in the field. Understanding and addressing these concerns will be crucial in achieving reliable and ethically sound deployment of LLMs in various applications."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "url": "https://arxiv.org/abs/2308.05374",
+                      "meta": [
+                        {
+                          "id": "rel",
+                          "value": "noreferrer"
+                        },
+                        {
+                          "id": "target",
+                          "value": "_blank"
+                        }
+                      ],
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "View arXiv page"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "value": " "
+                    }
+                  ]
+                },
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Commentary"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The paper \"Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment\" delves into the trustworthiness and alignment of large language models (LLMs), a topic of increasing importance as these models find their way into various real-world applications."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Significance"
+                    },
+                    {
+                      "type": "span",
+                      "value": ":"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Timeliness and Relevance"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": As the integration of LLMs into a variety of applications grows, ensuring their alignment with human intentions and societal norms becomes critical. This study directly addresses this need."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Comprehensiveness"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": By exploring seven major categories of LLM trustworthiness and breaking them down into 29 sub-categories, the paper provides a detailed and structured framework to understand and evaluate model behavior."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Practical Guidance"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": The paper doesn't just identify areas of concern, but also offers insights into how to evaluate them, acting as a guide for practitioners."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Empirical Analysis"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Conducting measurement studies on specific sub-categories adds empirical value to the theoretical framework, allowing for real-world insights on model behavior."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Impact"
+                    },
+                    {
+                      "type": "span",
+                      "value": ":"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Standardization"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": This paper could lay the groundwork for creating standardized benchmarks or evaluation metrics for assessing LLM alignment and trustworthiness."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Responsible Deployment"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": By providing clear guidance, the study can help developers and organizations ensure more responsible deployment of LLMs, mitigating potential risks and maximizing societal benefits."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Informed Decision Making"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Organizations looking to integrate LLMs into their applications can make better-informed decisions on which models to use or how to fine-tune them based on the dimensions of trustworthiness covered."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Continuous Improvement"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": By highlighting where alignment is effective and where it is lacking, the research can drive continuous improvements in LLM development, pushing the industry towards more aligned and trustworthy models."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Public Trust"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Providing clear guidelines and shedding light on LLM behavior can enhance public trust in these models, promoting their acceptance and utilization."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Considerations"
+                    },
+                    {
+                      "type": "span",
+                      "value": ":"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Granularity vs. Usability"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": While having 29 sub-categories provides a detailed framework, it might be overwhelming for some practitioners. Simplified or condensed versions might be needed for broader adoption."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Dynamic Nature of Trustworthiness"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Societal norms and values evolve over time. What's considered trustworthy today might not be so in the future. The framework might need periodic updates to stay relevant."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Considering the ever-increasing ubiquity of LLMs in various applications and the societal implications of their behaviors, the potential real-world impact of this paper is substantial. Given the importance of trustworthiness, alignment, and the comprehensive nature of this research, I'd rate the potential real-world impact of this paper as "
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "9"
+                    },
+                    {
+                      "type": "span",
+                      "value": " out of 10. Establishing clear guidelines for evaluating LLMs is essential for their ethical and effective deployment, and this paper provides a solid foundation for that."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "researchpaper9",
+            "height": 816,
+            "width": 1456,
+            "filename": "researchpaper9.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+          }
+        ]
+      }
+    ],
+    "seo": {
+      "description": "Abstract Commentary & Rating\n",
+      "title": "Trustworthy LLMs: a Survey and Guideline ...",
+      "twitterCard": null,
+      "image": {
+        "width": 1456,
+        "height": 816,
+        "title": null,
+        "alt": null,
+        "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
+      }
+    }
+  },
+  "topics": [
+    "LLM",
+    "Alignment",
+    "Survey",
+    "Evaluation"
+  ],
+  "shortLink": ""
+}

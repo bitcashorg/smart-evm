@@ -2,7 +2,11 @@
   "relatedBlogs": [
     {
       "id": "190259319",
-      "topics": ["Summary", "LLM", "Training"],
+      "topics": [
+        "Summary",
+        "LLM",
+        "Training"
+      ],
       "title": "Latent Space Podcast 8/16/23 [Summary] - The Mathematics of Training LLMs — with Quentin Anthony of Eleuther AI",
       "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
       "authorName": "Prof. Otto Nomos",
@@ -29,7 +33,12 @@
     },
     {
       "id": "190259129",
-      "topics": ["LLM", "Hardware", "Summary", "Edge"],
+      "topics": [
+        "LLM",
+        "Hardware",
+        "Summary",
+        "Edge"
+      ],
       "title": "Latent Space Podcast 8/10/23 [Summary]: LLMs Everywhere: Running 70B models in browsers and iPhones using MLC — with Tianqi Chen of CMU / OctoML",
       "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
       "authorName": "Prof. Otto Nomos",
@@ -56,7 +65,13 @@
     },
     {
       "id": "190259087",
-      "topics": ["Summary", "LLM", "Code", "Open Source", "Small Models"],
+      "topics": [
+        "Summary",
+        "LLM",
+        "Code",
+        "Open Source",
+        "Small Models"
+      ],
       "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
       "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
       "authorName": "Prof. Otto Nomos",
@@ -83,7 +98,12 @@
     },
     {
       "id": "190259111",
-      "topics": ["Summary", "Transformers", "Training", "Open Source"],
+      "topics": [
+        "Summary",
+        "Transformers",
+        "Training",
+        "Open Source"
+      ],
       "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
       "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
       "authorName": "Prof. Otto Nomos",
@@ -110,7 +130,12 @@
     },
     {
       "id": "190259172",
-      "topics": ["Summary", "LLM", "Open Source", "Small Models"],
+      "topics": [
+        "Summary",
+        "LLM",
+        "Open Source",
+        "Small Models"
+      ],
       "title": "Latent Space Podcast 7/19/23 [Summary] - Llama 2: The New Open LLM SOTA (ft. Nathan Lambert, Matt Bornstein, Anton Troynikov, Russell Kaplan, Whole Mars Catalog et al.)",
       "slug": "latent-space-podcast-7-19-23-summary-llama-2-the-new-open-llm-sota-ft-nathan-lamb",
       "authorName": "Prof. Otto Nomos",
@@ -137,7 +162,11 @@
     },
     {
       "id": "190259191",
-      "topics": ["Summary", "Code", "LLM"],
+      "topics": [
+        "Summary",
+        "Code",
+        "LLM"
+      ],
       "title": "Latent Space Podcast 7/10/23 [Summary] - Code Interpreter == GPT 4.5 (w/ Simon Willison, Alex Volkov, Aravind Srinivas, Alex Graveley, et al.)",
       "slug": "latent-space-podcast-7-10-23-summary-code-interpreter-gpt-4-5-w-simon-willison-al",
       "authorName": "Prof. Otto Nomos",
@@ -164,7 +193,10 @@
     },
     {
       "id": "190259216",
-      "topics": ["Summary", "Open Source"],
+      "topics": [
+        "Summary",
+        "Open Source"
+      ],
       "title": "Latent Space Podcast 7/2/23 [Summary] AI Trends: a Latent Space x Practical AI crossover pod!",
       "slug": "latent-space-podcast-7-2-23-summary-ai-trends-a-latent-space-x-practical-ai-cross",
       "authorName": "Prof. Otto Nomos",
@@ -191,7 +223,11 @@
     },
     {
       "id": "190259238",
-      "topics": ["Hardware", "LLM", "Summary"],
+      "topics": [
+        "Hardware",
+        "LLM",
+        "Summary"
+      ],
       "title": "Latent Space Podcast 6/20/23 [Summary] - Commoditizing the Petaflop — with George Hotz of the tiny corp",
       "slug": "latent-space-podcast-6-20-23-summary-commoditizing-the-petaflop-with-george-ho",
       "authorName": "Prof. Otto Nomos",
@@ -218,7 +254,11 @@
     },
     {
       "id": "190259294",
-      "topics": ["LLM", "Functions", "Summary"],
+      "topics": [
+        "LLM",
+        "Functions",
+        "Summary"
+      ],
       "title": "Latent Space Podcast 6/14/23 [Summary] - Emergency Pod: OpenAI's new Functions API, 75% Price Drop, 4x Context Length (w/ Alex Volkov, Simon Willison, Riley Goodside, Joshua Lochner, Stefania Druga, Eric Elliott, Mayo Oshin et al)",
       "slug": "latent-space-podcast-6-14-23-summary-emergency-pod-openai-s-new-functions-api-75",
       "authorName": "Prof. Otto Nomos",
@@ -245,7 +285,11 @@
     },
     {
       "id": "190259333",
-      "topics": ["LLM", "Summary", "UX"],
+      "topics": [
+        "LLM",
+        "Summary",
+        "UX"
+      ],
       "title": "Latent Space Podcast 6/8/23 [Summary] - From RLHF to RLHB: The Case for Learning from Human Behavior - with Jeffrey Wang and Joe Reeve of Amplitude",
       "slug": "latent-space-podcast-6-8-23-summary-from-rlhf-to-rlhb-the-case-for-learning-from",
       "authorName": "Prof. Otto Nomos",
@@ -272,7 +316,11 @@
     },
     {
       "id": "190260528",
-      "topics": ["Summary", "LLM", "UX"],
+      "topics": [
+        "Summary",
+        "LLM",
+        "UX"
+      ],
       "title": "Latent Space Podcast 6/1/23 [Summary] - Building the AI × UX Scenius — with Linus Lee of Notion AI",
       "slug": "latent-space-podcast-6-1-23-summary-building-the-ai-x-ux-scenius-with-linus-le",
       "authorName": "Prof. Otto Nomos",
@@ -299,7 +347,12 @@
     },
     {
       "id": "190260557",
-      "topics": ["Summary", "Code", "LLM", "Agents"],
+      "topics": [
+        "Summary",
+        "Code",
+        "LLM",
+        "Agents"
+      ],
       "title": "Latent Space Podcast 5/25/23 [Summary] - Debugging the Internet with AI agents – with Itamar Friedman of Codium AI and AutoGPT",
       "slug": "latent-space-podcast-5-25-23-summary-debugging-the-internet-with-ai-agents-with",
       "authorName": "Prof. Otto Nomos",
@@ -326,7 +379,10 @@
     },
     {
       "id": "190260577",
-      "topics": ["LLM", "Small Models"],
+      "topics": [
+        "LLM",
+        "Small Models"
+      ],
       "title": "Latent Space Podcast 5/20/23 [Summary] - MPT-7B and The Beginning of Context=Infinity — with Jonathan Frankle and Abhinav Venigalla of MosaicML",
       "slug": "latent-space-podcast-5-20-23-summary-mpt-7b-and-the-beginning-of-context-infinity",
       "authorName": "Prof. Otto Nomos",
@@ -353,7 +409,10 @@
     },
     {
       "id": "190260597",
-      "topics": ["LLM", "Structured Data"],
+      "topics": [
+        "LLM",
+        "Structured Data"
+      ],
       "title": "Latent Space Podcast 5/15/23 [Summary] - Guaranteed quality and structure in LLM outputs - with Shreya Rajpal of Guardrails AI",
       "slug": "latent-space-podcast-5-15-23-summary-guaranteed-quality-and-structure-in-llm-outp",
       "authorName": "Prof. Otto Nomos",
@@ -380,7 +439,12 @@
     },
     {
       "id": "190260606",
-      "topics": ["LLM", "Training", "Agents", "Multimodal"],
+      "topics": [
+        "LLM",
+        "Training",
+        "Agents",
+        "Multimodal"
+      ],
       "title": "Latent Space Podcast 5/8/23 [Summary] - The AI Founder Gene: Being Early, Building Fast, and Believing in Greatness — with Sharif Shameem of Lexica",
       "slug": "latent-space-podcast-5-8-23-summary-the-ai-founder-gene-being-early-building-fast",
       "authorName": "Prof. Otto Nomos",
@@ -407,7 +471,11 @@
     },
     {
       "id": "190260640",
-      "topics": ["Summary", "Open Source", "LLM"],
+      "topics": [
+        "Summary",
+        "Open Source",
+        "LLM"
+      ],
       "title": "Latent Space Podcast 5/5/23 [Summary] - No Moat: Closed AI gets its Open Source wakeup call — ft. Simon Willison",
       "slug": "latent-space-podcast-5-5-23-summary-no-moat-closed-ai-gets-its-open-source-wakeup",
       "authorName": "Prof. Otto Nomos",
@@ -434,7 +502,11 @@
     },
     {
       "id": "190260671",
-      "topics": ["LLM", "Code", "Summary"],
+      "topics": [
+        "LLM",
+        "Code",
+        "Summary"
+      ],
       "title": "Latent Space Podcast 5/3/23 [Summary] - Training a SOTA Code LLM in 1 week and Quantifying the Vibes — with Reza Shabani of Replit",
       "slug": "latent-space-podcast-5-3-23-summary-training-a-sota-code-llm-in-1-week-and-quanti",
       "authorName": "Prof. Otto Nomos",
@@ -461,7 +533,11 @@
     },
     {
       "id": "190629271",
-      "topics": ["LLM", "Small Models", "Summary"],
+      "topics": [
+        "LLM",
+        "Small Models",
+        "Summary"
+      ],
       "title": "Latent Space Podcast 4/28/23 [Summary] - Mapping the future of *truly* Open Models and Training Dolly for $30 — with Mike Conover of Databricks",
       "slug": "latent-space-podcast-4-28-23-summary-mapping-the-future-of-truly-open-models-and",
       "authorName": "Prof. Otto Nomos",
@@ -488,7 +564,10 @@
     },
     {
       "id": "191165673",
-      "topics": ["Summary", "Vision"],
+      "topics": [
+        "Summary",
+        "Vision"
+      ],
       "title": "Latent Space Podcast 4/13/23 [Summary] - Segment Anything Model and the Hard Problems of Computer Vision — with Joseph Nelson of Roboflow",
       "slug": "latent-space-podcast-4-13-23-summary-segment-anything-model-and-the-hard-problems",
       "authorName": "Prof. Otto Nomos",
@@ -516,7 +595,11 @@
   ],
   "blogContent": {
     "id": "191164291",
-    "topics": ["LLM", "Enterprise", "Summary"],
+    "topics": [
+      "LLM",
+      "Enterprise",
+      "Summary"
+    ],
     "title": "Latent Space Podcast 4/21/23 [Summary] - AI-powered Search for the Enterprise — with Deedy Das of Glean",
     "slug": "latent-space-podcast-4-21-23-summary-ai-powered-search-for-the-enterprise-with",
     "authorName": "Prof. Otto Nomos",
@@ -561,7 +644,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Summary"
                     }
                   ]
@@ -571,7 +656,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Introduction"
                     },
                     {
@@ -585,7 +672,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "About Deedy Das"
                     },
                     {
@@ -661,7 +750,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "The Origin and Evolution of Glean"
                     },
                     {
@@ -675,7 +766,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "From Syntactic to Semantic Search"
                     },
                     {
@@ -731,7 +824,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Challenges of Employee Portals Like Glean:"
                     },
                     {
@@ -745,7 +840,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Enterprise Search Technology:"
                     },
                     {
@@ -759,7 +856,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Glean Chat and Future Products:"
                     },
                     {
@@ -773,7 +872,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Google vs. ChatGPT:"
                     },
                     {
@@ -820,7 +921,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Freshness in Search:"
                     }
                   ]
@@ -864,7 +967,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Ad Revenue Implications:"
                     }
                   ]
@@ -936,7 +1041,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Latency Concerns:"
                     }
                   ]
@@ -994,7 +1101,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Accuracy and Memorization:"
                     }
                   ]
@@ -1038,7 +1147,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Tool Use and LLMs (Large Language Models):"
                     }
                   ]
@@ -1096,7 +1207,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Other AI Search Tools - Perplexity and Neeva:"
                     }
                   ]
@@ -1183,7 +1296,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "The Challenge with Document QA and LM Startups"
                     }
                   ]
@@ -1203,7 +1318,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Investment in AI Startups"
                     }
                   ]
@@ -1223,7 +1340,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Emerging Ideas in AI"
                     }
                   ]
@@ -1243,7 +1362,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "The Ultimate AI Dream: Harry Potter IRL"
                     }
                   ]
@@ -1375,7 +1496,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "AI Models and Text Watermarking:"
                     },
                     {
@@ -1389,7 +1512,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Examination Fraud and Data Anomalies:"
                     },
                     {
@@ -1403,7 +1528,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Comparative Insight:"
                     },
                     {
@@ -1441,7 +1568,9 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "Lightning Round"
                     }
                   ]
@@ -1503,5 +1632,10 @@
       }
     }
   },
-  "topics": ["LLM", "Enterprise", "Summary"]
+  "topics": [
+    "LLM",
+    "Enterprise",
+    "Summary"
+  ],
+  "shortLink": ""
 }

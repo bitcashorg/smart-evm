@@ -2,15 +2,18 @@
   "relatedBlogs": [],
   "blogContent": {
     "id": "198277345",
-    "topics": ["大语言模型", "多语言"],
-    "title": "百川2：开放大规模语言模型",
+    "topics": [
+      "LLM",
+      "Multilingual"
+    ],
+    "title": "Baichuan 2: Open Large-scale Language Models",
     "slug": "baichuan-2-open-large-scale-language-models",
     "authorName": "Prof. Otto Nomos",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
     },
     "_publishedAt": "2024-05-24T05:59:10+01:00",
-    "description": "摘要评论和评分",
+    "description": "Abstract Commentary & Rating",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
     },
@@ -228,7 +231,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Multilingual LLM"
                             },
                             {
@@ -247,7 +252,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Significant Scale"
                             },
                             {
@@ -266,7 +273,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Benchmark Performance"
                             },
                             {
@@ -285,7 +294,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Domain Specialization"
                             },
                             {
@@ -304,7 +315,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Open-Source Availability"
                             },
                             {
@@ -338,7 +351,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Wide Applicability"
                             },
                             {
@@ -357,7 +372,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "High-Value Domains"
                             },
                             {
@@ -376,7 +393,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Research Impetus"
                             },
                             {
@@ -395,7 +414,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Reduced Feature Engineering"
                             },
                             {
@@ -429,7 +450,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Resource Intensiveness"
                             },
                             {
@@ -448,7 +471,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Potential Biases"
                             },
                             {
@@ -506,8 +531,8 @@
       }
     ],
     "seo": {
-      "description": "摘要评论和评分",
-      "title": "百川2：开放大规模语言模型",
+      "description": "Abstract Commentary & Rating\n",
+      "title": "Baichuan 2: Open Large-scale Language Models",
       "twitterCard": null,
       "image": {
         "width": 1456,
@@ -518,5 +543,12 @@
       }
     }
   },
-  "topics": ["大语言模型", "多语言"]
+  "topics": [
+    "LLM",
+    "Multilingual"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

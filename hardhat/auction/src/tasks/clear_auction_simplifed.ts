@@ -21,29 +21,42 @@ export const clearAuctionSimplified: () => void = () => {
       console.log(`Using the account: ${caller.address}`)
 
       const easyAuction = await getEasyAuctionContract(hardhatRuntime)
-      const auctionEndDate = await getAuctionEndTimeStamp(easyAuction, taskArgs.auctionId)
+      const auctionEndDate = await getAuctionEndTimeStamp(
+        easyAuction,
+        taskArgs.auctionId,
+      )
       if (auctionEndDate.gt(BigNumber.from(Math.floor(+new Date() / 1000)))) {
         throw new Error('Auction not yet ended')
       }
       if (taskArgs.numberOfOrdersToClear > PRECALCULATION_ITERATION_STEPS) {
         console.log(
           'The on-chain price calculation will be split into ',
-          Math.floor(taskArgs.numberOfOrdersToClear / PRECALCULATION_ITERATION_STEPS),
+          Math.floor(
+            taskArgs.numberOfOrdersToClear / PRECALCULATION_ITERATION_STEPS,
+          ),
           ' separate txs',
         )
         for (
           let i = 0;
-          i < Math.floor(taskArgs.numberOfOrdersToClear / PRECALCULATION_ITERATION_STEPS);
+          i <
+          Math.floor(
+            taskArgs.numberOfOrdersToClear / PRECALCULATION_ITERATION_STEPS,
+          );
           i++
         ) {
           const tx = await easyAuction
             .connect(caller)
-            .precalculateSellAmountSum(taskArgs.auctionId, PRECALCULATION_ITERATION_STEPS)
+            .precalculateSellAmountSum(
+              taskArgs.auctionId,
+              PRECALCULATION_ITERATION_STEPS,
+            )
           const txResult = await tx.wait()
           console.log(txResult)
         }
       }
-      const tx = await easyAuction.connect(caller).settleAuction(taskArgs.auctionId)
+      const tx = await easyAuction
+        .connect(caller)
+        .settleAuction(taskArgs.auctionId)
       const txResult = await tx.wait()
       console.log(txResult)
     })

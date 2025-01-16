@@ -3,29 +3,28 @@ import Negotiator from 'negotiator'
 import { createMiddlewareClient } from '@supabase/auth-helpers-nextjs'
 import { type NextRequest, NextResponse } from 'next/server'
 import { defaultLocale, locales } from './dictionaries/locales'
+import { cookies } from 'next/headers'
 
-export async function middleware(request: NextRequest) {
-  // Create response
-  const response = NextResponse.next()
-  
-  // Create Supabase client and refresh session
-  const supabase = createMiddlewareClient({ req: request, res: response })
-  await supabase.auth.getSession()
-
+export function middleware(request: NextRequest) {
+  const cookieStore = cookies()
   // Handle Locale
-  const { pathname } = request.nextUrl
+  const { pathname, ...rest } = request.nextUrl
 
   const hasLang = locales.some(
     (lang) => pathname.startsWith(`/${lang}/`) || pathname === `/${lang}`,
   )
 
-  if (hasLang) return response
+  let response: NextResponse
 
-  // Get locale and redirect if needed
-  const lang = getLocale(request)
-  request.nextUrl.pathname = `/${lang}${pathname}`
+  if (hasLang) {
+    response = NextResponse.next({ request })
+  } else {
+    const lang = getLocale(request)
+    request.nextUrl.pathname = `/${lang}${pathname}`
+    response = NextResponse.redirect(request.nextUrl)
+  }
 
-  return NextResponse.redirect(request.nextUrl)
+  return response
 }
 
 function getLocale(request: NextRequest): string {
@@ -43,7 +42,6 @@ function getLocale(request: NextRequest): string {
 
 export const config = {
   matcher: [
-    // Matcher that includes files needed for both locale and auth
-    '/((?!_next/static|_next/image|images|api|studio|media|favicon.ico).*)',
+    '/((?!_next|_nextjs|images|api|studio|workers|media|favicon.ico|__nextjs_original-stack-frame).*)',
   ],
 }

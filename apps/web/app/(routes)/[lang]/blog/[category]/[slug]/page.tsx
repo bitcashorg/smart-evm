@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { generateShortLink } from '@/app/actions/general'
 import { BlogPage } from '@/components/routes/blog/article'
 import { type Lang, locales } from '@/dictionaries/locales'
@@ -30,7 +32,9 @@ export default async function ArticlePage(props: ArticlePageProps) {
   )
 }
 
-export async function generateMetadata(props: ArticlePageProps): Promise<Metadata> {
+export async function generateMetadata(
+  props: ArticlePageProps,
+): Promise<Metadata> {
   const {
     params: { lang, category, slug },
   } = props

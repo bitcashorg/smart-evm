@@ -353,7 +353,7 @@ export const whitepaper = {
     },
     {
       type: 'p',
-      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org',
+      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitlauncher Telegram: https://t.me/bitcash_org',
     },
     { type: 'h1', text: 'Glosario' },
     {
@@ -363,7 +363,7 @@ export const whitepaper = {
     { type: 'h1', text: 'Información de Contacto' },
     {
       type: 'p',
-      text: 'Para más consultas, soporte o información adicional sobre la plataforma Bitcash y la venta de tokens, utilice los siguientes canales para comunicarse con nosotros: Soporte General y Consultas: Email: support@bitcash.org Medios de Comunicación y Prensa: Email: press@bitcash.org Soporte para Desarrolladores: Email: developers@bitcash.org Redes Sociales: Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org Para actualizaciones en tiempo real y anuncios, síganos en nuestras plataformas de redes sociales y únase a nuestras discusiones comunitarias. Estamos comprometidos con la transparencia y la comunicación abierta y esperamos su participación y comentarios. Si encuentra algún problema o necesita asistencia durante el proceso de participación o posteriormente, nuestro equipo de soporte dedicado está disponible para ayudarlo a resolver sus consultas de manera rápida y eficiente.',
+      text: 'Para más consultas, soporte o información adicional sobre la plataforma Bitcash y la venta de tokens, utilice los siguientes canales para comunicarse con nosotros: Soporte General y Consultas: Email: support@bitcash.org Medios de Comunicación y Prensa: Email: press@bitcash.org Soporte para Desarrolladores: Email: developers@bitcash.org Redes Sociales: Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitlauncher Telegram: https://t.me/bitcash_org Para actualizaciones en tiempo real y anuncios, síganos en nuestras plataformas de redes sociales y únase a nuestras discusiones comunitarias. Estamos comprometidos con la transparencia y la comunicación abierta y esperamos su participación y comentarios. Si encuentra algún problema o necesita asistencia durante el proceso de participación o posteriormente, nuestro equipo de soporte dedicado está disponible para ayudarlo a resolver sus consultas de manera rápida y eficiente.',
     },
   ] as PageContentData,
 }

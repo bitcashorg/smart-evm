@@ -1,20 +1,22 @@
 {
   "sections": [
     {
-      "name": "ban phong",
+      "name": "launchpad",
       "slug": "launchpad",
       "articles": [
         {
           "id": "CD89KaoLSh6nQbiMhxX0EQ",
-          "topics": ["ban phong"],
-          "title": "Dam bao Tin cay va Toan ven: Tuan thu Quy dinh va Bien phap An ninh",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "Ensuring Trust and Integrity: Regulatory Compliance and Security Measures",
           "slug": "ensuring-trust-and-integrity-regulatory-compliance-and-security-measures",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-06-20T16:21:42+01:00",
-          "description": "Phan nay trinh bay cach tiep can chu dong cua nen tang chung toi trong viec tuan thu cac tieu chuan quy dinh toan cau va thuc hien cac bien phap an ninh tien tien, dam bao moi truong an toan va tuan thu cho nguoi dung trong linh vuc tien ma hoa va AI.",
+          "description": "This section outlines our platform's proactive approach to adhering to global regulatory standards and implementing advanced security measures, ensuring a safe and compliant environment for users in the crypto and AI spaces.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1710562461-bitlauncherregsecimg.webp"
           },
@@ -34,15 +36,17 @@
         },
         {
           "id": "fbM-UqrYQXGhw6HB4C6swQ",
-          "topics": ["ban phong"],
-          "title": "Lo trinh chien luoc: Tien phong trong doi moi Blockchain va thanh cong cua cac cong ty khoi nghiep AI",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "Strategic Roadmap: Pioneering Blockchain Innovation and AI Startup Success",
           "slug": "strategic-roadmap-pioneering-blockchain-innovation-and-ai-startup-success",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-15T05:13:30+00:00",
-          "description": "Phan bo ke hoach theo giai doan cua bitLauncher nham trien khai cong nghe dot pha, tang truong dua tren cong dong, va phat trien chuoi Antelope cong bang, nham cach mang hoa canh quan AI va tien ma hoa.",
+          "description": "Outlining bitLauncher's phased plan for groundbreaking technology deployment, community-driven growth, and the development of the equitable Antelope chain, to revolutionize the AI and cryptocurrency landscapes.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1710479575-roadmapbitlauncher.webp"
           },
@@ -62,15 +66,17 @@
         },
         {
           "id": "I4jShMnWRruvJgDbrucwDw",
-          "topics": ["ban phong"],
-          "title": "Nen tang cong nghe cua bitLauncher",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "The Technological Backbone of bitLauncher",
           "slug": "the-technological-backbone-of-bitcash-launchpad",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:33:20+00:00",
-          "description": "Phan nay mo ta chi tiet viec bitLauncher tich hop cac cong nghe blockchain tien tien va cac cong cu doi moi, bao gom thanh toan Bitcash, quan tri DAO, va tam nhin blockchain phi loi nhuan, tao nen tang cho su phat trien minh bach, an toan va cong bang cua cac startup AI.",
+          "description": "This section details bitLauncher's integration of cutting-edge blockchain technologies and innovative tools, including Bitcash payments, DAO governance, and a non-profit blockchain vision, setting the stage for transparent, secure, and equitable AI startup growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1710011354-techsectionwpimg.webp"
           },
@@ -90,15 +96,17 @@
         },
         {
           "id": "BEfgGhndSsCn5MBU89RO3A",
-          "topics": ["ban phong"],
-          "title": "Thuc day doi moi sang tao: Tam nhin, Su menh va Muc tieu Chien luoc cua bitLauncher",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "Empowering Innovation: Vision, Mission, and Strategic Goals of bitLauncher",
           "slug": "empowering-innovation-vision-mission-and-strategic-goals-of-bitcash-launchpad",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:31:29+00:00",
-          "description": "Phan nay trinh bay tam nhin cua bitcash Launchpad nham cach mang hoa doi moi sang tao AI voi tien dien tu, mo ta chi tiet su menh cua chung toi trong viec dan chu hoa phat trien AI va cac muc tieu chien luoc de tao ra mot tuong lai cong nghe do cong dong thuc day, minh bach va dao duc.",
+          "description": "This section outlines bitcash Launchpad's vision to revolutionize AI innovation with cryptocurrency, detailing our mission to democratize AI development and our strategic goals for creating a community-driven, transparent, and ethical technological future.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709370139-whitepaper-p4.webp"
           },
@@ -118,15 +126,20 @@
         },
         {
           "id": "NZeB3i5XRzuELW2UWBDyRQ",
-          "topics": ["nghien cuu", "dao", "gay quy", "nen tang phat hanh"],
-          "title": "Dieu huong su hoi tu: Phan tich thi truong toan dien ve dong thai cua AI va tien dien tu",
+          "topics": [
+            "research",
+            "dao",
+            "fundraising",
+            "launchpad"
+          ],
+          "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
           "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:30:05+00:00",
-          "description": "Phan nay kham pha su giao thoa nang dong giua AI va tien dien tu, nhan manh cac xu huong, thach thuc va co hoi chinh, dong thoi dinh vi bitcash Launchpad nhu mot nen tang tien phong cho cac du an AI ma nguon mo.",
+          "description": "This section explores the dynamic intersection of AI and cryptocurrency, highlighting key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
           },
@@ -146,15 +159,19 @@
         },
         {
           "id": "VgGHDFI9T9qzTCHPAm5WLg",
-          "topics": ["dao", "goi von", "nen tang phat hanh"],
-          "title": "Trao quyen cho cac ky lan AI nguon mo the he tiep theo: Mot nen tang phat hanh cach mang",
+          "topics": [
+            "dao",
+            "fundraising",
+            "launchpad"
+          ],
+          "title": "Empowering Next-Gen Open-Source AI Unicorns: A Revolutionary Launchpad ",
           "slug": "empowering-next-gen-open-source-ai-unicorns-a-revolutionary-launchpad",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:28:42+00:00",
-          "description": "Gioi thieu sach trang bitLauncher",
+          "description": "bitLauncher Whitepaper Introduction",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709177635-whitepaperintroimage.webp"
           },
@@ -174,15 +191,17 @@
         },
         {
           "id": "MICfokr1TVuScAB4Qh9YGw",
-          "topics": ["ban phong"],
-          "title": "Thuc day doi moi: Chien luoc tai chinh va tokenomics cua bitcash",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "Empowering Innovation: Tokenomics and Funding Strategy of bitcash",
           "slug": "empowering-innovation-tokenomics-and-funding-strategy-of-bitcash",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:27:37+00:00",
-          "description": "Phan nay mo ta mo hinh token tien ich duc va dot cua bitcash va cach tiep can chien luoc cua no doi voi viec tai tro cong bang va tang truong gia tri, ho tro su menh cua ban phong trong viec thuc day phat trien AI voi tokenomics minh bach va ben vung.",
+          "description": "This section details bitcash's mint-and-burn utility token model and its strategic approach to equitable funding and value growth, underpinning the launchpad's mission to empower AI development with transparent and sustainable tokenomics.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1710053905-tokenomicswpimg.webp"
           },
@@ -202,15 +221,17 @@
         },
         {
           "id": "BSDdY8byQWipv749rApFRA",
-          "topics": ["ban phong"],
-          "title": "Mo khoa Tiem nang: Cac truong hop Su dung va Ung dung cua bitLauncher",
+          "topics": [
+            "launchpad"
+          ],
+          "title": "Unlocking Potential: Use Cases and Applications of bitLauncher",
           "slug": "unlocking-potential-use-cases-and-applications-of-bitlauncher",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:26:22+00:00",
-          "description": "Phan nay kham pha cach bitLauncher cach mang hoa viec tai tro khoi nghiep AI va tiep can thi truong toan cau, gioi thieu cac mo hinh ma nguon mo ben vung, van hoa khoi nghiep chien luoc, va he sinh thai nha dau tu toan cau thong qua cac truong hop su dung muc tieu va du an tien phong Masterbots.ai.",
+          "description": "This section explores how bitLauncer revolutionizes AI startup funding and global market access, showcasing sustainable open-source models, strategic startup culture, and the global investor ecosystem through targeted use cases and the pioneering Masterbots.ai project.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1710393954-usecaseappsimg.webp"
           },
@@ -231,20 +252,22 @@
       ]
     },
     {
-      "name": "huong dan",
+      "name": "how_to",
       "slug": "how_to",
       "articles": [
         {
           "id": "H_DP7HFORBuw9rID5Jkhhw",
-          "topics": ["huong_dan"],
-          "title": "Cach dang ky va xac minh KYC tren Bitcash",
+          "topics": [
+            "how_to"
+          ],
+          "title": "How to Register and KYC to Bitcash",
           "slug": "how-to-register-and-kyc-to-bitcash",
           "authorName": "Roberto \"Andler\" Lucas",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1715639160-andler-file-photo.jpg"
           },
           "_publishedAt": "2024-06-20T16:20:40+01:00",
-          "description": "Chung toi dang de cap den mot loat cac chu de, bao gom dang ky tai khoan Bitcash, thiet lap ten tai khoan va nguoi gioi thieu, xac dinh va bao mat thiet bi, cung cap giay to tuy than va thong tin ca nhan cho KYC, chup anh de xac minh KYC, va cho doi phe duyet va tham gia cong dong.",
+          "description": "We are covering a range of topics, including registering for a Bitcash account, setting up an account name and referrer, identifying and securing devices, providing identification and personal information for KYC, taking photos for KYC verification, and waiting for approval and joining the community.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1715638953-bitcash-logo-frame-w-bg.png"
           },
@@ -265,20 +288,25 @@
       ]
     },
     {
-      "name": "nghien cuu",
+      "name": "research",
       "slug": "research",
       "articles": [
         {
           "id": "NZeB3i5XRzuELW2UWBDyRQ",
-          "topics": ["nghien cuu", "dao", "gay quy", "nen tang phat hanh"],
-          "title": "Dieu huong su hoi tu: Phan tich thi truong toan dien ve dong thai cua AI va tien dien tu",
+          "topics": [
+            "research",
+            "dao",
+            "fundraising",
+            "launchpad"
+          ],
+          "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
           "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:30:05+00:00",
-          "description": "Phan nay kham pha su giao thoa nang dong giua AI va tien dien tu, nhan manh cac xu huong, thach thuc va co hoi chinh, dong thoi dinh vi bitcash Launchpad nhu mot nen tang tien phong cho cac du an AI ma nguon mo.",
+          "description": "This section explores the dynamic intersection of AI and cryptocurrency, highlighting key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
           },
@@ -299,20 +327,25 @@
       ]
     },
     {
-      "name": "to chuc tu tri phi tap trung",
+      "name": "dao",
       "slug": "dao",
       "articles": [
         {
           "id": "NZeB3i5XRzuELW2UWBDyRQ",
-          "topics": ["nghien cuu", "dao", "gay quy", "nen tang phat hanh"],
-          "title": "Dieu huong su hoi tu: Phan tich thi truong toan dien ve dong thai cua AI va tien dien tu",
+          "topics": [
+            "research",
+            "dao",
+            "fundraising",
+            "launchpad"
+          ],
+          "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
           "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:30:05+00:00",
-          "description": "Phan nay kham pha su giao thoa nang dong giua AI va tien dien tu, nhan manh cac xu huong, thach thuc va co hoi chinh, dong thoi dinh vi bitcash Launchpad nhu mot nen tang tien phong cho cac du an AI ma nguon mo.",
+          "description": "This section explores the dynamic intersection of AI and cryptocurrency, highlighting key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
           },
@@ -332,15 +365,19 @@
         },
         {
           "id": "VgGHDFI9T9qzTCHPAm5WLg",
-          "topics": ["dao", "goi von", "nen tang phat hanh"],
-          "title": "Trao quyen cho cac ky lan AI nguon mo the he tiep theo: Mot nen tang phat hanh cach mang",
+          "topics": [
+            "dao",
+            "fundraising",
+            "launchpad"
+          ],
+          "title": "Empowering Next-Gen Open-Source AI Unicorns: A Revolutionary Launchpad ",
           "slug": "empowering-next-gen-open-source-ai-unicorns-a-revolutionary-launchpad",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:28:42+00:00",
-          "description": "Gioi thieu sach trang bitLauncher",
+          "description": "bitLauncher Whitepaper Introduction",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709177635-whitepaperintroimage.webp"
           },
@@ -361,20 +398,25 @@
       ]
     },
     {
-      "name": "gay quy",
+      "name": "fundraising",
       "slug": "fundraising",
       "articles": [
         {
           "id": "NZeB3i5XRzuELW2UWBDyRQ",
-          "topics": ["nghien cuu", "dao", "gay quy", "nen tang phat hanh"],
-          "title": "Dieu huong su hoi tu: Phan tich thi truong toan dien ve dong thai cua AI va tien dien tu",
+          "topics": [
+            "research",
+            "dao",
+            "fundraising",
+            "launchpad"
+          ],
+          "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
           "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:30:05+00:00",
-          "description": "Phan nay kham pha su giao thoa nang dong giua AI va tien dien tu, nhan manh cac xu huong, thach thuc va co hoi chinh, dong thoi dinh vi bitcash Launchpad nhu mot nen tang tien phong cho cac du an AI ma nguon mo.",
+          "description": "This section explores the dynamic intersection of AI and cryptocurrency, highlighting key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
           },
@@ -394,15 +436,19 @@
         },
         {
           "id": "VgGHDFI9T9qzTCHPAm5WLg",
-          "topics": ["dao", "goi von", "nen tang phat hanh"],
-          "title": "Trao quyen cho cac ky lan AI nguon mo the he tiep theo: Mot nen tang phat hanh cach mang",
+          "topics": [
+            "dao",
+            "fundraising",
+            "launchpad"
+          ],
+          "title": "Empowering Next-Gen Open-Source AI Unicorns: A Revolutionary Launchpad ",
           "slug": "empowering-next-gen-open-source-ai-unicorns-a-revolutionary-launchpad",
           "authorName": "Jun Dam",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
           },
           "_publishedAt": "2024-03-14T05:28:42+00:00",
-          "description": "Gioi thieu sach trang bitLauncher",
+          "description": "bitLauncher Whitepaper Introduction",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1709177635-whitepaperintroimage.webp"
           },
@@ -428,7 +474,9 @@
       "articles": [
         {
           "id": "IZK5RRvqQFWba2TpHx2ckA",
-          "topics": ["bitcoin"],
+          "topics": [
+            "bitcoin"
+          ],
           "title": "Dinh menh cho Cuoc cach mang Tien ao va Tri tue nhan tao nay",
           "slug": "destined-for-this-crypto-ai-revolution",
           "authorName": "Jun Dam",
@@ -464,7 +512,7 @@
       "title": "Bitcash | Bitcash Blog",
       "twitterCard": "summary_large_image"
     },
-    "description": "Thap sang doi moi trong cac du an Tien ao & Tri tue nhan tao",
+    "description": "Igniting Innovation in Crypto & AI Ventures",
     "title": "bitcash",
     "seoType": "bitcash",
     "id": "178642419",

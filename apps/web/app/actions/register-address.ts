@@ -11,7 +11,10 @@ const registerAddressSchema = z.object({
   address: z.string().refine((value) => isAddress(value), {
     message: 'Invalid address format',
   }),
-  project_id: z.number().int().positive('Project ID must be a positive integer'),
+  project_id: z
+    .number()
+    .int()
+    .positive('Project ID must be a positive integer'),
   account: z
     .string()
     .min(1, 'Account is required')

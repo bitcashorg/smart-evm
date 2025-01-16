@@ -1,5 +1,5 @@
 import { eosEvmTestnet } from '@repo/chains'
-import { erc20Abi } from 'viem'
+import { type Chain, erc20Abi } from 'viem'
 import type { EVMTokenContractData } from '../../types'
 
 export const TestnetBLPL: EVMTokenContractData = {
@@ -11,6 +11,6 @@ export const TestnetBLPL: EVMTokenContractData = {
   chainId: 15557, // eos_evm
   chainType: 'evm',
   chainName: 'EOS EVM Tesnet',
-  chain: eosEvmTestnet,
+  chain: eosEvmTestnet as Chain,
   abi: erc20Abi,
 } as const

@@ -42,7 +42,7 @@ export function CommunityCard() {
             }),
             'text-md group relative flex size-14 min-h-14 min-w-14 rounded-full bg-pink-500 !p-0 font-bold hover:bg-pink-500',
           )}
-          aria-label={`View`}
+          aria-label={'View'}
         >
           <IconDownRightArrow
             strokeColor="white"

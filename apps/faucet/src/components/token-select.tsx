@@ -21,7 +21,8 @@ export function TokenSelect({ options, ...props }: TokenSelectParams) {
           <SelectLabel>Token</SelectLabel>
           {options.map((o, i) => (
             <SelectItem key={i} value={i.toString()}>
-              {o.symbol} on {!o.chainId || o.chainId === 15557 ? 'EOSEVM' : 'Sepolia'}
+              {o.symbol} on{' '}
+              {!o.chainId || o.chainId === 15557 ? 'EOSEVM' : 'Sepolia'}
             </SelectItem>
           ))}
         </SelectGroup>

@@ -142,7 +142,11 @@ const authorization = [
 ]
 
 export async function getEosBalance(account: string) {
-  const response = await eos.v1.chain.get_currency_balance('eosio.token', account, 'EOS')
+  const response = await eos.v1.chain.get_currency_balance(
+    'eosio.token',
+    account,
+    'EOS',
+  )
   return response[0]?.value.toString() || '0'
 }
 

@@ -1,5 +1,5 @@
-import * as fs from 'fs'
-import path from 'path'
+import * as fs from 'node:fs'
+import path from 'node:path'
 
 export function parseFile(filePath: string) {
   const fullPath = getFilePath(filePath)
@@ -7,7 +7,7 @@ export function parseFile(filePath: string) {
 }
 
 export function getFilePath(filePath: string) {
-  const root = path.resolve(`./`)
+  const root = path.resolve('./')
   const vercel = process.env.VERCEL
   const fullPath = path.join(root, filePath)
   // console.log('🍓 file paths', { root, vercel, filePath, fullPath, __dirname })

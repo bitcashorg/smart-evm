@@ -1,0 +1,1780 @@
+{
+  "relatedBlogs": [],
+  "blogContent": {
+    "id": "179737945",
+    "topics": [
+      "LLM",
+      "Summary"
+    ],
+    "title": "Challenges and Applications of Large Language Models [Summary]",
+    "slug": "challenges-and-applications-of-large-language-models-summary",
+    "authorName": "Prof. Otto Nomos",
+    "authorPicture": {
+      "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
+    },
+    "_publishedAt": "2023-10-02T07:47:49+01:00",
+    "description": "Explore our summary and key insights of 'Challenges and Applications of Large Language Models', a research paper that delves into the potential, challenges, and applications of LLMs.",
+    "thumbnail": {
+      "url": "https://www.datocms-assets.com/101962/1690575713-abr-img1.png"
+    },
+    "contentBlock": [
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Summary, Key Insights & Advice"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Research Paper: "
+                    },
+                    {
+                      "url": "https://arxiv.org/pdf/2307.10169.pdf",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "https://arxiv.org/pdf/2307.10169.pdf"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Authors: Jean Kaddour, Joshua Harris, Maximilian Mozes, Herbie Bradley, Roberta Raileanu, and Robert McHardy"
+                    },
+                    {
+                      "url": "https://arxiv.org/pdf/2307.10169.pdf",
+                      "type": "link",
+                      "children": [
+                        {
+                          "type": "span",
+                          "value": "\n\n"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Introduction"
+                    },
+                    {
+                      "type": "span",
+                      "value": " \nThe paper introduces the concept of Large Language Models (LLMs), which are models trained on vast amounts of text data. These models have been successful in a variety of applications, including translation, question answering, and text generation. However, they also present several challenges, such as their reliance on large datasets, high computational costs, and issues with fine-tuning."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr-img1",
+            "height": 936,
+            "width": 936,
+            "filename": "abr-img1.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690575713-abr-img1.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Challenges"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.1: Unfathomable Datasets"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The paper discusses the challenge of using large datasets for training LLMs. The size of these datasets often exceeds the number of documents that human teams can manually review. This can lead to issues such as inflated performance metrics, as the model can memorize the test data and simply regurgitate it back during testing. The authors also note that finding and removing all overlaps between training and test data is difficult in practice.\n\nKey Insight: The large datasets used for training LLMs often exceed the number of documents that human teams can manually review, leading to issues such as inflated performance metrics and difficulties in removing overlaps between training and test data."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To overcome this challenge, one could consider using data sampling techniques to create representative subsets of the large datasets for manual review. This would help ensure the quality and diversity of the data. Additionally, implementing automated methods for detecting and removing overlaps between training and test data could help improve the validity of performance metrics. Thinking outside the box, one could also explore the use of federated learning or differential privacy techniques to ensure data privacy and reduce the need for massive centralized datasets."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.2: Tokenizer-Reliance"
+                    },
+                    {
+                      "type": "span",
+                      "value": " \nTokenization is the process of breaking a sequence of words or characters into smaller units called tokens. The paper discusses several challenges introduced by tokenizers, such as computational overhead, language dependence, handling of novel words, fixed vocabulary size, information loss, and low human interpretability. Subword-Level Inputs are the dominant paradigm, providing a good trade-off between computational efficiency and language coverage. However, tokenization can sometimes lead to a loss of information, especially in the case of low-resource languages.\n\nKey Insight: Tokenization introduces several challenges, such as computational overhead, language dependence, handling of novel words, fixed vocabulary size, information loss, and low human interpretability."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To address these challenges, one could consider using more advanced tokenization techniques that can handle a wider range of languages and vocabulary. For instance, byte-pair encoding (BPE) or SentencePiece could be used to handle novel words and larger vocabularies. Additionally, research into more efficient tokenization algorithms could help reduce the computational overhead. From an out-of-the-box perspective, exploring non-tokenization-based approaches, such as character-level models or models that can dynamically adjust their tokenization granularity, could be a promising direction."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.3: High Pre-Training Costs"
+                    },
+                    {
+                      "type": "span",
+                      "value": " \nTraining a single LLM can require hundreds of thousands of compute hours, which in turn cost millions of dollars and consume energy amounts equivalent to that used by several typical US families annually. The paper discusses the debate around the optimal scaling of model size and dataset size given a particular compute budget. Some researchers argue that the model size should be scaled more aggressively than the dataset size, while others argue that many LLMs are undertrained and that the number of parameters and data should be increased proportionally.\n\nKey Insight: Training a single LLM can require significant computational resources, leading to high costs and energy consumption.Actionable Advice: To mitigate these costs, one could consider using more efficient training techniques, such as mixed-precision training, gradient checkpointing, or model distillation. Additionally, exploring ways to optimize the trade-off between model size and dataset size could help improve training efficiency. An out-of-the-box idea could be to leverage collaborative training efforts, where multiple entities contribute computational resources to jointly train a model, similar to distributed computing projects like Folding@home.\n"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.4: Fine-Tuning Overhead"
+                    },
+                    {
+                      "type": "span",
+                      "value": " \nFine-tuning refers to adapting the pre-trained model parameters on comparatively smaller datasets that are specific to an individual domain or task. While fine-tuning is highly effective at adapting LLMs for downstream tasks, it comes with its own set of challenges. These include the overhead of storing and loading fine-tuned LLMs for each task, large memory requirements, and the computational inefficiency of having to backpropagate through the entire network while fine-tuning. The authors discuss alternatives such as parameter-efficient fine-tuning and prompt-tuning, which can learn generalizable representations with much smaller weight matrices.\n\nKey Insight: Fine-tuning LLMs for specific tasks can be computationally inefficient and require large memory resources."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To address this, one could consider using more efficient fine-tuning techniques, such as parameter-efficient fine-tuning or prompt-tuning, which update only a small subset of model parameters. Additionally, research into more memory-efficient optimization algorithms could help reduce the memory requirements of fine-tuning. An out-of-the-box idea could be to explore the use of meta-learning techniques, where the model learns to quickly adapt to new tasks with minimal fine-tuning.\n\n"
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "2.5 High Inference Latency"
+                    },
+                    {
+                      "type": "span",
+                      "value": ": \nThis section discusses the challenges associated with the high inference latency of large language models (LLMs). The authors note that the inference latency of LLMs can be a significant bottleneck, particularly for real-time applications. They highlight that while there are techniques to reduce this latency, such as quantization and pruning, these often come with trade-offs in terms of model performance (Page 12).\n\nKey Insight: High inference latency is a challenge in LLMs, especially in real-time applications. The paper discusses the use of Transformer alternatives and fine-tuning to improve model performance and reduce latency."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To overcome this challenge, consider exploring non-Transformer architectures that can match the performance of Transformer-based models but with lower latency. Also, fine-tuning can be used to improve the performance of the model depending on the task."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "2.6 Limited Context Length"
+                    },
+                    {
+                      "type": "span",
+                      "value": ": \nThis section highlights the issue of limited context length in LLMs. The authors explain that LLMs have a fixed context length, which can limit their ability to handle long documents or conversations. They note that while there are techniques to mitigate this issue, such as recurrence mechanisms and memory augmentation, these can introduce additional complexity and computational cost (Page 14).\n\nKey Insight: LLMs have a limited context length, which means they can only consider a certain amount of input text at a time. This can lead to issues when the necessary context for generating accurate and coherent responses exceeds this limit."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To mitigate this, consider using techniques like in-context learning and scratchpad/chain-of-thought reasoning to enable LLMs to generalize to unseen sequence lengths. Also, fine-tuning can further improve model performance."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "2.7 Prompt Brittleness"
+                    },
+                    {
+                      "type": "span",
+                      "value": ": \nThe section discusses the brittleness of LLMs to prompts. The authors explain that slight variations in the prompt can lead to significant changes in the model's output. They note that larger models and instruction-fine-tuned models are likely to be more sensitive to small variations in the prompt (Page 17).\n\nKey Insight: LLMs can be sensitive to the syntax of the prompt, such as length, blanks, and ordering of examples. Small variations in the prompt can lead to significant differences in the model's output."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To overcome this, consider using a prompting template that encourages the model to generate more robust responses. Also, larger models and instruction-fine-tuned models can be used as they are likely to be more sensitive to small variations in the prompt."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "2.8 Hallucinations"
+                    },
+                    {
+                      "type": "span",
+                      "value": ": \nThis section discusses the issue of hallucinations in LLMs, where the models generate text that is fluent but contains inaccurate information. The authors note that hallucinations can be hard to detect due to the fluency of the text. They distinguish between intrinsic and extrinsic hallucinations, with the former contradicting the source content and the latter being unverifiable based on the source content (Page 19).\n\nKey Insight: LLMs often suffer from hallucinations, which contain inaccurate information that can be hard to detect due to the text's fluency. These hallucinations can be intrinsic (the generated text logically contradicts the source content) or extrinsic (the output correctness can neither be grounded nor contradicted by the source content)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To mitigate hallucinations, consider using retrieval augmentation to ground the model's input on the top-k relevant documents for a query from a large corpus of text. Also, consider using decoding strategies and frameworks that break generations into atomic facts and then compute the percentage of atomic facts supported by an external knowledge source.\n\n"
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.9: Misaligned Behavior"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This section discusses the issue of misaligned behavior in LLMs, where the model's output does not align with the user's intent. This can occur due to the model misunderstanding the user's prompt, or due to the model's inherent biases and limitations. The authors note that misaligned behavior can be harmful, as it can lead to the spread of misinformation or offensive content (Page 22)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: Misaligned behavior is a significant issue in LLMs, as it can lead to outputs that are not only unhelpful, but potentially harmful."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To mitigate this, developers could implement more robust methods for understanding user intent, such as advanced natural language understanding techniques. Additionally, implementing stronger content moderation and filtering systems could help prevent the spread of harmful content."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.10: Outdated Knowledge"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "LLMs can exhibit outdated knowledge due to the static nature of their training data. This can lead to the propagation of outdated or incorrect information. The authors suggest two main solutions: updating the model's parameters or using an external post-edit model (Page 27)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: The static nature of LLM training data can lead to outdated knowledge, which can be problematic in rapidly evolving fields."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: Regularly updating the training data of the model can help keep its knowledge base current. Alternatively, using an external post-edit model can allow for more dynamic updates to the model's knowledge."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.11: Brittle Evaluations"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Evaluations of LLMs can be brittle, meaning that slight modifications to the benchmark prompt or evaluation protocol can lead to drastically different results. This makes it challenging to accurately assess a model's capabilities (Page 27)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: The evaluation of LLMs can be significantly affected by minor changes to the evaluation protocol, leading to inconsistent results."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: Implementing more robust and consistent evaluation protocols can help provide a more accurate assessment of a model's capabilities. This could involve standardizing evaluation prompts or using multiple evaluation metrics."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.12: Evaluations Based on Static, Human-Written Ground Truth"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Summary: Evaluations of LLMs often rely on static, human-written 'ground truth' text. As models become more capable, these benchmarks can become outdated and provide less useful signals for improvement. The authors suggest using LLMs to generate dynamic benchmark datasets for arbitrary axes, using reward models trained on human preferences (Page 28)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: The reliance on static, human-written ground truth for evaluations can limit the effectiveness of these evaluations as models evolve and improve."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To overcome this, the use of dynamic benchmarks generated by the models themselves could provide more relevant and up-to-date evaluation metrics. This could involve using reward models trained on human preferences to filter and select appropriate benchmarks.\n\n"
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.13: Indistinguishability between Generated and Human-Written Text"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This section discusses the challenge of distinguishing between text generated by language models and text written by humans. As language models improve, this task becomes increasingly difficult. The authors note that this could lead to potential misuse, as it becomes harder to identify AI-generated misinformation or propaganda (Page 29)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: The increasing sophistication of language models is making it harder to distinguish between human-written and AI-generated text."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To mitigate this challenge, developers and researchers could work on creating tools or techniques that can reliably identify AI-generated text. This could involve training models specifically to detect the subtle patterns or quirks that are unique to AI-generated text."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.14: Tasks Not Solvable By Scale"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This section discusses the limitations of language models in solving certain tasks, even with increased scale. The authors highlight that larger models may solve sub-problems faster than composed problems, suggesting that they are learning statistical features rather than emulating correct reasoning functions (Page 30)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: Increasing the size of a language model does not necessarily improve its ability to solve complex tasks that require reasoning."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: Instead of simply scaling up models, researchers could focus on improving the reasoning capabilities of AI. This could involve incorporating more structured knowledge into models or developing new training techniques that encourage reasoning."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.15: Lacking Experimental Designs"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This section highlights the lack of controlled experiments in many studies involving language models. The authors argue that this is problematic due to the large design space of these models (Page 31)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: Many studies on language models lack controlled experiments, making it difficult to isolate the effects of different factors."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: Researchers should strive to include controlled experiments in their studies, even if it means dealing with the large design space of language models. This could involve varying one factor at a time to isolate its effects, or using statistical techniques to control for confounding variables."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 2.16: Lack of Reproducibility"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This section discusses the challenges of reproducing results in language model research. The authors note that this is due to factors such as the high dimensionality of the design space, the stochastic nature of training protocols, and the black-box nature of commercial APIs (Pages 33-34)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: Reproducing results in language model research is challenging due to the complexity of the models and the methods used to train and serve them."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To improve reproducibility, researchers could adopt practices such as sharing their code and data, documenting their methods in detail, and using deterministic training protocols where possible. Additionally, providers of commercial APIs could offer more transparency about their models and any changes made to them."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr1-img2",
+            "height": 862,
+            "width": 862,
+            "filename": "abr1-img2.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690575734-abr1-img2.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Applications"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.1: Chatbots"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Chatbots, or dialogue agents, are a common application of large language models (LLMs). They combine tasks such as information retrieval, multi-turn interaction, and text generation, including code."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Chatbots mentioned in the paper include:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "LaMDA: Introduced by Thoppilan et al., the LaMDA family of chatbot LLMs has up to 137B parameters."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Sparrow: Proposed by Glaese et al., Sparrow is a chatbot based on a 70B parameter Chinchilla LLM. It uses Reinforcement Learning from Human Feedback (RLHF) targeting 23 rules for fine-tuning."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "BlenderBot-3: Introduced by Shuster et al., BlenderBot-3 is a 175B parameter chatbot based on the OPT-175 LLM using supervised fine-tuning. It incorporates external knowledge through modules that conduct internet searches and retrieve text-based long-term memories generated from previous outputs to help performance over long interactions."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "ChatGPT: Trained by OpenAI using supervised fine-tuning and RLHF to specialize a GPT-3.5 LLM for dialogue. GPT-4 is the underlying model for the ChatGPT Plus chatbot."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Chatbots often struggle with maintaining coherence in multi-turn interactions, easily forgetting earlier parts of the conversation or repeating themselves."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To overcome these challenges, one could consider the following:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Dataset Quality"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Ensure the use of a broad, high-quality training dataset. This could be achieved by using human-annotated interactions, as done by Kӧpf et al. with the OpenAssistant Conversations dataset."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Fine-tuning"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Use techniques like RLHF for fine-tuning, as demonstrated by Glaese et al. with Sparrow."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Memory Management"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Incorporate external knowledge and long-term memory into the chatbot, as done by Shuster et al. with BlenderBot-3."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Continuous Evaluation and Improvement"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Regularly evaluate the chatbot's performance across diverse tasks and continuously improve it based on the evaluation results. This is exemplified by the approach taken by OpenAI with ChatGPT."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Innovative Approaches"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Consider innovative approaches to improve chatbot performance. For instance, using a pre-defined high-level function library of capabilities for human on the loop robotics tasks, as done by Vemprala et al."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.2: Computational Biology"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "In the field of computational biology, large language models (LLMs) are used for tasks such as understanding the effects of mutations in humans and predicting genomic features directly from DNA sequences. They are also used for protein structure prediction, novel sequence generation, and protein classification tasks."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key projects mentioned in the paper include:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "ESMFold: Introduced by Rives et al., ESMFold uses the ESM-2 embedding model for end-to-end atomic resolution prediction from a single sequence. While it underperforms the state-of-the-art AlphaFold2 on benchmarks, it has an order of magnitude faster inference time."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "xTrimoPGLM: Proposed by Chen et al., xTrimoPGLM is a new model trained simultaneously for protein embedding and generation. It has been used for tasks such as enzyme-substrate chemical structural class prediction, training 3D geometric graph neural networks for proteins, identifying disease-causing mutations, designing novel proteins, and guided evolution of antibodies for affinity maturation."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "While genomic language models are a promising research direction, current models cannot process many genomic sequences as they exceed the context window size of most LLMs."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To overcome these challenges, one could consider the following:"
+                    }
+                  ]
+                },
+                {
+                  "type": "list",
+                  "style": "numbered",
+                  "children": [
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Model Training"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Train models simultaneously for multiple tasks, as done by Chen et al. with xTrimoPGLM. This could help improve the model's performance across different tasks."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Model Selection"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Choose models that offer a balance between performance and inference time, as demonstrated by Rives et al. with ESMFold."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "listItem",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "span",
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Context Window Size"
+                            },
+                            {
+                              "type": "span",
+                              "value": ": Develop strategies to handle genomic sequences that exceed the context window size of most LLMs. This could involve techniques for breaking down larger sequences into smaller segments that can be processed by the model, or developing new models that can handle larger context windows."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.3: Computer Programming"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This section discusses the application of large language models (LLMs) in computer programming, focusing on three sub-sections: Code Generation, Code Infilling and Generation, and Code Review and Assistance."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "3.3.1 Code Generation"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Code generation refers to using an LLM to output new code for a given specification or problem provided as a prompt. Several computer programming-specific LLMs and approaches have been proposed. For Python code generation, Chen et al. introduced Codex, a fine-tuned GPT-3 LLM specialized to generate standalone Python functions from doc strings. Nijkamp et al. trained the CodeGen family of LLMs using a combination of three datasets: natural language, multilingual programming source code, and a monolingual Python dataset."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "A critical constraint in applying LLMs to code generation is the inability to fit the full code base and dependencies within the context window."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To overcome this challenge, consider developing frameworks that can handle larger context windows or use retrieval-based methods that allow an LLM to consider the broader context of the repository."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "3.3.2 Code Infilling and Generation"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Code infilling refers to modifying or completing existing code snippets based on the code context and instructions provided as a prompt. Fried et al. trained the InCoder LLM to both generate Python code and infill existing code using a masked language modeling approach."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "InCoder can perform single and multi-line infilling of existing code, a capability that other models like Codex and CodeGen lack."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To improve code infilling, consider training models using a broad dataset that includes a variety of code snippets and contexts. This could help the model better understand how to modify or complete existing code snippets."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "3.3.3 Code Review and Assistance"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This sub-section discusses the use of LLMs to assist in the software development process, such as automatically resolving reviewer comments. The Dynamic Integrated Developer ACTivity (DIDACT) methodology formalizes tasks in the software development process into state, intent, and action components, and trains the model to predict code modifications."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "LLMs can be trained to understand the process of software development, not just the end product."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To improve code review and assistance, consider training models on data from intermediary steps in the development process. This could help the model better understand the process and provide more accurate and helpful assistance."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.4: Creative Work"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This section discusses the application of large language models (LLMs) in creative work, focusing on three sub-sections: Long Form, Short Form, and Interactive."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "3.4.1 Long Form"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Long-form creative work involves generating extensive pieces of text, such as stories or essays. The Recursive, Reentrant, and Rewriting (Re3) approach uses zero-shot prompting with GPT-3 to generate a plan (settings, characters, outline, etc.). It then recursively prompts GPT-3 to generate story continuations using a specified dynamic prompting procedure. Possible story continuations are then ranked for coherence and relevance using separate fine-tuned Longformer models as part of a Rewrite module."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insight:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The inability of current LLMs to keep the entire generated work within the context window currently constrains their long-form applications and generates the need for modular prompting."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To overcome this challenge, consider developing methods that allow for dynamic prompting and recursive generation of story continuations. Also, consider using other models to rank and refine the generated content for coherence and relevance."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "3.4.2 Short Form"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Short-form creative work involves generating concise pieces of text, such as poems or slogans. For short form generation, Chakrabarty et al. use a drafting-revision approach as Re3, which implements this through the use of a detailed outliner and detailed controller. The detailed outliner first breaks down the high-level outline into subsections using a breadth-first approach, with candidate generations for the subsections created, filtered, and ranked. The bodies of the detailed outline subsections are then generated iteratively using a structured prompting approach."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Key Insight:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The drafting-revision approach can be effective for generating high-quality short-form creative content."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To improve short-form creative work, consider using a drafting-revision approach that involves breaking down the task into smaller parts, generating candidates for each part, and iteratively refining the generated content."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "3.4.3 Interactive"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Interactive creative work involves generating content in response to user input, such as in interactive storytelling or game design. Calderwood et al. apply a fine-tuned GPT-3 model as part of their Spindle tool for helping generate choice-based interactive fiction."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "LLMs can be used to generate interactive creative content, providing a dynamic and engaging user experience."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice:"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "To improve interactive creative work, consider fine-tuning models on data from interactive storytelling or game design. This could help the model better understand how to generate content that responds to user input in a dynamic and engaging way.\n\n"
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.5 Knowledge Work"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "The section discusses the application of LLMs in the field of knowledge work, particularly in financial services and professional services. In financial services, BloombergGPT, a model with 50 billion parameters, is trained for various financial knowledge tasks using specialized tokens, working memory, and prompt-pre-training. In professional services, GPT-3.5 and previous GPT versions are evaluated on actual and synthetic questions from the Uniform CPA Examination Regulation section and AICPA Blueprints for legal, financial, accounting tasks (Page 40)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: LLMs can be specialized for specific fields such as financial services and professional services, enhancing their ability to handle tasks in these areas."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: For building a new application in the field of knowledge work, consider training the LLM on domain-specific data. For example, if the application is for financial services, use financial texts, reports, and data for training. Additionally, consider using specialized tokens and working memory to enhance the model's understanding of the domain."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.6 Law"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "LLMs have found applications in the legal domain, including legal question answering, legal information extraction, case outcome prediction, legal research, and legal text generation. The section also highlights the issue of outdated information due to regularly updated laws and new precedents, which can make the training/retrieval data outdated frequently (Page 42)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: LLMs can be effectively used in the legal domain, but the dynamic nature of laws and precedents presents a challenge due to the potential for outdated information."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: When building an application in the legal domain, consider implementing a system for regular updates to the training data to keep the LLM current with new laws and precedents. This could involve regular data scraping from legal databases or websites."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.7 Medicine"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "LLMs have been proposed for various applications in the medical domain, including medical question answering, clinical information extraction, indexing, triage, and management of health records. However, the safety-critical nature of the medical domain means the possibility of hallucinations significantly limits the current use cases (Page 43)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: While LLMs have potential in the medical field, their use is limited by the critical need for accuracy and the risk of generating incorrect or misleading information."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: When building an application in the medical field, consider implementing robust verification and validation mechanisms to ensure the accuracy of the LLM's outputs. This could involve a secondary review system where the LLM's responses are checked by medical professionals before being delivered."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.8 Reasoning"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "LLMs have been used for various reasoning tasks, including mathematical formalization, analogical reasoning, and causal reasoning. However, their performance on these tasks is mixed, with some tasks showing human-level performance and others showing poor performance (Page 44)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: LLMs have the potential to perform complex reasoning tasks, but their performance can vary significantly depending on the specific task."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: When building an application that involves reasoning tasks, consider using a combination of LLMs and traditional algorithmic approaches. The LLM can be used for initial reasoning, and the results can be further refined using algorithmic methods. This could help overcome the limitations of LLMs in complex reasoning tasks.\n\n"
+                    },
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.9: Robotics and Embodied Agents"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Large Language Models (LLMs) have started to be incorporated into robotics applications to provide high-level planning and contextual knowledge. For instance, Ahn et al. implemented a PaLM-540B LLM in the SayCan architecture to break down high-level natural language instructions into a set of lower-level function calls, which can then be executed on the robot. However, LLMs' inability to directly learn from image, audio, or other sensor modalities constrains their applications (Page 45)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: LLMs can enhance the capabilities of robotics and embodied agents by providing high-level planning and understanding of instructions. However, their inability to learn directly from non-textual sensor modalities is a significant limitation."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: To overcome this challenge, consider integrating LLMs with other AI models capable of processing and learning from non-textual data, such as Convolutional Neural Networks for image data or Recurrent Neural Networks for sequential data. This could create a more comprehensive AI system that can understand and learn from multiple types of inputs."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.10: Social Sciences & Psychology"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "LLMs are increasingly being used in the behavioral sciences as models for psychological experiments. They offer several advantages over human participants, such as lower cost, faster execution, scalability, and fewer ethical considerations. LLMs have been used to model human behavior in economic scenarios, analyze personality traits, and simulate social relationships (Page 46)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: LLMs can simulate human behavior and responses, providing a valuable tool for social sciences and psychology research."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: Researchers in social sciences and psychology could leverage LLMs to conduct large-scale studies or experiments that would be impractical or unethical with human participants. However, it's crucial to remember that LLMs are models and their outputs should be interpreted with caution, considering their limitations and potential biases."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Section 3.11: Synthetic Data Generation"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "LLMs' ability to perform in-context learning allows them to generate synthetic data. This capability has been used to train new code generation LLMs, generate additional synthetic data from an existing dataset for classification tasks, and replicate multi-step reasoning capabilities in smaller models. However, the synthetic data generated by LLMs may not be representative of the true distribution in the corresponding real-world data (Page 48)."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Key Insight: LLMs can generate synthetic data, which can be used for various purposes, including training other models and augmenting existing datasets. However, the representativeness of this synthetic data is a concern."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Actionable Advice: When using LLMs to generate synthetic data, it's important to validate the quality and representativeness of the generated data. Techniques such as statistical comparison with real-world data, or using synthetic data in combination with real-world data, could be employed to ensure the usefulness of the synthetic data."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": [
+          {
+            "basename": "abr1-img3",
+            "height": 862,
+            "width": 862,
+            "filename": "abr1-img3.png",
+            "format": "png",
+            "alt": null,
+            "url": "https://www.datocms-assets.com/101962/1690576381-abr1-img3.png"
+          }
+        ]
+      },
+      {
+        "mainContent": {
+          "value": {
+            "schema": "dast",
+            "document": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "Conclusion"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "span",
+                      "value": "This work outlines the unresolved challenges and current applications of large language models (LLMs), emphasizing how these challenges limit their applications. The aim is to encourage research that addresses these limitations and promotes cross-domain idea exchange to enhance future research."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "topImages": []
+      }
+    ],
+    "seo": {
+      "description": "Explore our summary and key insights of 'Challenges and Applications of Large Language Models'.",
+      "title": "Challenges and Applications of LLMs [Summary]",
+      "twitterCard": null,
+      "image": {
+        "width": 936,
+        "height": 936,
+        "title": null,
+        "alt": null,
+        "url": "https://www.datocms-assets.com/101962/1690575713-abr-img1.png"
+      }
+    }
+  },
+  "topics": [
+    "LLM",
+    "Summary"
+  ],
+  "shortLink": ""
+}

@@ -8,7 +8,7 @@ import { cookies } from 'next/headers'
 export async function createSupabaseServerClient() {
   const cookieStore = cookies()
 
-  return createServerClient(
+  return createServerClient<Database>(
     appConfig.supabase.url,
     process.env.SUPABASE_SERVICE_ROLE_KEY as string,
     {

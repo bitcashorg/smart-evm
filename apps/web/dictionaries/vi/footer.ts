@@ -8,12 +8,14 @@ export default {
     },
     {
       title: 'Nhận tín dụng USD',
-      description: 'Gửi USDT vào bất kỳ chuỗi nào để nhận USD Credit Token trên EOS EVM',
+      description:
+        'Gửi USDT vào bất kỳ chuỗi nào để nhận USD Credit Token trên EOS EVM',
       href: '#',
     },
     {
       title: 'Địa điểm bỏ thầu',
-      description: 'Chọn một dự án từ danh sách Đấu giá và đặt giá thầu của bạn.',
+      description:
+        'Chọn một dự án từ danh sách Đấu giá và đặt giá thầu của bạn.',
       href: '#',
     },
   ],

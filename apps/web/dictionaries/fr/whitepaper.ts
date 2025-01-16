@@ -353,7 +353,7 @@ export const whitepaper = {
     },
     {
       type: 'p',
-      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org',
+      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitlauncher Telegram: https://t.me/bitcash_org',
     },
     { type: 'h1', text: 'Glossaire' },
     {
@@ -363,7 +363,7 @@ export const whitepaper = {
     { type: 'h1', text: 'Informations de Contact' },
     {
       type: 'p',
-      text: "Pour toute demande de renseignements supplémentaires, de support, ou pour plus d'informations sur la plateforme Bitcash et la vente de jetons, veuillez utiliser les canaux suivants pour nous contacter: Support Général et Renseignements: Email: support@bitcash.org Média et Presse: Email: press@bitcash.org Support Développeur: Email: developers@bitcash.org Réseaux Sociaux: Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org Pour des mises à jour en temps réel et des annonces, suivez-nous sur nos réseaux sociaux et rejoignez nos discussions communautaires. Nous nous engageons à la transparence et à la communication ouverte et attendons avec impatience votre participation et vos commentaires. Si vous rencontrez des problèmes ou avez besoin d'aide pendant le processus de participation ou après, notre équipe de support dédiée est disponible pour vous aider à résoudre vos requêtes de manière rapide et efficace.",
+      text: "Pour toute demande de renseignements supplémentaires, de support, ou pour plus d'informations sur la plateforme Bitcash et la vente de jetons, veuillez utiliser les canaux suivants pour nous contacter: Support Général et Renseignements: Email: support@bitcash.org Média et Presse: Email: press@bitcash.org Support Développeur: Email: developers@bitcash.org Réseaux Sociaux: Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitlauncher Telegram: https://t.me/bitcash_org Pour des mises à jour en temps réel et des annonces, suivez-nous sur nos réseaux sociaux et rejoignez nos discussions communautaires. Nous nous engageons à la transparence et à la communication ouverte et attendons avec impatience votre participation et vos commentaires. Si vous rencontrez des problèmes ou avez besoin d'aide pendant le processus de participation ou après, notre équipe de support dédiée est disponible pour vous aider à résoudre vos requêtes de manière rapide et efficace.",
     },
   ] as PageContentData,
 }

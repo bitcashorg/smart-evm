@@ -2,187 +2,294 @@
   "relatedBlogs": [
     {
       "id": "180563939",
-      "topics": ["DAO", "Tokenomics", "Bình luận"],
-      "title": "Khung cho Thiết kế Quản trị Blockchain: Bánh xe Nhóm Prysm [Bình luận]",
+      "topics": [
+        "DAO",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "A Framework for Blockchain Governance Design: The Prysm Group Wheel [Commentary]",
       "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:19:19+01:00",
-      "description": "Điều hướng sự phức tạp của quản trị blockchain với Bánh xe Nhóm Prysm. Lộ trình của bạn để thiết kế quản trị blockchain hiệu quả.",
+      "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
       },
       "seo": {
-        "title": "Khung cho Thiết kế Quản trị Blockchain [Bình luận]",
-        "description": "Điều hướng sự phức tạp của quản trị blockchain với Bánh xe Nhóm Prysm. Lộ trình của bạn để thiết kế quản trị blockchain hiệu quả."
+        "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
+        "title": "A Framework for Blockchain Governance Design [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 1400,
+          "height": 1383,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
+        }
       }
     },
     {
       "id": "180217169",
-      "topics": ["Tokenomics", "Bình luận"],
-      "title": "Kinh tế của Kích thích Token hóa 3: Giá trị Token Không Đồng Nhất các Bên Liên quan [Bình luận]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Economics of Tokenized Incentives 3: Token Value Won’t Align Stakeholders [Commentary]",
       "slug": "economics-of-tokenized-incentives-3-token-value-won-t-align-stakeholders-commenta",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:17:23+01:00",
-      "description": "Tiết lộ những rủi ro khi sử dụng giá trị token làm chỉ số hiệu suất trong các nền tảng blockchain. Học cách thiết kế hệ thống kích thích hiệu quả.",
+      "description": "Uncover the pitfalls of using token value as a performance metric in blockchain platforms. Learn to design effective incentive systems.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690771457-cbc3-img1.png"
       },
       "seo": {
-        "title": "Kinh tế của Kích thích Token hóa 3 [Bình luận]",
-        "description": "Tiết lộ những rủi ro khi sử dụng giá trị token làm chỉ số hiệu suất trong các nền tảng blockchain. Học cách thiết kế hệ thống kích thích hiệu quả."
+        "description": "Uncover the pitfalls of using token value as a performance metric in blockchain platforms. Learn to design effective incentive systems.",
+        "title": "Economics of Tokenized Incentives 3 [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690771457-cbc3-img1.png"
+        }
       }
     },
     {
       "id": "180217123",
-      "topics": ["Tokenomics", "Bình luận"],
-      "title": "Kinh tế của Kích thích Token hóa 2: Lựa chọn Chỉ số Hiệu suất Hiệu quả [Bình luận]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Economics of Tokenized Incentives 2: Selecting Effective Performance Metrics [Commentary]",
       "slug": "economics-of-tokenized-incentives-2-selecting-effective-performance-metrics-comme",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:17:05+01:00",
-      "description": "Khám phá sức mạnh của các chỉ số hiệu suất trong hệ thống thanh toán theo hiệu suất blockchain. Học cách điều chỉnh kích thích phù hợp với mục tiêu nền tảng một cách hiệu quả.",
+      "description": "Discover the power of performance metrics in blockchain pay-for-performance systems. Learn to align incentives with platform goals effectively.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690770918-cbc2-img1.png"
       },
       "seo": {
-        "title": "Kinh tế của Kích thích Token hóa 2 [Bình luận]",
-        "description": "Khám phá sức mạnh của các chỉ số hiệu suất trong hệ thống thanh toán theo hiệu suất blockchain. Học cách điều chỉnh kích thích phù hợp với mục tiêu nền tảng một cách hiệu quả."
+        "description": "Discover the power of performance metrics in blockchain pay-for-performance systems. Learn to align incentives with platform goals effectively.",
+        "title": "Economics of Tokenized Incentives 2 [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690770918-cbc2-img1.png"
+        }
       }
     },
     {
       "id": "180563918",
-      "topics": ["Tokenomics", "Bình luận", "Gây quỹ"],
-      "title": "Token: Phương tiện Đầu tư hay Phương tiện Trao đổi (Không cả hai) [Bình luận]",
+      "topics": [
+        "Tokenomics",
+        "Commentary",
+        "Fundraising"
+      ],
+      "title": "Tokens: Investment Vehicle or Medium of Exchange (Not Both) [Commentary]",
       "slug": "tokens-investment-vehicle-or-medium-of-exchange-not-both-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:13:31+01:00",
-      "description": "Khám phá vai trò kép của token trong nền kinh tế blockchain. Tiết lộ ranh giới mỏng manh giữa phương tiện đầu tư và phương tiện trao đổi.",
+      "description": "Delve into the dual role of tokens in the blockchain economy. Uncover the fine line between investment vehicle and medium of exchange.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859959-cbc8-img1.png"
       },
       "seo": {
-        "title": "Token: Đầu tư hay Phương tiện Trao đổi [Bình luận]",
-        "description": "Khám phá vai trò kép của token trong nền kinh tế blockchain. Tiết lộ ranh giới mỏng manh giữa phương tiện đầu tư và phương tiện trao đổi."
+        "description": "Delve into the dual role of tokens in the blockchain economy. Uncover the fine line between investment vehicle and medium of exchange.",
+        "title": "Tokens: Investment or Medium of Exchange [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859959-cbc8-img1.png"
+        }
       }
     },
     {
       "id": "180563922",
-      "topics": ["Gây quỹ", "Tokenomics", "Bình luận"],
-      "title": "ICO Tận dụng Hiệu ứng Mạng [Bình luận]",
+      "topics": [
+        "Fundraising",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "ICOs Leverage Network Effects [Commentary]",
       "slug": "icos-leverage-network-effects-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:12:06+01:00",
-      "description": "Khám phá cách ICO tận dụng sức mạnh của hiệu ứng mạng để thúc đẩy thành công của họ. ICO và hiệu ứng mạng, một cặp đôi động lực!",
+      "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
       },
       "seo": {
-        "title": "ICO Tận dụng Hiệu ứng Mạng [Bình luận]",
-        "description": "Khám phá cách ICO tận dụng sức mạnh của hiệu ứng mạng để thúc đẩy thành công của họ. ICO và hiệu ứng mạng, một cặp đôi động lực!"
+        "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
+        "title": "ICOs Leverage Network Effects [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
+        }
       }
     },
     {
       "id": "180556595",
-      "topics": ["Gây quỹ", "Tokenomics", "Bình luận"],
-      "title": "Hiệu ứng Blockchain: Hiệu ứng Mạng mà không tốn Chi phí Quyền lực Thị trường [Bình luận]",
+      "topics": [
+        "Fundraising",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
       "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:11:14+01:00",
-      "description": "Khám phá cách blockchain cho phép hiệu ứng mạng mà không có nhược điểm của quyền lực thị trường. Khám phá Hiệu ứng Blockchain mang tính đột phá.",
+      "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
       },
       "seo": {
-        "title": "Hiệu ứng Mạng mà không tốn Chi phí Quyền lực Thị trường [Bình luận]",
-        "description": "Khám phá cách blockchain cho phép hiệu ứng mạng mà không có nhược điểm của quyền lực thị trường. Khám phá Hiệu ứng Blockchain mang tính đột phá."
+        "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
+        "title": "Network Effects without Market Power Costs [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
+        }
       }
     },
     {
       "id": "180563931",
-      "topics": ["Tokenomics", "Bình luận"],
-      "title": "Cấu trúc Kích thích Blockchain: Chúng là gì và tại sao chúng quan trọng [Bình luận]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Blockchain Incentive Structures: What they are and why they matter [Commentary]",
       "slug": "blockchain-incentive-structures-what-they-are-and-why-they-matter-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:02+01:00",
-      "description": "Hiểu rõ bản chất của cấu trúc kích thích blockchain và tầm quan trọng của chúng trong việc thúc đẩy hành vi người dùng và thành công của nền tảng.",
+      "description": "Understand the core of blockchain incentive structures and their significance in driving user behavior and platform success.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690860807-cbc10-img1.png"
       },
       "seo": {
-        "title": "Cấu trúc Kích thích Blockchain [Bình luận]",
-        "description": "Hiểu rõ bản chất của cấu trúc kích thích blockchain và tầm quan trọng của chúng trong việc thúc đẩy hành vi người dùng và thành công của nền tảng."
+        "description": "Understand the core of blockchain incentive structures and their significance in driving user behavior and platform success.",
+        "title": "Blockchain Incentive Structures [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690860807-cbc10-img1.png"
+        }
       }
     },
     {
       "id": "167184977",
-      "topics": ["Tokenomics", "DAO", "Gây quỹ"],
-      "title": "Cách mạng hóa Mô hình Cổ phần: Tokenomics Làm Xáo trộn Thế giới Khởi nghiệp",
+      "topics": [
+        "Tokenomics",
+        "DAO",
+        "Fundraising"
+      ],
+      "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
       "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:02:51+01:00",
-      "description": "Mở khóa tương lai của các startup với tokenomics! Khám phá cách khái niệm sáng tạo này đang tái định hình mô hình cổ phần và làm xáo trộn cảnh quan khởi nghiệp.",
+      "description": "Unlock the future of startups with tokenomics! Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
       },
       "seo": {
-        "title": "Tokenomics Làm Xáo trộn Thế giới Khởi nghiệp",
-        "description": "Khám phá cách khái niệm sáng tạo này đang tái định hình mô hình cổ phần và làm xáo trộn cảnh quan khởi nghiệp."
+        "description": "Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
+        "title": "How Tokenomics is Disrupting the Startup World",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
+        }
       }
     },
     {
       "id": "167101094",
-      "topics": ["Bắt đầu", "Tokenomics"],
-      "title": "Tokenomics 101: Khai phá Sức mạnh của Tiền điện tử!",
+      "topics": [
+        "Getting Started",
+        "Tokenomics"
+      ],
+      "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
       "slug": "tokenomics-101-unleashing-the-power-of-cryptocurrency",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:58+01:00",
-      "description": "Khám phá sức mạnh của tiền điện tử qua Tokenomics 101 - hướng dẫn sâu rộng để hiểu biết về kinh tế đằng sau các tài sản số.",
+      "description": "Discover the power of cryptocurrency through Tokenomics 101 - an in-depth guide to understanding the economics behind digital assets.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
       },
       "seo": {
-        "title": "Tokenomics 101: Khai phá Sức mạnh của Tiền điện tử!",
-        "description": "hướng dẫn sâu rộng để hiểu biết về kinh tế đằng sau các tài sản số."
+        "description": "an in-depth guide to understanding the economics behind digital assets.",
+        "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
+        }
       }
     }
   ],
   "blogContent": {
     "id": "180217082",
-    "topics": ["Tokenomics", "Bình luận"],
-    "title": "Kinh tế của các Kích thích Đã Token hóa 1: Giới thiệu về Thanh toán theo Hiệu suất [Bình luận]",
+    "topics": [
+      "Tokenomics",
+      "Commentary"
+    ],
+    "title": "Economics of Tokenized Incentives 1: Intro to Pay for Performance [Commentary]",
     "slug": "economics-of-tokenized-incentives-1-intro-to-pay-for-performance",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T09:15:12+01:00",
-    "description": "Khám phá những phức tạp của các kích thích thanh toán theo hiệu suất trên các nền tảng blockchain. Tìm hiểu các sự đánh đổi và các yếu tố thiết kế để thành công.",
+    "description": "Dive into the complexities of pay-for-performance incentives in blockchain platforms. Learn the trade-offs and design considerations for success.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1690770568-cbc1-img1.png"
     },
@@ -199,7 +306,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Liên kết Gốc: "
+                      "value": "Original Link: "
                     },
                     {
                       "url": "https://medium.com/prysmeconomics/economics-of-tokenized-incentives-1-intro-to-pay-for-performance-84e3b9cfffa",
@@ -207,7 +314,7 @@
                       "children": [
                         {
                           "type": "span",
-                          "value": "Kinh tế của các Kích thích Đã Token hóa 1: Giới thiệu về Thanh toán theo Hiệu suất"
+                          "value": "Economics of Tokenized Incentives 1: Intro to Pay for Performance"
                         }
                       ]
                     }
@@ -218,7 +325,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Tác giả: "
+                      "value": "Author: "
                     },
                     {
                       "url": "https://medium.com/@cathybarreraphd?source=post_page-----84e3b9cfffa--------------------------------",
@@ -232,7 +339,7 @@
                       "children": [
                         {
                           "type": "span",
-                          "value": "Cathy Barrera, Tiến sĩ"
+                          "value": "Cathy Barrera, PhD"
                         }
                       ]
                     }
@@ -244,8 +351,10 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
-                      "value": "Tóm tắt"
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Summary"
                     }
                   ]
                 },
@@ -254,7 +363,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Thanh toán theo hiệu suất là một hệ thống nơi mà khoản tiền thù lao tài chính được trao dựa trên các chỉ số hiệu suất. Nó thường được sử dụng khi các khía cạnh then chốt của kết quả mong muốn không thể được chỉ định trước. Nhiều nền tảng blockchain, như Bitcoin, sử dụng hệ thống này để khuyến khích các hoạt động và nguồn lực. Tuy nhiên, lợi ích của thanh toán theo hiệu suất không thể được tận dụng đồng đều trong mọi bối cảnh, và việc hiểu các sự đánh đổi là rất quan trọng khi thiết kế một nền tảng."
+                      "value": "Pay-for-performance is a system where financial compensation is given based on performance metrics. It's often used when key aspects of the desired outcome can't be specified in advance. Many blockchain platforms, like Bitcoin, use this system to incentivize activities and resources. However, the benefits of pay-for-performance can't be leveraged equally in all contexts, and understanding the trade-offs is crucial when designing a platform."
                     }
                   ]
                 },
@@ -264,8 +373,10 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
-                      "value": "Bình luận"
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Commentary"
                     }
                   ]
                 },
@@ -274,7 +385,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Các hệ thống thanh toán theo hiệu suất, mặc dù hiệu quả trong một số kịch bản, đòi hỏi thiết kế và triển khai cẩn thận. Trong bối cảnh của blockchain và tiền điện tử, các hệ thống này có thể khuyến khích sự tham gia và đóng góp nguồn lực, nhưng chúng cũng đưa ra những phức tạp. Ví dụ, hệ thống thanh toán theo hiệu suất của Bitcoin đã dẫn đến một cuộc chạy đua về sức mạnh khai thác, góp phần vào những lo ngại về tiêu thụ năng lượng."
+                      "value": "Pay-for-performance systems, while effective in certain scenarios, require careful design and implementation. In the context of blockchain and crypto, these systems can incentivize participation and resource contribution, but they also introduce complexities. For instance, Bitcoin's pay-for-performance system has led to an arms race in mining power, contributing to concerns about energy consumption."
                     }
                   ]
                 },
@@ -284,8 +395,10 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["strong"],
-                      "value": "Thông tin Có Thể Thực Hiện"
+                      "marks": [
+                        "strong"
+                      ],
+                      "value": "Actionable Insights"
                     }
                   ]
                 },
@@ -301,12 +414,14 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
-                              "value": "Hiểu Bối Cảnh"
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Understand the Context"
                             },
                             {
                               "type": "span",
-                              "value": ": Trước khi triển khai một hệ thống thanh toán theo hiệu suất, hiểu bối cảnh và nhu cầu cụ thể của nền tảng của bạn. Không phải mọi bối cảnh đều phù hợp với loại hệ thống kích thích này."
+                              "value": ": Before implementing a pay-for-performance system, understand the context and the specific needs of your platform. Not all contexts are suitable for this type of incentive system."
                             }
                           ]
                         }
@@ -320,12 +435,14 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
-                              "value": "Xem xét các Sự Đánh Đổi"
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Consider the Trade-offs"
                             },
                             {
                               "type": "span",
-                              "value": ": Các hệ thống thanh toán theo hiệu suất đi kèm với rủi ro và những mặt tiêu cực tiềm ẩn. Hãy nhận thức về những sự đánh đổi này và xem xét chúng trong quá trình ra quyết định của bạn."
+                              "value": ": Pay-for-performance systems come with risks and potential downsides. Be aware of these trade-offs and consider them in your decision-making process."
                             }
                           ]
                         }
@@ -339,12 +456,14 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
-                              "value": "Thiết kế Cẩn thận"
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Design Carefully"
                             },
                             {
                               "type": "span",
-                              "value": ": Thiết kế của hệ thống kích thích có thể ảnh hưởng lớn đến hành vi của các bên tham gia và thành công chung của nền tảng. Xem xét các yếu tố như các chỉ số hiệu suất được sử dụng và kích thước của các phần thưởng."
+                              "value": ": The design of the incentive system can greatly impact the behavior of participants and the overall success of the platform. Consider factors like the performance metrics used and the size of the rewards."
                             }
                           ]
                         }
@@ -358,12 +477,14 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
-                              "value": "Giữ Sự Linh hoạt"
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Stay Flexible"
                             },
                             {
                               "type": "span",
-                              "value": ": Hãy chuẩn bị để điều chỉnh hệ thống kích thích của bạn khi cần thiết. Theo dõi các kết quả và thực hiện thay đổi nếu hệ thống không mang lại kết quả mong muốn."
+                              "value": ": Be prepared to adjust your incentive system as necessary. Monitor the outcomes and make changes if the system is not producing the desired results."
                             }
                           ]
                         }
@@ -377,12 +498,14 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
-                              "value": "Giao tiếp Rõ ràng"
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Communicate Clearly"
                             },
                             {
                               "type": "span",
-                              "value": ": Đảm bảo rằng các bên tham gia hiểu hệ thống kích thích và cách họ có thể được hưởng lợi từ nó. Giao tiếp rõ ràng có thể giúp khuyến khích sự tham gia và đảm bảo rằng hệ thống được sử dụng một cách hiệu quả."
+                              "value": ": Ensure that participants understand the incentive system and how they can benefit from it. Clear communication can help to encourage participation and ensure that the system is used effectively."
                             }
                           ]
                         }
@@ -408,8 +531,8 @@
       }
     ],
     "seo": {
-      "description": "Khám phá những phức tạp của các kích thích thanh toán theo hiệu suất trên các nền tảng blockchain. Tìm hiểu các sự đánh đổi và các yếu tố thiết kế để thành công",
-      "title": "Kinh tế của các Kích thích Đã Token hóa 1 [Bình luận]",
+      "description": "Dive into the complexities of pay-for-performance incentives in blockchain platforms. Learn the trade-offs and design considerations for success",
+      "title": "Economics of Tokenized Incentives 1 [Commentary]",
       "twitterCard": null,
       "image": {
         "width": 862,
@@ -420,5 +543,9 @@
       }
     }
   },
-  "topics": ["Tokenomics", "Commentary"]
+  "topics": [
+    "Tokenomics",
+    "Commentary"
+  ],
+  "shortLink": ""
 }

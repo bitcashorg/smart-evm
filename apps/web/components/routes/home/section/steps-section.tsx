@@ -15,7 +15,10 @@ export default function StepsSection({ lang, dict, id }: StepsSectionProps) {
     <Section id={id} heading={dict.footer.stepsInfo}>
       <div className="flex flex-col items-center gap-[52px] lg:flex-row lg:justify-between">
         {dict.footer.step.map(
-          (step: { title: string; description: string; href: string }, index: number) => (
+          (
+            step: { title: string; description: string; href: string },
+            index: number,
+          ) => (
             <div
               key={`${
                 // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>

@@ -1,104 +1,102 @@
-@import url("https://use.typekit.net/zgc6fnv.css");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 234, 79%, 11%;
-    --foreground: 0, 0%, 98%;
+    --background: 234, 79%, 11%; /* #0c1138 */
+    --foreground: 0, 0%, 98%; /* #fafafa */
 
-    --muted: 250.17, 34.1%, 33.92%;
-    --muted-foreground: 0, 0%, 98%;
+    --muted: 250.17, 34.1%, 33.92%; /* #3c3e6d */
+    --muted-foreground: 0, 0%, 98%; /* #fafafa */
 
-    --popover: 240, 10%, 3.9%;
-    --popover-foreground: 0, 0%, 98%;
+    --popover: 240, 10%, 3.9%; /* #0a0a0b */
+    --popover-foreground: 0, 0%, 98%; /* #fafafa */
 
-    --card: 242.18, 56.7%, 19.02%;
-    --card-foreground: 0, 0%, 98%;
+    --card: 242.18, 56.7%, 19.02%; /* #1c1f4d */
+    --card-foreground: 0, 0%, 98%; /* #fafafa */
 
-    --border: 240, 3.7%, 15.9%;
-    --input: 240, 3.7%, 15.9%;
+    --border: 240, 3.7%, 15.9%; /* #262626 */
+    --input: 240, 3.7%, 15.9%; /* #262626 */
 
-    --primary: 242.18, 56.7%, 19.02%;
-    --primary-foreground: 0, 0%, 98%;
+    --primary: 242.18, 56.7%, 19.02%; /* #1c1f4d */
+    --primary-foreground: 0, 0%, 98%; /* #fafafa */
 
-    --secondary: 0, 0%, 98%;
-    --secondary-foreground: 0, 0%, 6.67%;
+    --secondary: 0, 0%, 98%; /* #fafafa */
+    --secondary-foreground: 0, 0%, 6.67%; /* #111111 */
 
-    --accent: 319.38, 80.67%, 53.33%;
-    --accent-foreground: 0, 0%, 98%;
-    --accent-500: 261, 29%, 56%;
+    --accent: 319.38, 80.67%, 53.33%; /* #e91e63 */
+    --accent-foreground: 0, 0%, 98%; /* #fafafa */
+    --accent-500: 261, 29%, 56%; /* #7c4dff */
 
-    --destructive: 0, 62.8%, 30.6%;
-    --destructive-foreground: 0, 85.7%, 97.3%;
+    --destructive: 0, 62.8%, 30.6%; /* #9d0208 */
+    --destructive-foreground: 0, 85.7%, 97.3%; /* #fff5f5 */
 
-    --success: 136.71, 78.22%, 39.61%;
-    --success-foreground: 0, 85.7%, 97.3%;
+    --success: 136.71, 78.22%, 39.61%; /* #22c55e */
+    --success-foreground: 0, 85.7%, 97.3%; /* #fff5f5 */
 
-    --ring: 260.63, 28.57%, 56.08%;
+    --ring: 260.63, 28.57%, 56.08%; /* #7c4dff */
 
     --gradient-background-start: #080e44;
     --gradient-background-end: #060a35;
 
-    --first-color: 81, 34, 117;
-    --second-color: 64, 29, 102;
-    --third-color: 47, 23, 88;
-    --fourth-color: 31, 18, 76;
-    --fifth-color: 20, 14, 64;
-    --pointer-color: 112, 43, 144;
+    --first-color: 81, 34, 117; /* #512275 */
+    --second-color: 64, 29, 102; /* #401d66 */
+    --third-color: 47, 23, 88; /* #2f1758 */
+    --fourth-color: 31, 18, 76; /* #1f124c */
+    --fifth-color: 20, 14, 64; /* #140e40 */
+    --pointer-color: 112, 43, 144; /* #702b90 */
 
-    --alert: 78, 90%, 75%;
+    --alert: 78, 90%, 75%; /* #e6ff4d */
 
     --radius: 24px;
   }
 
   .dark {
-    --background: 234, 79%, 11%;
-    --foreground: 0, 0%, 98%;
+    --background: 234, 79%, 11%; /* #0c1138 */
+    --foreground: 0, 0%, 98%; /* #fafafa */
 
-    --muted: 250.17, 34.1%, 33.92%;
-    --muted-foreground: 0, 0%, 98%;
+    --muted: 250.17, 34.1%, 33.92%; /* #3c3e6d */
+    --muted-foreground: 0, 0%, 98%; /* #fafafa */
 
-    --popover: 240, 10%, 3.9%;
-    --popover-foreground: 0, 0%, 98%;
+    --popover: 240, 10%, 3.9%; /* #0a0a0b */
+    --popover-foreground: 0, 0%, 98%; /* #fafafa */
 
-    --card: 242.18, 56.7%, 19.02%;
-    --card-foreground: 0, 0%, 98%;
+    --card: 242.18, 56.7%, 19.02%; /* #1c1f4d */
+    --card-foreground: 0, 0%, 98%; /* #fafafa */
 
-    --border: 240, 3.7%, 15.9%;
-    --input: 240, 3.7%, 15.9%;
+    --border: 240, 3.7%, 15.9%; /* #262626 */
+    --input: 240, 3.7%, 15.9%; /* #262626 */
 
-    --primary: 242.18, 56.7%, 19.02%;
-    --primary-foreground: 0, 0%, 98%;
+    --primary: 242.18, 56.7%, 19.02%; /* #1c1f4d */
+    --primary-foreground: 0, 0%, 98%; /* #fafafa */
 
-    --secondary: 0, 0%, 98%;
-    --secondary-foreground: 0, 0%, 6.67%;
+    --secondary: 0, 0%, 98%; /* #fafafa */
+    --secondary-foreground: 0, 0%, 6.67%; /* #111111 */
 
-    --accent: 319.38, 80.67%, 53.33%;
-    --accent-foreground: 0, 0%, 98%;
-    --accent-500: 261, 29%, 56%;
+    --accent: 319.38, 80.67%, 53.33%; /* #e91e63 */
+    --accent-foreground: 0, 0%, 98%; /* #fafafa */
+    --accent-500: 261, 29%, 56%; /* #7c4dff */
 
-    --destructive: 0, 62.8%, 30.6%;
-    --destructive-foreground: 0, 85.7%, 97.3%;
+    --destructive: 0, 62.8%, 30.6%; /* #9d0208 */
+    --destructive-foreground: 0, 85.7%, 97.3%; /* #fff5f5 */
 
-    --success: 136.71, 78.22%, 39.61%;
-    --success-foreground: 0, 85.7%, 97.3%;
+    --success: 136.71, 78.22%, 39.61%; /* #22c55e */
+    --success-foreground: 0, 85.7%, 97.3%; /* #fff5f5 */
 
-    --ring: 260.63, 28.57%, 56.08%;
+    --ring: 260.63, 28.57%, 56.08%; /* #7c4dff */
 
     --gradient-background-start: #080e44;
     --gradient-background-end: #060a35;
 
-    --first-color: 81, 34, 117;
-    --second-color: 64, 29, 102;
-    --third-color: 47, 23, 88;
-    --fourth-color: 31, 18, 76;
-    --fifth-color: 20, 14, 64;
-    --pointer-color: 112, 43, 144;
+    --first-color: 81, 34, 117; /* #512275 */
+    --second-color: 64, 29, 102; /* #401d66 */
+    --third-color: 47, 23, 88; /* #2f1758 */
+    --fourth-color: 31, 18, 76; /* #1f124c */
+    --fifth-color: 20, 14, 64; /* #140e40 */
+    --pointer-color: 112, 43, 144; /* #702b90 */
 
-    --alert: 78, 90%, 75%;
+    --alert: 78, 90%, 75%; /* #e6ff4d */
 
     --radius: 24px;
   }
@@ -443,5 +441,35 @@ iframe[title="reCAPTCHA"],
   @apply absolute z-10 -top-5 right-7 w-6 h-6 bg-accent-700 rounded-full animate-bounce;
 
   /* arrow polygon pointing down */
-  clip-path: polygon(50% 100%, 0% 50%, 25% 50%, 25% 0%, 75% 0%, 75% 50%, 100% 50%);
+  clip-path: polygon(
+    50% 100%,
+    0% 50%,
+    25% 50%,
+    25% 0%,
+    75% 0%,
+    75% 50%,
+    100% 50%
+  );
+}
+
+.grecaptcha-badge {
+  display: none !important;
+  z-index: -999 !important;
+}
+
+.katex-display {
+  font-size: clamp(0.7rem, 2vw, 1.2rem); /* Dynamically adjust font size */
+  line-height: 1.2;
+  padding: 10px 0 !important;
+  margin: 10px 0 !important;
+  width: 100%; /* Ensure full width of the parent */
+  max-width: 100%;
+  overflow: auto;
+}
+
+.katex {
+  font-size: inherit; /* Inherit font size from parent */
+  width: 100%;
+  max-width: 100%;
+  word-wrap: break-word; /* Ensure breaking of long words or expressions */
 }

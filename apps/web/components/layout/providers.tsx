@@ -23,6 +23,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { merge } from 'lodash'
 import { ThemeProvider as NextThemesProvider } from 'next-themes'
 import type { ThemeProviderProps } from 'next-themes/dist/types'
+import { NuqsAdapter } from 'nuqs/adapters/next/app'
 import { WagmiProvider } from 'wagmi'
 import {
   arbitrum,
@@ -90,28 +91,30 @@ if (typeof window !== 'undefined') {
 export function Providers({ children, ...props }: ThemeProviderProps) {
   return (
     <NextThemesProvider {...props}>
-      <TooltipProvider>
-        <QueryClientProvider client={queryClient}>
-          <WagmiProvider config={wagmiConfig}>
-            <RainbowKitProvider
-              theme={customRainbowKitTheme}
-              modalSize="compact"
-              showRecentTransactions={true}
-              appInfo={{
-                appName: 'Bitlauncher',
-              }}
-            >
-              <MultibaseProvider client={multibase}>
-                <SessionProvider>
-                  <UseSigningRequestProvider>
-                    <MobileNavProvider>{children}</MobileNavProvider>
-                  </UseSigningRequestProvider>
-                </SessionProvider>
-              </MultibaseProvider>
-            </RainbowKitProvider>
-          </WagmiProvider>
-        </QueryClientProvider>
-      </TooltipProvider>
+      <NuqsAdapter>
+        <TooltipProvider>
+          <QueryClientProvider client={queryClient}>
+            <WagmiProvider config={wagmiConfig}>
+              <RainbowKitProvider
+                theme={customRainbowKitTheme}
+                modalSize="compact"
+                showRecentTransactions={true}
+                appInfo={{
+                  appName: 'Bitlauncher',
+                }}
+              >
+                <MultibaseProvider client={multibase}>
+                  <SessionProvider>
+                    <UseSigningRequestProvider>
+                      <MobileNavProvider>{children}</MobileNavProvider>
+                    </UseSigningRequestProvider>
+                  </SessionProvider>
+                </MultibaseProvider>
+              </RainbowKitProvider>
+            </WagmiProvider>
+          </QueryClientProvider>
+        </TooltipProvider>
+      </NuqsAdapter>
     </NextThemesProvider>
   )
 }

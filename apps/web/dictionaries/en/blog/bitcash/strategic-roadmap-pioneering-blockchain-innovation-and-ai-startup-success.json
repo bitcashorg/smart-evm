@@ -2,7 +2,9 @@
   "relatedBlogs": [
     {
       "id": "CD89KaoLSh6nQbiMhxX0EQ",
-      "topics": ["launchpad"],
+      "topics": [
+        "launchpad"
+      ],
       "title": "Ensuring Trust and Integrity: Regulatory Compliance and Security Measures",
       "slug": "ensuring-trust-and-integrity-regulatory-compliance-and-security-measures",
       "authorName": "Jun Dam",
@@ -29,7 +31,9 @@
     },
     {
       "id": "BEfgGhndSsCn5MBU89RO3A",
-      "topics": ["launchpad"],
+      "topics": [
+        "launchpad"
+      ],
       "title": "Empowering Innovation: Vision, Mission, and Strategic Goals of bitLauncher",
       "slug": "empowering-innovation-vision-mission-and-strategic-goals-of-bitcash-launchpad",
       "authorName": "Jun Dam",
@@ -56,7 +60,12 @@
     },
     {
       "id": "NZeB3i5XRzuELW2UWBDyRQ",
-      "topics": ["research", "dao", "fundraising", "launchpad"],
+      "topics": [
+        "research",
+        "dao",
+        "fundraising",
+        "launchpad"
+      ],
       "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
       "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
       "authorName": "Jun Dam",
@@ -83,7 +92,9 @@
     },
     {
       "id": "MICfokr1TVuScAB4Qh9YGw",
-      "topics": ["launchpad"],
+      "topics": [
+        "launchpad"
+      ],
       "title": "Empowering Innovation: Tokenomics and Funding Strategy of bitcash",
       "slug": "empowering-innovation-tokenomics-and-funding-strategy-of-bitcash",
       "authorName": "Jun Dam",
@@ -110,7 +121,9 @@
     },
     {
       "id": "BSDdY8byQWipv749rApFRA",
-      "topics": ["launchpad"],
+      "topics": [
+        "launchpad"
+      ],
       "title": "Unlocking Potential: Use Cases and Applications of bitLauncher",
       "slug": "unlocking-potential-use-cases-and-applications-of-bitlauncher",
       "authorName": "Jun Dam",
@@ -138,7 +151,9 @@
   ],
   "blogContent": {
     "id": "fbM-UqrYQXGhw6HB4C6swQ",
-    "topics": ["launchpad"],
+    "topics": [
+      "launchpad"
+    ],
     "title": "Strategic Roadmap: Pioneering Blockchain Innovation and AI Startup Success",
     "slug": "strategic-roadmap-pioneering-blockchain-innovation-and-ai-startup-success",
     "authorName": "Jun Dam",
@@ -219,7 +234,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Platform Beta Launch"
                             },
                             {
@@ -238,7 +255,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Gnosis Auction and EOS EVM Integration"
                             },
                             {
@@ -257,7 +276,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Comprehensive Security Audits"
                             },
                             {
@@ -292,7 +313,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Fundraising Token Launch: Raise $350k for bitcash as first project on bitLauncher"
                             }
                           ]
@@ -307,7 +330,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Community Engagement Initiatives"
                             },
                             {
@@ -326,7 +351,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Launch of Development Initiatives"
                             },
                             {
@@ -345,7 +372,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Marketing Campaign Kick-off"
                             },
                             {
@@ -364,7 +393,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Initiation of the Antelope Chain Development"
                             },
                             {
@@ -383,7 +414,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "dBoard Launch"
                             },
                             {
@@ -402,7 +435,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "WebAuthn and Account Recovery Improvements"
                             },
                             {
@@ -447,7 +482,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Marketing and Community Building"
                             },
                             {
@@ -466,7 +503,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "bitLauncher Platform Enhancements"
                             },
                             {
@@ -485,7 +524,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Expansion of Infrastructure Solutions"
                             },
                             {
@@ -504,7 +545,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Launch of the Antelope Chain"
                             },
                             {
@@ -523,7 +566,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Minimalist Cryptocurrency Payment Wallet Launch"
                             },
                             {
@@ -558,7 +603,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Continuous Platform Improvement"
                             },
                             {
@@ -577,7 +624,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Strategic Partnerships and Collaborations"
                             },
                             {
@@ -596,7 +645,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Global Outreach and Adoption"
                             },
                             {
@@ -615,7 +666,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Research and Development"
                             },
                             {
@@ -677,5 +730,8 @@
       }
     }
   },
-  "topics": ["launchpad"]
+  "topics": [
+    "launchpad"
+  ],
+  "shortLink": ""
 }

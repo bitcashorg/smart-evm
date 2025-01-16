@@ -11,7 +11,10 @@ import { evmChains } from './evm'
 import type { AnyChain, ChainType } from './types'
 
 export const allChains: AnyChain[] = [
-  ...antelopeChains.map((chain) => ({ ...chain, chainType: 'antelope' as ChainType })),
+  ...antelopeChains.map((chain) => ({
+    ...chain,
+    chainType: 'antelope' as ChainType,
+  })),
   ...evmChains.map((chain) => ({ ...chain, chainType: 'evm' as ChainType })),
   // ...solanaChains,
   // ...cosmosChains,

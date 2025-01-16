@@ -46,5 +46,8 @@ async function handleDeposit(data: {
   to: string
 }) {
   const result = await tasks.trigger('eos-presale-deposit', data)
-  console.info(`Triggered address activity event for webhook ${data.trxId}`, result)
+  console.info(
+    `Triggered address activity event for webhook ${data.trxId}`,
+    result,
+  )
 }

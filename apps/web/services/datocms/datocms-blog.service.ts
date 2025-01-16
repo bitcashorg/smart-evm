@@ -4,9 +4,12 @@ import type { Lang } from '@/dictionaries/locales'
 import { getFilePath, parseFile } from '@/lib/file'
 import { getErrorMessage } from '@repo/errors'
 import { uniq } from 'lodash'
-import { type BlogArticleRecord, getBlogCategory } from './datacms-blog-category.service'
+import {
+  type BlogArticleRecord,
+  getBlogCategory,
+} from './datacms-blog-category.service'
 import { getLayoutText } from './datocms-layout.service'
-import { getPageSeoText } from './datocms-seo.service'
+import { type CMSPageSeoText, getPageSeoText } from './datocms-seo.service'
 import type { BlogAiRecord } from './graphql/generated/cms'
 
 export const getBlogData = async () => {
@@ -59,9 +62,11 @@ export const getBlogData = async () => {
   }
 }
 
-export async function getArticleSections(lang: Lang): Promise<ArticlesSection[]> {
+export async function getArticleSections(
+  lang: Lang,
+): Promise<ArticlesSection[]> {
   const dirPath = `/dictionaries/${lang}/blog/`
-  const fileName = `blog-index.json`
+  const fileName = 'blog-index.json'
   const filePath = path.resolve(dirPath, fileName)
 
   let fileContents: { sections: ArticlesSection[] } | undefined
@@ -148,11 +153,11 @@ export async function getArticleSections(lang: Lang): Promise<ArticlesSection[]>
     },
   ]
 
-  sections.forEach((section) => {
-    section.articles.forEach((article) => {
+  for (const section of sections) {
+    for (const article of section.articles) {
       article.contentBlock = []
-    })
-  })
+    }
+  }
 
   // Check file sections against new sections. If no section found on files, then we update the sections
   const fileSections = fileContents?.sections || []
@@ -176,7 +181,10 @@ export async function getArticleSections(lang: Lang): Promise<ArticlesSection[]>
   // ? Or moving this to actions.ts
   try {
     fs.mkdirSync(getFilePath(dirPath), { recursive: true })
-    fs.writeFileSync(getFilePath(filePath), JSON.stringify(fileContents, null, 2))
+    fs.writeFileSync(
+      getFilePath(filePath),
+      JSON.stringify(fileContents, null, 2),
+    )
   } catch (error) {
     console.error('❌❌❌❌ Failed to update cache on file.', error)
   }
@@ -223,7 +231,13 @@ export async function getRecentArticleSections(): Promise<ArticlesSection[]> {
   return recentArticles
 }
 
-export async function getBlogCategoryLandingData(lang: Lang, category: string) {
+export async function getBlogCategoryLandingData(
+  lang: Lang,
+  category: string,
+): Promise<{
+  sections: ArticlesSection[]
+  pageSeo: CMSPageSeoText
+}> {
   const [i18n, categories, pageSeo] = await Promise.all([
     getLayoutText(),
     getBlogCategory(category, undefined, 100),
@@ -243,12 +257,17 @@ export async function getBlogCategoryLandingData(lang: Lang, category: string) {
     // ? Due we are not updating the file contents frequently, we can return the file contents directly
     // console.info('in', process.env.NODE_ENV)
     if (process.env.NODE_ENV === 'production') {
-      return fileContents?.sections as ArticlesSection[]
+      return {
+        sections: fileContents?.sections as ArticlesSection[],
+        pageSeo,
+      }
     }
   } catch (error) {
     // console.log('error', error)
     try {
-      const englishVersion = parseFile(`/dictionaries/en/blog/${category}/${fileName}`)
+      const englishVersion = parseFile(
+        `/dictionaries/en/blog/${category}/${fileName}`,
+      )
       if (englishVersion) return englishVersion
     } catch (error) {
       console.error('❌ Failed to get cached file. Fetching new data', error)
@@ -256,29 +275,40 @@ export async function getBlogCategoryLandingData(lang: Lang, category: string) {
   }
 
   // replacing category kebab case with camel case
-  const blogCategory = category.replace(/(\-\w)/g, (m: string) => m[1].toUpperCase())
+  const blogCategory = category.replace(/(\-\w)/g, (m: string) =>
+    m[1].toUpperCase(),
+  )
   const categoryContent: BlogArticleRecord[] | undefined = categories[
     `${blogCategory}Data`
   ] as BlogArticleRecord[] | undefined
 
-  if (!categoryContent) return null
+  if (!categoryContent) {
+    return {
+      sections: [],
+      pageSeo,
+    }
+  }
   // get topics
   const allTopics: string[] = []
 
-  categoryContent.forEach((blog) => {
-    blog?.topics?.forEach((topic: string) => {
-      allTopics.push(topic)
-    })
-  })
+  for (const blog of categoryContent) {
+    if (blog?.topics) {
+      for (const topic of blog.topics) {
+        allTopics.push(topic)
+      }
+    }
+  }
 
   // section topics & blogs content
   const topics = uniq(allTopics)
 
   const sections: ArticlesSection[] = topics?.map((tp, index) => {
-    const articles = categoryContent.filter((content) => content.topics.includes(tp))
-    articles.forEach((article) => {
+    const articles = categoryContent.filter((content) =>
+      content.topics.includes(tp),
+    )
+    for (const article of articles) {
       article.contentBlock = []
-    })
+    }
 
     return {
       name: tp,
@@ -328,7 +358,11 @@ export type BlogArticleData = {
   topics: string[]
 }
 
-export async function getBlogArticleData(lang: Lang, category: string, slug: string) {
+export async function getBlogArticleData(
+  lang: Lang,
+  category: string,
+  slug: string,
+) {
   const dirPath = `/dictionaries/${lang}/blog/${category}`
   const fileName = `${slug}.json`
   const filePath = path.resolve(dirPath, fileName)
@@ -365,7 +399,9 @@ export async function getBlogArticleData(lang: Lang, category: string, slug: str
   ])
 
   // replacing category kebab case with camel case
-  const blogCategory = category.replace(/(\-\w)/g, (m: string) => m[1].toUpperCase())
+  const blogCategory = category.replace(/(\-\w)/g, (m: string) =>
+    m[1].toUpperCase(),
+  )
   const data: any = categories[`${blogCategory}Data`]
   const error: any = categories[`${blogCategory}Error`]
 
@@ -399,7 +435,9 @@ export async function getBlogArticleData(lang: Lang, category: string, slug: str
       })
       .filter(
         (blog: BlogAiRecord) =>
-          (blog.topics as string[]).some((topic: string) => topics.includes(topic)) &&
+          (blog.topics as string[]).some((topic: string) =>
+            topics.includes(topic),
+          ) &&
           blog.description?.match(titleRegex) &&
           blog.title?.match(titleRegex),
       )

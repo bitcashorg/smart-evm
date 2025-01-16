@@ -55,7 +55,7 @@ export default {
     {
       question: '我可以在哪裡找到更多資訊或參與其中？',
       answer:
-        '欲了解更多詳細信息、更新以及加入我們的社區，請訪問我們的官方網站，加入我們的社交媒體渠道，並訂閱我們的新聞通訊。我們歡迎所有有興趣通過我們的發射台貢獻或參與AI和加密貨幣未來的人。Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://blog.bitcash.org/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitcashorg, Telegram: https://t.me/bitcash_org。通過這些常見問題解答，我們旨在解決圍繞我們項目的核心問題，闡明我們在AI和加密貨幣不斷發展的領域中對創新、透明和社區賦權的承諾。',
+        '欲了解更多詳細信息、更新以及加入我們的社區，請訪問我們的官方網站，加入我們的社交媒體渠道，並訂閱我們的新聞通訊。我們歡迎所有有興趣通過我們的發射台貢獻或參與AI和加密貨幣未來的人。Linktree: https://linktr.ee/bitlauncher, Twitter: @bitcashorg / @bitlauncherai, Blog: https://bitlauncher.ai/blog/, Discord: https://discord.gg/eJCfx4JAqY, Youtube: https://www.youtube.com/@bitlauncher, Telegram: https://t.me/bitcash_org。通過這些常見問題解答，我們旨在解決圍繞我們項目的核心問題，闡明我們在AI和加密貨幣不斷發展的領域中對創新、透明和社區賦權的承諾。',
     },
   ],
 } as const

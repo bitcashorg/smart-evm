@@ -2,7 +2,9 @@
   "relatedBlogs": [],
   "blogContent": {
     "id": "IZK5RRvqQFWba2TpHx2ckA",
-    "topics": ["bitcoin"],
+    "topics": [
+      "bitcoin"
+    ],
     "title": "Destined for this Crypto & AI Revolution",
     "slug": "destined-for-this-crypto-ai-revolution",
     "authorName": "Jun Dam",
@@ -228,7 +230,9 @@
                       "children": [
                         {
                           "type": "span",
-                          "marks": ["underline"],
+                          "marks": [
+                            "underline"
+                          ],
                           "value": "BITCOIN – THE LIBERTARIAN INTRODUCTION"
                         }
                       ]
@@ -523,5 +527,8 @@
       }
     }
   },
-  "topics": ["bitcoin"]
+  "topics": [
+    "bitcoin"
+  ],
+  "shortLink": ""
 }

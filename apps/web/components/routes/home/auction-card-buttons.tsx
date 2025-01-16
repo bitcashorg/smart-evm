@@ -13,9 +13,17 @@ import { cn } from '@/lib/utils'
 import { Suspense } from 'react'
 
 export function AuctionCardButtons({ project }: { project: Project }) {
-  const { twitterUsername, discordServer, telegramGroup, title, linkPath, badgeText } =
-    project
-  const isAuctionRestricted = badgeText.match(/(AUCTION CLOSED|FUTURE|COMING SOON)/)
+  const {
+    twitterUsername,
+    discordServer,
+    telegramGroup,
+    title,
+    linkPath,
+    badgeText,
+  } = project
+  const isAuctionRestricted = badgeText.match(
+    /(AUCTION CLOSED|FUTURE|COMING SOON)/,
+  )
   const buttonLinkClassName = 'relative px-0 py-0 size-[58px] rounded-full'
   return (
     <div

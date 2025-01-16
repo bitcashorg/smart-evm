@@ -2,301 +2,469 @@
   "relatedBlogs": [
     {
       "id": "180217169",
-      "topics": ["代币经济学", "评论"],
-      "title": "代币化激励经济学3：代币价值无法协调利益相关者[评论]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Economics of Tokenized Incentives 3: Token Value Won’t Align Stakeholders [Commentary]",
       "slug": "economics-of-tokenized-incentives-3-token-value-won-t-align-stakeholders-commenta",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:17:23+01:00",
-      "description": "揭示使用代币价值作为区块链平台绩效指标的陷阱。学习设计有效的激励系统。",
+      "description": "Uncover the pitfalls of using token value as a performance metric in blockchain platforms. Learn to design effective incentive systems.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690771457-cbc3-img1.png"
       },
       "seo": {
-        "title": "代币化激励经济学3 [评论]",
-        "description": "揭示使用代币价值作为区块链平台绩效指标的陷阱。学习设计有效的激励系统。"
+        "description": "Uncover the pitfalls of using token value as a performance metric in blockchain platforms. Learn to design effective incentive systems.",
+        "title": "Economics of Tokenized Incentives 3 [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690771457-cbc3-img1.png"
+        }
       }
     },
     {
       "id": "180217123",
-      "topics": ["代币经济学", "评论"],
-      "title": "代币化激励经济学2：选择有效的绩效指标[评论]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Economics of Tokenized Incentives 2: Selecting Effective Performance Metrics [Commentary]",
       "slug": "economics-of-tokenized-incentives-2-selecting-effective-performance-metrics-comme",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:17:05+01:00",
-      "description": "发现区块链按绩效付费系统中绩效指标的力量。学习有效地将激励与平台目标保持一致。",
+      "description": "Discover the power of performance metrics in blockchain pay-for-performance systems. Learn to align incentives with platform goals effectively.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690770918-cbc2-img1.png"
       },
       "seo": {
-        "title": "代币化激励经济学2 [评论]",
-        "description": "发现区块链按绩效付费系统中绩效指标的力量。学习有效地将激励与平台目标保持一致。"
+        "description": "Discover the power of performance metrics in blockchain pay-for-performance systems. Learn to align incentives with platform goals effectively.",
+        "title": "Economics of Tokenized Incentives 2 [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690770918-cbc2-img1.png"
+        }
       }
     },
     {
       "id": "180217082",
-      "topics": ["代币经济学", "评论"],
-      "title": "代币化激励经济学1：按绩效付费简介[评论]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Economics of Tokenized Incentives 1: Intro to Pay for Performance [Commentary]",
       "slug": "economics-of-tokenized-incentives-1-intro-to-pay-for-performance",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:15:12+01:00",
-      "description": "深入了解区块链平台中按绩效付费激励的复杂性。了解成功的权衡和设计考虑因素。",
+      "description": "Dive into the complexities of pay-for-performance incentives in blockchain platforms. Learn the trade-offs and design considerations for success.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690770568-cbc1-img1.png"
       },
       "seo": {
-        "title": "代币化激励经济学1 [评论]",
-        "description": "深入了解区块链平台中按绩效付费激励的复杂性。了解成功的权衡和设计考虑因素"
+        "description": "Dive into the complexities of pay-for-performance incentives in blockchain platforms. Learn the trade-offs and design considerations for success",
+        "title": "Economics of Tokenized Incentives 1 [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690770568-cbc1-img1.png"
+        }
       }
     },
     {
       "id": "180556627",
-      "topics": ["评论", "智能合约"],
-      "title": "不完全合约与区块链[评论]",
+      "topics": [
+        "Commentary",
+        "Smart Contracts"
+      ],
+      "title": "Incomplete Contracts and Blockchain [Commentary]",
       "slug": "incomplete-contracts-and-blockchain-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:14:44+01:00",
-      "description": "揭开不完全合约与区块链之间关系的神秘面纱。了解区块链如何填补合约空白。",
+      "description": "Demystify the relationship between incomplete contracts and blockchain. Understand how blockchain can fill contractual gaps.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690856249-cbc5-img1.png"
       },
       "seo": {
-        "title": "不完全合约与区块链[评论]",
-        "description": "揭开不完全合约与区块链之间关系的神秘面纱。了解区块链如何填补合约空白。"
+        "description": "Demystify the relationship between incomplete contracts and blockchain. Understand how blockchain can fill contractual gaps.",
+        "title": "Incomplete Contracts and Blockchain [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690856249-cbc5-img1.png"
+        }
       }
     },
     {
       "id": "180563918",
-      "topics": ["代币经济学", "评论", "融资"],
-      "title": "代币：投资工具还是交换媒介（不能两者兼顾）[评论]",
+      "topics": [
+        "Tokenomics",
+        "Commentary",
+        "Fundraising"
+      ],
+      "title": "Tokens: Investment Vehicle or Medium of Exchange (Not Both) [Commentary]",
       "slug": "tokens-investment-vehicle-or-medium-of-exchange-not-both-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:13:31+01:00",
-      "description": "深入探讨代币在区块链经济中的双重角色。揭示投资工具和交换媒介之间的微妙界限。",
+      "description": "Delve into the dual role of tokens in the blockchain economy. Uncover the fine line between investment vehicle and medium of exchange.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859959-cbc8-img1.png"
       },
       "seo": {
-        "title": "代币：投资还是交换媒介[评论]",
-        "description": "深入探讨代币在区块链经济中的双重角色。揭示投资工具和交换媒介之间的微妙界限。"
+        "description": "Delve into the dual role of tokens in the blockchain economy. Uncover the fine line between investment vehicle and medium of exchange.",
+        "title": "Tokens: Investment or Medium of Exchange [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859959-cbc8-img1.png"
+        }
       }
     },
     {
       "id": "180563922",
-      "topics": ["融资", "代币经济学", "评论"],
-      "title": "ICO利用网络效应[评论]",
+      "topics": [
+        "Fundraising",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "ICOs Leverage Network Effects [Commentary]",
       "slug": "icos-leverage-network-effects-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:12:06+01:00",
-      "description": "发现ICO如何利用网络效应的力量来推动其成功。ICO和网络效应，一个充满活力的组合！",
+      "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
       },
       "seo": {
-        "title": "ICO利用网络效应[评论]",
-        "description": "发现ICO如何利用网络效应的力量来推动其成功。ICO和网络效应，一个充满活力的组合！"
+        "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
+        "title": "ICOs Leverage Network Effects [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
+        }
       }
     },
     {
       "id": "179948652",
-      "topics": ["代币经济学", "行业", "摘要"],
-      "title": "数字创新和收入模式[摘要]",
+      "topics": [
+        "Tokenomics",
+        "Industry",
+        "Summary"
+      ],
+      "title": "Digital Innovation and Revenue Models [Summary]",
       "slug": "digital-innovation-and-revenue-models-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:11:35+01:00",
-      "description": "在Prysm Group的'数字创新和收入模式'中揭示数字创新如何重塑产品交付。探索新兴技术经济学。",
+      "description": "Uncover how digital innovation reshapes product delivery in Prysm Group's 'Digital Innovation and Revenue Models'. Explore emerging tech economics.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690668517-cbr1-img1.png"
       },
       "seo": {
-        "title": "数字创新和收入模式[摘要]",
-        "description": "在Prysm Group的'数字创新和收入模式'中揭示数字创新如何重塑产品交付。探索新兴技术经济学。"
+        "description": "Uncover how digital innovation reshapes product delivery in Prysm Group's 'Digital Innovation and Revenue Models'. Explore emerging tech economics.",
+        "title": "Digital Innovation and Revenue Models [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690668517-cbr1-img1.png"
+        }
       }
     },
     {
       "id": "180556595",
-      "topics": ["融资", "代币经济学", "评论"],
-      "title": "区块链效应：无市场力量成本的网络效应[评论]",
+      "topics": [
+        "Fundraising",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
       "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:11:14+01:00",
-      "description": "探索区块链如何实现网络效应而不带来市场力量的弊端。发现改变游戏规则的区块链效应。",
+      "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
       },
       "seo": {
-        "title": "无市场力量成本的网络效应[评论]",
-        "description": "探索区块链如何实现网络效应而不带来市场力量的弊端。发现改变游戏规则的区块链效应。"
+        "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
+        "title": "Network Effects without Market Power Costs [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
+        }
       }
     },
     {
       "id": "180563903",
-      "topics": ["DAO", "摘要"],
-      "title": "投票的目的是什么？[摘要]",
+      "topics": [
+        "DAO",
+        "Summary"
+      ],
+      "title": "What is Voting For? [Summary]",
       "slug": "what-is-voting-for-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:58+01:00",
-      "description": "揭示去中心化系统中投票的本质。深入了解区块链中投票的真正目的和力量。",
+      "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
       },
       "seo": {
-        "title": "投票的目的是什么？[摘要]",
-        "description": "揭示去中心化系统中投票的本质。深入了解区块链中投票的真正目的和力量。"
+        "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
+        "title": "What is Voting For? [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
+        }
       }
     },
     {
       "id": "180563908",
-      "topics": ["DAO", "摘要"],
-      "title": "治理的目的是什么？[摘要]",
+      "topics": [
+        "DAO",
+        "Summary"
+      ],
+      "title": "What is Governance For? [Summary]",
       "slug": "what-is-governance-for-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:45+01:00",
-      "description": "探索区块链系统中治理的角色和重要性。了解治理如何推动去中心化和增长。",
+      "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
       },
       "seo": {
-        "title": "治理的目的是什么？[摘要]",
-        "description": "探索区块链系统中治理的角色和重要性。了解治理如何推动去中心化和增长。"
+        "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.\n",
+        "title": "What is Governance For? [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
+        }
       }
     },
     {
       "id": "180563931",
-      "topics": ["代币经济学", "评论"],
-      "title": "区块链激励结构：它们是什么以及为什么重要[评论]",
+      "topics": [
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "Blockchain Incentive Structures: What they are and why they matter [Commentary]",
       "slug": "blockchain-incentive-structures-what-they-are-and-why-they-matter-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:02+01:00",
-      "description": "了解区块链激励结构的核心及其在推动用户行为和平台成功方面的重要性。",
+      "description": "Understand the core of blockchain incentive structures and their significance in driving user behavior and platform success.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690860807-cbc10-img1.png"
       },
       "seo": {
-        "title": "区块链激励结构[评论]",
-        "description": "了解区块链激励结构的核心及其在推动用户行为和平台成功方面的重要性。"
+        "description": "Understand the core of blockchain incentive structures and their significance in driving user behavior and platform success.",
+        "title": "Blockchain Incentive Structures [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690860807-cbc10-img1.png"
+        }
       }
     },
     {
       "id": "167184977",
-      "topics": ["代币经济学", "DAO", "融资"],
-      "title": "革新股权模式：代币经济学如何颠覆创业世界",
+      "topics": [
+        "Tokenomics",
+        "DAO",
+        "Fundraising"
+      ],
+      "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
       "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:02:51+01:00",
-      "description": "用代币经济学解锁创业的未来！探索这一创新概念如何重塑股权模式并革新创业格局。",
+      "description": "Unlock the future of startups with tokenomics! Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
       },
       "seo": {
-        "title": "代币经济学如何颠覆创业世界",
-        "description": "探索这一创新概念如何重塑股权模式并革新创业格局。"
+        "description": "Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
+        "title": "How Tokenomics is Disrupting the Startup World",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
+        }
       }
     },
     {
       "id": "166984334",
-      "topics": ["DAO", "法律"],
-      "title": "去中心化自治组织（DAO）：商业和非营利目的的基本法律结构",
+      "topics": [
+        "DAO",
+        "Legal"
+      ],
+      "title": "Decentralized Autonomous Organizations (DAOs): Basic Legal Structures for Business and Non-Profit Purposes",
       "slug": "decentralized-autonomous-organizations-daos-basic-legal-structures-for-business-a",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:59:06+01:00",
-      "description": "发现用于商业和非营利目的的基本DAO法律结构。",
+      "description": "Discover the basic DAO legal structures for business and non-profit purposes. ",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687384353-db2-img1.png"
       },
       "seo": {
-        "title": "DAO：探索商业和非营利的法律结构",
-        "description": "去中心化自治组织（DAO）：探索商业和非营利目的的法律结构"
+        "description": "Decentralized Autonomous Organizations (DAOs): Navigating Legal Structures for Business and Non-Profit Purposes",
+        "title": "DAOs: Navigating Legal Structures for Business & Non-Profit ",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687384353-db2-img1.png"
+        }
       }
     },
     {
       "id": "167101094",
-      "topics": ["入门", "代币经济学"],
-      "title": "代币经济学101：释放加密货币的力量！",
+      "topics": [
+        "Getting Started",
+        "Tokenomics"
+      ],
+      "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
       "slug": "tokenomics-101-unleashing-the-power-of-cryptocurrency",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:58+01:00",
-      "description": "通过代币经济学101发现加密货币的力量 - 深入了解数字资产背后经济学的指南。",
+      "description": "Discover the power of cryptocurrency through Tokenomics 101 - an in-depth guide to understanding the economics behind digital assets.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
       },
       "seo": {
-        "title": "代币经济学101：释放加密货币的力量！",
-        "description": "深入了解数字资产背后经济学的指南。"
+        "description": "an in-depth guide to understanding the economics behind digital assets.",
+        "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
+        }
       }
     },
     {
       "id": "166981063",
-      "topics": ["入门", "DAO"],
-      "title": "未来已来：去中心化自治组织（DAO）的崛起",
+      "topics": [
+        "Getting Started",
+        "DAO"
+      ],
+      "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
       "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:02+01:00",
-      "description": "在我们的指南中探索去中心化自治组织（DAO）的崛起。了解商业的未来和创业的机会。",
+      "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
       },
       "seo": {
-        "title": "去中心化自治组织的崛起",
-        "description": "在我们的指南中探索去中心化自治组织（DAO）的崛起。了解商业的未来和创业的机会。"
+        "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
+        "title": "The Rise of Decentralized Autonomous Organizations ",
+        "twitterCard": null,
+        "image": null
       }
     }
   ],
   "blogContent": {
     "id": "180563939",
-    "topics": ["去中心化自治组织", "代币经济学", "评论"],
-    "title": "区块链治理设计框架：Prysm集团轮盘[评论]",
+    "topics": [
+      "DAO",
+      "Tokenomics",
+      "Commentary"
+    ],
+    "title": "A Framework for Blockchain Governance Design: The Prysm Group Wheel [Commentary]",
     "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T09:19:19+01:00",
-    "description": "通过Prysm集团轮盘导航区块链治理的复杂性。您的有效区块链治理设计路线图。",
+    "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
     },
@@ -425,7 +593,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Scope of Decisions"
                             },
                             {
@@ -444,7 +614,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Stakeholders / Participants"
                             },
                             {
@@ -463,7 +635,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Policy Research and Development"
                             },
                             {
@@ -482,7 +656,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Proposal Process"
                             },
                             {
@@ -501,7 +677,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Information Distribution Systems / Education"
                             },
                             {
@@ -520,7 +698,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Decision-Making Procedures"
                             },
                             {
@@ -539,7 +719,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Implementation and Property Rights"
                             },
                             {
@@ -573,7 +755,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Blockchain developers"
                             },
                             {
@@ -592,8 +776,10 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
-                              "value": "Contributors"
+                              "marks": [
+                                "strong"
+                              ],
+                              "value": "Investors"
                             },
                             {
                               "type": "span",
@@ -611,7 +797,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Blockchain users"
                             },
                             {
@@ -630,7 +818,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Policy-makers and regulators"
                             },
                             {
@@ -670,8 +860,8 @@
       }
     ],
     "seo": {
-      "description": "通过Prysm集团轮盘导航区块链治理的复杂性。您的有效区块链治理设计路线图。",
-      "title": "区块链治理设计框架[评论]",
+      "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
+      "title": "A Framework for Blockchain Governance Design [Commentary]",
       "twitterCard": null,
       "image": {
         "width": 1400,
@@ -682,5 +872,13 @@
       }
     }
   },
-  "topics": ["DAO", "代币经济学", "评论"]
+  "topics": [
+    "DAO",
+    "Tokenomics",
+    "Commentary"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

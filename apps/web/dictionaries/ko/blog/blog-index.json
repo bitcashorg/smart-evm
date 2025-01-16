@@ -6,7 +6,9 @@
       "articles": [
         {
           "id": "SpdLuuYEQgW8rwSHNzhmxA",
-          "topics": ["앱"],
+          "topics": [
+            "앱"
+          ],
           "title": "마스터봇: 소셜 공유 및 사용자 친화적 혁신을 통해 AI를 챗지피티 이상으로 끌어올리기",
           "slug": "masterbots-elevating-ai-beyond-chatgpt-with-social-sharing-and-user-friendly-inno",
           "authorName": "Jun Dam",
@@ -34,7 +36,11 @@
         },
         {
           "id": "190259319",
-          "topics": ["요약", "LLM", "훈련"],
+          "topics": [
+            "요약",
+            "LLM",
+            "훈련"
+          ],
           "title": "잠재 공간 팟캐스트 8/16/23 [요약] - 엘루서 AI의 퀀틴 앤서니와 함께하는 LLM 훈련의 수학",
           "slug": "latent-space-podcast-8-16-23-summary-the-mathematics-of-training-llms-with-que",
           "authorName": "Prof. Otto Nomos",
@@ -62,7 +68,12 @@
         },
         {
           "id": "190259129",
-          "topics": ["LLM", "하드웨어", "요약", "엣지"],
+          "topics": [
+            "LLM",
+            "하드웨어",
+            "요약",
+            "엣지"
+          ],
           "title": "잠재 공간 팟캐스트 8/10/23 [요약]: 브라우저와 아이폰에서 70B 모델을 실행하는 LLMs: CMU / OctoML의 천티엔치와 함께",
           "slug": "latent-space-podcast-8-10-23-summary-llms-everywhere-running-70b-models-in-browse",
           "authorName": "Prof. Otto Nomos",
@@ -90,7 +101,13 @@
         },
         {
           "id": "190259087",
-          "topics": ["Summary", "LLM", "Code", "Open Source", "Small Models"],
+          "topics": [
+            "Summary",
+            "LLM",
+            "Code",
+            "Open Source",
+            "Small Models"
+          ],
           "title": "Latent Space Podcast 8/4/23 [Summary] Latent Space x AI Breakdown crossover pod! ",
           "slug": "latent-space-podcast-8-4-23-summary-latent-space-x-ai-breakdown-crossover-pod",
           "authorName": "Prof. Otto Nomos",
@@ -118,7 +135,12 @@
         },
         {
           "id": "190259111",
-          "topics": ["Summary", "Transformers", "Training", "Open Source"],
+          "topics": [
+            "Summary",
+            "Transformers",
+            "Training",
+            "Open Source"
+          ],
           "title": " Latent Space Podcast 7/26/23 [Summary] FlashAttention 2: making Transformers 800% faster - Tri Dao of Together AI",
           "slug": "latent-space-podcast-7-26-23-summary-flashattention-2-making-transformers-800-fas",
           "authorName": "Prof. Otto Nomos",
@@ -152,7 +174,13 @@
       "articles": [
         {
           "id": "198277124",
-          "topics": ["LLM", "금융", "의료", "법률", "프롬프팅"],
+          "topics": [
+            "LLM",
+            "금융",
+            "의료",
+            "법률",
+            "프롬프팅"
+          ],
           "title": "독해를 통한 대형 언어 모델 적용",
           "slug": "adapting-large-language-models-via-reading-comprehension",
           "authorName": "Prof. Otto Nomos",
@@ -180,7 +208,10 @@
         },
         {
           "id": "198277342",
-          "topics": ["LLM", "다국어"],
+          "topics": [
+            "LLM",
+            "다국어"
+          ],
           "title": "OpenBA: 처음부터 사전 훈련된 15B 이중 언어 비대칭 seq2seq 모델 오픈 소스",
           "slug": "openba-an-open-sourced-15b-bilingual-asymmetric-seq2seq-model-pre-trained-from-sc",
           "authorName": "Prof. Otto Nomos",
@@ -208,7 +239,10 @@
         },
         {
           "id": "198277117",
-          "topics": ["LLM", "검색"],
+          "topics": [
+            "LLM",
+            "검색"
+          ],
           "title": "PDFTriage: 긴 구조화된 문서에서의 질문 답변",
           "slug": "pdftriage-question-answering-over-long-structured-documents",
           "authorName": "Prof. Otto Nomos",
@@ -236,7 +270,10 @@
         },
         {
           "id": "198277138",
-          "topics": ["LLM", "미세 조정"],
+          "topics": [
+            "LLM",
+            "미세 조정"
+          ],
           "title": "정렬된 LLaMA: 대규모 언어 모델의 중간 계층의 잠재력을 동적 추론을 위해 정렬된 미세 조정(SoFT)을 사용하여 활용",
           "slug": "sorted-llama-unlocking-the-potential-of-intermediate-layers-of-large-language-mod",
           "authorName": "Prof. Otto Nomos",
@@ -264,7 +301,11 @@
         },
         {
           "id": "198277150",
-          "topics": ["LLM", "명령 조정", "멀티모달"],
+          "topics": [
+            "LLM",
+            "명령 조정",
+            "멀티모달"
+          ],
           "title": "명령 조정된 대규모 멀티모달 모델의 경험적 연구",
           "slug": "an-empirical-study-of-scaling-instruct-tuned-large-multimodal-models",
           "authorName": "Prof. Otto Nomos",
@@ -293,9 +334,106 @@
       ]
     },
     {
-      "name": "News",
-      "slug": "news",
-      "articles": []
+      "name": "Bitlauncher",
+      "slug": "bitlauncher",
+      "articles": [
+        {
+          "id": "W8caLxKNTdahoemkXQT_sg",
+          "topics": [
+            "how_to",
+            "launchpad",
+            "dao"
+          ],
+          "title": "Welcome to the Bitlauncher Presale Starting September 16th!",
+          "slug": "welcome-to-the-bitlauncher-presale-starting-september-16th",
+          "authorName": "Jun Dam",
+          "authorPicture": {
+            "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
+          },
+          "_publishedAt": "2024-09-12T21:10:12+01:00",
+          "description": "Bitlauncher Presale begins September 16th, 2024, offering a unique opportunity to contribute capital in the intersection of AI and cryptocurrency. Secure your presale tokens at $1 each and be part of this transformative venture.",
+          "thumbnail": {
+            "url": "https://www.datocms-assets.com/101962/1724390484-bitlauncherpresale2.jpg"
+          },
+          "contentBlock": [],
+          "seo": {
+            "description": "Bitlauncher Presale starts September 16th, 2024. Join the AI-crypto revolution by securing presale tokens at $1 each.",
+            "title": "Bitlauncher Presale Starting September 16th!",
+            "twitterCard": "summary_large_image",
+            "image": {
+              "width": 1312,
+              "height": 736,
+              "title": null,
+              "alt": null,
+              "url": "https://www.datocms-assets.com/101962/1724390484-bitlauncherpresale2.jpg"
+            }
+          }
+        },
+        {
+          "id": "TBAOoPr9SPihQxeeKTGUQw",
+          "topics": [
+            "launchpad",
+            "investment",
+            "fundraising"
+          ],
+          "title": "What is a Public Token Presale?",
+          "slug": "what-is-a-public-token-presale",
+          "authorName": "Jun Dam",
+          "authorPicture": {
+            "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
+          },
+          "_publishedAt": "2024-08-27T05:32:23+01:00",
+          "description": "Public token presales provide early investment chances at fixed prices before main sales. They help projects raise pre-launch funds, gauge interest, and build community, offering potential benefits for participants.",
+          "thumbnail": {
+            "url": "https://www.datocms-assets.com/101962/1724733057-pre-sale-bitlauncher-blog.png"
+          },
+          "contentBlock": [],
+          "seo": {
+            "description": "Public token presales offer early investment opportunities before main sale, helping projects raise pre-launch capital.",
+            "title": "What is a Public Token Presale?",
+            "twitterCard": "summary_large_image",
+            "image": {
+              "width": 1312,
+              "height": 736,
+              "title": null,
+              "alt": null,
+              "url": "https://www.datocms-assets.com/101962/1724733057-pre-sale-bitlauncher-blog.png"
+            }
+          }
+        },
+        {
+          "id": "ecAGoOkaROa09DcoVKyOCA",
+          "topics": [
+            "dao",
+            "analysis",
+            "launchpad"
+          ],
+          "title": "What is the Bitlauncher ($BL) Token?",
+          "slug": "what-is-the-bitlauncher-bl-token",
+          "authorName": "Jun Dam",
+          "authorPicture": {
+            "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
+          },
+          "_publishedAt": "2024-08-27T05:06:47+01:00",
+          "description": "Bitlauncher's public token presale offers early investment opportunities in AI and blockchain projects. Secure tokens at $1 each, contribute to pre-launch funding, and join the growing community.",
+          "thumbnail": {
+            "url": "https://www.datocms-assets.com/101962/1724389825-whatisbltoken1.webp"
+          },
+          "contentBlock": [],
+          "seo": {
+            "description": "Bitlauncher ($BL) token: Powering the AI-focused launchpad, enabling governance, transactions, and ecosystem growth.",
+            "title": "What is the Bitlauncher ($BL) Token?",
+            "twitterCard": "summary_large_image",
+            "image": {
+              "width": 1797,
+              "height": 603,
+              "title": null,
+              "alt": null,
+              "url": "https://www.datocms-assets.com/101962/1724356923-bl-thumbnail.png"
+            }
+          }
+        }
+      ]
     },
     {
       "name": "Bitcash",
@@ -303,7 +441,9 @@
       "articles": [
         {
           "id": "CD89KaoLSh6nQbiMhxX0EQ",
-          "topics": ["발사대"],
+          "topics": [
+            "발사대"
+          ],
           "title": "신뢰와 진실성 보장: 규제 준수 및 보안 조치",
           "slug": "ensuring-trust-and-integrity-regulatory-compliance-and-security-measures",
           "authorName": "Jun Dam",
@@ -331,7 +471,9 @@
         },
         {
           "id": "H_DP7HFORBuw9rID5Jkhhw",
-          "topics": ["어떻게"],
+          "topics": [
+            "어떻게"
+          ],
           "title": "Bitcash 등록 및 KYC 방법",
           "slug": "how-to-register-and-kyc-to-bitcash",
           "authorName": "Roberto \"Andler\" Lucas",
@@ -359,7 +501,9 @@
         },
         {
           "id": "fbM-UqrYQXGhw6HB4C6swQ",
-          "topics": ["발사대"],
+          "topics": [
+            "발사대"
+          ],
           "title": "전략적 로드맵: 블록체인 혁신과 AI 스타트업 성공을 선도하다",
           "slug": "strategic-roadmap-pioneering-blockchain-innovation-and-ai-startup-success",
           "authorName": "Jun Dam",
@@ -387,7 +531,9 @@
         },
         {
           "id": "I4jShMnWRruvJgDbrucwDw",
-          "topics": ["launchpad"],
+          "topics": [
+            "launchpad"
+          ],
           "title": "The Technological Backbone of bitLauncher",
           "slug": "the-technological-backbone-of-bitcash-launchpad",
           "authorName": "Jun Dam",
@@ -415,7 +561,9 @@
         },
         {
           "id": "BEfgGhndSsCn5MBU89RO3A",
-          "topics": ["launchpad"],
+          "topics": [
+            "launchpad"
+          ],
           "title": "Empowering Innovation: Vision, Mission, and Strategic Goals of bitLauncher",
           "slug": "empowering-innovation-vision-mission-and-strategic-goals-of-bitcash-launchpad",
           "authorName": "Jun Dam",
@@ -449,7 +597,10 @@
       "articles": [
         {
           "id": "166795692",
-          "topics": ["시작하기", "비즈니스 및 관리"],
+          "topics": [
+            "시작하기",
+            "비즈니스 및 관리"
+          ],
           "title": "창업자를 위한 현금 흐름 마스터: 최종 가이드",
           "slug": "mastering-cash-flow-the-ultimate-guide-for-startup-founders",
           "authorName": "Bootstrap Briggs",
@@ -477,7 +628,10 @@
         },
         {
           "id": "166788631",
-          "topics": ["시작하기", "비즈니스 및 관리"],
+          "topics": [
+            "시작하기",
+            "비즈니스 및 관리"
+          ],
           "title": "스타트업을 위한 스마트 예산 편성: 강력한 재정 기반 구축을 위한 단계별 가이드",
           "slug": "smart-budgeting-for-startups-a-step-by-step-guide-to-building-a-strong-financial",
           "authorName": "Bootstrap Briggs",
@@ -505,7 +659,10 @@
         },
         {
           "id": "165816954",
-          "topics": ["시작하기", "팀 및 인사"],
+          "topics": [
+            "시작하기",
+            "팀 및 인사"
+          ],
           "title": "꿈의 팀 구성: 스타트업 스쿼드를 조립하기 위한 궁극의 가이드",
           "slug": "building-a-dream-team-the-ultimate-guide-to-assembling-your-startup-squad",
           "authorName": "Bootstrap Briggs",
@@ -533,7 +690,10 @@
         },
         {
           "id": "166322203",
-          "topics": ["Getting Started", "Sales & Marketing"],
+          "topics": [
+            "Getting Started",
+            "Sales & Marketing"
+          ],
           "title": "The Blueprint to Success: A Guide to Crafting a Winning Sales Plan for Your Startup",
           "slug": "the-blueprint-to-success-a-guide-to-crafting-a-winning-sales-plan-for-your-startu",
           "authorName": "Steve Savant",
@@ -567,7 +727,10 @@
       "articles": [
         {
           "id": "180217169",
-          "topics": ["토크노믹스", "논평"],
+          "topics": [
+            "토크노믹스",
+            "논평"
+          ],
           "title": "토큰화된 인센티브의 경제학 3: 토큰 가치가 이해관계자를 조정하지 않습니다 [논평]",
           "slug": "economics-of-tokenized-incentives-3-token-value-won-t-align-stakeholders-commenta",
           "authorName": "Crypto Clairity",
@@ -595,7 +758,10 @@
         },
         {
           "id": "180217123",
-          "topics": ["토큰 경제학", "논평"],
+          "topics": [
+            "토큰 경제학",
+            "논평"
+          ],
           "title": "토큰화된 인센티브의 경제학 2: 효과적인 성과 지표 선택 [논평]",
           "slug": "economics-of-tokenized-incentives-2-selecting-effective-performance-metrics-comme",
           "authorName": "Crypto Clairity",
@@ -623,7 +789,10 @@
         },
         {
           "id": "180217082",
-          "topics": ["토큰노믹스", "논평"],
+          "topics": [
+            "토큰노믹스",
+            "논평"
+          ],
           "title": "토큰화된 인센티브의 경제학 1: 성과에 대한 보상 소개 [논평]",
           "slug": "economics-of-tokenized-incentives-1-intro-to-pay-for-performance",
           "authorName": "Crypto Clairity",
@@ -651,7 +820,10 @@
         },
         {
           "id": "180556627",
-          "topics": ["Commentary", "Smart Contracts"],
+          "topics": [
+            "Commentary",
+            "Smart Contracts"
+          ],
           "title": "Incomplete Contracts and Blockchain [Commentary]",
           "slug": "incomplete-contracts-and-blockchain-commentary",
           "authorName": "Crypto Clairity",
@@ -685,7 +857,11 @@
       "articles": [
         {
           "id": "165362142",
-          "topics": ["시작하기", "작업 증명", "채굴"],
+          "topics": [
+            "시작하기",
+            "작업 증명",
+            "채굴"
+          ],
           "title": "비트코인 채굴의 힘을 열다: 작업 증명 알고리즘 소개",
           "slug": "unlocking-the-power-of-bitcoin-mining-an-introduction-to-proof-of-work-algorithms",
           "authorName": "Maxi Millie",
@@ -713,7 +889,10 @@
         },
         {
           "id": "165340146",
-          "topics": ["시작하기", "작업 증명"],
+          "topics": [
+            "시작하기",
+            "작업 증명"
+          ],
           "title": "비트코인의 경제적 보안: 작업 증명이 안전하고 보안된 네트워크를 가능하게 하는 방법",
           "slug": "the-economic-security-of-bitcoin-how-proof-of-work-enables-a-safe-and-secure-netw",
           "authorName": "Maxi Millie",
@@ -741,7 +920,10 @@
         },
         {
           "id": "165340050",
-          "topics": ["시작하기", "법적"],
+          "topics": [
+            "시작하기",
+            "법적"
+          ],
           "title": "비트코인의 법적 및 규제 환경 탐색: 규칙과 기회 이해하기",
           "slug": "navigating-the-legal-and-regulatory-landscape-of-bitcoin-understanding-the-rules",
           "authorName": "Maxi Millie",
@@ -769,7 +951,10 @@
         },
         {
           "id": "165337859",
-          "topics": ["Getting Started", "Security"],
+          "topics": [
+            "Getting Started",
+            "Security"
+          ],
           "title": "The Future of Bitcoin Storage: An Introduction to Bitcoin Wallets and Innovative Storage Solutions",
           "slug": "the-future-of-bitcoin-storage-an-introduction-to-bitcoin-wallets-and-innovative-s",
           "authorName": "Maxi Millie",
@@ -803,7 +988,10 @@
       "articles": [
         {
           "id": "174592759",
-          "topics": ["시작하기", "대안"],
+          "topics": [
+            "시작하기",
+            "대안"
+          ],
           "title": "잠재력을 발휘하다: 대체 투자 마스터하기로 투자자 성공 이끌기",
           "slug": "unleashing-the-potential-mastering-alternative-investments-for-contributor-success",
           "authorName": "Mister Moneybags",
@@ -831,7 +1019,10 @@
         },
         {
           "id": "175015363",
-          "topics": ["시작하기", "상호 기금 및 ETF"],
+          "topics": [
+            "시작하기",
+            "상호 기금 및 ETF"
+          ],
           "title": "상장지수펀드(ETF)의 장단점 공개: 투자자를 위한 종합 가이드",
           "slug": "unveiling-the-pros-and-cons-of-exchange-traded-funds-etfs-a-comprehensive-guide-f",
           "authorName": "Mister Moneybags",
@@ -859,7 +1050,10 @@
         },
         {
           "id": "176002890",
-          "topics": ["시작하기", "위험 관리"],
+          "topics": [
+            "시작하기",
+            "위험 관리"
+          ],
           "title": "투자 보호: 투자 사기를 인식하고 피하는 종합 가이드",
           "slug": "shield-your-investments-a-comprehensive-guide-to-recognizing-and-avoiding-investm",
           "authorName": "Mister Moneybags",
@@ -887,7 +1081,10 @@
         },
         {
           "id": "176002763",
-          "topics": ["Getting Started", "Insurance"],
+          "topics": [
+            "Getting Started",
+            "Insurance"
+          ],
           "title": "Insurance Planning 101: Navigating Life, Disability, and Long-Term Care Insurance",
           "slug": "insurance-planning-101-navigating-life-disability-and-long-term-care-insurance",
           "authorName": "Mister Moneybags",

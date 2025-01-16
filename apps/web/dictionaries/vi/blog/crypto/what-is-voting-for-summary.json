@@ -2,54 +2,74 @@
   "relatedBlogs": [
     {
       "id": "167184977",
-      "topics": ["Tokenomics", "DAO", "Gây quỹ"],
-      "title": "Cách mạng hóa Mô hình Cổ phần: Tokenomics làm thay đổi thế giới khởi nghiệp",
+      "topics": [
+        "Tokenomics",
+        "DAO",
+        "Fundraising"
+      ],
+      "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
       "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:02:51+01:00",
-      "description": "Mở khóa tương lai của các startup với tokenomics! Khám phá cách khái niệm sáng tạo này đang tái cấu trúc mô hình cổ phần và làm thay đổi bức tranh khởi nghiệp.",
+      "description": "Unlock the future of startups with tokenomics! Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
       },
       "seo": {
-        "title": "Tokenomics làm thay đổi thế giới khởi nghiệp",
-        "description": "Khám phá cách khái niệm sáng tạo này đang tái cấu trúc mô hình cổ phần và làm thay đổi bức tranh khởi nghiệp."
+        "description": "Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
+        "title": "How Tokenomics is Disrupting the Startup World",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
+        }
       }
     },
     {
       "id": "166981063",
-      "topics": ["Bắt đầu", "DAO"],
-      "title": "Tương lai đã đến: Sự trỗi dậy của các Tổ chức Tự trị Phi tập trung (DAOs)",
+      "topics": [
+        "Getting Started",
+        "DAO"
+      ],
+      "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
       "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:02+01:00",
-      "description": "Khám phá sự trỗi dậy của các Tổ chức Tự trị Phi tập trung (DAOs) trong hướng dẫn của chúng tôi. Hiểu về tương lai của doanh nghiệp và các cơ hội dành cho các startup.",
+      "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
       },
       "seo": {
-        "title": "Sự trỗi dậy của các Tổ chức Tự trị Phi tập trung",
-        "description": "Khám phá sự trỗi dậy của các Tổ chức Tự trị Phi tập trung (DAOs) trong hướng dẫn của chúng tôi. Hiểu về tương lai của doanh nghiệp và các cơ hội dành cho các startup."
+        "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
+        "title": "The Rise of Decentralized Autonomous Organizations ",
+        "twitterCard": null,
+        "image": null
       }
     }
   ],
   "blogContent": {
     "id": "180563903",
-    "topics": ["DAO", "Tóm tắt"],
-    "title": "Mục đích của việc bỏ phiếu là gì? [Tóm tắt]",
+    "topics": [
+      "DAO",
+      "Summary"
+    ],
+    "title": "What is Voting For? [Summary]",
     "slug": "what-is-voting-for-summary",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T09:10:58+01:00",
-    "description": "Khám phá bản chất của việc bỏ phiếu trong các hệ thống phi tập trung. Hiểu sâu hơn về mục đích và quyền lực thực sự của việc bỏ phiếu trong blockchain.",
+    "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
     },
@@ -66,7 +86,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Liên kết gốc: "
+                      "value": "Original Link: "
                     },
                     {
                       "url": "https://medium.com/prysmeconomics/what-is-voting-for-6e733a1d2bc9",
@@ -74,7 +94,7 @@
                       "children": [
                         {
                           "type": "span",
-                          "value": "Mục đích của việc bỏ phiếu là gì?"
+                          "value": "What is Voting For?"
                         }
                       ]
                     },
@@ -96,7 +116,7 @@
                     },
                     {
                       "type": "span",
-                      "value": "Tác giả: "
+                      "value": "Author: "
                     },
                     {
                       "url": "https://medium.com/@cathybarreraphd?source=post_page-----6e733a1d2bc9--------------------------------",
@@ -110,7 +130,7 @@
                       "children": [
                         {
                           "type": "span",
-                          "value": "Cathy Barrera, Tiến sĩ"
+                          "value": "Cathy Barrera, PhD"
                         }
                       ]
                     }
@@ -122,7 +142,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Tóm tắt"
+                      "value": "Summary"
                     }
                   ]
                 },
@@ -131,7 +151,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Việc liệu một hệ thống bỏ phiếu trên nền tảng blockchain có được thiết kế tốt hay không phụ thuộc vào các yếu tố như bối cảnh bỏ phiếu, mục đích của nó (sở thích cá nhân hay thông tin), và mục tiêu tổng thể của hệ thống. Việc bỏ phiếu là cần thiết khi các thành viên trong nhóm có sở thích khác nhau đối với kết quả liên quan đến họ (bỏ phiếu theo sở thích), và khi có sở thích chung nhưng vẫn không chắc chắn về lựa chọn dẫn đến kết quả đúng (bỏ phiếu theo thông tin)."
+                      "value": "Understanding whether a blockchain-enabled platform's voting system is well-designed depends on factors such as the voting context, its purposes (preference vs. information), and the system's overarching goals. Voting is essential when individual members of a group have varying preferences over an outcome relevant to them (voting for preference), and when shared preferences exist but uncertainty persists over the choice leading to the correct outcome (voting on information)."
                     }
                   ]
                 },
@@ -140,7 +160,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Đối với việc bỏ phiếu theo sở thích, hãy nghĩ đến một nhóm bạn bè quyết định chọn nhà hàng. Mỗi phiếu bầu được tính bằng nhau vì sở thích của mọi người được coi trọng. Trong trường hợp này, mục tiêu là đạt được sự đồng thuận thông qua một hệ thống công bằng mà hợp nhất các sở thích khác nhau thành một lựa chọn duy nhất, thúc đẩy sự gắn kết nhóm."
+                      "value": "For voting on preference, think of a group of friends deciding on a restaurant. Each vote is counted equally as everyone's preferences are valued. In this case, the goal is to reach an agreement through a fair system that amalgamates different preferences into a single choice, fostering group cohesion."
                     }
                   ]
                 },
@@ -149,7 +169,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Ngược lại, việc bỏ phiếu theo thông tin là về việc đưa ra quyết định đúng khi có một mục tiêu chung nhưng thông tin không chắc chắn, như trong một phiên tòa bồi thẩm. Ở đây, mục tiêu là tổng hợp thông tin từ nhóm để đưa ra quyết định thông tin và chính xác hơn."
+                      "value": "Contrastingly, voting on information is more about reaching the right decision when there's a shared goal, but uncertain information, like in a jury trial. Here, the objective is to pool information from the group to reach a more informed and correct decision."
                     }
                   ]
                 },
@@ -158,7 +178,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Việc thiết kế hệ thống bỏ phiếu do đó đòi hỏi phải cân nhắc kỹ lưỡng:"
+                      "value": "Designing a voting system hence requires carefully considering:"
                     }
                   ]
                 },
@@ -174,7 +194,7 @@
                           "children": [
                             {
                               "type": "span",
-                              "value": "Loại phiếu bầu: Là dựa trên sở thích hay thông tin?"
+                              "value": "The type of vote: Is it preference-based or information-based?"
                             }
                           ]
                         }
@@ -188,7 +208,7 @@
                           "children": [
                             {
                               "type": "span",
-                              "value": "Người tham gia: Ai nên bỏ phiếu? Là tất cả mọi người tham gia hay chỉ một nhóm được chọn?"
+                              "value": "Participants: Who should vote? Is it everyone involved or just a select group?"
                             }
                           ]
                         }
@@ -202,7 +222,7 @@
                           "children": [
                             {
                               "type": "span",
-                              "value": "Ngưỡng: Yêu cầu tối thiểu cho một quyết định là gì?"
+                              "value": "Thresholds: What should be the minimum requirement for a decision?"
                             }
                           ]
                         }
@@ -216,7 +236,7 @@
                           "children": [
                             {
                               "type": "span",
-                              "value": "Khả năng tiếp cận thông tin: Người bỏ phiếu cần thông tin gì và thiết kế làm thế nào để đảm bảo họ nhận được nó?"
+                              "value": "Information availability: What information do voters need and how can the design ensure they get it?"
                             }
                           ]
                         }
@@ -230,7 +250,7 @@
                           "children": [
                             {
                               "type": "span",
-                              "value": "Đề xuất phiếu bầu: Các lựa chọn nên được đề xuất và bao gồm trong phiếu bầu như thế nào?"
+                              "value": "Ballot proposal: How should the options be proposed and included in the ballot?"
                             }
                           ]
                         }
@@ -243,7 +263,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Với các hệ thống bỏ phiếu blockchain, chức năng hợp đồng thông minh có thể được tận dụng để tự động hóa nhiều khía cạnh này, chẳng hạn như thiết lập ngưỡng bỏ phiếu, đảm bảo người tham gia có thông tin cần thiết, và bảo mật quá trình bỏ phiếu. Các công ty khởi nghiệp cũng có thể sử dụng các danh mục được điều chỉnh bằng token để khuyến khích người dùng lựa chọn và duy trì các danh sách đáng tin cậy, chính xác và được cộng đồng đánh giá cao, từ đó thúc đẩy quá trình ra quyết định."
+                      "value": "With blockchain voting systems, smart contract functionality can be leveraged to automate many of these aspects, such as setting voting thresholds, ensuring participants have the necessary information, and securing the voting process. Startups can also use token-curated registries to incentivize users to curate and maintain lists that are reliable, accurate, and highly valued by the community, thereby facilitating the decision-making process."
                     }
                   ]
                 },
@@ -252,7 +272,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Hơn nữa, các hệ thống bỏ phiếu phi tập trung trên các nền tảng blockchain có thể cho phép nhiều tính minh bạch, an toàn hơn và có thể thúc đẩy một quá trình dân chủ hơn nơi mọi tiếng nói của các bên liên quan được lắng nghe, dẫn đến một cơ chế đồng thuận công bằng và bao trùm hơn."
+                      "value": "Moreover, decentralized voting systems on blockchain platforms could enable more transparency, security, and potentially foster a more democratic process where all stakeholder voices are heard, leading to a more inclusive and fair consensus mechanism."
                     }
                   ]
                 },
@@ -261,7 +281,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Tuy nhiên, điều quan trọng là phải nhớ rằng blockchain không phải là giải pháp cho mọi vấn đề. Việc thiết kế hệ thống bỏ phiếu phù hợp vẫn là điều cần thiết. Blockchain chỉ cung cấp một nền tảng nơi các hệ thống này có thể được triển khai với tính minh bạch và bất biến cao hơn."
+                      "value": "However, it's crucial to remember that blockchain isn't a panacea. Designing the right voting system is still critical. Blockchain just provides a platform where these systems can be implemented with greater transparency and immutability."
                     }
                   ]
                 },
@@ -270,7 +290,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Tóm lại, khi thiết kế hoặc đánh giá một hệ thống bỏ phiếu, điều quan trọng là phải đảm bảo rằng nó phù hợp với bối cảnh và mục tiêu của quá trình ra quyết định, tính đến sự đa dạng của sở thích và sự không chắc chắn của thông tin, và cung cấp một quá trình công bằng và minh bạch mà xem xét mọi phiếu bầu có liên quan."
+                      "value": "In summary, when designing or evaluating a voting system, the key is to ensure that it aligns with the context and goals of the decision-making process, takes into account the diversity of preferences and uncertainty of information, and provides a fair and transparent process that considers every relevant vote."
                     }
                   ]
                 }
@@ -292,8 +312,8 @@
       }
     ],
     "seo": {
-      "description": "Khám phá bản chất của việc bỏ phiếu trong các hệ thống phi tập trung. Hiểu sâu hơn về mục đích và quyền lực thực sự của việc bỏ phiếu trong blockchain.",
-      "title": "Mục đích của việc bỏ phiếu là gì? [Tóm tắt]",
+      "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
+      "title": "What is Voting For? [Summary]",
       "twitterCard": null,
       "image": {
         "width": 862,
@@ -304,5 +324,9 @@
       }
     }
   },
-  "topics": ["DAO", "Summary"]
+  "topics": [
+    "DAO",
+    "Summary"
+  ],
+  "shortLink": ""
 }

@@ -2,73 +2,105 @@
   "relatedBlogs": [
     {
       "id": "180563939",
-      "topics": ["DAO", "代币经济学", "评论"],
-      "title": "区块链治理设计框架：Prysm Group轮盘 [评论]",
+      "topics": [
+        "DAO",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "A Framework for Blockchain Governance Design: The Prysm Group Wheel [Commentary]",
       "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:19:19+01:00",
-      "description": "通过Prysm Group轮盘导航区块链治理的复杂性。您的有效区块链治理设计路线图。",
+      "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
       },
       "seo": {
-        "title": "区块链治理设计框架 [评论]",
-        "description": "通过Prysm Group轮盘导航区块链治理的复杂性。您的有效区块链治理设计路线图。"
+        "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
+        "title": "A Framework for Blockchain Governance Design [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 1400,
+          "height": 1383,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
+        }
       }
     },
     {
       "id": "167184977",
-      "topics": ["代币经济学", "DAO", "融资"],
-      "title": "革新股权模式：代币经济学如何颠覆创业世界",
+      "topics": [
+        "Tokenomics",
+        "DAO",
+        "Fundraising"
+      ],
+      "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
       "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:02:51+01:00",
-      "description": "用代币经济学解锁创业的未来！探索这一创新概念如何重塑股权模式并革新创业格局。",
+      "description": "Unlock the future of startups with tokenomics! Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
       },
       "seo": {
-        "title": "代币经济学如何颠覆创业世界",
-        "description": "探索这一创新概念如何重塑股权模式并革新创业格局。"
+        "description": "Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
+        "title": "How Tokenomics is Disrupting the Startup World",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
+        }
       }
     },
     {
       "id": "166981063",
-      "topics": ["入门", "DAO"],
-      "title": "未来已来：去中心化自治组织（DAO）的崛起",
+      "topics": [
+        "Getting Started",
+        "DAO"
+      ],
+      "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
       "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:02+01:00",
-      "description": "在我们的指南中探索去中心化自治组织（DAO）的崛起。了解商业的未来和创业机会。",
+      "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
       },
       "seo": {
-        "title": "去中心化自治组织的崛起",
-        "description": "在我们的指南中探索去中心化自治组织（DAO）的崛起。了解商业的未来和创业机会。"
+        "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
+        "title": "The Rise of Decentralized Autonomous Organizations ",
+        "twitterCard": null,
+        "image": null
       }
     }
   ],
   "blogContent": {
     "id": "180563908",
-    "topics": ["DAO", "摘要"],
-    "title": "治理的目的是什么? [摘要]",
+    "topics": [
+      "DAO",
+      "Summary"
+    ],
+    "title": "What is Governance For? [Summary]",
     "slug": "what-is-governance-for-summary",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T09:10:45+01:00",
-    "description": "探索区块链系统中治理的角色和重要性。了解治理如何推动去中心化和增长。",
+    "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
     },
@@ -371,8 +403,8 @@
       }
     ],
     "seo": {
-      "description": "探索区块链系统中治理的角色和重要性。了解治理如何推动去中心化和增长。",
-      "title": "治理的目的是什么? [摘要]",
+      "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.\n",
+      "title": "What is Governance For? [Summary]",
       "twitterCard": null,
       "image": {
         "width": 862,
@@ -383,5 +415,12 @@
       }
     }
   },
-  "topics": ["DAO", "摘要"]
+  "topics": [
+    "DAO",
+    "Summary"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

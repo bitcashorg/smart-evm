@@ -134,7 +134,10 @@
   },
   {
     "constant": true,
-    "inputs": [{ "name": "", "type": "address" }, { "name": "", "type": "address" }],
+    "inputs": [
+      { "name": "", "type": "address" },
+      { "name": "", "type": "address" }
+    ],
     "name": "allowed",
     "outputs": [{ "name": "", "type": "uint256" }],
     "payable": false,

@@ -23,7 +23,8 @@ export function ProjectCtaButton({
     enabled: Boolean(address),
     queryFn: async () => {
       // this should never happen. see enabled: Boolean(session?.account && address)
-      if (!address || !session?.account) throw new Error('No address or account')
+      if (!address || !session?.account)
+        throw new Error('No address or account')
 
       const { data, error } = await supabase
         .from('whitelist')

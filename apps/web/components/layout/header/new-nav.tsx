@@ -25,7 +25,7 @@ export function Navigation({ lang }: LangProp) {
           if (section.href || !section.items)
             return (
               <NavigationMenuItem>
-                <Link href={'/' + lang + section.href} legacyBehavior passHref>
+                <Link href={`/${lang}${section.href}`} legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     {section.label}
                   </NavigationMenuLink>
@@ -45,7 +45,7 @@ export function Navigation({ lang }: LangProp) {
                   {section.items.map((item) => (
                     <ListItem
                       key={item.label}
-                      href={'/' + lang + item.href}
+                      href={`/${lang}${item.href}`}
                       title={item.label}
                     >
                       {item.description}

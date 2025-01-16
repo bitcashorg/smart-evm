@@ -8,7 +8,9 @@ export function ConnectWalletButton() {
 
   const handleConnect = async () => {
     // Find the WalletConnect connector
-    const injectedConnector = connectors.find((connector) => connector.id === 'injected')
+    const injectedConnector = connectors.find(
+      (connector) => connector.id === 'injected',
+    )
     if (injectedConnector) {
       await connect({ connector: injectedConnector })
     }

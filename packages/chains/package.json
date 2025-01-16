@@ -3,9 +3,10 @@
   "description": "Chain configurations",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
-  "devDependencies": {},
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "viem": "^2.21.36"
+  }
 }

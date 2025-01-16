@@ -1,4 +1,4 @@
-import { erc20Abi } from 'abitype/abis'
+import { erc20Abi } from 'viem'
 import { arbitrum, avalanche, polygon, zkSync } from 'viem/chains'
 import type { EVMTokenContractData } from '../../types'
 

@@ -6,7 +6,11 @@
       "articles": [
         {
           "id": "180563939",
-          "topics": ["DAO", "Tokenomique", "Commentaire"],
+          "topics": [
+            "DAO",
+            "Tokenomique",
+            "Commentaire"
+          ],
           "title": "Un cadre pour la conception de la gouvernance blockchain : La roue du groupe Prysm [Commentaire]",
           "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
           "authorName": "Crypto Clairity",
@@ -34,7 +38,10 @@
         },
         {
           "id": "180563903",
-          "topics": ["DAO", "Resume"],
+          "topics": [
+            "DAO",
+            "Resume"
+          ],
           "title": "A quoi sert le vote ? [Resume]",
           "slug": "what-is-voting-for-summary",
           "authorName": "Crypto Clairity",
@@ -62,7 +69,10 @@
         },
         {
           "id": "180563908",
-          "topics": ["DAO", "Resume"],
+          "topics": [
+            "DAO",
+            "Resume"
+          ],
           "title": "A quoi sert la gouvernance ? [Resume]",
           "slug": "what-is-governance-for-summary",
           "authorName": "Crypto Clairity",
@@ -90,7 +100,11 @@
         },
         {
           "id": "167184977",
-          "topics": ["Tokenomie", "DAO", "Levee de fonds"],
+          "topics": [
+            "Tokenomie",
+            "DAO",
+            "Levee de fonds"
+          ],
           "title": "Revolutionner le modele d'actions : Comment la tokenomie bouleverse le monde des startups",
           "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
           "authorName": "Crypto Clairity",
@@ -118,7 +132,10 @@
         },
         {
           "id": "166984334",
-          "topics": ["DAO", "Juridique"],
+          "topics": [
+            "DAO",
+            "Juridique"
+          ],
           "title": "Organisations Autonomes Decentralisees (DAO) : Structures Juridiques de Base a des Fins Commerciales et Non Lucratives",
           "slug": "decentralized-autonomous-organizations-daos-basic-legal-structures-for-business-a",
           "authorName": "Crypto Clairity",
@@ -146,7 +163,10 @@
         },
         {
           "id": "166981063",
-          "topics": ["Premiers pas", "DAO"],
+          "topics": [
+            "Premiers pas",
+            "DAO"
+          ],
           "title": "L'avenir est la : L'essor des Organisations Autonomes Decentralisees (DAO)",
           "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
           "authorName": "Crypto Clairity",
@@ -169,20 +189,24 @@
       ]
     },
     {
-      "name": "Tokenomie",
+      "name": "Tokenomics",
       "slug": "tokenomics",
       "articles": [
         {
           "id": "180563939",
-          "topics": ["DAO", "Tokenomique", "Commentaire"],
-          "title": "Un cadre pour la conception de la gouvernance blockchain : La roue du groupe Prysm [Commentaire]",
+          "topics": [
+            "DAO",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "A Framework for Blockchain Governance Design: The Prysm Group Wheel [Commentary]",
           "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:19:19+01:00",
-          "description": "Naviguez dans les complexites de la gouvernance blockchain avec la roue du groupe Prysm. Votre feuille de route pour une conception efficace de la gouvernance blockchain.",
+          "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
           },
@@ -202,15 +226,18 @@
         },
         {
           "id": "180217169",
-          "topics": ["Tokenomie", "Commentaire"],
-          "title": "Economie des incitations tokenisees 3: La valeur du token n'alignera pas les parties prenantes [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "Economics of Tokenized Incentives 3: Token Value Won’t Align Stakeholders [Commentary]",
           "slug": "economics-of-tokenized-incentives-3-token-value-won-t-align-stakeholders-commenta",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:17:23+01:00",
-          "description": "Decouvrez les pieges de l'utilisation de la valeur du token comme mesure de performance dans les plateformes blockchain. Apprenez a concevoir des systemes d'incitation efficaces.",
+          "description": "Uncover the pitfalls of using token value as a performance metric in blockchain platforms. Learn to design effective incentive systems.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690771457-cbc3-img1.png"
           },
@@ -230,15 +257,18 @@
         },
         {
           "id": "180217123",
-          "topics": ["Tokenomie", "Commentaire"],
-          "title": "Economie des incitations tokenisees 2: Selectionner des metriques de performance efficaces [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "Economics of Tokenized Incentives 2: Selecting Effective Performance Metrics [Commentary]",
           "slug": "economics-of-tokenized-incentives-2-selecting-effective-performance-metrics-comme",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:17:05+01:00",
-          "description": "Decouvrez la puissance des metriques de performance dans les systemes blockchain de remuneration a la performance. Apprenez a aligner efficacement les incitations sur les objectifs de la plateforme.",
+          "description": "Discover the power of performance metrics in blockchain pay-for-performance systems. Learn to align incentives with platform goals effectively.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690770918-cbc2-img1.png"
           },
@@ -258,15 +288,18 @@
         },
         {
           "id": "180217082",
-          "topics": ["Tokenomie", "Commentaire"],
-          "title": "Economie des incitations tokenisees 1: Introduction a la remuneration au rendement [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "Economics of Tokenized Incentives 1: Intro to Pay for Performance [Commentary]",
           "slug": "economics-of-tokenized-incentives-1-intro-to-pay-for-performance",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:15:12+01:00",
-          "description": "Plongez dans les complexites des incitations de remuneration au rendement sur les plateformes blockchain. Decouvrez les compromis et les considerations de conception pour reussir.",
+          "description": "Dive into the complexities of pay-for-performance incentives in blockchain platforms. Learn the trade-offs and design considerations for success.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690770568-cbc1-img1.png"
           },
@@ -286,15 +319,19 @@
         },
         {
           "id": "180563918",
-          "topics": ["Tokenomie", "Commentaire", "Levee de fonds"],
-          "title": "Jetons : Vehicule d'investissement ou moyen d'echange (pas les deux) [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary",
+            "Fundraising"
+          ],
+          "title": "Tokens: Investment Vehicle or Medium of Exchange (Not Both) [Commentary]",
           "slug": "tokens-investment-vehicle-or-medium-of-exchange-not-both-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:13:31+01:00",
-          "description": "Plongez dans le double role des jetons dans l'economie blockchain. Decouvrez la ligne fine entre vehicule d'investissement et moyen d'echange.",
+          "description": "Delve into the dual role of tokens in the blockchain economy. Uncover the fine line between investment vehicle and medium of exchange.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690859959-cbc8-img1.png"
           },
@@ -314,15 +351,19 @@
         },
         {
           "id": "180563922",
-          "topics": ["Collecte de fonds", "Tokenomique", "Commentaire"],
-          "title": "Les ICO tirent parti des effets de reseau [Commentaire]",
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "ICOs Leverage Network Effects [Commentary]",
           "slug": "icos-leverage-network-effects-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:12:06+01:00",
-          "description": "Decouvrez comment les ICO exploitent la puissance des effets de reseau pour alimenter leur succes. Les ICO et les effets de reseau, un duo dynamique!",
+          "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
           },
@@ -342,15 +383,19 @@
         },
         {
           "id": "179948652",
-          "topics": ["Tokenomie", "Industrie", "Resume"],
-          "title": "Innovation numerique et modeles de revenus [Resume]",
+          "topics": [
+            "Tokenomics",
+            "Industry",
+            "Summary"
+          ],
+          "title": "Digital Innovation and Revenue Models [Summary]",
           "slug": "digital-innovation-and-revenue-models-summary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:11:35+01:00",
-          "description": "Decouvrez comment l'innovation numerique transforme la livraison de produits dans 'Innovation numerique et modeles de revenus' de Prysm Group. Explorez l'economie des technologies emergentes.",
+          "description": "Uncover how digital innovation reshapes product delivery in Prysm Group's 'Digital Innovation and Revenue Models'. Explore emerging tech economics.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690668517-cbr1-img1.png"
           },
@@ -370,15 +415,19 @@
         },
         {
           "id": "180556595",
-          "topics": ["Collecte de fonds", "Tokenomique", "Commentaire"],
-          "title": "L'Effet Blockchain : Effets de reseau sans les couts du pouvoir de marche [Commentaire]",
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
           "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:11:14+01:00",
-          "description": "Explorez comment la blockchain permet des effets de reseau sans les inconvenients du pouvoir de marche. Decouvrez l'effet revolutionnaire de la blockchain.",
+          "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
           },
@@ -398,15 +447,18 @@
         },
         {
           "id": "180563931",
-          "topics": ["Tokenomique", "Commentaire"],
-          "title": "Structures d'incitation de la blockchain : Ce qu'elles sont et pourquoi elles sont importantes [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "Blockchain Incentive Structures: What they are and why they matter [Commentary]",
           "slug": "blockchain-incentive-structures-what-they-are-and-why-they-matter-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:10:02+01:00",
-          "description": "Comprendre le coeur des structures d'incitation de la blockchain et leur importance pour influencer le comportement des utilisateurs et le succes de la plateforme.",
+          "description": "Understand the core of blockchain incentive structures and their significance in driving user behavior and platform success.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690860807-cbc10-img1.png"
           },
@@ -426,15 +478,19 @@
         },
         {
           "id": "167184977",
-          "topics": ["Tokenomie", "DAO", "Levee de fonds"],
-          "title": "Revolutionner le modele d'actions : Comment la tokenomie bouleverse le monde des startups",
+          "topics": [
+            "Tokenomics",
+            "DAO",
+            "Fundraising"
+          ],
+          "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
           "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:02:51+01:00",
-          "description": "Decouvrez l'avenir des startups avec la tokenomie ! Explorez comment ce concept innovant transforme le modele d'actions et revolutionne le paysage des startups.",
+          "description": "Unlock the future of startups with tokenomics! Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
           },
@@ -454,15 +510,18 @@
         },
         {
           "id": "167101094",
-          "topics": ["Premiers pas", "Tokenomie"],
-          "title": "Tokenomie 101 : Liberer la puissance de la cryptomonnaie !",
+          "topics": [
+            "Getting Started",
+            "Tokenomics"
+          ],
+          "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
           "slug": "tokenomics-101-unleashing-the-power-of-cryptocurrency",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:57:58+01:00",
-          "description": "Decouvrez la puissance de la cryptomonnaie avec Tokenomie 101 - un guide approfondi pour comprendre l'economie derriere les actifs numeriques.",
+          "description": "Discover the power of cryptocurrency through Tokenomics 101 - an in-depth guide to understanding the economics behind digital assets.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
           },
@@ -483,20 +542,24 @@
       ]
     },
     {
-      "name": "Commentaire",
+      "name": "Commentary",
       "slug": "commentary",
       "articles": [
         {
           "id": "180563939",
-          "topics": ["DAO", "Tokenomique", "Commentaire"],
-          "title": "Un cadre pour la conception de la gouvernance blockchain : La roue du groupe Prysm [Commentaire]",
+          "topics": [
+            "DAO",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "A Framework for Blockchain Governance Design: The Prysm Group Wheel [Commentary]",
           "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:19:19+01:00",
-          "description": "Naviguez dans les complexites de la gouvernance blockchain avec la roue du groupe Prysm. Votre feuille de route pour une conception efficace de la gouvernance blockchain.",
+          "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
           },
@@ -516,15 +579,18 @@
         },
         {
           "id": "180217169",
-          "topics": ["Tokenomie", "Commentaire"],
-          "title": "Economie des incitations tokenisees 3: La valeur du token n'alignera pas les parties prenantes [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "Economics of Tokenized Incentives 3: Token Value Won’t Align Stakeholders [Commentary]",
           "slug": "economics-of-tokenized-incentives-3-token-value-won-t-align-stakeholders-commenta",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:17:23+01:00",
-          "description": "Decouvrez les pieges de l'utilisation de la valeur du token comme mesure de performance dans les plateformes blockchain. Apprenez a concevoir des systemes d'incitation efficaces.",
+          "description": "Uncover the pitfalls of using token value as a performance metric in blockchain platforms. Learn to design effective incentive systems.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690771457-cbc3-img1.png"
           },
@@ -544,15 +610,18 @@
         },
         {
           "id": "180217123",
-          "topics": ["Tokenomie", "Commentaire"],
-          "title": "Economie des incitations tokenisees 2: Selectionner des metriques de performance efficaces [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "Economics of Tokenized Incentives 2: Selecting Effective Performance Metrics [Commentary]",
           "slug": "economics-of-tokenized-incentives-2-selecting-effective-performance-metrics-comme",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:17:05+01:00",
-          "description": "Decouvrez la puissance des metriques de performance dans les systemes blockchain de remuneration a la performance. Apprenez a aligner efficacement les incitations sur les objectifs de la plateforme.",
+          "description": "Discover the power of performance metrics in blockchain pay-for-performance systems. Learn to align incentives with platform goals effectively.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690770918-cbc2-img1.png"
           },
@@ -572,15 +641,18 @@
         },
         {
           "id": "180217082",
-          "topics": ["Tokenomie", "Commentaire"],
-          "title": "Economie des incitations tokenisees 1: Introduction a la remuneration au rendement [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "Economics of Tokenized Incentives 1: Intro to Pay for Performance [Commentary]",
           "slug": "economics-of-tokenized-incentives-1-intro-to-pay-for-performance",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:15:12+01:00",
-          "description": "Plongez dans les complexites des incitations de remuneration au rendement sur les plateformes blockchain. Decouvrez les compromis et les considerations de conception pour reussir.",
+          "description": "Dive into the complexities of pay-for-performance incentives in blockchain platforms. Learn the trade-offs and design considerations for success.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690770568-cbc1-img1.png"
           },
@@ -600,15 +672,18 @@
         },
         {
           "id": "180556627",
-          "topics": ["Commentaire", "Contrats intelligents"],
-          "title": "Contrats incomplets et blockchain [Commentaire]",
+          "topics": [
+            "Commentary",
+            "Smart Contracts"
+          ],
+          "title": "Incomplete Contracts and Blockchain [Commentary]",
           "slug": "incomplete-contracts-and-blockchain-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:14:44+01:00",
-          "description": "Demystifier la relation entre les contrats incomplets et la blockchain. Comprendre comment la blockchain peut combler les lacunes contractuelles.",
+          "description": "Demystify the relationship between incomplete contracts and blockchain. Understand how blockchain can fill contractual gaps.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690856249-cbc5-img1.png"
           },
@@ -628,15 +703,19 @@
         },
         {
           "id": "180563918",
-          "topics": ["Tokenomie", "Commentaire", "Levee de fonds"],
-          "title": "Jetons : Vehicule d'investissement ou moyen d'echange (pas les deux) [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary",
+            "Fundraising"
+          ],
+          "title": "Tokens: Investment Vehicle or Medium of Exchange (Not Both) [Commentary]",
           "slug": "tokens-investment-vehicle-or-medium-of-exchange-not-both-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:13:31+01:00",
-          "description": "Plongez dans le double role des jetons dans l'economie blockchain. Decouvrez la ligne fine entre vehicule d'investissement et moyen d'echange.",
+          "description": "Delve into the dual role of tokens in the blockchain economy. Uncover the fine line between investment vehicle and medium of exchange.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690859959-cbc8-img1.png"
           },
@@ -656,15 +735,19 @@
         },
         {
           "id": "180563922",
-          "topics": ["Collecte de fonds", "Tokenomique", "Commentaire"],
-          "title": "Les ICO tirent parti des effets de reseau [Commentaire]",
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "ICOs Leverage Network Effects [Commentary]",
           "slug": "icos-leverage-network-effects-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:12:06+01:00",
-          "description": "Decouvrez comment les ICO exploitent la puissance des effets de reseau pour alimenter leur succes. Les ICO et les effets de reseau, un duo dynamique!",
+          "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
           },
@@ -684,15 +767,19 @@
         },
         {
           "id": "180556595",
-          "topics": ["Collecte de fonds", "Tokenomique", "Commentaire"],
-          "title": "L'Effet Blockchain : Effets de reseau sans les couts du pouvoir de marche [Commentaire]",
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
           "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:11:14+01:00",
-          "description": "Explorez comment la blockchain permet des effets de reseau sans les inconvenients du pouvoir de marche. Decouvrez l'effet revolutionnaire de la blockchain.",
+          "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
           },
@@ -712,15 +799,18 @@
         },
         {
           "id": "180563931",
-          "topics": ["Tokenomique", "Commentaire"],
-          "title": "Structures d'incitation de la blockchain : Ce qu'elles sont et pourquoi elles sont importantes [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "Blockchain Incentive Structures: What they are and why they matter [Commentary]",
           "slug": "blockchain-incentive-structures-what-they-are-and-why-they-matter-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:10:02+01:00",
-          "description": "Comprendre le coeur des structures d'incitation de la blockchain et leur importance pour influencer le comportement des utilisateurs et le succes de la plateforme.",
+          "description": "Understand the core of blockchain incentive structures and their significance in driving user behavior and platform success.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690860807-cbc10-img1.png"
           },
@@ -741,20 +831,23 @@
       ]
     },
     {
-      "name": "Contrats intelligents",
+      "name": "Smart Contracts",
       "slug": "smart contracts",
       "articles": [
         {
           "id": "180556627",
-          "topics": ["Commentaire", "Contrats intelligents"],
-          "title": "Contrats incomplets et blockchain [Commentaire]",
+          "topics": [
+            "Commentary",
+            "Smart Contracts"
+          ],
+          "title": "Incomplete Contracts and Blockchain [Commentary]",
           "slug": "incomplete-contracts-and-blockchain-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:14:44+01:00",
-          "description": "Demystifier la relation entre les contrats incomplets et la blockchain. Comprendre comment la blockchain peut combler les lacunes contractuelles.",
+          "description": "Demystify the relationship between incomplete contracts and blockchain. Understand how blockchain can fill contractual gaps.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690856249-cbc5-img1.png"
           },
@@ -774,15 +867,18 @@
         },
         {
           "id": "165614005",
-          "topics": ["Premiers pas", "Contrats intelligents"],
-          "title": "La puissance des contrats intelligents : La cle pour debloquer l'avenir des affaires et de la finance",
+          "topics": [
+            "Getting Started",
+            "Smart Contracts"
+          ],
+          "title": "The Power of Smart Contracts: The Key to Unlocking the Future of Business and Finance",
           "slug": "the-power-of-smart-contracts-the-key-to-unlocking-the-future-of-business-and-fina",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:47:57+01:00",
-          "description": "Explorez le potentiel revolutionnaire des contrats intelligents. Decouvrez comment cette technologie transforme les affaires et la finance dans notre article de blog perspicace.",
+          "description": "Explore the revolutionary potential of smart contracts. Discover how this technology is reshaping business and finance in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686949167-cb10-img1edited.png"
           },
@@ -803,20 +899,24 @@
       ]
     },
     {
-      "name": "Collecte de fonds",
+      "name": "Fundraising",
       "slug": "fundraising",
       "articles": [
         {
           "id": "180563918",
-          "topics": ["Tokenomie", "Commentaire", "Levee de fonds"],
-          "title": "Jetons : Vehicule d'investissement ou moyen d'echange (pas les deux) [Commentaire]",
+          "topics": [
+            "Tokenomics",
+            "Commentary",
+            "Fundraising"
+          ],
+          "title": "Tokens: Investment Vehicle or Medium of Exchange (Not Both) [Commentary]",
           "slug": "tokens-investment-vehicle-or-medium-of-exchange-not-both-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:13:31+01:00",
-          "description": "Plongez dans le double role des jetons dans l'economie blockchain. Decouvrez la ligne fine entre vehicule d'investissement et moyen d'echange.",
+          "description": "Delve into the dual role of tokens in the blockchain economy. Uncover the fine line between investment vehicle and medium of exchange.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690859959-cbc8-img1.png"
           },
@@ -836,15 +936,19 @@
         },
         {
           "id": "180563922",
-          "topics": ["Collecte de fonds", "Tokenomique", "Commentaire"],
-          "title": "Les ICO tirent parti des effets de reseau [Commentaire]",
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "ICOs Leverage Network Effects [Commentary]",
           "slug": "icos-leverage-network-effects-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:12:06+01:00",
-          "description": "Decouvrez comment les ICO exploitent la puissance des effets de reseau pour alimenter leur succes. Les ICO et les effets de reseau, un duo dynamique!",
+          "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
           },
@@ -864,15 +968,19 @@
         },
         {
           "id": "180556595",
-          "topics": ["Collecte de fonds", "Tokenomie", "Commentaire"],
-          "title": "L'Effet Blockchain : Effets de reseau sans les couts du pouvoir de marche [Commentaire]",
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
           "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:11:14+01:00",
-          "description": "Explorez comment la blockchain permet des effets de reseau sans les inconvenients du pouvoir de marche. Decouvrez l'effet revolutionnaire de la blockchain.",
+          "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
           },
@@ -892,15 +1000,19 @@
         },
         {
           "id": "167184977",
-          "topics": ["Tokenomie", "DAO", "Levee de fonds"],
-          "title": "Revolutionner le modele d'actions : Comment la tokenomie bouleverse le monde des startups",
+          "topics": [
+            "Tokenomics",
+            "DAO",
+            "Fundraising"
+          ],
+          "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
           "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:02:51+01:00",
-          "description": "Decouvrez l'avenir des startups avec la tokenomie ! Explorez comment ce concept innovant transforme le modele d'actions et revolutionne le paysage des startups.",
+          "description": "Unlock the future of startups with tokenomics! Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
           },
@@ -920,15 +1032,18 @@
         },
         {
           "id": "165685908",
-          "topics": ["Premiers pas", "Collecte de fonds"],
-          "title": "Perturber le statu quo : Comment la cryptomonnaie revolutionne la collecte de fonds et le financement participatif",
+          "topics": [
+            "Getting Started",
+            "Fundraising"
+          ],
+          "title": "Disrupt the Status Quo: How Cryptocurrency is Revolutionizing Fundraising and Crowdfunding",
           "slug": "disrupt-the-status-quo-how-cryptocurrency-is-revolutionizing-fundraising-and-crow",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:33:36+01:00",
-          "description": "Explorez le potentiel revolutionnaire de la cryptomonnaie dans la collecte de fonds et le financement participatif. Decouvrez comment les monnaies numeriques bouleversent les methodes traditionnelles dans notre article de blog perspicace.",
+          "description": "Explore the groundbreaking potential of cryptocurrency in fundraising and crowdfunding. Discover how digital currencies are disrupting the traditional methods in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687046260-cb17-img1edited.png"
           },
@@ -948,21 +1063,24 @@
         },
         {
           "id": "165614216",
-          "topics": ["Premiers pas", "Collecte de fonds"],
-          "title": "Naviguer dans le Far West des offres initiales de jetons : Guide du debutant pour investir dans l'avenir de la technologie",
+          "topics": [
+            "Getting Started",
+            "Fundraising"
+          ],
+          "title": "Navigating the Wild West of Initial Coin Offerings: A Beginner's Guide to Investing in the Future of Technology",
           "slug": "navigating-the-wild-west-of-initial-coin-offerings-a-beginner-s-guide-to-investin",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T07:00:44+01:00",
-          "description": "Embarquez pour un voyage guide dans le monde des offres initiales de jetons (ICO). Apprenez a naviguer dans ce paysage dynamique et a investir dans l'avenir de la technologie.",
+          "description": "Embark on a guided journey through the world of Initial Coin Offerings (ICOs). Learn how to navigate this dynamic landscape and invest in the future of technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686951243-cb11-img1edited.png"
           },
           "contentBlock": [],
           "seo": {
-            "description": "Learn how to navigate this dynamic landscape and contribute in the future of technology.",
+            "description": "Learn how to navigate this dynamic landscape and invest in the future of technology.",
             "title": "Navigating the Wild West of Initial Coin Offerings",
             "twitterCard": null,
             "image": {
@@ -977,20 +1095,24 @@
       ]
     },
     {
-      "name": "Industrie",
+      "name": "Industry",
       "slug": "industry",
       "articles": [
         {
           "id": "179948652",
-          "topics": ["Tokenomie", "Industrie", "Resume"],
-          "title": "Innovation numerique et modeles de revenus [Resume]",
+          "topics": [
+            "Tokenomics",
+            "Industry",
+            "Summary"
+          ],
+          "title": "Digital Innovation and Revenue Models [Summary]",
           "slug": "digital-innovation-and-revenue-models-summary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:11:35+01:00",
-          "description": "Decouvrez comment l'innovation numerique transforme la livraison de produits dans 'Innovation numerique et modeles de revenus' de Prysm Group. Explorez l'economie des technologies emergentes.",
+          "description": "Uncover how digital innovation reshapes product delivery in Prysm Group's 'Digital Innovation and Revenue Models'. Explore emerging tech economics.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690668517-cbr1-img1.png"
           },
@@ -1010,15 +1132,18 @@
         },
         {
           "id": "165634580",
-          "topics": ["Premiers pas", "Industrie"],
-          "title": "L'avenir est la : Un apercu de l'impact des cryptomonnaies sur la finance mondiale",
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
+          "title": "The Future is Now: An Overview of Cryptocurrency's Impact on Global Finance",
           "slug": "the-future-is-now-an-overview-of-cryptocurrency-s-impact-on-global-finance",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:30:32+01:00",
-          "description": "Decouvrez l'avenir de la finance avec les cryptomonnaies. Explorez l'impact transformateur des monnaies numeriques sur le paysage financier mondial dans notre article de blog perspicace.",
+          "description": "Discover the future of finance with cryptocurrency. Explore the transformative impact of digital currencies on the global financial landscape in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686965402-cb15-img1.png"
           },
@@ -1038,15 +1163,18 @@
         },
         {
           "id": "165611389",
-          "topics": ["Premiers pas", "Industrie"],
-          "title": "Liberer le potentiel : Comment la cryptomonnaie transforme les industries",
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
+          "title": "Unleashing the Potential: How Cryptocurrency is Transforming Industries",
           "slug": "unleashing-the-potential-how-cryptocurrency-is-transforming-industries",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:40:09+01:00",
-          "description": "Decouvrez le pouvoir transformateur de la cryptomonnaie dans la revolution des industries. Explorez son potentiel pour remodeler le paysage des affaires dans notre article de blog perspicace.",
+          "description": "Discover the transformative power of cryptocurrency in revolutionizing industries. Explore its potential to reshape the business landscape in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686946060-cb8-img0edited.png"
           },
@@ -1067,20 +1195,24 @@
       ]
     },
     {
-      "name": "Resume",
+      "name": "Summary",
       "slug": "summary",
       "articles": [
         {
           "id": "179948652",
-          "topics": ["Tokenomie", "Industrie", "Resume"],
-          "title": "Innovation numerique et modeles de revenus [Resume]",
+          "topics": [
+            "Tokenomics",
+            "Industry",
+            "Summary"
+          ],
+          "title": "Digital Innovation and Revenue Models [Summary]",
           "slug": "digital-innovation-and-revenue-models-summary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:11:35+01:00",
-          "description": "Decouvrez comment l'innovation numerique transforme la livraison de produits dans 'Innovation numerique et modeles de revenus' de Prysm Group. Explorez l'economie des technologies emergentes.",
+          "description": "Uncover how digital innovation reshapes product delivery in Prysm Group's 'Digital Innovation and Revenue Models'. Explore emerging tech economics.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690668517-cbr1-img1.png"
           },
@@ -1100,15 +1232,18 @@
         },
         {
           "id": "180563903",
-          "topics": ["DAO", "Resume"],
-          "title": "A quoi sert le vote ? [Resume]",
+          "topics": [
+            "DAO",
+            "Summary"
+          ],
+          "title": "What is Voting For? [Summary]",
           "slug": "what-is-voting-for-summary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:10:58+01:00",
-          "description": "Decouvrez l'essence du vote dans les systemes decentralises. Obtenez des informations sur le veritable objectif et le pouvoir du vote dans la blockchain.",
+          "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
           },
@@ -1128,15 +1263,18 @@
         },
         {
           "id": "180563908",
-          "topics": ["DAO", "Resume"],
-          "title": "A quoi sert la gouvernance ? [Resume]",
+          "topics": [
+            "DAO",
+            "Summary"
+          ],
+          "title": "What is Governance For? [Summary]",
           "slug": "what-is-governance-for-summary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:10:45+01:00",
-          "description": "Explorez le role et l'importance de la gouvernance dans les systemes blockchain. Comprenez comment la gouvernance favorise la decentralisation et la croissance.",
+          "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
           },
@@ -1157,20 +1295,23 @@
       ]
     },
     {
-      "name": "Juridique",
+      "name": "Legal",
       "slug": "legal",
       "articles": [
         {
           "id": "166984334",
-          "topics": ["DAO", "Juridique"],
-          "title": "Organisations Autonomes Decentralisees (DAO) : Structures Juridiques de Base a des Fins Commerciales et Non Lucratives",
+          "topics": [
+            "DAO",
+            "Legal"
+          ],
+          "title": "Decentralized Autonomous Organizations (DAOs): Basic Legal Structures for Business and Non-Profit Purposes",
           "slug": "decentralized-autonomous-organizations-daos-basic-legal-structures-for-business-a",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:59:06+01:00",
-          "description": "Decouvrez les structures juridiques de base des DAO a des fins commerciales et non lucratives.",
+          "description": "Discover the basic DAO legal structures for business and non-profit purposes. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687384353-db2-img1.png"
           },
@@ -1190,15 +1331,18 @@
         },
         {
           "id": "165611088",
-          "topics": ["Premiers pas", "Juridique"],
-          "title": "Naviguer dans le champ de mines juridique : Comprendre le paysage reglementaire des cryptomonnaies",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal Minefield: Understanding the Regulatory Landscape of Cryptocurrencies",
           "slug": "navigating-the-legal-minefield-understanding-the-regulatory-landscape-of-cryptocu",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:32:05+01:00",
-          "description": "Naviguez facilement dans le paysage reglementaire complexe des cryptomonnaies. Obtenez une comprehension claire des considerations juridiques dans notre guide complet.",
+          "description": "Navigate the complex regulatory landscape of cryptocurrencies with ease. Gain a clear understanding of the legal considerations in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686944651-cb7-img1edited.png"
           },
@@ -1219,20 +1363,23 @@
       ]
     },
     {
-      "name": "Demarrage",
+      "name": "Getting Started",
       "slug": "getting started",
       "articles": [
         {
           "id": "167101094",
-          "topics": ["Premiers pas", "Tokenomie"],
-          "title": "Tokenomie 101 : Liberer la puissance de la cryptomonnaie !",
+          "topics": [
+            "Getting Started",
+            "Tokenomics"
+          ],
+          "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
           "slug": "tokenomics-101-unleashing-the-power-of-cryptocurrency",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:57:58+01:00",
-          "description": "Decouvrez la puissance de la cryptomonnaie avec Tokenomie 101 - un guide approfondi pour comprendre l'economie derriere les actifs numeriques.",
+          "description": "Discover the power of cryptocurrency through Tokenomics 101 - an in-depth guide to understanding the economics behind digital assets.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
           },
@@ -1252,15 +1399,18 @@
         },
         {
           "id": "166981063",
-          "topics": ["Premiers pas", "DAO"],
-          "title": "L'avenir est la : L'essor des Organisations Autonomes Decentralisees (DAO)",
+          "topics": [
+            "Getting Started",
+            "DAO"
+          ],
+          "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
           "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:57:02+01:00",
-          "description": "Explorez l'essor des Organisations Autonomes Decentralisees (DAO) dans notre guide. Comprenez l'avenir des entreprises et les opportunites pour les startups.",
+          "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
           },
@@ -1274,15 +1424,18 @@
         },
         {
           "id": "165744328",
-          "topics": ["Premiers pas", "Guide pratique"],
-          "title": "Gardez une longueur d'avance : Un guide pour rester informe et eduque dans le monde des cryptomonnaies",
+          "topics": [
+            "Getting Started",
+            "How-To"
+          ],
+          "title": "Stay Ahead of the Game: A Guide to Staying Informed and Educated in the World of Cryptocurrency",
           "slug": "stay-ahead-of-the-game-a-guide-to-staying-informed-and-educated-in-the-world-of-c",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:52:39+01:00",
-          "description": "Restez informe et eduque dans le monde dynamique des cryptomonnaies. Explorez notre guide complet pour garder une longueur d'avance et naviguer dans le paysage numerique en constante evolution.",
+          "description": "Stay informed and educated in the dynamic world of cryptocurrency. Explore our comprehensive guide to stay ahead of the game and navigate the ever-evolving digital landscape.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687049473-cb20-img1.png"
           },
@@ -1302,15 +1455,18 @@
         },
         {
           "id": "165742753",
-          "topics": ["Premiers pas", "Paiements"],
-          "title": "Stablecoins : L'avenir des transactions et paiements en cryptomonnaie",
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
+          "title": "Stablecoins: The Future of Cryptocurrency Transactions and Payments",
           "slug": "stablecoins-the-future-of-cryptocurrency-transactions-and-payments",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:49:51+01:00",
-          "description": "Decouvrez l'avenir des transactions et paiements en cryptomonnaie avec les stablecoins. Explorez la stabilite et le potentiel de ces actifs numeriques innovants dans notre article de blog perspicace.",
+          "description": "Discover the future of cryptocurrency transactions and payments with stablecoins. Explore the stability and potential of these innovative digital assets in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687049009-cb19-img3edited.png"
           },
@@ -1330,15 +1486,18 @@
         },
         {
           "id": "165685913",
-          "topics": ["DeFi", "Pour commencer"],
-          "title": "Decentralisez vos finances : Une introduction au monde de la DeFi",
+          "topics": [
+            "DeFi",
+            "Getting Started"
+          ],
+          "title": "Decentralize Your Finance: An Introduction to the World of DeFi",
           "slug": "decentralize-your-finance-an-introduction-to-the-world-of-defi",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:47:03+01:00",
-          "description": "Decouvrez la puissance de la finance decentralisee (DeFi). Explorez le monde innovant des solutions financieres basees sur la blockchain dans notre article de blog complet.",
+          "description": "Unlock the power of decentralized finance (DeFi). Explore the innovative world of blockchain-based financial solutions in our comprehensive blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687047143-cb18-img1.png"
           },
@@ -1358,15 +1517,18 @@
         },
         {
           "id": "165685908",
-          "topics": ["Premiers pas", "Collecte de fonds"],
-          "title": "Perturber le statu quo : Comment la cryptomonnaie revolutionne la collecte de fonds et le financement participatif",
+          "topics": [
+            "Getting Started",
+            "Fundraising"
+          ],
+          "title": "Disrupt the Status Quo: How Cryptocurrency is Revolutionizing Fundraising and Crowdfunding",
           "slug": "disrupt-the-status-quo-how-cryptocurrency-is-revolutionizing-fundraising-and-crow",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:33:36+01:00",
-          "description": "Explorez le potentiel revolutionnaire de la cryptomonnaie dans la collecte de fonds et le financement participatif. Decouvrez comment les monnaies numeriques bouleversent les methodes traditionnelles dans notre article de blog perspicace.",
+          "description": "Explore the groundbreaking potential of cryptocurrency in fundraising and crowdfunding. Discover how digital currencies are disrupting the traditional methods in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687046260-cb17-img1edited.png"
           },
@@ -1386,15 +1548,18 @@
         },
         {
           "id": "165673014",
-          "topics": ["Premiers pas", "Investissement"],
-          "title": "Investissement en cryptomonnaies 101 : Comment utiliser les cryptomonnaies pour l'investissement et la gestion d'actifs",
+          "topics": [
+            "Getting Started",
+            "Investment"
+          ],
+          "title": "Crypto Investing 101: How to Use Cryptocurrency for Investment and Asset Management",
           "slug": "crypto-investing-101-how-to-use-cryptocurrency-for-investment-and-asset-managemen",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:32:00+01:00",
-          "description": "Maitrisez l'art de l'investissement en cryptomonnaies et de la gestion d'actifs. Apprenez a tirer parti des cryptomonnaies pour des strategies d'investissement optimales dans notre guide complet.",
+          "description": "Master the art of crypto investing and asset management. Learn how to leverage cryptocurrency for optimal investment strategies in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687044673-cb16-img5.png"
           },
@@ -1414,15 +1579,18 @@
         },
         {
           "id": "165634580",
-          "topics": ["Premiers pas", "Industrie"],
-          "title": "L'avenir est la : Un apercu de l'impact des cryptomonnaies sur la finance mondiale",
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
+          "title": "The Future is Now: An Overview of Cryptocurrency's Impact on Global Finance",
           "slug": "the-future-is-now-an-overview-of-cryptocurrency-s-impact-on-global-finance",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:30:32+01:00",
-          "description": "Decouvrez l'avenir de la finance avec les cryptomonnaies. Explorez l'impact transformateur des monnaies numeriques sur le paysage financier mondial dans notre article de blog perspicace.",
+          "description": "Discover the future of finance with cryptocurrency. Explore the transformative impact of digital currencies on the global financial landscape in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686965402-cb15-img1.png"
           },
@@ -1442,15 +1610,18 @@
         },
         {
           "id": "165634456",
-          "topics": ["Premiers pas", "Minage"],
-          "title": "Liberer la puissance du minage de cryptomonnaies : Un apercu des algorithmes de preuve de travail",
+          "topics": [
+            "Getting Started",
+            "Mining"
+          ],
+          "title": " Unleashing the Power of Cryptocurrency Mining: An Overview of Proof-of-Work Algorithms",
           "slug": "unleashing-the-power-of-cryptocurrency-mining-an-overview-of-proof-of-work-algori",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:28:45+01:00",
-          "description": "Explorez la puissance du minage de cryptomonnaies et des algorithmes de preuve de travail. Decouvrez comment ce processus favorise la nature securisee et decentralisee des monnaies numeriques dans notre article de blog informatif.",
+          "description": "Explore the power of cryptocurrency mining and proof-of-work algorithms. Discover how this process drives the secure and decentralized nature of digital currencies in our informative blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686959517-cb11-img0edited.png"
           },
@@ -1470,15 +1641,18 @@
         },
         {
           "id": "165625675",
-          "topics": ["Premiers pas", "Paiements"],
-          "title": "L'avenir des transferts internationaux : Comment la cryptomonnaie change la donne",
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
+          "title": "The Future of International Transfers: How Cryptocurrency is Changing the Game",
           "slug": "the-future-of-international-transfers-how-cryptocurrency-is-changing-the-game",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T07:04:27+01:00",
-          "description": "Decouvrez l'avenir des transferts internationaux avec la cryptomonnaie. Explorez comment cette technologie innovante revolutionne les transactions transfrontalieres dans notre article de blog perspicace.",
+          "description": "Unlock the future of international transfers with cryptocurrency. Explore how this innovative technology is revolutionizing cross-border transactions in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686953468-cb13-img1edited.png"
           },
@@ -1498,15 +1672,18 @@
         },
         {
           "id": "165625350",
-          "topics": ["Premiers pas", "Paiements"],
-          "title": "Le guide ultime pour effectuer des achats en ligne avec la cryptomonnaie : Comprendre les tenants et aboutissants de l'utilisation de la monnaie numerique pour les transactions quotidiennes.",
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
+          "title": "The Ultimate Guide to Making Online Purchases with Cryptocurrency: Understanding the ins and outs of using digital currency for everyday transactions.",
           "slug": "the-ultimate-guide-to-making-online-purchases-with-cryptocurrency-understanding-t",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T07:02:44+01:00",
-          "description": "Decouvrez le guide ultime pour utiliser la cryptomonnaie pour les achats en ligne. Maitrisez l'art des transactions numeriques securisees et pratiques dans notre article de blog complet",
+          "description": "Discover the ultimate guide to using cryptocurrency for online purchases. Master the art of secure and convenient digital transactions in our comprehensive blog post",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686952511-cb12-img1.png"
           },
@@ -1526,21 +1703,24 @@
         },
         {
           "id": "165614216",
-          "topics": ["Premiers pas", "Collecte de fonds"],
-          "title": "Naviguer dans le Far West des offres initiales de jetons : Guide du debutant pour investir dans l'avenir de la technologie",
+          "topics": [
+            "Getting Started",
+            "Fundraising"
+          ],
+          "title": "Navigating the Wild West of Initial Coin Offerings: A Beginner's Guide to Investing in the Future of Technology",
           "slug": "navigating-the-wild-west-of-initial-coin-offerings-a-beginner-s-guide-to-investin",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T07:00:44+01:00",
-          "description": "Embarquez pour un voyage guide dans le monde des offres initiales de jetons (ICO). Apprenez a naviguer dans ce paysage dynamique et a investir dans l'avenir de la technologie.",
+          "description": "Embark on a guided journey through the world of Initial Coin Offerings (ICOs). Learn how to navigate this dynamic landscape and invest in the future of technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686951243-cb11-img1edited.png"
           },
           "contentBlock": [],
           "seo": {
-            "description": "Learn how to navigate this dynamic landscape and contribute in the future of technology.",
+            "description": "Learn how to navigate this dynamic landscape and invest in the future of technology.",
             "title": "Navigating the Wild West of Initial Coin Offerings",
             "twitterCard": null,
             "image": {
@@ -1554,15 +1734,18 @@
         },
         {
           "id": "165614005",
-          "topics": ["Premiers pas", "Contrats intelligents"],
-          "title": "La puissance des contrats intelligents : La cle pour debloquer l'avenir des affaires et de la finance",
+          "topics": [
+            "Getting Started",
+            "Smart Contracts"
+          ],
+          "title": "The Power of Smart Contracts: The Key to Unlocking the Future of Business and Finance",
           "slug": "the-power-of-smart-contracts-the-key-to-unlocking-the-future-of-business-and-fina",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:47:57+01:00",
-          "description": "Explorez le potentiel revolutionnaire des contrats intelligents. Decouvrez comment cette technologie transforme les affaires et la finance dans notre article de blog perspicace.",
+          "description": "Explore the revolutionary potential of smart contracts. Discover how this technology is reshaping business and finance in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686949167-cb10-img1edited.png"
           },
@@ -1582,15 +1765,18 @@
         },
         {
           "id": "165611516",
-          "topics": ["Premiers pas", "Securite"],
-          "title": "Devoiler les secrets du stockage de cryptomonnaies : Comment garder vos actifs numeriques en securite",
+          "topics": [
+            "Getting Started",
+            " Security"
+          ],
+          "title": "Unlocking the Secrets of Crypto Storage: How to Keep Your Digital Assets Safe and Secure",
           "slug": "unlocking-the-secrets-of-crypto-storage-how-to-keep-your-digital-assets-safe-and",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:40:53+01:00",
-          "description": "Protegez vos actifs numeriques en toute confiance. Explorez des strategies efficaces pour un stockage securise des cryptomonnaies dans notre guide complet.",
+          "description": "Safeguard your digital assets with confidence.  Explore effective strategies for secure crypto storage in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686948319-cb9-img1edited.png"
           },
@@ -1610,15 +1796,18 @@
         },
         {
           "id": "165611389",
-          "topics": ["Premiers pas", "Industrie"],
-          "title": "Liberer le potentiel : Comment la cryptomonnaie transforme les industries",
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
+          "title": "Unleashing the Potential: How Cryptocurrency is Transforming Industries",
           "slug": "unleashing-the-potential-how-cryptocurrency-is-transforming-industries",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:40:09+01:00",
-          "description": "Decouvrez le pouvoir transformateur de la cryptomonnaie dans la revolution des industries. Explorez son potentiel pour remodeler le paysage des affaires dans notre article de blog perspicace.",
+          "description": "Discover the transformative power of cryptocurrency in revolutionizing industries. Explore its potential to reshape the business landscape in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686946060-cb8-img0edited.png"
           },
@@ -1638,15 +1827,18 @@
         },
         {
           "id": "165611088",
-          "topics": ["Premiers pas", "Juridique"],
-          "title": "Naviguer dans le champ de mines juridique : Comprendre le paysage reglementaire des cryptomonnaies",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal Minefield: Understanding the Regulatory Landscape of Cryptocurrencies",
           "slug": "navigating-the-legal-minefield-understanding-the-regulatory-landscape-of-cryptocu",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:32:05+01:00",
-          "description": "Naviguez facilement dans le paysage reglementaire complexe des cryptomonnaies. Obtenez une comprehension claire des considerations juridiques dans notre guide complet.",
+          "description": "Navigate the complex regulatory landscape of cryptocurrencies with ease. Gain a clear understanding of the legal considerations in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686944651-cb7-img1edited.png"
           },
@@ -1666,15 +1858,19 @@
         },
         {
           "id": "165610881",
-          "topics": ["Premiers pas", "Guide pratique", "Recherche"],
-          "title": "Naviguer sur le marche des cryptomonnaies : Guide du debutant pour rechercher et evaluer les actifs numeriques",
+          "topics": [
+            "Getting Started",
+            "How-To",
+            "Research"
+          ],
+          "title": "Navigating the Cryptocurrency Market: A Beginner's Guide to Researching and Evaluating Digital Assets",
           "slug": "navigating-the-cryptocurrency-market-a-beginner-s-guide-to-researching-and-evalua",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:30:29+01:00",
-          "description": "Decouvrez les secrets du marche des cryptomonnaies avec notre guide pour debutants. Apprenez a rechercher et evaluer les actifs numeriques pour des investissements reussis.",
+          "description": "Unlock the secrets of the cryptocurrency market with our beginner's guide. Learn how to research and evaluate digital assets for successful investments.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686943620-cb6-img1edited.png"
           },
@@ -1694,15 +1890,17 @@
         },
         {
           "id": "165365494",
-          "topics": ["Premiers pas"],
-          "title": "Batir la confiance dans le monde numerique : Le role de la technologie blockchain dans la cryptomonnaie",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "Building Trust in the Digital World: The Role of Blockchain Technology in Cryptocurrency",
           "slug": "building-trust-in-the-digital-world-the-role-of-blockchain-technology-in-cryptocu",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:26:39+01:00",
-          "description": "Decouvrez le pouvoir transformateur de la blockchain dans l'etablissement de la confiance pour la cryptomonnaie. Explorez le role de cette technologie revolutionnaire dans le domaine numerique.",
+          "description": "Discover the transformative power of blockchain in building trust for cryptocurrency. Explore the role of this revolutionary technology in the digital realm.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686860349-cb1-img1.png"
           },
@@ -1722,15 +1920,17 @@
         },
         {
           "id": "165399154",
-          "topics": ["Premiers pas"],
-          "title": "Explorer les multiples facettes des cryptomonnaies : Un guide sur les differents types et leurs utilisations",
+          "topics": [
+            "Getting Started"
+          ],
+          "title": "Exploring the Many Faces of Cryptocurrency: A Guide to the Different Types and Their Uses",
           "slug": "exploring-the-many-faces-of-cryptocurrency-a-guide-to-the-different-types-and-the",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:25:00+01:00",
-          "description": "Decouvrez le monde diversifie des cryptomonnaies. Explorez les differents types et leurs utilisations uniques dans notre guide complet sur le domaine passionnant de la finance numerique.",
+          "description": "Discover the diverse world of cryptocurrency. Explore different types and their unique uses in our comprehensive guide to the exciting realm of digital finance.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686878037-cb4-img1edited.png"
           },
@@ -1750,15 +1950,18 @@
         },
         {
           "id": "165367458",
-          "topics": ["Premiers pas", "Securite"],
-          "title": "Securite des cryptomonnaies 101 : Comment stocker et securiser vos cryptomonnaies en toute securite",
+          "topics": [
+            "Getting Started",
+            " Security"
+          ],
+          "title": "Crypto Security 101: How to Safely Store and Secure Your Cryptocurrencies",
           "slug": "crypto-security-101-how-to-safely-store-and-secure-your-cryptocurrencies",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:23:03+01:00",
-          "description": "Maitrisez l'art de la securite des cryptomonnaies avec notre guide complet. Apprenez les strategies essentielles pour stocker et securiser vos precieuses cryptomonnaies en toute securite.",
+          "description": "Master the art of crypto security with our comprehensive guide. Learn essential strategies to safely store and secure your valuable cryptocurrencies.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686862662-cb3-img1edited.png"
           },
@@ -1778,15 +1981,18 @@
         },
         {
           "id": "165365581",
-          "topics": ["Premiers pas", "Histoire"],
-          "title": "L'evolution des cryptomonnaies : De Bitcoin a la DeFi et au-dela",
+          "topics": [
+            "Getting Started",
+            "History"
+          ],
+          "title": "The Evolution of Cryptocurrency: From Bitcoin to DeFi and Beyond",
           "slug": "the-evolution-of-cryptocurrency-from-bitcoin-to-defi-and-beyond",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:10:06+01:00",
-          "description": "Embarquez pour un voyage a travers l'evolution des cryptomonnaies, de la creation de Bitcoin a l'essor de la DeFi et au-dela. Explorez les possibilites passionnantes de ce paysage numerique en constante evolution.",
+          "description": "Embark on a journey through the evolution of cryptocurrency, from Bitcoin's inception to the rise of DeFi and beyond. Explore the exciting possibilities of this ever-evolving digital landscape.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686861503-cb2-img1.png"
           },
@@ -1807,20 +2013,23 @@
       ]
     },
     {
-      "name": "Guide pratique",
+      "name": "How-To",
       "slug": "how-to",
       "articles": [
         {
           "id": "165744328",
-          "topics": ["Premiers pas", "Guide pratique"],
-          "title": "Gardez une longueur d'avance : Un guide pour rester informe et eduque dans le monde des cryptomonnaies",
+          "topics": [
+            "Getting Started",
+            "How-To"
+          ],
+          "title": "Stay Ahead of the Game: A Guide to Staying Informed and Educated in the World of Cryptocurrency",
           "slug": "stay-ahead-of-the-game-a-guide-to-staying-informed-and-educated-in-the-world-of-c",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:52:39+01:00",
-          "description": "Restez informe et eduque dans le monde dynamique des cryptomonnaies. Explorez notre guide complet pour garder une longueur d'avance et naviguer dans le paysage numerique en constante evolution.",
+          "description": "Stay informed and educated in the dynamic world of cryptocurrency. Explore our comprehensive guide to stay ahead of the game and navigate the ever-evolving digital landscape.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687049473-cb20-img1.png"
           },
@@ -1840,15 +2049,19 @@
         },
         {
           "id": "165610881",
-          "topics": ["Premiers pas", "Guide pratique", "Recherche"],
-          "title": "Naviguer sur le marche des cryptomonnaies : Guide du debutant pour rechercher et evaluer les actifs numeriques",
+          "topics": [
+            "Getting Started",
+            "How-To",
+            "Research"
+          ],
+          "title": "Navigating the Cryptocurrency Market: A Beginner's Guide to Researching and Evaluating Digital Assets",
           "slug": "navigating-the-cryptocurrency-market-a-beginner-s-guide-to-researching-and-evalua",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:30:29+01:00",
-          "description": "Decouvrez les secrets du marche des cryptomonnaies avec notre guide pour debutants. Apprenez a rechercher et evaluer les actifs numeriques pour des investissements reussis.",
+          "description": "Unlock the secrets of the cryptocurrency market with our beginner's guide. Learn how to research and evaluate digital assets for successful investments.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686943620-cb6-img1edited.png"
           },
@@ -1868,15 +2081,18 @@
         },
         {
           "id": "165399242",
-          "topics": ["Guide pratique", "Echange"],
-          "title": "Le guide du debutant pour acheter et vendre des cryptomonnaies : Un guide etape par etape",
+          "topics": [
+            "How-To",
+            " Exchange"
+          ],
+          "title": "The Beginner's Guide to Buying and Selling Cryptocurrencies: A Step-by-Step Walkthrough",
           "slug": "the-beginner-s-guide-to-buying-and-selling-cryptocurrencies-a-step-by-step-walkth",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:28:00+01:00",
-          "description": "Naviguez dans le monde du trading de cryptomonnaies en toute simplicite. Suivez notre guide pour debutants avec des instructions etape par etape sur l'achat et la vente de cryptomonnaies.",
+          "description": "Navigate the world of cryptocurrency trading with ease. Follow our beginner's guide for step-by-step instructions on buying and selling cryptocurrencies.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686880885-cb5-img1edited.png"
           },
@@ -1897,20 +2113,23 @@
       ]
     },
     {
-      "name": "Paiements",
+      "name": "Payments",
       "slug": "payments",
       "articles": [
         {
           "id": "165742753",
-          "topics": ["Premiers pas", "Paiements"],
-          "title": "Stablecoins : L'avenir des transactions et paiements en cryptomonnaie",
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
+          "title": "Stablecoins: The Future of Cryptocurrency Transactions and Payments",
           "slug": "stablecoins-the-future-of-cryptocurrency-transactions-and-payments",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:49:51+01:00",
-          "description": "Decouvrez l'avenir des transactions et paiements en cryptomonnaie avec les stablecoins. Explorez la stabilite et le potentiel de ces actifs numeriques innovants dans notre article de blog perspicace.",
+          "description": "Discover the future of cryptocurrency transactions and payments with stablecoins. Explore the stability and potential of these innovative digital assets in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687049009-cb19-img3edited.png"
           },
@@ -1930,15 +2149,18 @@
         },
         {
           "id": "165625675",
-          "topics": ["Premiers pas", "Paiements"],
-          "title": "L'avenir des transferts internationaux : Comment la cryptomonnaie change la donne",
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
+          "title": "The Future of International Transfers: How Cryptocurrency is Changing the Game",
           "slug": "the-future-of-international-transfers-how-cryptocurrency-is-changing-the-game",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T07:04:27+01:00",
-          "description": "Decouvrez l'avenir des transferts internationaux avec la cryptomonnaie. Explorez comment cette technologie innovante revolutionne les transactions transfrontalieres dans notre article de blog perspicace.",
+          "description": "Unlock the future of international transfers with cryptocurrency. Explore how this innovative technology is revolutionizing cross-border transactions in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686953468-cb13-img1edited.png"
           },
@@ -1958,15 +2180,18 @@
         },
         {
           "id": "165625350",
-          "topics": ["Premiers pas", "Paiements"],
-          "title": "Le guide ultime pour effectuer des achats en ligne avec la cryptomonnaie : Comprendre les tenants et aboutissants de l'utilisation de la monnaie numerique pour les transactions quotidiennes.",
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
+          "title": "The Ultimate Guide to Making Online Purchases with Cryptocurrency: Understanding the ins and outs of using digital currency for everyday transactions.",
           "slug": "the-ultimate-guide-to-making-online-purchases-with-cryptocurrency-understanding-t",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T07:02:44+01:00",
-          "description": "Decouvrez le guide ultime pour utiliser la cryptomonnaie pour les achats en ligne. Maitrisez l'art des transactions numeriques securisees et pratiques dans notre article de blog complet",
+          "description": "Discover the ultimate guide to using cryptocurrency for online purchases. Master the art of secure and convenient digital transactions in our comprehensive blog post",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686952511-cb12-img1.png"
           },
@@ -1992,7 +2217,10 @@
       "articles": [
         {
           "id": "165685913",
-          "topics": ["DeFi", "Pour commencer"],
+          "topics": [
+            "DeFi",
+            "Pour commencer"
+          ],
           "title": "Decentralisez vos finances : Une introduction au monde de la DeFi",
           "slug": "decentralize-your-finance-an-introduction-to-the-world-of-defi",
           "authorName": "Crypto Clairity",
@@ -2021,20 +2249,23 @@
       ]
     },
     {
-      "name": "Investissement",
+      "name": "Investment",
       "slug": "investment",
       "articles": [
         {
           "id": "165673014",
-          "topics": ["Premiers pas", "Investissement"],
-          "title": "Investissement en cryptomonnaies 101 : Comment utiliser les cryptomonnaies pour l'investissement et la gestion d'actifs",
+          "topics": [
+            "Getting Started",
+            "Investment"
+          ],
+          "title": "Crypto Investing 101: How to Use Cryptocurrency for Investment and Asset Management",
           "slug": "crypto-investing-101-how-to-use-cryptocurrency-for-investment-and-asset-managemen",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:32:00+01:00",
-          "description": "Maitrisez l'art de l'investissement en cryptomonnaies et de la gestion d'actifs. Apprenez a tirer parti des cryptomonnaies pour des strategies d'investissement optimales dans notre guide complet.",
+          "description": "Master the art of crypto investing and asset management. Learn how to leverage cryptocurrency for optimal investment strategies in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687044673-cb16-img5.png"
           },
@@ -2055,20 +2286,23 @@
       ]
     },
     {
-      "name": "Minage",
+      "name": "Mining",
       "slug": "mining",
       "articles": [
         {
           "id": "165634456",
-          "topics": ["Premiers pas", "Minage"],
-          "title": "Liberer la puissance du minage de cryptomonnaies : Un apercu des algorithmes de preuve de travail",
+          "topics": [
+            "Getting Started",
+            "Mining"
+          ],
+          "title": " Unleashing the Power of Cryptocurrency Mining: An Overview of Proof-of-Work Algorithms",
           "slug": "unleashing-the-power-of-cryptocurrency-mining-an-overview-of-proof-of-work-algori",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:28:45+01:00",
-          "description": "Explorez la puissance du minage de cryptomonnaies et des algorithmes de preuve de travail. Decouvrez comment ce processus favorise la nature securisee et decentralisee des monnaies numeriques dans notre article de blog informatif.",
+          "description": "Explore the power of cryptocurrency mining and proof-of-work algorithms. Discover how this process drives the secure and decentralized nature of digital currencies in our informative blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686959517-cb11-img0edited.png"
           },
@@ -2089,20 +2323,23 @@
       ]
     },
     {
-      "name": "Securite",
+      "name": " Security",
       "slug": " security",
       "articles": [
         {
           "id": "165611516",
-          "topics": ["Premiers pas", "Securite"],
-          "title": "Devoiler les secrets du stockage de cryptomonnaies : Comment garder vos actifs numeriques en securite",
+          "topics": [
+            "Getting Started",
+            " Security"
+          ],
+          "title": "Unlocking the Secrets of Crypto Storage: How to Keep Your Digital Assets Safe and Secure",
           "slug": "unlocking-the-secrets-of-crypto-storage-how-to-keep-your-digital-assets-safe-and",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:40:53+01:00",
-          "description": "Protegez vos actifs numeriques en toute confiance. Explorez des strategies efficaces pour un stockage securise des cryptomonnaies dans notre guide complet.",
+          "description": "Safeguard your digital assets with confidence.  Explore effective strategies for secure crypto storage in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686948319-cb9-img1edited.png"
           },
@@ -2122,15 +2359,18 @@
         },
         {
           "id": "165367458",
-          "topics": ["Premiers pas", "Securite"],
-          "title": "Securite des cryptomonnaies 101 : Comment stocker et securiser vos cryptomonnaies en toute securite",
+          "topics": [
+            "Getting Started",
+            " Security"
+          ],
+          "title": "Crypto Security 101: How to Safely Store and Secure Your Cryptocurrencies",
           "slug": "crypto-security-101-how-to-safely-store-and-secure-your-cryptocurrencies",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:23:03+01:00",
-          "description": "Maitrisez l'art de la securite des cryptomonnaies avec notre guide complet. Apprenez les strategies essentielles pour stocker et securiser vos precieuses cryptomonnaies en toute securite.",
+          "description": "Master the art of crypto security with our comprehensive guide. Learn essential strategies to safely store and secure your valuable cryptocurrencies.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686862662-cb3-img1edited.png"
           },
@@ -2151,20 +2391,24 @@
       ]
     },
     {
-      "name": "Recherche",
+      "name": "Research",
       "slug": "research",
       "articles": [
         {
           "id": "165610881",
-          "topics": ["Premiers pas", "Guide pratique", "Recherche"],
-          "title": "Naviguer sur le marche des cryptomonnaies : Guide du debutant pour rechercher et evaluer les actifs numeriques",
+          "topics": [
+            "Getting Started",
+            "How-To",
+            "Research"
+          ],
+          "title": "Navigating the Cryptocurrency Market: A Beginner's Guide to Researching and Evaluating Digital Assets",
           "slug": "navigating-the-cryptocurrency-market-a-beginner-s-guide-to-researching-and-evalua",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:30:29+01:00",
-          "description": "Decouvrez les secrets du marche des cryptomonnaies avec notre guide pour debutants. Apprenez a rechercher et evaluer les actifs numeriques pour des investissements reussis.",
+          "description": "Unlock the secrets of the cryptocurrency market with our beginner's guide. Learn how to research and evaluate digital assets for successful investments.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686943620-cb6-img1edited.png"
           },
@@ -2185,20 +2429,23 @@
       ]
     },
     {
-      "name": "Echange",
+      "name": " Exchange",
       "slug": " exchange",
       "articles": [
         {
           "id": "165399242",
-          "topics": ["Guide pratique", "Echange"],
-          "title": "Le guide du debutant pour acheter et vendre des cryptomonnaies : Un guide etape par etape",
+          "topics": [
+            "How-To",
+            " Exchange"
+          ],
+          "title": "The Beginner's Guide to Buying and Selling Cryptocurrencies: A Step-by-Step Walkthrough",
           "slug": "the-beginner-s-guide-to-buying-and-selling-cryptocurrencies-a-step-by-step-walkth",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:28:00+01:00",
-          "description": "Naviguez dans le monde du trading de cryptomonnaies en toute simplicite. Suivez notre guide pour debutants avec des instructions etape par etape sur l'achat et la vente de cryptomonnaies.",
+          "description": "Navigate the world of cryptocurrency trading with ease. Follow our beginner's guide for step-by-step instructions on buying and selling cryptocurrencies.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686880885-cb5-img1edited.png"
           },
@@ -2219,20 +2466,23 @@
       ]
     },
     {
-      "name": "Histoire",
+      "name": "History",
       "slug": "history",
       "articles": [
         {
           "id": "165365581",
-          "topics": ["Premiers pas", "Histoire"],
-          "title": "L'evolution des cryptomonnaies : De Bitcoin a la DeFi et au-dela",
+          "topics": [
+            "Getting Started",
+            "History"
+          ],
+          "title": "The Evolution of Cryptocurrency: From Bitcoin to DeFi and Beyond",
           "slug": "the-evolution-of-cryptocurrency-from-bitcoin-to-defi-and-beyond",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:10:06+01:00",
-          "description": "Embarquez pour un voyage a travers l'evolution des cryptomonnaies, de la creation de Bitcoin a l'essor de la DeFi et au-dela. Explorez les possibilites passionnantes de ce paysage numerique en constante evolution.",
+          "description": "Embark on a journey through the evolution of cryptocurrency, from Bitcoin's inception to the rise of DeFi and beyond. Explore the exciting possibilities of this ever-evolving digital landscape.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686861503-cb2-img1.png"
           },
@@ -2260,7 +2510,7 @@
       "title": "Crypto | Bitcash Blog",
       "twitterCard": "summary_large_image"
     },
-    "description": "Liberer la puissance de la monnaie numerique",
+    "description": "Unlocking the Power of Digital Currency",
     "title": "Crypto",
     "seoType": "crypto",
     "id": "178642410",

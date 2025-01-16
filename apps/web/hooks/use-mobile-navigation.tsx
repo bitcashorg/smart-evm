@@ -28,7 +28,7 @@ function useMobileNavFn() {
   return {
     open,
     toggleOpen,
-    close
+    close,
   }
 }
 

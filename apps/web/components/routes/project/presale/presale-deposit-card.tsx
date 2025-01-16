@@ -16,7 +16,10 @@ import {
 } from '@/components/ui/select'
 import { useSession } from '@/hooks/use-session'
 import { useSigningRequest } from '@/hooks/use-signing-request'
-import { genBitusdDepositSigningRequest, genUsdtDepositSigningRequest } from '@/lib/eos'
+import {
+  genBitusdDepositSigningRequest,
+  genUsdtDepositSigningRequest,
+} from '@/lib/eos'
 import type { ProjectWithAuction } from '@/lib/projects'
 import { useSupabaseClient } from '@/services/supabase'
 import type { Tables } from '@repo/supabase'
@@ -25,7 +28,13 @@ import { useQuery } from '@tanstack/react-query'
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import { toast } from 'sonner'
-import { type Address, erc20Abi, getAddress, isAddressEqual, parseUnits } from 'viem'
+import {
+  type Address,
+  erc20Abi,
+  getAddress,
+  isAddressEqual,
+  parseUnits,
+} from 'viem'
 import { useAccount, useChainId, useSwitchChain, useWriteContract } from 'wagmi'
 import { WhitelistAddressButton } from '../whitelist-address-button'
 
@@ -88,7 +97,8 @@ function PresaleDeposit({
     enabled: Boolean(session?.account),
     queryFn: async () => {
       // this should never happen. see enabled: Boolean(session?.account && address)
-      if (!address || !session?.account) throw new Error('No address or account')
+      if (!address || !session?.account)
+        throw new Error('No address or account')
 
       const { data, error } = await supabase
         .from('whitelist')
@@ -115,14 +125,16 @@ function PresaleDeposit({
     if (!selectedChain) return toast.error('Please select a blockchain network')
     // Find the token data for the selected token and chain
     const token = tokens.find(
-      (token) => token.symbol === selectedToken && token.chainName === selectedChain,
+      (token) =>
+        token.symbol === selectedToken && token.chainName === selectedChain,
     )
     // Show an error if the token data is not found
     if (!token) return toast.error('Token data not found')
 
     if (token.chainType === 'evm') {
       const depositAddress = presaleAddresses.find(
-        (presaleAddress) => presaleAddress.chain_id === token.chainId.toString(),
+        (presaleAddress) =>
+          presaleAddress.chain_id === token.chainId.toString(),
       )?.deposit_address as Address
       if (!depositAddress) return toast.error('Deposit address not found')
       const evmToken = token
@@ -192,8 +204,16 @@ function PresaleDeposit({
       const info = { presale: true }
       const esr =
         selectedToken === 'USDT'
-          ? await genUsdtDepositSigningRequest(Number(amount), 'bldeposit.bk', info)
-          : await genBitusdDepositSigningRequest(Number(amount), 'bldeposit.bk', info)
+          ? await genUsdtDepositSigningRequest(
+              Number(amount),
+              'bldeposit.bk',
+              info,
+            )
+          : await genBitusdDepositSigningRequest(
+              Number(amount),
+              'bldeposit.bk',
+              info,
+            )
 
       requestSignature({
         esr,
@@ -269,7 +289,11 @@ function PresaleDeposit({
           requireWhitelist ? (
             <WhitelistAddressButton projectId={project.id} />
           ) : isPresaleActive ? (
-            <Button variant="tertiary" onClick={deposit} disabled={status === 'pending'}>
+            <Button
+              variant="tertiary"
+              onClick={deposit}
+              disabled={status === 'pending'}
+            >
               {status === 'pending' ? 'Pending Signature' : 'Contribute Now'}
             </Button>
           ) : isAuctionActive ? (

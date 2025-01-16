@@ -43,21 +43,22 @@ export function AuctionBids({ project }: AuctionBidsProps) {
     if (hasErrorMessage) return
 
     // remove empty rows
-    const bids = bidInputs.filter((v) => !(v.minBuyAmount <= 0 && v.bidAmount <= 0))
+    const bids = bidInputs.filter(
+      (v) => !(v.minBuyAmount <= 0 && v.bidAmount <= 0),
+    )
 
     const test = {
       minBuyAmounts: [bids[0]?.minBuyAmount],
       sellAmounts: [bids[0]?.bidAmount],
     }
 
-    const { isBalanceSufficient, isAllowanceSufficient } = await checkBalanceAndAllowance(
-      {
+    const { isBalanceSufficient, isAllowanceSufficient } =
+      await checkBalanceAndAllowance({
         account: address,
         spender: TestnetEasyAuction.address,
         amount: bids[0]?.bidAmount,
         tokenAddress: TestnetUSDCred.address,
-      },
-    )
+      })
 
     if (!isBalanceSufficient) return toast.error('Insuficient USDCred Balance')
 
@@ -94,7 +95,11 @@ export function AuctionBids({ project }: AuctionBidsProps) {
   }
 
   // validates and formats inputs
-  const handleInputChange = (index: number, name: keyof BidInput, value: bigint) => {
+  const handleInputChange = (
+    index: number,
+    name: keyof BidInput,
+    value: bigint,
+  ) => {
     const newBidInputs = [...bidInputs]
     newBidInputs[index] = { ...newBidInputs[index], [name]: value }
     // calculate minBuyAmount and set error messages
@@ -107,7 +112,9 @@ export function AuctionBids({ project }: AuctionBidsProps) {
           ? 'Sell amount cannot be zero'
           : ''
 
-    const minBuyAmount = !errorMessage ? sellAmount / BigInt(maxPrice || 1) : BigInt(0)
+    const minBuyAmount = !errorMessage
+      ? sellAmount / BigInt(maxPrice || 1)
+      : BigInt(0)
 
     // TODO: check minBuyAmount is valid for project
 
@@ -147,7 +154,9 @@ export function AuctionBids({ project }: AuctionBidsProps) {
                 <CurrencyInput
                   placeholder="0.00"
                   name={`maxPrice${index}`}
-                  handlechange={(val) => handleInputChange(index, 'maxPrice', val)}
+                  handlechange={(val) =>
+                    handleInputChange(index, 'maxPrice', val)
+                  }
                 />
               </TableCell>
               <TableCell
@@ -158,7 +167,9 @@ export function AuctionBids({ project }: AuctionBidsProps) {
                 <CurrencyInput
                   placeholder="0.00"
                   name={`bidAmount${index}`}
-                  handlechange={(val) => handleInputChange(index, 'bidAmount', val)}
+                  handlechange={(val) =>
+                    handleInputChange(index, 'bidAmount', val)
+                  }
                 />
               </TableCell>
             </TableRow>
@@ -168,7 +179,9 @@ export function AuctionBids({ project }: AuctionBidsProps) {
 
       <div className="flex flex-col justify-between gap-6 px-5 pb-5">
         <Button
-          disabled={!address || bidInputs.some((item) => item.errorMessage !== '')}
+          disabled={
+            !address || bidInputs.some((item) => item.errorMessage !== '')
+          }
           onClick={() => handleSubmit()}
           type="submit"
           variant="accent"
@@ -219,7 +232,7 @@ function CurrencyInput({ handlechange, ...props }: CurrencyInputProps) {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const val = e.target.value.replace(/,/g, '') // Remove commas for parsing
-    if (!isNaN(Number(val))) {
+    if (!Number.isNaN(Number(val))) {
       // This ensures the value is a number (including decimals)
       setValue(val) // Set the raw number value for controlled input
     }
@@ -263,7 +276,10 @@ interface AuctionBidsProps {
 }
 
 interface CurrencyInputProps
-  extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'onChange' | 'value'> {
+  extends Omit<
+    React.InputHTMLAttributes<HTMLInputElement>,
+    'onChange' | 'value'
+  > {
   handlechange: (val: bigint) => void
 }
 

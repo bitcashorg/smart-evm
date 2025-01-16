@@ -2,15 +2,19 @@
   "relatedBlogs": [],
   "blogContent": {
     "id": "198277160",
-    "topics": ["大语言模型", "智能代理", "游戏"],
-    "title": "MindAgent: 涌现式游戏交互",
+    "topics": [
+      "LLM",
+      "Agents",
+      "Gaming"
+    ],
+    "title": "MindAgent: Emergent Gaming Interaction",
     "slug": "mindagent-emergent-gaming-interaction",
     "authorName": "Prof. Otto Nomos",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
     },
     "_publishedAt": "2024-05-27T03:32:58+01:00",
-    "description": "摘要评论和评分",
+    "description": "Abstract Commentary & Rating",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1692841427-researchpaper8a.png"
     },
@@ -238,7 +242,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Complex Scheduling with LLMs"
                             },
                             {
@@ -257,7 +263,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "MindAgent Infrastructure"
                             },
                             {
@@ -276,7 +284,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "CUISINEWORLD Scenario"
                             },
                             {
@@ -295,7 +305,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Customized VR Version"
                             },
                             {
@@ -314,7 +326,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Efficiency Metric"
                             },
                             {
@@ -348,7 +362,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Advanced Gaming Scenarios"
                             },
                             {
@@ -367,7 +383,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Beyond Gaming"
                             },
                             {
@@ -386,7 +404,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Collaboration with Human Players"
                             },
                             {
@@ -405,7 +425,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "VR Integration"
                             },
                             {
@@ -424,7 +446,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Educational and Training Implications"
                             },
                             {
@@ -458,7 +482,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Computational Constraints"
                             },
                             {
@@ -477,7 +503,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Safety and Fair Play"
                             },
                             {
@@ -496,7 +524,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Adapting to Different Genres"
                             },
                             {
@@ -554,8 +584,8 @@
       }
     ],
     "seo": {
-      "description": "摘要评论和评分",
-      "title": "MindAgent: 涌现式游戏交互",
+      "description": "Abstract Commentary & Rating\n",
+      "title": "MindAgent: Emergent Gaming Interaction",
       "twitterCard": null,
       "image": {
         "width": 1456,
@@ -566,5 +596,13 @@
       }
     }
   },
-  "topics": ["大语言模型", "智能代理", "游戏"]
+  "topics": [
+    "LLM",
+    "Agents",
+    "Gaming"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

@@ -2,15 +2,18 @@
   "relatedBlogs": [],
   "blogContent": {
     "id": "198277342",
-    "topics": ["大语言模型", "多语言"],
-    "title": "OpenBA: 一个开源的150亿参数双语非对称seq2seq模型,从头预训练",
+    "topics": [
+      "LLM",
+      "Multilingual"
+    ],
+    "title": "OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch",
     "slug": "openba-an-open-sourced-15b-bilingual-asymmetric-seq2seq-model-pre-trained-from-sc",
     "authorName": "Prof. Otto Nomos",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1692842125-profottonomosheadshot.png"
     },
     "_publishedAt": "2024-05-27T03:34:02+01:00",
-    "description": "摘要评论和评分",
+    "description": "Abstract Commentary & Rating",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1692843326-researchpaper9.png"
     },
@@ -228,7 +231,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Bilingual Model"
                             },
                             {
@@ -247,7 +252,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Efficient Techniques and Training Strategy"
                             },
                             {
@@ -266,7 +273,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Competitive Performance"
                             },
                             {
@@ -285,7 +294,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Open Source"
                             },
                             {
@@ -319,7 +330,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Bilingual Tasks"
                             },
                             {
@@ -338,7 +351,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Promotion of Chinese-Oriented Research"
                             },
                             {
@@ -357,7 +372,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Accessible Tool"
                             },
                             {
@@ -376,7 +393,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Benchmark Performance"
                             },
                             {
@@ -410,7 +429,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Specialized Nature"
                             },
                             {
@@ -429,7 +450,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Resource Intensiveness"
                             },
                             {
@@ -487,8 +510,8 @@
       }
     ],
     "seo": {
-      "description": "摘要评论和评分",
-      "title": "OpenBA: 一个开源的150亿参数双语...模型...",
+      "description": "Abstract Commentary & Rating\n",
+      "title": "OpenBA: An Open-sourced 15B Bilingual ... Model ...",
       "twitterCard": null,
       "image": {
         "width": 1456,
@@ -499,5 +522,12 @@
       }
     }
   },
-  "topics": ["大语言模型", "多语言"]
+  "topics": [
+    "LLM",
+    "Multilingual"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

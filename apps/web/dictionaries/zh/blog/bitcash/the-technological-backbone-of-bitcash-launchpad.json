@@ -2,92 +2,137 @@
   "relatedBlogs": [
     {
       "id": "BEfgGhndSsCn5MBU89RO3A",
-      "topics": ["launchpad"],
-      "title": "赋能创新：bitLauncher的愿景、使命和战略目标",
+      "topics": [
+        "launchpad"
+      ],
+      "title": "Empowering Innovation: Vision, Mission, and Strategic Goals of bitLauncher",
       "slug": "empowering-innovation-vision-mission-and-strategic-goals-of-bitcash-launchpad",
       "authorName": "Jun Dam",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
       },
       "_publishedAt": "2024-03-14T05:31:29+00:00",
-      "description": "本节概述了bitcash Launchpad利用加密货币革新人工智能创新的愿景，详细阐述了我们民主化人工智能开发的使命，以及创建一个社区驱动、透明和道德的技术未来的战略目标。",
+      "description": "This section outlines bitcash Launchpad's vision to revolutionize AI innovation with cryptocurrency, detailing our mission to democratize AI development and our strategic goals for creating a community-driven, transparent, and ethical technological future.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1709370139-whitepaper-p4.webp"
       },
       "seo": {
-        "title": "赋能创新：愿景、使命和战略目标",
-        "description": "本节概述了我们利用加密货币革新人工智能创新的愿景、使命和目标。"
+        "description": "This section outlines our vision, mission and goals to revolutionize AI innovation with cryptocurrency.",
+        "title": "Empowering Innovation: Vision, Mission, and Strategic Goals ",
+        "twitterCard": null,
+        "image": {
+          "width": 700,
+          "height": 700,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1709370139-whitepaper-p4.webp"
+        }
       }
     },
     {
       "id": "NZeB3i5XRzuELW2UWBDyRQ",
-      "topics": ["research", "dao", "fundraising", "launchpad"],
-      "title": "驾驭融合：人工智能与加密货币动态的全面市场分析",
+      "topics": [
+        "research",
+        "dao",
+        "fundraising",
+        "launchpad"
+      ],
+      "title": "Navigating the Convergence: A Comprehensive Market Analysis of AI and the Cryptocurrency Dynamic",
       "slug": "navigating-the-convergence-a-comprehensive-market-analysis-of-ai-and-cryptocurren",
       "authorName": "Jun Dam",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
       },
       "_publishedAt": "2024-03-14T05:30:05+00:00",
-      "description": "本节探讨了人工智能和加密货币的动态交叉点，突出了关键趋势、挑战和机遇，并将bitcash Launchpad定位为开源人工智能项目的先锋平台。",
+      "description": "This section explores the dynamic intersection of AI and cryptocurrency, highlighting key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
       },
       "seo": {
-        "title": "人工智能与加密货币动态的市场分析",
-        "description": "关键趋势、挑战和机遇，以及将bitcash Launchpad定位为开源人工智能项目的先锋平台。"
+        "description": "Key trends, challenges, and opportunities, and positions bitcash Launchpad as a pioneering platform for open-source AI projects.",
+        "title": "Market Analysis of AI and Cryptocurrency Dynamic",
+        "twitterCard": null,
+        "image": {
+          "width": 700,
+          "height": 700,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1709276586-marketanalysis-img2.webp"
+        }
       }
     },
     {
       "id": "MICfokr1TVuScAB4Qh9YGw",
-      "topics": ["launchpad"],
-      "title": "赋能创新：bitcash的代币经济学和融资策略",
+      "topics": [
+        "launchpad"
+      ],
+      "title": "Empowering Innovation: Tokenomics and Funding Strategy of bitcash",
       "slug": "empowering-innovation-tokenomics-and-funding-strategy-of-bitcash",
       "authorName": "Jun Dam",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
       },
       "_publishedAt": "2024-03-14T05:27:37+00:00",
-      "description": "本节详细介绍了bitcash的铸造和销毁实用代币模型及其公平融资和价值增长的战略方法，支撑了启动平台以透明和可持续的代币经济学赋能人工智能发展的使命。",
+      "description": "This section details bitcash's mint-and-burn utility token model and its strategic approach to equitable funding and value growth, underpinning the launchpad's mission to empower AI development with transparent and sustainable tokenomics.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1710053905-tokenomicswpimg.webp"
       },
       "seo": {
-        "title": "bitcash的代币经济学和融资策略",
-        "description": "本节详细介绍了bitcash的铸造和销毁实用代币模型及其公平融资和价值增长的战略方法"
+        "description": "This section details bitcash's mint-and-burn utility token model and its strategic approach to equitable funding and value growth",
+        "title": "Tokenomics and Funding Strategy of bitcash",
+        "twitterCard": null,
+        "image": {
+          "width": 1012,
+          "height": 1012,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1710053905-tokenomicswpimg.webp"
+        }
       }
     },
     {
       "id": "BSDdY8byQWipv749rApFRA",
-      "topics": ["launchpad"],
-      "title": "释放潜力：bitLauncher的用例和应用",
+      "topics": [
+        "launchpad"
+      ],
+      "title": "Unlocking Potential: Use Cases and Applications of bitLauncher",
       "slug": "unlocking-potential-use-cases-and-applications-of-bitlauncher",
       "authorName": "Jun Dam",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
       },
       "_publishedAt": "2024-03-14T05:26:22+00:00",
-      "description": "本节探讨了bitLauncher如何革新人工智能创业融资和全球市场准入，通过针对性用例和开创性的Masterbots.ai项目展示了可持续的开源模式、战略性创业文化和全球投资者生态系统。",
+      "description": "This section explores how bitLauncer revolutionizes AI startup funding and global market access, showcasing sustainable open-source models, strategic startup culture, and the global investor ecosystem through targeted use cases and the pioneering Masterbots.ai project.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1710393954-usecaseappsimg.webp"
       },
       "seo": {
-        "title": "释放潜力：用例和应用",
-        "description": "本节探讨了bitLauncher如何革新人工智能创业融资、全球市场准入，以及开创性的Masterbots.ai项目。"
+        "description": "This section explores how bitLauncher revolutionizes AI startup funding, global market access, and the pioneering Masterbots.ai project.",
+        "title": "Unlocking Potential: Use Cases and Applications ",
+        "twitterCard": null,
+        "image": {
+          "width": 1012,
+          "height": 1012,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1710393954-usecaseappsimg.webp"
+        }
       }
     }
   ],
   "blogContent": {
     "id": "I4jShMnWRruvJgDbrucwDw",
-    "topics": ["孵化平台"],
-    "title": "bitLauncher的技术支柱",
+    "topics": [
+      "launchpad"
+    ],
+    "title": "The Technological Backbone of bitLauncher",
     "slug": "the-technological-backbone-of-bitcash-launchpad",
     "authorName": "Jun Dam",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1686758812-jdamx170-removebg-preview.png"
     },
     "_publishedAt": "2024-03-14T05:33:20+00:00",
-    "description": "本节详细介绍了bitLauncher如何整合前沿区块链技术和创新工具,包括Bitcash支付,DAO治理和非营利区块链愿景,为透明,安全和公平的AI创业成长奠定基础.",
+    "description": "This section details bitLauncher's integration of cutting-edge blockchain technologies and innovative tools, including Bitcash payments, DAO governance, and a non-profit blockchain vision, setting the stage for transparent, secure, and equitable AI startup growth.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1710011354-techsectionwpimg.webp"
     },
@@ -187,7 +232,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "Cryptocurrency Payment Wallet and P2P Crypto Onramp"
                             },
                             {
@@ -206,7 +253,9 @@
                           "children": [
                             {
                               "type": "span",
-                              "marks": ["strong"],
+                              "marks": [
+                                "strong"
+                              ],
                               "value": "WebAuthn Integration"
                             },
                             {
@@ -228,7 +277,9 @@
                     },
                     {
                       "type": "span",
-                      "marks": ["strong"],
+                      "marks": [
+                        "strong"
+                      ],
                       "value": "dBoard"
                     },
                     {
@@ -283,8 +334,8 @@
       }
     ],
     "seo": {
-      "description": "本节详细介绍了bitLauncher如何整合前沿区块链技术和创新工具.",
-      "title": "bitLauncher的技术支柱",
+      "description": "This section details bitLauncher's integration of cutting-edge blockchain technologies and innovative tools.",
+      "title": "The Technological Backbone of bitLauncher",
       "twitterCard": null,
       "image": {
         "width": 700,
@@ -295,5 +346,11 @@
       }
     }
   },
-  "topics": ["launchpad"]
+  "topics": [
+    "launchpad"
+  ],
+  "shortLink": {
+    "data": null,
+    "error": "You've reached your monthly limit of 1000 links on the Pro plan. Please upgrade to add more links."
+  }
 }

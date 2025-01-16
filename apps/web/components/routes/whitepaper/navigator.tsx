@@ -20,7 +20,13 @@ export const NextArrowComponent = (props: SVGProps<SVGSVGElement>) => (
 )
 
 export const PrevArrowComponent = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={26} height={27} fill="none" {...props}>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={26}
+    height={27}
+    fill="none"
+    {...props}
+  >
     <title>Prev</title>
     <path
       stroke="#fff"
@@ -58,7 +64,6 @@ export const NavigationContainer = ({
             onNextClick()
           }
         }}
-        tabIndex={0}
       >
         <div className="relative flex-1 font-normal text-transparent text-lg tracking-[0] leading-[25.4px] overflow-hidden whitespace-nowrap">
           <span className="text-[#433974]">
@@ -81,7 +86,6 @@ export const NavigationContainer = ({
             onPrevClick()
           }
         }}
-        tabIndex={0}
       >
         <PrevArrowComponent />
         <div className="relative flex-1 font-normal text-[#433974] text-lg tracking-[0] leading-[25.4px] overflow-hidden whitespace-nowrap">

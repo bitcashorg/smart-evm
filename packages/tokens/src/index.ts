@@ -8,4 +8,8 @@ import { antelopeTokens } from './antelope'
 import { evmTokens } from './evm'
 import { solanaTokens } from './solana'
 
-export const tokens: Token[] = [...antelopeTokens, ...evmTokens, ...solanaTokens]
+export const tokens: Token[] = [
+  ...antelopeTokens,
+  ...evmTokens,
+  ...solanaTokens,
+]

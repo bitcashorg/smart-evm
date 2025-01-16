@@ -6,7 +6,11 @@
       "articles": [
         {
           "id": "180563939",
-          "topics": ["DAO", "Tokenomics", "Bình luận"],
+          "topics": [
+            "DAO",
+            "Tokenomics",
+            "Bình luận"
+          ],
           "title": "Khung cho Thiết kế Quản trị Blockchain: Bánh xe Nhóm Prysm [Bình luận]",
           "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
           "authorName": "Crypto Clairity",
@@ -34,7 +38,10 @@
         },
         {
           "id": "180563903",
-          "topics": ["DAO", "Tóm tắt"],
+          "topics": [
+            "DAO",
+            "Tóm tắt"
+          ],
           "title": "Bỏ phiếu để làm gì? [Tóm tắt]",
           "slug": "what-is-voting-for-summary",
           "authorName": "Crypto Clairity",
@@ -62,7 +69,10 @@
         },
         {
           "id": "180563908",
-          "topics": ["DAO", "Tóm tắt"],
+          "topics": [
+            "DAO",
+            "Tóm tắt"
+          ],
           "title": "Quản trị dùng để làm gì? [Tóm tắt]",
           "slug": "what-is-governance-for-summary",
           "authorName": "Crypto Clairity",
@@ -90,7 +100,11 @@
         },
         {
           "id": "167184977",
-          "topics": ["Tokenomics", "DAO", "Fundraising"],
+          "topics": [
+            "Tokenomics",
+            "DAO",
+            "Fundraising"
+          ],
           "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
           "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
           "authorName": "Crypto Clairity",
@@ -118,7 +132,10 @@
         },
         {
           "id": "166984334",
-          "topics": ["DAO", "Legal"],
+          "topics": [
+            "DAO",
+            "Legal"
+          ],
           "title": "Decentralized Autonomous Organizations (DAOs): Basic Legal Structures for Business and Non-Profit Purposes",
           "slug": "decentralized-autonomous-organizations-daos-basic-legal-structures-for-business-a",
           "authorName": "Crypto Clairity",
@@ -146,7 +163,10 @@
         },
         {
           "id": "166981063",
-          "topics": ["Getting Started", "DAO"],
+          "topics": [
+            "Getting Started",
+            "DAO"
+          ],
           "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
           "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
           "authorName": "Crypto Clairity",
@@ -174,7 +194,11 @@
       "articles": [
         {
           "id": "180563939",
-          "topics": ["DAO", "Tokenomics", "Bình luận"],
+          "topics": [
+            "DAO",
+            "Tokenomics",
+            "Bình luận"
+          ],
           "title": "Một Khung cho Thiết kế Quản trị Blockchain: Bánh xe Nhóm Prysm [Bình luận]",
           "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
           "authorName": "Crypto Clairity",
@@ -202,7 +226,10 @@
         },
         {
           "id": "180217169",
-          "topics": ["Kinh tế học về Token", "Bình luận"],
+          "topics": [
+            "Kinh tế học về Token",
+            "Bình luận"
+          ],
           "title": "Kinh tế của các Kích thích Đã Token hóa 3: Giá trị Token Không Đồng nhất các Bên liên quan [Bình luận]",
           "slug": "economics-of-tokenized-incentives-3-token-value-won-t-align-stakeholders-commenta",
           "authorName": "Crypto Clairity",
@@ -230,7 +257,10 @@
         },
         {
           "id": "180217123",
-          "topics": ["Kinh tế học về Token", "Bình luận"],
+          "topics": [
+            "Kinh tế học về Token",
+            "Bình luận"
+          ],
           "title": "Kinh tế học về Khuyến khích Token hóa 2: Lựa chọn Chỉ số Hiệu suất Hiệu quả [Bình luận]",
           "slug": "economics-of-tokenized-incentives-2-selecting-effective-performance-metrics-comme",
           "authorName": "Crypto Clairity",
@@ -258,7 +288,10 @@
         },
         {
           "id": "180217082",
-          "topics": ["Tokenomics", "Commentary"],
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
           "title": "Economics of Tokenized Incentives 1: Intro to Pay for Performance [Commentary]",
           "slug": "economics-of-tokenized-incentives-1-intro-to-pay-for-performance",
           "authorName": "Crypto Clairity",
@@ -286,7 +319,11 @@
         },
         {
           "id": "180563918",
-          "topics": ["Tokenomics", "Commentary", "Fundraising"],
+          "topics": [
+            "Tokenomics",
+            "Commentary",
+            "Fundraising"
+          ],
           "title": "Tokens: Investment Vehicle or Medium of Exchange (Not Both) [Commentary]",
           "slug": "tokens-investment-vehicle-or-medium-of-exchange-not-both-commentary",
           "authorName": "Crypto Clairity",
@@ -314,7 +351,11 @@
         },
         {
           "id": "180563922",
-          "topics": ["Fundraising", "Tokenomics", "Commentary"],
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
           "title": "ICOs Leverage Network Effects [Commentary]",
           "slug": "icos-leverage-network-effects-commentary",
           "authorName": "Crypto Clairity",
@@ -342,7 +383,11 @@
         },
         {
           "id": "179948652",
-          "topics": ["Tokenomics", "Industry", "Summary"],
+          "topics": [
+            "Tokenomics",
+            "Industry",
+            "Summary"
+          ],
           "title": "Digital Innovation and Revenue Models [Summary]",
           "slug": "digital-innovation-and-revenue-models-summary",
           "authorName": "Crypto Clairity",
@@ -370,7 +415,11 @@
         },
         {
           "id": "180556595",
-          "topics": ["Fundraising", "Tokenomics", "Commentary"],
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
           "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
           "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
           "authorName": "Crypto Clairity",
@@ -398,7 +447,10 @@
         },
         {
           "id": "180563931",
-          "topics": ["Tokenomics", "Commentary"],
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
           "title": "Blockchain Incentive Structures: What they are and why they matter [Commentary]",
           "slug": "blockchain-incentive-structures-what-they-are-and-why-they-matter-commentary",
           "authorName": "Crypto Clairity",
@@ -426,7 +478,11 @@
         },
         {
           "id": "167184977",
-          "topics": ["Tokenomics", "DAO", "Fundraising"],
+          "topics": [
+            "Tokenomics",
+            "DAO",
+            "Fundraising"
+          ],
           "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
           "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
           "authorName": "Crypto Clairity",
@@ -454,7 +510,10 @@
         },
         {
           "id": "167101094",
-          "topics": ["Getting Started", "Tokenomics"],
+          "topics": [
+            "Getting Started",
+            "Tokenomics"
+          ],
           "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
           "slug": "tokenomics-101-unleashing-the-power-of-cryptocurrency",
           "authorName": "Crypto Clairity",
@@ -483,20 +542,24 @@
       ]
     },
     {
-      "name": "Bình luận",
+      "name": "Commentary",
       "slug": "commentary",
       "articles": [
         {
           "id": "180563939",
-          "topics": ["DAO", "Tokenomics", "Binh luan"],
-          "title": "Khung cho Thiet ke Quan tri Blockchain: Banh xe Nhom Prysm [Binh luan]",
+          "topics": [
+            "DAO",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "A Framework for Blockchain Governance Design: The Prysm Group Wheel [Commentary]",
           "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:19:19+01:00",
-          "description": "Tim hieu su phuc tap cua quan tri blockchain voi Banh xe Nhom Prysm. Lo trinh cua ban de thiet ke quan tri blockchain hieu qua.",
+          "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
           },
@@ -516,15 +579,18 @@
         },
         {
           "id": "180217169",
-          "topics": ["Kinh tế học về mã thông báo", "Bình luận"],
-          "title": "Kinh tế học của các Kích thích Mã hóa 3: Giá trị Mã không Đồng nhất các Bên liên quan [Bình luận]",
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "Economics of Tokenized Incentives 3: Token Value Won’t Align Stakeholders [Commentary]",
           "slug": "economics-of-tokenized-incentives-3-token-value-won-t-align-stakeholders-commenta",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:17:23+01:00",
-          "description": "Khám phá những hạn chế của việc sử dụng giá trị mã như một chỉ số hiệu suất trên các nền tảng blockchain. Học cách thiết kế các hệ thống kích thích hiệu quả.",
+          "description": "Uncover the pitfalls of using token value as a performance metric in blockchain platforms. Learn to design effective incentive systems.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690771457-cbc3-img1.png"
           },
@@ -544,7 +610,10 @@
         },
         {
           "id": "180217123",
-          "topics": ["Tokenomics", "Commentary"],
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
           "title": "Economics of Tokenized Incentives 2: Selecting Effective Performance Metrics [Commentary]",
           "slug": "economics-of-tokenized-incentives-2-selecting-effective-performance-metrics-comme",
           "authorName": "Crypto Clairity",
@@ -572,7 +641,10 @@
         },
         {
           "id": "180217082",
-          "topics": ["Tokenomics", "Commentary"],
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
           "title": "Economics of Tokenized Incentives 1: Intro to Pay for Performance [Commentary]",
           "slug": "economics-of-tokenized-incentives-1-intro-to-pay-for-performance",
           "authorName": "Crypto Clairity",
@@ -600,7 +672,10 @@
         },
         {
           "id": "180556627",
-          "topics": ["Commentary", "Smart Contracts"],
+          "topics": [
+            "Commentary",
+            "Smart Contracts"
+          ],
           "title": "Incomplete Contracts and Blockchain [Commentary]",
           "slug": "incomplete-contracts-and-blockchain-commentary",
           "authorName": "Crypto Clairity",
@@ -628,7 +703,11 @@
         },
         {
           "id": "180563918",
-          "topics": ["Tokenomics", "Commentary", "Fundraising"],
+          "topics": [
+            "Tokenomics",
+            "Commentary",
+            "Fundraising"
+          ],
           "title": "Tokens: Investment Vehicle or Medium of Exchange (Not Both) [Commentary]",
           "slug": "tokens-investment-vehicle-or-medium-of-exchange-not-both-commentary",
           "authorName": "Crypto Clairity",
@@ -656,7 +735,11 @@
         },
         {
           "id": "180563922",
-          "topics": ["Fundraising", "Tokenomics", "Commentary"],
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
           "title": "ICOs Leverage Network Effects [Commentary]",
           "slug": "icos-leverage-network-effects-commentary",
           "authorName": "Crypto Clairity",
@@ -684,7 +767,11 @@
         },
         {
           "id": "180556595",
-          "topics": ["Fundraising", "Tokenomics", "Commentary"],
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
           "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
           "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
           "authorName": "Crypto Clairity",
@@ -712,7 +799,10 @@
         },
         {
           "id": "180563931",
-          "topics": ["Tokenomics", "Commentary"],
+          "topics": [
+            "Tokenomics",
+            "Commentary"
+          ],
           "title": "Blockchain Incentive Structures: What they are and why they matter [Commentary]",
           "slug": "blockchain-incentive-structures-what-they-are-and-why-they-matter-commentary",
           "authorName": "Crypto Clairity",
@@ -741,20 +831,23 @@
       ]
     },
     {
-      "name": "Hợp đồng thông minh",
+      "name": "Smart Contracts",
       "slug": "smart contracts",
       "articles": [
         {
           "id": "180556627",
-          "topics": ["Bình luận", "Hợp đồng thông minh"],
-          "title": "Hợp đồng chưa hoàn thiện và Blockchain [Bình luận]",
+          "topics": [
+            "Commentary",
+            "Smart Contracts"
+          ],
+          "title": "Incomplete Contracts and Blockchain [Commentary]",
           "slug": "incomplete-contracts-and-blockchain-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:14:44+01:00",
-          "description": "Làm sáng tỏ mối quan hệ giữa hợp đồng chưa hoàn thiện và blockchain. Hiểu cách blockchain có thể lấp đầy các khoảng trống hợp đồng.",
+          "description": "Demystify the relationship between incomplete contracts and blockchain. Understand how blockchain can fill contractual gaps.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690856249-cbc5-img1.png"
           },
@@ -774,15 +867,18 @@
         },
         {
           "id": "165614005",
-          "topics": ["Bắt đầu", "Hợp đồng thông minh"],
-          "title": "Sức mạnh của Hợp đồng Thông minh: Chìa khóa để Mở khóa Tương lai của Kinh doanh và Tài chính",
+          "topics": [
+            "Getting Started",
+            "Smart Contracts"
+          ],
+          "title": "The Power of Smart Contracts: The Key to Unlocking the Future of Business and Finance",
           "slug": "the-power-of-smart-contracts-the-key-to-unlocking-the-future-of-business-and-fina",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:47:57+01:00",
-          "description": "Khám phá tiềm năng cách mạng của hợp đồng thông minh. Khám phá cách công nghệ này đang tái cấu trúc kinh doanh và tài chính trong bài đăng blog sâu sắc của chúng tôi.",
+          "description": "Explore the revolutionary potential of smart contracts. Discover how this technology is reshaping business and finance in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686949167-cb10-img1edited.png"
           },
@@ -803,20 +899,24 @@
       ]
     },
     {
-      "name": "Gây quỹ",
+      "name": "Fundraising",
       "slug": "fundraising",
       "articles": [
         {
           "id": "180563918",
-          "topics": ["Tokenomics", "Bình luận", "Gây quỹ"],
-          "title": "Token: Phương tiện Đầu tư hay Phương tiện Trao đổi (Không phải Cả Hai) [Bình luận]",
+          "topics": [
+            "Tokenomics",
+            "Commentary",
+            "Fundraising"
+          ],
+          "title": "Tokens: Investment Vehicle or Medium of Exchange (Not Both) [Commentary]",
           "slug": "tokens-investment-vehicle-or-medium-of-exchange-not-both-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:13:31+01:00",
-          "description": "Khám phá vai trò kép của token trong nền kinh tế blockchain. Tìm hiểu ranh giới mỏng manh giữa phương tiện đầu tư và phương tiện trao đổi.",
+          "description": "Delve into the dual role of tokens in the blockchain economy. Uncover the fine line between investment vehicle and medium of exchange.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690859959-cbc8-img1.png"
           },
@@ -836,15 +936,19 @@
         },
         {
           "id": "180563922",
-          "topics": ["Gây quỹ", "Tokenomics", "Bình luận"],
-          "title": "ICOs Tận dụng Hiệu ứng Mạng lưới [Bình luận]",
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "ICOs Leverage Network Effects [Commentary]",
           "slug": "icos-leverage-network-effects-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:12:06+01:00",
-          "description": "Khám phá cách ICOs tận dụng sức mạnh của hiệu ứng mạng lưới để thúc đẩy thành công của họ. ICOs và hiệu ứng mạng lưới, một cặp đôi động lực!",
+          "description": "Discover how ICOs harness the power of network effects to fuel their success. ICOs and network effects, a dynamic duo!",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690860184-cbc9-img1.png"
           },
@@ -864,15 +968,19 @@
         },
         {
           "id": "180556595",
-          "topics": ["Gây quỹ", "Tokenomics", "Bình luận"],
-          "title": "Hiệu ứng Blockchain: Hiệu ứng mạng mà không tốn chi phí quyền lực thị trường [Bình luận]",
+          "topics": [
+            "Fundraising",
+            "Tokenomics",
+            "Commentary"
+          ],
+          "title": "The Blockchain Effect: Network Effects without Market Power Costs [Commentary]",
           "slug": "the-blockchain-effect-network-effects-without-market-power-costs-commentary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:11:14+01:00",
-          "description": "Khám phá cách blockchain tạo ra hiệu ứng mạng mà không có nhược điểm của quyền lực thị trường. Khám phá Hiệu ứng Blockchain mang tính đột phá.",
+          "description": "Explore how blockchain enables network effects without the downsides of market power. Discover the game-changing Blockchain Effect.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690855275-cbc4-img1.png"
           },
@@ -892,7 +1000,11 @@
         },
         {
           "id": "167184977",
-          "topics": ["Tokenomics", "DAO", "Fundraising"],
+          "topics": [
+            "Tokenomics",
+            "DAO",
+            "Fundraising"
+          ],
           "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
           "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
           "authorName": "Crypto Clairity",
@@ -920,7 +1032,10 @@
         },
         {
           "id": "165685908",
-          "topics": ["Getting Started", "Fundraising"],
+          "topics": [
+            "Getting Started",
+            "Fundraising"
+          ],
           "title": "Disrupt the Status Quo: How Cryptocurrency is Revolutionizing Fundraising and Crowdfunding",
           "slug": "disrupt-the-status-quo-how-cryptocurrency-is-revolutionizing-fundraising-and-crow",
           "authorName": "Crypto Clairity",
@@ -948,7 +1063,10 @@
         },
         {
           "id": "165614216",
-          "topics": ["Getting Started", "Fundraising"],
+          "topics": [
+            "Getting Started",
+            "Fundraising"
+          ],
           "title": "Navigating the Wild West of Initial Coin Offerings: A Beginner's Guide to Investing in the Future of Technology",
           "slug": "navigating-the-wild-west-of-initial-coin-offerings-a-beginner-s-guide-to-investin",
           "authorName": "Crypto Clairity",
@@ -956,13 +1074,13 @@
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T07:00:44+01:00",
-          "description": "Embark on a guided journey through the world of Initial Coin Offerings (ICOs). Learn how to navigate this dynamic landscape and contribute in the future of technology.",
+          "description": "Embark on a guided journey through the world of Initial Coin Offerings (ICOs). Learn how to navigate this dynamic landscape and invest in the future of technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686951243-cb11-img1edited.png"
           },
           "contentBlock": [],
           "seo": {
-            "description": "Learn how to navigate this dynamic landscape and contribute in the future of technology.",
+            "description": "Learn how to navigate this dynamic landscape and invest in the future of technology.",
             "title": "Navigating the Wild West of Initial Coin Offerings",
             "twitterCard": null,
             "image": {
@@ -977,20 +1095,24 @@
       ]
     },
     {
-      "name": "Ngành",
+      "name": "Industry",
       "slug": "industry",
       "articles": [
         {
           "id": "179948652",
-          "topics": ["Tokenomics", "Ngành công nghiệp", "Tóm tắt"],
-          "title": "Đổi mới số và Mô hình Doanh thu [Tóm tắt]",
+          "topics": [
+            "Tokenomics",
+            "Industry",
+            "Summary"
+          ],
+          "title": "Digital Innovation and Revenue Models [Summary]",
           "slug": "digital-innovation-and-revenue-models-summary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:11:35+01:00",
-          "description": "Khám phá cách đổi mới số làm thay đổi việc giao hàng sản phẩm trong 'Đổi mới số và Mô hình Doanh thu' của Prysm Group. Khám phá kinh tế công nghệ mới nổi.",
+          "description": "Uncover how digital innovation reshapes product delivery in Prysm Group's 'Digital Innovation and Revenue Models'. Explore emerging tech economics.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690668517-cbr1-img1.png"
           },
@@ -1010,15 +1132,18 @@
         },
         {
           "id": "165634580",
-          "topics": ["Bắt đầu", "Ngành"],
-          "title": "Tương lai là hiện tại: Tổng quan về ảnh hưởng của tiền điện tử đối với Tài chính Toàn cầu",
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
+          "title": "The Future is Now: An Overview of Cryptocurrency's Impact on Global Finance",
           "slug": "the-future-is-now-an-overview-of-cryptocurrency-s-impact-on-global-finance",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:30:32+01:00",
-          "description": "Khám phá tương lai của tài chính với tiền điện tử. Khám phá ảnh hưởng biến đổi của tiền tệ số đối với cảnh quan tài chính toàn cầu trong bài đăng blog sâu sắc của chúng tôi.",
+          "description": "Discover the future of finance with cryptocurrency. Explore the transformative impact of digital currencies on the global financial landscape in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686965402-cb15-img1.png"
           },
@@ -1038,15 +1163,18 @@
         },
         {
           "id": "165611389",
-          "topics": ["Bắt đầu", "Ngành"],
-          "title": "Phát huy tiềm năng: Làm thế nào Tiền điện tử đang Biến đổi các Ngành công nghiệp",
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
+          "title": "Unleashing the Potential: How Cryptocurrency is Transforming Industries",
           "slug": "unleashing-the-potential-how-cryptocurrency-is-transforming-industries",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:40:09+01:00",
-          "description": "Khám phá sức mạnh biến đổi của tiền điện tử trong việc cách mạng hóa các ngành công nghiệp. Khám phá tiềm năng của nó trong việc tái cấu trúc cảnh quan kinh doanh trong bài đăng blog sâu sắc của chúng tôi.",
+          "description": "Discover the transformative power of cryptocurrency in revolutionizing industries. Explore its potential to reshape the business landscape in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686946060-cb8-img0edited.png"
           },
@@ -1067,20 +1195,24 @@
       ]
     },
     {
-      "name": "Tóm tắt",
+      "name": "Summary",
       "slug": "summary",
       "articles": [
         {
           "id": "179948652",
-          "topics": ["Tokenomics", "Ngành công nghiệp", "Tóm tắt"],
-          "title": "Đổi mới số và Mô hình Doanh thu [Tóm tắt]",
+          "topics": [
+            "Tokenomics",
+            "Industry",
+            "Summary"
+          ],
+          "title": "Digital Innovation and Revenue Models [Summary]",
           "slug": "digital-innovation-and-revenue-models-summary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:11:35+01:00",
-          "description": "Khám phá cách đổi mới số làm thay đổi việc giao hàng sản phẩm trong 'Đổi mới số và Mô hình Doanh thu' của Prysm Group. Khám phá kinh tế công nghệ mới nổi.",
+          "description": "Uncover how digital innovation reshapes product delivery in Prysm Group's 'Digital Innovation and Revenue Models'. Explore emerging tech economics.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690668517-cbr1-img1.png"
           },
@@ -1100,15 +1232,18 @@
         },
         {
           "id": "180563903",
-          "topics": ["DAO", "Tóm tắt"],
-          "title": "Bỏ phiếu để làm gì? [Tóm tắt]",
+          "topics": [
+            "DAO",
+            "Summary"
+          ],
+          "title": "What is Voting For? [Summary]",
           "slug": "what-is-voting-for-summary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:10:58+01:00",
-          "description": "Khám phá bản chất của việc bỏ phiếu trong các hệ thống phi tập trung. Hiểu sâu hơn về mục đích và quyền lực thực sự của việc bỏ phiếu trong blockchain.",
+          "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
           },
@@ -1128,15 +1263,18 @@
         },
         {
           "id": "180563908",
-          "topics": ["DAO", "Tóm tắt"],
-          "title": "Quản trị dùng để làm gì? [Tóm tắt]",
+          "topics": [
+            "DAO",
+            "Summary"
+          ],
+          "title": "What is Governance For? [Summary]",
           "slug": "what-is-governance-for-summary",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T09:10:45+01:00",
-          "description": "Khám phá vai trò và tầm quan trọng của quản trị trong các hệ thống blockchain. Hiểu cách quản trị thúc đẩy sự phân cấp và tăng trưởng.",
+          "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
           },
@@ -1157,20 +1295,23 @@
       ]
     },
     {
-      "name": "Pháp lý",
+      "name": "Legal",
       "slug": "legal",
       "articles": [
         {
           "id": "166984334",
-          "topics": ["DAO", "Pháp lý"],
-          "title": "Tổ chức tự trị phi tập trung (DAOs): Cấu trúc pháp lý cơ bản cho mục đích kinh doanh và phi lợi nhuận",
+          "topics": [
+            "DAO",
+            "Legal"
+          ],
+          "title": "Decentralized Autonomous Organizations (DAOs): Basic Legal Structures for Business and Non-Profit Purposes",
           "slug": "decentralized-autonomous-organizations-daos-basic-legal-structures-for-business-a",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:59:06+01:00",
-          "description": "Khám phá cấu trúc pháp lý cơ bản của DAO cho mục đích kinh doanh và phi lợi nhuận.",
+          "description": "Discover the basic DAO legal structures for business and non-profit purposes. ",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687384353-db2-img1.png"
           },
@@ -1190,15 +1331,18 @@
         },
         {
           "id": "165611088",
-          "topics": ["Bắt đầu", "Pháp lý"],
-          "title": "Đi qua mỏ mìn pháp lý: Hiểu biết về cảnh quan quy định của tiền điện tử",
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
+          "title": "Navigating the Legal Minefield: Understanding the Regulatory Landscape of Cryptocurrencies",
           "slug": "navigating-the-legal-minefield-understanding-the-regulatory-landscape-of-cryptocu",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:32:05+01:00",
-          "description": "Dễ dàng đi qua cảnh quan quy định phức tạp của tiền điện tử. Hiểu rõ các vấn đề pháp lý trong hướng dẫn toàn diện của chúng tôi.",
+          "description": "Navigate the complex regulatory landscape of cryptocurrencies with ease. Gain a clear understanding of the legal considerations in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686944651-cb7-img1edited.png"
           },
@@ -1219,20 +1363,23 @@
       ]
     },
     {
-      "name": "Bắt đầu",
+      "name": "Getting Started",
       "slug": "getting started",
       "articles": [
         {
           "id": "167101094",
-          "topics": ["Bắt đầu", "Tokenomics"],
-          "title": "Tokenomics 101: Khai phóng sức mạnh của tiền điện tử!",
+          "topics": [
+            "Getting Started",
+            "Tokenomics"
+          ],
+          "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
           "slug": "tokenomics-101-unleashing-the-power-of-cryptocurrency",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:57:58+01:00",
-          "description": "Khám phá sức mạnh của tiền điện tử qua Tokenomics 101 - hướng dẫn chi tiết để hiểu về kinh tế đằng sau các tài sản số.",
+          "description": "Discover the power of cryptocurrency through Tokenomics 101 - an in-depth guide to understanding the economics behind digital assets.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
           },
@@ -1252,15 +1399,18 @@
         },
         {
           "id": "166981063",
-          "topics": ["Bắt đầu", "DAO"],
-          "title": "Tương lai đã đến: Sự trỗi dậy của các Tổ chức Tự trị Phi tập trung (DAOs)",
+          "topics": [
+            "Getting Started",
+            "DAO"
+          ],
+          "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
           "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:57:02+01:00",
-          "description": "Khám phá sự trỗi dậy của các Tổ chức Tự trị Phi tập trung (DAOs) trong hướng dẫn của chúng tôi. Hiểu về tương lai của kinh doanh và các cơ hội dành cho các startup.",
+          "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
           },
@@ -1274,15 +1424,18 @@
         },
         {
           "id": "165744328",
-          "topics": ["Bắt đầu", "Hướng dẫn"],
-          "title": "Dẫn đầu xu hướng: Hướng dẫn để cập nhật thông tin và nâng cao kiến thức trong thế giới tiền điện tử",
+          "topics": [
+            "Getting Started",
+            "How-To"
+          ],
+          "title": "Stay Ahead of the Game: A Guide to Staying Informed and Educated in the World of Cryptocurrency",
           "slug": "stay-ahead-of-the-game-a-guide-to-staying-informed-and-educated-in-the-world-of-c",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:52:39+01:00",
-          "description": "Hãy cập nhật thông tin và nâng cao kiến thức trong thế giới tiền điện tử đầy biến động. Khám phá hướng dẫn toàn diện của chúng tôi để dẫn đầu xu hướng và điều hướng trong cảnh quan số hóa luôn thay đổi.",
+          "description": "Stay informed and educated in the dynamic world of cryptocurrency. Explore our comprehensive guide to stay ahead of the game and navigate the ever-evolving digital landscape.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687049473-cb20-img1.png"
           },
@@ -1302,7 +1455,10 @@
         },
         {
           "id": "165742753",
-          "topics": ["Getting Started", "Payments"],
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
           "title": "Stablecoins: The Future of Cryptocurrency Transactions and Payments",
           "slug": "stablecoins-the-future-of-cryptocurrency-transactions-and-payments",
           "authorName": "Crypto Clairity",
@@ -1330,7 +1486,10 @@
         },
         {
           "id": "165685913",
-          "topics": ["DeFi", "Getting Started"],
+          "topics": [
+            "DeFi",
+            "Getting Started"
+          ],
           "title": "Decentralize Your Finance: An Introduction to the World of DeFi",
           "slug": "decentralize-your-finance-an-introduction-to-the-world-of-defi",
           "authorName": "Crypto Clairity",
@@ -1358,7 +1517,10 @@
         },
         {
           "id": "165685908",
-          "topics": ["Getting Started", "Fundraising"],
+          "topics": [
+            "Getting Started",
+            "Fundraising"
+          ],
           "title": "Disrupt the Status Quo: How Cryptocurrency is Revolutionizing Fundraising and Crowdfunding",
           "slug": "disrupt-the-status-quo-how-cryptocurrency-is-revolutionizing-fundraising-and-crow",
           "authorName": "Crypto Clairity",
@@ -1386,7 +1548,10 @@
         },
         {
           "id": "165673014",
-          "topics": ["Getting Started", "Investment"],
+          "topics": [
+            "Getting Started",
+            "Investment"
+          ],
           "title": "Crypto Investing 101: How to Use Cryptocurrency for Investment and Asset Management",
           "slug": "crypto-investing-101-how-to-use-cryptocurrency-for-investment-and-asset-managemen",
           "authorName": "Crypto Clairity",
@@ -1414,7 +1579,10 @@
         },
         {
           "id": "165634580",
-          "topics": ["Getting Started", "Industry"],
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
           "title": "The Future is Now: An Overview of Cryptocurrency's Impact on Global Finance",
           "slug": "the-future-is-now-an-overview-of-cryptocurrency-s-impact-on-global-finance",
           "authorName": "Crypto Clairity",
@@ -1442,7 +1610,10 @@
         },
         {
           "id": "165634456",
-          "topics": ["Getting Started", "Mining"],
+          "topics": [
+            "Getting Started",
+            "Mining"
+          ],
           "title": " Unleashing the Power of Cryptocurrency Mining: An Overview of Proof-of-Work Algorithms",
           "slug": "unleashing-the-power-of-cryptocurrency-mining-an-overview-of-proof-of-work-algori",
           "authorName": "Crypto Clairity",
@@ -1470,7 +1641,10 @@
         },
         {
           "id": "165625675",
-          "topics": ["Getting Started", "Payments"],
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
           "title": "The Future of International Transfers: How Cryptocurrency is Changing the Game",
           "slug": "the-future-of-international-transfers-how-cryptocurrency-is-changing-the-game",
           "authorName": "Crypto Clairity",
@@ -1498,7 +1672,10 @@
         },
         {
           "id": "165625350",
-          "topics": ["Getting Started", "Payments"],
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
           "title": "The Ultimate Guide to Making Online Purchases with Cryptocurrency: Understanding the ins and outs of using digital currency for everyday transactions.",
           "slug": "the-ultimate-guide-to-making-online-purchases-with-cryptocurrency-understanding-t",
           "authorName": "Crypto Clairity",
@@ -1526,7 +1703,10 @@
         },
         {
           "id": "165614216",
-          "topics": ["Getting Started", "Fundraising"],
+          "topics": [
+            "Getting Started",
+            "Fundraising"
+          ],
           "title": "Navigating the Wild West of Initial Coin Offerings: A Beginner's Guide to Investing in the Future of Technology",
           "slug": "navigating-the-wild-west-of-initial-coin-offerings-a-beginner-s-guide-to-investin",
           "authorName": "Crypto Clairity",
@@ -1534,13 +1714,13 @@
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T07:00:44+01:00",
-          "description": "Embark on a guided journey through the world of Initial Coin Offerings (ICOs). Learn how to navigate this dynamic landscape and contribute in the future of technology.",
+          "description": "Embark on a guided journey through the world of Initial Coin Offerings (ICOs). Learn how to navigate this dynamic landscape and invest in the future of technology.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686951243-cb11-img1edited.png"
           },
           "contentBlock": [],
           "seo": {
-            "description": "Learn how to navigate this dynamic landscape and contribute in the future of technology.",
+            "description": "Learn how to navigate this dynamic landscape and invest in the future of technology.",
             "title": "Navigating the Wild West of Initial Coin Offerings",
             "twitterCard": null,
             "image": {
@@ -1554,7 +1734,10 @@
         },
         {
           "id": "165614005",
-          "topics": ["Getting Started", "Smart Contracts"],
+          "topics": [
+            "Getting Started",
+            "Smart Contracts"
+          ],
           "title": "The Power of Smart Contracts: The Key to Unlocking the Future of Business and Finance",
           "slug": "the-power-of-smart-contracts-the-key-to-unlocking-the-future-of-business-and-fina",
           "authorName": "Crypto Clairity",
@@ -1582,7 +1765,10 @@
         },
         {
           "id": "165611516",
-          "topics": ["Getting Started", " Security"],
+          "topics": [
+            "Getting Started",
+            " Security"
+          ],
           "title": "Unlocking the Secrets of Crypto Storage: How to Keep Your Digital Assets Safe and Secure",
           "slug": "unlocking-the-secrets-of-crypto-storage-how-to-keep-your-digital-assets-safe-and",
           "authorName": "Crypto Clairity",
@@ -1610,7 +1796,10 @@
         },
         {
           "id": "165611389",
-          "topics": ["Getting Started", "Industry"],
+          "topics": [
+            "Getting Started",
+            "Industry"
+          ],
           "title": "Unleashing the Potential: How Cryptocurrency is Transforming Industries",
           "slug": "unleashing-the-potential-how-cryptocurrency-is-transforming-industries",
           "authorName": "Crypto Clairity",
@@ -1638,7 +1827,10 @@
         },
         {
           "id": "165611088",
-          "topics": ["Getting Started", "Legal"],
+          "topics": [
+            "Getting Started",
+            "Legal"
+          ],
           "title": "Navigating the Legal Minefield: Understanding the Regulatory Landscape of Cryptocurrencies",
           "slug": "navigating-the-legal-minefield-understanding-the-regulatory-landscape-of-cryptocu",
           "authorName": "Crypto Clairity",
@@ -1666,7 +1858,11 @@
         },
         {
           "id": "165610881",
-          "topics": ["Getting Started", "How-To", "Research"],
+          "topics": [
+            "Getting Started",
+            "How-To",
+            "Research"
+          ],
           "title": "Navigating the Cryptocurrency Market: A Beginner's Guide to Researching and Evaluating Digital Assets",
           "slug": "navigating-the-cryptocurrency-market-a-beginner-s-guide-to-researching-and-evalua",
           "authorName": "Crypto Clairity",
@@ -1694,7 +1890,9 @@
         },
         {
           "id": "165365494",
-          "topics": ["Getting Started"],
+          "topics": [
+            "Getting Started"
+          ],
           "title": "Building Trust in the Digital World: The Role of Blockchain Technology in Cryptocurrency",
           "slug": "building-trust-in-the-digital-world-the-role-of-blockchain-technology-in-cryptocu",
           "authorName": "Crypto Clairity",
@@ -1722,7 +1920,9 @@
         },
         {
           "id": "165399154",
-          "topics": ["Getting Started"],
+          "topics": [
+            "Getting Started"
+          ],
           "title": "Exploring the Many Faces of Cryptocurrency: A Guide to the Different Types and Their Uses",
           "slug": "exploring-the-many-faces-of-cryptocurrency-a-guide-to-the-different-types-and-the",
           "authorName": "Crypto Clairity",
@@ -1750,7 +1950,10 @@
         },
         {
           "id": "165367458",
-          "topics": ["Getting Started", " Security"],
+          "topics": [
+            "Getting Started",
+            " Security"
+          ],
           "title": "Crypto Security 101: How to Safely Store and Secure Your Cryptocurrencies",
           "slug": "crypto-security-101-how-to-safely-store-and-secure-your-cryptocurrencies",
           "authorName": "Crypto Clairity",
@@ -1778,7 +1981,10 @@
         },
         {
           "id": "165365581",
-          "topics": ["Getting Started", "History"],
+          "topics": [
+            "Getting Started",
+            "History"
+          ],
           "title": "The Evolution of Cryptocurrency: From Bitcoin to DeFi and Beyond",
           "slug": "the-evolution-of-cryptocurrency-from-bitcoin-to-defi-and-beyond",
           "authorName": "Crypto Clairity",
@@ -1807,20 +2013,23 @@
       ]
     },
     {
-      "name": "Hướng dẫn",
+      "name": "How-To",
       "slug": "how-to",
       "articles": [
         {
           "id": "165744328",
-          "topics": ["Bắt đầu", "Hướng dẫn"],
-          "title": "Dẫn đầu xu hướng: Hướng dẫn để cập nhật thông tin và học hỏi trong thế giới tiền điện tử",
+          "topics": [
+            "Getting Started",
+            "How-To"
+          ],
+          "title": "Stay Ahead of the Game: A Guide to Staying Informed and Educated in the World of Cryptocurrency",
           "slug": "stay-ahead-of-the-game-a-guide-to-staying-informed-and-educated-in-the-world-of-c",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:52:39+01:00",
-          "description": "Hãy cập nhật thông tin và học hỏi trong thế giới tiền điện tử đầy biến động. Khám phá hướng dẫn toàn diện của chúng tôi để dẫn đầu xu hướng và điều hướng qua cảnh quan số hóa luôn thay đổi.",
+          "description": "Stay informed and educated in the dynamic world of cryptocurrency. Explore our comprehensive guide to stay ahead of the game and navigate the ever-evolving digital landscape.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687049473-cb20-img1.png"
           },
@@ -1840,15 +2049,19 @@
         },
         {
           "id": "165610881",
-          "topics": ["Bắt đầu", "Hướng dẫn", "Nghiên cứu"],
-          "title": "Định hướng thị trường tiền điện tử: Hướng dẫn cho người mới bắt đầu nghiên cứu và đánh giá tài sản số",
+          "topics": [
+            "Getting Started",
+            "How-To",
+            "Research"
+          ],
+          "title": "Navigating the Cryptocurrency Market: A Beginner's Guide to Researching and Evaluating Digital Assets",
           "slug": "navigating-the-cryptocurrency-market-a-beginner-s-guide-to-researching-and-evalua",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:30:29+01:00",
-          "description": "Khám phá bí mật của thị trường tiền điện tử với hướng dẫn dành cho người mới của chúng tôi. Học cách nghiên cứu và đánh giá tài sản số để đầu tư thành công.",
+          "description": "Unlock the secrets of the cryptocurrency market with our beginner's guide. Learn how to research and evaluate digital assets for successful investments.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686943620-cb6-img1edited.png"
           },
@@ -1868,15 +2081,18 @@
         },
         {
           "id": "165399242",
-          "topics": ["Hướng dẫn", "Trao đổi"],
-          "title": "Hướng dẫn dành cho người mới bắt đầu mua và bán tiền điện tử: Hướng dẫn từng bước",
+          "topics": [
+            "How-To",
+            " Exchange"
+          ],
+          "title": "The Beginner's Guide to Buying and Selling Cryptocurrencies: A Step-by-Step Walkthrough",
           "slug": "the-beginner-s-guide-to-buying-and-selling-cryptocurrencies-a-step-by-step-walkth",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:28:00+01:00",
-          "description": "Dễ dàng điều hướng thế giới giao dịch tiền điện tử. Theo dõi hướng dẫn dành cho người mới của chúng tôi để có hướng dẫn từng bước về cách mua và bán tiền điện tử.",
+          "description": "Navigate the world of cryptocurrency trading with ease. Follow our beginner's guide for step-by-step instructions on buying and selling cryptocurrencies.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686880885-cb5-img1edited.png"
           },
@@ -1897,20 +2113,23 @@
       ]
     },
     {
-      "name": "Thanh toán",
+      "name": "Payments",
       "slug": "payments",
       "articles": [
         {
           "id": "165742753",
-          "topics": ["Bắt đầu", "Thanh toán"],
-          "title": "Stablecoins: Tương lai của Giao dịch và Thanh toán Tiền điện tử",
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
+          "title": "Stablecoins: The Future of Cryptocurrency Transactions and Payments",
           "slug": "stablecoins-the-future-of-cryptocurrency-transactions-and-payments",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:49:51+01:00",
-          "description": "Khám phá tương lai của giao dịch và thanh toán tiền điện tử với stablecoins. Khám phá sự ổn định và tiềm năng của những tài sản số đổi mới trong bài đăng blog sâu sắc của chúng tôi.",
+          "description": "Discover the future of cryptocurrency transactions and payments with stablecoins. Explore the stability and potential of these innovative digital assets in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687049009-cb19-img3edited.png"
           },
@@ -1930,15 +2149,18 @@
         },
         {
           "id": "165625675",
-          "topics": ["Bắt đầu", "Thanh toán"],
-          "title": "Tương lai của Chuyển tiền Quốc tế: Làm thế nào Tiền điện tử thay đổi Cuộc chơi",
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
+          "title": "The Future of International Transfers: How Cryptocurrency is Changing the Game",
           "slug": "the-future-of-international-transfers-how-cryptocurrency-is-changing-the-game",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T07:04:27+01:00",
-          "description": "Mở khóa tương lai của chuyển tiền quốc tế với tiền điện tử. Khám phá cách công nghệ đổi mới này đang làm cách mạng hóa giao dịch xuyên biên giới trong bài đăng blog sâu sắc của chúng tôi.",
+          "description": "Unlock the future of international transfers with cryptocurrency. Explore how this innovative technology is revolutionizing cross-border transactions in our insightful blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686953468-cb13-img1edited.png"
           },
@@ -1958,7 +2180,10 @@
         },
         {
           "id": "165625350",
-          "topics": ["Getting Started", "Payments"],
+          "topics": [
+            "Getting Started",
+            "Payments"
+          ],
           "title": "The Ultimate Guide to Making Online Purchases with Cryptocurrency: Understanding the ins and outs of using digital currency for everyday transactions.",
           "slug": "the-ultimate-guide-to-making-online-purchases-with-cryptocurrency-understanding-t",
           "authorName": "Crypto Clairity",
@@ -1992,7 +2217,10 @@
       "articles": [
         {
           "id": "165685913",
-          "topics": ["DeFi", "Bắt đầu"],
+          "topics": [
+            "DeFi",
+            "Bắt đầu"
+          ],
           "title": "Phân cấp Tài chính của Bạn: Giới thiệu về Thế giới DeFi",
           "slug": "decentralize-your-finance-an-introduction-to-the-world-of-defi",
           "authorName": "Crypto Clairity",
@@ -2021,20 +2249,23 @@
       ]
     },
     {
-      "name": "Đầu tư",
+      "name": "Investment",
       "slug": "investment",
       "articles": [
         {
           "id": "165673014",
-          "topics": ["Bắt đầu", "Đầu tư"],
-          "title": "Đầu tư tiền điện tử 101: Cách sử dụng tiền điện tử cho đầu tư và quản lý tài sản",
+          "topics": [
+            "Getting Started",
+            "Investment"
+          ],
+          "title": "Crypto Investing 101: How to Use Cryptocurrency for Investment and Asset Management",
           "slug": "crypto-investing-101-how-to-use-cryptocurrency-for-investment-and-asset-managemen",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:32:00+01:00",
-          "description": "Thành thạo nghệ thuật đầu tư tiền điện tử và quản lý tài sản. Tìm hiểu cách tận dụng tiền điện tử cho các chiến lược đầu tư tối ưu trong hướng dẫn toàn diện của chúng tôi.",
+          "description": "Master the art of crypto investing and asset management. Learn how to leverage cryptocurrency for optimal investment strategies in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1687044673-cb16-img5.png"
           },
@@ -2055,20 +2286,23 @@
       ]
     },
     {
-      "name": "Khai thác",
+      "name": "Mining",
       "slug": "mining",
       "articles": [
         {
           "id": "165634456",
-          "topics": ["Bắt đầu", "Đào tiền"],
-          "title": "Khơi dậy sức mạnh của việc đào tiền mã hóa: Tổng quan về các thuật toán Chứng minh công việc",
+          "topics": [
+            "Getting Started",
+            "Mining"
+          ],
+          "title": " Unleashing the Power of Cryptocurrency Mining: An Overview of Proof-of-Work Algorithms",
           "slug": "unleashing-the-power-of-cryptocurrency-mining-an-overview-of-proof-of-work-algori",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T08:28:45+01:00",
-          "description": "Khám phá sức mạnh của việc đào tiền mã hóa và các thuật toán chứng minh công việc. Tìm hiểu cách thức này thúc đẩy tính bảo mật và phi tập trung của tiền tệ số trong bài đăng blog thông tin của chúng tôi.",
+          "description": "Explore the power of cryptocurrency mining and proof-of-work algorithms. Discover how this process drives the secure and decentralized nature of digital currencies in our informative blog post.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686959517-cb11-img0edited.png"
           },
@@ -2089,20 +2323,23 @@
       ]
     },
     {
-      "name": "An ninh",
+      "name": " Security",
       "slug": " security",
       "articles": [
         {
           "id": "165611516",
-          "topics": ["Bắt đầu", "An ninh"],
-          "title": "Mở khóa Bí mật của Lưu trữ Crypto: Làm thế nào để Giữ An toàn và Bảo mật Tài sản Số của Bạn",
+          "topics": [
+            "Getting Started",
+            " Security"
+          ],
+          "title": "Unlocking the Secrets of Crypto Storage: How to Keep Your Digital Assets Safe and Secure",
           "slug": "unlocking-the-secrets-of-crypto-storage-how-to-keep-your-digital-assets-safe-and",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:40:53+01:00",
-          "description": "Bảo vệ tài sản số của bạn một cách tự tin. Khám phá các chiến lược hiệu quả cho việc lưu trữ crypto an toàn trong hướng dẫn toàn diện của chúng tôi.",
+          "description": "Safeguard your digital assets with confidence.  Explore effective strategies for secure crypto storage in our comprehensive guide.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686948319-cb9-img1edited.png"
           },
@@ -2122,15 +2359,18 @@
         },
         {
           "id": "165367458",
-          "topics": ["Bắt đầu", "An ninh"],
-          "title": "An ninh tiền điện tử 101: Cách lưu trữ và bảo mật tiền điện tử của bạn một cách an toàn",
+          "topics": [
+            "Getting Started",
+            " Security"
+          ],
+          "title": "Crypto Security 101: How to Safely Store and Secure Your Cryptocurrencies",
           "slug": "crypto-security-101-how-to-safely-store-and-secure-your-cryptocurrencies",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:23:03+01:00",
-          "description": "Thành thạo nghệ thuật bảo mật tiền điện tử với hướng dẫn toàn diện của chúng tôi. Học các chiến lược thiết yếu để lưu trữ và bảo mật tiền điện tử quý giá của bạn một cách an toàn.",
+          "description": "Master the art of crypto security with our comprehensive guide. Learn essential strategies to safely store and secure your valuable cryptocurrencies.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686862662-cb3-img1edited.png"
           },
@@ -2151,20 +2391,24 @@
       ]
     },
     {
-      "name": "Nghiên cứu",
+      "name": "Research",
       "slug": "research",
       "articles": [
         {
           "id": "165610881",
-          "topics": ["Bắt đầu", "Hướng dẫn", "Nghiên cứu"],
-          "title": "Định hướng thị trường tiền điện tử: Hướng dẫn cho người mới bắt đầu nghiên cứu và đánh giá tài sản số",
+          "topics": [
+            "Getting Started",
+            "How-To",
+            "Research"
+          ],
+          "title": "Navigating the Cryptocurrency Market: A Beginner's Guide to Researching and Evaluating Digital Assets",
           "slug": "navigating-the-cryptocurrency-market-a-beginner-s-guide-to-researching-and-evalua",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:30:29+01:00",
-          "description": "Khám phá bí mật của thị trường tiền điện tử với hướng dẫn dành cho người mới bắt đầu của chúng tôi. Học cách nghiên cứu và đánh giá tài sản số để đầu tư thành công.",
+          "description": "Unlock the secrets of the cryptocurrency market with our beginner's guide. Learn how to research and evaluate digital assets for successful investments.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686943620-cb6-img1edited.png"
           },
@@ -2185,20 +2429,23 @@
       ]
     },
     {
-      "name": "Trao đổi",
+      "name": " Exchange",
       "slug": " exchange",
       "articles": [
         {
           "id": "165399242",
-          "topics": ["Hướng dẫn", "Trao đổi"],
-          "title": "Hướng dẫn dành cho người mới bắt đầu mua và bán tiền điện tử: Hướng dẫn từng bước",
+          "topics": [
+            "How-To",
+            " Exchange"
+          ],
+          "title": "The Beginner's Guide to Buying and Selling Cryptocurrencies: A Step-by-Step Walkthrough",
           "slug": "the-beginner-s-guide-to-buying-and-selling-cryptocurrencies-a-step-by-step-walkth",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:28:00+01:00",
-          "description": "Dễ dàng điều hướng thế giới giao dịch tiền điện tử. Theo dõi hướng dẫn dành cho người mới bắt đầu của chúng tôi để có hướng dẫn từng bước về cách mua và bán tiền điện tử.",
+          "description": "Navigate the world of cryptocurrency trading with ease. Follow our beginner's guide for step-by-step instructions on buying and selling cryptocurrencies.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686880885-cb5-img1edited.png"
           },
@@ -2219,20 +2466,23 @@
       ]
     },
     {
-      "name": "Lịch sử",
+      "name": "History",
       "slug": "history",
       "articles": [
         {
           "id": "165365581",
-          "topics": ["Bắt đầu", "Lịch sử"],
-          "title": "Sự tiến hóa của tiền điện tử: Từ Bitcoin đến DeFi và hơn thế nữa",
+          "topics": [
+            "Getting Started",
+            "History"
+          ],
+          "title": "The Evolution of Cryptocurrency: From Bitcoin to DeFi and Beyond",
           "slug": "the-evolution-of-cryptocurrency-from-bitcoin-to-defi-and-beyond",
           "authorName": "Crypto Clairity",
           "authorPicture": {
             "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
           },
           "_publishedAt": "2023-10-05T06:10:06+01:00",
-          "description": "Hãy bắt đầu hành trình khám phá sự tiến hóa của tiền điện tử, từ khi Bitcoin ra đời cho đến sự phát triển của DeFi và hơn thế nữa. Khám phá những khả năng thú vị của bối cảnh sống động này.",
+          "description": "Embark on a journey through the evolution of cryptocurrency, from Bitcoin's inception to the rise of DeFi and beyond. Explore the exciting possibilities of this ever-evolving digital landscape.",
           "thumbnail": {
             "url": "https://www.datocms-assets.com/101962/1686861503-cb2-img1.png"
           },
@@ -2260,8 +2510,8 @@
       "title": "Crypto | Bitcash Blog",
       "twitterCard": "summary_large_image"
     },
-    "description": "Mở khóa sức mạnh của tiền điện tử",
-    "title": "Tiền mã hóa",
+    "description": "Unlocking the Power of Digital Currency",
+    "title": "Crypto",
     "seoType": "crypto",
     "id": "178642410",
     "_createdAt": "2023-07-24T18:41:13+01:00"

@@ -353,7 +353,7 @@ export const whitepaper = {
     },
     {
       type: 'p',
-      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org',
+      text: 'Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https://www.youtube.com/@bitlauncher Telegram: https://t.me/bitcash_org',
     },
     { type: 'h1', text: 'Glossário' },
     {
@@ -363,7 +363,7 @@ export const whitepaper = {
     { type: 'h1', text: 'Informações de contato' },
     {
       type: 'p',
-      text: 'Para mais dúvidas, suporte ou mais informações sobre a plataforma Bitcash e venda de tokens, use os seguintes canais para entrar em contato conosco: Suporte Geral e Consultas: Email: support@bitcash.org Mídia e Imprensa: Email: press@bitcash. org Suporte ao desenvolvedor: E-mail: desenvolvedores@bitcash.org Mídia social: Twitter: @bitcashorg / @bitlauncherai Blog: https://blog.bitcash.org/ Discord: https://discord.gg/KuR48XUxnG Youtube: https:// www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org Para atualizações e anúncios em tempo real, siga-nos em nossas plataformas de mídia social e participe das discussões da comunidade. Estamos comprometidos com a transparência e a comunicação aberta e aguardamos sua participação e feedback. Se você encontrar algum problema ou precisar de assistência durante o processo de participação ou posteriormente, nossa equipe de suporte dedicada estará disponível para ajudá-lo a resolver suas dúvidas de maneira rápida e eficiente.',
+      text: 'Para mais dúvidas, suporte ou mais informações sobre a plataforma Bitcash e venda de tokens, use os seguintes canais para entrar em contato conosco: Suporte Geral e Consultas: Email: support@bitcash.org Mídia e Imprensa: Email: press@bitcash. org Suporte ao desenvolvedor: E-mail: desenvolvedores@bitcash.org Mídia social: Twitter: @bitcashorg / @bitlauncherai Blog: https://bitlauncher.ai/blog/ Discord: https://discord.gg/KuR48XUxnG Youtube: https:// www.youtube.com/@bitcashorg Telegram: https://t.me/bitcash_org Para atualizações e anúncios em tempo real, siga-nos em nossas plataformas de mídia social e participe das discussões da comunidade. Estamos comprometidos com a transparência e a comunicação aberta e aguardamos sua participação e feedback. Se você encontrar algum problema ou precisar de assistência durante o processo de participação ou posteriormente, nossa equipe de suporte dedicada estará disponível para ajudá-lo a resolver suas dúvidas de maneira rápida e eficiente.',
     },
   ] as PageContentData,
 }

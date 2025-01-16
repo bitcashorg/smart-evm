@@ -34,7 +34,9 @@ export function ProjectPills({ project }: { project: Project }) {
             variant={'outline'}
             className={cn(
               'hover:bg-white/50 text-xs md:text-lg',
-              pathname.replace('/en', '') === l.href ? 'bg-white/50 text-black/90' : null,
+              pathname.replace('/en', '') === l.href
+                ? 'bg-white/50 text-black/90'
+                : null,
             )}
           >
             {l.label}

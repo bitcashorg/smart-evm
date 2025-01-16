@@ -2,7 +2,9 @@
   "relatedBlogs": [],
   "blogContent": {
     "id": "SpdLuuYEQgW8rwSHNzhmxA",
-    "topics": ["Apps"],
+    "topics": [
+      "Apps"
+    ],
     "title": "Masterbots: Elevating AI Beyond ChatGPT with Social Sharing and User-Friendly Innovation",
     "slug": "masterbots-elevating-ai-beyond-chatgpt-with-social-sharing-and-user-friendly-inno",
     "authorName": "Jun Dam",
@@ -322,5 +324,8 @@
       }
     }
   },
-  "topics": ["Apps"]
+  "topics": [
+    "Apps"
+  ],
+  "shortLink": ""
 }

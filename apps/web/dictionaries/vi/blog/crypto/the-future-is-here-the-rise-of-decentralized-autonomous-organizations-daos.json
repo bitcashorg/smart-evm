@@ -2,206 +2,321 @@
   "relatedBlogs": [
     {
       "id": "180563939",
-      "topics": ["DAO", "Tokenomics", "Bình luận"],
-      "title": "Khung cho Thiết kế Quản trị Blockchain: Bánh xe Nhóm Prysm [Bình luận]",
+      "topics": [
+        "DAO",
+        "Tokenomics",
+        "Commentary"
+      ],
+      "title": "A Framework for Blockchain Governance Design: The Prysm Group Wheel [Commentary]",
       "slug": "a-framework-for-blockchain-governance-design-the-prysm-group-wheel-commentary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:19:19+01:00",
-      "description": "Điều hướng sự phức tạp của quản trị blockchain với Bánh xe Nhóm Prysm. Lộ trình của bạn để thiết kế quản trị blockchain hiệu quả.",
+      "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
       },
       "seo": {
-        "title": "Khung cho Thiết kế Quản trị Blockchain [Bình luận]",
-        "description": "Điều hướng sự phức tạp của quản trị blockchain với Bánh xe Nhóm Prysm. Lộ trình của bạn để thiết kế quản trị blockchain hiệu quả."
+        "description": "Navigate the complexities of blockchain governance with the Prysm Group Wheel. Your roadmap to effective blockchain governance design.",
+        "title": "A Framework for Blockchain Governance Design [Commentary]",
+        "twitterCard": null,
+        "image": {
+          "width": 1400,
+          "height": 1383,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690861154-cbc11-img1.webp"
+        }
       }
     },
     {
       "id": "180563903",
-      "topics": ["DAO", "Tóm tắt"],
-      "title": "Bỏ phiếu để làm gì? [Tóm tắt]",
+      "topics": [
+        "DAO",
+        "Summary"
+      ],
+      "title": "What is Voting For? [Summary]",
       "slug": "what-is-voting-for-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:58+01:00",
-      "description": "Giải mã bản chất của việc bỏ phiếu trong các hệ thống phi tập trung. Hiểu rõ mục đích và sức mạnh thực sự của việc bỏ phiếu trong blockchain.",
+      "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
       },
       "seo": {
-        "title": "Bỏ phiếu để làm gì? [Tóm tắt]",
-        "description": "Giải mã bản chất của việc bỏ phiếu trong các hệ thống phi tập trung. Hiểu rõ mục đích và sức mạnh thực sự của việc bỏ phiếu trong blockchain."
+        "description": "Unravel the essence of voting within decentralized systems. Gain insights into the true purpose and power of voting in blockchain.",
+        "title": "What is Voting For? [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859305-cbc6-img1.png"
+        }
       }
     },
     {
       "id": "180563908",
-      "topics": ["DAO", "Tóm tắt"],
-      "title": "Quản trị để làm gì? [Tóm tắt]",
+      "topics": [
+        "DAO",
+        "Summary"
+      ],
+      "title": "What is Governance For? [Summary]",
       "slug": "what-is-governance-for-summary",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:10:45+01:00",
-      "description": "Khám phá vai trò và tầm quan trọng của quản trị trong các hệ thống blockchain. Hiểu cách quản trị thúc đẩy sự phi tập trung và tăng trưởng.",
+      "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
       },
       "seo": {
-        "title": "Quản trị để làm gì? [Tóm tắt]",
-        "description": "Khám phá vai trò và tầm quan trọng của quản trị trong các hệ thống blockchain. Hiểu cách quản trị thúc đẩy sự phi tập trung và tăng trưởng."
+        "description": "Explore the role and importance of governance in blockchain systems. Understand how governance drives decentralization and growth.\n",
+        "title": "What is Governance For? [Summary]",
+        "twitterCard": null,
+        "image": {
+          "width": 862,
+          "height": 862,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1690859755-cbc7-img1.png"
+        }
       }
     },
     {
       "id": "167184977",
-      "topics": ["Tokenomics", "DAO", "Gây quỹ"],
-      "title": "Cách mạng hóa Mô hình Cổ phần: Tokenomics Làm thay đổi Thế giới Khởi nghiệp",
+      "topics": [
+        "Tokenomics",
+        "DAO",
+        "Fundraising"
+      ],
+      "title": "Revolutionizing the Equity Model: How Tokenomics is Disrupting the Startup World",
       "slug": "revolutionizing-the-equity-model-how-tokenomics-is-disrupting-the-startup-world",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T09:02:51+01:00",
-      "description": "Mở khóa tương lai của các startup với tokenomics! Khám phá cách khái niệm đổi mới này đang tái cấu trúc mô hình cổ phần và cách mạng hóa cảnh quan khởi nghiệp.",
+      "description": "Unlock the future of startups with tokenomics! Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
       },
       "seo": {
-        "title": "Tokenomics Làm thay đổi Thế giới Khởi nghiệp",
-        "description": "Khám phá cách khái niệm đổi mới này đang tái cấu trúc mô hình cổ phần và cách mạng hóa cảnh quan khởi nghiệp."
+        "description": "Explore how this innovative concept is reshaping the equity model and revolutionizing the startup landscape.",
+        "title": "How Tokenomics is Disrupting the Startup World",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687395688-tb2-img1.png"
+        }
       }
     },
     {
       "id": "166984334",
-      "topics": ["DAO", "Pháp lý"],
-      "title": "Tổ chức Tự trị Phi tập trung (DAOs): Cấu trúc Pháp lý Cơ bản cho Mục đích Kinh doanh và Phi lợi nhuận",
+      "topics": [
+        "DAO",
+        "Legal"
+      ],
+      "title": "Decentralized Autonomous Organizations (DAOs): Basic Legal Structures for Business and Non-Profit Purposes",
       "slug": "decentralized-autonomous-organizations-daos-basic-legal-structures-for-business-a",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:59:06+01:00",
-      "description": "Khám phá các cấu trúc pháp lý cơ bản của DAO cho mục đích kinh doanh và phi lợi nhuận.",
+      "description": "Discover the basic DAO legal structures for business and non-profit purposes. ",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687384353-db2-img1.png"
       },
       "seo": {
-        "title": "DAOs: Điều hướng Cấu trúc Pháp lý cho Kinh doanh & Phi lợi nhuận",
-        "description": "Tổ chức Tự trị Phi tập trung (DAOs): Điều hướng Cấu trúc Pháp lý cho Kinh doanh và Phi lợi nhuận"
+        "description": "Decentralized Autonomous Organizations (DAOs): Navigating Legal Structures for Business and Non-Profit Purposes",
+        "title": "DAOs: Navigating Legal Structures for Business & Non-Profit ",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687384353-db2-img1.png"
+        }
       }
     },
     {
       "id": "167101094",
-      "topics": ["Bắt đầu", "Tokenomics"],
-      "title": "Tokenomics 101: Khai phá Sức mạnh của Tiền điện tử!",
+      "topics": [
+        "Getting Started",
+        "Tokenomics"
+      ],
+      "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
       "slug": "tokenomics-101-unleashing-the-power-of-cryptocurrency",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:57:58+01:00",
-      "description": "Khám phá sức mạnh của tiền điện tử qua Tokenomics 101 - hướng dẫn sâu rộng để hiểu về kinh tế đằng sau các tài sản số.",
+      "description": "Discover the power of cryptocurrency through Tokenomics 101 - an in-depth guide to understanding the economics behind digital assets.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
       },
       "seo": {
-        "title": "Tokenomics 101: Khai phá Sức mạnh của Tiền điện tử!",
-        "description": "hướng dẫn sâu rộng để hiểu về kinh tế đằng sau các tài sản số."
+        "description": "an in-depth guide to understanding the economics behind digital assets.",
+        "title": "Tokenomics 101: Unleashing the Power of Cryptocurrency!",
+        "twitterCard": null,
+        "image": {
+          "width": 994,
+          "height": 994,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687391799-tb1-img1.png"
+        }
       }
     },
     {
       "id": "165744328",
-      "topics": ["Bắt đầu", "Hướng dẫn"],
-      "title": "Giữ Vững Lợi Thế: Hướng dẫn Giữ Thông Tin và Giáo Dục trong Thế giới Tiền điện tử",
+      "topics": [
+        "Getting Started",
+        "How-To"
+      ],
+      "title": "Stay Ahead of the Game: A Guide to Staying Informed and Educated in the World of Cryptocurrency",
       "slug": "stay-ahead-of-the-game-a-guide-to-staying-informed-and-educated-in-the-world-of-c",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:52:39+01:00",
-      "description": "Giữ thông tin và giáo dục trong thế giới tiền điện tử đang thay đổi. Khám phá hướng dẫn toàn diện của chúng tôi để giữ vững lợi thế và điều hướng cảnh quan số hóa liên tục.",
+      "description": "Stay informed and educated in the dynamic world of cryptocurrency. Explore our comprehensive guide to stay ahead of the game and navigate the ever-evolving digital landscape.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687049473-cb20-img1.png"
       },
       "seo": {
-        "title": "Hướng dẫn Giữ Thông Tin trong Thế giới Crypto",
-        "description": "Giữ thông tin và giáo dục trong thế giới tiền điện tử đang thay đổi."
+        "description": "Stay informed and educated in the dynamic world of cryptocurrency. ",
+        "title": "A Guide to Staying Informed in the World of Crypto",
+        "twitterCard": null,
+        "image": {
+          "width": 1024,
+          "height": 1024,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687049473-cb20-img1.png"
+        }
       }
     },
     {
       "id": "165742753",
-      "topics": ["Bắt đầu", "Thanh toán"],
-      "title": "Stablecoins: Tương lai của Giao dịch và Thanh toán Tiền điện tử",
+      "topics": [
+        "Getting Started",
+        "Payments"
+      ],
+      "title": "Stablecoins: The Future of Cryptocurrency Transactions and Payments",
       "slug": "stablecoins-the-future-of-cryptocurrency-transactions-and-payments",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:49:51+01:00",
-      "description": "Khám phá tương lai của giao dịch và thanh toán tiền điện tử với stablecoins. Khám phá sự ổn định và tiềm năng của các tài sản số đổi mới trong bài đăng blog sâu sắc của chúng tôi.",
+      "description": "Discover the future of cryptocurrency transactions and payments with stablecoins. Explore the stability and potential of these innovative digital assets in our insightful blog post.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687049009-cb19-img3edited.png"
       },
       "seo": {
-        "title": "Stablecoins: Tương lai của Thanh toán Crypto",
-        "description": "Khám phá tương lai của giao dịch và thanh toán tiền điện tử với stablecoins."
+        "description": "Discover the future of cryptocurrency transactions and payments with stablecoins. ",
+        "title": "Stablecoins: The Future of Crypto Payments",
+        "twitterCard": null,
+        "image": {
+          "width": 1024,
+          "height": 1024,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687049009-cb19-img3edited.png"
+        }
       }
     },
     {
       "id": "165685913",
-      "topics": ["DeFi", "Bắt đầu"],
-      "title": "Phi tập trung Tài chính của Bạn: Giới thiệu về Thế giới DeFi",
+      "topics": [
+        "DeFi",
+        "Getting Started"
+      ],
+      "title": "Decentralize Your Finance: An Introduction to the World of DeFi",
       "slug": "decentralize-your-finance-an-introduction-to-the-world-of-defi",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:47:03+01:00",
-      "description": "Mở khóa sức mạnh của tài chính phi tập trung (DeFi). Khám phá thế giới đổi mới của các giải pháp tài chính dựa trên blockchain trong bài đăng blog toàn diện của chúng tôi.",
+      "description": "Unlock the power of decentralized finance (DeFi). Explore the innovative world of blockchain-based financial solutions in our comprehensive blog post.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687047143-cb18-img1.png"
       },
       "seo": {
-        "title": "Giới thiệu về Thế giới DeFi",
-        "description": "Mở khóa sức mạnh của tài chính phi tập trung (DeFi)."
+        "description": "Unlock the power of decentralized finance (DeFi). ",
+        "title": "An Introduction to the World of DeFi",
+        "twitterCard": null,
+        "image": {
+          "width": 1024,
+          "height": 1024,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687047143-cb18-img1.png"
+        }
       }
     },
     {
       "id": "165685908",
-      "topics": ["Bắt đầu", "Gây quỹ"],
-      "title": "Phá vỡ Trạng thái Hiện tại: Cách Tiền điện tử đang Cách mạng hóa Gây quỹ và Gọi vốn Cộng đồng",
+      "topics": [
+        "Getting Started",
+        "Fundraising"
+      ],
+      "title": "Disrupt the Status Quo: How Cryptocurrency is Revolutionizing Fundraising and Crowdfunding",
       "slug": "disrupt-the-status-quo-how-cryptocurrency-is-revolutionizing-fundraising-and-crow",
       "authorName": "Crypto Clairity",
       "authorPicture": {
         "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
       },
       "_publishedAt": "2023-10-05T08:33:36+01:00",
-      "description": "Khám phá tiềm năng đột phá của tiền điện tử trong gây quỹ và gọi vốn cộng đồng. Khám phá cách các đồng tiền số đang làm xáo trộn các phương pháp truyền thống trong bài đăng blog sâu sắc của chúng tôi.",
+      "description": "Explore the groundbreaking potential of cryptocurrency in fundraising and crowdfunding. Discover how digital currencies are disrupting the traditional methods in our insightful blog post.",
       "thumbnail": {
         "url": "https://www.datocms-assets.com/101962/1687046260-cb17-img1edited.png"
       },
       "seo": {
-        "title": "Cách Crypto đang Cách mạng hóa Gây quỹ và Gọi vốn Cộng đồng",
-        "description": "Khám phá tiềm năng đột phá của tiền điện tử trong gây quỹ và gọi vốn cộng đồng."
+        "description": "Explore the groundbreaking potential of cryptocurrency in fundraising and crowdfunding. ",
+        "title": "How Crypto is Revolutionizing Fundraising and Crowdfunding",
+        "twitterCard": null,
+        "image": {
+          "width": 1024,
+          "height": 1024,
+          "title": null,
+          "alt": null,
+          "url": "https://www.datocms-assets.com/101962/1687046260-cb17-img1edited.png"
+        }
       }
     }
   ],
   "blogContent": {
     "id": "166981063",
-    "topics": ["Bắt đầu", "DAO"],
-    "title": "Tương lai đã đến: Sự trỗi dậy của các Tổ chức Tự trị Phân cấp (DAOs)",
+    "topics": [
+      "Getting Started",
+      "DAO"
+    ],
+    "title": "The Future is Here: The Rise of Decentralized Autonomous Organizations (DAOs)",
     "slug": "the-future-is-here-the-rise-of-decentralized-autonomous-organizations-daos",
     "authorName": "Crypto Clairity",
     "authorPicture": {
       "url": "https://www.datocms-assets.com/101962/1694589819-cryptoclaraty5.png"
     },
     "_publishedAt": "2023-10-05T08:57:02+01:00",
-    "description": "Khám phá sự trỗi dậy của các Tổ chức Tự trị Phân cấp (DAOs) trong hướng dẫn của chúng tôi. Hiểu biết về tương lai của doanh nghiệp và cơ hội dành cho các startup.",
+    "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
     "thumbnail": {
       "url": "https://www.datocms-assets.com/101962/1687381524-db1-img1.png"
     },
@@ -219,7 +334,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Một kỷ nguyên mới của quản trị dân chủ và bao trùm"
+                      "value": "A New Era of Democratic and Inclusive Governance"
                     }
                   ]
                 },
@@ -228,7 +343,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Hãy tưởng tượng một thế giới nơi bạn có tiếng nói trong các quyết định ảnh hưởng đến cuộc sống và cộng đồng của bạn. Một thế giới nơi bạn có thể tham gia vào hệ thống tài chính mà không cần phải dựa vào các trung gian. Một thế giới nơi công việc linh hoạt và công bằng hơn, với mọi người đều có cổ phần trong tương lai. Thế giới này đã hiện hữu, và nó được gọi là các Tổ chức Tự trị Phân cấp (DAOs)."
+                      "value": "Imagine a world where you have a say in the decisions that affect your life and your community. A world where you can participate in the financial system without having to rely on intermediaries. A world where work is more flexible and equitable, with everyone having a stake in the future. This world is already here, and it's called Decentralized Autonomous Organizations (DAOs)."
                     }
                   ]
                 },
@@ -237,7 +352,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Nhưng DAO thực sự là gì? Nói một cách đơn giản, DAO là một tổ chức phân cấp được điều hành bởi mã, không phải con người. Nó hoạt động trên blockchain, một sổ cái kỹ thuật số phân cấp cho phép ghi chép an toàn và minh bạch. Điều này có nghĩa là DAO không được kiểm soát bởi một thực thể đơn lẻ, mà bởi một mạng lưới các thành viên đưa ra quyết định thông qua sự đồng thuận."
+                      "value": "But what exactly is a DAO? Simply put, a DAO is a decentralized organization run by code, not by people. It operates on a blockchain, a decentralized digital ledger that allows for secure and transparent record-keeping. This means that DAOs are not controlled by a single entity, but rather by a network of participants who make decisions through consensus."
                     }
                   ]
                 },
@@ -246,7 +361,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Đây là một bước ngoặt. Lần đầu tiên trong lịch sử, chúng ta có công nghệ để tạo ra các tổ chức thực sự phân cấp, minh bạch, có trách nhiệm giải trình và quan trọng nhất là dân chủ. Và điều tốt nhất? Bất kỳ ai cũng có thể tham gia, bất kể vị trí, tài sản hay nền tảng."
+                      "value": "This is a game-changer. For the first time in history, we have the technology to create truly decentralized organizations that are transparent, accountable, and most importantly, democratic. And the best part? Anyone can participate, regardless of location, wealth, or background."
                     }
                   ]
                 },
@@ -255,7 +370,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Vậy, điều gì làm cho DAO trở nên đặc biệt? Dưới đây là chỉ một vài trong số nhiều lợi ích:"
+                      "value": "So, what makes DAOs so special? Here are just a few of the many benefits:"
                     }
                   ]
                 },
@@ -264,8 +379,10 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["emphasis"],
-                      "value": "Phân cấp"
+                      "marks": [
+                        "emphasis"
+                      ],
+                      "value": "Decentralization"
                     }
                   ]
                 },
@@ -274,7 +391,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "DAO hoạt động trên một mạng lưới phân cấp, có nghĩa là không có điểm kiểm soát hay thất bại duy nhất. Điều này làm cho chúng khó bị tấn công hơn và ít bị tham nhũng hơn. Và không có cơ quan trung ương, mọi người đều có tiếng nói và cổ phần trong tương lai của tổ chức."
+                      "value": "DAOs operate on a decentralized network, meaning that there is no single point of control or failure. This makes them more resilient to attacks and less prone to corruption. And with no centralized authority, everyone has a voice and a stake in the future of the organization."
                     }
                   ]
                 },
@@ -283,8 +400,10 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["emphasis"],
-                      "value": "Minh bạch"
+                      "marks": [
+                        "emphasis"
+                      ],
+                      "value": "Transparency"
                     }
                   ]
                 },
@@ -293,7 +412,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Tất cả các giao dịch và quyết định được thực hiện trong DAO đều được ghi lại trên blockchain, tạo ra một hồ sơ minh bạch và không thể thay đổi. Điều này cho phép giải trình và đảm bảo rằng mọi người đều tuân theo cùng một quy tắc."
+                      "value": "All transactions and decisions made within a DAO are recorded on the blockchain, creating a transparent and unalterable record. This allows for accountability and ensures that everyone is playing by the same rules."
                     }
                   ]
                 },
@@ -302,8 +421,10 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["emphasis"],
-                      "value": "Hiệu quả"
+                      "marks": [
+                        "emphasis"
+                      ],
+                      "value": "Efficiency"
                     }
                   ]
                 },
@@ -312,7 +433,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Vì DAO hoạt động dựa trên mã, chúng có thể tự động hóa nhiều quy trình và loại bỏ nhu cầu về trung gian. Điều này có nghĩa là các quyết định có thể được đưa ra nhanh chóng và hiệu quả hơn, và nguồn lực có thể được phân bổ hiệu quả hơn."
+                      "value": "Because DAOs operate on code, they can automate many processes and eliminate the need for intermediaries. This means that decisions can be made faster and more efficiently, and resources can be allocated more effectively."
                     }
                   ]
                 },
@@ -321,8 +442,10 @@
                   "children": [
                     {
                       "type": "span",
-                      "marks": ["emphasis"],
-                      "value": "Bao trùm"
+                      "marks": [
+                        "emphasis"
+                      ],
+                      "value": "Inclusivity"
                     }
                   ]
                 },
@@ -331,7 +454,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "value": "Với DAO, bất kỳ ai có kết nối internet đều có thể tham gia, bất kể vị trí, tài sản hay nền tảng. Điều này tạo ra một hình thức quản trị bao trùm và dân chủ hơn, nơi mọi người đều có tiếng nói và cổ phần trong tương lai."
+                      "value": "With DAOs, anyone with an internet connection can participate, regardless of location, wealth, or background. This creates a more inclusive and democratic form of governance, where everyone has a voice and a stake in the future."
                     }
                   ]
                 }
@@ -664,11 +787,15 @@
       }
     ],
     "seo": {
-      "description": "Khám phá sự trỗi dậy của các Tổ chức Tự trị Phân cấp (DAOs) trong hướng dẫn của chúng tôi. Hiểu biết về tương lai của doanh nghiệp và cơ hội dành cho các startup.",
-      "title": "Sự trỗi dậy của các Tổ chức Tự trị Phân cấp",
+      "description": "Explore the rise of Decentralized Autonomous Organizations (DAOs) in our guide. Understand the future of business and the opportunities for startups.",
+      "title": "The Rise of Decentralized Autonomous Organizations ",
       "twitterCard": null,
       "image": null
     }
   },
-  "topics": ["Getting Started", "DAO"]
+  "topics": [
+    "Getting Started",
+    "DAO"
+  ],
+  "shortLink": ""
 }

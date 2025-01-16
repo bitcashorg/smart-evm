@@ -1,10 +1,16 @@
 import type { DeployFunction } from 'hardhat-deploy/types'
 import type { HardhatRuntimeEnvironment } from 'hardhat/types'
 
-import { getWETH9Address, isAvaxNetwork, isEosEvmTestnetNetwork } from '../tasks/utils'
+import {
+  getWETH9Address,
+  isAvaxNetwork,
+  isEosEvmTestnetNetwork,
+} from '../tasks/utils'
 import { contractNames } from '../ts/deploy'
 
-const deployEasyContract: DeployFunction = async (hre: HardhatRuntimeEnvironment) => {
+const deployEasyContract: DeployFunction = async (
+  hre: HardhatRuntimeEnvironment,
+) => {
   const { deployments, getNamedAccounts } = hre
   const { deployer } = await getNamedAccounts()
   const { deploy, get } = deployments
@@ -27,7 +33,8 @@ const deployEasyContract: DeployFunction = async (hre: HardhatRuntimeEnvironment
     gasLimit: 8000000,
     args: [easyAuctionDeployed.address, weth9Address],
     log: true,
-    deterministicDeployment: !isAvaxNetwork(chainId) && !isEosEvmTestnetNetwork(chainId),
+    deterministicDeployment:
+      !isAvaxNetwork(chainId) && !isEosEvmTestnetNetwork(chainId),
   })
 }
 
