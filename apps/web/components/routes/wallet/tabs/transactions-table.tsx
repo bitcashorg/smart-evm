@@ -1,4 +1,5 @@
 'use client'
+import { useSupabaseClient } from '@/services/supabase'
 import {
   Table,
   TableBody,
@@ -6,13 +7,11 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/table'
-import { useSupabaseClient } from '@/services/supabase'
+} from '@repo/ui'
 import { formatAddress } from '@repo/utils'
 import { format } from 'date-fns'
 import Link from 'next/link'
-import { useEffect, useState } from 'react'
-import type { Address } from 'viem'
+import { useState } from 'react'
 import { useAccount } from 'wagmi'
 
 export function TransactionsTable() {

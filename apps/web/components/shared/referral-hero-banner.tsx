@@ -1,7 +1,7 @@
-import { IconDownRightArrow } from '@/components/ui/icons'
 import { useReferral } from '@/hooks/use-referral'
+import { IconDownRightArrow } from '@repo/ui'
 import { X } from 'lucide-react'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button } from '../ui/button'
 
 interface ReferalHomeBannerProps {

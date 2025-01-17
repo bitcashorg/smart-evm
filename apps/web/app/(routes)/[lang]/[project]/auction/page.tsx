@@ -3,13 +3,6 @@ import { AuctionDataCard } from '@/components/routes/project/auction/auction-dat
 import { ProjectHeader } from '@/components/routes/project/project-header'
 import { ProjectPresaleData } from '@/components/routes/project/project-presale-data'
 import { Countdown } from '@/components/shared/countdown'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
 import { getDictionary } from '@/dictionaries'
 import { locales } from '@/dictionaries/locales'
 import { appConfig } from '@/lib/config'
@@ -21,7 +14,13 @@ import {
 import { createSupabaseServerClient } from '@/services/supabase'
 import { getPresaleData } from '@/services/supabase/service'
 import type { ProjectPageParams, ProjectPageProps } from '@/types/routing.type'
-import dynamic from 'next/dynamic'
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@repo/ui'
 import { redirect } from 'next/navigation'
 
 export default async function AuctionPage({ params }: ProjectPageProps) {

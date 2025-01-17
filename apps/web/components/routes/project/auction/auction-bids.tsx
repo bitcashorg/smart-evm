@@ -1,16 +1,15 @@
 'use client'
-import { Button } from '@/components/ui/button'
+import type { ProjectWithAuction } from '@/lib/projects'
+import { cn } from '@/lib/utils'
+import { TestnetEasyAuction, TestnetUSDCred } from '@repo/auction'
 import {
-  Table,
+  Button, Table,
   TableBody,
   TableCell,
   TableHead,
   TableHeader,
-  TableRow,
-} from '@/components/ui/table'
-import type { ProjectWithAuction } from '@/lib/projects'
-import { cn } from '@/lib/utils'
-import { TestnetEasyAuction, TestnetUSDCred } from '@repo/auction'
+  TableRow
+} from '@repo/ui'
 import { toSmallestUnit } from '@repo/utils'
 import { readContract, writeContract } from '@wagmi/core'
 import { erc20Abi } from 'abitype/abis'

@@ -1,9 +1,9 @@
 'use client'
 
-import { Button } from '@/components/ui/button'
 import { appConfig } from '@/lib/config'
 import type { Project } from '@/lib/projects'
 import { cn } from '@/lib/utils'
+import { Button } from '@repo/ui'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 

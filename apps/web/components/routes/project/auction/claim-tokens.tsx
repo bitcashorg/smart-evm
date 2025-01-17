@@ -1,7 +1,7 @@
 'use client'
 
-import { Button } from '@/components/ui/button'
 import { useSession } from '@/hooks/use-session'
+import { Button } from '@repo/ui'
 import { useAccount } from 'wagmi'
 
 export function ClaimTokens() {

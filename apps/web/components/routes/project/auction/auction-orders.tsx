@@ -1,4 +1,6 @@
 'use client'
+import { useSupabaseClient } from '@/services/supabase'
+import { TestnetEasyAuction } from '@repo/auction'
 import {
   Table,
   TableBody,
@@ -6,9 +8,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/table'
-import { useSupabaseClient } from '@/services/supabase'
-import { TestnetEasyAuction } from '@repo/auction'
+} from '@repo/ui'
 import { formatAddress } from '@repo/utils'
 import BN from 'bn.js'
 import { format } from 'date-fns'

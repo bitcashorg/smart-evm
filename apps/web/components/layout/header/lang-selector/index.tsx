@@ -1,11 +1,10 @@
 import { LangSetter } from '@/components/layout/header/lang-selector/lang-setter'
-import { Button } from '@/components/ui/button'
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
 import type { LangProp } from '@/types/routing.type'
+import {
+  Button, DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuTrigger
+} from '@repo/ui'
 import { ChevronDownIcon } from 'lucide-react'
 import { LangSelectorItem } from './lang-selector-item'
 import { langSelectorOptions } from './lang-selector-options'

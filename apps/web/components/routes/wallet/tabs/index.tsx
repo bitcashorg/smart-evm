@@ -4,29 +4,24 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card'
+} from '@repo/ui'
 import { FileIcon, ListFilterIcon } from 'lucide-react'
 
-import { Button } from '@/components/ui/button'
 import {
-  DropdownMenu,
+  Button, DropdownMenu,
   DropdownMenuCheckboxItem,
   DropdownMenuContent,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
-import {
-  Table,
+  DropdownMenuTrigger, Table,
   TableBody,
   TableCell,
   TableHead,
   TableHeader,
-  TableRow,
-} from '@/components/ui/table'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+  TableRow, Tabs, TabsContent, TabsList, TabsTrigger
+} from '@repo/ui'
 
-import { Badge } from '@/components/ui/badge'
+import { Badge } from '@repo/ui'
 
 export function WalletTabs() {
   return (

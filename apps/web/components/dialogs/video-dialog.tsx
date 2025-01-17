@@ -1,5 +1,7 @@
 'use client'
 
+import { cn } from '@/lib/utils'
+import type { LangProp } from '@/types/routing.type'
 import {
   Dialog,
   DialogContent,
@@ -7,9 +9,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@/components/ui/dialog'
-import { cn } from '@/lib/utils'
-import type { LangProp } from '@/types/routing.type'
+} from '@repo/ui'
 import { useEffect } from 'react'
 
 const BASE_YT_EMBED_URL = 'https://www.youtube.com/embed/'

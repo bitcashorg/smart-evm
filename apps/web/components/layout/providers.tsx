@@ -1,6 +1,5 @@
 'use client'
 
-import { TooltipProvider } from '@/components/ui/tooltip'
 import { MobileNavProvider } from '@/hooks/use-mobile-navigation'
 import { SessionProvider } from '@/hooks/use-session'
 import { UseSigningRequestProvider } from '@/hooks/use-signing-request'
@@ -19,6 +18,7 @@ import {
   walletConnectWallet,
 } from '@rainbow-me/rainbowkit/wallets'
 import { eosEvmMainnet, eosEvmTestnet } from '@repo/chains'
+import { TooltipProvider } from '@repo/ui'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { merge } from 'lodash'
 import { ThemeProvider as NextThemesProvider } from 'next-themes'

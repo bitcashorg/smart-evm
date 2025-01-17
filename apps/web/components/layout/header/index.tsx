@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button'
+import { Button } from '@repo/ui'
 import Link from 'next/link'
 import { IconBitlauncher } from '../../ui/icons'
 import { NavLinks } from './nav-links'

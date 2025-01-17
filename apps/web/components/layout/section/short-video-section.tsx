@@ -1,13 +1,12 @@
-import { Card } from '@/components/ui/card'
+import type { YouTubePlaylistItem } from '@/services/youtube/index'
 import {
-  Dialog,
+  Card, Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog'
-import type { YouTubePlaylistItem } from '@/services/youtube/index'
+  DialogTrigger
+} from '@repo/ui'
 import Image from 'next/image'
 
 export function ShortVideo({ video }: { video: YouTubePlaylistItem }) {

@@ -1,17 +1,14 @@
 'use client'
 
-import { IconReferral } from '@/components/ui/icons'
-import { Skeleton } from '@/components/ui/skeleton'
 import { useCopyShortLink } from '@/hooks/use-copy-shortlink'
 import { useSession } from '@/hooks/use-session'
 import { chaingraphService } from '@repo/chaingraph'
+import { IconReferral, Skeleton } from '@repo/ui'
 import { AnimatePresence } from 'framer-motion'
 import { Copy, LucideCheck, LucideLoader2, LucideX } from 'lucide-react'
 import Image from 'next/image'
 import { useAsync } from 'react-use'
 import { Card, CardContent, CardHeader } from '../../../ui/card'
-import ReferralDesktopList from './referral-desktop-list'
-import ReferralMobileList from './referral-mobile-list'
 import ReferralShareButton from './referral-share-button'
 
 export default function ReferralProgramTab() {

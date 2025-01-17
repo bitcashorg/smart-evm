@@ -1,9 +1,21 @@
-import { Button } from '@/components/ui/button'
 import {
+  Button,
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
   Pagination,
   PaginationContent,
   PaginationItem,
-} from '@/components/ui/pagination'
+  Separator,
+} from '@repo/ui'
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
@@ -12,24 +24,6 @@ import {
   MoveVerticalIcon,
   TruckIcon,
 } from 'lucide-react'
-
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
-
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
-import { Separator } from '@/components/ui/separator'
 
 export function OrderCard() {
   return (

@@ -1,8 +1,8 @@
 'use client'
 
 import { SessionDialogContent } from '@/components/dialogs/esr/esr-dialog-content'
-import { Dialog, DialogContent } from '@/components/ui/dialog'
 import { useSigningRequest } from '@/hooks/use-signing-request'
+import { Dialog, DialogContent } from '@repo/ui'
 
 export function EsrDialog() {
   const { open, toggleOpen } = useSigningRequest()

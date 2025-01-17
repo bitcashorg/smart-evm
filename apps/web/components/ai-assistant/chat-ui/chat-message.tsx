@@ -1,7 +1,7 @@
 'use client'
 
-import { IconBitlauncherSmall } from '@/components/ui/icons'
 import { cn } from '@/lib/utils'
+import { IconBitlauncherSmall } from '@repo/ui'
 import type { StreamableValue } from 'ai/rsc'
 import rehypeKatex from 'rehype-katex'
 import remarkGfm from 'remark-gfm'

@@ -7,6 +7,7 @@ export function AiAssistant() {
   const id = nanoid()
 
   return (
+    // @ts-ignore
     <AI initialAIState={{ chatId: id, messages: [] }}>
       <Suspense fallback={<ChatFallback />}>
         <ChatAnimated chatId={id} />

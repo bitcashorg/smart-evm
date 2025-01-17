@@ -1,7 +1,7 @@
 'use client'
 
-import { Card } from '@/components/ui/card'
 import { nanoid } from '@/lib/utils'
+import { Card } from '@repo/ui'
 import { AnimatePresence, motion } from 'framer-motion'
 import { MessageCircle } from 'lucide-react'
 import { useQueryStates } from 'nuqs'

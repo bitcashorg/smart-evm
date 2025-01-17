@@ -1,8 +1,8 @@
 'use client'
 
-import { Chat } from '@/components/ai-assistant/chat-ui'
-import { DraggableResizableCard } from '@/components/shared/draggable-resizable-card'
-import { Card } from '@/components/ui/card'
+import { Chat } from '@/components/ai-assistant/chat-ui';
+import { DraggableResizableCard } from '@/components/shared/draggable-resizable-card';
+import { Card } from '@repo/ui';
 
 export function ChatDraggable({
   id,

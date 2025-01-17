@@ -1,9 +1,9 @@
 import { Section } from '@/components/shared/section'
 
 import { Tag } from '@/components/shared/tag'
-import { Card, CardContent } from '@/components/ui/card'
 import type { Lang } from '@/dictionaries/locales'
 import { cn } from '@/lib/utils'
+import { Card, CardContent } from '@repo/ui'
 import Image from 'next/image'
 import Balancer from 'react-wrap-balancer'
 

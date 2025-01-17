@@ -1,7 +1,7 @@
 'use client'
 import { Tag } from '@/components/shared/tag'
-import { Card } from '@/components/ui/card'
 import { readingTime } from '@/lib/blog'
+import { Card } from '@repo/ui'
 import Link from 'next/link'
 import { useParams, useRouter } from 'next/navigation'
 import type { BlogArticleRecord } from '~/services/datocms'

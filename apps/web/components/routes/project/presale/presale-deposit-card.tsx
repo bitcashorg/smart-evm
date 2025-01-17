@@ -4,36 +4,32 @@ import { savePresaleDepositIntent } from '@/app/actions/save-deposit'
 import { PresaleTokenBalance } from '@/components/routes/project/presale/presale-token-balance'
 import { ProjectGridCard } from '@/components/routes/project/project-grid-card'
 import { ProjectInfo } from '@/components/routes/project/project-info'
-import { Button } from '@/components/ui/button'
-import { CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select'
 import { useSession } from '@/hooks/use-session'
 import { useSigningRequest } from '@/hooks/use-signing-request'
 import {
-  genBitusdDepositSigningRequest,
-  genUsdtDepositSigningRequest,
+    genBitusdDepositSigningRequest,
+    genUsdtDepositSigningRequest,
 } from '@/lib/eos'
 import type { ProjectWithAuction } from '@/lib/projects'
 import { useSupabaseClient } from '@/services/supabase'
 import type { Tables } from '@repo/supabase'
 import { tokens } from '@repo/tokens'
+import {
+    Button, CardDescription, CardHeader, CardTitle, Input, Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue
+} from '@repo/ui'
 import { useQuery } from '@tanstack/react-query'
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import { toast } from 'sonner'
 import {
-  type Address,
-  erc20Abi,
-  getAddress,
-  isAddressEqual,
-  parseUnits,
+    type Address,
+    erc20Abi,
+    getAddress,
+    parseUnits
 } from 'viem'
 import { useAccount, useChainId, useSwitchChain, useWriteContract } from 'wagmi'
 import { WhitelistAddressButton } from '../whitelist-address-button'

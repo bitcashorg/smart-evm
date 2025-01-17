@@ -1,16 +1,15 @@
 'use client'
 
 import { ActiveLink } from '@/components/shared/active-link'
-import { Button } from '@/components/ui/button'
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from '@/components/ui/popover'
 import { useSession } from '@/hooks/use-session'
 import { appConfig } from '@/lib/config'
 import { cn } from '@/lib/utils'
 import { useAccountModal } from '@rainbow-me/rainbowkit'
+import {
+  Button, Popover,
+  PopoverContent,
+  PopoverTrigger
+} from '@repo/ui'
 
 import { formatAddress } from '@repo/utils'
 import { LogOut, User, Wallet } from 'lucide-react'

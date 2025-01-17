@@ -1,8 +1,8 @@
 'use client'
 
 import { setLanguage } from '@/app/actions/set-lang'
-import { DropdownMenuItem } from '@/components/ui/dropdown-menu'
 import type { Lang } from '@/dictionaries/locales'
+import { DropdownMenuItem } from '@repo/ui'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import type { LangSelectorOption } from './lang-selector-options'

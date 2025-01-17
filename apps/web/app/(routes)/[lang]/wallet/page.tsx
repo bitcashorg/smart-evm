@@ -8,9 +8,8 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card'
+} from '@repo/ui'
 
-import { PresaleTransactionsCard } from '@/components/routes/project/presale/presale-transactions-card'
 import { BalancesTable } from '@/components/routes/wallet/balances-table'
 import { appConfig } from '@/lib/config'
 import { redirect } from 'next/navigation'

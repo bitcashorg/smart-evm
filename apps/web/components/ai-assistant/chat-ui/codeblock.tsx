@@ -7,7 +7,7 @@ import { type FC, memo } from 'react'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { coldarkDark } from 'react-syntax-highlighter/dist/cjs/styles/prism'
 
-import { Button } from '@/components/ui/button'
+import { Button } from '@repo/ui'
 import { useCopyToClipboard } from '../hooks/use-copy-to-clipboard'
 import { IconCheck, IconCopy, IconDownload } from './chat-icons'
 
@@ -146,3 +146,4 @@ const CodeBlock: FC<Props> = memo(({ language, value }) => {
 CodeBlock.displayName = 'CodeBlock'
 
 export { CodeBlock }
+

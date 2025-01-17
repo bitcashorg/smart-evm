@@ -1,12 +1,12 @@
 'use client'
 
+import { useSigningRequest } from '@/hooks/use-signing-request'
 import {
   DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from '@/components/ui/dialog'
-import { useSigningRequest } from '@/hooks/use-signing-request'
+} from '@repo/ui'
 import QRCode from 'react-qr-code'
 
 export function SessionDialogContent() {

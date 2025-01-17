@@ -1,4 +1,4 @@
-import { Card } from '@/components/ui/card'
+import { Card } from '@repo/ui'
 
 export function EmptyScreen() {
   return (

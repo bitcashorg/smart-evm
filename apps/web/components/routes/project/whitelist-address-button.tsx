@@ -1,9 +1,9 @@
 'use client'
 
 import { registerAddress } from '@/app/actions/register-address'
-import { Button, type ButtonProps } from '@/components/ui/button'
 import { useSession } from '@/hooks/use-session'
 import { useSupabaseClient } from '@/services/supabase'
+import { Button, type ButtonProps } from '@repo/ui'
 import { formatAddress, formatAddressShort } from '@repo/utils'
 import { useQuery } from '@tanstack/react-query'
 import { useAction } from 'next-safe-action/hooks'

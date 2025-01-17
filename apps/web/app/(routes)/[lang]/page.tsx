@@ -62,6 +62,7 @@ const DynamicLearnSection = dynamic(
 )
 
 const DynamicRecentArticles = dynamic(
+  // @ts-ignore
   () =>
     import('@/components/routes/home/section/recent-articles').then(
       (mod) => mod.RecentArticles,

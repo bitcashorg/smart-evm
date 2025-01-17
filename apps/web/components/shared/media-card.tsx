@@ -1,10 +1,10 @@
-import { VideoDialog } from '@/components/dialogs/video-dialog'
-import { Card, CardContent } from '@/components/ui/card'
-import { cn } from '@/lib/utils' // Import the utility function
-import type { YouTubePlaylistItem } from '@/services/youtube/index'
-import type { LangProp } from '@/types/routing.type'
-import Image from 'next/image'
-import Balancer from 'react-wrap-balancer'
+import { VideoDialog } from '@/components/dialogs/video-dialog';
+import { cn } from '@/lib/utils'; // Import the utility function
+import type { YouTubePlaylistItem } from '@/services/youtube/index';
+import type { LangProp } from '@/types/routing.type';
+import { Card, CardContent } from '@repo/ui';
+import Image from 'next/image';
+import Balancer from 'react-wrap-balancer';
 
 export function MediaCard({ video, lang, className }: MediaCardProps) {
   return (

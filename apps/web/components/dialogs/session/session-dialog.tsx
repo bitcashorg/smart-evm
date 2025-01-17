@@ -1,7 +1,7 @@
 'use client'
 
-import { Dialog, DialogContent } from '@/components/ui/dialog'
 import { useSession } from '@/hooks/use-session'
+import { Dialog, DialogContent } from '@repo/ui'
 import { SessionDialogContent } from './login-dialog-content'
 
 export function SessionDialog() {

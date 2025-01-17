@@ -59,6 +59,7 @@ export default async function RootLayout({
           >
             {children}
           </main>
+          {/* @ts-ignore */}
           <Footer params={params} />
           <DynamicSessionDialog />
           <DynamicEsrDialog />

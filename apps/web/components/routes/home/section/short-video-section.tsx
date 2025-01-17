@@ -1,3 +1,4 @@
+import type { YouTubePlaylistItem } from '@/services/youtube/index'
 import {
   Dialog,
   DialogContent,
@@ -5,8 +6,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@/components/ui/dialog'
-import type { YouTubePlaylistItem } from '@/services/youtube/index'
+} from '@repo/ui'
 import Image from 'next/image'
 import { Card } from '../../../ui/card'
 
