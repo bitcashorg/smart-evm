@@ -1,3 +1,10 @@
 echo "Running pre-commit scripts..."
+prettier $(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g') --write --ignore-unknown
+bun format-and-lint:fix
+echo "Generating dictionaries..."
 cd ./apps/web
 bun scripts/generate-cms-dictionaries.ts
+echo "Indexing changes..."
+git update-index --again
+# ? No true test applied for now. Disable the following line to enable testing when first round of tests are added.
+# bun test
