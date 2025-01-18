@@ -163,11 +163,11 @@ export const footerNavStruct: NavStruct = {
       items: [
         {
           label: 'Terms and Conditions',
-          href: '/terms',
+          href: '/legal/terms',
         },
         {
           label: 'Privacy Policy',
-          href: '/terms',
+          href: '/legal/terms',
         },
       ],
     },

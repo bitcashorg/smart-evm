@@ -324,7 +324,7 @@ iframe[title="reCAPTCHA"],
 }
 
 .paragraph {
-  @apply text-base text-[#9395af];
+  @apply text-base text-[#9395af] whitespace-pre-line;
 }
 
 /* LAYOUT */

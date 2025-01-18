@@ -15,7 +15,7 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: `object-src 'none';base-uri 'self';script-src 'self' 'report-sample' 'unsafe-inline' 'unsafe-eval' https: http:;`,
+            value: `object-src 'self' ^https://twitter\.com/.*;base-uri 'self';script-src 'self' 'report-sample' 'unsafe-inline' 'unsafe-eval' https: http:;`,
           },
           {
             key: 'Referrer-Policy',
