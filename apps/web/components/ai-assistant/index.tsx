@@ -1,3 +1,4 @@
+import { appConfig } from '@/lib/config'
 import { nanoid } from '@/lib/utils'
 import dynamic from 'next/dynamic'
 import { Suspense } from 'react'
@@ -5,6 +6,10 @@ import { AI } from './actions/create-ai'
 
 export function AiAssistant() {
   const id = nanoid()
+
+  if (!appConfig.features.aiAssistant) {
+    return null
+  }
 
   return (
     <AI initialAIState={{ chatId: id, messages: [] }}>

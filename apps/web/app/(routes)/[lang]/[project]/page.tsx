@@ -169,3 +169,13 @@ const DynamicCtaButton = dynamic(
     loading: () => <Button variant="accent">Get Whitelisted</Button>,
   },
 )
+
+
+export async function generateMetadata({ params }: ProjectPageProps) {
+  const dict = await getDictionary(params.lang)
+  const project = await getProjectBySlug(params.project, dict)
+  return {
+    title: project?.title,
+    description: project?.pitch,
+  }
+}

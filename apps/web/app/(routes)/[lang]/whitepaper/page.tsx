@@ -10,6 +10,6 @@ export default async function WhitepaperPage() {
 }
 
 export const metadata: Metadata = {
-  title: 'Bitlauncher',
-  description: 'Whitepaper',
+  title: 'Comprehensive Whitepaper',
+  description: 'Explore the detailed whitepaper of Bitlauncher, covering all aspects of our innovative platform and technology.',
 }

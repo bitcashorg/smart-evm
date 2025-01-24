@@ -35,6 +35,7 @@ export const appConfig = {
     learn: process.env.NEXT_PUBLIC_LEARN_SECTION === 'true',
     i18n: process.env.NEXT_PUBLIC_NEW_I18N === 'true',
     auction: process.env.NEXT_PUBLIC_FEAT_AUCTION === 'true',
+    aiAssistant: process.env.NEXT_PUBLIC_FEAT_AI_ASSISTANT === 'true',
   },
   datocms: {
     endpoint: process.env.NEXT_PUBLIC_CMS_GRAPHQL_API || '',

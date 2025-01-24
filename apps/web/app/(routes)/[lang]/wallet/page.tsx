@@ -43,9 +43,9 @@ export default function WalletPage() {
 }
 
 export const metadata: Metadata = {
-  title: 'Wallet | Bitlauncher',
+  title: 'Wallet Balances',
   description:
-    'Be part of the intelligent future and join the Ai/Web3 revolution now!',
+    'Your balances on the Bitlauncher | Bitcash  ecosystem. Connect your Bitcash and EVM wallets',
 }
 
 function BalancesCard() {

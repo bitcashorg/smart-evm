@@ -14,7 +14,7 @@ export default async function PrivacyPolicy({ params }: CommonPageProps) {
 }
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Bitlauncher',
+  title: 'Terms of Service',
   description:
-    'Read our Privacy Policy to understand how we protect and manage your data in our crypto launchpad application.',
+    'Review our Terms of Service to understand the rules and regulations for using our crypto launchpad application.',
 }

@@ -81,3 +81,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     </div>
   )
 }
+
+export async function generateMetadata({ params }: ProjectPageProps) {
+  return {
+    title: `Presale - ${params.project}`,
+    description: `Participate in the presale for ${params.project}. Contribute and be a part of the project before it launches.`,
+  }
+}

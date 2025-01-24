@@ -62,7 +62,7 @@ const content: AboutBitlauncherPageContent = {
 }
 
 export const metadata: Metadata = {
-  title: 'Bitlauncher',
+  title: 'About Bitlauncher - AI & Cryptocurrency Launchpad',
   description:
-    'Be part of the intelligent future and join the Ai/Web3 revolution now!',
+    'Discover Bitlauncher, the pioneering launchpad dedicated to transforming AI and cryptocurrency. Join the AI/Web3 revolution today!',
 }
